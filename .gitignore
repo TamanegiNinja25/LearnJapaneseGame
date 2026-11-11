@@ -1,0 +1,35 @@
+# Godot 4
+game/.godot/
+game/export/
+game/*.import.bak
+*.translation
+export_presets.cfg.bak
+
+# Exported builds
+build/
+dist/
+*.exe
+*.pck
+*.apk
+*.aab
+*.zip
+
+# Content pipeline (Python)
+tools/__pycache__/
+tools/.venv/
+tools/cache/
+*.pyc
+
+# Local data (large dictionaries are not committed; see tools/README.md)
+tools/data/*.sqlite
+tools/data/*.json.zip
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Subagent memory written by the Claude Code harness
+.claude/agent-memory/

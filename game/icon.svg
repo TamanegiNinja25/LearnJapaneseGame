@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="#FBF6EC"/>
+  <rect x="8" y="8" width="112" height="112" rx="20" fill="none" stroke="#E3D8C3" stroke-width="2"/>
+  <circle cx="64" cy="58" r="30" fill="#C4521F"/>
+  <text x="64" y="70" font-family="Noto Sans JP, Yu Gothic, Meiryo, sans-serif" font-size="34" font-weight="700" fill="#FFFDF8" text-anchor="middle">日</text>
+  <text x="64" y="112" font-family="Noto Sans JP, Yu Gothic, Meiryo, sans-serif" font-size="16" fill="#2B2520" text-anchor="middle">にほんご</text>
+</svg>

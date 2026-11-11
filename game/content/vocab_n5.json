@@ -1,0 +1,1325 @@
+[
+ {
+  "id": "n5_001",
+  "headword": "私",
+  "reading": "わたし",
+  "level": "N5",
+  "category": "pronoun",
+  "category_ja": "代名詞",
+  "definition_ja": "{自分|じぶん}のこと。{話|はな}す{人|ひと}が{自分|じぶん}を{指|さ}す{言葉|ことば}。",
+  "english": "I; me",
+  "examples": [
+   {
+    "ja": "{私|わたし}は{学生|がくせい}です。",
+    "en": "I am a student."
+   }
+  ],
+  "related": [
+   "僕",
+   "あなた"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_002",
+  "headword": "あなた",
+  "reading": "あなた",
+  "level": "N5",
+  "category": "pronoun",
+  "category_ja": "代名詞",
+  "definition_ja": "{話|はな}している{相手|あいて}のこと。",
+  "english": "you; dear; honey",
+  "examples": [
+   {
+    "ja": "あなたは{先生|せんせい}ですか。",
+    "en": "Are you a teacher?"
+   }
+  ],
+  "related": [
+   "私",
+   "彼"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_003",
+  "headword": "学生",
+  "reading": "がくせい",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{学校|がっこう}で{勉強|べんきょう}する{人|ひと}。",
+  "english": "student (esp. a university student)",
+  "examples": [
+   {
+    "ja": "{私|わたし}は{大学|だいがく}の{学生|がくせい}です。",
+    "en": "I am a university student."
+   }
+  ],
+  "related": [
+   "先生",
+   "学校"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_004",
+  "headword": "先生",
+  "reading": "せんせい",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{学校|がっこう}などで{教|おし}える{人|ひと}。",
+  "english": "teacher; instructor; master",
+  "examples": [
+   {
+    "ja": "{田中|たなか}{先生|せんせい}は{日本語|にほんご}を{教|おし}えます。",
+    "en": "Mr. Tanaka teaches Japanese."
+   }
+  ],
+  "related": [
+   "学生",
+   "学校"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_005",
+  "headword": "学校",
+  "reading": "がっこう",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{勉強|べんきょう}をするところ。",
+  "english": "school",
+  "examples": [
+   {
+    "ja": "{毎日|まいにち}{学校|がっこう}に{行|い}きます。",
+    "en": "I go to school every day."
+   }
+  ],
+  "related": [
+   "学生",
+   "先生"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_006",
+  "headword": "日本",
+  "reading": "にほん",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "アジアにある{国|くに}。",
+  "english": "Japan",
+  "examples": [
+   {
+    "ja": "{日本|にほん}は{島|しま}の{国|くに}です。",
+    "en": "Japan is an island country."
+   }
+  ],
+  "related": [
+   "日本語",
+   "日本人"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_007",
+  "headword": "日本語",
+  "reading": "にほんご",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{日本|にほん}で{話|はな}されている{言葉|ことば}。",
+  "english": "Japanese (language)",
+  "examples": [
+   {
+    "ja": "{日本語|にほんご}を{勉強|べんきょう}しています。",
+    "en": "I am studying Japanese."
+   }
+  ],
+  "related": [
+   "日本",
+   "英語"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_008",
+  "headword": "英語",
+  "reading": "えいご",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "イギリスやアメリカなどで{話|はな}されている{言葉|ことば}。",
+  "english": "English (language)",
+  "examples": [
+   {
+    "ja": "{英語|えいご}が{少|すこ}し{話|はな}せます。",
+    "en": "I can speak a little English."
+   }
+  ],
+  "related": [
+   "日本語"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_009",
+  "headword": "勉強",
+  "reading": "べんきょう",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{知識|ちしき}や{技術|ぎじゅつ}を{身|み}につけるために、{学|まな}ぶこと。",
+  "english": "study; diligence; working hard",
+  "examples": [
+   {
+    "ja": "{毎日|まいにち}、{日本語|にほんご}を{勉強|べんきょう}しています。",
+    "en": "I study Japanese every day."
+   }
+  ],
+  "related": [
+   "学習",
+   "練習",
+   "復習"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_010",
+  "headword": "友達",
+  "reading": "ともだち",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{仲|なか}がよくて、いっしょに{遊|あそ}んだり{話|はな}したりする{人|ひと}。",
+  "english": "friend; companion",
+  "examples": [
+   {
+    "ja": "{友達|ともだち}と{映画|えいが}を{見|み}ました。",
+    "en": "I watched a movie with a friend."
+   }
+  ],
+  "related": [
+   "家族"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_011",
+  "headword": "家族",
+  "reading": "かぞく",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{親|おや}、{子|こ}ども、{兄弟|きょうだい}など、いっしょに{暮|く}らす{人|ひと}たち。",
+  "english": "family",
+  "examples": [
+   {
+    "ja": "{家族|かぞく}は{四人|よにん}です。",
+    "en": "There are four people in my family."
+   }
+  ],
+  "related": [
+   "友達",
+   "母",
+   "父"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_012",
+  "headword": "母",
+  "reading": "はは",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{自分|じぶん}のお{母|かあ}さん。",
+  "english": "mother",
+  "examples": [
+   {
+    "ja": "{母|はは}は{料理|りょうり}が{上手|じょうず}です。",
+    "en": "My mother is good at cooking."
+   }
+  ],
+  "related": [
+   "父",
+   "家族"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_013",
+  "headword": "父",
+  "reading": "ちち",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{自分|じぶん}のお{父|とう}さん。",
+  "english": "father; father (e.g. of a discipline); pioneer (e.g. of field of research)",
+  "examples": [
+   {
+    "ja": "{父|ちち}は{会社|かいしゃ}で{働|はたら}いています。",
+    "en": "My father works at a company."
+   }
+  ],
+  "related": [
+   "母",
+   "家族"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_014",
+  "headword": "水",
+  "reading": "みず",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{飲|の}んだり{洗|あら}ったりするときに{使|つか}う、{透明|とうめい}な{液体|えきたい}。",
+  "english": "water (esp. cool or cold); fluid (esp. in an animal tissue); liquid",
+  "examples": [
+   {
+    "ja": "{水|みず}をください。",
+    "en": "Water, please."
+   }
+  ],
+  "related": [
+   "お茶",
+   "飲む"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_015",
+  "headword": "お茶",
+  "reading": "おちゃ",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{葉|は}から{作|つく}る、{温|あたた}かい{飲|の}み{物|もの}。",
+  "english": "tea (esp. green or barley); tea break; teatime",
+  "examples": [
+   {
+    "ja": "{お茶|おちゃ}を{飲|の}みませんか。",
+    "en": "Won't you have some tea?"
+   }
+  ],
+  "related": [
+   "水",
+   "飲む"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_016",
+  "headword": "ご飯",
+  "reading": "ごはん",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{米|こめ}を{炊|た}いたもの。また、{食事|しょくじ}のこと。",
+  "english": "cooked rice; meal",
+  "examples": [
+   {
+    "ja": "{朝|あさ}ご{飯|はん}を{食|た}べました。",
+    "en": "I ate breakfast."
+   }
+  ],
+  "related": [
+   "食べる",
+   "朝"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_017",
+  "headword": "パン",
+  "reading": "パン",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{小麦粉|こむぎこ}から{作|つく}る{食|た}べ{物|もの}。",
+  "english": "bread; (sweet) pastry; staff of life",
+  "examples": [
+   {
+    "ja": "{朝|あさ}はパンを{食|た}べます。",
+    "en": "I eat bread in the morning."
+   }
+  ],
+  "related": [
+   "ご飯",
+   "食べる"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_018",
+  "headword": "本",
+  "reading": "ほん",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{文章|ぶんしょう}や{絵|え}を{紙|かみ}に{印刷|いんさつ}して、まとめたもの。",
+  "english": "book; volume; script",
+  "examples": [
+   {
+    "ja": "{図書館|としょかん}で{本|ほん}を{読|よ}みます。",
+    "en": "I read books at the library."
+   }
+  ],
+  "related": [
+   "読む",
+   "図書館"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_019",
+  "headword": "映画",
+  "reading": "えいが",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "スクリーンで{見|み}る、{動|うご}く{物語|ものがたり}。",
+  "english": "movie; film; motion picture",
+  "examples": [
+   {
+    "ja": "{週末|しゅうまつ}に{映画|えいが}を{見|み}ます。",
+    "en": "I watch movies on the weekend."
+   }
+  ],
+  "related": [
+   "見る",
+   "テレビ"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_020",
+  "headword": "電車",
+  "reading": "でんしゃ",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{線路|せんろ}の{上|うえ}を{走|はし}る{乗|の}り{物|もの}。",
+  "english": "train; electric train",
+  "examples": [
+   {
+    "ja": "{電車|でんしゃ}で{会社|かいしゃ}に{行|い}きます。",
+    "en": "I go to work by train."
+   }
+  ],
+  "related": [
+   "駅",
+   "バス"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_021",
+  "headword": "駅",
+  "reading": "えき",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{電車|でんしゃ}に{乗|の}ったり{降|お}りたりするところ。",
+  "english": "railway station; train station; staging post on a highway (in pre-modern Japan)",
+  "examples": [
+   {
+    "ja": "{駅|えき}はどこですか。",
+    "en": "Where is the station?"
+   }
+  ],
+  "related": [
+   "電車",
+   "バス"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_022",
+  "headword": "会社",
+  "reading": "かいしゃ",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}が{集|あつ}まって{仕事|しごと}をするところ。",
+  "english": "company; corporation; firm",
+  "examples": [
+   {
+    "ja": "{父|ちち}の{会社|かいしゃ}は{東京|とうきょう}にあります。",
+    "en": "My father's company is in Tokyo."
+   }
+  ],
+  "related": [
+   "仕事",
+   "働く"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_023",
+  "headword": "店",
+  "reading": "みせ",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{物|もの}を{売|う}ったり、{食|た}べ{物|もの}を{出|だ}したりするところ。",
+  "english": "store; shop; establishment",
+  "examples": [
+   {
+    "ja": "この{店|みせ}のパンはおいしいです。",
+    "en": "This shop's bread is delicious."
+   }
+  ],
+  "related": [
+   "コンビニ",
+   "買う"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_024",
+  "headword": "コンビニ",
+  "reading": "コンビニ",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{一日中|いちにちじゅう}{開|あ}いている、{小|ちい}さな{店|みせ}。",
+  "english": "convenience store",
+  "examples": [
+   {
+    "ja": "コンビニで{水|みず}を{買|か}いました。",
+    "en": "I bought water at the convenience store."
+   }
+  ],
+  "related": [
+   "店",
+   "買う"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_025",
+  "headword": "今日",
+  "reading": "きょう",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "この{日|ひ}。",
+  "english": "today; this day; these days",
+  "examples": [
+   {
+    "ja": "{今日|きょう}は{暑|あつ}いですね。",
+    "en": "It's hot today, isn't it?"
+   }
+  ],
+  "related": [
+   "明日",
+   "昨日"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_026",
+  "headword": "明日",
+  "reading": "あした",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{今日|きょう}の{次|つぎ}の{日|ひ}。",
+  "english": "tomorrow; near future",
+  "examples": [
+   {
+    "ja": "{明日|あした}、{友達|ともだち}に{会|あ}います。",
+    "en": "I'll meet a friend tomorrow."
+   }
+  ],
+  "related": [
+   "今日",
+   "昨日"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_027",
+  "headword": "昨日",
+  "reading": "きのう",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{今日|きょう}の{前|まえ}の{日|ひ}。",
+  "english": "yesterday",
+  "examples": [
+   {
+    "ja": "{昨日|きのう}は{雨|あめ}でした。",
+    "en": "It rained yesterday."
+   }
+  ],
+  "related": [
+   "今日",
+   "明日"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_028",
+  "headword": "朝",
+  "reading": "あさ",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{一日|いちにち}の{始|はじ}まり。{太陽|たいよう}が{出|で}てからの{時間|じかん}。",
+  "english": "morning; breakfast",
+  "examples": [
+   {
+    "ja": "{朝|あさ}{六時|ろくじ}に{起|お}きます。",
+    "en": "I get up at six in the morning."
+   }
+  ],
+  "related": [
+   "昼",
+   "夜"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_029",
+  "headword": "夜",
+  "reading": "よる",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{太陽|たいよう}が{沈|しず}んで、{暗|くら}い{時間|じかん}。",
+  "english": "night; evening; dinner",
+  "examples": [
+   {
+    "ja": "{夜|よる}は{静|しず}かです。",
+    "en": "It is quiet at night."
+   }
+  ],
+  "related": [
+   "朝",
+   "昼"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_030",
+  "headword": "時間",
+  "reading": "じかん",
+  "level": "N5",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{時|とき}の{長|なが}さ。また、{何|なに}かをするための{時|とき}。",
+  "english": "time; hour; period",
+  "examples": [
+   {
+    "ja": "{時間|じかん}がありません。",
+    "en": "I don't have time."
+   }
+  ],
+  "related": [
+   "今",
+   "時"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_031",
+  "headword": "食べる",
+  "reading": "たべる",
+  "level": "N5",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{食|た}べ{物|もの}を{口|くち}に{入|い}れて、{飲|の}みこむ。",
+  "english": "to eat; to live on (e.g. a salary); to live off",
+  "examples": [
+   {
+    "ja": "{寿司|すし}を{食|た}べます。",
+    "en": "I eat sushi."
+   }
+  ],
+  "related": [
+   "飲む",
+   "ご飯"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_032",
+  "headword": "飲む",
+  "reading": "のむ",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{水|みず}やお{茶|ちゃ}などを{口|くち}から{体|からだ}に{入|い}れる。",
+  "english": "to drink; to swallow; to take (medicine)",
+  "examples": [
+   {
+    "ja": "{毎朝|まいあさ}コーヒーを{飲|の}みます。",
+    "en": "I drink coffee every morning."
+   }
+  ],
+  "related": [
+   "食べる",
+   "水"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_033",
+  "headword": "見る",
+  "reading": "みる",
+  "level": "N5",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{目|め}で{物|もの}を{感|かん}じる。",
+  "english": "to see; to look; to watch",
+  "examples": [
+   {
+    "ja": "テレビを{見|み}ます。",
+    "en": "I watch TV."
+   }
+  ],
+  "related": [
+   "読む",
+   "映画"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_034",
+  "headword": "読む",
+  "reading": "よむ",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{文字|もじ}を{見|み}て、{意味|いみ}を{理解|りかい}する。",
+  "english": "to read; to recite (e.g. a sutra); to chant",
+  "examples": [
+   {
+    "ja": "{新聞|しんぶん}を{読|よ}みます。",
+    "en": "I read the newspaper."
+   }
+  ],
+  "related": [
+   "本",
+   "書く"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_035",
+  "headword": "書く",
+  "reading": "かく",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{文字|もじ}や{絵|え}をペンなどで{表|あらわ}す。",
+  "english": "to write; to compose; to pen",
+  "examples": [
+   {
+    "ja": "{名前|なまえ}を{書|か}いてください。",
+    "en": "Please write your name."
+   }
+  ],
+  "related": [
+   "読む"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_036",
+  "headword": "話す",
+  "reading": "はなす",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{言葉|ことば}を{声|こえ}に{出|だ}して、{人|ひと}に{伝|つた}える。",
+  "english": "to talk; to speak; to converse",
+  "examples": [
+   {
+    "ja": "{日本語|にほんご}で{話|はな}しましょう。",
+    "en": "Let's speak in Japanese."
+   }
+  ],
+  "related": [
+   "聞く",
+   "言う"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_037",
+  "headword": "聞く",
+  "reading": "きく",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{音|おと}や{声|こえ}を{耳|みみ}で{感|かん}じる。また、{質問|しつもん}する。",
+  "english": "to hear; to listen (e.g. to music); to ask",
+  "examples": [
+   {
+    "ja": "{音楽|おんがく}を{聞|き}きます。",
+    "en": "I listen to music."
+   }
+  ],
+  "related": [
+   "話す"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_038",
+  "headword": "行く",
+  "reading": "いく",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{今|いま}いる{場所|ばしょ}から、ほかの{場所|ばしょ}へ{移動|いどう}する。",
+  "english": "to go; to move (towards); to head (towards)",
+  "examples": [
+   {
+    "ja": "{昨日|きのう}、{学校|がっこう}に{行|い}きました。",
+    "en": "I went to school yesterday."
+   }
+  ],
+  "related": [
+   "来る",
+   "帰る"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_039",
+  "headword": "来る",
+  "reading": "くる",
+  "level": "N5",
+  "category": "verb-irregular",
+  "category_ja": "動詞（不規則）",
+  "definition_ja": "ほかの{場所|ばしょ}から、こちらへ{移動|いどう}する。",
+  "english": "to come (spatially or temporally); to approach; to arrive",
+  "examples": [
+   {
+    "ja": "{友達|ともだち}が{家|うち}に{来|き}ます。",
+    "en": "A friend is coming to my house."
+   }
+  ],
+  "related": [
+   "行く",
+   "帰る"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_040",
+  "headword": "帰る",
+  "reading": "かえる",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{自分|じぶん}の{家|いえ}や、もといた{場所|ばしょ}にもどる。",
+  "english": "to return; to come home; to go home",
+  "examples": [
+   {
+    "ja": "{七時|しちじ}に{家|うち}に{帰|かえ}ります。",
+    "en": "I go home at seven."
+   }
+  ],
+  "related": [
+   "行く",
+   "来る"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_041",
+  "headword": "買う",
+  "reading": "かう",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "お{金|かね}を{払|はら}って、{物|もの}を{自分|じぶん}のものにする。",
+  "english": "to buy; to purchase; to value (highly)",
+  "examples": [
+   {
+    "ja": "{本|ほん}を{買|か}いました。",
+    "en": "I bought a book."
+   }
+  ],
+  "related": [
+   "店",
+   "お金"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_042",
+  "headword": "する",
+  "reading": "する",
+  "level": "N5",
+  "category": "verb-irregular",
+  "category_ja": "動詞（不規則）",
+  "definition_ja": "{何|なに}かを{行|おこな}う。",
+  "english": "to do; to carry out; to perform",
+  "examples": [
+   {
+    "ja": "{毎日|まいにち}{運動|うんどう}をします。",
+    "en": "I exercise every day."
+   }
+  ],
+  "related": [
+   "勉強",
+   "仕事"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_043",
+  "headword": "起きる",
+  "reading": "おきる",
+  "level": "N5",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{眠|ねむ}りから{目|め}をさます。また、{立|た}ち{上|あ}がる。",
+  "english": "to get up; to rise; to blaze up (fire)",
+  "examples": [
+   {
+    "ja": "{朝|あさ}{七時|しちじ}に{起|お}きます。",
+    "en": "I get up at seven in the morning."
+   }
+  ],
+  "related": [
+   "寝る",
+   "朝"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_044",
+  "headword": "寝る",
+  "reading": "ねる",
+  "level": "N5",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{眠|ねむ}る。{横|よこ}になる。",
+  "english": "to sleep (lying down); to go to bed; to lie in bed",
+  "examples": [
+   {
+    "ja": "{夜|よる}{十一時|じゅういちじ}に{寝|ね}ます。",
+    "en": "I go to bed at eleven at night."
+   }
+  ],
+  "related": [
+   "起きる",
+   "夜"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_045",
+  "headword": "分かる",
+  "reading": "わかる",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{意味|いみ}や{内容|ないよう}を{理解|りかい}する。",
+  "english": "to understand; to comprehend; to grasp",
+  "examples": [
+   {
+    "ja": "{日本語|にほんご}が{分|わ}かりますか。",
+    "en": "Do you understand Japanese?"
+   }
+  ],
+  "related": [
+   "知る",
+   "勉強"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_046",
+  "headword": "ある",
+  "reading": "ある",
+  "level": "N5",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{物|もの}や{植物|しょくぶつ}などがそこに{存在|そんざい}する。",
+  "english": "to be; to exist; to live",
+  "examples": [
+   {
+    "ja": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
+    "en": "There is a book on the desk."
+   }
+  ],
+  "related": [
+   "いる"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_047",
+  "headword": "いる",
+  "reading": "いる",
+  "level": "N5",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{人|ひと}や{動物|どうぶつ}がそこに{存在|そんざい}する。",
+  "english": "to shoot (arrow, bolt, dart)",
+  "examples": [
+   {
+    "ja": "{部屋|へや}に{猫|ねこ}がいます。",
+    "en": "There is a cat in the room."
+   }
+  ],
+  "related": [
+   "ある"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_048",
+  "headword": "大きい",
+  "reading": "おおきい",
+  "level": "N5",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{形|かたち}や{量|りょう}が、ふつうより{上|うえ}である。",
+  "english": "big; large; great",
+  "examples": [
+   {
+    "ja": "{東京|とうきょう}は{大|おお}きい{町|まち}です。",
+    "en": "Tokyo is a big city."
+   }
+  ],
+  "related": [
+   "小さい"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_049",
+  "headword": "小さい",
+  "reading": "ちいさい",
+  "level": "N5",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{形|かたち}や{量|りょう}が、ふつうより{下|した}である。",
+  "english": "small; little; tiny",
+  "examples": [
+   {
+    "ja": "この{犬|いぬ}は{小|ちい}さいです。",
+    "en": "This dog is small."
+   }
+  ],
+  "related": [
+   "大きい"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_050",
+  "headword": "新しい",
+  "reading": "あたらしい",
+  "level": "N5",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "できてから、あまり{時間|じかん}がたっていない。",
+  "english": "new; novel; fresh",
+  "examples": [
+   {
+    "ja": "{新|あたら}しい{靴|くつ}を{買|か}いました。",
+    "en": "I bought new shoes."
+   }
+  ],
+  "related": [
+   "古い"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_051",
+  "headword": "古い",
+  "reading": "ふるい",
+  "level": "N5",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "できてから、{長|なが}い{時間|じかん}がたっている。",
+  "english": "old; aged; ancient",
+  "examples": [
+   {
+    "ja": "この{寺|てら}はとても{古|ふる}いです。",
+    "en": "This temple is very old."
+   }
+  ],
+  "related": [
+   "新しい"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_052",
+  "headword": "おいしい",
+  "reading": "おいしい",
+  "level": "N5",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{食|た}べ{物|もの}や{飲|の}み{物|もの}の{味|あじ}がよい。",
+  "english": "good(-tasting); nice; delicious",
+  "examples": [
+   {
+    "ja": "このラーメンはおいしいです。",
+    "en": "This ramen is delicious."
+   }
+  ],
+  "related": [
+   "食べる"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_053",
+  "headword": "高い",
+  "reading": "たかい",
+  "level": "N5",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{値段|ねだん}が{多|おお}い。また、{上|うえ}の{方|ほう}にある。",
+  "english": "high; tall; expensive",
+  "examples": [
+   {
+    "ja": "この{時計|とけい}は{高|たか}いです。",
+    "en": "This watch is expensive."
+   }
+  ],
+  "related": [
+   "安い"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_054",
+  "headword": "安い",
+  "reading": "やすい",
+  "level": "N5",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{値段|ねだん}が{少|すく}ない。",
+  "english": "cheap; inexpensive; calm",
+  "examples": [
+   {
+    "ja": "コンビニの{水|みず}は{安|やす}いです。",
+    "en": "The water at the convenience store is cheap."
+   }
+  ],
+  "related": [
+   "高い"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_055",
+  "headword": "好き",
+  "reading": "すき",
+  "level": "N5",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{心|こころ}が{引|ひ}かれる。{気|き}に{入|い}っている。",
+  "english": "liking; being fond of; to one's liking",
+  "examples": [
+   {
+    "ja": "{私|わたし}は{音楽|おんがく}が{好|す}きです。",
+    "en": "I like music."
+   }
+  ],
+  "related": [
+   "嫌い"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_056",
+  "headword": "元気",
+  "reading": "げんき",
+  "level": "N5",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{体|からだ}や{心|こころ}が{健康|けんこう}で、{力|ちから}があること。",
+  "english": "lively; full of spirit; energetic",
+  "examples": [
+   {
+    "ja": "お{元気|げんき}ですか。",
+    "en": "How are you?"
+   }
+  ],
+  "related": [
+   "大丈夫"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_057",
+  "headword": "大丈夫",
+  "reading": "だいじょうぶ",
+  "level": "N5",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{問題|もんだい}がないこと。また、{相手|あいて}を{安心|あんしん}させるときにも{使|つか}う。",
+  "english": "safe; secure; sound",
+  "examples": [
+   {
+    "ja": "{大丈夫|だいじょうぶ}ですか。",
+    "en": "Are you okay?"
+   }
+  ],
+  "related": [
+   "元気"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_058",
+  "headword": "静か",
+  "reading": "しずか",
+  "level": "N5",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{音|おと}がしなくて、{落|お}ち{着|つ}いていること。",
+  "english": "quiet; silent; slow",
+  "examples": [
+   {
+    "ja": "この{公園|こうえん}は{静|しず}かです。",
+    "en": "This park is quiet."
+   }
+  ],
+  "related": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_059",
+  "headword": "おはようございます",
+  "reading": "おはようございます",
+  "level": "N5",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{朝|あさ}のあいさつ。",
+  "english": "good morning",
+  "examples": [
+   {
+    "ja": "{先生|せんせい}、おはようございます。",
+    "en": "Good morning, teacher."
+   }
+  ],
+  "related": [
+   "こんにちは",
+   "こんばんは"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_060",
+  "headword": "こんにちは",
+  "reading": "こんにちは",
+  "level": "N5",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{昼|ひる}のあいさつ。",
+  "english": "hello; good day; good afternoon",
+  "examples": [
+   {
+    "ja": "こんにちは、{田中|たなか}さん。",
+    "en": "Hello, Mr. Tanaka."
+   }
+  ],
+  "related": [
+   "おはようございます",
+   "こんばんは"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_061",
+  "headword": "ありがとうございます",
+  "reading": "ありがとうございます",
+  "level": "N5",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{感謝|かんしゃ}の{気持|きも}ちを{伝|つた}える{言葉|ことば}。",
+  "english": "thank you",
+  "examples": [
+   {
+    "ja": "{手伝|てつだ}ってくれて、ありがとうございます。",
+    "en": "Thank you for helping me."
+   }
+  ],
+  "related": [
+   "すみません"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_062",
+  "headword": "すみません",
+  "reading": "すみません",
+  "level": "N5",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{謝|あやま}るときや、{人|ひと}に{声|こえ}をかけるときに{使|つか}う{言葉|ことば}。",
+  "english": "excuse me; pardon me; I'm sorry",
+  "examples": [
+   {
+    "ja": "すみません、{駅|えき}はどこですか。",
+    "en": "Excuse me, where is the station?"
+   }
+  ],
+  "related": [
+   "ありがとうございます"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_063",
+  "headword": "ください",
+  "reading": "ください",
+  "level": "N5",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{相手|あいて}に{何|なに}かを{頼|たの}むときに{使|つか}う{言葉|ことば}。",
+  "english": "please (give me); please (do for me)",
+  "examples": [
+   {
+    "ja": "{水|みず}をください。",
+    "en": "Water, please."
+   }
+  ],
+  "related": [
+   "お願いします"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "n5_064",
+  "headword": "いらっしゃいませ",
+  "reading": "いらっしゃいませ",
+  "level": "N5",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{店|みせ}の{人|ひと}が{客|きゃく}を{迎|むか}えるときに{言|い}う{言葉|ことば}。",
+  "english": "welcome",
+  "examples": [
+   {
+    "ja": "いらっしゃいませ！{何|なに}をお{探|さが}しですか。",
+    "en": "Welcome! What are you looking for?"
+   }
+  ],
+  "related": [
+   "ありがとうございます"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ }
+]

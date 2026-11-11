@@ -1,0 +1,52 @@
+[
+ {
+  "id": "sc_konbini",
+  "title_ja": "コンビニで{買|か}い{物|もの}",
+  "title_en": "Shopping at the convenience store",
+  "level": "N5",
+  "location": "商店街",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "いらっしゃいませ！{何|なに}をお{探|さが}しですか。",
+    "line_en": "Welcome! What are you looking for?",
+    "options": [
+     {"ja": "{水|みず}をください。", "verdict": "correct", "feedback_ja": "「〜をください」で{丁寧|ていねい}に{頼|たの}めます。", "feedback_en": "をください is the natural polite way to ask for an item."},
+     {"ja": "{水|みず}がいます。", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。{水|みず}には{使|つか}いません。", "feedback_en": "います is for people and animals, not for water."},
+     {"ja": "{水|みず}をあります。", "verdict": "wrong", "feedback_ja": "「あります」の{前|まえ}は「が」です。「を」ではありません。", "feedback_en": "あります takes が, not を, and does not mean 'please'."}
+    ]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "はい、{水|みず}ですね。{他|ほか}に{何|なに}かありますか。",
+    "line_en": "Water, certainly. Anything else?",
+    "options": [
+     {"ja": "いいえ、{大丈夫|だいじょうぶ}です。", "verdict": "correct", "feedback_ja": "「{大丈夫|だいじょうぶ}です」は、ここでは「いりません」という{意味|いみ}です。", "feedback_en": "大丈夫です here means 'no, I'm fine' — a soft way to decline."},
+     {"ja": "いいえ、{何|なに}もないです。", "verdict": "unnatural", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{店|みせ}では「{大丈夫|だいじょうぶ}です」のほうが{自然|しぜん}です。", "feedback_en": "Grammatical, but 大丈夫です is what people actually say in a shop."},
+     {"ja": "はい、{水|みず}です。", "verdict": "wrong", "feedback_ja": "{質問|しつもん}は「{他|ほか}に」です。{水|みず}はもう{頼|たの}みました。", "feedback_en": "The clerk asked about anything else; you already asked for water."}
+    ]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "{百|ひゃく}{円|えん}です。{袋|ふくろ}はご{利用|りよう}ですか。",
+    "line_en": "That's 100 yen. Would you like a bag?",
+    "options": [
+     {"ja": "いいえ、{結構|けっこう}です。", "verdict": "correct", "feedback_ja": "「{結構|けっこう}です」は{丁寧|ていねい}な「いりません」です。", "feedback_en": "結構です is a polite 'no thank you'."},
+     {"ja": "いいえ、{嫌|きら}いです。", "verdict": "unnatural", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{店|みせ}で「{嫌|きら}い」は{強|つよ}すぎます。", "feedback_en": "Grammatical, but saying you 'hate' the bag is far too strong for a shop."},
+     {"ja": "{袋|ふくろ}をいます。", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。", "feedback_en": "います cannot be used with a bag."}
+    ]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "ありがとうございました。またお{越|こ}しくださいませ。",
+    "line_en": "Thank you very much. Please come again.",
+    "options": [
+     {"ja": "ありがとうございます。", "verdict": "correct", "feedback_ja": "{客|きゃく}も「ありがとうございます」と{言|い}うと{丁寧|ていねい}です。", "feedback_en": "A simple thank-you back is polite and natural."},
+     {"ja": "いらっしゃいませ。", "verdict": "wrong", "feedback_ja": "「いらっしゃいませ」は{店|みせ}の{人|ひと}が{言|い}う{言葉|ことば}です。", "feedback_en": "いらっしゃいませ is only said by staff to customers."},
+     {"ja": "おはようございます。", "verdict": "unnatural", "feedback_ja": "あいさつとしては{正|ただ}しいですが、{帰|かえ}るときには{使|つか}いません。", "feedback_en": "A valid greeting, but not what you say when leaving."}
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,98 @@
+[
+ {
+  "id": "sb_001",
+  "level": "N5",
+  "prompt_en": "I am a student.",
+  "tiles": ["{私|わたし}", "は", "{学生|がくせい}", "です"],
+  "distractors": ["を"],
+  "accepted": [["{私|わたし}", "は", "{学生|がくせい}", "です"]],
+  "grammar": ["n5_wa"]
+ },
+ {
+  "id": "sb_002",
+  "level": "N5",
+  "prompt_en": "I went to school yesterday.",
+  "tiles": ["{私|わたし}", "は", "{昨日|きのう}", "{学校|がっこう}", "に", "{行|い}きました"],
+  "distractors": ["を"],
+  "accepted": [
+   ["{私|わたし}", "は", "{昨日|きのう}", "{学校|がっこう}", "に", "{行|い}きました"],
+   ["{昨日|きのう}", "{私|わたし}", "は", "{学校|がっこう}", "に", "{行|い}きました"]
+  ],
+  "grammar": ["n5_ni_destination", "n5_masu_past"]
+ },
+ {
+  "id": "sb_003",
+  "level": "N5",
+  "prompt_en": "I drink water.",
+  "tiles": ["{水|みず}", "を", "{飲|の}みます"],
+  "distractors": ["が", "{食|た}べます"],
+  "accepted": [["{水|みず}", "を", "{飲|の}みます"]],
+  "grammar": ["n5_wo"]
+ },
+ {
+  "id": "sb_004",
+  "level": "N5",
+  "prompt_en": "I study at the library.",
+  "tiles": ["{図書館|としょかん}", "で", "{勉強|べんきょう}します"],
+  "distractors": ["に", "は"],
+  "accepted": [["{図書館|としょかん}", "で", "{勉強|べんきょう}します"]],
+  "grammar": ["n5_de_place"]
+ },
+ {
+  "id": "sb_005",
+  "level": "N5",
+  "prompt_en": "There is a cat in the room.",
+  "tiles": ["{部屋|へや}", "に", "{猫|ねこ}", "が", "います"],
+  "distractors": ["あります", "を"],
+  "accepted": [["{部屋|へや}", "に", "{猫|ねこ}", "が", "います"]],
+  "grammar": ["n5_ga_exist", "n5_ni_destination"]
+ },
+ {
+  "id": "sb_006",
+  "level": "N5",
+  "prompt_en": "I watched a movie with a friend yesterday.",
+  "tiles": ["{昨日|きのう}", "{友達|ともだち}", "と", "{映画|えいが}", "を", "{見|み}ました"],
+  "distractors": ["に", "{見|み}ます"],
+  "accepted": [
+   ["{昨日|きのう}", "{友達|ともだち}", "と", "{映画|えいが}", "を", "{見|み}ました"],
+   ["{友達|ともだち}", "と", "{昨日|きのう}", "{映画|えいが}", "を", "{見|み}ました"]
+  ],
+  "grammar": ["n5_wo", "n5_masu_past"]
+ },
+ {
+  "id": "sb_007",
+  "level": "N5",
+  "prompt_en": "Water, please.",
+  "tiles": ["{水|みず}", "を", "ください"],
+  "distractors": ["が", "います"],
+  "accepted": [["{水|みず}", "を", "ください"]],
+  "grammar": ["n5_kudasai"]
+ },
+ {
+  "id": "sb_008",
+  "level": "N5",
+  "prompt_en": "I am not going to school today.",
+  "tiles": ["{今日|きょう}", "は", "{学校|がっこう}", "に", "{行|い}きません"],
+  "distractors": ["{行|い}きます", "で"],
+  "accepted": [["{今日|きょう}", "は", "{学校|がっこう}", "に", "{行|い}きません"]],
+  "grammar": ["n5_masen", "n5_ni_destination"]
+ },
+ {
+  "id": "sb_009",
+  "level": "N5",
+  "prompt_en": "I go to work by train.",
+  "tiles": ["{電車|でんしゃ}", "で", "{会社|かいしゃ}", "に", "{行|い}きます"],
+  "distractors": ["を", "は"],
+  "accepted": [["{電車|でんしゃ}", "で", "{会社|かいしゃ}", "に", "{行|い}きます"]],
+  "grammar": ["n5_de_place", "n5_ni_destination"]
+ },
+ {
+  "id": "sb_010",
+  "level": "N5",
+  "prompt_en": "There is a book on the desk.",
+  "tiles": ["{机|つくえ}", "の", "{上|うえ}", "に", "{本|ほん}", "が", "あります"],
+  "distractors": ["います", "を"],
+  "accepted": [["{机|つくえ}", "の", "{上|うえ}", "に", "{本|ほん}", "が", "あります"]],
+  "grammar": ["n5_ga_exist"]
+ }
+]

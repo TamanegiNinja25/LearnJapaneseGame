@@ -1,0 +1,98 @@
+[
+ {
+  "id": "n5_wa",
+  "pattern": "〜は〜です",
+  "level": "N5",
+  "meaning_en": "A is B (topic marker は + copula です)",
+  "explanation_ja": "「は」は{話|はな}の{主題|しゅだい}を{表|あらわ}します。「です」は{丁寧|ていねい}な{文|ぶん}の{終|お}わりです。",
+  "explanation_en": "は marks the topic of the sentence (read 'wa'). です is the polite copula that ends the sentence.",
+  "examples": [
+   {"ja": "{私|わたし}は{学生|がくせい}です。", "en": "I am a student."},
+   {"ja": "{田中|たなか}さんは{先生|せんせい}です。", "en": "Mr. Tanaka is a teacher."}
+  ]
+ },
+ {
+  "id": "n5_wo",
+  "pattern": "〜を〜ます",
+  "level": "N5",
+  "meaning_en": "Object marker を with a polite verb",
+  "explanation_ja": "「を」は{動詞|どうし}の{目的|もくてき}（{何|なに}を）を{表|あらわ}します。",
+  "explanation_en": "を marks the direct object: the thing the verb acts on.",
+  "examples": [
+   {"ja": "{水|みず}を{飲|の}みます。", "en": "I drink water."},
+   {"ja": "{本|ほん}を{読|よ}みます。", "en": "I read a book."}
+  ]
+ },
+ {
+  "id": "n5_ni_destination",
+  "pattern": "〜に{行|い}きます",
+  "level": "N5",
+  "meaning_en": "に marks a destination or point in time",
+  "explanation_ja": "「に」は{行|い}く{場所|ばしょ}や、{時間|じかん}を{表|あらわ}します。",
+  "explanation_en": "に marks where you are going (学校に) or when something happens (七時に).",
+  "examples": [
+   {"ja": "{学校|がっこう}に{行|い}きます。", "en": "I go to school."},
+   {"ja": "{七時|しちじ}に{起|お}きます。", "en": "I get up at seven."}
+  ]
+ },
+ {
+  "id": "n5_de_place",
+  "pattern": "〜で〜ます",
+  "level": "N5",
+  "meaning_en": "で marks where an action happens or the means used",
+  "explanation_ja": "「で」は{何|なに}かをする{場所|ばしょ}や、{使|つか}う{物|もの}を{表|あらわ}します。",
+  "explanation_en": "で marks the place of an action (図書館で) or the means (電車で).",
+  "examples": [
+   {"ja": "{図書館|としょかん}で{勉強|べんきょう}します。", "en": "I study at the library."},
+   {"ja": "{電車|でんしゃ}で{会社|かいしゃ}に{行|い}きます。", "en": "I go to work by train."}
+  ]
+ },
+ {
+  "id": "n5_ga_exist",
+  "pattern": "〜があります／〜がいます",
+  "level": "N5",
+  "meaning_en": "There is / there are (あります for things, います for people and animals)",
+  "explanation_ja": "{物|もの}があるときは「あります」、{人|ひと}や{動物|どうぶつ}がいるときは「います」を{使|つか}います。",
+  "explanation_en": "あります is used for objects and plants; います for people and animals. The thing that exists takes が.",
+  "examples": [
+   {"ja": "{机|つくえ}の{上|うえ}に{本|ほん}があります。", "en": "There is a book on the desk."},
+   {"ja": "{部屋|へや}に{猫|ねこ}がいます。", "en": "There is a cat in the room."}
+  ]
+ },
+ {
+  "id": "n5_masu_past",
+  "pattern": "〜ました",
+  "level": "N5",
+  "meaning_en": "Polite past tense",
+  "explanation_ja": "「ます」を「ました」にすると、{過去|かこ}のことを{表|あらわ}します。",
+  "explanation_en": "Replace ます with ました to put a polite verb in the past.",
+  "examples": [
+   {"ja": "{昨日|きのう}、{映画|えいが}を{見|み}ました。", "en": "I watched a movie yesterday."},
+   {"ja": "{朝|あさ}ご{飯|はん}を{食|た}べました。", "en": "I ate breakfast."}
+  ]
+ },
+ {
+  "id": "n5_masen",
+  "pattern": "〜ません",
+  "level": "N5",
+  "meaning_en": "Polite negative",
+  "explanation_ja": "「ます」を「ません」にすると、{否定|ひてい}（〜ない）を{表|あらわ}します。",
+  "explanation_en": "Replace ます with ません to make a polite verb negative.",
+  "examples": [
+   {"ja": "{今日|きょう}は{学校|がっこう}に{行|い}きません。", "en": "I am not going to school today."},
+   {"ja": "お{酒|さけ}を{飲|の}みません。", "en": "I don't drink alcohol."}
+  ]
+ },
+ {
+  "id": "n5_kudasai",
+  "pattern": "〜をください",
+  "level": "N5",
+  "meaning_en": "Please give me ~",
+  "explanation_ja": "{物|もの}の{名前|なまえ}＋「をください」で、{丁寧|ていねい}に{頼|たの}みます。",
+  "explanation_en": "Noun + をください politely asks for something. The verb form てください asks someone to do something.",
+  "examples": [
+   {"ja": "{水|みず}をください。", "en": "Water, please."},
+   {"ja": "これをください。", "en": "This one, please."}
+  ]
+ }
+]
