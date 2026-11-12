@@ -1,0 +1,7121 @@
+[
+ {
+  "kanji": "暴",
+  "on": [
+   "ぼう",
+   "ばく"
+  ],
+  "kun": [
+   "あば.く",
+   "あば.れる"
+  ],
+  "meanings": [
+   "outburst",
+   "rave",
+   "fret",
+   "force"
+  ],
+  "strokes": 15,
+  "freq": 692,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "輪",
+  "on": [
+   "りん"
+  ],
+  "kun": [
+   "わ"
+  ],
+  "meanings": [
+   "wheel",
+   "ring",
+   "circle",
+   "link"
+  ],
+  "strokes": 15,
+  "freq": 693,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "占",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "し.める",
+   "うらな.う"
+  ],
+  "meanings": [
+   "fortune-telling",
+   "divining",
+   "forecasting",
+   "occupy"
+  ],
+  "strokes": 5,
+  "freq": 694,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "背",
+  "on": [
+   "はい"
+  ],
+  "kun": [
+   "せ",
+   "せい",
+   "そむ.く",
+   "そむ.ける"
+  ],
+  "meanings": [
+   "stature",
+   "height",
+   "back",
+   "behind"
+  ],
+  "strokes": 9,
+  "freq": 696,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "植",
+  "on": [
+   "しょく"
+  ],
+  "kun": [
+   "う.える",
+   "う.わる"
+  ],
+  "meanings": [
+   "plant"
+  ],
+  "strokes": 12,
+  "freq": 699,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "熱",
+  "on": [
+   "ねつ"
+  ],
+  "kun": [
+   "あつ.い"
+  ],
+  "meanings": [
+   "heat",
+   "temperature",
+   "fever",
+   "mania"
+  ],
+  "strokes": 15,
+  "freq": 700,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "宿",
+  "on": [
+   "しゅく"
+  ],
+  "kun": [
+   "やど",
+   "やど.る",
+   "やど.す"
+  ],
+  "meanings": [
+   "inn",
+   "lodging",
+   "relay station",
+   "dwell"
+  ],
+  "strokes": 11,
+  "freq": 701,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "清",
+  "on": [
+   "せい",
+   "しょう",
+   "しん"
+  ],
+  "kun": [
+   "きよ.い",
+   "きよ.まる",
+   "きよ.める"
+  ],
+  "meanings": [
+   "pure",
+   "purify",
+   "cleanse",
+   "exorcise"
+  ],
+  "strokes": 11,
+  "freq": 705,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "険",
+  "on": [
+   "けん"
+  ],
+  "kun": [
+   "けわ.しい"
+  ],
+  "meanings": [
+   "precipitous",
+   "inaccessible place",
+   "impregnable position",
+   "steep place"
+  ],
+  "strokes": 11,
+  "freq": 707,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "頼",
+  "on": [
+   "らい"
+  ],
+  "kun": [
+   "たの.む",
+   "たの.もしい",
+   "たよ.る"
+  ],
+  "meanings": [
+   "trust",
+   "request"
+  ],
+  "strokes": 16,
+  "freq": 708,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "覚",
+  "on": [
+   "かく"
+  ],
+  "kun": [
+   "おぼ.える",
+   "さ.ます",
+   "さ.める",
+   "さと.る"
+  ],
+  "meanings": [
+   "memorize",
+   "learn",
+   "remember",
+   "awake"
+  ],
+  "strokes": 12,
+  "freq": 710,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "船",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "ふね",
+   "ふな-"
+  ],
+  "meanings": [
+   "ship",
+   "boat"
+  ],
+  "strokes": 11,
+  "freq": 713,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "倍",
+  "on": [
+   "ばい"
+  ],
+  "kun": [],
+  "meanings": [
+   "double",
+   "twice",
+   "times",
+   "fold"
+  ],
+  "strokes": 10,
+  "freq": 714,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "均",
+  "on": [
+   "きん"
+  ],
+  "kun": [
+   "なら.す"
+  ],
+  "meanings": [
+   "level",
+   "average"
+  ],
+  "strokes": 7,
+  "freq": 715,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "億",
+  "on": [
+   "おく"
+  ],
+  "kun": [],
+  "meanings": [
+   "hundred million",
+   "10**8"
+  ],
+  "strokes": 15,
+  "freq": 716,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "途",
+  "on": [
+   "と"
+  ],
+  "kun": [
+   "みち"
+  ],
+  "meanings": [
+   "route",
+   "way",
+   "road"
+  ],
+  "strokes": 10,
+  "freq": 717,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "圧",
+  "on": [
+   "あつ",
+   "えん",
+   "おう"
+  ],
+  "kun": [
+   "お.す",
+   "へ.す",
+   "おさ.える",
+   "お.さえる"
+  ],
+  "meanings": [
+   "pressure",
+   "push",
+   "overwhelm",
+   "oppress"
+  ],
+  "strokes": 5,
+  "freq": 718,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "芸",
+  "on": [
+   "げい",
+   "うん"
+  ],
+  "kun": [
+   "う.える",
+   "のり",
+   "わざ"
+  ],
+  "meanings": [
+   "technique",
+   "art",
+   "craft",
+   "performance"
+  ],
+  "strokes": 7,
+  "freq": 719,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "許",
+  "on": [
+   "きょ"
+  ],
+  "kun": [
+   "ゆる.す",
+   "もと"
+  ],
+  "meanings": [
+   "permit",
+   "approve"
+  ],
+  "strokes": 11,
+  "freq": 720,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "署",
+  "on": [
+   "しょ"
+  ],
+  "kun": [],
+  "meanings": [
+   "signature",
+   "govt office",
+   "police station"
+  ],
+  "strokes": 13,
+  "freq": 725,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "抜",
+  "on": [
+   "ばつ",
+   "はつ",
+   "はい"
+  ],
+  "kun": [
+   "ぬ.く",
+   "-ぬ.く",
+   "ぬ.き",
+   "ぬ.ける",
+   "ぬ.かす",
+   "ぬ.かる"
+  ],
+  "meanings": [
+   "slip out",
+   "extract",
+   "pull out",
+   "pilfer"
+  ],
+  "strokes": 7,
+  "freq": 726,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "伸",
+  "on": [
+   "しん"
+  ],
+  "kun": [
+   "の.びる",
+   "の.ばす",
+   "の.べる",
+   "の.す"
+  ],
+  "meanings": [
+   "expand",
+   "stretch",
+   "extend",
+   "lengthen"
+  ],
+  "strokes": 7,
+  "freq": 730,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "留",
+  "on": [
+   "りゅう",
+   "る"
+  ],
+  "kun": [
+   "と.める",
+   "と.まる",
+   "とど.める",
+   "とど.まる",
+   "るうぶる"
+  ],
+  "meanings": [
+   "detain",
+   "fasten",
+   "halt",
+   "stop"
+  ],
+  "strokes": 10,
+  "freq": 731,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "罪",
+  "on": [
+   "ざい"
+  ],
+  "kun": [
+   "つみ"
+  ],
+  "meanings": [
+   "guilt",
+   "sin",
+   "crime",
+   "fault"
+  ],
+  "strokes": 13,
+  "freq": 732,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "停",
+  "on": [
+   "てい"
+  ],
+  "kun": [
+   "と.める",
+   "と.まる"
+  ],
+  "meanings": [
+   "halt",
+   "stopping"
+  ],
+  "strokes": 11,
+  "freq": 733,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "爆",
+  "on": [
+   "ばく"
+  ],
+  "kun": [
+   "は.ぜる"
+  ],
+  "meanings": [
+   "bomb",
+   "burst open",
+   "pop",
+   "split"
+  ],
+  "strokes": 19,
+  "freq": 735,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "陸",
+  "on": [
+   "りく",
+   "ろく"
+  ],
+  "kun": [
+   "おか"
+  ],
+  "meanings": [
+   "land",
+   "six"
+  ],
+  "strokes": 11,
+  "freq": 736,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "玉",
+  "on": [
+   "ぎょく"
+  ],
+  "kun": [
+   "たま",
+   "たま-",
+   "-だま"
+  ],
+  "meanings": [
+   "jewel",
+   "ball"
+  ],
+  "strokes": 5,
+  "freq": 737,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "波",
+  "on": [
+   "は"
+  ],
+  "kun": [
+   "なみ"
+  ],
+  "meanings": [
+   "waves",
+   "billows",
+   "Poland"
+  ],
+  "strokes": 8,
+  "freq": 740,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "帯",
+  "on": [
+   "たい"
+  ],
+  "kun": [
+   "お.びる",
+   "おび"
+  ],
+  "meanings": [
+   "sash",
+   "belt",
+   "obi",
+   "zone"
+  ],
+  "strokes": 10,
+  "freq": 746,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "延",
+  "on": [
+   "えん"
+  ],
+  "kun": [
+   "の.びる",
+   "の.べる",
+   "の.べ",
+   "の.ばす"
+  ],
+  "meanings": [
+   "prolong",
+   "stretching"
+  ],
+  "strokes": 8,
+  "freq": 747,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "羽",
+  "on": [
+   "う"
+  ],
+  "kun": [
+   "は",
+   "わ",
+   "はね"
+  ],
+  "meanings": [
+   "feathers",
+   "counter for birds, rabbits"
+  ],
+  "strokes": 6,
+  "freq": 748,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "努",
+  "on": [
+   "ど"
+  ],
+  "kun": [
+   "つと.める"
+  ],
+  "meanings": [
+   "toil",
+   "diligent",
+   "as much as possible"
+  ],
+  "strokes": 7,
+  "freq": 749,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "固",
+  "on": [
+   "こ"
+  ],
+  "kun": [
+   "かた.める",
+   "かた.まる",
+   "かた.まり",
+   "かた.い"
+  ],
+  "meanings": [
+   "harden",
+   "set",
+   "clot",
+   "curdle"
+  ],
+  "strokes": 8,
+  "freq": 750,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "精",
+  "on": [
+   "せい",
+   "しょう"
+  ],
+  "kun": [
+   "しら.げる",
+   "くわ.しい"
+  ],
+  "meanings": [
+   "refined",
+   "ghost",
+   "fairy",
+   "energy"
+  ],
+  "strokes": 14,
+  "freq": 752,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "則",
+  "on": [
+   "そく"
+  ],
+  "kun": [
+   "のっと.る",
+   "のり",
+   "すなわち"
+  ],
+  "meanings": [
+   "rule",
+   "law",
+   "follow",
+   "based on"
+  ],
+  "strokes": 9,
+  "freq": 753,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "乱",
+  "on": [
+   "らん",
+   "ろん"
+  ],
+  "kun": [
+   "みだ.れる",
+   "みだ.る",
+   "みだ.す",
+   "みだ",
+   "おさ.める",
+   "わた.る"
+  ],
+  "meanings": [
+   "riot",
+   "war",
+   "disorder",
+   "disturb"
+  ],
+  "strokes": 7,
+  "freq": 755,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "普",
+  "on": [
+   "ふ"
+  ],
+  "kun": [
+   "あまね.く",
+   "あまねし"
+  ],
+  "meanings": [
+   "universal",
+   "wide(ly)",
+   "generally",
+   "Prussia"
+  ],
+  "strokes": 12,
+  "freq": 757,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "散",
+  "on": [
+   "さん"
+  ],
+  "kun": [
+   "ち.る",
+   "ち.らす",
+   "-ち.らす",
+   "ち.らかす",
+   "ち.らかる",
+   "ち.らばる",
+   "ばら",
+   "ばら.ける"
+  ],
+  "meanings": [
+   "scatter",
+   "disperse",
+   "spend",
+   "squander"
+  ],
+  "strokes": 12,
+  "freq": 758,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "司",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "つかさど.る"
+  ],
+  "meanings": [
+   "director",
+   "official",
+   "govt office",
+   "rule"
+  ],
+  "strokes": 5,
+  "freq": 759,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "康",
+  "on": [
+   "こう"
+  ],
+  "kun": [],
+  "meanings": [
+   "ease",
+   "peace"
+  ],
+  "strokes": 11,
+  "freq": 760,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "測",
+  "on": [
+   "そく"
+  ],
+  "kun": [
+   "はか.る"
+  ],
+  "meanings": [
+   "fathom",
+   "plan",
+   "scheme",
+   "measure"
+  ],
+  "strokes": 12,
+  "freq": 761,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "豊",
+  "on": [
+   "ほう",
+   "ぶ"
+  ],
+  "kun": [
+   "ゆた.か",
+   "とよ"
+  ],
+  "meanings": [
+   "bountiful",
+   "excellent",
+   "rich"
+  ],
+  "strokes": 13,
+  "freq": 762,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "静",
+  "on": [
+   "せい",
+   "じょう"
+  ],
+  "kun": [
+   "しず-",
+   "しず.か",
+   "しず.まる",
+   "しず.める"
+  ],
+  "meanings": [
+   "quiet"
+  ],
+  "strokes": 14,
+  "freq": 764,
+  "level": "N2",
+  "words": [
+   "w_c0e7ba11fd"
+  ]
+ },
+ {
+  "kanji": "善",
+  "on": [
+   "ぜん"
+  ],
+  "kun": [
+   "よ.い",
+   "い.い",
+   "よ.く",
+   "よし.とする"
+  ],
+  "meanings": [
+   "virtuous",
+   "good",
+   "goodness"
+  ],
+  "strokes": 12,
+  "freq": 765,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "婚",
+  "on": [
+   "こん"
+  ],
+  "kun": [],
+  "meanings": [
+   "marriage"
+  ],
+  "strokes": 11,
+  "freq": 767,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "厚",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "あつ.い",
+   "あか"
+  ],
+  "meanings": [
+   "thick",
+   "heavy",
+   "rich",
+   "kind"
+  ],
+  "strokes": 9,
+  "freq": 768,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "喜",
+  "on": [
+   "き"
+  ],
+  "kun": [
+   "よろこ.ぶ",
+   "よろこ.ばす"
+  ],
+  "meanings": [
+   "rejoice",
+   "take pleasure in"
+  ],
+  "strokes": 12,
+  "freq": 769,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "齢",
+  "on": [
+   "れい"
+  ],
+  "kun": [
+   "よわい",
+   "とし"
+  ],
+  "meanings": [
+   "age"
+  ],
+  "strokes": 17,
+  "freq": 770,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "囲",
+  "on": [
+   "い"
+  ],
+  "kun": [
+   "かこ.む",
+   "かこ.う",
+   "かこ.い"
+  ],
+  "meanings": [
+   "surround",
+   "besiege",
+   "store",
+   "paling"
+  ],
+  "strokes": 7,
+  "freq": 771,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "卒",
+  "on": [
+   "そつ",
+   "しゅつ"
+  ],
+  "kun": [
+   "そっ.する",
+   "お.える",
+   "お.わる",
+   "ついに",
+   "にわか"
+  ],
+  "meanings": [
+   "graduate",
+   "soldier",
+   "private",
+   "die"
+  ],
+  "strokes": 8,
+  "freq": 772,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "略",
+  "on": [
+   "りゃく"
+  ],
+  "kun": [
+   "ほぼ",
+   "はぶ.く",
+   "おか.す",
+   "おさ.める",
+   "はかりごと",
+   "はか.る"
+  ],
+  "meanings": [
+   "abbreviation",
+   "omission",
+   "outline",
+   "shorten"
+  ],
+  "strokes": 11,
+  "freq": 774,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "承",
+  "on": [
+   "しょう",
+   "じょう"
+  ],
+  "kun": [
+   "うけたまわ.る",
+   "う.ける"
+  ],
+  "meanings": [
+   "acquiesce",
+   "hear",
+   "listen to",
+   "be informed"
+  ],
+  "strokes": 8,
+  "freq": 775,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "浮",
+  "on": [
+   "ふ"
+  ],
+  "kun": [
+   "う.く",
+   "う.かれる",
+   "う.かぶ",
+   "う.かべる"
+  ],
+  "meanings": [
+   "floating",
+   "float",
+   "rise to surface"
+  ],
+  "strokes": 10,
+  "freq": 776,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "順",
+  "on": [
+   "じゅん"
+  ],
+  "kun": [],
+  "meanings": [
+   "obey",
+   "order",
+   "turn",
+   "right"
+  ],
+  "strokes": 12,
+  "freq": 779,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "絶",
+  "on": [
+   "ぜつ"
+  ],
+  "kun": [
+   "た.える",
+   "た.やす",
+   "た.つ"
+  ],
+  "meanings": [
+   "discontinue",
+   "sever",
+   "cut off",
+   "abstain"
+  ],
+  "strokes": 12,
+  "freq": 784,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "級",
+  "on": [
+   "きゅう"
+  ],
+  "kun": [],
+  "meanings": [
+   "class",
+   "rank",
+   "grade"
+  ],
+  "strokes": 9,
+  "freq": 785,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "幸",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "さいわ.い",
+   "さち",
+   "しあわ.せ"
+  ],
+  "meanings": [
+   "happiness",
+   "blessing",
+   "fortune"
+  ],
+  "strokes": 8,
+  "freq": 786,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "岩",
+  "on": [
+   "がん"
+  ],
+  "kun": [
+   "いわ"
+  ],
+  "meanings": [
+   "boulder",
+   "rock",
+   "cliff"
+  ],
+  "strokes": 8,
+  "freq": 787,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "練",
+  "on": [
+   "れん"
+  ],
+  "kun": [
+   "ね.る",
+   "ね.り"
+  ],
+  "meanings": [
+   "practice",
+   "gloss",
+   "train",
+   "drill"
+  ],
+  "strokes": 14,
+  "freq": 788,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "押",
+  "on": [
+   "おう"
+  ],
+  "kun": [
+   "お.す",
+   "お.し-",
+   "お.っ-",
+   "お.さえる",
+   "おさ.える"
+  ],
+  "meanings": [
+   "push",
+   "stop",
+   "check",
+   "subdue"
+  ],
+  "strokes": 8,
+  "freq": 789,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "倒",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "たお.れる",
+   "-だお.れ",
+   "たお.す",
+   "さかさま",
+   "さかさ",
+   "さかしま"
+  ],
+  "meanings": [
+   "overthrow",
+   "fall",
+   "collapse",
+   "drop"
+  ],
+  "strokes": 10,
+  "freq": 791,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "了",
+  "on": [
+   "りょう"
+  ],
+  "kun": [],
+  "meanings": [
+   "complete",
+   "finish"
+  ],
+  "strokes": 2,
+  "freq": 792,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "庁",
+  "on": [
+   "ちょう",
+   "てい"
+  ],
+  "kun": [
+   "やくしょ"
+  ],
+  "meanings": [
+   "government office"
+  ],
+  "strokes": 5,
+  "freq": 793,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "城",
+  "on": [
+   "じょう",
+   "せい"
+  ],
+  "kun": [
+   "しろ"
+  ],
+  "meanings": [
+   "castle"
+  ],
+  "strokes": 9,
+  "freq": 795,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "等",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "ひと.しい",
+   "など",
+   "-ら"
+  ],
+  "meanings": [
+   "etc.",
+   "and so forth",
+   "class (first)",
+   "quality"
+  ],
+  "strokes": 12,
+  "freq": 798,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "救",
+  "on": [
+   "きゅう"
+  ],
+  "kun": [
+   "すく.う"
+  ],
+  "meanings": [
+   "salvation",
+   "save",
+   "help",
+   "rescue"
+  ],
+  "strokes": 11,
+  "freq": 799,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "層",
+  "on": [
+   "そう"
+  ],
+  "kun": [],
+  "meanings": [
+   "stratum",
+   "social class",
+   "layer",
+   "story"
+  ],
+  "strokes": 14,
+  "freq": 801,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "版",
+  "on": [
+   "はん"
+  ],
+  "kun": [],
+  "meanings": [
+   "printing block",
+   "printing plate",
+   "edition",
+   "impression"
+  ],
+  "strokes": 8,
+  "freq": 802,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "老",
+  "on": [
+   "ろう"
+  ],
+  "kun": [
+   "お.いる",
+   "ふ.ける"
+  ],
+  "meanings": [
+   "old man",
+   "old age",
+   "grow old"
+  ],
+  "strokes": 6,
+  "freq": 803,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "令",
+  "on": [
+   "れい"
+  ],
+  "kun": [],
+  "meanings": [
+   "orders",
+   "laws",
+   "command",
+   "decree"
+  ],
+  "strokes": 5,
+  "freq": 804,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "角",
+  "on": [
+   "かく"
+  ],
+  "kun": [
+   "かど",
+   "つの"
+  ],
+  "meanings": [
+   "angle",
+   "corner",
+   "square",
+   "horn"
+  ],
+  "strokes": 7,
+  "freq": 805,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "絡",
+  "on": [
+   "らく"
+  ],
+  "kun": [
+   "から.む",
+   "から.まる"
+  ],
+  "meanings": [
+   "entwine",
+   "coil around",
+   "get caught in"
+  ],
+  "strokes": 12,
+  "freq": 806,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "損",
+  "on": [
+   "そん"
+  ],
+  "kun": [
+   "そこ.なう",
+   "そこな.う",
+   "-そこ.なう",
+   "そこ.ねる",
+   "-そこ.ねる"
+  ],
+  "meanings": [
+   "damage",
+   "loss",
+   "disadvantage",
+   "hurt"
+  ],
+  "strokes": 13,
+  "freq": 807,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "募",
+  "on": [
+   "ぼ"
+  ],
+  "kun": [
+   "つの.る"
+  ],
+  "meanings": [
+   "recruit",
+   "campaign",
+   "gather (contributions)",
+   "enlist"
+  ],
+  "strokes": 12,
+  "freq": 809,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "曲",
+  "on": [
+   "きょく"
+  ],
+  "kun": [
+   "ま.がる",
+   "ま.げる",
+   "くま"
+  ],
+  "meanings": [
+   "bend",
+   "music",
+   "melody",
+   "composition"
+  ],
+  "strokes": 6,
+  "freq": 810,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "裏",
+  "on": [
+   "り"
+  ],
+  "kun": [
+   "うら"
+  ],
+  "meanings": [
+   "back",
+   "amidst",
+   "in",
+   "reverse"
+  ],
+  "strokes": 13,
+  "freq": 812,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "払",
+  "on": [
+   "ふつ",
+   "ひつ",
+   "ほつ"
+  ],
+  "kun": [
+   "はら.う",
+   "-はら.い",
+   "-ばら.い"
+  ],
+  "meanings": [
+   "pay",
+   "clear out",
+   "prune",
+   "banish"
+  ],
+  "strokes": 5,
+  "freq": 813,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "庭",
+  "on": [
+   "てい"
+  ],
+  "kun": [
+   "にわ"
+  ],
+  "meanings": [
+   "courtyard",
+   "garden",
+   "yard"
+  ],
+  "strokes": 10,
+  "freq": 816,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "徒",
+  "on": [
+   "と"
+  ],
+  "kun": [
+   "いたずら",
+   "あだ"
+  ],
+  "meanings": [
+   "on foot",
+   "junior",
+   "emptiness",
+   "vanity"
+  ],
+  "strokes": 10,
+  "freq": 817,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "仏",
+  "on": [
+   "ぶつ",
+   "ふつ"
+  ],
+  "kun": [
+   "ほとけ"
+  ],
+  "meanings": [
+   "Buddha",
+   "the dead",
+   "France"
+  ],
+  "strokes": 4,
+  "freq": 819,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "績",
+  "on": [
+   "せき"
+  ],
+  "kun": [],
+  "meanings": [
+   "exploits",
+   "achievements",
+   "unreeling cocoons"
+  ],
+  "strokes": 17,
+  "freq": 820,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "築",
+  "on": [
+   "ちく"
+  ],
+  "kun": [
+   "きず.く"
+  ],
+  "meanings": [
+   "fabricate",
+   "build",
+   "construct"
+  ],
+  "strokes": 16,
+  "freq": 821,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "貨",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "たから"
+  ],
+  "meanings": [
+   "freight",
+   "goods",
+   "property"
+  ],
+  "strokes": 11,
+  "freq": 822,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "志",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "シリング",
+   "こころざ.す",
+   "こころざし"
+  ],
+  "meanings": [
+   "intention",
+   "plan",
+   "resolve",
+   "aspire"
+  ],
+  "strokes": 7,
+  "freq": 823,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "混",
+  "on": [
+   "こん"
+  ],
+  "kun": [
+   "ま.じる",
+   "-ま.じり",
+   "ま.ざる",
+   "ま.ぜる",
+   "こ.む"
+  ],
+  "meanings": [
+   "mix",
+   "blend",
+   "confuse"
+  ],
+  "strokes": 11,
+  "freq": 824,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "昇",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "のぼ.る"
+  ],
+  "meanings": [
+   "rise up"
+  ],
+  "strokes": 8,
+  "freq": 826,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "勤",
+  "on": [
+   "きん",
+   "ごん"
+  ],
+  "kun": [
+   "つと.める",
+   "-づと.め",
+   "つと.まる",
+   "いそ.しむ"
+  ],
+  "meanings": [
+   "diligence",
+   "become employed",
+   "serve"
+  ],
+  "strokes": 12,
+  "freq": 830,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "血",
+  "on": [
+   "けつ"
+  ],
+  "kun": [
+   "ち"
+  ],
+  "meanings": [
+   "blood"
+  ],
+  "strokes": 6,
+  "freq": 832,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "遅",
+  "on": [
+   "ち"
+  ],
+  "kun": [
+   "おく.れる",
+   "おく.らす",
+   "おそ.い"
+  ],
+  "meanings": [
+   "slow",
+   "late",
+   "back",
+   "later"
+  ],
+  "strokes": 12,
+  "freq": 833,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "居",
+  "on": [
+   "きょ",
+   "こ"
+  ],
+  "kun": [
+   "い.る",
+   "-い",
+   "お.る"
+  ],
+  "meanings": [
+   "reside",
+   "to be",
+   "exist",
+   "live with"
+  ],
+  "strokes": 8,
+  "freq": 836,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "温",
+  "on": [
+   "おん"
+  ],
+  "kun": [
+   "あたた.か",
+   "あたた.かい",
+   "あたた.まる",
+   "あたた.める",
+   "ぬく"
+  ],
+  "meanings": [
+   "warm"
+  ],
+  "strokes": 12,
+  "freq": 838,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "雑",
+  "on": [
+   "ざつ",
+   "ぞう"
+  ],
+  "kun": [
+   "まじ.える",
+   "まじ.る"
+  ],
+  "meanings": [
+   "miscellaneous"
+  ],
+  "strokes": 14,
+  "freq": 839,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "招",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "まね.く"
+  ],
+  "meanings": [
+   "beckon",
+   "invite",
+   "summon",
+   "engage"
+  ],
+  "strokes": 8,
+  "freq": 840,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "季",
+  "on": [
+   "き"
+  ],
+  "kun": [],
+  "meanings": [
+   "seasons"
+  ],
+  "strokes": 8,
+  "freq": 842,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "困",
+  "on": [
+   "こん"
+  ],
+  "kun": [
+   "こま.る"
+  ],
+  "meanings": [
+   "quandary",
+   "become distressed",
+   "annoyed"
+  ],
+  "strokes": 7,
+  "freq": 843,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "星",
+  "on": [
+   "せい",
+   "しょう"
+  ],
+  "kun": [
+   "ほし",
+   "-ぼし"
+  ],
+  "meanings": [
+   "star",
+   "spot",
+   "dot",
+   "mark"
+  ],
+  "strokes": 9,
+  "freq": 844,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "永",
+  "on": [
+   "えい"
+  ],
+  "kun": [
+   "なが.い"
+  ],
+  "meanings": [
+   "eternity",
+   "long",
+   "lengthy"
+  ],
+  "strokes": 5,
+  "freq": 846,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "著",
+  "on": [
+   "ちょ",
+   "ちゃく"
+  ],
+  "kun": [
+   "あらわ.す",
+   "いちじる.しい"
+  ],
+  "meanings": [
+   "renowned",
+   "publish",
+   "write",
+   "remarkable"
+  ],
+  "strokes": 11,
+  "freq": 849,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "誌",
+  "on": [
+   "し"
+  ],
+  "kun": [],
+  "meanings": [
+   "document",
+   "records"
+  ],
+  "strokes": 14,
+  "freq": 851,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "庫",
+  "on": [
+   "こ",
+   "く"
+  ],
+  "kun": [
+   "くら"
+  ],
+  "meanings": [
+   "warehouse",
+   "storehouse"
+  ],
+  "strokes": 10,
+  "freq": 852,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "刊",
+  "on": [
+   "かん"
+  ],
+  "kun": [],
+  "meanings": [
+   "publish",
+   "carve",
+   "engrave"
+  ],
+  "strokes": 5,
+  "freq": 855,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "像",
+  "on": [
+   "ぞう"
+  ],
+  "kun": [],
+  "meanings": [
+   "statue",
+   "picture",
+   "image",
+   "figure"
+  ],
+  "strokes": 14,
+  "freq": 856,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "香",
+  "on": [
+   "こう",
+   "きょう"
+  ],
+  "kun": [
+   "か",
+   "かお.り",
+   "かお.る"
+  ],
+  "meanings": [
+   "incense",
+   "smell",
+   "perfume"
+  ],
+  "strokes": 9,
+  "freq": 859,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "欠",
+  "on": [
+   "けつ",
+   "けん"
+  ],
+  "kun": [
+   "か.ける",
+   "か.く"
+  ],
+  "meanings": [
+   "lack",
+   "gap",
+   "fail",
+   "yawning radical (no. 76)"
+  ],
+  "strokes": 4,
+  "freq": 860,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "更",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "さら",
+   "さら.に",
+   "ふ.ける",
+   "ふ.かす"
+  ],
+  "meanings": [
+   "grow late",
+   "night watch",
+   "sit up late",
+   "of course"
+  ],
+  "strokes": 7,
+  "freq": 861,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "坂",
+  "on": [
+   "はん"
+  ],
+  "kun": [
+   "さか"
+  ],
+  "meanings": [
+   "slope",
+   "incline",
+   "hill"
+  ],
+  "strokes": 7,
+  "freq": 865,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "刻",
+  "on": [
+   "こく"
+  ],
+  "kun": [
+   "きざ.む",
+   "きざ.み"
+  ],
+  "meanings": [
+   "engrave",
+   "cut fine",
+   "chop",
+   "hash"
+  ],
+  "strokes": 8,
+  "freq": 866,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "底",
+  "on": [
+   "てい"
+  ],
+  "kun": [
+   "そこ"
+  ],
+  "meanings": [
+   "bottom",
+   "sole",
+   "depth",
+   "bottom price"
+  ],
+  "strokes": 8,
+  "freq": 867,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "賛",
+  "on": [
+   "さん"
+  ],
+  "kun": [
+   "たす.ける",
+   "たた.える"
+  ],
+  "meanings": [
+   "approve",
+   "praise",
+   "title or inscription on picture",
+   "assist"
+  ],
+  "strokes": 15,
+  "freq": 868,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "抱",
+  "on": [
+   "ほう"
+  ],
+  "kun": [
+   "だ.く",
+   "いだ.く",
+   "かか.える"
+  ],
+  "meanings": [
+   "embrace",
+   "hug",
+   "hold in arms"
+  ],
+  "strokes": 8,
+  "freq": 871,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "犯",
+  "on": [
+   "はん",
+   "ぼん"
+  ],
+  "kun": [
+   "おか.す"
+  ],
+  "meanings": [
+   "crime",
+   "sin",
+   "offense"
+  ],
+  "strokes": 5,
+  "freq": 874,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "布",
+  "on": [
+   "ふ",
+   "ほ"
+  ],
+  "kun": [
+   "ぬの",
+   "し.く",
+   "きれ"
+  ],
+  "meanings": [
+   "linen",
+   "cloth",
+   "spread",
+   "distribute"
+  ],
+  "strokes": 5,
+  "freq": 877,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "恐",
+  "on": [
+   "きょう"
+  ],
+  "kun": [
+   "おそ.れる",
+   "おそ.る",
+   "おそ.ろしい",
+   "こわ.い",
+   "こわ.がる"
+  ],
+  "meanings": [
+   "fear",
+   "dread",
+   "awe"
+  ],
+  "strokes": 10,
+  "freq": 878,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "寺",
+  "on": [
+   "じ"
+  ],
+  "kun": [
+   "てら"
+  ],
+  "meanings": [
+   "Buddhist temple"
+  ],
+  "strokes": 6,
+  "freq": 879,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "息",
+  "on": [
+   "そく"
+  ],
+  "kun": [
+   "いき"
+  ],
+  "meanings": [
+   "breath",
+   "respiration",
+   "son",
+   "interest (on money)"
+  ],
+  "strokes": 10,
+  "freq": 882,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "宇",
+  "on": [
+   "う"
+  ],
+  "kun": [],
+  "meanings": [
+   "eaves",
+   "roof",
+   "house",
+   "heaven"
+  ],
+  "strokes": 6,
+  "freq": 883,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "戻",
+  "on": [
+   "れい"
+  ],
+  "kun": [
+   "もど.す",
+   "もど.る"
+  ],
+  "meanings": [
+   "re-",
+   "return",
+   "revert",
+   "resume"
+  ],
+  "strokes": 7,
+  "freq": 890,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "巨",
+  "on": [
+   "きょ"
+  ],
+  "kun": [],
+  "meanings": [
+   "gigantic",
+   "big",
+   "large",
+   "great"
+  ],
+  "strokes": 5,
+  "freq": 892,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "震",
+  "on": [
+   "しん"
+  ],
+  "kun": [
+   "ふる.う",
+   "ふる.える",
+   "ふる.わせる",
+   "ふる.わす"
+  ],
+  "meanings": [
+   "quake",
+   "shake",
+   "tremble",
+   "quiver"
+  ],
+  "strokes": 15,
+  "freq": 893,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "願",
+  "on": [
+   "がん"
+  ],
+  "kun": [
+   "ねが.う",
+   "-ねがい"
+  ],
+  "meanings": [
+   "petition",
+   "request",
+   "vow",
+   "wish"
+  ],
+  "strokes": 19,
+  "freq": 894,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "絵",
+  "on": [
+   "かい",
+   "え"
+  ],
+  "kun": [],
+  "meanings": [
+   "picture",
+   "drawing",
+   "painting",
+   "sketch"
+  ],
+  "strokes": 12,
+  "freq": 895,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "希",
+  "on": [
+   "き",
+   "け"
+  ],
+  "kun": [
+   "まれ",
+   "こいねが.う"
+  ],
+  "meanings": [
+   "hope",
+   "beg",
+   "request",
+   "pray"
+  ],
+  "strokes": 7,
+  "freq": 896,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "越",
+  "on": [
+   "えつ",
+   "おつ"
+  ],
+  "kun": [
+   "こ.す",
+   "-こ.す",
+   "-ご.し",
+   "こ.える",
+   "-ご.え"
+  ],
+  "meanings": [
+   "surpass",
+   "cross over",
+   "move to",
+   "exceed"
+  ],
+  "strokes": 12,
+  "freq": 897,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "欲",
+  "on": [
+   "よく"
+  ],
+  "kun": [
+   "ほっ.する",
+   "ほ.しい"
+  ],
+  "meanings": [
+   "longing",
+   "covetousness",
+   "greed",
+   "passion"
+  ],
+  "strokes": 11,
+  "freq": 902,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "痛",
+  "on": [
+   "つう"
+  ],
+  "kun": [
+   "いた.い",
+   "いた.む",
+   "いた.ましい",
+   "いた.める"
+  ],
+  "meanings": [
+   "pain",
+   "hurt",
+   "damage",
+   "bruise"
+  ],
+  "strokes": 12,
+  "freq": 903,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "触",
+  "on": [
+   "しょく"
+  ],
+  "kun": [
+   "ふ.れる",
+   "さわ.る",
+   "さわ"
+  ],
+  "meanings": [
+   "contact",
+   "touch",
+   "feel",
+   "hit"
+  ],
+  "strokes": 13,
+  "freq": 904,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "依",
+  "on": [
+   "い",
+   "え"
+  ],
+  "kun": [
+   "よ.る"
+  ],
+  "meanings": [
+   "reliant",
+   "depend on",
+   "consequently",
+   "therefore"
+  ],
+  "strokes": 8,
+  "freq": 906,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "汚",
+  "on": [
+   "お"
+  ],
+  "kun": [
+   "けが.す",
+   "けが.れる",
+   "けが.らわしい",
+   "よご.す",
+   "よご.れる",
+   "きたな.い"
+  ],
+  "meanings": [
+   "dirty",
+   "pollute",
+   "disgrace",
+   "rape"
+  ],
+  "strokes": 6,
+  "freq": 908,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "枚",
+  "on": [
+   "まい",
+   "ばい"
+  ],
+  "kun": [],
+  "meanings": [
+   "sheet of...",
+   "counter for flat thin objects or sheets"
+  ],
+  "strokes": 8,
+  "freq": 911,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "笑",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "わら.う",
+   "え.む"
+  ],
+  "meanings": [
+   "laugh"
+  ],
+  "strokes": 10,
+  "freq": 913,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "互",
+  "on": [
+   "ご"
+  ],
+  "kun": [
+   "たが.い",
+   "かたみ.に"
+  ],
+  "meanings": [
+   "mutually",
+   "reciprocally",
+   "together"
+  ],
+  "strokes": 4,
+  "freq": 914,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "複",
+  "on": [
+   "ふく"
+  ],
+  "kun": [],
+  "meanings": [
+   "duplicate",
+   "double",
+   "compound",
+   "multiple"
+  ],
+  "strokes": 14,
+  "freq": 915,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "郵",
+  "on": [
+   "ゆう"
+  ],
+  "kun": [],
+  "meanings": [
+   "mail",
+   "stagecoach stop"
+  ],
+  "strokes": 11,
+  "freq": 917,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "束",
+  "on": [
+   "そく"
+  ],
+  "kun": [
+   "たば",
+   "たば.ねる",
+   "つか",
+   "つか.ねる"
+  ],
+  "meanings": [
+   "bundle",
+   "sheaf",
+   "ream",
+   "tie in bundles"
+  ],
+  "strokes": 7,
+  "freq": 918,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "仲",
+  "on": [
+   "ちゅう"
+  ],
+  "kun": [
+   "なか"
+  ],
+  "meanings": [
+   "go-between",
+   "relationship"
+  ],
+  "strokes": 6,
+  "freq": 919,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "栄",
+  "on": [
+   "えい",
+   "よう"
+  ],
+  "kun": [
+   "さか.える",
+   "は.え",
+   "-ば.え",
+   "は.える",
+   "え"
+  ],
+  "meanings": [
+   "flourish",
+   "prosperity",
+   "honor",
+   "glory"
+  ],
+  "strokes": 9,
+  "freq": 920,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "札",
+  "on": [
+   "さつ"
+  ],
+  "kun": [
+   "ふだ"
+  ],
+  "meanings": [
+   "tag",
+   "paper money",
+   "counter for bonds",
+   "placard"
+  ],
+  "strokes": 5,
+  "freq": 921,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "似",
+  "on": [
+   "じ"
+  ],
+  "kun": [
+   "に.る",
+   "ひ.る"
+  ],
+  "meanings": [
+   "becoming",
+   "resemble",
+   "counterfeit",
+   "imitate"
+  ],
+  "strokes": 7,
+  "freq": 923,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "恵",
+  "on": [
+   "けい",
+   "え"
+  ],
+  "kun": [
+   "めぐ.む",
+   "めぐ.み"
+  ],
+  "meanings": [
+   "favor",
+   "blessing",
+   "grace",
+   "kindness"
+  ],
+  "strokes": 10,
+  "freq": 925,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "板",
+  "on": [
+   "はん",
+   "ばん"
+  ],
+  "kun": [
+   "いた"
+  ],
+  "meanings": [
+   "plank",
+   "board",
+   "plate",
+   "stage"
+  ],
+  "strokes": 8,
+  "freq": 926,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "列",
+  "on": [
+   "れつ",
+   "れ"
+  ],
+  "kun": [],
+  "meanings": [
+   "file",
+   "row",
+   "rank",
+   "tier"
+  ],
+  "strokes": 6,
+  "freq": 927,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "探",
+  "on": [
+   "たん"
+  ],
+  "kun": [
+   "さぐ.る",
+   "さが.す"
+  ],
+  "meanings": [
+   "grope",
+   "search",
+   "look for"
+  ],
+  "strokes": 11,
+  "freq": 930,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "逃",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "に.げる",
+   "に.がす",
+   "のが.す",
+   "のが.れる"
+  ],
+  "meanings": [
+   "escape",
+   "flee",
+   "shirk",
+   "evade"
+  ],
+  "strokes": 9,
+  "freq": 931,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "節",
+  "on": [
+   "せつ",
+   "せち"
+  ],
+  "kun": [
+   "ふし",
+   "-ぶし",
+   "のっと"
+  ],
+  "meanings": [
+   "node",
+   "season",
+   "period",
+   "occasion"
+  ],
+  "strokes": 13,
+  "freq": 934,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "骨",
+  "on": [
+   "こつ"
+  ],
+  "kun": [
+   "ほね"
+  ],
+  "meanings": [
+   "skeleton",
+   "bone",
+   "remains",
+   "frame"
+  ],
+  "strokes": 10,
+  "freq": 936,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "傾",
+  "on": [
+   "けい"
+  ],
+  "kun": [
+   "かたむ.く",
+   "かたむ.ける",
+   "かたぶ.く",
+   "かた.げる",
+   "かし.げる"
+  ],
+  "meanings": [
+   "lean",
+   "incline",
+   "tilt",
+   "trend"
+  ],
+  "strokes": 13,
+  "freq": 938,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "届",
+  "on": [
+   "かい"
+  ],
+  "kun": [
+   "とど.ける",
+   "-とど.け",
+   "とど.く"
+  ],
+  "meanings": [
+   "deliver",
+   "reach",
+   "arrive",
+   "report"
+  ],
+  "strokes": 8,
+  "freq": 939,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "遊",
+  "on": [
+   "ゆう",
+   "ゆ"
+  ],
+  "kun": [
+   "あそ.ぶ",
+   "あそ.ばす"
+  ],
+  "meanings": [
+   "play"
+  ],
+  "strokes": 12,
+  "freq": 941,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "迷",
+  "on": [
+   "めい"
+  ],
+  "kun": [
+   "まよ.う"
+  ],
+  "meanings": [
+   "astray",
+   "be perplexed",
+   "in doubt",
+   "lost"
+  ],
+  "strokes": 9,
+  "freq": 942,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "夢",
+  "on": [
+   "む",
+   "ぼう"
+  ],
+  "kun": [
+   "ゆめ",
+   "ゆめ.みる",
+   "くら.い"
+  ],
+  "meanings": [
+   "dream",
+   "vision",
+   "illusion"
+  ],
+  "strokes": 13,
+  "freq": 943,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "巻",
+  "on": [
+   "かん",
+   "けん"
+  ],
+  "kun": [
+   "ま.く",
+   "まき",
+   "ま.き"
+  ],
+  "meanings": [
+   "scroll",
+   "volume",
+   "book",
+   "part"
+  ],
+  "strokes": 9,
+  "freq": 944,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "君",
+  "on": [
+   "くん"
+  ],
+  "kun": [
+   "きみ",
+   "-ぎみ"
+  ],
+  "meanings": [
+   "mister",
+   "you",
+   "ruler",
+   "male name suffix"
+  ],
+  "strokes": 7,
+  "freq": 947,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "燃",
+  "on": [
+   "ねん"
+  ],
+  "kun": [
+   "も.える",
+   "も.やす",
+   "も.す"
+  ],
+  "meanings": [
+   "burn",
+   "blaze",
+   "glow"
+  ],
+  "strokes": 16,
+  "freq": 948,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "閉",
+  "on": [
+   "へい"
+  ],
+  "kun": [
+   "と.じる",
+   "と.ざす",
+   "し.める",
+   "し.まる",
+   "た.てる"
+  ],
+  "meanings": [
+   "closed",
+   "shut"
+  ],
+  "strokes": 11,
+  "freq": 951,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "緒",
+  "on": [
+   "しょ",
+   "ちょ"
+  ],
+  "kun": [
+   "お",
+   "いとぐち"
+  ],
+  "meanings": [
+   "thong",
+   "beginning",
+   "inception",
+   "end"
+  ],
+  "strokes": 14,
+  "freq": 952,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "包",
+  "on": [
+   "ほう"
+  ],
+  "kun": [
+   "つつ.む",
+   "くる.む"
+  ],
+  "meanings": [
+   "wrap",
+   "pack up",
+   "cover",
+   "conceal"
+  ],
+  "strokes": 5,
+  "freq": 954,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "駐",
+  "on": [
+   "ちゅう"
+  ],
+  "kun": [],
+  "meanings": [
+   "stop-over",
+   "reside in",
+   "resident"
+  ],
+  "strokes": 15,
+  "freq": 955,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "賃",
+  "on": [
+   "ちん"
+  ],
+  "kun": [],
+  "meanings": [
+   "fare",
+   "fee",
+   "hire",
+   "rent"
+  ],
+  "strokes": 13,
+  "freq": 961,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "折",
+  "on": [
+   "せつ",
+   "しゃく"
+  ],
+  "kun": [
+   "お.る",
+   "おり",
+   "お.り",
+   "-お.り",
+   "お.れる"
+  ],
+  "meanings": [
+   "fold",
+   "break",
+   "fracture",
+   "bend"
+  ],
+  "strokes": 7,
+  "freq": 962,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "紹",
+  "on": [
+   "しょう"
+  ],
+  "kun": [],
+  "meanings": [
+   "introduce",
+   "inherit",
+   "help"
+  ],
+  "strokes": 11,
+  "freq": 963,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "草",
+  "on": [
+   "そう"
+  ],
+  "kun": [
+   "くさ",
+   "くさ-",
+   "-ぐさ"
+  ],
+  "meanings": [
+   "grass",
+   "weeds",
+   "herbs",
+   "pasture"
+  ],
+  "strokes": 9,
+  "freq": 967,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "雇",
+  "on": [
+   "こ"
+  ],
+  "kun": [
+   "やと.う"
+  ],
+  "meanings": [
+   "employ",
+   "hire"
+  ],
+  "strokes": 12,
+  "freq": 975,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "暮",
+  "on": [
+   "ぼ"
+  ],
+  "kun": [
+   "く.れる",
+   "く.らす"
+  ],
+  "meanings": [
+   "evening",
+   "twilight",
+   "season's end",
+   "livelihood"
+  ],
+  "strokes": 14,
+  "freq": 978,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "替",
+  "on": [
+   "たい"
+  ],
+  "kun": [
+   "か.える",
+   "か.え-",
+   "か.わる"
+  ],
+  "meanings": [
+   "exchange",
+   "spare",
+   "substitute",
+   "per-"
+  ],
+  "strokes": 12,
+  "freq": 979,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "預",
+  "on": [
+   "よ"
+  ],
+  "kun": [
+   "あず.ける",
+   "あず.かる"
+  ],
+  "meanings": [
+   "deposit",
+   "custody",
+   "leave with",
+   "entrust to"
+  ],
+  "strokes": 13,
+  "freq": 981,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "焼",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "や.く",
+   "や.き",
+   "や.き-",
+   "-や.き",
+   "や.ける"
+  ],
+  "meanings": [
+   "bake",
+   "burning"
+  ],
+  "strokes": 12,
+  "freq": 982,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "簡",
+  "on": [
+   "かん",
+   "けん"
+  ],
+  "kun": [
+   "えら.ぶ",
+   "ふだ"
+  ],
+  "meanings": [
+   "simplicity",
+   "brevity"
+  ],
+  "strokes": 18,
+  "freq": 983,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "章",
+  "on": [
+   "しょう"
+  ],
+  "kun": [],
+  "meanings": [
+   "badge",
+   "chapter",
+   "composition",
+   "poem"
+  ],
+  "strokes": 11,
+  "freq": 990,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "臓",
+  "on": [
+   "ぞう"
+  ],
+  "kun": [
+   "はらわた"
+  ],
+  "meanings": [
+   "entrails",
+   "viscera",
+   "bowels"
+  ],
+  "strokes": 19,
+  "freq": 991,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "律",
+  "on": [
+   "りつ",
+   "りち",
+   "れつ"
+  ],
+  "kun": [],
+  "meanings": [
+   "rhythm",
+   "law",
+   "regulation",
+   "gauge"
+  ],
+  "strokes": 9,
+  "freq": 992,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "贈",
+  "on": [
+   "ぞう",
+   "そう"
+  ],
+  "kun": [
+   "おく.る"
+  ],
+  "meanings": [
+   "presents",
+   "send",
+   "give to",
+   "award to"
+  ],
+  "strokes": 18,
+  "freq": 1001,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "照",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "て.る",
+   "て.らす",
+   "て.れる"
+  ],
+  "meanings": [
+   "illuminate",
+   "shine",
+   "compare",
+   "bashful"
+  ],
+  "strokes": 13,
+  "freq": 1004,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "宙",
+  "on": [
+   "ちゅう"
+  ],
+  "kun": [],
+  "meanings": [
+   "mid-air",
+   "air",
+   "space",
+   "sky"
+  ],
+  "strokes": 8,
+  "freq": 1005,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "酒",
+  "on": [
+   "しゅ"
+  ],
+  "kun": [
+   "さけ",
+   "さか-"
+  ],
+  "meanings": [
+   "sake",
+   "alcohol"
+  ],
+  "strokes": 10,
+  "freq": 1006,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "薄",
+  "on": [
+   "はく"
+  ],
+  "kun": [
+   "うす.い",
+   "うす-",
+   "-うす",
+   "うす.める",
+   "うす.まる",
+   "うす.らぐ",
+   "うす.ら-",
+   "うす.れる",
+   "すすき"
+  ],
+  "meanings": [
+   "dilute",
+   "thin",
+   "weak (tea)",
+   "pampas grass"
+  ],
+  "strokes": 16,
+  "freq": 1009,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "群",
+  "on": [
+   "ぐん"
+  ],
+  "kun": [
+   "む.れる",
+   "む.れ",
+   "むら",
+   "むら.がる"
+  ],
+  "meanings": [
+   "flock",
+   "group",
+   "crowd",
+   "herd"
+  ],
+  "strokes": 13,
+  "freq": 1012,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "悲",
+  "on": [
+   "ひ"
+  ],
+  "kun": [
+   "かな.しい",
+   "かな.しむ"
+  ],
+  "meanings": [
+   "grieve",
+   "sad",
+   "deplore",
+   "regret"
+  ],
+  "strokes": 12,
+  "freq": 1014,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "秒",
+  "on": [
+   "びょう"
+  ],
+  "kun": [],
+  "meanings": [
+   "second (1/60 minute)"
+  ],
+  "strokes": 9,
+  "freq": 1015,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "操",
+  "on": [
+   "そう",
+   "さん"
+  ],
+  "kun": [
+   "みさお",
+   "あやつ.る"
+  ],
+  "meanings": [
+   "maneuver",
+   "manipulate",
+   "operate",
+   "steer"
+  ],
+  "strokes": 16,
+  "freq": 1016,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "奥",
+  "on": [
+   "おう"
+  ],
+  "kun": [
+   "おく",
+   "おく.まる",
+   "くま"
+  ],
+  "meanings": [
+   "heart",
+   "interior"
+  ],
+  "strokes": 12,
+  "freq": 1018,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "詰",
+  "on": [
+   "きつ",
+   "きち"
+  ],
+  "kun": [
+   "つ.める",
+   "つ.め",
+   "-づ.め",
+   "つ.まる",
+   "つ.む"
+  ],
+  "meanings": [
+   "packed",
+   "close",
+   "pressed",
+   "reprove"
+  ],
+  "strokes": 13,
+  "freq": 1020,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "晴",
+  "on": [
+   "せい"
+  ],
+  "kun": [
+   "は.れる",
+   "は.れ",
+   "は.れ-",
+   "-ば.れ",
+   "は.らす"
+  ],
+  "meanings": [
+   "clear up"
+  ],
+  "strokes": 12,
+  "freq": 1022,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "双",
+  "on": [
+   "そう"
+  ],
+  "kun": [
+   "ふた",
+   "たぐい",
+   "ならぶ",
+   "ふたつ"
+  ],
+  "meanings": [
+   "pair",
+   "set",
+   "comparison",
+   "counter for pairs"
+  ],
+  "strokes": 4,
+  "freq": 1029,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "刺",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "さ.す",
+   "さ.さる",
+   "さ.し",
+   "さし",
+   "とげ"
+  ],
+  "meanings": [
+   "thorn",
+   "pierce",
+   "stab",
+   "prick"
+  ],
+  "strokes": 8,
+  "freq": 1031,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "到",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "いた.る"
+  ],
+  "meanings": [
+   "arrival",
+   "proceed",
+   "reach",
+   "attain"
+  ],
+  "strokes": 8,
+  "freq": 1032,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "寝",
+  "on": [
+   "しん"
+  ],
+  "kun": [
+   "ね.る",
+   "ね.かす",
+   "い.ぬ",
+   "みたまや",
+   "や.める"
+  ],
+  "meanings": [
+   "lie down",
+   "sleep",
+   "rest",
+   "bed"
+  ],
+  "strokes": 13,
+  "freq": 1034,
+  "level": "N2",
+  "words": [
+   "w_26e044cea2"
+  ]
+ },
+ {
+  "kanji": "壁",
+  "on": [
+   "へき"
+  ],
+  "kun": [
+   "かべ"
+  ],
+  "meanings": [
+   "wall",
+   "lining (stomach)",
+   "fence"
+  ],
+  "strokes": 16,
+  "freq": 1037,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "仮",
+  "on": [
+   "か",
+   "け"
+  ],
+  "kun": [
+   "かり",
+   "かり-"
+  ],
+  "meanings": [
+   "sham",
+   "temporary",
+   "interim",
+   "assumed (name)"
+  ],
+  "strokes": 6,
+  "freq": 1039,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "純",
+  "on": [
+   "じゅん"
+  ],
+  "kun": [],
+  "meanings": [
+   "genuine",
+   "purity",
+   "innocence",
+   "net (profit)"
+  ],
+  "strokes": 10,
+  "freq": 1044,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "盗",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "ぬす.む",
+   "ぬす.み"
+  ],
+  "meanings": [
+   "steal",
+   "rob",
+   "pilfer"
+  ],
+  "strokes": 11,
+  "freq": 1051,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "吸",
+  "on": [
+   "きゅう"
+  ],
+  "kun": [
+   "す.う"
+  ],
+  "meanings": [
+   "suck",
+   "imbibe",
+   "inhale",
+   "sip"
+  ],
+  "strokes": 6,
+  "freq": 1054,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "看",
+  "on": [
+   "かん"
+  ],
+  "kun": [
+   "み.る"
+  ],
+  "meanings": [
+   "watch over",
+   "see"
+  ],
+  "strokes": 9,
+  "freq": 1060,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "翌",
+  "on": [
+   "よく"
+  ],
+  "kun": [],
+  "meanings": [
+   "the following",
+   "next"
+  ],
+  "strokes": 11,
+  "freq": 1070,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "陽",
+  "on": [
+   "よう"
+  ],
+  "kun": [
+   "ひ"
+  ],
+  "meanings": [
+   "sunshine",
+   "yang principle",
+   "positive",
+   "male"
+  ],
+  "strokes": 12,
+  "freq": 1071,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "快",
+  "on": [
+   "かい"
+  ],
+  "kun": [
+   "こころよ.い"
+  ],
+  "meanings": [
+   "cheerful",
+   "pleasant",
+   "agreeable",
+   "comfortable"
+  ],
+  "strokes": 7,
+  "freq": 1074,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "片",
+  "on": [
+   "へん"
+  ],
+  "kun": [
+   "かた-",
+   "かた"
+  ],
+  "meanings": [
+   "one-sided",
+   "leaf",
+   "sheet",
+   "right-side kata radical (no. 91)"
+  ],
+  "strokes": 4,
+  "freq": 1076,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "敬",
+  "on": [
+   "けい",
+   "きょう"
+  ],
+  "kun": [
+   "うやま.う"
+  ],
+  "meanings": [
+   "awe",
+   "respect",
+   "honor",
+   "revere"
+  ],
+  "strokes": 12,
+  "freq": 1078,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "悩",
+  "on": [
+   "のう"
+  ],
+  "kun": [
+   "なや.む",
+   "なや.ます",
+   "なや.ましい",
+   "なやみ"
+  ],
+  "meanings": [
+   "trouble",
+   "worry",
+   "in pain",
+   "distress"
+  ],
+  "strokes": 10,
+  "freq": 1084,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "泉",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "いずみ"
+  ],
+  "meanings": [
+   "spring",
+   "fountain"
+  ],
+  "strokes": 9,
+  "freq": 1086,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "御",
+  "on": [
+   "ぎょ",
+   "ご"
+  ],
+  "kun": [
+   "おん-",
+   "お-",
+   "み-"
+  ],
+  "meanings": [
+   "honorable",
+   "manipulate",
+   "govern"
+  ],
+  "strokes": 12,
+  "freq": 1087,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "皮",
+  "on": [
+   "ひ"
+  ],
+  "kun": [
+   "かわ"
+  ],
+  "meanings": [
+   "pelt",
+   "skin",
+   "hide",
+   "leather"
+  ],
+  "strokes": 5,
+  "freq": 1092,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "漁",
+  "on": [
+   "ぎょ",
+   "りょう"
+  ],
+  "kun": [
+   "あさ.る"
+  ],
+  "meanings": [
+   "fishing",
+   "fishery"
+  ],
+  "strokes": 14,
+  "freq": 1094,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "荒",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "あ.らす",
+   "あ.れる",
+   "あら.い",
+   "すさ.ぶ",
+   "すさ.む",
+   "あ.らし"
+  ],
+  "meanings": [
+   "laid waste",
+   "rough",
+   "rude",
+   "wild"
+  ],
+  "strokes": 9,
+  "freq": 1099,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "貯",
+  "on": [
+   "ちょ"
+  ],
+  "kun": [
+   "た.める",
+   "たくわ.える"
+  ],
+  "meanings": [
+   "savings",
+   "store",
+   "lay in",
+   "keep"
+  ],
+  "strokes": 12,
+  "freq": 1100,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "硬",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "かた.い"
+  ],
+  "meanings": [
+   "stiff",
+   "hard"
+  ],
+  "strokes": 12,
+  "freq": 1101,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "歯",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "よわい",
+   "は",
+   "よわ.い",
+   "よわい.する"
+  ],
+  "meanings": [
+   "tooth",
+   "cog"
+  ],
+  "strokes": 12,
+  "freq": 1106,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "埋",
+  "on": [
+   "まい"
+  ],
+  "kun": [
+   "う.める",
+   "う.まる",
+   "う.もれる",
+   "うず.める",
+   "うず.まる",
+   "い.ける"
+  ],
+  "meanings": [
+   "bury",
+   "be filled up",
+   "embedded"
+  ],
+  "strokes": 10,
+  "freq": 1110,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "柱",
+  "on": [
+   "ちゅう"
+  ],
+  "kun": [
+   "はしら"
+  ],
+  "meanings": [
+   "pillar",
+   "post",
+   "cylinder",
+   "support"
+  ],
+  "strokes": 9,
+  "freq": 1119,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "祭",
+  "on": [
+   "さい"
+  ],
+  "kun": [
+   "まつ.る",
+   "まつ.り",
+   "まつり"
+  ],
+  "meanings": [
+   "ritual",
+   "offer prayers",
+   "celebrate",
+   "deify"
+  ],
+  "strokes": 11,
+  "freq": 1124,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "袋",
+  "on": [
+   "たい",
+   "だい"
+  ],
+  "kun": [
+   "ふくろ"
+  ],
+  "meanings": [
+   "sack",
+   "bag",
+   "pouch"
+  ],
+  "strokes": 11,
+  "freq": 1125,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "忘",
+  "on": [
+   "ぼう"
+  ],
+  "kun": [
+   "わす.れる"
+  ],
+  "meanings": [
+   "forget"
+  ],
+  "strokes": 7,
+  "freq": 1129,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "雪",
+  "on": [
+   "せつ"
+  ],
+  "kun": [
+   "ゆき"
+  ],
+  "meanings": [
+   "snow"
+  ],
+  "strokes": 11,
+  "freq": 1131,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "筆",
+  "on": [
+   "ひつ"
+  ],
+  "kun": [
+   "ふで"
+  ],
+  "meanings": [
+   "writing brush",
+   "writing",
+   "painting brush",
+   "handwriting"
+  ],
+  "strokes": 12,
+  "freq": 1132,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "吹",
+  "on": [
+   "すい"
+  ],
+  "kun": [
+   "ふ.く"
+  ],
+  "meanings": [
+   "blow",
+   "breathe",
+   "puff",
+   "emit"
+  ],
+  "strokes": 7,
+  "freq": 1133,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "訓",
+  "on": [
+   "くん",
+   "きん"
+  ],
+  "kun": [
+   "おし.える",
+   "よ.む",
+   "くん.ずる"
+  ],
+  "meanings": [
+   "instruction",
+   "Japanese character reading",
+   "explanation",
+   "read"
+  ],
+  "strokes": 10,
+  "freq": 1134,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "浴",
+  "on": [
+   "よく"
+  ],
+  "kun": [
+   "あ.びる",
+   "あ.びせる"
+  ],
+  "meanings": [
+   "bathe",
+   "be favored with",
+   "bask in"
+  ],
+  "strokes": 10,
+  "freq": 1136,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "童",
+  "on": [
+   "どう"
+  ],
+  "kun": [
+   "わらべ"
+  ],
+  "meanings": [
+   "juvenile",
+   "child"
+  ],
+  "strokes": 12,
+  "freq": 1138,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "宝",
+  "on": [
+   "ほう"
+  ],
+  "kun": [
+   "たから"
+  ],
+  "meanings": [
+   "treasure",
+   "wealth",
+   "valuables"
+  ],
+  "strokes": 8,
+  "freq": 1139,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "封",
+  "on": [
+   "ふう",
+   "ほう"
+  ],
+  "kun": [],
+  "meanings": [
+   "seal",
+   "closing"
+  ],
+  "strokes": 9,
+  "freq": 1143,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "胸",
+  "on": [
+   "きょう"
+  ],
+  "kun": [
+   "むね",
+   "むな-"
+  ],
+  "meanings": [
+   "bosom",
+   "breast",
+   "chest",
+   "heart"
+  ],
+  "strokes": 10,
+  "freq": 1144,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "娘",
+  "on": [
+   "じょう"
+  ],
+  "kun": [
+   "むすめ",
+   "こ"
+  ],
+  "meanings": [
+   "daughter",
+   "girl"
+  ],
+  "strokes": 10,
+  "freq": 1145,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "砂",
+  "on": [
+   "さ",
+   "しゃ"
+  ],
+  "kun": [
+   "すな"
+  ],
+  "meanings": [
+   "sand"
+  ],
+  "strokes": 9,
+  "freq": 1146,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "塩",
+  "on": [
+   "えん"
+  ],
+  "kun": [
+   "しお"
+  ],
+  "meanings": [
+   "salt"
+  ],
+  "strokes": 13,
+  "freq": 1148,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "誤",
+  "on": [
+   "ご"
+  ],
+  "kun": [
+   "あやま.る",
+   "-あやま.る"
+  ],
+  "meanings": [
+   "mistake",
+   "err",
+   "do wrong",
+   "mislead"
+  ],
+  "strokes": 14,
+  "freq": 1150,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "賢",
+  "on": [
+   "けん"
+  ],
+  "kun": [
+   "かしこ.い"
+  ],
+  "meanings": [
+   "intelligent",
+   "wise",
+   "wisdom",
+   "cleverness"
+  ],
+  "strokes": 16,
+  "freq": 1159,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "腕",
+  "on": [
+   "わん"
+  ],
+  "kun": [
+   "うで"
+  ],
+  "meanings": [
+   "arm",
+   "ability",
+   "talent"
+  ],
+  "strokes": 12,
+  "freq": 1163,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "較",
+  "on": [
+   "かく",
+   "こう"
+  ],
+  "kun": [
+   "くら.べる"
+  ],
+  "meanings": [
+   "contrast",
+   "compare"
+  ],
+  "strokes": 13,
+  "freq": 1172,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "兆",
+  "on": [
+   "ちょう"
+  ],
+  "kun": [
+   "きざ.す",
+   "きざ.し"
+  ],
+  "meanings": [
+   "portent",
+   "10**12",
+   "trillion",
+   "sign"
+  ],
+  "strokes": 6,
+  "freq": 1174,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "床",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "とこ",
+   "ゆか"
+  ],
+  "meanings": [
+   "bed",
+   "counter for beds",
+   "floor",
+   "padding"
+  ],
+  "strokes": 7,
+  "freq": 1175,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "畑",
+  "on": [],
+  "kun": [
+   "はた",
+   "はたけ",
+   "-ばたけ"
+  ],
+  "meanings": [
+   "farm",
+   "field",
+   "garden",
+   "one's specialty"
+  ],
+  "strokes": 9,
+  "freq": 1176,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "慣",
+  "on": [
+   "かん"
+  ],
+  "kun": [
+   "な.れる",
+   "な.らす"
+  ],
+  "meanings": [
+   "accustomed",
+   "get used to",
+   "become experienced"
+  ],
+  "strokes": 14,
+  "freq": 1177,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "毛",
+  "on": [
+   "もう"
+  ],
+  "kun": [
+   "け"
+  ],
+  "meanings": [
+   "fur",
+   "hair",
+   "feather",
+   "down"
+  ],
+  "strokes": 4,
+  "freq": 1179,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "緑",
+  "on": [
+   "りょく",
+   "ろく"
+  ],
+  "kun": [
+   "みどり"
+  ],
+  "meanings": [
+   "green"
+  ],
+  "strokes": 14,
+  "freq": 1180,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "尊",
+  "on": [
+   "そん"
+  ],
+  "kun": [
+   "たっと.い",
+   "とうと.い",
+   "たっと.ぶ",
+   "とうと.ぶ"
+  ],
+  "meanings": [
+   "revered",
+   "valuable",
+   "precious",
+   "noble"
+  ],
+  "strokes": 12,
+  "freq": 1181,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "祝",
+  "on": [
+   "しゅく",
+   "しゅう"
+  ],
+  "kun": [
+   "いわ.う"
+  ],
+  "meanings": [
+   "celebrate",
+   "congratulate"
+  ],
+  "strokes": 9,
+  "freq": 1184,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "礼",
+  "on": [
+   "れい",
+   "らい"
+  ],
+  "kun": [],
+  "meanings": [
+   "salute",
+   "bow",
+   "ceremony",
+   "thanks"
+  ],
+  "strokes": 5,
+  "freq": 1185,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "窓",
+  "on": [
+   "そう",
+   "す"
+  ],
+  "kun": [
+   "まど",
+   "てんまど",
+   "けむだし"
+  ],
+  "meanings": [
+   "window",
+   "pane"
+  ],
+  "strokes": 11,
+  "freq": 1186,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "柔",
+  "on": [
+   "じゅう",
+   "にゅう"
+  ],
+  "kun": [
+   "やわ.らか",
+   "やわ.らかい",
+   "やわ",
+   "やわ.ら"
+  ],
+  "meanings": [
+   "tender",
+   "weakness",
+   "gentleness",
+   "softness"
+  ],
+  "strokes": 9,
+  "freq": 1187,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "昔",
+  "on": [
+   "せき",
+   "しゃく"
+  ],
+  "kun": [
+   "むかし"
+  ],
+  "meanings": [
+   "once upon a time",
+   "antiquity",
+   "old times"
+  ],
+  "strokes": 8,
+  "freq": 1197,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "殿",
+  "on": [
+   "でん",
+   "てん"
+  ],
+  "kun": [
+   "との",
+   "-どの"
+  ],
+  "meanings": [
+   "Mr.",
+   "hall",
+   "mansion",
+   "palace"
+  ],
+  "strokes": 13,
+  "freq": 1199,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "濃",
+  "on": [
+   "のう"
+  ],
+  "kun": [
+   "こ.い"
+  ],
+  "meanings": [
+   "concentrated",
+   "thick",
+   "dark",
+   "undiluted"
+  ],
+  "strokes": 16,
+  "freq": 1200,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "液",
+  "on": [
+   "えき"
+  ],
+  "kun": [],
+  "meanings": [
+   "fluid",
+   "liquid",
+   "juice",
+   "sap"
+  ],
+  "strokes": 11,
+  "freq": 1210,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "貧",
+  "on": [
+   "ひん",
+   "びん"
+  ],
+  "kun": [
+   "まず.しい"
+  ],
+  "meanings": [
+   "poverty",
+   "poor"
+  ],
+  "strokes": 11,
+  "freq": 1211,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "衣",
+  "on": [
+   "い",
+   "え"
+  ],
+  "kun": [
+   "ころも",
+   "きぬ",
+   "-ぎ"
+  ],
+  "meanings": [
+   "garment",
+   "clothes",
+   "dressing"
+  ],
+  "strokes": 6,
+  "freq": 1214,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "肩",
+  "on": [
+   "けん"
+  ],
+  "kun": [
+   "かた"
+  ],
+  "meanings": [
+   "shoulder"
+  ],
+  "strokes": 8,
+  "freq": 1215,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "零",
+  "on": [
+   "れい"
+  ],
+  "kun": [
+   "ぜろ",
+   "こぼ.す",
+   "こぼ.れる"
+  ],
+  "meanings": [
+   "zero",
+   "spill",
+   "overflow",
+   "nothing"
+  ],
+  "strokes": 13,
+  "freq": 1217,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "怒",
+  "on": [
+   "ど",
+   "ぬ"
+  ],
+  "kun": [
+   "いか.る",
+   "おこ.る"
+  ],
+  "meanings": [
+   "angry",
+   "be offended"
+  ],
+  "strokes": 9,
+  "freq": 1221,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "泳",
+  "on": [
+   "えい"
+  ],
+  "kun": [
+   "およ.ぐ"
+  ],
+  "meanings": [
+   "swim"
+  ],
+  "strokes": 8,
+  "freq": 1223,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "祖",
+  "on": [
+   "そ"
+  ],
+  "kun": [],
+  "meanings": [
+   "ancestor",
+   "pioneer",
+   "founder"
+  ],
+  "strokes": 9,
+  "freq": 1226,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "幼",
+  "on": [
+   "よう"
+  ],
+  "kun": [
+   "おさな.い"
+  ],
+  "meanings": [
+   "infancy",
+   "childhood"
+  ],
+  "strokes": 5,
+  "freq": 1227,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "荷",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "に"
+  ],
+  "meanings": [
+   "baggage",
+   "shoulder-pole load",
+   "bear (a burden)",
+   "shoulder (a gun)"
+  ],
+  "strokes": 10,
+  "freq": 1230,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "泊",
+  "on": [
+   "はく"
+  ],
+  "kun": [
+   "と.まる",
+   "と.める"
+  ],
+  "meanings": [
+   "overnight stay",
+   "put up at",
+   "ride at anchor"
+  ],
+  "strokes": 8,
+  "freq": 1233,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "杯",
+  "on": [
+   "はい"
+  ],
+  "kun": [
+   "さかずき"
+  ],
+  "meanings": [
+   "counter for cupfuls",
+   "wine glass",
+   "glass",
+   "toast"
+  ],
+  "strokes": 8,
+  "freq": 1235,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "黄",
+  "on": [
+   "こう",
+   "おう"
+  ],
+  "kun": [
+   "き",
+   "こ-"
+  ],
+  "meanings": [
+   "yellow"
+  ],
+  "strokes": 11,
+  "freq": 1240,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "甘",
+  "on": [
+   "かん"
+  ],
+  "kun": [
+   "あま.い",
+   "あま.える",
+   "あま.やかす",
+   "うま.い"
+  ],
+  "meanings": [
+   "sweet",
+   "coax",
+   "pamper",
+   "be content"
+  ],
+  "strokes": 5,
+  "freq": 1248,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "臣",
+  "on": [
+   "しん",
+   "じん"
+  ],
+  "kun": [],
+  "meanings": [
+   "retainer",
+   "subject"
+  ],
+  "strokes": 7,
+  "freq": 1249,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "浅",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "あさ.い"
+  ],
+  "meanings": [
+   "shallow",
+   "superficial",
+   "frivolous",
+   "wretched"
+  ],
+  "strokes": 9,
+  "freq": 1253,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "掃",
+  "on": [
+   "そう",
+   "しゅ"
+  ],
+  "kun": [
+   "は.く"
+  ],
+  "meanings": [
+   "sweep",
+   "brush"
+  ],
+  "strokes": 11,
+  "freq": 1255,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "雲",
+  "on": [
+   "うん"
+  ],
+  "kun": [
+   "くも",
+   "-ぐも"
+  ],
+  "meanings": [
+   "cloud"
+  ],
+  "strokes": 12,
+  "freq": 1256,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "掘",
+  "on": [
+   "くつ"
+  ],
+  "kun": [
+   "ほ.る"
+  ],
+  "meanings": [
+   "dig",
+   "delve",
+   "excavate"
+  ],
+  "strokes": 11,
+  "freq": 1257,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "疲",
+  "on": [
+   "ひ"
+  ],
+  "kun": [
+   "つか.れる",
+   "-づか.れ",
+   "つか.らす"
+  ],
+  "meanings": [
+   "exhausted",
+   "tire",
+   "weary"
+  ],
+  "strokes": 10,
+  "freq": 1263,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "捨",
+  "on": [
+   "しゃ"
+  ],
+  "kun": [
+   "す.てる"
+  ],
+  "meanings": [
+   "discard",
+   "throw away",
+   "abandon",
+   "resign"
+  ],
+  "strokes": 11,
+  "freq": 1266,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "皆",
+  "on": [
+   "かい"
+  ],
+  "kun": [
+   "みな",
+   "みんな"
+  ],
+  "meanings": [
+   "all",
+   "everything"
+  ],
+  "strokes": 9,
+  "freq": 1267,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "軟",
+  "on": [
+   "なん"
+  ],
+  "kun": [
+   "やわ.らか",
+   "やわ.らかい"
+  ],
+  "meanings": [
+   "soft"
+  ],
+  "strokes": 11,
+  "freq": 1269,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "沈",
+  "on": [
+   "ちん",
+   "じん"
+  ],
+  "kun": [
+   "しず.む",
+   "しず.める"
+  ],
+  "meanings": [
+   "sink",
+   "be submerged",
+   "subside",
+   "be depressed"
+  ],
+  "strokes": 7,
+  "freq": 1271,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "鳴",
+  "on": [
+   "めい"
+  ],
+  "kun": [
+   "な.く",
+   "な.る",
+   "な.らす"
+  ],
+  "meanings": [
+   "chirp",
+   "cry",
+   "bark",
+   "sound"
+  ],
+  "strokes": 14,
+  "freq": 1279,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "凍",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "こお.る",
+   "こご.える",
+   "こご.る",
+   "い.てる",
+   "し.みる"
+  ],
+  "meanings": [
+   "frozen",
+   "congeal",
+   "refrigerate"
+  ],
+  "strokes": 10,
+  "freq": 1284,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "腹",
+  "on": [
+   "ふく"
+  ],
+  "kun": [
+   "はら"
+  ],
+  "meanings": [
+   "abdomen",
+   "belly",
+   "stomach"
+  ],
+  "strokes": 13,
+  "freq": 1286,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "乳",
+  "on": [
+   "にゅう"
+  ],
+  "kun": [
+   "ちち",
+   "ち"
+  ],
+  "meanings": [
+   "milk",
+   "breasts"
+  ],
+  "strokes": 8,
+  "freq": 1289,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "煙",
+  "on": [
+   "えん"
+  ],
+  "kun": [
+   "けむ.る",
+   "けむり",
+   "けむ.い"
+  ],
+  "meanings": [
+   "smoke"
+  ],
+  "strokes": 13,
+  "freq": 1290,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "恋",
+  "on": [
+   "れん"
+  ],
+  "kun": [
+   "こ.う",
+   "こい",
+   "こい.しい"
+  ],
+  "meanings": [
+   "romance",
+   "in love",
+   "yearn for",
+   "miss"
+  ],
+  "strokes": 10,
+  "freq": 1296,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "紅",
+  "on": [
+   "こう",
+   "く"
+  ],
+  "kun": [
+   "べに",
+   "くれない",
+   "あか.い"
+  ],
+  "meanings": [
+   "crimson",
+   "deep red"
+  ],
+  "strokes": 9,
+  "freq": 1299,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "郊",
+  "on": [
+   "こう"
+  ],
+  "kun": [],
+  "meanings": [
+   "outskirts",
+   "suburbs",
+   "rural area"
+  ],
+  "strokes": 9,
+  "freq": 1304,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "腰",
+  "on": [
+   "よう"
+  ],
+  "kun": [
+   "こし"
+  ],
+  "meanings": [
+   "loins",
+   "hips",
+   "waist",
+   "low wainscoting"
+  ],
+  "strokes": 13,
+  "freq": 1306,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "炭",
+  "on": [
+   "たん"
+  ],
+  "kun": [
+   "すみ"
+  ],
+  "meanings": [
+   "charcoal",
+   "coal"
+  ],
+  "strokes": 9,
+  "freq": 1307,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "踊",
+  "on": [
+   "よう"
+  ],
+  "kun": [
+   "おど.る"
+  ],
+  "meanings": [
+   "jump",
+   "dance",
+   "leap",
+   "skip"
+  ],
+  "strokes": 14,
+  "freq": 1308,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "冊",
+  "on": [
+   "さつ",
+   "さく"
+  ],
+  "kun": [
+   "ふみ"
+  ],
+  "meanings": [
+   "tome",
+   "counter for books",
+   "volume"
+  ],
+  "strokes": 5,
+  "freq": 1313,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "眠",
+  "on": [
+   "みん"
+  ],
+  "kun": [
+   "ねむ.る",
+   "ねむ.い"
+  ],
+  "meanings": [
+   "sleep",
+   "die",
+   "sleepy"
+  ],
+  "strokes": 10,
+  "freq": 1315,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "勇",
+  "on": [
+   "ゆう"
+  ],
+  "kun": [
+   "いさ.む"
+  ],
+  "meanings": [
+   "courage",
+   "cheer up",
+   "be in high spirits",
+   "bravery"
+  ],
+  "strokes": 9,
+  "freq": 1319,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "械",
+  "on": [
+   "かい"
+  ],
+  "kun": [
+   "かせ"
+  ],
+  "meanings": [
+   "contraption",
+   "fetter",
+   "machine",
+   "instrument"
+  ],
+  "strokes": 11,
+  "freq": 1321,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "怖",
+  "on": [
+   "ふ",
+   "ほ"
+  ],
+  "kun": [
+   "こわ.い",
+   "こわ.がる",
+   "お.じる",
+   "おそ.れる"
+  ],
+  "meanings": [
+   "dreadful",
+   "be frightened",
+   "fearful"
+  ],
+  "strokes": 8,
+  "freq": 1325,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "珍",
+  "on": [
+   "ちん"
+  ],
+  "kun": [
+   "めずら.しい",
+   "たから"
+  ],
+  "meanings": [
+   "rare",
+   "curious",
+   "strange"
+  ],
+  "strokes": 9,
+  "freq": 1330,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "卵",
+  "on": [
+   "らん"
+  ],
+  "kun": [
+   "たまご"
+  ],
+  "meanings": [
+   "egg",
+   "ovum",
+   "spawn",
+   "roe"
+  ],
+  "strokes": 7,
+  "freq": 1342,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "湖",
+  "on": [
+   "こ"
+  ],
+  "kun": [
+   "みずうみ"
+  ],
+  "meanings": [
+   "lake"
+  ],
+  "strokes": 12,
+  "freq": 1344,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "狭",
+  "on": [
+   "きょう",
+   "こう"
+  ],
+  "kun": [
+   "せま.い",
+   "せば.める",
+   "せば.まる",
+   "さ"
+  ],
+  "meanings": [
+   "cramped",
+   "narrow",
+   "contract",
+   "tight"
+  ],
+  "strokes": 9,
+  "freq": 1346,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "喫",
+  "on": [
+   "きつ"
+  ],
+  "kun": [
+   "の.む"
+  ],
+  "meanings": [
+   "consume",
+   "eat",
+   "drink",
+   "smoke"
+  ],
+  "strokes": 12,
+  "freq": 1347,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "干",
+  "on": [
+   "かん"
+  ],
+  "kun": [
+   "ほ.す",
+   "ほ.し-",
+   "-ぼ.し",
+   "ひ.る"
+  ],
+  "meanings": [
+   "dry",
+   "parch",
+   "ebb",
+   "recede"
+  ],
+  "strokes": 3,
+  "freq": 1349,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "頂",
+  "on": [
+   "ちょう"
+  ],
+  "kun": [
+   "いただ.く",
+   "いただき"
+  ],
+  "meanings": [
+   "place on the head",
+   "receive",
+   "top of head",
+   "top"
+  ],
+  "strokes": 11,
+  "freq": 1350,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "虫",
+  "on": [
+   "ちゅう",
+   "き"
+  ],
+  "kun": [
+   "むし"
+  ],
+  "meanings": [
+   "insect",
+   "bug",
+   "temper"
+  ],
+  "strokes": 6,
+  "freq": 1351,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "刷",
+  "on": [
+   "さつ"
+  ],
+  "kun": [
+   "す.る",
+   "-ず.り",
+   "-ずり",
+   "は.く"
+  ],
+  "meanings": [
+   "printing",
+   "print",
+   "brush"
+  ],
+  "strokes": 8,
+  "freq": 1352,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "湯",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "ゆ"
+  ],
+  "meanings": [
+   "hot water",
+   "bath",
+   "hot spring"
+  ],
+  "strokes": 12,
+  "freq": 1356,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "箱",
+  "on": [
+   "そう"
+  ],
+  "kun": [
+   "はこ"
+  ],
+  "meanings": [
+   "box",
+   "chest",
+   "case",
+   "bin"
+  ],
+  "strokes": 15,
+  "freq": 1357,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "溶",
+  "on": [
+   "よう"
+  ],
+  "kun": [
+   "と.ける",
+   "と.かす",
+   "と.く"
+  ],
+  "meanings": [
+   "melt",
+   "dissolve",
+   "thaw"
+  ],
+  "strokes": 13,
+  "freq": 1364,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "暖",
+  "on": [
+   "だん",
+   "のん"
+  ],
+  "kun": [
+   "あたた.か",
+   "あたた.かい",
+   "あたた.まる",
+   "あたた.める"
+  ],
+  "meanings": [
+   "warmth"
+  ],
+  "strokes": 13,
+  "freq": 1371,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "鉱",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "あらがね"
+  ],
+  "meanings": [
+   "mineral",
+   "ore"
+  ],
+  "strokes": 13,
+  "freq": 1376,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "泣",
+  "on": [
+   "きゅう"
+  ],
+  "kun": [
+   "な.く"
+  ],
+  "meanings": [
+   "cry",
+   "weep",
+   "moan"
+  ],
+  "strokes": 8,
+  "freq": 1380,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "涙",
+  "on": [
+   "るい",
+   "れい"
+  ],
+  "kun": [
+   "なみだ"
+  ],
+  "meanings": [
+   "tears",
+   "sympathy"
+  ],
+  "strokes": 10,
+  "freq": 1381,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "匹",
+  "on": [
+   "ひつ"
+  ],
+  "kun": [
+   "ひき"
+  ],
+  "meanings": [
+   "equal",
+   "head",
+   "counter for small animals",
+   "roll of cloth"
+  ],
+  "strokes": 4,
+  "freq": 1384,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "孫",
+  "on": [
+   "そん"
+  ],
+  "kun": [
+   "まご"
+  ],
+  "meanings": [
+   "grandchild",
+   "descendants"
+  ],
+  "strokes": 10,
+  "freq": 1388,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "鋭",
+  "on": [
+   "えい"
+  ],
+  "kun": [
+   "するど.い"
+  ],
+  "meanings": [
+   "pointed",
+   "sharpness",
+   "edge",
+   "weapon"
+  ],
+  "strokes": 15,
+  "freq": 1395,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "枝",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "えだ"
+  ],
+  "meanings": [
+   "bough",
+   "branch",
+   "twig",
+   "limb"
+  ],
+  "strokes": 8,
+  "freq": 1401,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "塗",
+  "on": [
+   "と"
+  ],
+  "kun": [
+   "ぬ.る",
+   "ぬ.り",
+   "まみ.れる"
+  ],
+  "meanings": [
+   "paint",
+   "plaster",
+   "daub",
+   "smear"
+  ],
+  "strokes": 13,
+  "freq": 1414,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "軒",
+  "on": [
+   "けん"
+  ],
+  "kun": [
+   "のき"
+  ],
+  "meanings": [
+   "flats",
+   "counter for houses",
+   "eaves"
+  ],
+  "strokes": 10,
+  "freq": 1416,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "毒",
+  "on": [
+   "どく"
+  ],
+  "kun": [],
+  "meanings": [
+   "poison",
+   "virus",
+   "venom",
+   "germ"
+  ],
+  "strokes": 8,
+  "freq": 1419,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "晩",
+  "on": [
+   "ばん"
+  ],
+  "kun": [],
+  "meanings": [
+   "nightfall",
+   "night"
+  ],
+  "strokes": 12,
+  "freq": 1424,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "叫",
+  "on": [
+   "きょう"
+  ],
+  "kun": [
+   "さけ.ぶ"
+  ],
+  "meanings": [
+   "shout",
+   "exclaim",
+   "yell"
+  ],
+  "strokes": 6,
+  "freq": 1426,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "拝",
+  "on": [
+   "はい"
+  ],
+  "kun": [
+   "おが.む",
+   "おろが.む"
+  ],
+  "meanings": [
+   "worship",
+   "adore",
+   "pray to"
+  ],
+  "strokes": 8,
+  "freq": 1443,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "氷",
+  "on": [
+   "ひょう"
+  ],
+  "kun": [
+   "こおり",
+   "ひ",
+   "こお.る"
+  ],
+  "meanings": [
+   "icicle",
+   "ice",
+   "hail",
+   "freeze"
+  ],
+  "strokes": 5,
+  "freq": 1450,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "乾",
+  "on": [
+   "かん",
+   "けん"
+  ],
+  "kun": [
+   "かわ.く",
+   "かわ.かす",
+   "ほ.す",
+   "ひ.る",
+   "いぬい"
+  ],
+  "meanings": [
+   "drought",
+   "dry",
+   "desiccate",
+   "drink up"
+  ],
+  "strokes": 11,
+  "freq": 1453,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "棒",
+  "on": [
+   "ぼう"
+  ],
+  "kun": [],
+  "meanings": [
+   "rod",
+   "stick",
+   "cane",
+   "pole"
+  ],
+  "strokes": 12,
+  "freq": 1455,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "祈",
+  "on": [
+   "き"
+  ],
+  "kun": [
+   "いの.る"
+  ],
+  "meanings": [
+   "pray",
+   "wish"
+  ],
+  "strokes": 8,
+  "freq": 1462,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "髪",
+  "on": [
+   "はつ"
+  ],
+  "kun": [
+   "かみ"
+  ],
+  "meanings": [
+   "hair of the head"
+  ],
+  "strokes": 14,
+  "freq": 1474,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "忙",
+  "on": [
+   "ぼう",
+   "もう"
+  ],
+  "kun": [
+   "いそが.しい",
+   "せわ.しい",
+   "おそ.れる",
+   "うれえるさま"
+  ],
+  "meanings": [
+   "busy",
+   "occupied",
+   "restless"
+  ],
+  "strokes": 6,
+  "freq": 1475,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "拾",
+  "on": [
+   "しゅう",
+   "じゅう"
+  ],
+  "kun": [
+   "ひろ.う"
+  ],
+  "meanings": [
+   "pick up",
+   "gather",
+   "find",
+   "go on foot"
+  ],
+  "strokes": 9,
+  "freq": 1479,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "粉",
+  "on": [
+   "ふん"
+  ],
+  "kun": [
+   "デシメートル",
+   "こ",
+   "こな"
+  ],
+  "meanings": [
+   "flour",
+   "powder",
+   "dust"
+  ],
+  "strokes": 10,
+  "freq": 1484,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "糸",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "いと"
+  ],
+  "meanings": [
+   "thread"
+  ],
+  "strokes": 6,
+  "freq": 1488,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "綿",
+  "on": [
+   "めん"
+  ],
+  "kun": [
+   "わた"
+  ],
+  "meanings": [
+   "cotton"
+  ],
+  "strokes": 14,
+  "freq": 1495,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "才",
+  "on": [
+   "さい"
+  ],
+  "kun": [],
+  "meanings": [
+   "genius",
+   "years old",
+   "cubic shaku"
+  ],
+  "strokes": 3,
+  "freq": 1497,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "汗",
+  "on": [
+   "かん"
+  ],
+  "kun": [
+   "あせ"
+  ],
+  "meanings": [
+   "sweat",
+   "perspire"
+  ],
+  "strokes": 6,
+  "freq": 1502,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "銅",
+  "on": [
+   "どう"
+  ],
+  "kun": [
+   "あかがね"
+  ],
+  "meanings": [
+   "copper"
+  ],
+  "strokes": 14,
+  "freq": 1505,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "湿",
+  "on": [
+   "しつ",
+   "しゅう"
+  ],
+  "kun": [
+   "しめ.る",
+   "しめ.す",
+   "うるお.う",
+   "うるお.す"
+  ],
+  "meanings": [
+   "damp",
+   "wet",
+   "moist"
+  ],
+  "strokes": 12,
+  "freq": 1517,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "咲",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "さ.く",
+   "-ざき"
+  ],
+  "meanings": [
+   "blossom",
+   "bloom"
+  ],
+  "strokes": 9,
+  "freq": 1534,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "召",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "め.す"
+  ],
+  "meanings": [
+   "seduce",
+   "call",
+   "send for",
+   "wear"
+  ],
+  "strokes": 5,
+  "freq": 1540,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "脂",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "あぶら"
+  ],
+  "meanings": [
+   "fat",
+   "grease",
+   "tallow",
+   "lard"
+  ],
+  "strokes": 10,
+  "freq": 1548,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "蒸",
+  "on": [
+   "じょう",
+   "せい"
+  ],
+  "kun": [
+   "む.す",
+   "む.れる",
+   "む.らす"
+  ],
+  "meanings": [
+   "steam",
+   "heat",
+   "sultry",
+   "foment"
+  ],
+  "strokes": 13,
+  "freq": 1552,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "肌",
+  "on": [
+   "き"
+  ],
+  "kun": [
+   "はだ"
+  ],
+  "meanings": [
+   "texture",
+   "skin",
+   "body",
+   "grain"
+  ],
+  "strokes": 6,
+  "freq": 1559,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "靴",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "くつ"
+  ],
+  "meanings": [
+   "shoes"
+  ],
+  "strokes": 13,
+  "freq": 1561,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "耕",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "たがや.す"
+  ],
+  "meanings": [
+   "till",
+   "plow",
+   "cultivate"
+  ],
+  "strokes": 10,
+  "freq": 1568,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "鈍",
+  "on": [
+   "どん"
+  ],
+  "kun": [
+   "にぶ.い",
+   "にぶ.る",
+   "にぶ-",
+   "なま.る",
+   "なまく.ら"
+  ],
+  "meanings": [
+   "dull",
+   "slow",
+   "foolish",
+   "blunt"
+  ],
+  "strokes": 12,
+  "freq": 1574,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "恥",
+  "on": [
+   "ち"
+  ],
+  "kun": [
+   "は.じる",
+   "はじ",
+   "は.じらう",
+   "は.ずかしい"
+  ],
+  "meanings": [
+   "shame",
+   "dishonor"
+  ],
+  "strokes": 10,
+  "freq": 1575,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "泥",
+  "on": [
+   "でい",
+   "ない",
+   "で",
+   "に"
+  ],
+  "kun": [
+   "どろ",
+   "なず.む"
+  ],
+  "meanings": [
+   "mud",
+   "mire",
+   "adhere to",
+   "be attached to"
+  ],
+  "strokes": 8,
+  "freq": 1589,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "隅",
+  "on": [
+   "ぐう"
+  ],
+  "kun": [
+   "すみ"
+  ],
+  "meanings": [
+   "corner",
+   "nook"
+  ],
+  "strokes": 12,
+  "freq": 1601,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "偶",
+  "on": [
+   "ぐう"
+  ],
+  "kun": [
+   "たま"
+  ],
+  "meanings": [
+   "accidentally",
+   "even number",
+   "couple",
+   "man & wife"
+  ],
+  "strokes": 11,
+  "freq": 1602,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "灯",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "ひ",
+   "ほ-",
+   "ともしび",
+   "とも.す",
+   "あかり"
+  ],
+  "meanings": [
+   "lamp",
+   "a light",
+   "light",
+   "counter for lights"
+  ],
+  "strokes": 6,
+  "freq": 1605,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "辛",
+  "on": [
+   "しん"
+  ],
+  "kun": [
+   "から.い",
+   "つら.い",
+   "-づら.い",
+   "かのと"
+  ],
+  "meanings": [
+   "spicy",
+   "bitter",
+   "hot",
+   "acrid"
+  ],
+  "strokes": 7,
+  "freq": 1607,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "磨",
+  "on": [
+   "ま"
+  ],
+  "kun": [
+   "みが.く",
+   "す.る"
+  ],
+  "meanings": [
+   "grind",
+   "polish",
+   "scour",
+   "improve"
+  ],
+  "strokes": 16,
+  "freq": 1608,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "麦",
+  "on": [
+   "ばく"
+  ],
+  "kun": [
+   "むぎ"
+  ],
+  "meanings": [
+   "barley",
+   "wheat"
+  ],
+  "strokes": 7,
+  "freq": 1615,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "姓",
+  "on": [
+   "せい",
+   "しょう"
+  ],
+  "kun": [],
+  "meanings": [
+   "surname"
+  ],
+  "strokes": 8,
+  "freq": 1628,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "筒",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "つつ"
+  ],
+  "meanings": [
+   "cylinder",
+   "pipe",
+   "tube",
+   "gun barrel"
+  ],
+  "strokes": 12,
+  "freq": 1631,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "鼻",
+  "on": [
+   "び"
+  ],
+  "kun": [
+   "はな"
+  ],
+  "meanings": [
+   "nose",
+   "snout"
+  ],
+  "strokes": 14,
+  "freq": 1632,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "粒",
+  "on": [
+   "りゅう"
+  ],
+  "kun": [
+   "つぶ"
+  ],
+  "meanings": [
+   "grains",
+   "drop",
+   "counter for tiny particles"
+  ],
+  "strokes": 11,
+  "freq": 1635,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "詞",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "ことば"
+  ],
+  "meanings": [
+   "part of speech",
+   "words",
+   "poetry"
+  ],
+  "strokes": 12,
+  "freq": 1636,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "偉",
+  "on": [
+   "い"
+  ],
+  "kun": [
+   "えら.い"
+  ],
+  "meanings": [
+   "admirable",
+   "greatness",
+   "remarkable",
+   "conceited"
+  ],
+  "strokes": 12,
+  "freq": 1639,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "胃",
+  "on": [
+   "い"
+  ],
+  "kun": [],
+  "meanings": [
+   "stomach",
+   "paunch",
+   "crop",
+   "craw"
+  ],
+  "strokes": 9,
+  "freq": 1647,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "畳",
+  "on": [
+   "じょう",
+   "ちょう"
+  ],
+  "kun": [
+   "たた.む",
+   "たたみ",
+   "かさ.なる"
+  ],
+  "meanings": [
+   "tatami mat",
+   "counter for tatami mats",
+   "fold",
+   "shut up"
+  ],
+  "strokes": 12,
+  "freq": 1665,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "机",
+  "on": [
+   "き"
+  ],
+  "kun": [
+   "つくえ"
+  ],
+  "meanings": [
+   "desk",
+   "table"
+  ],
+  "strokes": 6,
+  "freq": 1671,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "膚",
+  "on": [
+   "ふ"
+  ],
+  "kun": [
+   "はだ"
+  ],
+  "meanings": [
+   "skin",
+   "body",
+   "grain",
+   "texture"
+  ],
+  "strokes": 15,
+  "freq": 1679,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "濯",
+  "on": [
+   "たく"
+  ],
+  "kun": [
+   "すす.ぐ",
+   "ゆす.ぐ"
+  ],
+  "meanings": [
+   "laundry",
+   "wash",
+   "pour on",
+   "rinse"
+  ],
+  "strokes": 17,
+  "freq": 1698,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "猫",
+  "on": [
+   "びょう"
+  ],
+  "kun": [
+   "ねこ"
+  ],
+  "meanings": [
+   "cat"
+  ],
+  "strokes": 11,
+  "freq": 1702,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "塔",
+  "on": [
+   "とう"
+  ],
+  "kun": [],
+  "meanings": [
+   "pagoda",
+   "tower",
+   "steeple"
+  ],
+  "strokes": 12,
+  "freq": 1708,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "沸",
+  "on": [
+   "ふつ"
+  ],
+  "kun": [
+   "わ.く",
+   "わ.かす"
+  ],
+  "meanings": [
+   "seethe",
+   "boil",
+   "ferment",
+   "uproar"
+  ],
+  "strokes": 8,
+  "freq": 1709,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "灰",
+  "on": [
+   "かい"
+  ],
+  "kun": [
+   "はい"
+  ],
+  "meanings": [
+   "ashes",
+   "puckery juice",
+   "cremate"
+  ],
+  "strokes": 6,
+  "freq": 1717,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "菓",
+  "on": [
+   "か"
+  ],
+  "kun": [],
+  "meanings": [
+   "candy",
+   "cakes",
+   "fruit"
+  ],
+  "strokes": 11,
+  "freq": 1719,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "帽",
+  "on": [
+   "ぼう",
+   "もう"
+  ],
+  "kun": [
+   "ずきん",
+   "おお.う"
+  ],
+  "meanings": [
+   "cap",
+   "headgear"
+  ],
+  "strokes": 12,
+  "freq": 1742,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "枯",
+  "on": [
+   "こ"
+  ],
+  "kun": [
+   "か.れる",
+   "か.らす"
+  ],
+  "meanings": [
+   "wither",
+   "die",
+   "dry up",
+   "be seasoned"
+  ],
+  "strokes": 9,
+  "freq": 1749,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "涼",
+  "on": [
+   "りょう"
+  ],
+  "kun": [
+   "すず.しい",
+   "すず.む",
+   "すず.やか",
+   "うす.い",
+   "ひや.す",
+   "まことに"
+  ],
+  "meanings": [
+   "refreshing",
+   "nice and cool"
+  ],
+  "strokes": 11,
+  "freq": 1783,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "舟",
+  "on": [
+   "しゅう"
+  ],
+  "kun": [
+   "ふね",
+   "ふな-",
+   "-ぶね"
+  ],
+  "meanings": [
+   "boat",
+   "ship"
+  ],
+  "strokes": 6,
+  "freq": 1786,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "貝",
+  "on": [
+   "ばい"
+  ],
+  "kun": [
+   "かい"
+  ],
+  "meanings": [
+   "shellfish"
+  ],
+  "strokes": 7,
+  "freq": 1787,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "符",
+  "on": [
+   "ふ"
+  ],
+  "kun": [],
+  "meanings": [
+   "token",
+   "sign",
+   "mark",
+   "tally"
+  ],
+  "strokes": 11,
+  "freq": 1798,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "憎",
+  "on": [
+   "ぞう"
+  ],
+  "kun": [
+   "にく.む",
+   "にく.い",
+   "にく.らしい",
+   "にく.しみ"
+  ],
+  "meanings": [
+   "hate",
+   "detest"
+  ],
+  "strokes": 14,
+  "freq": 1808,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "皿",
+  "on": [
+   "べい"
+  ],
+  "kun": [
+   "さら"
+  ],
+  "meanings": [
+   "dish",
+   "a helping",
+   "plate"
+  ],
+  "strokes": 5,
+  "freq": 1812,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "肯",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "がえんじ.る"
+  ],
+  "meanings": [
+   "agreement",
+   "consent",
+   "comply with"
+  ],
+  "strokes": 8,
+  "freq": 1813,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "燥",
+  "on": [
+   "そう"
+  ],
+  "kun": [
+   "はしゃ.ぐ"
+  ],
+  "meanings": [
+   "parch",
+   "dry up"
+  ],
+  "strokes": 17,
+  "freq": 1819,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "畜",
+  "on": [
+   "ちく"
+  ],
+  "kun": [],
+  "meanings": [
+   "livestock",
+   "domestic fowl and animals"
+  ],
+  "strokes": 10,
+  "freq": 1824,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "坊",
+  "on": [
+   "ぼう",
+   "ぼっ"
+  ],
+  "kun": [],
+  "meanings": [
+   "boy",
+   "priest's residence",
+   "priest"
+  ],
+  "strokes": 7,
+  "freq": 1832,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "挟",
+  "on": [
+   "きょう",
+   "しょう"
+  ],
+  "kun": [
+   "はさ.む",
+   "はさ.まる",
+   "わきばさ.む",
+   "さしはさ.む"
+  ],
+  "meanings": [
+   "pinch",
+   "between"
+  ],
+  "strokes": 9,
+  "freq": 1870,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "曇",
+  "on": [
+   "どん"
+  ],
+  "kun": [
+   "くも.る"
+  ],
+  "meanings": [
+   "cloudy weather",
+   "cloud up"
+  ],
+  "strokes": 16,
+  "freq": 1899,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "滴",
+  "on": [
+   "てき"
+  ],
+  "kun": [
+   "しずく",
+   "したた.る"
+  ],
+  "meanings": [
+   "drip",
+   "drop"
+  ],
+  "strokes": 14,
+  "freq": 2019,
+  "level": "N2",
+  "words": []
+ },
+ {
+  "kanji": "伺",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "うかが.う"
+  ],
+  "meanings": [
+   "pay respects",
+   "visit",
+   "ask",
+   "inquire"
+  ],
+  "strokes": 7,
+  "freq": 2209,
+  "level": "N2",
+  "words": []
+ }
+]

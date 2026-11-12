@@ -1,6 +1,6 @@
 [
  {
-  "id": "n5_001",
+  "id": "w_1cbb41e67a",
   "headword": "私",
   "reading": "わたし",
   "level": "N5",
@@ -18,10 +18,13 @@
    "僕",
    "あなた"
   ],
+  "kanji": [
+   "私"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_002",
+  "id": "w_bbb8a37d55",
   "headword": "あなた",
   "reading": "あなた",
   "level": "N5",
@@ -39,10 +42,11 @@
    "私",
    "彼"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_003",
+  "id": "w_ecd757c39c",
   "headword": "学生",
   "reading": "がくせい",
   "level": "N5",
@@ -60,10 +64,14 @@
    "先生",
    "学校"
   ],
+  "kanji": [
+   "学",
+   "生"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_004",
+  "id": "w_d038f34dbe",
   "headword": "先生",
   "reading": "せんせい",
   "level": "N5",
@@ -81,10 +89,14 @@
    "学生",
    "学校"
   ],
+  "kanji": [
+   "先",
+   "生"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_005",
+  "id": "w_e8b45cd895",
   "headword": "学校",
   "reading": "がっこう",
   "level": "N5",
@@ -102,10 +114,14 @@
    "学生",
    "先生"
   ],
+  "kanji": [
+   "学",
+   "校"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_006",
+  "id": "w_3147647433",
   "headword": "日本",
   "reading": "にほん",
   "level": "N5",
@@ -123,10 +139,14 @@
    "日本語",
    "日本人"
   ],
+  "kanji": [
+   "日",
+   "本"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_007",
+  "id": "w_42bd254ecf",
   "headword": "日本語",
   "reading": "にほんご",
   "level": "N5",
@@ -144,10 +164,15 @@
    "日本",
    "英語"
   ],
+  "kanji": [
+   "日",
+   "本",
+   "語"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_008",
+  "id": "w_b494462554",
   "headword": "英語",
   "reading": "えいご",
   "level": "N5",
@@ -164,10 +189,14 @@
   "related": [
    "日本語"
   ],
+  "kanji": [
+   "英",
+   "語"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_009",
+  "id": "w_a219c8badb",
   "headword": "勉強",
   "reading": "べんきょう",
   "level": "N5",
@@ -186,10 +215,14 @@
    "練習",
    "復習"
   ],
+  "kanji": [
+   "勉",
+   "強"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_010",
+  "id": "w_270a1ab798",
   "headword": "友達",
   "reading": "ともだち",
   "level": "N5",
@@ -206,10 +239,14 @@
   "related": [
    "家族"
   ],
+  "kanji": [
+   "友",
+   "達"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_011",
+  "id": "w_a0ffc92e53",
   "headword": "家族",
   "reading": "かぞく",
   "level": "N5",
@@ -228,10 +265,14 @@
    "母",
    "父"
   ],
+  "kanji": [
+   "家",
+   "族"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_012",
+  "id": "w_2aee743efb",
   "headword": "母",
   "reading": "はは",
   "level": "N5",
@@ -249,10 +290,13 @@
    "父",
    "家族"
   ],
+  "kanji": [
+   "母"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_013",
+  "id": "w_679829689f",
   "headword": "父",
   "reading": "ちち",
   "level": "N5",
@@ -270,10 +314,13 @@
    "母",
    "家族"
   ],
+  "kanji": [
+   "父"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_014",
+  "id": "w_b93ce302eb",
   "headword": "水",
   "reading": "みず",
   "level": "N5",
@@ -291,10 +338,13 @@
    "お茶",
    "飲む"
   ],
+  "kanji": [
+   "水"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_015",
+  "id": "w_d1fadbc70c",
   "headword": "お茶",
   "reading": "おちゃ",
   "level": "N5",
@@ -312,10 +362,13 @@
    "水",
    "飲む"
   ],
+  "kanji": [
+   "茶"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_016",
+  "id": "w_f5efef5f2e",
   "headword": "ご飯",
   "reading": "ごはん",
   "level": "N5",
@@ -333,10 +386,13 @@
    "食べる",
    "朝"
   ],
+  "kanji": [
+   "飯"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_017",
+  "id": "w_2a456a17c5",
   "headword": "パン",
   "reading": "パン",
   "level": "N5",
@@ -354,10 +410,11 @@
    "ご飯",
    "食べる"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_018",
+  "id": "w_d9c008bab7",
   "headword": "本",
   "reading": "ほん",
   "level": "N5",
@@ -375,10 +432,13 @@
    "読む",
    "図書館"
   ],
+  "kanji": [
+   "本"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_019",
+  "id": "w_21a05e3b07",
   "headword": "映画",
   "reading": "えいが",
   "level": "N5",
@@ -396,10 +456,14 @@
    "見る",
    "テレビ"
   ],
+  "kanji": [
+   "映",
+   "画"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_020",
+  "id": "w_e34d4d01c1",
   "headword": "電車",
   "reading": "でんしゃ",
   "level": "N5",
@@ -417,10 +481,14 @@
    "駅",
    "バス"
   ],
+  "kanji": [
+   "車",
+   "電"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_021",
+  "id": "w_3eb453f94f",
   "headword": "駅",
   "reading": "えき",
   "level": "N5",
@@ -438,10 +506,13 @@
    "電車",
    "バス"
   ],
+  "kanji": [
+   "駅"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_022",
+  "id": "w_568f84afa9",
   "headword": "会社",
   "reading": "かいしゃ",
   "level": "N5",
@@ -459,10 +530,14 @@
    "仕事",
    "働く"
   ],
+  "kanji": [
+   "会",
+   "社"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_023",
+  "id": "w_503042b463",
   "headword": "店",
   "reading": "みせ",
   "level": "N5",
@@ -480,10 +555,13 @@
    "コンビニ",
    "買う"
   ],
+  "kanji": [
+   "店"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_024",
+  "id": "w_765cb3a393",
   "headword": "コンビニ",
   "reading": "コンビニ",
   "level": "N5",
@@ -501,10 +579,11 @@
    "店",
    "買う"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_025",
+  "id": "w_7ace551f6f",
   "headword": "今日",
   "reading": "きょう",
   "level": "N5",
@@ -522,10 +601,14 @@
    "明日",
    "昨日"
   ],
+  "kanji": [
+   "今",
+   "日"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_026",
+  "id": "w_ebe21d31dd",
   "headword": "明日",
   "reading": "あした",
   "level": "N5",
@@ -543,10 +626,14 @@
    "今日",
    "昨日"
   ],
+  "kanji": [
+   "日",
+   "明"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_027",
+  "id": "w_29be43171b",
   "headword": "昨日",
   "reading": "きのう",
   "level": "N5",
@@ -564,10 +651,14 @@
    "今日",
    "明日"
   ],
+  "kanji": [
+   "日",
+   "昨"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_028",
+  "id": "w_9739536935",
   "headword": "朝",
   "reading": "あさ",
   "level": "N5",
@@ -585,10 +676,13 @@
    "昼",
    "夜"
   ],
+  "kanji": [
+   "朝"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_029",
+  "id": "w_94a238f0a2",
   "headword": "夜",
   "reading": "よる",
   "level": "N5",
@@ -606,10 +700,13 @@
    "朝",
    "昼"
   ],
+  "kanji": [
+   "夜"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_030",
+  "id": "w_9707d02e8a",
   "headword": "時間",
   "reading": "じかん",
   "level": "N5",
@@ -627,10 +724,14 @@
    "今",
    "時"
   ],
+  "kanji": [
+   "時",
+   "間"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_031",
+  "id": "w_ac3cc33c0a",
   "headword": "食べる",
   "reading": "たべる",
   "level": "N5",
@@ -648,10 +749,13 @@
    "飲む",
    "ご飯"
   ],
+  "kanji": [
+   "食"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_032",
+  "id": "w_692b973053",
   "headword": "飲む",
   "reading": "のむ",
   "level": "N5",
@@ -669,10 +773,13 @@
    "食べる",
    "水"
   ],
+  "kanji": [
+   "飲"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_033",
+  "id": "w_be9f7ef56d",
   "headword": "見る",
   "reading": "みる",
   "level": "N5",
@@ -690,10 +797,13 @@
    "読む",
    "映画"
   ],
+  "kanji": [
+   "見"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_034",
+  "id": "w_80bf4a20f2",
   "headword": "読む",
   "reading": "よむ",
   "level": "N5",
@@ -711,10 +821,13 @@
    "本",
    "書く"
   ],
+  "kanji": [
+   "読"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_035",
+  "id": "w_2f37dd488e",
   "headword": "書く",
   "reading": "かく",
   "level": "N5",
@@ -731,10 +844,13 @@
   "related": [
    "読む"
   ],
+  "kanji": [
+   "書"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_036",
+  "id": "w_db14b66049",
   "headword": "話す",
   "reading": "はなす",
   "level": "N5",
@@ -752,10 +868,13 @@
    "聞く",
    "言う"
   ],
+  "kanji": [
+   "話"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_037",
+  "id": "w_b34c32a300",
   "headword": "聞く",
   "reading": "きく",
   "level": "N5",
@@ -772,10 +891,13 @@
   "related": [
    "話す"
   ],
+  "kanji": [
+   "聞"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_038",
+  "id": "w_d44c85b2ba",
   "headword": "行く",
   "reading": "いく",
   "level": "N5",
@@ -793,10 +915,13 @@
    "来る",
    "帰る"
   ],
+  "kanji": [
+   "行"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_039",
+  "id": "w_ca49fe3e29",
   "headword": "来る",
   "reading": "くる",
   "level": "N5",
@@ -814,10 +939,13 @@
    "行く",
    "帰る"
   ],
+  "kanji": [
+   "来"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_040",
+  "id": "w_45e5839bb4",
   "headword": "帰る",
   "reading": "かえる",
   "level": "N5",
@@ -835,10 +963,13 @@
    "行く",
    "来る"
   ],
+  "kanji": [
+   "帰"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_041",
+  "id": "w_df2f0677e3",
   "headword": "買う",
   "reading": "かう",
   "level": "N5",
@@ -856,10 +987,13 @@
    "店",
    "お金"
   ],
+  "kanji": [
+   "買"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_042",
+  "id": "w_d480bc4798",
   "headword": "する",
   "reading": "する",
   "level": "N5",
@@ -877,10 +1011,11 @@
    "勉強",
    "仕事"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_043",
+  "id": "w_6c847e9424",
   "headword": "起きる",
   "reading": "おきる",
   "level": "N5",
@@ -898,10 +1033,13 @@
    "寝る",
    "朝"
   ],
+  "kanji": [
+   "起"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_044",
+  "id": "w_26e044cea2",
   "headword": "寝る",
   "reading": "ねる",
   "level": "N5",
@@ -919,10 +1057,13 @@
    "起きる",
    "夜"
   ],
+  "kanji": [
+   "寝"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_045",
+  "id": "w_ecc329ff73",
   "headword": "分かる",
   "reading": "わかる",
   "level": "N5",
@@ -940,10 +1081,13 @@
    "知る",
    "勉強"
   ],
+  "kanji": [
+   "分"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_046",
+  "id": "w_0c4aad5bc8",
   "headword": "ある",
   "reading": "ある",
   "level": "N5",
@@ -960,10 +1104,11 @@
   "related": [
    "いる"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_047",
+  "id": "w_d74f44c957",
   "headword": "いる",
   "reading": "いる",
   "level": "N5",
@@ -980,10 +1125,11 @@
   "related": [
    "ある"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_048",
+  "id": "w_0b5adf8937",
   "headword": "大きい",
   "reading": "おおきい",
   "level": "N5",
@@ -1000,10 +1146,13 @@
   "related": [
    "小さい"
   ],
+  "kanji": [
+   "大"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_049",
+  "id": "w_9e5a24b329",
   "headword": "小さい",
   "reading": "ちいさい",
   "level": "N5",
@@ -1020,10 +1169,13 @@
   "related": [
    "大きい"
   ],
+  "kanji": [
+   "小"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_050",
+  "id": "w_71ce293b60",
   "headword": "新しい",
   "reading": "あたらしい",
   "level": "N5",
@@ -1040,10 +1192,13 @@
   "related": [
    "古い"
   ],
+  "kanji": [
+   "新"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_051",
+  "id": "w_12a2ca1c62",
   "headword": "古い",
   "reading": "ふるい",
   "level": "N5",
@@ -1060,10 +1215,13 @@
   "related": [
    "新しい"
   ],
+  "kanji": [
+   "古"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_052",
+  "id": "w_851588dbfe",
   "headword": "おいしい",
   "reading": "おいしい",
   "level": "N5",
@@ -1080,10 +1238,11 @@
   "related": [
    "食べる"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_053",
+  "id": "w_a6977635a9",
   "headword": "高い",
   "reading": "たかい",
   "level": "N5",
@@ -1100,10 +1259,13 @@
   "related": [
    "安い"
   ],
+  "kanji": [
+   "高"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_054",
+  "id": "w_1a82fe05ab",
   "headword": "安い",
   "reading": "やすい",
   "level": "N5",
@@ -1120,10 +1282,13 @@
   "related": [
    "高い"
   ],
+  "kanji": [
+   "安"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_055",
+  "id": "w_1b81aff6fe",
   "headword": "好き",
   "reading": "すき",
   "level": "N5",
@@ -1140,10 +1305,13 @@
   "related": [
    "嫌い"
   ],
+  "kanji": [
+   "好"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_056",
+  "id": "w_9ea5f80b62",
   "headword": "元気",
   "reading": "げんき",
   "level": "N5",
@@ -1160,10 +1328,14 @@
   "related": [
    "大丈夫"
   ],
+  "kanji": [
+   "元",
+   "気"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_057",
+  "id": "w_60a0090c9c",
   "headword": "大丈夫",
   "reading": "だいじょうぶ",
   "level": "N5",
@@ -1180,10 +1352,15 @@
   "related": [
    "元気"
   ],
+  "kanji": [
+   "丈",
+   "大",
+   "夫"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_058",
+  "id": "w_c0e7ba11fd",
   "headword": "静か",
   "reading": "しずか",
   "level": "N5",
@@ -1198,10 +1375,13 @@
    }
   ],
   "related": [],
+  "kanji": [
+   "静"
+  ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_059",
+  "id": "w_e188c26247",
   "headword": "おはようございます",
   "reading": "おはようございます",
   "level": "N5",
@@ -1219,10 +1399,11 @@
    "こんにちは",
    "こんばんは"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_060",
+  "id": "w_cfbf6b75d2",
   "headword": "こんにちは",
   "reading": "こんにちは",
   "level": "N5",
@@ -1240,10 +1421,11 @@
    "おはようございます",
    "こんばんは"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_061",
+  "id": "w_8e2141ce4b",
   "headword": "ありがとうございます",
   "reading": "ありがとうございます",
   "level": "N5",
@@ -1260,10 +1442,11 @@
   "related": [
    "すみません"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_062",
+  "id": "w_a4371394be",
   "headword": "すみません",
   "reading": "すみません",
   "level": "N5",
@@ -1280,10 +1463,11 @@
   "related": [
    "ありがとうございます"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_063",
+  "id": "w_85b20bc8fd",
   "headword": "ください",
   "reading": "ください",
   "level": "N5",
@@ -1300,10 +1484,11 @@
   "related": [
    "お願いします"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
-  "id": "n5_064",
+  "id": "w_b6c1f59dbb",
   "headword": "いらっしゃいませ",
   "reading": "いらっしゃいませ",
   "level": "N5",
@@ -1320,6 +1505,7 @@
   "related": [
    "ありがとうございます"
   ],
+  "kanji": [],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  }
 ]

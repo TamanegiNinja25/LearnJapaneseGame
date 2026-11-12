@@ -34,8 +34,13 @@ static func is_due(word: Dictionary, now: int) -> bool:
 ##   wrong (c == 0.0):             two boxes down, floored at 0
 ## [param box] is the word's current box, [param c] the correctness of this review.
 static func next_box(box: int, c: float) -> int:
-	# TODO(human): implement the three transitions above and return the new box.
-	return box
+	# Thresholds rather than equality, so a future grader emitting e.g. 0.75 still lands in the
+	# "partial" band instead of silently doing nothing.
+	if c >= C_CORRECT:
+		return mini(box + 1, MAX_BOX)
+	if c <= C_WRONG:
+		return maxi(box - 2, 0)
+	return clampi(box, 0, MAX_BOX)
 
 
 ## Apply one review and return the updated word record with a new box and due time.

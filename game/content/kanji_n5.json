@@ -1,0 +1,2115 @@
+[
+ {
+  "kanji": "日",
+  "on": [
+   "にち",
+   "じつ"
+  ],
+  "kun": [
+   "ひ",
+   "-び",
+   "-か"
+  ],
+  "meanings": [
+   "day",
+   "sun",
+   "Japan",
+   "counter for days"
+  ],
+  "strokes": 4,
+  "freq": 1,
+  "level": "N5",
+  "words": [
+   "w_3147647433",
+   "w_42bd254ecf",
+   "w_7ace551f6f",
+   "w_ebe21d31dd",
+   "w_29be43171b"
+  ]
+ },
+ {
+  "kanji": "一",
+  "on": [
+   "いち",
+   "いつ"
+  ],
+  "kun": [
+   "ひと-",
+   "ひと.つ"
+  ],
+  "meanings": [
+   "one",
+   "one radical (no.1)"
+  ],
+  "strokes": 1,
+  "freq": 2,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "国",
+  "on": [
+   "こく"
+  ],
+  "kun": [
+   "くに"
+  ],
+  "meanings": [
+   "country"
+  ],
+  "strokes": 8,
+  "freq": 3,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "会",
+  "on": [
+   "かい",
+   "え"
+  ],
+  "kun": [
+   "あ.う",
+   "あ.わせる",
+   "あつ.まる"
+  ],
+  "meanings": [
+   "meeting",
+   "meet",
+   "party",
+   "association"
+  ],
+  "strokes": 6,
+  "freq": 4,
+  "level": "N5",
+  "words": [
+   "w_568f84afa9"
+  ]
+ },
+ {
+  "kanji": "人",
+  "on": [
+   "じん",
+   "にん"
+  ],
+  "kun": [
+   "ひと",
+   "-り",
+   "-と"
+  ],
+  "meanings": [
+   "person"
+  ],
+  "strokes": 2,
+  "freq": 5,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "年",
+  "on": [
+   "ねん"
+  ],
+  "kun": [
+   "とし"
+  ],
+  "meanings": [
+   "year",
+   "counter for years"
+  ],
+  "strokes": 6,
+  "freq": 6,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "大",
+  "on": [
+   "だい",
+   "たい"
+  ],
+  "kun": [
+   "おお-",
+   "おお.きい",
+   "-おお.いに"
+  ],
+  "meanings": [
+   "large",
+   "big"
+  ],
+  "strokes": 3,
+  "freq": 7,
+  "level": "N5",
+  "words": [
+   "w_0b5adf8937",
+   "w_60a0090c9c"
+  ]
+ },
+ {
+  "kanji": "十",
+  "on": [
+   "じゅう",
+   "じっ",
+   "じゅっ"
+  ],
+  "kun": [
+   "とお",
+   "と",
+   "そ"
+  ],
+  "meanings": [
+   "ten"
+  ],
+  "strokes": 2,
+  "freq": 8,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "二",
+  "on": [
+   "に",
+   "じ"
+  ],
+  "kun": [
+   "ふた",
+   "ふた.つ",
+   "ふたたび"
+  ],
+  "meanings": [
+   "two",
+   "two radical (no. 7)"
+  ],
+  "strokes": 2,
+  "freq": 9,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "本",
+  "on": [
+   "ほん"
+  ],
+  "kun": [
+   "もと"
+  ],
+  "meanings": [
+   "book",
+   "present",
+   "main",
+   "origin"
+  ],
+  "strokes": 5,
+  "freq": 10,
+  "level": "N5",
+  "words": [
+   "w_3147647433",
+   "w_42bd254ecf",
+   "w_d9c008bab7"
+  ]
+ },
+ {
+  "kanji": "中",
+  "on": [
+   "ちゅう"
+  ],
+  "kun": [
+   "なか",
+   "うち",
+   "あた.る"
+  ],
+  "meanings": [
+   "in",
+   "inside",
+   "middle",
+   "mean"
+  ],
+  "strokes": 4,
+  "freq": 11,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "長",
+  "on": [
+   "ちょう"
+  ],
+  "kun": [
+   "なが.い",
+   "おさ"
+  ],
+  "meanings": [
+   "long",
+   "leader",
+   "superior",
+   "senior"
+  ],
+  "strokes": 8,
+  "freq": 12,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "出",
+  "on": [
+   "しゅつ",
+   "すい"
+  ],
+  "kun": [
+   "で.る",
+   "-で",
+   "だ.す",
+   "-だ.す",
+   "い.でる",
+   "い.だす"
+  ],
+  "meanings": [
+   "exit",
+   "leave",
+   "go out",
+   "come out"
+  ],
+  "strokes": 5,
+  "freq": 13,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "三",
+  "on": [
+   "さん",
+   "ぞう"
+  ],
+  "kun": [
+   "み",
+   "み.つ",
+   "みっ.つ"
+  ],
+  "meanings": [
+   "three"
+  ],
+  "strokes": 3,
+  "freq": 14,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "時",
+  "on": [
+   "じ"
+  ],
+  "kun": [
+   "とき",
+   "-どき"
+  ],
+  "meanings": [
+   "time",
+   "hour"
+  ],
+  "strokes": 10,
+  "freq": 16,
+  "level": "N5",
+  "words": [
+   "w_9707d02e8a"
+  ]
+ },
+ {
+  "kanji": "行",
+  "on": [
+   "こう",
+   "ぎょう",
+   "あん"
+  ],
+  "kun": [
+   "い.く",
+   "ゆ.く",
+   "-ゆ.き",
+   "-ゆき",
+   "-い.き",
+   "-いき",
+   "おこな.う",
+   "おこ.なう"
+  ],
+  "meanings": [
+   "going",
+   "journey",
+   "carry out",
+   "conduct"
+  ],
+  "strokes": 6,
+  "freq": 20,
+  "level": "N5",
+  "words": [
+   "w_d44c85b2ba"
+  ]
+ },
+ {
+  "kanji": "社",
+  "on": [
+   "しゃ"
+  ],
+  "kun": [
+   "やしろ"
+  ],
+  "meanings": [
+   "company",
+   "firm",
+   "office",
+   "association"
+  ],
+  "strokes": 7,
+  "freq": 21,
+  "level": "N5",
+  "words": [
+   "w_568f84afa9"
+  ]
+ },
+ {
+  "kanji": "見",
+  "on": [
+   "けん"
+  ],
+  "kun": [
+   "み.る",
+   "み.える",
+   "み.せる"
+  ],
+  "meanings": [
+   "see",
+   "hopes",
+   "chances",
+   "idea"
+  ],
+  "strokes": 7,
+  "freq": 22,
+  "level": "N5",
+  "words": [
+   "w_be9f7ef56d"
+  ]
+ },
+ {
+  "kanji": "月",
+  "on": [
+   "げつ",
+   "がつ"
+  ],
+  "kun": [
+   "つき"
+  ],
+  "meanings": [
+   "month",
+   "moon"
+  ],
+  "strokes": 4,
+  "freq": 23,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "分",
+  "on": [
+   "ぶん",
+   "ふん",
+   "ぶ"
+  ],
+  "kun": [
+   "わ.ける",
+   "わ.け",
+   "わ.かれる",
+   "わ.かる",
+   "わ.かつ"
+  ],
+  "meanings": [
+   "part",
+   "minute of time",
+   "segment",
+   "share"
+  ],
+  "strokes": 4,
+  "freq": 24,
+  "level": "N5",
+  "words": [
+   "w_ecc329ff73"
+  ]
+ },
+ {
+  "kanji": "後",
+  "on": [
+   "ご",
+   "こう"
+  ],
+  "kun": [
+   "のち",
+   "うし.ろ",
+   "うしろ",
+   "あと",
+   "おく.れる"
+  ],
+  "meanings": [
+   "behind",
+   "back",
+   "later"
+  ],
+  "strokes": 9,
+  "freq": 26,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "前",
+  "on": [
+   "ぜん"
+  ],
+  "kun": [
+   "まえ",
+   "-まえ"
+  ],
+  "meanings": [
+   "in front",
+   "before"
+  ],
+  "strokes": 9,
+  "freq": 27,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "生",
+  "on": [
+   "せい",
+   "しょう"
+  ],
+  "kun": [
+   "い.きる",
+   "い.かす",
+   "い.ける",
+   "う.まれる",
+   "うま.れる",
+   "う.まれ",
+   "うまれ",
+   "う.む",
+   "お.う",
+   "は.える",
+   "は.やす",
+   "き",
+   "なま",
+   "なま-",
+   "な.る",
+   "な.す",
+   "む.す",
+   "-う"
+  ],
+  "meanings": [
+   "life",
+   "genuine",
+   "birth"
+  ],
+  "strokes": 5,
+  "freq": 29,
+  "level": "N5",
+  "words": [
+   "w_ecd757c39c",
+   "w_d038f34dbe"
+  ]
+ },
+ {
+  "kanji": "五",
+  "on": [
+   "ご"
+  ],
+  "kun": [
+   "いつ",
+   "いつ.つ"
+  ],
+  "meanings": [
+   "five"
+  ],
+  "strokes": 4,
+  "freq": 31,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "間",
+  "on": [
+   "かん",
+   "けん"
+  ],
+  "kun": [
+   "あいだ",
+   "ま",
+   "あい"
+  ],
+  "meanings": [
+   "interval",
+   "space"
+  ],
+  "strokes": 12,
+  "freq": 33,
+  "level": "N5",
+  "words": [
+   "w_9707d02e8a"
+  ]
+ },
+ {
+  "kanji": "上",
+  "on": [
+   "じょう",
+   "しょう",
+   "しゃん"
+  ],
+  "kun": [
+   "うえ",
+   "-うえ",
+   "うわ-",
+   "かみ",
+   "あ.げる",
+   "-あ.げる",
+   "あ.がる",
+   "-あ.がる",
+   "あ.がり",
+   "-あ.がり",
+   "のぼ.る",
+   "のぼ.り",
+   "のぼ.せる",
+   "のぼ.す",
+   "たてまつ.る"
+  ],
+  "meanings": [
+   "above",
+   "up"
+  ],
+  "strokes": 3,
+  "freq": 35,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "東",
+  "on": [
+   "とう"
+  ],
+  "kun": [
+   "ひがし"
+  ],
+  "meanings": [
+   "east"
+  ],
+  "strokes": 8,
+  "freq": 37,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "四",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "よ",
+   "よ.つ",
+   "よっ.つ",
+   "よん"
+  ],
+  "meanings": [
+   "four"
+  ],
+  "strokes": 5,
+  "freq": 47,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "今",
+  "on": [
+   "こん",
+   "きん"
+  ],
+  "kun": [
+   "いま"
+  ],
+  "meanings": [
+   "now"
+  ],
+  "strokes": 4,
+  "freq": 49,
+  "level": "N5",
+  "words": [
+   "w_7ace551f6f"
+  ]
+ },
+ {
+  "kanji": "新",
+  "on": [
+   "しん"
+  ],
+  "kun": [
+   "あたら.しい",
+   "あら.た",
+   "あら-",
+   "にい-"
+  ],
+  "meanings": [
+   "new"
+  ],
+  "strokes": 13,
+  "freq": 51,
+  "level": "N5",
+  "words": [
+   "w_71ce293b60"
+  ]
+ },
+ {
+  "kanji": "金",
+  "on": [
+   "きん",
+   "こん",
+   "ごん"
+  ],
+  "kun": [
+   "かね",
+   "かな-",
+   "-がね"
+  ],
+  "meanings": [
+   "gold"
+  ],
+  "strokes": 8,
+  "freq": 53,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "九",
+  "on": [
+   "きゅう",
+   "く"
+  ],
+  "kun": [
+   "ここの",
+   "ここの.つ"
+  ],
+  "meanings": [
+   "nine"
+  ],
+  "strokes": 2,
+  "freq": 55,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "入",
+  "on": [
+   "にゅう",
+   "じゅ"
+  ],
+  "kun": [
+   "い.る",
+   "-い.る",
+   "-い.り",
+   "い.れる",
+   "-い.れ",
+   "はい.る"
+  ],
+  "meanings": [
+   "enter",
+   "insert"
+  ],
+  "strokes": 2,
+  "freq": 56,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "立",
+  "on": [
+   "りつ",
+   "りゅう",
+   "りっとる"
+  ],
+  "kun": [
+   "た.つ",
+   "-た.つ",
+   "た.ち-",
+   "た.てる",
+   "-た.てる",
+   "た.て-",
+   "たて-",
+   "-た.て",
+   "-だ.て",
+   "-だ.てる"
+  ],
+  "meanings": [
+   "stand up",
+   "rise",
+   "set up",
+   "erect"
+  ],
+  "strokes": 5,
+  "freq": 58,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "手",
+  "on": [
+   "しゅ",
+   "ず"
+  ],
+  "kun": [
+   "て",
+   "て-",
+   "-て",
+   "た-"
+  ],
+  "meanings": [
+   "hand"
+  ],
+  "strokes": 4,
+  "freq": 60,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "学",
+  "on": [
+   "がく"
+  ],
+  "kun": [
+   "まな.ぶ"
+  ],
+  "meanings": [
+   "study",
+   "learning",
+   "science"
+  ],
+  "strokes": 8,
+  "freq": 63,
+  "level": "N5",
+  "words": [
+   "w_ecd757c39c",
+   "w_e8b45cd895"
+  ]
+ },
+ {
+  "kanji": "高",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "たか.い",
+   "たか",
+   "-だか",
+   "たか.まる",
+   "たか.める"
+  ],
+  "meanings": [
+   "tall",
+   "high",
+   "expensive"
+  ],
+  "strokes": 10,
+  "freq": 65,
+  "level": "N5",
+  "words": [
+   "w_a6977635a9"
+  ]
+ },
+ {
+  "kanji": "円",
+  "on": [
+   "えん"
+  ],
+  "kun": [
+   "まる.い",
+   "まる",
+   "まど",
+   "まど.か",
+   "まろ.やか"
+  ],
+  "meanings": [
+   "circle",
+   "yen",
+   "round"
+  ],
+  "strokes": 4,
+  "freq": 69,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "子",
+  "on": [
+   "し",
+   "す",
+   "つ"
+  ],
+  "kun": [
+   "こ",
+   "-こ",
+   "ね"
+  ],
+  "meanings": [
+   "child",
+   "sign of the rat",
+   "11PM-1AM",
+   "first sign of Chinese zodiac"
+  ],
+  "strokes": 3,
+  "freq": 72,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "目",
+  "on": [
+   "もく",
+   "ぼく"
+  ],
+  "kun": [
+   "め",
+   "-め",
+   "ま-"
+  ],
+  "meanings": [
+   "eye",
+   "class",
+   "look",
+   "insight"
+  ],
+  "strokes": 5,
+  "freq": 76,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "外",
+  "on": [
+   "がい",
+   "げ"
+  ],
+  "kun": [
+   "そと",
+   "ほか",
+   "はず.す",
+   "はず.れる",
+   "と-"
+  ],
+  "meanings": [
+   "outside"
+  ],
+  "strokes": 5,
+  "freq": 81,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "言",
+  "on": [
+   "げん",
+   "ごん"
+  ],
+  "kun": [
+   "い.う",
+   "こと"
+  ],
+  "meanings": [
+   "say",
+   "word"
+  ],
+  "strokes": 7,
+  "freq": 83,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "八",
+  "on": [
+   "はち",
+   "はつ"
+  ],
+  "kun": [
+   "や",
+   "や.つ",
+   "やっ.つ",
+   "よう"
+  ],
+  "meanings": [
+   "eight",
+   "eight radical (no. 12)"
+  ],
+  "strokes": 2,
+  "freq": 92,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "六",
+  "on": [
+   "ろく",
+   "りく"
+  ],
+  "kun": [
+   "む",
+   "む.つ",
+   "むっ.つ",
+   "むい"
+  ],
+  "meanings": [
+   "six"
+  ],
+  "strokes": 4,
+  "freq": 93,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "下",
+  "on": [
+   "か",
+   "げ"
+  ],
+  "kun": [
+   "した",
+   "しも",
+   "もと",
+   "さ.げる",
+   "さ.がる",
+   "くだ.る",
+   "くだ.り",
+   "くだ.す",
+   "-くだ.す",
+   "くだ.さる",
+   "お.ろす",
+   "お.りる"
+  ],
+  "meanings": [
+   "below",
+   "down",
+   "descend",
+   "give"
+  ],
+  "strokes": 3,
+  "freq": 97,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "来",
+  "on": [
+   "らい",
+   "たい"
+  ],
+  "kun": [
+   "く.る",
+   "きた.る",
+   "きた.す",
+   "き.たす",
+   "き.たる",
+   "き",
+   "こ"
+  ],
+  "meanings": [
+   "come",
+   "due",
+   "next",
+   "cause"
+  ],
+  "strokes": 7,
+  "freq": 102,
+  "level": "N5",
+  "words": [
+   "w_ca49fe3e29"
+  ]
+ },
+ {
+  "kanji": "気",
+  "on": [
+   "き",
+   "け"
+  ],
+  "kun": [
+   "いき",
+   "き"
+  ],
+  "meanings": [
+   "spirit",
+   "mind",
+   "air",
+   "atmosphere"
+  ],
+  "strokes": 6,
+  "freq": 113,
+  "level": "N5",
+  "words": [
+   "w_9ea5f80b62"
+  ]
+ },
+ {
+  "kanji": "小",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "ちい.さい",
+   "こ-",
+   "お-",
+   "さ-"
+  ],
+  "meanings": [
+   "little",
+   "small"
+  ],
+  "strokes": 3,
+  "freq": 114,
+  "level": "N5",
+  "words": [
+   "w_9e5a24b329"
+  ]
+ },
+ {
+  "kanji": "七",
+  "on": [
+   "しち"
+  ],
+  "kun": [
+   "なな",
+   "なな.つ",
+   "なの"
+  ],
+  "meanings": [
+   "seven"
+  ],
+  "strokes": 2,
+  "freq": 115,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "山",
+  "on": [
+   "さん",
+   "せん"
+  ],
+  "kun": [
+   "やま"
+  ],
+  "meanings": [
+   "mountain"
+  ],
+  "strokes": 3,
+  "freq": 131,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "話",
+  "on": [
+   "わ"
+  ],
+  "kun": [
+   "はな.す",
+   "はなし"
+  ],
+  "meanings": [
+   "tale",
+   "talk"
+  ],
+  "strokes": 13,
+  "freq": 134,
+  "level": "N5",
+  "words": [
+   "w_db14b66049"
+  ]
+ },
+ {
+  "kanji": "多",
+  "on": [
+   "た"
+  ],
+  "kun": [
+   "おお.い",
+   "まさ.に",
+   "まさ.る"
+  ],
+  "meanings": [
+   "many",
+   "frequent",
+   "much"
+  ],
+  "strokes": 6,
+  "freq": 139,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "安",
+  "on": [
+   "あん"
+  ],
+  "kun": [
+   "やす.い",
+   "やす.まる",
+   "やす",
+   "やす.らか"
+  ],
+  "meanings": [
+   "relax",
+   "cheap",
+   "low",
+   "quiet"
+  ],
+  "strokes": 6,
+  "freq": 144,
+  "level": "N5",
+  "words": [
+   "w_1a82fe05ab"
+  ]
+ },
+ {
+  "kanji": "女",
+  "on": [
+   "じょ",
+   "にょ",
+   "にょう"
+  ],
+  "kun": [
+   "おんな",
+   "め"
+  ],
+  "meanings": [
+   "woman",
+   "female"
+  ],
+  "strokes": 3,
+  "freq": 151,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "北",
+  "on": [
+   "ほく"
+  ],
+  "kun": [
+   "きた"
+  ],
+  "meanings": [
+   "north"
+  ],
+  "strokes": 5,
+  "freq": 153,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "午",
+  "on": [
+   "ご"
+  ],
+  "kun": [
+   "うま"
+  ],
+  "meanings": [
+   "noon",
+   "sign of the horse",
+   "11AM-1PM",
+   "seventh sign of Chinese zodiac"
+  ],
+  "strokes": 4,
+  "freq": 154,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "百",
+  "on": [
+   "ひゃく",
+   "びゃく"
+  ],
+  "kun": [
+   "もも"
+  ],
+  "meanings": [
+   "hundred"
+  ],
+  "strokes": 6,
+  "freq": 163,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "書",
+  "on": [
+   "しょ"
+  ],
+  "kun": [
+   "か.く",
+   "-が.き",
+   "-がき"
+  ],
+  "meanings": [
+   "write"
+  ],
+  "strokes": 10,
+  "freq": 169,
+  "level": "N5",
+  "words": [
+   "w_2f37dd488e"
+  ]
+ },
+ {
+  "kanji": "先",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "さき",
+   "ま.ず"
+  ],
+  "meanings": [
+   "before",
+   "ahead",
+   "previous",
+   "future"
+  ],
+  "strokes": 6,
+  "freq": 173,
+  "level": "N5",
+  "words": [
+   "w_d038f34dbe"
+  ]
+ },
+ {
+  "kanji": "名",
+  "on": [
+   "めい",
+   "みょう"
+  ],
+  "kun": [
+   "な",
+   "-な"
+  ],
+  "meanings": [
+   "name",
+   "noted",
+   "distinguished",
+   "reputation"
+  ],
+  "strokes": 6,
+  "freq": 177,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "川",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "かわ"
+  ],
+  "meanings": [
+   "stream",
+   "river",
+   "river or three-stroke river radical (no. 47)"
+  ],
+  "strokes": 3,
+  "freq": 181,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "千",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "ち"
+  ],
+  "meanings": [
+   "thousand"
+  ],
+  "strokes": 3,
+  "freq": 195,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "道",
+  "on": [
+   "どう",
+   "とう"
+  ],
+  "kun": [
+   "みち",
+   "いう"
+  ],
+  "meanings": [
+   "road-way",
+   "street",
+   "district",
+   "journey"
+  ],
+  "strokes": 12,
+  "freq": 207,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "水",
+  "on": [
+   "すい"
+  ],
+  "kun": [
+   "みず",
+   "みず-"
+  ],
+  "meanings": [
+   "water"
+  ],
+  "strokes": 4,
+  "freq": 223,
+  "level": "N5",
+  "words": [
+   "w_b93ce302eb"
+  ]
+ },
+ {
+  "kanji": "半",
+  "on": [
+   "はん"
+  ],
+  "kun": [
+   "なか.ば"
+  ],
+  "meanings": [
+   "half",
+   "middle",
+   "odd number",
+   "semi-"
+  ],
+  "strokes": 5,
+  "freq": 224,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "男",
+  "on": [
+   "だん",
+   "なん"
+  ],
+  "kun": [
+   "おとこ",
+   "お"
+  ],
+  "meanings": [
+   "male"
+  ],
+  "strokes": 7,
+  "freq": 240,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "西",
+  "on": [
+   "せい",
+   "さい",
+   "す"
+  ],
+  "kun": [
+   "にし"
+  ],
+  "meanings": [
+   "west",
+   "Spain"
+  ],
+  "strokes": 6,
+  "freq": 259,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "電",
+  "on": [
+   "でん"
+  ],
+  "kun": [],
+  "meanings": [
+   "electricity"
+  ],
+  "strokes": 13,
+  "freq": 268,
+  "level": "N5",
+  "words": [
+   "w_e34d4d01c1"
+  ]
+ },
+ {
+  "kanji": "口",
+  "on": [
+   "こう",
+   "く"
+  ],
+  "kun": [
+   "くち"
+  ],
+  "meanings": [
+   "mouth"
+  ],
+  "strokes": 3,
+  "freq": 284,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "少",
+  "on": [
+   "しょう"
+  ],
+  "kun": [
+   "すく.ない",
+   "すこ.し"
+  ],
+  "meanings": [
+   "few",
+   "little"
+  ],
+  "strokes": 4,
+  "freq": 287,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "校",
+  "on": [
+   "こう",
+   "きょう"
+  ],
+  "kun": [],
+  "meanings": [
+   "exam",
+   "school",
+   "printing",
+   "proof"
+  ],
+  "strokes": 10,
+  "freq": 294,
+  "level": "N5",
+  "words": [
+   "w_e8b45cd895"
+  ]
+ },
+ {
+  "kanji": "語",
+  "on": [
+   "ご"
+  ],
+  "kun": [
+   "かた.る",
+   "かた.らう"
+  ],
+  "meanings": [
+   "word",
+   "speech",
+   "language"
+  ],
+  "strokes": 14,
+  "freq": 301,
+  "level": "N5",
+  "words": [
+   "w_42bd254ecf",
+   "w_b494462554"
+  ]
+ },
+ {
+  "kanji": "空",
+  "on": [
+   "くう"
+  ],
+  "kun": [
+   "そら",
+   "あ.く",
+   "あ.き",
+   "あ.ける",
+   "から",
+   "す.く",
+   "す.かす",
+   "むな.しい"
+  ],
+  "meanings": [
+   "empty",
+   "sky",
+   "void",
+   "vacant"
+  ],
+  "strokes": 8,
+  "freq": 304,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "土",
+  "on": [
+   "ど",
+   "と"
+  ],
+  "kun": [
+   "つち"
+  ],
+  "meanings": [
+   "soil",
+   "earth",
+   "ground",
+   "Turkey"
+  ],
+  "strokes": 3,
+  "freq": 307,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "木",
+  "on": [
+   "ぼく",
+   "もく"
+  ],
+  "kun": [
+   "き",
+   "こ-"
+  ],
+  "meanings": [
+   "tree",
+   "wood"
+  ],
+  "strokes": 4,
+  "freq": 317,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "聞",
+  "on": [
+   "ぶん",
+   "もん"
+  ],
+  "kun": [
+   "き.く",
+   "き.こえる"
+  ],
+  "meanings": [
+   "hear",
+   "ask",
+   "listen"
+  ],
+  "strokes": 14,
+  "freq": 319,
+  "level": "N5",
+  "words": [
+   "w_b34c32a300"
+  ]
+ },
+ {
+  "kanji": "食",
+  "on": [
+   "しょく",
+   "じき"
+  ],
+  "kun": [
+   "く.う",
+   "く.らう",
+   "た.べる",
+   "は.む"
+  ],
+  "meanings": [
+   "eat",
+   "food"
+  ],
+  "strokes": 9,
+  "freq": 328,
+  "level": "N5",
+  "words": [
+   "w_ac3cc33c0a"
+  ]
+ },
+ {
+  "kanji": "車",
+  "on": [
+   "しゃ"
+  ],
+  "kun": [
+   "くるま"
+  ],
+  "meanings": [
+   "car"
+  ],
+  "strokes": 7,
+  "freq": 333,
+  "level": "N5",
+  "words": [
+   "w_e34d4d01c1"
+  ]
+ },
+ {
+  "kanji": "何",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "なに",
+   "なん",
+   "なに-",
+   "なん-"
+  ],
+  "meanings": [
+   "what"
+  ],
+  "strokes": 7,
+  "freq": 340,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "南",
+  "on": [
+   "なん",
+   "な"
+  ],
+  "kun": [
+   "みなみ"
+  ],
+  "meanings": [
+   "south"
+  ],
+  "strokes": 9,
+  "freq": 341,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "足",
+  "on": [
+   "そく"
+  ],
+  "kun": [
+   "あし",
+   "た.りる",
+   "た.る",
+   "た.す"
+  ],
+  "meanings": [
+   "leg",
+   "foot",
+   "be sufficient",
+   "counter for pairs of footwear"
+  ],
+  "strokes": 7,
+  "freq": 343,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "万",
+  "on": [
+   "まん",
+   "ばん"
+  ],
+  "kun": [
+   "よろず"
+  ],
+  "meanings": [
+   "ten thousand",
+   "10,000"
+  ],
+  "strokes": 3,
+  "freq": 375,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "店",
+  "on": [
+   "てん"
+  ],
+  "kun": [
+   "みせ",
+   "たな"
+  ],
+  "meanings": [
+   "store",
+   "shop"
+  ],
+  "strokes": 8,
+  "freq": 378,
+  "level": "N5",
+  "words": [
+   "w_503042b463"
+  ]
+ },
+ {
+  "kanji": "毎",
+  "on": [
+   "まい"
+  ],
+  "kun": [
+   "ごと",
+   "-ごと.に"
+  ],
+  "meanings": [
+   "every"
+  ],
+  "strokes": 6,
+  "freq": 436,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "白",
+  "on": [
+   "はく",
+   "びゃく"
+  ],
+  "kun": [
+   "しろ",
+   "しら-",
+   "しろ.い"
+  ],
+  "meanings": [
+   "white"
+  ],
+  "strokes": 5,
+  "freq": 483,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "古",
+  "on": [
+   "こ"
+  ],
+  "kun": [
+   "ふる.い",
+   "ふる-",
+   "-ふる.す"
+  ],
+  "meanings": [
+   "old"
+  ],
+  "strokes": 5,
+  "freq": 509,
+  "level": "N5",
+  "words": [
+   "w_12a2ca1c62"
+  ]
+ },
+ {
+  "kanji": "天",
+  "on": [
+   "てん"
+  ],
+  "kun": [
+   "あまつ",
+   "あめ",
+   "あま-"
+  ],
+  "meanings": [
+   "heavens",
+   "sky",
+   "imperial"
+  ],
+  "strokes": 4,
+  "freq": 512,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "買",
+  "on": [
+   "ばい"
+  ],
+  "kun": [
+   "か.う"
+  ],
+  "meanings": [
+   "buy"
+  ],
+  "strokes": 12,
+  "freq": 520,
+  "level": "N5",
+  "words": [
+   "w_df2f0677e3"
+  ]
+ },
+ {
+  "kanji": "週",
+  "on": [
+   "しゅう"
+  ],
+  "kun": [],
+  "meanings": [
+   "week"
+  ],
+  "strokes": 11,
+  "freq": 540,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "母",
+  "on": [
+   "ぼ"
+  ],
+  "kun": [
+   "はは",
+   "も"
+  ],
+  "meanings": [
+   "mother"
+  ],
+  "strokes": 5,
+  "freq": 570,
+  "level": "N5",
+  "words": [
+   "w_2aee743efb"
+  ]
+ },
+ {
+  "kanji": "火",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "ひ",
+   "-び",
+   "ほ-"
+  ],
+  "meanings": [
+   "fire"
+  ],
+  "strokes": 4,
+  "freq": 574,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "花",
+  "on": [
+   "か",
+   "け"
+  ],
+  "kun": [
+   "はな"
+  ],
+  "meanings": [
+   "flower"
+  ],
+  "strokes": 7,
+  "freq": 578,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "右",
+  "on": [
+   "う",
+   "ゆう"
+  ],
+  "kun": [
+   "みぎ"
+  ],
+  "meanings": [
+   "right"
+  ],
+  "strokes": 5,
+  "freq": 602,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "読",
+  "on": [
+   "どく",
+   "とく",
+   "とう"
+  ],
+  "kun": [
+   "よ.む",
+   "-よ.み"
+  ],
+  "meanings": [
+   "read"
+  ],
+  "strokes": 14,
+  "freq": 618,
+  "level": "N5",
+  "words": [
+   "w_80bf4a20f2"
+  ]
+ },
+ {
+  "kanji": "友",
+  "on": [
+   "ゆう"
+  ],
+  "kun": [
+   "とも"
+  ],
+  "meanings": [
+   "friend"
+  ],
+  "strokes": 4,
+  "freq": 622,
+  "level": "N5",
+  "words": [
+   "w_270a1ab798"
+  ]
+ },
+ {
+  "kanji": "左",
+  "on": [
+   "さ",
+   "しゃ"
+  ],
+  "kun": [
+   "ひだり"
+  ],
+  "meanings": [
+   "left"
+  ],
+  "strokes": 5,
+  "freq": 630,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "休",
+  "on": [
+   "きゅう"
+  ],
+  "kun": [
+   "やす.む",
+   "やす.まる",
+   "やす.める"
+  ],
+  "meanings": [
+   "rest",
+   "day off",
+   "retire",
+   "sleep"
+  ],
+  "strokes": 6,
+  "freq": 642,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "父",
+  "on": [
+   "ふ"
+  ],
+  "kun": [
+   "ちち"
+  ],
+  "meanings": [
+   "father"
+  ],
+  "strokes": 4,
+  "freq": 646,
+  "level": "N5",
+  "words": [
+   "w_679829689f"
+  ]
+ },
+ {
+  "kanji": "駅",
+  "on": [
+   "えき"
+  ],
+  "kun": [],
+  "meanings": [
+   "station"
+  ],
+  "strokes": 14,
+  "freq": 724,
+  "level": "N5",
+  "words": [
+   "w_3eb453f94f"
+  ]
+ },
+ {
+  "kanji": "雨",
+  "on": [
+   "う"
+  ],
+  "kun": [
+   "あめ",
+   "あま-",
+   "-さめ"
+  ],
+  "meanings": [
+   "rain"
+  ],
+  "strokes": 8,
+  "freq": 950,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "飲",
+  "on": [
+   "いん",
+   "おん"
+  ],
+  "kun": [
+   "の.む",
+   "-の.み"
+  ],
+  "meanings": [
+   "drink",
+   "smoke",
+   "take"
+  ],
+  "strokes": 12,
+  "freq": 969,
+  "level": "N5",
+  "words": [
+   "w_692b973053"
+  ]
+ },
+ {
+  "kanji": "魚",
+  "on": [
+   "ぎょ"
+  ],
+  "kun": [
+   "うお",
+   "さかな",
+   "-ざかな"
+  ],
+  "meanings": [
+   "fish"
+  ],
+  "strokes": 11,
+  "freq": 1208,
+  "level": "N5",
+  "words": []
+ },
+ {
+  "kanji": "耳",
+  "on": [
+   "じ"
+  ],
+  "kun": [
+   "みみ"
+  ],
+  "meanings": [
+   "ear"
+  ],
+  "strokes": 6,
+  "freq": 1328,
+  "level": "N5",
+  "words": []
+ }
+]

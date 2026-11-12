@@ -47,6 +47,11 @@ func _initialize() -> void:
 	quit(1 if failed > 0 else 0)
 
 
+## Word id by headword (ids are stable hashes of headword + reading).
+func wid(headword: String) -> String:
+	return content.word_by_headword(headword)["id"]
+
+
 func assert_eq(actual: Variant, expected: Variant, label: String) -> void:
 	if actual == expected:
 		passed += 1
@@ -252,10 +257,10 @@ func test_content_loads() -> bool:
 	assert_true(content.grammar.size() >= 8, "grammar loaded")
 	assert_true(content.sentences.size() >= 10, "sentences loaded")
 	assert_eq(content.scenarios.size(), 1, "one scenario")
-	assert_eq(content.kana["hiragana"].size(), 71, "hiragana rows")
+	assert_eq(content.kana["hiragana"].size(), 104, "hiragana rows incl. yoon")
 	assert_eq(content.word_by_headword("勉強")["reading"], "べんきょう", "lookup by headword")
 	assert_true(content.search_vocab("water").size() >= 1, "english search")
-	assert_eq(content.random_words(3, "n5_001").size(), 3, "random words")
+	assert_eq(content.random_words(3, wid("私")).size(), 3, "random words")
 	for s in content.sentences:
 		for acc in s["accepted"]:
 			var sorted_acc: Array = acc.duplicate()
@@ -269,11 +274,11 @@ func test_content_loads() -> bool:
 func test_progress_roundtrip() -> bool:
 	progress.persist = false
 	progress.reset()
-	var clock := 1_700_000_000
-	progress.now_provider = func() -> int: return clock
+	var clock := [1_700_000_000]  # array: lambdas capture locals by value
+	progress.now_provider = func() -> int: return clock[0]
 	progress.record_sample(&"sentence_builder", 1.0)
-	progress.discover_word("n5_009")
-	progress.record_word_answer("n5_009", "rec", Srs.C_CORRECT)
+	progress.discover_word(wid("勉強"))
+	progress.record_word_answer(wid("勉強"), "rec", Srs.C_CORRECT)
 	progress.record_grammar("n5_wa", true)
 	progress.add_xp(1200)
 	var data: Dictionary = progress.to_dict()
@@ -282,8 +287,8 @@ func test_progress_roundtrip() -> bool:
 	progress.from_dict(parsed)
 	assert_eq(progress.xp, 1200, "xp survives")
 	assert_eq(progress.level(), 2, "level derived")
-	assert_eq(progress.word("n5_009")["rec"], 1, "word counters survive")
-	assert_eq(progress.word("n5_009")["box"], 1, "box survives")
+	assert_eq(progress.word(wid("勉強"))["rec"], 1, "word counters survive")
+	assert_eq(progress.word(wid("勉強"))["box"], 1, "box survives")
 	assert_near(progress.skills[&"grammar"]["perf"], 0.08 * 0.6, "skill perf survives")
 	assert_eq(progress.grammar["n5_wa"]["correct"], 1, "grammar record survives")
 	assert_eq(progress.scores()[&"listening"], 0, "untouched skill is 0")
@@ -293,17 +298,17 @@ func test_progress_roundtrip() -> bool:
 func test_progress_review_flow() -> bool:
 	progress.persist = false
 	progress.reset()
-	var clock := 1_700_000_000
-	progress.now_provider = func() -> int: return clock
-	progress.discover_word("n5_001")
-	assert_eq(progress.due_words(), ["n5_001"], "discovered word is due immediately")
-	progress.record_word_answer("n5_001", "rec", Srs.C_CORRECT)
+	var clock := [1_700_000_000]  # array: lambdas capture locals by value
+	progress.now_provider = func() -> int: return clock[0]
+	progress.discover_word(wid("私"))
+	assert_eq(progress.due_words(), [wid("私")], "discovered word is due immediately")
+	progress.record_word_answer(wid("私"), "rec", Srs.C_CORRECT)
 	assert_eq(progress.due_words().size(), 0, "answered word is scheduled later")
-	clock += 5 * 3600
-	assert_eq(progress.due_words(), ["n5_001"], "due again after 4h")
-	progress.record_word_answer("n5_001", "rec", Srs.C_WRONG)
-	assert_eq(progress.word("n5_001")["box"], 0, "lapse drops to box 0")
-	assert_eq(progress.word("n5_001")["lapses"], 1, "lapse counted")
+	clock[0] += 5 * 3600
+	assert_eq(progress.due_words(), [wid("私")], "due again after 4h")
+	progress.record_word_answer(wid("私"), "rec", Srs.C_WRONG)
+	assert_eq(progress.word(wid("私"))["box"], 0, "lapse drops to box 0")
+	assert_eq(progress.word(wid("私"))["lapses"], 1, "lapse counted")
 	assert_true(not progress.exam_unlocked(), "exam locked with zero scores")
 	progress.record_kana("あ", true)
 	progress.record_kana("あ", true)

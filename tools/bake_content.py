@@ -1,125 +1,120 @@
 #!/usr/bin/env python3
-"""Bake game content JSON from the curated word list plus JMdict.
+"""Bake game content JSON from the curated word lists plus JMdict and KanjiDic2.
 
 Inputs
 ------
-tools/n5_wordlist.tsv      hand-curated headwords, readings, Japanese definitions, examples
-tools/data/jmdict.sqlite   optional; JMdict (EDRDG, CC BY-SA 4.0) in the schema produced by the
-                           Immersion Reader project: entries(id, common, data JSON), forms(text, entry_id)
+tools/wordlists/<stage>/*.tsv   hand-curated words per stage (n5, n4, n3, n2, n1, mastery)
+JMdict SQLite (optional)        English glosses; see tools/README.md for where it is looked up
+tools/data/kanjidic2-en.json.zip (optional)  kanji readings, meanings, JLPT level
 
-Outputs (written into game/content/)
------------------------------------
-kana.json        hiragana + katakana tables (generated, no external data)
-vocab_n5.json    one entry per word list row, enriched with JMdict English glosses and part of speech
+Outputs (game/content/)
+-----------------------
+kana.json              hiragana + katakana (basic, dakuten, handakuten, yoon)
+vocab_<stage>.json     one entry per word, id = stable hash of headword+reading
+kanji_<stage>.json     the stage's kanji with readings, meanings and the words that use them
+
+Grammar, sentence prompts, scenarios, passages and anchors are authored directly as JSON in
+game/content/ and are not touched by this script.
 
 Usage
 -----
-    python tools/bake_content.py [--jmdict PATH] [--out game/content]
+    python tools/bake_content.py [--report]
 
-Without JMdict the English gloss falls back to the example translation and the part of speech
-to the category column, so the game still builds from a clean checkout.
+--report also lists stage kanji that no word of that stage uses yet (a curation to-do list).
 """
 from __future__ import annotations
 
 import argparse
 import json
-import sqlite3
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_JMDICT = ROOT / "tools" / "data" / "jmdict.sqlite"
-FALLBACK_JMDICT = Path.home() / "Downloads" / "Learn Japanese" / "Immersion Reader" / "data" / "jmdict.sqlite"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import jpcheck as jp  # noqa: E402
+from check_tsv import read_rows  # noqa: E402
 
-# JMdict part-of-speech tags → the game's coarse categories.
+OUT = jp.ROOT / "game" / "content"
+WORDLISTS = jp.ROOT / "tools" / "wordlists"
+
 POS_MAP = {
-    "n": "noun", "pn": "pronoun", "v1": "verb-ru", "v5u": "verb-u", "v5k": "verb-u", "v5s": "verb-u",
-    "v5t": "verb-u", "v5n": "verb-u", "v5b": "verb-u", "v5m": "verb-u", "v5r": "verb-u", "v5g": "verb-u",
-    "v5k-s": "verb-u", "v5r-i": "verb-u", "vk": "verb-irregular", "vs-i": "verb-irregular", "vs": "noun",
-    "adj-i": "adj-i", "adj-na": "adj-na", "exp": "expression", "int": "expression", "adv": "adverb",
+    "n": "noun", "pn": "pronoun", "v1": "verb-ru", "vk": "verb-irregular", "vs-i": "verb-irregular",
+    "adj-i": "adj-i", "adj-na": "adj-na", "exp": "expression", "int": "interjection", "adv": "adverb",
+    "conj": "conjunction", "ctr": "counter", "prt": "particle", "pref": "prefix", "suf": "suffix",
 }
-
 CATEGORY_JA = {
     "noun": "名詞", "pronoun": "代名詞", "verb-u": "動詞（五段）", "verb-ru": "動詞（一段）",
-    "verb-irregular": "動詞（不規則）", "adj-i": "い形容詞", "adj-na": "な形容詞",
-    "expression": "表現", "adverb": "副詞",
+    "verb-irregular": "動詞（不規則）", "adj-i": "い形容詞", "adj-na": "な形容詞", "adverb": "副詞",
+    "expression": "表現", "conjunction": "接続詞", "counter": "助数詞", "particle": "助詞",
+    "prefix": "接頭辞", "suffix": "接尾辞", "interjection": "感動詞",
 }
+STAGE_LABEL = {"n5": "N5", "n4": "N4", "n3": "N3", "n2": "N2", "n1": "N1", "mastery": "MASTERY"}
 
 
-def hiragana_table() -> list[dict]:
-    rows = [
-        ("あ", "a"), ("い", "i"), ("う", "u"), ("え", "e"), ("お", "o"),
-        ("か", "ka"), ("き", "ki"), ("く", "ku"), ("け", "ke"), ("こ", "ko"),
-        ("さ", "sa"), ("し", "shi"), ("す", "su"), ("せ", "se"), ("そ", "so"),
-        ("た", "ta"), ("ち", "chi"), ("つ", "tsu"), ("て", "te"), ("と", "to"),
-        ("な", "na"), ("に", "ni"), ("ぬ", "nu"), ("ね", "ne"), ("の", "no"),
-        ("は", "ha"), ("ひ", "hi"), ("ふ", "fu"), ("へ", "he"), ("ほ", "ho"),
-        ("ま", "ma"), ("み", "mi"), ("む", "mu"), ("め", "me"), ("も", "mo"),
-        ("や", "ya"), ("ゆ", "yu"), ("よ", "yo"),
-        ("ら", "ra"), ("り", "ri"), ("る", "ru"), ("れ", "re"), ("ろ", "ro"),
-        ("わ", "wa"), ("を", "wo"), ("ん", "n"),
-        ("が", "ga"), ("ぎ", "gi"), ("ぐ", "gu"), ("げ", "ge"), ("ご", "go"),
-        ("ざ", "za"), ("じ", "ji"), ("ず", "zu"), ("ぜ", "ze"), ("ぞ", "zo"),
-        ("だ", "da"), ("ぢ", "ji"), ("づ", "zu"), ("で", "de"), ("ど", "do"),
-        ("ば", "ba"), ("び", "bi"), ("ぶ", "bu"), ("べ", "be"), ("ぼ", "bo"),
-        ("ぱ", "pa"), ("ぴ", "pi"), ("ぷ", "pu"), ("ぺ", "pe"), ("ぽ", "po"),
-    ]
-    return [{"kana": k, "romaji": r, "group": "basic" if i < 46 else "dakuten"} for i, (k, r) in enumerate(rows)]
+# ---------------------------------------------------------------- kana
+
+_BASIC = [
+    ("あ", "a"), ("い", "i"), ("う", "u"), ("え", "e"), ("お", "o"),
+    ("か", "ka"), ("き", "ki"), ("く", "ku"), ("け", "ke"), ("こ", "ko"),
+    ("さ", "sa"), ("し", "shi"), ("す", "su"), ("せ", "se"), ("そ", "so"),
+    ("た", "ta"), ("ち", "chi"), ("つ", "tsu"), ("て", "te"), ("と", "to"),
+    ("な", "na"), ("に", "ni"), ("ぬ", "nu"), ("ね", "ne"), ("の", "no"),
+    ("は", "ha"), ("ひ", "hi"), ("ふ", "fu"), ("へ", "he"), ("ほ", "ho"),
+    ("ま", "ma"), ("み", "mi"), ("む", "mu"), ("め", "me"), ("も", "mo"),
+    ("や", "ya"), ("ゆ", "yu"), ("よ", "yo"),
+    ("ら", "ra"), ("り", "ri"), ("る", "ru"), ("れ", "re"), ("ろ", "ro"),
+    ("わ", "wa"), ("を", "wo"), ("ん", "n"),
+]
+_DAKUTEN = [
+    ("が", "ga"), ("ぎ", "gi"), ("ぐ", "gu"), ("げ", "ge"), ("ご", "go"),
+    ("ざ", "za"), ("じ", "ji"), ("ず", "zu"), ("ぜ", "ze"), ("ぞ", "zo"),
+    ("だ", "da"), ("ぢ", "ji"), ("づ", "zu"), ("で", "de"), ("ど", "do"),
+    ("ば", "ba"), ("び", "bi"), ("ぶ", "bu"), ("べ", "be"), ("ぼ", "bo"),
+]
+_HANDAKUTEN = [("ぱ", "pa"), ("ぴ", "pi"), ("ぷ", "pu"), ("ぺ", "pe"), ("ぽ", "po")]
+_YOON_BASE = [("き", "k"), ("し", "sh"), ("ち", "ch"), ("に", "n"), ("ひ", "h"), ("み", "m"), ("り", "r"),
+              ("ぎ", "g"), ("じ", "j"), ("び", "b"), ("ぴ", "p")]
 
 
-def katakana_table() -> list[dict]:
+def _yoon() -> list[tuple[str, str]]:
     out = []
-    for row in hiragana_table():
-        kata = "".join(chr(ord(c) + 0x60) for c in row["kana"])
-        out.append({"kana": kata, "romaji": row["romaji"], "group": row["group"]})
+    for kana, cons in _YOON_BASE:
+        for small, vowel in (("ゃ", "a"), ("ゅ", "u"), ("ょ", "o")):
+            romaji = cons + vowel if cons in ("sh", "ch", "j") else cons + "y" + vowel
+            out.append((kana + small, romaji))
     return out
 
 
-def read_wordlist(path: Path) -> list[dict]:
+def hiragana_table() -> list[dict]:
     rows = []
-    with path.open(encoding="utf-8") as fh:
-        header = None
-        for line in fh:
-            line = line.rstrip("\n")
-            if not line.strip():
-                continue
-            if line.startswith("#"):
-                header = line[1:].split("\t")
-                continue
-            cols = line.split("\t")
-            if header is not None and len(cols) == len(header) - 1:
-                cols.append("")  # editors strip a trailing tab when the last column is empty
-            if header is None or len(cols) != len(header):
-                raise SystemExit(f"bad row (expected {len(header or [])} columns): {line!r}")
-            rows.append(dict(zip(header, cols)))
+    for kind, items in (("basic", _BASIC), ("dakuten", _DAKUTEN), ("handakuten", _HANDAKUTEN), ("yoon", _yoon())):
+        rows += [{"kana": k, "romaji": r, "group": kind} for k, r in items]
     return rows
 
 
-def lookup_jmdict(db: sqlite3.Connection | None, headword: str, reading: str) -> tuple[list[str], str | None]:
-    """Return (english glosses, coarse pos) for the JMdict entry whose kanji/kana form matches."""
-    if db is None:
-        return [], None
-    candidates = db.execute(
-        "SELECT e.data, e.common FROM forms f JOIN entries e ON e.id = f.entry_id WHERE f.text = ?", (headword,)
-    ).fetchall()
+def katakana_table() -> list[dict]:
+    return [{"kana": "".join(chr(ord(c) + 0x60) for c in row["kana"]), "romaji": row["romaji"], "group": row["group"]}
+            for row in hiragana_table()]
+
+
+# ---------------------------------------------------------------- vocab
+
+def jmdict_gloss(headword: str, reading: str) -> tuple[list[str], str | None]:
     best = None
-    for data, common in candidates:
-        entry = json.loads(data)
+    for entry in jp.jmdict_entries(headword):
         kana = [k["t"] for k in entry.get("kana", [])]
         if reading in kana or headword in kana:
-            score = 1 + (1 if common else 0)
+            score = 2 if entry["_common"] else 1
             if best is None or score > best[0]:
                 best = (score, entry)
     if best is None:
         return [], None
-    entry = best[1]
     glosses: list[str] = []
     pos = None
-    for sense in entry.get("sense", []):
+    for sense in best[1].get("sense", []):
         if pos is None:
             for tag in sense.get("pos", []):
-                if tag in POS_MAP:
-                    pos = POS_MAP[tag]
+                if tag in POS_MAP or tag.startswith("v5"):
+                    pos = POS_MAP.get(tag, "verb-u")
                     break
         for g in sense.get("g", []):
             if g not in glosses:
@@ -129,54 +124,111 @@ def lookup_jmdict(db: sqlite3.Connection | None, headword: str, reading: str) ->
     return glosses[:3], pos
 
 
-def bake_vocab(rows: list[dict], db: sqlite3.Connection | None) -> list[dict]:
+def bake_stage_vocab(stage: str, seen: dict[tuple[str, str], str]) -> list[dict]:
     entries = []
-    for i, row in enumerate(rows, start=1):
-        glosses, pos = lookup_jmdict(db, row["headword"], row["reading"])
-        category = row["category"] or pos or "noun"
-        english = "; ".join(glosses) if glosses else row["example_en"]
-        entries.append({
-            "id": f"n5_{i:03d}",
-            "headword": row["headword"],
-            "reading": row["reading"],
-            "level": "N5",
-            "category": category,
-            "category_ja": CATEGORY_JA.get(category, category),
-            "definition_ja": row["jp_definition"],
-            "english": english,
-            "examples": [{"ja": row["example_jp"], "en": row["example_en"]}],
-            "related": [r for r in row["related"].split(",") if r],
-            "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content" if glosses else "original editorial content",
-        })
+    for path in sorted((WORDLISTS / stage).glob("*.tsv")):
+        rows, errors = read_rows(path)
+        if errors:
+            raise SystemExit("\n".join(errors))
+        for row in rows:
+            key = (row["headword"], row["reading"])
+            if key in seen:
+                print(f"skip duplicate {row['headword']} in {stage}/{path.name} (already in {seen[key]})", file=sys.stderr)
+                continue
+            seen[key] = f"{stage}/{path.name}"
+            glosses, _pos = jmdict_gloss(*key)
+            category = row["category"]
+            entries.append({
+                "id": jp.word_id(*key),
+                "headword": row["headword"],
+                "reading": row["reading"],
+                "level": STAGE_LABEL[stage],
+                "category": category,
+                "category_ja": CATEGORY_JA.get(category, category),
+                "definition_ja": row["jp_definition"],
+                "english": "; ".join(glosses) if glosses else row["example_en"],
+                "examples": [{"ja": row["example_jp"], "en": row["example_en"]}],
+                "related": [r.strip() for r in row["related"].split(",") if r.strip()],
+                "kanji": sorted(set(jp.KANJI.findall(row["headword"]))),
+                "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content" if glosses else "original editorial content",
+            })
     return entries
+
+
+# ---------------------------------------------------------------- kanji
+
+def stage_of_kanji() -> dict[str, str]:
+    kd = jp.kanjidic()
+    out = {ch: jp.OLD_JLPT_TO_STAGE[info["jlpt_old"]] for ch, info in kd.items() if info["jlpt_old"] in jp.OLD_JLPT_TO_STAGE}
+    old2 = sorted((ch for ch, info in kd.items() if info["jlpt_old"] == 2),
+                  key=lambda ch: kd[ch]["freq"] if kd[ch]["freq"] else 99999)
+    half = len(old2) // 2
+    for i, ch in enumerate(old2):
+        out[ch] = "n3" if i < half else "n2"
+    return out
+
+
+def bake_kanji(vocab_by_stage: dict[str, list[dict]]) -> dict[str, list[dict]]:
+    kd = jp.kanjidic()
+    if not kd:
+        return {}
+    stages = stage_of_kanji()
+    words_using: dict[str, list[str]] = {}
+    for stage in jp.STAGES:
+        for entry in vocab_by_stage.get(stage, []):
+            for ch in entry["kanji"]:
+                words_using.setdefault(ch, []).append(entry["id"])
+    out: dict[str, list[dict]] = {s: [] for s in jp.STAGES}
+    for ch, stage in stages.items():
+        info = kd[ch]
+        out[stage].append({
+            "kanji": ch, "on": info["on"], "kun": info["kun"], "meanings": info["meanings"][:4],
+            "strokes": info["strokes"], "freq": info["freq"], "level": STAGE_LABEL[stage],
+            "words": words_using.get(ch, [])[:8],
+        })
+    for stage in out:
+        out[stage].sort(key=lambda k: (k["freq"] or 99999, k["kanji"]))
+    return out
+
+
+# ---------------------------------------------------------------- main
+
+def write_json(name: str, data) -> None:
+    (OUT / name).write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--jmdict", type=Path, default=None, help="path to jmdict.sqlite")
-    ap.add_argument("--out", type=Path, default=ROOT / "game" / "content")
-    ap.add_argument("--wordlist", type=Path, default=ROOT / "tools" / "n5_wordlist.tsv")
+    ap.add_argument("--report", action="store_true", help="list stage kanji not yet used by any word")
     args = ap.parse_args(argv)
+    if jp.jmdict() is None:
+        print("JMdict not found; English glosses fall back to example translations", file=sys.stderr)
 
-    jmdict_path = args.jmdict or (DEFAULT_JMDICT if DEFAULT_JMDICT.exists() else FALLBACK_JMDICT)
-    db = None
-    if jmdict_path.exists():
-        db = sqlite3.connect(str(jmdict_path))
-        print(f"JMdict: {jmdict_path}")
-    else:
-        print("JMdict not found; baking with editorial content only", file=sys.stderr)
+    OUT.mkdir(parents=True, exist_ok=True)
+    write_json("kana.json", {"hiragana": hiragana_table(), "katakana": katakana_table()})
 
-    args.out.mkdir(parents=True, exist_ok=True)
-    kana = {"hiragana": hiragana_table(), "katakana": katakana_table()}
-    (args.out / "kana.json").write_text(json.dumps(kana, ensure_ascii=False, indent=1), encoding="utf-8")
+    seen: dict[tuple[str, str], str] = {}
+    vocab_by_stage: dict[str, list[dict]] = {}
+    for stage in jp.STAGES:
+        if not (WORDLISTS / stage).exists():
+            continue
+        vocab = bake_stage_vocab(stage, seen)
+        vocab_by_stage[stage] = vocab
+        write_json(f"vocab_{stage}.json", vocab)
+        print(f"{stage}: {len(vocab)} words")
 
-    rows = read_wordlist(args.wordlist)
-    vocab = bake_vocab(rows, db)
-    missing = [v["headword"] for v in vocab if "JMdict" not in v["source"]]
-    (args.out / "vocab_n5.json").write_text(json.dumps(vocab, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"wrote {len(vocab)} vocab entries, {len(kana['hiragana'])} hiragana, {len(kana['katakana'])} katakana")
-    if db is not None and missing:
-        print(f"no JMdict match for: {', '.join(missing)}", file=sys.stderr)
+    kanji = bake_kanji(vocab_by_stage)
+    for stage, rows in kanji.items():
+        if rows:
+            write_json(f"kanji_{stage}.json", rows)
+            used = sum(1 for k in rows if k["words"])
+            print(f"{stage}: {len(rows)} kanji ({used} used by at least one word)")
+            if args.report:
+                missing = [k["kanji"] for k in rows if not k["words"]]
+                if missing:
+                    print(f"  unused {stage} kanji: {''.join(missing)}")
+    if not kanji:
+        print("KanjiDic2 not found; kanji_<stage>.json not regenerated", file=sys.stderr)
     return 0
 
 
