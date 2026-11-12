@@ -26,6 +26,22 @@ Rules that apply to everything below:
 | Universal Animation Library [Standard] | Quaternius | https://quaternius.itch.io · https://quaternius.com | CC0 1.0 | glTF/GLB clips only | `game/assets/quaternius_ual/` |
 | Universal Animation Library 2 [Standard] | Quaternius | https://quaternius.itch.io · https://quaternius.com | CC0 1.0 | glTF/GLB clips only | `game/assets/quaternius_ual2/` |
 
+### Files actually imported (3D town, `game/world/town.tscn`)
+
+Copied unchanged from the zips (gltf variant only; `.gltf` + its `.bin` + the pack atlas, or
+self-contained `.glb`). Total ≈ 4.0 MB. Each folder also holds the pack's `License.txt` (CC0).
+
+| Pack | Zip path | Files |
+|---|---|---|
+| KayKit Adventurers 2.0 | `Characters/gltf/` | `Barbarian.glb`, `Knight.glb`, `Mage.glb`, `Ranger.glb`, `Rogue.glb`, `Rogue_Hooded.glb` (textures embedded) |
+| KayKit Adventurers 2.0 | `Animations/gltf/Rig_Medium/` | `Rig_Medium_General.glb` (Idle_A), `Rig_Medium_MovementBasic.glb` (Walking_A, Running_A) — same skeleton names as the characters, so no retargeting |
+| KayKit Forest Nature Pack 1.0 | `Assets/gltf/` | `Tree_1_A_Color1`, `Tree_2_A_Color1`, `Tree_3_A_Color1`, `Tree_4_A_Color1`, `Bush_1_A_Color1`, `Bush_2_A_Color1`, `Rock_1_A_Color1`, `Rock_2_A_Color1` (`.gltf` + `.bin` each), `forest_texture.png` |
+| KayKit Dungeon Pack 1.1 | `Assets/gltf/` | `barrel_large`, `crates_stacked`, `box_small` (`.gltf` + `.bin` each), `dungeon_texture.png` |
+
+Not imported: KayKit Skeletons, both Quaternius libraries, all fbx/obj variants, the loose
+character PNGs (the `.glb` files embed them). Atlas filtering is set to Nearest at load time by
+`TownActor.use_nearest_filter()` (ART_BIBLE §4.4); the `.import` files use Godot defaults.
+
 Sub-folder names inside the zips are given from the pack layout as shipped at the time of
 writing; if a pack reorganises, the rule stays "the gltf variant and its atlas, nothing else".
 
