@@ -1,0 +1,83 @@
+[
+ {
+  "id": "n2_an_001", "level": "N2",
+  "ja": "{状況|じょうきょう}に{応|おう}じて、{適切|てきせつ}な{対応|たいおう}をする{必要|ひつよう}があります。",
+  "en": "We need to respond appropriately according to the situation.",
+  "variants": [
+   {"type": "meaning", "section": "grammar",
+    "prompt_ja": "「{状況|じょうきょう}に{応|おう}じて」の{意味|いみ}は？", "prompt_en": "What does 状況に応じて mean?",
+    "options": ["{状況|じょうきょう}に{関係|かんけい}なく", "{状況|じょうきょう}に{合|あ}わせて", "{状況|じょうきょう}が{原因|げんいん}で", "{状況|じょうきょう}と{比|くら}べて"], "answer": 1,
+    "why_ja": "「に{応|おう}じて」は「〜に{合|あ}わせて{変|か}える」という{意味|いみ}です。", "why_en": "に応じて = adjusting to match something."},
+   {"type": "rewrite", "section": "grammar",
+    "prompt_ja": "{同|おな}じ{意味|いみ}の{文|ぶん}はどれ？", "prompt_en": "Which sentence means the same?",
+    "options": ["{状況|じょうきょう}にかかわらず、{同|おな}じ{対応|たいおう}をするべきです。", "{状況|じょうきょう}をきっかけに、{対応|たいおう}をやめました。", "{状況|じょうきょう}に{合|あ}わせて、{適切|てきせつ}に{対応|たいおう}しなければなりません。"], "answer": 2,
+    "why_ja": "「{応|おう}じて」は「{合|あ}わせて」、「{必要|ひつよう}があります」は「しなければなりません」に{言|い}い{換|か}えられます。", "why_en": "応じて ≈ 合わせて, and 必要があります ≈ しなければなりません."},
+   {"type": "meaning", "section": "vocab",
+    "prompt_ja": "「{適切|てきせつ}」に{近|ちか}い{意味|いみ}の{言葉|ことば}は？", "prompt_en": "Which word is closest in meaning to 適切?",
+    "options": ["ふさわしい", "めずらしい", "あやしい", "はげしい"], "answer": 0,
+    "why_ja": "「{適切|てきせつ}」は、その{場|ば}に{合|あ}っていて{正|ただ}しい、という{意味|いみ}です。「ふさわしい」が{近|ちか}いです。", "why_en": "適切 means suitable or appropriate, like ふさわしい."},
+   {"type": "meaning", "section": "kanji",
+    "prompt_ja": "「てきせつ」を{漢字|かんじ}で{書|か}くと、どれが{正|ただ}しい？", "prompt_en": "Which is the correct kanji spelling of てきせつ?",
+    "options": ["{適接|てきせつ}", "{適切|てきせつ}", "{的切|てきせつ}", "{適設|てきせつ}"], "answer": 1,
+    "why_ja": "「{適|てき}」は「{合|あ}う」、「{切|せつ}」は「ぴったり」という{意味|いみ}で、「{適切|てきせつ}」と{書|か}きます。", "why_en": "適 (to suit) + 切 (exactly fitting) = 適切."},
+   {"type": "respond", "section": "conversation",
+    "prompt_ja": "{上司|じょうし}にこう{言|い}われました。{自然|しぜん}な{返事|へんじ}は？", "prompt_en": "Your boss says this to you. What is a natural reply?",
+    "options": ["はい、{状況|じょうきょう}をよく{見|み}て{判断|はんだん}いたします。", "はい、いつも{同|おな}じやり{方|かた}でやります。", "いいえ、{対応|たいおう}は{適切|てきせつ}です。"], "answer": 0,
+    "why_ja": "{状況|じょうきょう}に{合|あ}わせて{判断|はんだん}すると{答|こた}えるのが、{指示|しじ}に{合|あ}った{返事|へんじ}です。", "why_en": "Promising to judge each situation matches the instruction."}
+  ]
+ },
+ {
+  "id": "n2_an_002", "level": "N2",
+  "ja": "{雨|あめ}が{降|ふ}っていたものの、{試合|しあい}は{予定|よてい}どおり{行|おこな}われた。",
+  "en": "Although it was raining, the match was held as scheduled.",
+  "variants": [
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の「ものの」の{意味|いみ}は？", "prompt_en": "What does ものの mean here?",
+    "options": ["〜ので", "〜けれども", "〜ために", "〜たら"], "answer": 1,
+    "why_ja": "{雨|あめ}なら{中止|ちゅうし}になりそうなのに、{行|おこな}われたので、{逆接|ぎゃくせつ}の「けれども」です。", "why_en": "Rain would suggest cancellation, but it went ahead: a contrast."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "なぜ「{行|おこな}われた」と{受身|うけみ}の{形|かたち}を{使|つか}っていますか。", "prompt_en": "Why is the passive 行われた used?",
+    "options": ["{試合|しあい}が{主語|しゅご}で、{行|おこな}う{人|ひと}を{言|い}わないから", "{雨|あめ}が{試合|しあい}をしたから", "{相手|あいて}に{丁寧|ていねい}に{話|はな}すため"], "answer": 0,
+    "why_ja": "{試合|しあい}を{主語|しゅご}にして、{誰|だれ}が{行|おこな}ったかは{言|い}わないので{受身|うけみ}になります。", "why_en": "The match is the subject and the organiser is left unstated."},
+   {"type": "meaning", "section": "reading",
+    "prompt_ja": "{試合|しあい}はどうなりましたか。", "prompt_en": "What happened to the match?",
+    "options": ["{中止|ちゅうし}になった", "{次|つぎ}の{日|ひ}に{延期|えんき}された", "{予定|よてい}どおりに{行|おこな}われた"], "answer": 2,
+    "why_ja": "「{予定|よてい}どおり{行|おこな}われた」とあります。", "why_en": "It says the match was held as planned."},
+   {"type": "same_pattern", "section": "grammar",
+    "prompt_ja": "「ものの」を{正|ただ}しく{使|つか}っている{文|ぶん}は？", "prompt_en": "Which sentence uses ものの correctly?",
+    "options": ["{頑張|がんば}ったものの、{合格|ごうかく}できた。", "{頑張|がんば}ったものの、{合格|ごうかく}できなかった。", "{頑張|がんば}るものの{前|まえ}に、{合格|ごうかく}した。"], "answer": 1,
+    "why_ja": "「ものの」の{後|あと}には{期待|きたい}と{逆|ぎゃく}の{結果|けっか}が{来|き}ます。{頑張|がんば}ったのに{合格|ごうかく}できなかった、が{正|ただ}しいです。", "why_en": "ものの needs a contrary result: tried hard, yet failed."},
+   {"type": "subject_object", "section": "grammar",
+    "prompt_ja": "「{行|おこな}われた」の{主語|しゅご}は？", "prompt_en": "What is the subject of 行われた?",
+    "options": ["{雨|あめ}", "{試合|しあい}", "{予定|よてい}"], "answer": 1,
+    "why_ja": "「{試合|しあい}は{行|おこな}われた」なので、{主語|しゅご}は「{試合|しあい}」です。", "why_en": "試合は行われた: the match is the subject."}
+  ]
+ },
+ {
+  "id": "n2_an_003", "level": "N2",
+  "ja": "{彼女|かのじょ}が{手伝|てつだ}ってくれたおかげで、{仕事|しごと}が{早|はや}く{終|お}わった。",
+  "en": "Thanks to her help, the work finished early.",
+  "variants": [
+   {"type": "meaning", "section": "grammar",
+    "prompt_ja": "「おかげで」からわかる{話|はな}し{手|て}の{気持|きも}ちは？", "prompt_en": "What feeling does おかげで show?",
+    "options": ["{不満|ふまん}", "{心配|しんぱい}", "{感謝|かんしゃ}", "{驚|おどろ}き"], "answer": 2,
+    "why_ja": "「おかげで」は{良|よ}い{結果|けっか}になって{感謝|かんしゃ}しているときに{使|つか}います。", "why_en": "おかげで expresses gratitude for a good result."},
+   {"type": "rewrite", "section": "grammar",
+    "prompt_ja": "「せいで」を{使|つか}った{自然|しぜん}な{文|ぶん}はどれ？", "prompt_en": "Which sentence uses せいで naturally?",
+    "options": ["{彼女|かのじょ}が{手伝|てつだ}ってくれたせいで、{仕事|しごと}が{早|はや}く{終|お}わった。", "{彼女|かのじょ}が{手伝|てつだ}うせいで、{仕事|しごと}が{早|はや}く{終|お}わる。", "{機械|きかい}が{故障|こしょう}したせいで、{仕事|しごと}が{遅|おく}れた。"], "answer": 2,
+    "why_ja": "「せいで」は{悪|わる}い{結果|けっか}に{使|つか}います。{仕事|しごと}が{遅|おく}れた、という{悪|わる}い{結果|けっか}の{文|ぶん}が{自然|しぜん}です。", "why_en": "せいで goes with a bad result, such as the work being delayed."},
+   {"type": "subject_object", "section": "reading",
+    "prompt_ja": "{手伝|てつだ}ったのは{誰|だれ}ですか。", "prompt_en": "Who helped?",
+    "options": ["{彼女|かのじょ}", "{話|はな}し{手|て}", "{話|はな}し{手|て}の{上司|じょうし}"], "answer": 0,
+    "why_ja": "「{彼女|かのじょ}が{手伝|てつだ}ってくれた」なので、{手伝|てつだ}ったのは{彼女|かのじょ}です。", "why_en": "彼女が手伝ってくれた: she is the one who helped."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "なぜ「{手伝|てつだ}ってくれた」と「くれる」を{使|つか}っていますか。", "prompt_en": "Why is くれる used in 手伝ってくれた?",
+    "options": ["{話|はな}し{手|て}が{彼女|かのじょ}を{手伝|てつだ}ったから", "{彼女|かのじょ}が{話|はな}し{手|て}のためにしてくれたから", "{過去|かこ}のことを{丁寧|ていねい}に{言|い}うため"], "answer": 1,
+    "why_ja": "「〜てくれる」は、{誰|だれ}かが{自分|じぶん}のために{何|なに}かをしてくれたことを{表|あらわ}します。", "why_en": "てくれる shows someone did something for the speaker."},
+   {"type": "respond", "section": "conversation",
+    "prompt_ja": "{友達|ともだち}がこう{言|い}いました。{自然|しぜん}な{返事|へんじ}は？", "prompt_en": "A friend says this to you. What is a natural reply?",
+    "options": ["それは{残念|ざんねん}だったね。", "よかったね。{後|あと}でお{礼|れい}を{言|い}わないとね。", "{彼女|かのじょ}のせいで{遅|おく}れたんだね。"], "answer": 1,
+    "why_ja": "{良|よ}い{知|し}らせなので「よかったね」と{喜|よろこ}び、お{礼|れい}の{話|はなし}をするのが{自然|しぜん}です。", "why_en": "It's good news, so respond happily and mention thanking her."}
+  ]
+ }
+]

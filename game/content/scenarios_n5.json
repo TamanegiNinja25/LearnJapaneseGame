@@ -1,10 +1,10 @@
 [
  {
-  "id": "sc_konbini",
+  "id": "n5_sc_konbini",
   "title_ja": "コンビニで{買|か}い{物|もの}",
   "title_en": "Shopping at the convenience store",
   "level": "N5",
-  "location": "商店街",
+  "location": "{商店街|しょうてんがい}",
   "register": "polite",
   "turns": [
    {
@@ -12,40 +12,369 @@
     "line_ja": "いらっしゃいませ！{何|なに}をお{探|さが}しですか。",
     "line_en": "Welcome! What are you looking for?",
     "options": [
-     {"ja": "{水|みず}をください。", "verdict": "correct", "feedback_ja": "「〜をください」で{丁寧|ていねい}に{頼|たの}めます。", "feedback_en": "をください is the natural polite way to ask for an item."},
+     {"ja": "{水|みず}をください。", "verdict": "correct", "register": "polite", "feedback_ja": "「〜をください」で{丁寧|ていねい}に{頼|たの}めます。", "feedback_en": "をください is the natural polite way to ask for an item."},
      {"ja": "{水|みず}がいます。", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。{水|みず}には{使|つか}いません。", "feedback_en": "います is for people and animals, not for water."},
      {"ja": "{水|みず}をあります。", "verdict": "wrong", "feedback_ja": "「あります」の{前|まえ}は「が」です。「を」ではありません。", "feedback_en": "あります takes が, not を, and does not mean 'please'."}
-    ]
+    ],
+    "typed": ["水をください", "みずをください", "お水をください", "おみずをください", "水をお願いします", "みずをおねがいします", "お水をお願いします"]
    },
    {
     "speaker": "{店員|てんいん}",
     "line_ja": "はい、{水|みず}ですね。{他|ほか}に{何|なに}かありますか。",
     "line_en": "Water, certainly. Anything else?",
     "options": [
-     {"ja": "いいえ、{大丈夫|だいじょうぶ}です。", "verdict": "correct", "feedback_ja": "「{大丈夫|だいじょうぶ}です」は、ここでは「いりません」という{意味|いみ}です。", "feedback_en": "大丈夫です here means 'no, I'm fine' — a soft way to decline."},
-     {"ja": "いいえ、{何|なに}もないです。", "verdict": "unnatural", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{店|みせ}では「{大丈夫|だいじょうぶ}です」のほうが{自然|しぜん}です。", "feedback_en": "Grammatical, but 大丈夫です is what people actually say in a shop."},
+     {"ja": "いいえ、{大丈夫|だいじょうぶ}です。", "verdict": "correct", "register": "polite", "feedback_ja": "「{大丈夫|だいじょうぶ}です」は、ここでは「いりません」という{意味|いみ}です。", "feedback_en": "大丈夫です here means 'no, I'm fine' — a soft way to decline."},
+     {"ja": "いいえ、{何|なに}もないです。", "verdict": "unnatural", "register": "polite", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{店|みせ}では「{大丈夫|だいじょうぶ}です」のほうが{自然|しぜん}です。", "feedback_en": "Grammatical, but 大丈夫です is what people actually say in a shop."},
      {"ja": "はい、{水|みず}です。", "verdict": "wrong", "feedback_ja": "{質問|しつもん}は「{他|ほか}に」です。{水|みず}はもう{頼|たの}みました。", "feedback_en": "The clerk asked about anything else; you already asked for water."}
-    ]
+    ],
+    "typed": ["いいえ、大丈夫です", "いいえ、だいじょうぶです", "大丈夫です", "だいじょうぶです", "いいえ大丈夫です", "いいえだいじょうぶです"]
    },
    {
     "speaker": "{店員|てんいん}",
     "line_ja": "{百|ひゃく}{円|えん}です。{袋|ふくろ}はご{利用|りよう}ですか。",
     "line_en": "That's 100 yen. Would you like a bag?",
     "options": [
-     {"ja": "いいえ、{結構|けっこう}です。", "verdict": "correct", "feedback_ja": "「{結構|けっこう}です」は{丁寧|ていねい}な「いりません」です。", "feedback_en": "結構です is a polite 'no thank you'."},
-     {"ja": "いいえ、{嫌|きら}いです。", "verdict": "unnatural", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{店|みせ}で「{嫌|きら}い」は{強|つよ}すぎます。", "feedback_en": "Grammatical, but saying you 'hate' the bag is far too strong for a shop."},
-     {"ja": "{袋|ふくろ}をいます。", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。", "feedback_en": "います cannot be used with a bag."}
-    ]
+     {"ja": "いいえ、{結構|けっこう}です。", "verdict": "correct", "register": "polite", "feedback_ja": "「{結構|けっこう}です」は{丁寧|ていねい}な「いりません」です。", "feedback_en": "結構です is a polite 'no thank you'."},
+     {"ja": "いいえ、{嫌|きら}いです。", "verdict": "unnatural", "register": "polite", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{店|みせ}で「{嫌|きら}い」は{強|つよ}すぎます。", "feedback_en": "Grammatical, but saying you 'hate' the bag is far too strong for a shop."},
+     {"ja": "{袋|ふくろ}をいます。", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。{袋|ふくろ}には{使|つか}いません。", "feedback_en": "います cannot be used with a bag."}
+    ],
+    "typed": ["いいえ、結構です", "いいえ、けっこうです", "結構です", "けっこうです", "いいえ、大丈夫です", "いいえ、だいじょうぶです", "大丈夫です", "だいじょうぶです"]
    },
    {
     "speaker": "{店員|てんいん}",
     "line_ja": "ありがとうございました。またお{越|こ}しくださいませ。",
     "line_en": "Thank you very much. Please come again.",
     "options": [
-     {"ja": "ありがとうございます。", "verdict": "correct", "feedback_ja": "{客|きゃく}も「ありがとうございます」と{言|い}うと{丁寧|ていねい}です。", "feedback_en": "A simple thank-you back is polite and natural."},
+     {"ja": "ありがとうございます。", "verdict": "correct", "register": "polite", "feedback_ja": "{客|きゃく}も「ありがとうございます」と{言|い}うと{丁寧|ていねい}です。", "feedback_en": "A simple thank-you back is polite and natural."},
      {"ja": "いらっしゃいませ。", "verdict": "wrong", "feedback_ja": "「いらっしゃいませ」は{店|みせ}の{人|ひと}が{言|い}う{言葉|ことば}です。", "feedback_en": "いらっしゃいませ is only said by staff to customers."},
-     {"ja": "おはようございます。", "verdict": "unnatural", "feedback_ja": "あいさつとしては{正|ただ}しいですが、{帰|かえ}るときには{使|つか}いません。", "feedback_en": "A valid greeting, but not what you say when leaving."}
-    ]
+     {"ja": "おはようございます。", "verdict": "unnatural", "register": "polite", "feedback_ja": "あいさつとしては{正|ただ}しいですが、{帰|かえ}るときには{使|つか}いません。", "feedback_en": "A valid greeting, but not what you say when leaving."}
+    ],
+    "typed": ["ありがとうございます", "ありがとうございました", "どうもありがとうございます"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_jikoshoukai",
+  "title_ja": "クラスメートに{自己紹介|じこしょうかい}",
+  "title_en": "Introducing yourself to a classmate",
+  "level": "N5",
+  "location": "{学校|がっこう}",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{田中|たなか}さん",
+    "line_ja": "はじめまして。{田中|たなか}です。",
+    "line_en": "Nice to meet you. I'm Tanaka.",
+    "options": [
+     {"ja": "はじめまして。どうぞよろしくお{願|ねが}いします。", "verdict": "correct", "register": "polite", "feedback_ja": "{初|はじ}めて{会|あ}った{人|ひと}には「はじめまして」と「よろしくお{願|ねが}いします」を{使|つか}います。", "feedback_en": "はじめまして plus よろしくお願いします is the standard first-meeting greeting."},
+     {"ja": "おう、よろしく。", "verdict": "unnatural", "register": "casual", "feedback_ja": "{友達|ともだち}どうしの{言|い}い{方|かた}です。{初|はじ}めて{会|あ}った{人|ひと}には{丁寧|ていねい}に{言|い}いましょう。", "feedback_en": "This is how close friends talk; it is too casual for someone you have just met."},
+     {"ja": "さようなら。", "verdict": "wrong", "feedback_ja": "「さようなら」は{別|わか}れるときのあいさつです。{今|いま}{会|あ}ったばかりです。", "feedback_en": "さようなら is for parting, but you have only just met."}
+    ],
+    "typed": ["はじめまして、どうぞよろしくお願いします", "はじめまして、どうぞよろしくおねがいします", "はじめまして、よろしくお願いします", "はじめまして、よろしくおねがいします", "よろしくお願いします", "よろしくおねがいします", "どうぞよろしくお願いします", "はじめまして"]
+   },
+   {
+    "speaker": "{田中|たなか}さん",
+    "line_ja": "お{名前|なまえ}は{何|なん}ですか。",
+    "line_en": "What is your name?",
+    "options": [
+     {"ja": "リーです。", "verdict": "correct", "register": "polite", "feedback_ja": "{自分|じぶん}の{名前|なまえ}に「です」をつけるだけで{大丈夫|だいじょうぶ}です。", "feedback_en": "Just your name plus です is enough."},
+     {"ja": "{私|わたし}の{名前|なまえ}はリーさんです。", "verdict": "unnatural", "register": "polite", "feedback_ja": "「さん」は{他|ほか}の{人|ひと}の{名前|なまえ}につけます。{自分|じぶん}の{名前|なまえ}にはつけません。", "feedback_en": "さん is only added to other people's names, never your own."},
+     {"ja": "{田中|たなか}です。", "verdict": "wrong", "feedback_ja": "「{田中|たなか}」は{相手|あいて}の{名前|なまえ}です。{自分|じぶん}の{名前|なまえ}を{言|い}いましょう。", "feedback_en": "Tanaka is the other person's name; say your own."}
+    ],
+    "typed": ["リーです", "私はリーです", "わたしはリーです", "私の名前はリーです", "わたしのなまえはリーです", "リーといいます"]
+   },
+   {
+    "speaker": "{田中|たなか}さん",
+    "line_ja": "リーさんはどこから{来|き}ましたか。",
+    "line_en": "Where are you from, Lee?",
+    "options": [
+     {"ja": "アメリカから{来|き}ました。", "verdict": "correct", "register": "polite", "feedback_ja": "「〜から{来|き}ました」で{出身|しゅっしん}を{言|い}います。", "feedback_en": "〜から来ました is how you say where you come from."},
+     {"ja": "アメリカから{来|き}た。", "verdict": "unnatural", "register": "casual", "feedback_ja": "{意味|いみ}は{同|おな}じですが、{初|はじ}めて{会|あ}った{人|ひと}には「{来|き}ました」がいいです。", "feedback_en": "Same meaning, but the plain form sounds blunt with someone you have just met."},
+     {"ja": "アメリカへ{行|い}きました。", "verdict": "wrong", "feedback_ja": "「アメリカへ{行|い}きました」は「アメリカに{旅行|りょこう}した」という{意味|いみ}です。{質問|しつもん}の{答|こた}えではありません。", "feedback_en": "That means you went to America, not that you come from there."}
+    ],
+    "typed": ["アメリカから来ました", "アメリカからきました", "アメリカからです", "アメリカです"]
+   },
+   {
+    "speaker": "{田中|たなか}さん",
+    "line_ja": "{日本語|にほんご}の{勉強|べんきょう}はどうですか。",
+    "line_en": "How are your Japanese studies going?",
+    "options": [
+     {"ja": "{難|むずか}しいですが、{楽|たの}しいです。", "verdict": "correct", "register": "polite", "feedback_ja": "「どうですか」には{形容詞|けいようし}で{答|こた}えます。「〜が、〜」で{二|ふた}つの{気持|きも}ちを{言|い}えます。", "feedback_en": "どうですか asks for an impression, so answer with adjectives; が links two contrasting feelings."},
+     {"ja": "まあまあだね。", "verdict": "unnatural", "register": "casual", "feedback_ja": "{友達|ともだち}にはいいですが、{初|はじ}めて{会|あ}った{人|ひと}にはなれなれしいです。", "feedback_en": "Fine with friends, but too familiar for a first conversation."},
+     {"ja": "はい、{勉強|べんきょう}です。", "verdict": "wrong", "feedback_ja": "「どうですか」は「はい・いいえ」の{質問|しつもん}ではありません。", "feedback_en": "どうですか is not a yes/no question."}
+    ],
+    "typed": ["難しいですが、楽しいです", "むずかしいですが、たのしいです", "難しいですが楽しいです", "むずかしいですがたのしいです", "楽しいです", "たのしいです"]
+   },
+   {
+    "speaker": "{田中|たなか}さん",
+    "line_ja": "じゃあ、また{明日|あした}。",
+    "line_en": "Well, see you tomorrow.",
+    "options": [
+     {"ja": "はい、また{明日|あした}。", "verdict": "correct", "register": "polite", "feedback_ja": "クラスメートには「また{明日|あした}」で{十分|じゅうぶん}です。", "feedback_en": "また明日 is just right between classmates."},
+     {"ja": "{失礼|しつれい}いたします。", "verdict": "unnatural", "register": "business", "feedback_ja": "{会社|かいしゃ}で{使|つか}う{言|い}い{方|かた}です。クラスメートには{硬|かた}すぎます。", "feedback_en": "This is office language; far too stiff for a classmate."},
+     {"ja": "いただきます。", "verdict": "wrong", "feedback_ja": "「いただきます」は{食|た}べる{前|まえ}に{言|い}う{言葉|ことば}です。", "feedback_en": "いただきます is said before eating, not when parting."}
+    ],
+    "typed": ["はい、また明日", "はい、またあした", "また明日", "またあした", "じゃあ、また明日", "じゃあ、またあした"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_restaurant",
+  "title_ja": "レストランで{注文|ちゅうもん}",
+  "title_en": "Ordering at a restaurant",
+  "level": "N5",
+  "location": "レストラン",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "いらっしゃいませ。{何名様|なんめいさま}ですか。",
+    "line_en": "Welcome. How many people?",
+    "options": [
+     {"ja": "{一人|ひとり}です。", "verdict": "correct", "register": "polite", "feedback_ja": "{人|ひと}の{数|かず}は「{一人|ひとり}、{二人|ふたり}」と{言|い}います。", "feedback_en": "People are counted 一人 (hitori), 二人 (futari)…"},
+     {"ja": "{一人|ひとり}だよ。", "verdict": "unnatural", "register": "casual", "feedback_ja": "{店|みせ}の{人|ひと}には「です」を{使|つか}いましょう。「だよ」は{友達|ともだち}に{使|つか}います。", "feedback_en": "Use です with staff; だよ is for friends."},
+     {"ja": "{一|ひと}つです。", "verdict": "wrong", "feedback_ja": "「{一|ひと}つ」は{物|もの}を{数|かぞ}えるときに{使|つか}います。{人|ひと}には{使|つか}いません。", "feedback_en": "一つ counts things, not people."}
+    ],
+    "typed": ["一人です", "ひとりです", "一人", "ひとり"]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "こちらへどうぞ。メニューです。",
+    "line_en": "This way, please. Here is the menu.",
+    "options": [
+     {"ja": "ありがとうございます。", "verdict": "correct", "register": "polite", "feedback_ja": "{何|なに}かをもらったときは「ありがとうございます」です。", "feedback_en": "When you are handed something, say ありがとうございます."},
+     {"ja": "ごちそうさまでした。", "verdict": "wrong", "feedback_ja": "「ごちそうさまでした」は{食|た}べた{後|あと}に{言|い}います。まだ{食|た}べていません。", "feedback_en": "ごちそうさまでした is said after eating; you have not eaten yet."},
+     {"ja": "どういたしまして。", "verdict": "wrong", "feedback_ja": "「どういたしまして」は「ありがとう」と{言|い}われたときの{返事|へんじ}です。", "feedback_en": "どういたしまして answers a thank-you; nobody thanked you."}
+    ],
+    "typed": ["ありがとうございます", "どうも", "どうもありがとうございます"]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "ご{注文|ちゅうもん}は？",
+    "line_en": "What would you like to order?",
+    "options": [
+     {"ja": "カレーライスをお{願|ねが}いします。", "verdict": "correct", "register": "polite", "feedback_ja": "「〜をお{願|ねが}いします」は{店|みせ}で{注文|ちゅうもん}するときの{丁寧|ていねい}な{言|い}い{方|かた}です。", "feedback_en": "〜をお願いします is the polite way to order."},
+     {"ja": "カレーライスをくれ。", "verdict": "unnatural", "register": "casual", "feedback_ja": "「くれ」は{命令|めいれい}の{形|かたち}で、とても{乱暴|らんぼう}に{聞|き}こえます。", "feedback_en": "くれ is a bare command and sounds very rude to staff."},
+     {"ja": "カレーライスがお{願|ねが}いします。", "verdict": "wrong", "feedback_ja": "「お{願|ねが}いします」の{前|まえ}は「を」です。「が」は{使|つか}いません。", "feedback_en": "お願いします takes を here, not が."}
+    ],
+    "typed": ["カレーライスをお願いします", "カレーライスをおねがいします", "カレーライスをください", "カレーライスください", "カレーをお願いします", "カレーをおねがいします", "カレーをください", "カレーライスでお願いします"]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "お{飲|の}み{物|もの}はいかがですか。",
+    "line_en": "Would you like something to drink?",
+    "options": [
+     {"ja": "じゃあ、お{茶|ちゃ}をください。", "verdict": "correct", "register": "polite", "feedback_ja": "{飲|の}み{物|もの}も「〜をください」で{頼|たの}めます。", "feedback_en": "Drinks are ordered with 〜をください too."},
+     {"ja": "お{茶|ちゃ}が{好|す}きです。", "verdict": "unnatural", "register": "polite", "feedback_ja": "{文|ぶん}は{正|ただ}しいですが、{好|す}きなものを{言|い}うだけでは{注文|ちゅうもん}になりません。", "feedback_en": "Correct sentence, but saying you like tea is not actually ordering it."},
+     {"ja": "お{茶|ちゃ}を{飲|の}みましたか。", "verdict": "wrong", "feedback_ja": "これは{店員|てんいん}に「もう{飲|の}んだか」を{聞|き}く{文|ぶん}です。{注文|ちゅうもん}ではありません。", "feedback_en": "This asks the server whether they drank tea; it is not an order."}
+    ],
+    "typed": ["じゃあ、お茶をください", "じゃあ、おちゃをください", "お茶をください", "おちゃをください", "お茶をお願いします", "おちゃをおねがいします", "お茶ください"]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "ご{注文|ちゅうもん}は{以上|いじょう}でよろしいですか。",
+    "line_en": "Will that be everything?",
+    "options": [
+     {"ja": "はい、{大丈夫|だいじょうぶ}です。", "verdict": "correct", "register": "polite", "feedback_ja": "「はい、{大丈夫|だいじょうぶ}です」で「これで{全部|ぜんぶ}です」という{意味|いみ}になります。", "feedback_en": "はい、大丈夫です means 'yes, that's all'."},
+     {"ja": "はい、よろしいです。", "verdict": "unnatural", "register": "polite", "feedback_ja": "「よろしい」は{相手|あいて}に{聞|き}くときの{言葉|ことば}です。{自分|じぶん}の{答|こた}えには「{大丈夫|だいじょうぶ}です」を{使|つか}います。", "feedback_en": "よろしい is used when asking someone; answering with it about yourself sounds odd."},
+     {"ja": "いいえ、{以上|いじょう}です。", "verdict": "wrong", "feedback_ja": "「いいえ」と「{以上|いじょう}です」は{反対|はんたい}の{意味|いみ}です。", "feedback_en": "いいえ contradicts 以上です ('that's all')."}
+    ],
+    "typed": ["はい、大丈夫です", "はい、だいじょうぶです", "大丈夫です", "だいじょうぶです", "はい、以上です", "はい、いじょうです", "はい", "はい、お願いします"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_eki",
+  "title_ja": "{駅|えき}で{切符|きっぷ}を{買|か}う",
+  "title_en": "Buying a ticket at the station",
+  "level": "N5",
+  "location": "{駅|えき}",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{駅員|えきいん}",
+    "line_ja": "はい、どうしましたか。",
+    "line_en": "Yes, can I help you?",
+    "options": [
+     {"ja": "すみません、{切符|きっぷ}{売|う}り{場|ば}はどこですか。", "verdict": "correct", "register": "polite", "feedback_ja": "「すみません」で{話|はな}しかけて、「〜はどこですか」で{場所|ばしょ}を{聞|き}きます。", "feedback_en": "Open with すみません and ask for a place with 〜はどこですか."},
+     {"ja": "おい、{切符|きっぷ}はどこ？", "verdict": "unnatural", "register": "casual", "feedback_ja": "「おい」はとても{失礼|しつれい}です。{知|し}らない{人|ひと}には「すみません」と{言|い}いましょう。", "feedback_en": "おい is very rude; use すみません with strangers."},
+     {"ja": "すみません、{切符|きっぷ}{売|う}り{場|ば}はだれですか。", "verdict": "wrong", "feedback_ja": "「だれ」は{人|ひと}を{聞|き}く{言葉|ことば}です。{場所|ばしょ}は「どこ」です。", "feedback_en": "だれ asks 'who'; for a place use どこ."}
+    ],
+    "typed": ["すみません、切符売り場はどこですか", "すみません、きっぷうりばはどこですか", "切符売り場はどこですか", "きっぷうりばはどこですか", "切符はどこで買いますか", "きっぷはどこでかいますか"]
+   },
+   {
+    "speaker": "{駅員|えきいん}",
+    "line_ja": "あそこです。あの{青|あお}い{機械|きかい}で{買|か}ってください。",
+    "line_en": "Over there. Please buy it at that blue machine.",
+    "options": [
+     {"ja": "わかりました。ありがとうございます。", "verdict": "correct", "register": "polite", "feedback_ja": "{教|おし}えてもらったら「わかりました」とお{礼|れい}を{言|い}います。", "feedback_en": "Acknowledge with わかりました and thank them."},
+     {"ja": "あそこですね。さようなら。", "verdict": "unnatural", "register": "polite", "feedback_ja": "「さようなら」は{長|なが}い{別|わか}れの{感|かん}じがします。{道|みち}を{聞|き}いた{後|あと}は「ありがとうございます」がいいです。", "feedback_en": "さようなら feels like a long farewell; after directions, a thank-you is natural."},
+     {"ja": "いいえ、あそこです。", "verdict": "wrong", "feedback_ja": "{駅員|えきいん}さんの{言葉|ことば}を「いいえ」と{否定|ひてい}するのはおかしいです。", "feedback_en": "Saying いいえ contradicts the station worker for no reason."}
+    ],
+    "typed": ["わかりました、ありがとうございます", "わかりましたありがとうございます", "わかりました", "ありがとうございます", "はい、わかりました"]
+   },
+   {
+    "speaker": "{駅員|えきいん}",
+    "line_ja": "どこまで{行|い}きますか。",
+    "line_en": "How far are you going?",
+    "options": [
+     {"ja": "さくら{駅|えき}まで{行|い}きます。", "verdict": "correct", "register": "polite", "feedback_ja": "「〜まで」で{行|い}く{所|ところ}を{言|い}います。", "feedback_en": "〜まで marks how far you are going."},
+     {"ja": "さくら{駅|えき}まで{行|い}く。", "verdict": "unnatural", "register": "casual", "feedback_ja": "{普通形|ふつうけい}は{駅員|えきいん}さんにはぶっきらぼうに{聞|き}こえます。「{行|い}きます」と{言|い}いましょう。", "feedback_en": "The plain form sounds curt to station staff; use 行きます."},
+     {"ja": "さくら{駅|えき}から{来|き}ました。", "verdict": "wrong", "feedback_ja": "これは「どこから{来|き}たか」の{答|こた}えです。{質問|しつもん}は「どこまで」です。", "feedback_en": "That says where you came from; the question is where you are going."}
+    ],
+    "typed": ["さくら駅まで行きます", "さくらえきまでいきます", "さくら駅までです", "さくらえきまでです", "さくら駅まで", "さくらえきまで"]
+   },
+   {
+    "speaker": "{駅員|えきいん}",
+    "line_ja": "さくら{駅|えき}までは{二百|にひゃく}{円|えん}です。",
+    "line_en": "It's 200 yen to Sakura Station.",
+    "options": [
+     {"ja": "{大人|おとな}{一枚|いちまい}お{願|ねが}いします。", "verdict": "correct", "register": "polite", "feedback_ja": "{切符|きっぷ}は{紙|かみ}なので「{一枚|いちまい}、{二枚|にまい}」と{数|かぞ}えます。", "feedback_en": "Tickets are flat paper, so they are counted with 枚."},
+     {"ja": "{切符|きっぷ}を{一枚|いちまい}{買|か}ってもいいですか。", "verdict": "unnatural", "register": "polite", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{切符|きっぷ}を{買|か}うのに{許可|きょか}はいりません。", "feedback_en": "Grammatical, but you do not need permission to buy a ticket."},
+     {"ja": "{大人|おとな}{一本|いっぽん}お{願|ねが}いします。", "verdict": "wrong", "feedback_ja": "「〜{本|ほん}」は{長|なが}い{物|もの}を{数|かぞ}えます。{切符|きっぷ}は「〜{枚|まい}」です。", "feedback_en": "本 counts long thin things; tickets use 枚."}
+    ],
+    "typed": ["大人一枚お願いします", "おとないちまいおねがいします", "大人一枚ください", "おとないちまいください", "一枚お願いします", "いちまいおねがいします", "一枚ください", "いちまいください"]
+   },
+   {
+    "speaker": "{駅員|えきいん}",
+    "line_ja": "はい、どうぞ。{電車|でんしゃ}は{三番線|さんばんせん}です。",
+    "line_en": "Here you are. The train leaves from track 3.",
+    "options": [
+     {"ja": "{三番線|さんばんせん}ですね。ありがとうございます。", "verdict": "correct", "register": "polite", "feedback_ja": "「〜ですね」で{聞|き}いたことを{確|たし}かめると{安心|あんしん}です。", "feedback_en": "〜ですね repeats the information back to confirm it."},
+     {"ja": "サンキュー。", "verdict": "unnatural", "register": "casual", "feedback_ja": "「サンキュー」は{友達|ともだち}どうしの{軽|かる}い{言葉|ことば}です。{駅員|えきいん}さんには「ありがとうございます」です。", "feedback_en": "サンキュー is light slang between friends; thank staff with ありがとうございます."},
+     {"ja": "{四番線|よんばんせん}ですね。", "verdict": "wrong", "feedback_ja": "{駅員|えきいん}さんは「{三番線|さんばんせん}」と{言|い}いました。", "feedback_en": "The worker said track 3, not track 4."}
+    ],
+    "typed": ["三番線ですね、ありがとうございます", "さんばんせんですね、ありがとうございます", "三番線ですね", "さんばんせんですね", "ありがとうございます"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_tomodachi",
+  "title_ja": "{友達|ともだち}と{週末|しゅうまつ}の{約束|やくそく}",
+  "title_en": "Making weekend plans with a friend",
+  "level": "N5",
+  "location": "{商店街|しょうてんがい}",
+  "register": "casual",
+  "turns": [
+   {
+    "speaker": "ケン",
+    "line_ja": "ねえ、{週末|しゅうまつ}、ひま？",
+    "line_en": "Hey, are you free this weekend?",
+    "options": [
+     {"ja": "うん、ひまだよ。どうして？", "verdict": "correct", "register": "casual", "feedback_ja": "{友達|ともだち}には「うん」「〜だよ」の{普通形|ふつうけい}が{自然|しぜん}です。", "feedback_en": "With a friend, うん and the plain form 〜だよ are natural."},
+     {"ja": "はい、{暇|ひま}でございます。", "verdict": "unnatural", "register": "business", "feedback_ja": "「でございます」はお{客|きゃく}さんに{使|つか}う{言葉|ことば}です。{友達|ともだち}にはとても{硬|かた}いです。", "feedback_en": "でございます is customer-service language; extremely stiff with a friend."},
+     {"ja": "うん、ひまだった。", "verdict": "wrong", "feedback_ja": "「だった」は{過去|かこ}です。{週末|しゅうまつ}はこれからなので{合|あ}いません。", "feedback_en": "だった is past tense, but the weekend is still ahead."}
+    ],
+    "typed": ["うん、ひまだよ、どうして", "うん、ひまだよ", "うん、暇だよ", "ひまだよ", "暇だよ", "うん、ひま", "うん"]
+   },
+   {
+    "speaker": "ケン",
+    "line_ja": "{土曜日|どようび}に{映画|えいが}を{見|み}に{行|い}かない？",
+    "line_en": "Want to go see a movie on Saturday?",
+    "options": [
+     {"ja": "いいね、{行|い}こう！", "verdict": "correct", "register": "casual", "feedback_ja": "「〜ない？」のさそいには「{行|い}こう」と{意向形|いこうけい}で{答|こた}えると{自然|しぜん}です。", "feedback_en": "Answer a 〜ない？ invitation with the volitional 行こう."},
+     {"ja": "はい、ぜひご{一緒|いっしょ}させてください。", "verdict": "unnatural", "register": "respectful", "feedback_ja": "{目上|めうえ}の{人|ひと}への{言|い}い{方|かた}です。{友達|ともだち}には{丁寧|ていねい}すぎて、{距離|きょり}を{感|かん}じます。", "feedback_en": "This is how you answer a superior; with a friend it sounds distant."},
+     {"ja": "うん、{昨日|きのう}{行|い}こう！", "verdict": "wrong", "feedback_ja": "「{昨日|きのう}」は{過去|かこ}なので、「{行|い}こう」といっしょに{使|つか}えません。", "feedback_en": "昨日 (yesterday) cannot go with 行こう (let's go)."}
+    ],
+    "typed": ["いいね、行こう", "いいね、いこう", "いいね行こう", "うん、行こう", "うん、いこう", "行こう", "いこう", "いいね"]
+   },
+   {
+    "speaker": "ケン",
+    "line_ja": "{何時|なんじ}に{会|あ}う？",
+    "line_en": "What time should we meet?",
+    "options": [
+     {"ja": "{十時|じゅうじ}はどう？", "verdict": "correct", "register": "casual", "feedback_ja": "「〜はどう？」は{友達|ともだち}に{提案|ていあん}するときの{言|い}い{方|かた}です。", "feedback_en": "〜はどう？ is a casual way to suggest something."},
+     {"ja": "{十時|じゅうじ}はいかがでしょうか。", "verdict": "unnatural", "register": "business", "feedback_ja": "「いかがでしょうか」は{仕事|しごと}で{使|つか}う{丁寧|ていねい}な{言|い}い{方|かた}です。{友達|ともだち}には{硬|かた}すぎます。", "feedback_en": "いかがでしょうか is business-polite; too formal for a friend."},
+     {"ja": "{十時|じゅうじ}を{会|あ}おう。", "verdict": "wrong", "feedback_ja": "{時間|じかん}には「に」を{使|つか}います。「{十時|じゅうじ}に{会|あ}おう」です。", "feedback_en": "Times take に, not を: 十時に会おう."}
+    ],
+    "typed": ["十時はどう", "じゅうじはどう", "十時に会おう", "じゅうじにあおう", "十時にしよう", "じゅうじにしよう", "十時", "じゅうじ"]
+   },
+   {
+    "speaker": "ケン",
+    "line_ja": "どこで{会|あ}う？",
+    "line_en": "Where should we meet?",
+    "options": [
+     {"ja": "{駅|えき}の{前|まえ}で{会|あ}おう。", "verdict": "correct", "register": "casual", "feedback_ja": "{会|あ}う{場所|ばしょ}には「で」を{使|つか}います。", "feedback_en": "The place where you meet takes で."},
+     {"ja": "{駅|えき}の{前|まえ}でお{会|あ}いしましょう。", "verdict": "unnatural", "register": "respectful", "feedback_ja": "「お{会|あ}いする」は{謙譲語|けんじょうご}です。{友達|ともだち}に{使|つか}うと{変|へん}に{聞|き}こえます。", "feedback_en": "お会いする is humble speech; odd and stiff with a friend."},
+     {"ja": "{駅|えき}の{前|まえ}に{会|あ}おう。", "verdict": "wrong", "feedback_ja": "「{会|あ}う」の{場所|ばしょ}は「に」ではなく「で」です。", "feedback_en": "With 会う, the place takes で, not に."}
+    ],
+    "typed": ["駅の前で会おう", "えきのまえであおう", "駅前で会おう", "えきまえであおう", "駅の前で", "えきのまえで", "駅の前", "えきのまえ"]
+   },
+   {
+    "speaker": "ケン",
+    "line_ja": "オッケー。じゃ、{土曜日|どようび}に！",
+    "line_en": "OK. See you Saturday, then!",
+    "options": [
+     {"ja": "うん、またね！", "verdict": "correct", "register": "casual", "feedback_ja": "「またね」は{友達|ともだち}との{軽|かる}い「さようなら」です。", "feedback_en": "またね is a light 'see you' between friends."},
+     {"ja": "では、{失礼|しつれい}します。", "verdict": "unnatural", "register": "polite", "feedback_ja": "「{失礼|しつれい}します」は{先生|せんせい}や{会社|かいしゃ}の{人|ひと}に{使|つか}います。{友達|ともだち}には{硬|かた}いです。", "feedback_en": "失礼します is for teachers or colleagues; stiff with a friend."},
+     {"ja": "はじめまして！", "verdict": "wrong", "feedback_ja": "「はじめまして」は{初|はじ}めて{会|あ}ったときだけ{使|つか}います。", "feedback_en": "はじめまして is only for meeting someone for the first time."}
+    ],
+    "typed": ["うん、またね", "またね", "じゃあね", "うん、じゃあね", "じゃ、土曜日に", "じゃ、どようびに", "また土曜日に", "またどようびに"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_sensei",
+  "title_ja": "{授業|じゅぎょう}の{後|あと}で{先生|せんせい}に{質問|しつもん}",
+  "title_en": "Asking the teacher a question after class",
+  "level": "N5",
+  "location": "{学校|がっこう}",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{先生|せんせい}",
+    "line_ja": "はい、どうしましたか。",
+    "line_en": "Yes, what is it?",
+    "options": [
+     {"ja": "すみません、{先生|せんせい}。{質問|しつもん}してもいいですか。", "verdict": "correct", "register": "polite", "feedback_ja": "「〜てもいいですか」で{丁寧|ていねい}に{許可|きょか}を{聞|き}けます。", "feedback_en": "〜てもいいですか politely asks permission."},
+     {"ja": "ねえ、{先生|せんせい}、ちょっといい？", "verdict": "unnatural", "register": "casual", "feedback_ja": "{友達|ともだち}への{言|い}い{方|かた}です。{先生|せんせい}には「です・ます」で{話|はな}しましょう。", "feedback_en": "This is how you talk to a friend; speak to a teacher with です/ます."},
+     {"ja": "{先生|せんせい}、{質問|しつもん}しましたか。", "verdict": "wrong", "feedback_ja": "これは「{先生|せんせい}が{質問|しつもん}したか」を{聞|き}く{文|ぶん}です。", "feedback_en": "This asks whether the teacher asked a question."}
+    ],
+    "typed": ["すみません、先生、質問してもいいですか", "すみません、せんせい、しつもんしてもいいですか", "質問してもいいですか", "しつもんしてもいいですか", "先生、質問してもいいですか", "せんせい、しつもんしてもいいですか", "質問があります", "しつもんがあります"]
+   },
+   {
+    "speaker": "{先生|せんせい}",
+    "line_ja": "ええ、いいですよ。{何|なん}ですか。",
+    "line_en": "Sure. What is it?",
+    "options": [
+     {"ja": "この{漢字|かんじ}の{読|よ}み{方|かた}がわかりません。", "verdict": "correct", "register": "polite", "feedback_ja": "「わかります」の{前|まえ}は「が」です。", "feedback_en": "わかります takes が for the thing you (don't) understand."},
+     {"ja": "この{漢字|かんじ}、{読|よ}めない。", "verdict": "unnatural", "register": "casual", "feedback_ja": "{意味|いみ}は{通|つう}じますが、{先生|せんせい}には{乱暴|らんぼう}に{聞|き}こえます。", "feedback_en": "Understandable, but blunt and casual for a teacher."},
+     {"ja": "この{漢字|かんじ}の{読|よ}み{方|かた}をわかりません。", "verdict": "wrong", "feedback_ja": "「わかります」は「を」ではなく「が」を{使|つか}います。", "feedback_en": "わかります does not take を; use が."}
+    ],
+    "typed": ["この漢字の読み方がわかりません", "このかんじのよみかたがわかりません", "この漢字は何と読みますか", "このかんじはなんとよみますか", "この漢字はなんと読みますか"]
+   },
+   {
+    "speaker": "{先生|せんせい}",
+    "line_ja": "ああ、これは「やすみ」と{読|よ}みます。",
+    "line_en": "Ah, this is read 'yasumi'.",
+    "options": [
+     {"ja": "「やすみ」ですね。わかりました。", "verdict": "correct", "register": "polite", "feedback_ja": "{聞|き}いたことをくり{返|かえ}して「わかりました」と{言|い}うと、{先生|せんせい}も{安心|あんしん}します。", "feedback_en": "Repeating the answer and saying わかりました shows you understood."},
+     {"ja": "{了解|りょうかい}です。", "verdict": "unnatural", "register": "polite", "feedback_ja": "「{了解|りょうかい}です」は{目上|めうえ}の{人|ひと}には{失礼|しつれい}だと{思|おも}う{人|ひと}が{多|おお}いです。「わかりました」が{安全|あんぜん}です。", "feedback_en": "Many people find 了解です rude toward superiors; わかりました is safe."},
+     {"ja": "いいえ、{読|よ}みません。", "verdict": "wrong", "feedback_ja": "{先生|せんせい}は{読|よ}み{方|かた}を{教|おし}えてくれました。「{読|よ}みません」は{答|こた}えになりません。", "feedback_en": "The teacher gave you the reading; 'I won't read it' makes no sense."}
+    ],
+    "typed": ["やすみですね、わかりました", "やすみですね", "「やすみ」ですね、わかりました", "わかりました", "はい、わかりました"]
+   },
+   {
+    "speaker": "{先生|せんせい}",
+    "line_ja": "ほかに{質問|しつもん}はありますか。",
+    "line_en": "Any other questions?",
+    "options": [
+     {"ja": "いいえ、ありません。ありがとうございました。", "verdict": "correct", "register": "polite", "feedback_ja": "「ありますか」には「ありません」で{答|こた}えて、お{礼|れい}を{言|い}います。", "feedback_en": "Answer ありますか with ありません, then thank the teacher."},
+     {"ja": "いいえ、{結構|けっこう}です。", "verdict": "unnatural", "register": "polite", "feedback_ja": "「{結構|けっこう}です」は{物|もの}をことわるときの{言葉|ことば}で、ここでは{冷|つめ}たく{聞|き}こえます。", "feedback_en": "結構です declines an offer; here it sounds cold toward the teacher."},
+     {"ja": "いいえ、いません。", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。{質問|しつもん}は「ありません」です。", "feedback_en": "います is for people and animals; questions take ありません."}
+    ],
+    "typed": ["いいえ、ありません、ありがとうございました", "いいえ、ありません", "ありません", "いいえ、大丈夫です", "いいえ、だいじょうぶです", "大丈夫です", "だいじょうぶです"]
+   },
+   {
+    "speaker": "{先生|せんせい}",
+    "line_ja": "また{何|なに}かあったら、{聞|き}いてくださいね。",
+    "line_en": "If anything else comes up, just ask.",
+    "options": [
+     {"ja": "はい。ありがとうございました。{失礼|しつれい}します。", "verdict": "correct", "register": "polite", "feedback_ja": "{先生|せんせい}の{前|まえ}から{帰|かえ}るときは「{失礼|しつれい}します」と{言|い}います。", "feedback_en": "失礼します is the polite way to leave a teacher."},
+     {"ja": "じゃあね、{先生|せんせい}！", "verdict": "unnatural", "register": "casual", "feedback_ja": "「じゃあね」は{友達|ともだち}に{使|つか}います。{先生|せんせい}にはなれなれしいです。", "feedback_en": "じゃあね is for friends; too familiar for a teacher."},
+     {"ja": "どういたしまして。", "verdict": "wrong", "feedback_ja": "「どういたしまして」は「ありがとう」への{返事|へんじ}です。{先生|せんせい}は{何|なに}もお{礼|れい}を{言|い}っていません。", "feedback_en": "どういたしまして answers a thank-you; the teacher did not thank you."}
+    ],
+    "typed": ["はい、ありがとうございました、失礼します", "はい、ありがとうございました、しつれいします", "ありがとうございました、失礼します", "ありがとうございました", "はい、ありがとうございました", "失礼します", "しつれいします"]
    }
   ]
  }

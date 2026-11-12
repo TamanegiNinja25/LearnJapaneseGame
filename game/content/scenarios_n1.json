@@ -1,0 +1,188 @@
+[
+ {
+  "id": "n1_sc_negotiation", "level": "N1", "register": "business",
+  "title_ja": "{取引先|とりひきさき}との{契約|けいやく}{交渉|こうしょう}",
+  "title_en": "Negotiating contract terms with a client",
+  "location": "{都会|とかい}",
+  "turns": [
+   {
+    "speaker": "{取引先|とりひきさき}の{部長|ぶちょう}",
+    "line_ja": "{本日|ほんじつ}はお{忙|いそが}しいところ、ありがとうございます。さっそくですが、{契約|けいやく}{条件|じょうけん}についてご{提案|ていあん}を{伺|うかが}えますか。",
+    "line_en": "Thank you for making time today. Let's get straight to it: may we hear your proposal on the contract terms?",
+    "options": [
+     {"ja": "はい。お{手元|てもと}の{資料|しりょう}をご{覧|らん}いただけますでしょうか。{弊社|へいしゃ}からのご{提案|ていあん}をまとめております。", "verdict": "correct", "register": "business",
+      "feedback_ja": "「ご{覧|らん}いただけますでしょうか」は{相手|あいて}の{動作|どうさ}を{高|たか}める{丁寧|ていねい}な{依頼|いらい}です。{商談|しょうだん}の{始|はじ}めにふさわしい{言|い}い{方|かた}です。",
+      "feedback_en": "ご覧いただけますでしょうか politely asks the client to look; a fitting way to open a business meeting."},
+     {"ja": "うん、じゃあ{資料|しりょう}{見|み}てよ。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{意味|いみ}は{通|つう}じますが、{取引先|とりひきさき}の{部長|ぶちょう}に{対|たい}してくだけすぎています。",
+      "feedback_en": "Understandable, but far too casual for a client's department head."},
+     {"ja": "はい。お{手元|てもと}の{資料|しりょう}を{拝見|はいけん}してください。", "verdict": "wrong", "register": "business",
+      "feedback_ja": "「{拝見|はいけん}する」は{自分|じぶん}が{見|み}るときの{謙譲語|けんじょうご}です。{相手|あいて}の{動作|どうさ}には「ご{覧|らん}になる」を{使|つか}います。",
+      "feedback_en": "拝見する is humble language for your own looking; for the client use ご覧になる."}
+    ],
+    "typed": ["お手元の資料をご覧いただけますでしょうか", "おてもとのしりょうをごらんいただけますでしょうか", "お手元の資料をご覧ください"]
+   },
+   {
+    "speaker": "{取引先|とりひきさき}の{部長|ぶちょう}",
+    "line_ja": "{価格|かかく}については、もう{少|すこ}し{下|さ}げていただけないかと{考|かんが}えているのですが。",
+    "line_en": "On price, we were hoping you could bring it down a little.",
+    "options": [
+     {"ja": "{無理|むり}です。{下|さ}げられません。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{交渉|こうしょう}の{場|ば}でいきなり{断|ことわ}るのは{失礼|しつれい}で、{話|はなし}が{進|すす}みません。",
+      "feedback_en": "Grammatical, but a flat refusal is rude in a negotiation and shuts the conversation down."},
+     {"ja": "ご{要望|ようぼう}は{承知|しょうち}いたしました。ご{発注|はっちゅう}{数量|すうりょう}いかんでは、{割引|わりびき}も{検討|けんとう}させていただきます。", "verdict": "correct", "register": "business",
+      "feedback_ja": "「いかんでは」で「{数量|すうりょう}によっては」と{条件|じょうけん}をつけながら、{前向|まえむ}きな{姿勢|しせい}を{示|しめ}しています。",
+      "feedback_en": "いかんでは sets a condition (depending on volume) while sounding open to the request."},
+     {"ja": "ご{発注|はっちゅう}{数量|すうりょう}にひきかえ、{割引|わりびき}も{検討|けんとう}させていただきます。", "verdict": "wrong", "register": "business",
+      "feedback_ja": "「にひきかえ」は{二|ふた}つのものを{対比|たいひ}する{表現|ひょうげん}で、{条件|じょうけん}は{表|あらわ}せません。ここは「いかんでは」です。",
+      "feedback_en": "にひきかえ contrasts two things; it cannot express a condition. Use いかんでは."}
+    ],
+    "typed": ["ご発注数量いかんでは割引も検討させていただきます", "数量いかんでは割引も検討させていただきます", "ごはっちゅうすうりょういかんではわりびきもけんとうさせていただきます"]
+   },
+   {
+    "speaker": "{取引先|とりひきさき}の{部長|ぶちょう}",
+    "line_ja": "{納期|のうき}は{来月末|らいげつまつ}でお{願|ねが}いできますか。",
+    "line_en": "Could you deliver by the end of next month?",
+    "options": [
+     {"ja": "{恐|おそ}れ{入|い}りますが、{原材料|げんざいりょう}の{不足|ふそく}により、{現在|げんざい}{生産|せいさん}の{調整|ちょうせい}を{余儀|よぎ}なくされております。{再来月|さらいげつ}の{中旬|ちゅうじゅん}ではいかがでしょうか。", "verdict": "correct", "register": "business",
+      "feedback_ja": "「{余儀|よぎ}なくされております」で、{自社|じしゃ}の{意志|いし}ではない{事情|じじょう}を{丁寧|ていねい}に{説明|せつめい}し、{代案|だいあん}も{出|だ}せています。",
+      "feedback_en": "余儀なくされております explains an unavoidable situation politely, and you offer an alternative date."},
+     {"ja": "{恐|おそ}れ{入|い}りますが、{原材料|げんざいりょう}の{不足|ふそく}により、{生産|せいさん}の{調整|ちょうせい}を{禁|きん}じ{得|え}ません。", "verdict": "wrong", "register": "business",
+      "feedback_ja": "「を{禁|きん}じ{得|え}ない」は{感情|かんじょう}を{抑|おさ}えられないときの{表現|ひょうげん}です。{状況|じょうきょう}による{制約|せいやく}は「を{余儀|よぎ}なくされる」で{表|あらわ}します。",
+      "feedback_en": "を禁じ得ない is for emotions you cannot hold back; constraints from circumstances need を余儀なくされる."},
+     {"ja": "{来月末|らいげつまつ}はちょっと{無理|むり}かな。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{意味|いみ}は{伝|つた}わりますが、{独|ひと}り{言|ごと}のようなくだけた{言|い}い{方|かた}で、{理由|りゆう}も{代案|だいあん}もありません。",
+      "feedback_en": "Understandable, but it sounds like muttering to yourself, with no reason or alternative."}
+    ],
+    "typed": ["原材料の不足により現在生産の調整を余儀なくされております", "再来月の中旬ではいかがでしょうか", "さらいげつのちゅうじゅんではいかがでしょうか"]
+   },
+   {
+    "speaker": "{取引先|とりひきさき}の{部長|ぶちょう}",
+    "line_ja": "{品質|ひんしつ}の{面|めん}では、どのような{保証|ほしょう}がありますか。",
+    "line_en": "What guarantees can you offer on quality?",
+    "options": [
+     {"ja": "{大丈夫|だいじょうぶ}です。うちの{製品|せいひん}は{壊|こわ}れませんから。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "{根拠|こんきょ}がなく、「うち」もくだけた{言|い}い{方|かた}です。{商談|しょうだん}では{具体的|ぐたいてき}な{仕組|しく}みを{説明|せつめい}しましょう。",
+      "feedback_en": "No evidence, and うち is informal; in business, explain the concrete process."},
+     {"ja": "はい。{弊社|へいしゃ}の{品質|ひんしつ}{基準|きじゅん}に{即|そく}した、{全製品|ぜんせいひん}を{検査|けんさ}しております。", "verdict": "wrong", "register": "business",
+      "feedback_ja": "「{即|そく}した」は{名詞|めいし}の{前|まえ}に{置|お}く{形|かたち}です。{動詞|どうし}につなげるときは「{即|そく}して」です。",
+      "feedback_en": "即した must come before a noun; to link to a verb use 即して."},
+     {"ja": "はい。{弊社|へいしゃ}の{品質|ひんしつ}{基準|きじゅん}に{即|そく}して、{全製品|ぜんせいひん}を{出荷|しゅっか}{前|まえ}に{検査|けんさ}しております。", "verdict": "correct", "register": "business",
+      "feedback_ja": "「に{即|そく}して」で{基準|きじゅん}のとおりに{検査|けんさ}していることを{具体的|ぐたいてき}に{伝|つた}えています。",
+      "feedback_en": "に即して shows you inspect strictly according to your standards: concrete and reassuring."}
+    ],
+    "typed": ["弊社の品質基準に即して全製品を出荷前に検査しております", "品質基準に即して全製品を検査しております", "ひんしつきじゅんにそくしてけんさしております"]
+   },
+   {
+    "speaker": "{取引先|とりひきさき}の{部長|ぶちょう}",
+    "line_ja": "わかりました。では、{社内|しゃない}で{検討|けんとう}して、{来週中|らいしゅうちゅう}にお{返事|へんじ}いたします。",
+    "line_en": "Understood. We'll discuss it internally and get back to you within next week.",
+    "options": [
+     {"ja": "ありがとうございます。よいお{返事|へんじ}をお{待|ま}ちになります。", "verdict": "wrong", "register": "respectful",
+      "feedback_ja": "「お{待|ま}ちになる」は{相手|あいて}の{動作|どうさ}に{使|つか}う{尊敬語|そんけいご}です。{自分|じぶん}が{待|ま}つときは「お{待|ま}ちしております」です。",
+      "feedback_en": "お待ちになる is honorific, for the other person's actions; for yourself say お待ちしております."},
+     {"ja": "じゃあ、{早|はや}めに{返事|へんじ}ください。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{相手|あいて}をせかすような{言|い}い{方|かた}で、{取引先|とりひきさき}には{失礼|しつれい}です。",
+      "feedback_en": "Sounds like you are rushing the client; rude in this setting."},
+     {"ja": "ありがとうございます。よいお{返事|へんじ}をお{待|ま}ちしております。ご{不明|ふめい}な{点|てん}がございましたら、いつでもお{申|もう}し{付|つ}けください。", "verdict": "correct", "register": "respectful",
+      "feedback_ja": "{謙譲語|けんじょうご}「お{待|ま}ちしております」と{尊敬|そんけい}の{依頼|いらい}「お{申|もう}し{付|つ}けください」で、{丁寧|ていねい}に{締|し}めくくれています。",
+      "feedback_en": "Humble お待ちしております plus お申し付けください closes the meeting with proper respect."}
+    ],
+    "typed": ["よいお返事をお待ちしております", "よいおへんじをおまちしております", "お返事をお待ちしております"]
+   }
+  ]
+ },
+ {
+  "id": "n1_sc_panel", "level": "N1", "register": "written",
+  "title_ja": "{公開|こうかい}{討論会|とうろんかい}での{発言|はつげん}",
+  "title_en": "Answering questions at a public discussion",
+  "location": "{都会|とかい}",
+  "turns": [
+   {
+    "speaker": "{司会者|しかいしゃ}",
+    "line_ja": "それでは、{都市|とし}の{交通|こうつう}{問題|もんだい}について、ご{意見|いけん}をお{聞|き}かせください。",
+    "line_en": "Now, please share your views on the city's transport problems.",
+    "options": [
+     {"ja": "{都市|とし}の{交通|こうつう}{政策|せいさく}は、{地域|ちいき}の{実情|じつじょう}に{即|そく}して{見直|みなお}されるべきだと{考|かんが}えます。", "verdict": "correct", "register": "written",
+      "feedback_ja": "「に{即|そく}して」「〜べきだと{考|かんが}えます」で、{公|おおやけ}の{場|ば}にふさわしい{硬|かた}い{主張|しゅちょう}になっています。",
+      "feedback_en": "に即して and べきだと考えます give a formal, clear position suited to a public forum."},
+     {"ja": "まあ、{電車|でんしゃ}が{混|こ}みすぎなんだよね。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{内容|ないよう}は{分|わ}かりますが、{討論会|とうろんかい}の{発言|はつげん}としてはくだけすぎています。",
+      "feedback_en": "The point is clear, but far too casual for a public panel."},
+     {"ja": "{地域|ちいき}の{実情|じつじょう}に{即|そく}した{見直|みなお}されるべきだと{考|かんが}えます。", "verdict": "wrong", "register": "written",
+      "feedback_ja": "「{即|そく}した」の{後|あと}には{名詞|めいし}が{必要|ひつよう}です。{動詞|どうし}につなげるなら「{即|そく}して」です。",
+      "feedback_en": "即した needs a following noun; before a verb use 即して."}
+    ],
+    "typed": ["地域の実情に即して見直されるべきだと考えます", "都市の交通政策は地域の実情に即して見直されるべきだと考えます", "ちいきのじつじょうにそくしてみなおされるべきだとかんがえます"]
+   },
+   {
+    "speaker": "{会場|かいじょう}の{参加者|さんかしゃ}",
+    "line_ja": "{具体的|ぐたいてき}には、{何|なに}が{問題|もんだい}なのでしょうか。",
+    "line_en": "Specifically, what is the problem?",
+    "options": [
+     {"ja": "{中心部|ちゅうしんぶ}の{交通網|こうつうもう}が{充実|じゅうじつ}しているならでは、{郊外|こうがい}ではバスの{減便|げんびん}が{相次|あいつ}いでいます。", "verdict": "wrong", "register": "written",
+      "feedback_ja": "「ならでは」は「それにしかない{良|よ}さ」を{表|あらわ}す{表現|ひょうげん}で、{対比|たいひ}には{使|つか}えません。ここは「のにひきかえ」です。",
+      "feedback_en": "ならでは praises something unique; it cannot contrast. Use のにひきかえ."},
+     {"ja": "{中心部|ちゅうしんぶ}の{交通網|こうつうもう}が{充実|じゅうじつ}しているのにひきかえ、{郊外|こうがい}ではバスの{減便|げんびん}が{相次|あいつ}いでいます。", "verdict": "correct", "register": "written",
+      "feedback_ja": "「のにひきかえ」で{中心部|ちゅうしんぶ}と{郊外|こうがい}の{差|さ}をはっきり{示|しめ}し、{具体的|ぐたいてき}に{答|こた}えています。",
+      "feedback_en": "のにひきかえ sharply contrasts the centre and the suburbs: a concrete answer."},
+     {"ja": "それは{言|い}うまでもないので、{説明|せつめい}しません。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{質問|しつもん}した{人|ひと}に{対|たい}して{失礼|しつれい}で、{討論|とうろん}の{役目|やくめ}を{果|は}たしていません。",
+      "feedback_en": "Grammatical, but dismissive of the questioner and fails the purpose of a discussion."}
+    ],
+    "typed": ["中心部の交通網が充実しているのにひきかえ郊外ではバスの減便が相次いでいます", "郊外ではバスの減便が相次いでいます", "こうがいではバスのげんびんがあいついでいます"]
+   },
+   {
+    "speaker": "{司会者|しかいしゃ}",
+    "line_ja": "{高齢者|こうれいしゃ}への{影響|えいきょう}はいかがでしょうか。",
+    "line_en": "What about the impact on elderly people?",
+    "options": [
+     {"ja": "{多|おお}くの{高齢者|こうれいしゃ}が、{通院|つういん}のために{家族|かぞく}の{送迎|そうげい}に{頼|たよ}ることを{余儀|よぎ}なくされています。", "verdict": "correct", "register": "written",
+      "feedback_ja": "{高齢者|こうれいしゃ}が{仕方|しかた}なくそうしている{状況|じょうきょう}を、「を{余儀|よぎ}なくされる」で{正確|せいかく}に{表|あらわ}しています。",
+      "feedback_en": "を余儀なくされる accurately describes elderly people being forced into this by circumstances."},
+     {"ja": "{多|おお}くの{高齢者|こうれいしゃ}が、{通院|つういん}のために{家族|かぞく}の{送迎|そうげい}に{頼|たよ}ることを{余儀|よぎ}なくさせています。", "verdict": "wrong", "register": "written",
+      "feedback_ja": "{主語|しゅご}の{高齢者|こうれいしゃ}は{影響|えいきょう}を{受|う}ける{側|がわ}なので、「させる」ではなく「される」です。",
+      "feedback_en": "The elderly are the ones affected, so される, not させる."},
+     {"ja": "お{年寄|としよ}りは{大変|たいへん}っぽいです。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "「〜っぽい」はくだけた{言葉|ことば}で、{内容|ないよう}もあいまいです。{公|おおやけ}の{場|ば}では{具体的|ぐたいてき}に{述|の}べましょう。",
+      "feedback_en": "っぽい is slangy and the answer is vague; be specific in a public setting."}
+    ],
+    "typed": ["多くの高齢者が通院のために家族の送迎に頼ることを余儀なくされています", "高齢者は家族の送迎に頼ることを余儀なくされています", "こうれいしゃはかぞくのそうげいにたよることをよぎなくされています"]
+   },
+   {
+    "speaker": "{会場|かいじょう}の{参加者|さんかしゃ}",
+    "line_ja": "しかし、{財源|ざいげん}が{限|かぎ}られている{以上|いじょう}、すべての{路線|ろせん}を{維持|いじ}するのは{難|むずか}しいのではありませんか。",
+    "line_en": "But with limited funds, isn't it hard to keep every route running?",
+    "options": [
+     {"ja": "そんなことはありません。お{金|かね}はなんとかなります。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "{根拠|こんきょ}のない{否定|ひてい}で、{相手|あいて}の{指摘|してき}に{向|む}き{合|あ}っていません。{討論|とうろん}では{説得力|せっとくりょく}がありません。",
+      "feedback_en": "A baseless denial that ignores the point; unconvincing in a debate."},
+     {"ja": "ご{指摘|してき}のとおりです。{財源|ざいげん}が{限|かぎ}られているばこそ、{優先順位|ゆうせんじゅんい}を{明確|めいかく}にすべきです。", "verdict": "wrong", "register": "written",
+      "feedback_ja": "「ばこそ」の{前|まえ}は「ば{形|けい}」です。「いる」は「いれば」になるので「{限|かぎ}られていればこそ」です。",
+      "feedback_en": "ばこそ needs the ば-form: いる → いれば, so 限られていればこそ."},
+     {"ja": "ご{指摘|してき}のとおりです。{財源|ざいげん}が{限|かぎ}られていればこそ、{住民|じゅうみん}の{声|こえ}を{聞|き}き、{優先順位|ゆうせんじゅんい}を{明確|めいかく}にすべきです。", "verdict": "correct", "register": "written",
+      "feedback_ja": "{相手|あいて}の{指摘|してき}を{認|みと}めたうえで、「ればこそ」で{自分|じぶん}の{主張|しゅちょう}の{理由|りゆう}を{強|つよ}く{示|しめ}しています。",
+      "feedback_en": "You accept the point, then use ればこそ to turn it into the reason for your proposal."}
+    ],
+    "typed": ["財源が限られていればこそ住民の声を聞き優先順位を明確にすべきです", "財源が限られていればこそ優先順位を明確にすべきです", "ざいげんがかぎられていればこそゆうせんじゅんいをめいかくにすべきです"]
+   },
+   {
+    "speaker": "{司会者|しかいしゃ}",
+    "line_ja": "{最後|さいご}に、{会場|かいじょう}の{皆様|みなさま}に{一言|ひとこと}お{願|ねが}いします。",
+    "line_en": "Finally, a few words to the audience, please.",
+    "options": [
+     {"ja": "{誰|だれ}もが{安心|あんしん}して{移動|いどう}できる{街|まち}を{実現|じつげん}すべく、{皆様|みなさま}とともに{考|かんが}えてまいりたいと{存|ぞん}じます。", "verdict": "correct", "register": "written",
+      "feedback_ja": "「すべく」で{目的|もくてき}を{硬|かた}く{示|しめ}し、「まいりたいと{存|ぞん}じます」で{謙虚|けんきょ}に{締|し}めくくっています。",
+      "feedback_en": "すべく states the goal formally, and まいりたいと存じます closes humbly."},
+     {"ja": "{誰|だれ}もが{安心|あんしん}して{移動|いどう}できる{街|まち}を{実現|じつげん}すべき、{皆様|みなさま}とともに{考|かんが}えてまいりたいと{存|ぞん}じます。", "verdict": "wrong", "register": "written",
+      "feedback_ja": "「べき」は{名詞|めいし}の{前|まえ}か{文末|ぶんまつ}に{使|つか}います。{目的|もくてき}を{表|あらわ}して{文|ぶん}を{続|つづ}けるのは「べく」です。",
+      "feedback_en": "べき modifies a noun or ends a sentence; for purpose mid-sentence use べく."},
+     {"ja": "みんな、がんばろう！", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{気持|きも}ちは{伝|つた}わりますが、{公開|こうかい}{討論会|とうろんかい}の{締|し}めくくりとしてはくだけすぎています。",
+      "feedback_en": "The spirit is there, but too casual to close a public discussion."}
+    ],
+    "typed": ["誰もが安心して移動できる街を実現すべく皆様とともに考えてまいりたいと存じます", "皆様とともに考えてまいりたいと存じます", "みなさまとともにかんがえてまいりたいとぞんじます"]
+   }
+  ]
+ }
+]

@@ -72,7 +72,7 @@ func test_default_unlocks() -> bool:
 	var barrier := town.get_zone("station").get_node("Barrier") as Node3D
 	assert_true(barrier.visible, "locked zone shows its barrier")
 	var lock_label := town.get_zone("station").get_node("LockLabel") as Label3D
-	assert_true(lock_label.visible and lock_label.text == "N4で解放", "locked zone shows N4で解放")
+	assert_true(lock_label.visible and lock_label.text == "N4でかいほう", "locked zone shows N4でかいほう")
 	assert_true(not (town.get_zone("home").get_node("Barrier") as Node3D).visible, "unlocked zone has no barrier")
 	return true
 

@@ -65,11 +65,31 @@ const ACTIVITY_WEIGHTS := {
 	&"grammar_quiz": {&"grammar": 1.0, &"reading": 0.2},
 	&"sentence_builder": {&"vocab": 0.2, &"grammar": 0.6, &"reading": 0.2},
 	&"scenario_turn": {&"vocab": 0.2, &"grammar": 0.2, &"conversation": 0.6},
+	&"passage": {&"reading": 1.0, &"vocab": 0.2},
+	&"listening": {&"listening": 1.0, &"vocab": 0.2},
+	&"shadowing": {&"listening": 0.4, &"conversation": 0.3},
+	&"anchor_grammar": {&"grammar": 1.0},
+	&"anchor_reading": {&"reading": 1.0},
+	&"anchor_conversation": {&"conversation": 1.0},
+	&"anchor_vocab": {&"vocab": 1.0},
+	&"anchor_kanji": {&"kanji": 1.0},
+	&"anchor_listening": {&"listening": 1.0},
 }
 
 ## XP per item (GDD §5.5).
 const XP := {&"kana": 2, &"review": 5, &"sentence": 20, &"sentence_hinted": 10, &"scenario_turn": 15,
-	&"grammar_quiz": 10, &"scenario_complete": 200, &"daily_assessment": 250}
+	&"grammar_quiz": 10, &"scenario_complete": 200, &"daily_assessment": 250, &"listening": 5, &"passage": 10}
+
+## Mastered words keep their rank on a single lapse; a second lapse within this window demotes
+## them (GDD §13 question 5, resolved 2026-11-12).
+const MASTERED_GRACE_SECONDS := 30 * 24 * 3600
+
+## Escalating gate-exam cooldown after consecutive fails (GDD §13 question 6): 24 h, 48 h, 72 h.
+const EXAM_COOLDOWNS_H: Array[int] = [24, 48, 72]
+
+
+static func exam_cooldown_seconds(consecutive_fails: int) -> int:
+	return EXAM_COOLDOWNS_H[clampi(consecutive_fails - 1, 0, EXAM_COOLDOWNS_H.size() - 1)] * 3600
 
 
 # ---------------------------------------------------------------- skill scores
@@ -203,7 +223,9 @@ static func word_correct(word: Dictionary, dimension: String) -> Dictionary:
 
 ## Record a lapse on [param dimension] (GDD §6.2): streak 0, lapses +1, counter -2 (floor 0),
 ## box -2 (floor 0), rank -1 if at least Learned. Floor is Familiar.
-static func word_lapse(word: Dictionary, dimension: String) -> Dictionary:
+## Mastered words get one grace lapse per MASTERED_GRACE_SECONDS: counters and box still drop,
+## but the rank only falls on a second lapse inside the window.
+static func word_lapse(word: Dictionary, dimension: String, now: int = 0) -> Dictionary:
 	var out := word.duplicate()
 	if int(out["rank"]) == Rank.UNSEEN:
 		out["rank"] = Rank.DISCOVERED
@@ -211,6 +233,9 @@ static func word_lapse(word: Dictionary, dimension: String) -> Dictionary:
 	out["lapses"] = int(out.get("lapses", 0)) + 1
 	out[dimension] = maxi(0, int(out.get(dimension, 0)) - 2)
 	out["box"] = maxi(0, int(out.get("box", 0)) - 2)
-	if int(out["rank"]) >= Rank.LEARNED:
+	var last := int(out.get("last_lapse", 0))
+	var graced := int(out["rank"]) == Rank.MASTERED and (last == 0 or now - last > MASTERED_GRACE_SECONDS)
+	if int(out["rank"]) >= Rank.LEARNED and not graced:
 		out["rank"] = maxi(int(out["rank"]) - 1, Rank.FAMILIAR)
+	out["last_lapse"] = now
 	return out

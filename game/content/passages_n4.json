@@ -1,0 +1,70 @@
+[
+ {
+  "id": "n4_rd_001", "level": "N4",
+  "title_ja": "{初|はじ}めての{一人|ひとり}{旅|たび}",
+  "text_ja": "{先月|せんげつ}、{初|はじ}めて{一人|ひとり}で{旅行|りょこう}しました。{京都|きょうと}へ{行|い}こうと{思|おも}っていましたが、ホテルが{高|たか}かったので、{奈良|なら}に{行|い}きました。{奈良|なら}は{静|しず}かだし、{鹿|しか}もいるし、とても{楽|たの}しかったです。{駅|えき}で{道|みち}がわからなかった{時|とき}、{知|し}らない{人|ひと}が{親切|しんせつ}に{教|おし}えてくれました。{一人|ひとり}{旅|たび}はさびしいと{思|おも}っていましたが、そうではありませんでした。{今度|こんど}は{北海道|ほっかいどう}に{行|い}ってみたいです。",
+  "text_en": "Last month I travelled on my own for the first time. I had been thinking of going to Kyoto, but the hotels were expensive, so I went to Nara. Nara is quiet and has deer, and it was great fun. When I couldn't find my way at the station, a stranger kindly showed me. I had thought travelling alone would be lonely, but it wasn't. Next time I'd like to try going to Hokkaido.",
+  "questions": [
+   {"q_ja": "どうして{奈良|なら}に{行|い}きましたか。", "q_en": "Why did the writer go to Nara?",
+    "options": ["{京都|きょうと}のホテルが{高|たか}かったから", "{鹿|しか}が{好|す}きだから", "{奈良|なら}に{友達|ともだち}がいるから"], "answer": 0,
+    "why_ja": "「ホテルが{高|たか}かったので、{奈良|なら}に{行|い}きました」とあります。", "why_en": "The text says the hotels were expensive, so they went to Nara."},
+   {"q_ja": "{駅|えき}で{何|なに}がありましたか。", "q_en": "What happened at the station?",
+    "options": ["{知|し}らない{人|ひと}が{道|みち}を{教|おし}えてくれた", "{切符|きっぷ}をなくした", "{友達|ともだち}に{会|あ}った"], "answer": 0,
+    "why_ja": "「{知|し}らない{人|ひと}が{親切|しんせつ}に{教|おし}えてくれました」とあります。", "why_en": "A stranger kindly showed them the way."},
+   {"q_ja": "{一人|ひとり}{旅|たび}はどうでしたか。", "q_en": "How was travelling alone?",
+    "options": ["{思|おも}ったよりさびしくなかった", "とてもさびしかった", "{疲|つか}れたので、もう{行|い}きたくない"], "answer": 0,
+    "why_ja": "「さびしいと{思|おも}っていましたが、そうではありませんでした」とあります。", "why_en": "They expected loneliness, but it wasn't lonely."}
+  ]
+ },
+ {
+  "id": "n4_rd_002", "level": "N4",
+  "title_ja": "{図書館|としょかん}からのお{知|し}らせ",
+  "text_ja": "{市|し}の{図書館|としょかん}を{使|つか}う{皆|みな}さんへのお{知|し}らせです。{本|ほん}は{一人|ひとり}{十冊|じゅっさつ}まで{借|か}りられます。{借|か}りた{本|ほん}は{二週間|にしゅうかん}{以内|いない}に{返|かえ}さなければなりません。{館内|かんない}で{水|みず}やお{茶|ちゃ}を{飲|の}んでもいいですが、{食|た}べ{物|もの}を{食|た}べてはいけません。{本|ほん}を{返|かえ}す{時|とき}は、カウンターに{来|こ}なくてもいいです。{入|い}り{口|ぐち}の{返却|へんきゃく}ポストに{入|い}れてください。",
+  "text_en": "This is a notice for everyone who uses the city library. Each person can borrow up to ten books. Borrowed books must be returned within two weeks. You may drink water or tea in the building, but you must not eat food. When returning books, you don't need to come to the counter. Please put them in the return box at the entrance.",
+  "questions": [
+   {"q_ja": "{本|ほん}は{何冊|なんさつ}まで{借|か}りられますか。", "q_en": "How many books can you borrow?",
+    "options": ["{五冊|ごさつ}", "{十冊|じゅっさつ}", "{二十冊|にじゅっさつ}"], "answer": 1,
+    "why_ja": "「{一人|ひとり}{十冊|じゅっさつ}まで{借|か}りられます」とあります。", "why_en": "Up to ten books per person."},
+   {"q_ja": "{図書館|としょかん}の{中|なか}でしてはいけないことはどれですか。", "q_en": "Which is not allowed inside the library?",
+    "options": ["お{茶|ちゃ}を{飲|の}むこと", "パンを{食|た}べること", "{本|ほん}を{読|よ}むこと"], "answer": 1,
+    "why_ja": "「{食|た}べ{物|もの}を{食|た}べてはいけません」とあります。お{茶|ちゃ}は{飲|の}んでもいいです。", "why_en": "Eating food is forbidden; drinking tea is allowed."},
+   {"q_ja": "{本|ほん}を{返|かえ}す{時|とき}、どうしますか。", "q_en": "What do you do when returning books?",
+    "options": ["{入|い}り{口|ぐち}のポストに{入|い}れる", "{必|かなら}ずカウンターに{持|も}って{行|い}く", "{図書館|としょかん}に{電話|でんわ}をする"], "answer": 0,
+    "why_ja": "「カウンターに{来|こ}なくてもいいです。{入|い}り{口|ぐち}の{返却|へんきゃく}ポストに{入|い}れてください」とあります。", "why_en": "You don't need the counter; use the return box at the entrance."}
+  ]
+ },
+ {
+  "id": "n4_rd_003", "level": "N4",
+  "title_ja": "{雨|あめ}の{日曜日|にちようび}",
+  "text_ja": "{日曜日|にちようび}は、{友達|ともだち}と{公園|こうえん}でテニスをするつもりでした。{朝|あさ}、{空|そら}を{見|み}ると、{雨|あめ}が{降|ふ}りそうでした。{天気|てんき}{予報|よほう}は「{晴|は}れ」だったのに、{昼|ひる}から{本当|ほんとう}に{雨|あめ}が{降|ふ}ってきました。それで、テニスはやめて、{友達|ともだち}の{家|いえ}で{映画|えいが}を{見|み}ながらピザを{食|た}べました。とても{楽|たの}しかったので、{雨|あめ}でもよかったと{思|おも}いました。{来週|らいしゅう}{晴|は}れたら、もう{一度|いちど}テニスをしようと{話|はな}しました。",
+  "text_en": "On Sunday I was planning to play tennis in the park with a friend. In the morning I looked at the sky and it looked like rain. The forecast had said sunny, but from midday it really did start raining. So we gave up on tennis and ate pizza while watching a movie at my friend's place. It was so much fun that I thought the rain was fine after all. We said that if it's sunny next week, we'll try tennis again.",
+  "questions": [
+   {"q_ja": "{天気|てんき}{予報|よほう}はどうでしたか。", "q_en": "What did the weather forecast say?",
+    "options": ["{晴|は}れ", "{雨|あめ}", "{雪|ゆき}"], "answer": 0,
+    "why_ja": "「{天気|てんき}{予報|よほう}は『{晴|は}れ』だったのに」とあります。", "why_en": "The forecast said sunny."},
+   {"q_ja": "{日曜日|にちようび}に{何|なに}をしましたか。", "q_en": "What did they actually do on Sunday?",
+    "options": ["{公園|こうえん}でテニスをした", "{友達|ともだち}の{家|いえ}で{映画|えいが}を{見|み}た", "{映画館|えいがかん}に{行|い}った"], "answer": 1,
+    "why_ja": "「テニスはやめて、{友達|ともだち}の{家|いえ}で{映画|えいが}を{見|み}ながら」とあります。", "why_en": "They gave up tennis and watched a movie at the friend's home."},
+   {"q_ja": "{来週|らいしゅう}{晴|は}れたら、{何|なに}をしますか。", "q_en": "What will they do if it's sunny next week?",
+    "options": ["テニス", "{映画|えいが}", "{買|か}い{物|もの}"], "answer": 0,
+    "why_ja": "「{来週|らいしゅう}{晴|は}れたら、もう{一度|いちど}テニスをしよう」とあります。", "why_en": "They plan to try tennis again."}
+  ]
+ },
+ {
+  "id": "n4_rd_004", "level": "N4",
+  "title_ja": "パン{屋|や}のアルバイト",
+  "text_ja": "{私|わたし}は{先週|せんしゅう}から{駅前|えきまえ}のパン{屋|や}でアルバイトをしています。{大学|だいがく}で{勉強|べんきょう}しながら、{週|しゅう}に{三回|さんかい}{働|はたら}いています。{店長|てんちょう}は{優|やさ}しいし、パンもおいしいし、とてもいい{店|みせ}です。{最初|さいしょ}はレジの{使|つか}い{方|かた}がわからなかったので、{先輩|せんぱい}に{教|おし}えてもらいました。{店長|てんちょう}は「{毎日|まいにち}{少|すこ}しずつ{練習|れんしゅう}すれば、すぐ{上手|じょうず}になりますよ」と{言|い}いました。{今|いま}は{一人|ひとり}でレジが{使|つか}えるようになりました。",
+  "text_en": "Since last week I've had a part-time job at the bakery in front of the station. I work three times a week while studying at university. The manager is kind and the bread is good; it's a great shop. At first I didn't know how to use the register, so a senior co-worker showed me. The manager said, 'If you practise a little every day, you'll soon get good at it.' Now I can use the register on my own.",
+  "questions": [
+   {"q_ja": "{週|しゅう}に{何回|なんかい}{働|はたら}いていますか。", "q_en": "How many times a week does the writer work?",
+    "options": ["{二回|にかい}", "{三回|さんかい}", "{五回|ごかい}"], "answer": 1,
+    "why_ja": "「{週|しゅう}に{三回|さんかい}{働|はたら}いています」とあります。", "why_en": "Three times a week."},
+   {"q_ja": "レジの{使|つか}い{方|かた}は、だれに{教|おし}えてもらいましたか。", "q_en": "Who taught the writer to use the register?",
+    "options": ["{店長|てんちょう}", "{先輩|せんぱい}", "{大学|だいがく}の{友達|ともだち}"], "answer": 1,
+    "why_ja": "「{先輩|せんぱい}に{教|おし}えてもらいました」とあります。", "why_en": "A senior co-worker taught them."},
+   {"q_ja": "{店長|てんちょう}は{何|なん}と{言|い}いましたか。", "q_en": "What did the manager say?",
+    "options": ["{練習|れんしゅう}すれば{上手|じょうず}になる", "{練習|れんしゅう}しなくてもいい", "レジを{使|つか}ってはいけない"], "answer": 0,
+    "why_ja": "「{練習|れんしゅう}すれば、すぐ{上手|じょうず}になりますよ」と{言|い}いました。", "why_en": "With practice you'll soon get good at it."}
+  ]
+ }
+]

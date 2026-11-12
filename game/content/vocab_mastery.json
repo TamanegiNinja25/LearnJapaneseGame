@@ -1,0 +1,1903 @@
+[
+ {
+  "id": "w_8b72c3f9ed",
+  "headword": "そういえば",
+  "reading": "そういえば",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{話|はなし}の{途中|とちゅう}で、{関係|かんけい}のあることを{急|きゅう}に{思|おも}い{出|だ}したときに{使|つか}う。{友達|ともだち}にも{目上|めうえ}の{人|ひと}にも{使|つか}える{自然|しぜん}なつなぎの{言葉|ことば}。",
+  "english": "now that you mention it; come to think of it; that reminds me",
+  "examples": [
+   {
+    "ja": "そういえば、{田中|たなか}さんは{来月|らいげつ}{引|ひ}っ{越|こ}すそうですよ。",
+    "en": "Oh, that reminds me — I heard Tanaka-san is moving next month."
+   }
+  ],
+  "related": [
+   "ところで",
+   "ちなみに"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ae91d2f57d",
+  "headword": "ちなみに",
+  "reading": "ちなみに",
+  "level": "MASTERY",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "{話|はなし}に{少|すこ}しだけ{情報|じょうほう}を{付|つ}け{足|た}すときに{使|つか}う。「{参考|さんこう}までに」という{軽|かる}い{感|かん}じで、{会話|かいわ}でもメールでも{使|つか}える。",
+  "english": "by the way; in this connection; incidentally",
+  "examples": [
+   {
+    "ja": "ちなみに、この{店|みせ}は{月曜日|げつようび}が{休|やす}みです。",
+    "en": "By the way, just so you know, this place is closed on Mondays."
+   }
+  ],
+  "related": [
+   "そういえば",
+   "ところで"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c047dcc6ec",
+  "headword": "それにしても",
+  "reading": "それにしても",
+  "level": "MASTERY",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "{前|まえ}の{話|はなし}をいったん{認|みと}めたうえで、やはり{気|き}になる{気持|きも}ちを{言|い}うときに{使|つか}う。{驚|おどろ}きやあきれた{気持|きも}ちがこもることが{多|おお}い。",
+  "english": "nevertheless; at any rate; even so",
+  "examples": [
+   {
+    "ja": "{雨|あめ}の{予報|よほう}だったけど、それにしても{寒|さむ}いね。",
+    "en": "They did say it would rain, but even so, it's freezing, isn't it?"
+   }
+  ],
+  "related": [
+   "それにしては"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_491d096485",
+  "headword": "なるほど",
+  "reading": "なるほど",
+  "level": "MASTERY",
+  "category": "interjection",
+  "category_ja": "感動詞",
+  "definition_ja": "{相手|あいて}の{説明|せつめい}を{聞|き}いて{納得|なっとく}したときに{言|い}う。{目上|めうえ}の{人|ひと}に「なるほど」だけで{返|かえ}すと{少|すこ}し{偉|えら}そうに{聞|き}こえるので、「なるほど、そうなんですね」と{続|つづ}けるとよい。",
+  "english": "I see; that's right!; indeed",
+  "examples": [
+   {
+    "ja": "なるほど、だから{電車|でんしゃ}が{遅|おく}れていたんですね。",
+    "en": "Ah, I see — so that's why the train was late."
+   }
+  ],
+  "related": [
+   "確かに",
+   "そうなんですね"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_273727d631",
+  "headword": "確かに",
+  "reading": "たしかに",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{相手|あいて}の{意見|いけん}に「そのとおりだ」と{同意|どうい}するときに{使|つか}う。「{確|たし}かに〜けど」と、{反対|はんたい}の{意見|いけん}を{言|い}う{前|まえ}に{一度|いちど}{認|みと}める{使|つか}い{方|かた}も{多|おお}い。",
+  "english": "surely; certainly",
+  "examples": [
+   {
+    "ja": "{確|たし}かに{安|やす}いけど、{少|すこ}し{遠|とお}いですね。",
+    "en": "Sure, it's cheap, but it's a bit far, isn't it?"
+   }
+  ],
+  "related": [
+   "なるほど"
+  ],
+  "kanji": [
+   "確"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0bf718a5c3",
+  "headword": "ということは",
+  "reading": "ということは",
+  "level": "MASTERY",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "{相手|あいて}の{話|はなし}から{結論|けつろん}を{引|ひ}き{出|だ}して、「つまりこういうことですか」と{確認|かくにん}するときに{使|つか}う。",
+  "english": "that is to say; so that means",
+  "examples": [
+   {
+    "ja": "ということは、{明日|あした}の{会議|かいぎ}は{中止|ちゅうし}ですか。",
+    "en": "So what you're saying is, tomorrow's meeting is off?"
+   }
+  ],
+  "related": [
+   "要するに"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c3f97bea45",
+  "headword": "まあ",
+  "reading": "まあ",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{強|つよ}く{言|い}い{切|き}らずに{言葉|ことば}をやわらげたり、{完全|かんぜん}ではないが{受|う}け{入|い}れたりするときに{使|つか}う。{親|した}しい{人|ひと}との{会話|かいわ}に{多|おお}い。",
+  "english": "just (e.g. \"just wait here\"); come now; now, now",
+  "examples": [
+   {
+    "ja": "まあ、{仕方|しかた}ないですね。{次|つぎ}がんばりましょう。",
+    "en": "Well, it can't be helped. Let's do better next time."
+   }
+  ],
+  "related": [
+   "とりあえず"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_75d0fa6566",
+  "headword": "やっぱり",
+  "reading": "やっぱり",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "「やはり」の{話|はな}し{言葉|ことば}。{思|おも}っていたとおりだったときや、{一度|いちど}{迷|まよ}ってから{考|かんが}えを{戻|もど}すときに{使|つか}う。{改|あらた}まった{場|ば}では「やはり」を{使|つか}う。",
+  "english": "as expected; sure enough; just as one thought",
+  "examples": [
+   {
+    "ja": "やっぱり、コーヒーじゃなくて{紅茶|こうちゃ}にします。",
+    "en": "Actually, I'll go with tea instead of coffee after all."
+   }
+  ],
+  "related": [
+   "やはり"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ceb03f6165",
+  "headword": "とりあえず",
+  "reading": "とりあえず",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{細|こま}かいことは{後|あと}にして、まず{今|いま}できることをするときに{使|つか}う。{仕事|しごと}でも{日常|にちじょう}でもよく{聞|き}く。",
+  "english": "first of all; at once; right away",
+  "examples": [
+   {
+    "ja": "とりあえず、{資料|しりょう}だけ{先|さき}に{送|おく}っておきます。",
+    "en": "For now, I'll just send over the documents first."
+   }
+  ],
+  "related": [
+   "まあ"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6121f001c0",
+  "headword": "ところで",
+  "reading": "ところで",
+  "level": "MASTERY",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "{話題|わだい}をはっきり{変|か}えるときに{使|つか}う。{仕事|しごと}の{会話|かいわ}でも{使|つか}えるが、{相手|あいて}の{話|はなし}の{途中|とちゅう}で{急|きゅう}に{使|つか}うと{失礼|しつれい}に{聞|き}こえることもある。",
+  "english": "by the way; incidentally; well",
+  "examples": [
+   {
+    "ja": "ところで、{来週|らいしゅう}の{出張|しゅっちょう}の{件|けん}ですが…。",
+    "en": "Changing the subject — about next week's business trip..."
+   }
+  ],
+  "related": [
+   "そういえば"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_69d94d8773",
+  "headword": "さすが",
+  "reading": "さすが",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{相手|あいて}の{実力|じつりょく}や{評判|ひょうばん}どおりの{結果|けっか}に{感心|かんしん}したときに{使|つか}う。{目上|めうえ}に「さすがですね」と{言|い}うこともできるが、{相手|あいて}を{評価|ひょうか}する{言|い}い{方|かた}なので{場面|ばめん}を{選|えら}ぶ。",
+  "english": "as one would expect; just as you'd expect (from); just like (someone)",
+  "examples": [
+   {
+    "ja": "さすが{部長|ぶちょう}、{説明|せつめい}がとてもわかりやすいです。",
+    "en": "Just what I'd expect from you, sir — that was so clear."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5939c15f54",
+  "headword": "なんか",
+  "reading": "なんか",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "【カジュアル】はっきり{言|い}えない{感|かん}じを{表|あらわ}したり、{言葉|ことば}を{探|さが}しているときに{入|い}れたりする{話|はな}し{言葉|ことば}。{友達|ともだち}{同士|どうし}で{使|つか}い、{使|つか}いすぎると{幼|おさな}く{聞|き}こえる。",
+  "english": "something like ...; things like ...; someone like ...",
+  "examples": [
+   {
+    "ja": "{今日|きょう}、なんか{元気|げんき}ないね。どうしたの？",
+    "en": "You seem kind of down today. What's up?"
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d53c6bae73",
+  "headword": "一応",
+  "reading": "いちおう",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{完全|かんぜん}ではないが{最低限|さいていげん}はしてある、または{念|ねん}のためにする、という{気持|きも}ち。「{一応|いちおう}{終|お}わりました」のように、{控|ひか}えめに{報告|ほうこく}するときにも{使|つか}う。",
+  "english": "more or less; though not quite satisfactorily; after a fashion",
+  "examples": [
+   {
+    "ja": "{一応|いちおう}、{傘|かさ}を{持|も}って{行|い}きます。",
+    "en": "I'll bring an umbrella, just in case."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "一",
+   "応"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_cc7e97b14e",
+  "headword": "どうせ",
+  "reading": "どうせ",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{結果|けっか}はもう{決|き}まっている、とあきらめた{気持|きも}ちで{言|い}う。{投|な}げやりに{聞|き}こえるので、{仕事|しごと}や{目上|めうえ}の{人|ひと}の{前|まえ}では{控|ひか}える。",
+  "english": "in any case; regardless; either way",
+  "examples": [
+   {
+    "ja": "どうせ{間|ま}に{合|あ}わないから、ゆっくり{行|い}こう。",
+    "en": "We're not going to make it anyway, so let's just take our time."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d834b0bcf7",
+  "headword": "わざわざ",
+  "reading": "わざわざ",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "しなくてもよいのに、{手間|てま}をかけて{特別|とくべつ}にする{様子|ようす}。{相手|あいて}に「わざわざありがとうございます」と{感謝|かんしゃ}を{伝|つた}えるときによく{使|つか}う。",
+  "english": "expressly; especially; specially",
+  "examples": [
+   {
+    "ja": "{雨|あめ}の{中|なか}、わざわざ{来|き}てくださってありがとうございます。",
+    "en": "Thank you so much for going out of your way to come in this rain."
+   }
+  ],
+  "related": [
+   "せっかく"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b2a272ebad",
+  "headword": "だって",
+  "reading": "だって",
+  "level": "MASTERY",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "【カジュアル】{理由|りゆう}や{言|い}い{訳|わけ}を{言|い}うときの{話|はな}し{言葉|ことば}。{甘|あま}えた{響|ひび}きがあるので、{家族|かぞく}や{親|した}しい{友達|ともだち}にだけ{使|つか}う。",
+  "english": "after all; because; but",
+  "examples": [
+   {
+    "ja": "だって、{誰|だれ}も{教|おし}えてくれなかったんだもん。",
+    "en": "But nobody told me!"
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_977ec56018",
+  "headword": "そうなんですね",
+  "reading": "そうなんですね",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{相手|あいて}の{話|はなし}で{初|はじ}めて{知|し}ったことを、{共感|きょうかん}しながら{受|う}け{止|と}める{丁寧|ていねい}なあいづち。{目上|めうえ}にも{使|つか}える。カジュアルでは「そうなんだ」。",
+  "english": "\"I'm being transferred to Osaka next month.\" \"Oh, really? We'll miss you.\"",
+  "examples": [
+   {
+    "ja": "「{来月|らいげつ}から{大阪|おおさか}に{転勤|てんきん}なんです。」「そうなんですね。さびしくなります。」",
+    "en": "\"I'm being transferred to Osaka next month.\" \"Oh, really? We'll miss you.\""
+   }
+  ],
+  "related": [
+   "なるほど",
+   "へえ"
+  ],
+  "kanji": [],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_940c2c16b7",
+  "headword": "へえ",
+  "reading": "へえ",
+  "level": "MASTERY",
+  "category": "interjection",
+  "category_ja": "感動詞",
+  "definition_ja": "【カジュアル】{意外|いがい}なことや{面白|おもしろ}いことを{聞|き}いて{感心|かんしん}したときの{声|こえ}。{目上|めうえ}には「へえ、そうなんですか」と{丁寧|ていねい}に{続|つづ}ける。",
+  "english": "oh, yes?; really?",
+  "examples": [
+   {
+    "ja": "へえ、この{近|ちか}くにそんな{店|みせ}があるんだ。",
+    "en": "Huh, I had no idea there was a place like that around here."
+   }
+  ],
+  "related": [
+   "そうなんですね"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2fc66c3aa0",
+  "headword": "うそ",
+  "reading": "うそ",
+  "level": "MASTERY",
+  "category": "interjection",
+  "category_ja": "感動詞",
+  "definition_ja": "【カジュアル】「{信|しん}じられない」という{驚|おどろ}きを{表|あらわ}すあいづち。{本当|ほんとう}に{相手|あいて}を{疑|うたが}っているわけではない。{友達|ともだち}{同士|どうし}で{使|つか}い、{目上|めうえ}には「{本当|ほんとう}ですか」と{言|い}う。",
+  "english": "lie; fib; falsehood",
+  "examples": [
+   {
+    "ja": "うそ！もう{売|う}り{切|き}れたの？",
+    "en": "No way! They're sold out already?"
+   }
+  ],
+  "related": [
+   "まじで"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_62e46a3259",
+  "headword": "まじで",
+  "reading": "まじで",
+  "level": "MASTERY",
+  "category": "interjection",
+  "category_ja": "感動詞",
+  "definition_ja": "【とてもカジュアル】「{本当|ほんとう}に？」「{本当|ほんとう}に」という{意味|いみ}の{若者|わかもの}{言葉|ことば}。{親|した}しい{友達|ともだち}だけに{使|つか}い、{仕事|しごと}や{目上|めうえ}の{人|ひと}には{絶対|ぜったい}に{使|つか}わない。",
+  "english": "For real? You won the lottery?",
+  "examples": [
+   {
+    "ja": "まじで？{宝|たから}くじ{当|あ}たったの？",
+    "en": "For real? You won the lottery?"
+   }
+  ],
+  "related": [
+   "うそ"
+  ],
+  "kanji": [],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_05e470a547",
+  "headword": "ですよね",
+  "reading": "ですよね",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{相手|あいて}の{意見|いけん}に{強|つよ}く{共感|きょうかん}するときの{丁寧|ていねい}なあいづち。{同僚|どうりょう}や{目上|めうえ}にも{使|つか}える。カジュアルでは「だよね」。",
+  "english": "\"This meeting is way too long, isn't it?\" \"Tell me about it.\"",
+  "examples": [
+   {
+    "ja": "「この{会議|かいぎ}、{長|なが}すぎますよね。」「ですよね。」",
+    "en": "\"This meeting is way too long, isn't it?\" \"Tell me about it.\""
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_521e4aef45",
+  "headword": "うん",
+  "reading": "うん",
+  "level": "MASTERY",
+  "category": "interjection",
+  "category_ja": "感動詞",
+  "definition_ja": "【カジュアル】「はい」のくだけた{形|かたち}。{家族|かぞく}や{友達|ともだち}への{返事|へんじ}やあいづちに{使|つか}う。{目上|めうえ}の{人|ひと}に{使|つか}うと{失礼|しつれい}になる。",
+  "english": "yes; yeah; uh huh",
+  "examples": [
+   {
+    "ja": "「{明日|あした}、{来|く}る？」「うん、{行|い}くよ。」",
+    "en": "\"You coming tomorrow?\" \"Yeah, I'll be there.\""
+   }
+  ],
+  "related": [
+   "ええ"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6b48f84785",
+  "headword": "ええ",
+  "reading": "ええ",
+  "level": "MASTERY",
+  "category": "interjection",
+  "category_ja": "感動詞",
+  "definition_ja": "「はい」より{少|すこ}しやわらかい{肯定|こうてい}の{返事|へんじ}。{丁寧|ていねい}な{会話|かいわ}で{大人|おとな}がよく{使|つか}う。{上司|じょうし}への{返事|へんじ}では「はい」のほうが{安全|あんぜん}。",
+  "english": "yes; that is correct; right",
+  "examples": [
+   {
+    "ja": "「{東京|とうきょう}のご{出身|しゅっしん}ですか。」「ええ、そうです。」",
+    "en": "\"Are you from Tokyo?\" \"Yes, that's right.\""
+   }
+  ],
+  "related": [
+   "うん"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a7c68f7c71",
+  "headword": "えっ",
+  "reading": "えっ",
+  "level": "MASTERY",
+  "category": "interjection",
+  "category_ja": "感動詞",
+  "definition_ja": "{予想|よそう}していなかったことを{聞|き}いて{驚|おどろ}いたり、{聞|き}き{返|かえ}したりするときの{短|みじか}い{声|こえ}。{目上|めうえ}には「えっ、そうなんですか」と{言葉|ことば}を{続|つづ}ける。",
+  "english": "huh?; what's up?",
+  "examples": [
+   {
+    "ja": "えっ、{今日|きょう}が{締|し}め{切|き}りでしたっけ？",
+    "en": "Wait — was the deadline today?"
+   }
+  ],
+  "related": [
+   "うそ"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_44bd6245f4",
+  "headword": "よかったですね",
+  "reading": "よかったですね",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{相手|あいて}にうれしいことがあったときに、{一緒|いっしょ}に{喜|よろこ}ぶ{丁寧|ていねい}なあいづち。カジュアルでは「よかったね」。",
+  "english": "You passed the exam? That's wonderful news!",
+  "examples": [
+   {
+    "ja": "{試験|しけん}に{合格|ごうかく}したんですか。よかったですね！",
+    "en": "You passed the exam? That's wonderful news!"
+   }
+  ],
+  "related": [
+   "大変ですね"
+  ],
+  "kanji": [],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_9b1485fd09",
+  "headword": "大変ですね",
+  "reading": "たいへんですね",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{相手|あいて}の{苦労|くろう}や{困|こま}った{話|はなし}を{聞|き}いて、{同情|どうじょう}を{示|しめ}すあいづち。{目上|めうえ}にも{使|つか}える。カジュアルでは「{大変|たいへん}だね」。",
+  "english": "You're catching the last train every night? That must be rough.",
+  "examples": [
+   {
+    "ja": "{毎日|まいにち}{終電|しゅうでん}ですか。それは{大変|たいへん}ですね。",
+    "en": "You're catching the last train every night? That must be rough."
+   }
+  ],
+  "related": [
+   "よかったですね"
+  ],
+  "kanji": [
+   "変",
+   "大"
+  ],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_0595ec6d45",
+  "headword": "やばい",
+  "reading": "やばい",
+  "level": "MASTERY",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "【とてもカジュアル】もとは「{危|あぶ}ない」「まずい」という{意味|いみ}だが、{若者|わかもの}は「すごい」「{最高|さいこう}」の{意味|いみ}でも{使|つか}う。{文脈|ぶんみゃく}で{意味|いみ}が{逆|ぎゃく}になる。{仕事|しごと}や{目上|めうえ}の{人|ひと}には{使|つか}わない。",
+  "english": "dangerous; risky; awful",
+  "examples": [
+   {
+    "ja": "このラーメン、やばい！めっちゃおいしい。",
+    "en": "This ramen is insane! It's so good."
+   }
+  ],
+  "related": [
+   "まじで"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_32c6913fc1",
+  "headword": "気が利く",
+  "reading": "きがきく",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{周|まわ}りの{人|ひと}が{何|なに}を{必要|ひつよう}としているかに{気|き}づいて、{言|い}われる{前|まえ}に{動|うご}ける。{人|ひと}をほめるときによく{使|つか}う。",
+  "english": "to be sensible; to be smart; to be tasteful",
+  "examples": [
+   {
+    "ja": "{新人|しんじん}の{佐藤|さとう}さんは、とても{気|き}が{利|き}きますね。",
+    "en": "Sato-san, the new hire, is really on the ball — always one step ahead."
+   }
+  ],
+  "related": [
+   "気を遣う"
+  ],
+  "kanji": [
+   "利",
+   "気"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ae0c49b9ed",
+  "headword": "腹が立つ",
+  "reading": "はらがたつ",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{強|つよ}い{怒|いか}りを{感|かん}じる。「{怒|おこ}る」より{心|こころ}の{中|なか}の{気持|きも}ちに{近|ちか}く、{大人|おとな}の{会話|かいわ}でよく{使|つか}う。",
+  "english": "to get angry; to take offense; to take offence",
+  "examples": [
+   {
+    "ja": "{約束|やくそく}を{守|まも}らない{人|ひと}には{腹|はら}が{立|た}ちます。",
+    "en": "People who break their promises really get under my skin."
+   }
+  ],
+  "related": [
+   "頭に来る"
+  ],
+  "kanji": [
+   "立",
+   "腹"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b848136f68",
+  "headword": "顔が広い",
+  "reading": "かおがひろい",
+  "level": "MASTERY",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{知|し}り{合|あ}いが{多|おお}く、いろいろな{分野|ぶんや}に{人|ひと}のつながりがある。ほめ{言葉|ことば}として{使|つか}う。",
+  "english": "well connected; well known; having a large, diverse circle of acquaintances",
+  "examples": [
+   {
+    "ja": "{山田|やまだ}さんは{顔|かお}が{広|ひろ}いので、{相談|そうだん}してみるといいですよ。",
+    "en": "Yamada-san knows everybody, so she's worth asking."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "広",
+   "顔"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8d63ed7473",
+  "headword": "手を抜く",
+  "reading": "てをぬく",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "するべき{努力|どりょく}をせず、いいかげんにすませる。{人|ひと}の{仕事|しごと}ぶりを{批判|ひはん}するときや、{自分|じぶん}を{戒|いまし}めるときに{使|つか}う。",
+  "english": "to cut corners; to be shoddy; to slack off",
+  "examples": [
+   {
+    "ja": "{忙|いそが}しくても、{安全|あんぜん}{確認|かくにん}だけは{手|て}を{抜|ぬ}かないでください。",
+    "en": "However busy you get, don't cut corners on the safety checks."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "手",
+   "抜"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_181b3f80ca",
+  "headword": "口が軽い",
+  "reading": "くちがかるい",
+  "level": "MASTERY",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{秘密|ひみつ}をすぐ{他|ほか}の{人|ひと}に{話|はな}してしまう。{人|ひと}を{悪|わる}く{言|い}う{表現|ひょうげん}なので、{本人|ほんにん}の{前|まえ}では{使|つか}わない。",
+  "english": "having a loose tongue; being talkative; speaking without thinking",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{口|くち}が{軽|かる}いから、この{話|はなし}はしないほうがいいよ。",
+    "en": "He can't keep a secret, so you'd better not tell him about this."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "口",
+   "軽"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a474e3d1b7",
+  "headword": "目がない",
+  "reading": "めがない",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "「〜に{目|め}がない」の{形|かたち}で、{何|なに}かが{大好|だいす}きで{我慢|がまん}できないほどだという{意味|いみ}。{食|た}べ{物|もの}などについて{楽|たの}しく{話|はな}すときに{使|つか}う。",
+  "english": "being extremely fond of; having a weakness for; being a sucker for",
+  "examples": [
+   {
+    "ja": "{父|ちち}は{甘|あま}いものに{目|め}がないんです。",
+    "en": "My dad has a real weakness for sweets."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "目"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d671e59fc8",
+  "headword": "気にする",
+  "reading": "きにする",
+  "level": "MASTERY",
+  "category": "verb-irregular",
+  "category_ja": "動詞（不規則）",
+  "definition_ja": "{小|ちい}さなことが{心|こころ}から{離|はな}れず、{心配|しんぱい}する。「{気|き}にしないでください」は、{謝|あやま}られたときの{優|やさ}しい{返事|へんじ}としてよく{使|つか}う。",
+  "english": "to mind (negative nuance); to care about; to worry",
+  "examples": [
+   {
+    "ja": "{大丈夫|だいじょうぶ}ですよ。そんなに{気|き}にすることはありません。",
+    "en": "It's fine, really. There's nothing to worry about."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "気"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ff3b860fab",
+  "headword": "頭に来る",
+  "reading": "あたまにくる",
+  "level": "MASTERY",
+  "category": "verb-irregular",
+  "category_ja": "動詞（不規則）",
+  "definition_ja": "{我慢|がまん}できないほど{怒|おこ}る。「{腹|はら}が{立|た}つ」より{感情|かんじょう}が{強|つよ}く、くだけた{会話|かいわ}で{使|つか}う。",
+  "english": "to get angry; to get mad; to lose one's temper",
+  "examples": [
+   {
+    "ja": "{何度|なんど}{言|い}っても{聞|き}かないので、{頭|あたま}に{来|き}ました。",
+    "en": "I told him again and again and he wouldn't listen — it made me furious."
+   }
+  ],
+  "related": [
+   "腹が立つ"
+  ],
+  "kanji": [
+   "来",
+   "頭"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_1762562e10",
+  "headword": "耳が痛い",
+  "reading": "みみがいたい",
+  "level": "MASTERY",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{自分|じぶん}の{弱点|じゃくてん}を{言|い}われて、{聞|き}くのがつらい。{相手|あいて}の{指摘|してき}が{正|ただ}しいと{認|みと}めるときに{使|つか}う。",
+  "english": "being painfully true (e.g. reprimand); making one's ears burn; striking home (e.g. remark)",
+  "examples": [
+   {
+    "ja": "{先輩|せんぱい}の{注意|ちゅうい}は{耳|みみ}が{痛|いた}いけど、{本当|ほんとう}にそのとおりです。",
+    "en": "My senior's criticism stings, but she's absolutely right."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "痛",
+   "耳"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bf32bdff7b",
+  "headword": "骨が折れる",
+  "reading": "ほねがおれる",
+  "level": "MASTERY",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{大変|たいへん}な{苦労|くろう}や{手間|てま}がかかる。{実際|じっさい}に{骨|ほね}が{折|お}れるという{意味|いみ}ではなく、{大人|おとな}が{苦労|くろう}を{振|ふ}り{返|かえ}るときに{使|つか}う。",
+  "english": "to be hard (to do); to be difficult; to require much effort",
+  "examples": [
+   {
+    "ja": "この{資料|しりょう}をまとめるのは{骨|ほね}が{折|お}れました。",
+    "en": "Pulling these documents together was a real slog."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "折",
+   "骨"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_01c6914d8e",
+  "headword": "足を引っ張る",
+  "reading": "あしをひっぱる",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{周|まわ}りの{人|ひと}の{邪魔|じゃま}をして、{全体|ぜんたい}の{進|すす}み{方|かた}を{遅|おく}らせる。{自分|じぶん}について{謙遜|けんそん}して{使|つか}うことも{多|おお}い。",
+  "english": "to hold back (someone) from achieving success; to stand in the way of; to sabotage",
+  "examples": [
+   {
+    "ja": "チームの{足|あし}を{引|ひ}っ{張|ぱ}らないように、がんばります。",
+    "en": "I'll do my best not to drag the team down."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "引",
+   "張",
+   "足"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4c0267a92b",
+  "headword": "気を遣う",
+  "reading": "きをつかう",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{相手|あいて}が{気持|きも}ちよくいられるように、いろいろと{心|こころ}を{配|くば}る。「お{気遣|きづか}いなく」は{丁寧|ていねい}な{断|ことわ}りの{言葉|ことば}。",
+  "english": "to worry (about); to fuss (over); to be careful (about)",
+  "examples": [
+   {
+    "ja": "そんなに{気|き}を{遣|つか}わなくていいですよ。",
+    "en": "You really don't need to go to all that trouble for me."
+   }
+  ],
+  "related": [
+   "気が利く",
+   "お構いなく"
+  ],
+  "kanji": [
+   "気",
+   "遣"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e0f6909c64",
+  "headword": "猫の手も借りたい",
+  "reading": "ねこのてもかりたい",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "とても{忙|いそが}しくて、{誰|だれ}でもいいから{手伝|てつだ}ってほしい。{年末|ねんまつ}など{忙|いそが}しい{時期|じき}に、{冗談|じょうだん}まじりに{使|つか}う。",
+  "english": "extremely busy; short-handed; wanting even the help of a cat",
+  "examples": [
+   {
+    "ja": "{年末|ねんまつ}は{猫|ねこ}の{手|て}も{借|か}りたいほど{忙|いそが}しいです。",
+    "en": "At the end of the year we're so busy we'd take help from anyone."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "借",
+   "手",
+   "猫"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4f5f5e74fc",
+  "headword": "腕がいい",
+  "reading": "うでがいい",
+  "level": "MASTERY",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{技術|ぎじゅつ}が{高|たか}い。{料理人|りょうりにん}や{職人|しょくにん}、{医者|いしゃ}などをほめるときに{使|つか}う。",
+  "english": "skilled; skillful; skilful",
+  "examples": [
+   {
+    "ja": "あの{店|みせ}の{大将|たいしょう}は{本当|ほんとう}に{腕|うで}がいい。",
+    "en": "The chef at that place really knows his craft."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "腕"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c34243b2bc",
+  "headword": "鼻が高い",
+  "reading": "はながたかい",
+  "level": "MASTERY",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{自分|じぶん}や{家族|かぞく}のことを{誇|ほこ}らしく{思|おも}う。{子|こ}どもや{部下|ぶか}の{成功|せいこう}などについて{使|つか}う。",
+  "english": "proud; having a prominent nose",
+  "examples": [
+   {
+    "ja": "{息子|むすこ}が{賞|しょう}をもらって、{私|わたし}も{鼻|はな}が{高|たか}いです。",
+    "en": "My son won an award, and I couldn't be prouder."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "高",
+   "鼻"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_234f244b63",
+  "headword": "目を通す",
+  "reading": "めをとおす",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{書類|しょるい}などを、ざっと{全体|ぜんたい}を{読|よ}む。{仕事|しごと}でよく{使|つか}い、{目上|めうえ}には「お{目|め}を{通|とお}していただけますか」と{頼|たの}む。",
+  "english": "to scan; to look over",
+  "examples": [
+   {
+    "ja": "{会議|かいぎ}の{前|まえ}に、{資料|しりょう}に{目|め}を{通|とお}しておいてください。",
+    "en": "Please look over the materials before the meeting."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "目",
+   "通"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_eb683ce4d0",
+  "headword": "口に合う",
+  "reading": "くちにあう",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{食|た}べ{物|もの}の{味|あじ}が{好|この}みに{合|あ}う。{料理|りょうり}を{出|だ}すときに「お{口|くち}に{合|あ}うといいのですが」と{謙遜|けんそん}して{使|つか}う。",
+  "english": "to be palatable; to suit one's taste",
+  "examples": [
+   {
+    "ja": "お{口|くち}に{合|あ}うかどうか{分|わ}かりませんが、どうぞ。",
+    "en": "I'm not sure it'll be to your taste, but please, help yourself."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "口",
+   "合"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e0adcc9625",
+  "headword": "手が離せない",
+  "reading": "てがはなせない",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{今|いま}している{作業|さぎょう}を{止|と}められず、{他|ほか}のことができない。{電話|でんわ}や{誘|さそ}いを{断|ことわ}るときの{丁寧|ていねい}な{理由|りゆう}として{使|つか}う。",
+  "english": "unable to leave the work at hand; right in the middle of something; tied up",
+  "examples": [
+   {
+    "ja": "すみません、{今|いま}ちょっと{手|て}が{離|はな}せないので、{後|あと}でかけ{直|なお}します。",
+    "en": "Sorry, I'm tied up at the moment — I'll call you back later."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "手",
+   "離"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0e9189ff46",
+  "headword": "気が合う",
+  "reading": "きがあう",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{考|かんが}え{方|かた}や{好|この}みが{似|に}ていて、{一緒|いっしょ}にいて{楽|らく}だ。{友達|ともだち}や{同僚|どうりょう}との{関係|かんけい}について{使|つか}う。",
+  "english": "to get along (with someone); to be like-minded; to be congenial",
+  "examples": [
+   {
+    "ja": "{彼女|かのじょ}とは{初|はじ}めて{会|あ}ったときから{気|き}が{合|あ}いました。",
+    "en": "She and I hit it off from the very first time we met."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "合",
+   "気"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_28ca286c71",
+  "headword": "大丈夫です",
+  "reading": "だいじょうぶです",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{本来|ほんらい}は「{問題|もんだい}ない」という{意味|いみ}だが、{店|みせ}などで{何|なに}かを{勧|すす}められたときに「いりません」とやわらかく{断|ことわ}る{意味|いみ}でもよく{使|つか}う。どちらの{意味|いみ}かは{場面|ばめん}と{言|い}い{方|かた}で{判断|はんだん}する。",
+  "english": "\"Would you like a bag?\" \"Oh, no thanks, I'm fine.\"",
+  "examples": [
+   {
+    "ja": "「{袋|ふくろ}はご{利用|りよう}ですか。」「あ、{大丈夫|だいじょうぶ}です。」",
+    "en": "\"Would you like a bag?\" \"Oh, no thanks, I'm fine.\""
+   }
+  ],
+  "related": [
+   "結構です",
+   "いいです"
+  ],
+  "kanji": [
+   "丈",
+   "大",
+   "夫"
+  ],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_18fb1c06da",
+  "headword": "結構です",
+  "reading": "けっこうです",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "「もう{十分|じゅうぶん}です、いりません」と{丁寧|ていねい}に{断|ことわ}る{言葉|ことば}。{冷|つめ}たく{聞|き}こえることもあるので、「ありがとうございます」を{添|そ}えるとよい。「それで{結構|けっこう}です」なら「それでいいです」という{承知|しょうち}の{意味|いみ}になる。",
+  "english": "I'm fine without more tea, thank you.",
+  "examples": [
+   {
+    "ja": "お{茶|ちゃ}のおかわりは{結構|けっこう}です。ありがとうございます。",
+    "en": "I'm fine without more tea, thank you."
+   }
+  ],
+  "related": [
+   "大丈夫です",
+   "いいです"
+  ],
+  "kanji": [
+   "構",
+   "結"
+  ],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_6075ba2242",
+  "headword": "いいです",
+  "reading": "いいです",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "「よい」という{意味|いみ}にも、「いりません」という{断|ことわ}りの{意味|いみ}にもなる。「もういいです」は{怒|いか}りやあきらめに{聞|き}こえることがあるので{注意|ちゅうい}する。{意味|いみ}は{文脈|ぶんみゃく}と{言|い}い{方|かた}で{決|き}まる。",
+  "english": "\"Shall I heat it up for you?\" \"No, that's okay.\"",
+  "examples": [
+   {
+    "ja": "「{温|あたた}めますか。」「いえ、いいです。」",
+    "en": "\"Shall I heat it up for you?\" \"No, that's okay.\""
+   }
+  ],
+  "related": [
+   "大丈夫です",
+   "結構です"
+  ],
+  "kanji": [],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_7b2cd3f388",
+  "headword": "よろしくお願いします",
+  "reading": "よろしくおねがいします",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{初対面|しょたいめん}のあいさつ、{頼|たの}みごと、メールの{最後|さいご}などで、「これから{良|よ}い{関係|かんけい}でいたい」「どうかお{願|ねが}いします」という{気持|きも}ちを{込|こ}める。{英語|えいご}に{一言|ひとこと}では{訳|やく}せない。",
+  "english": "please remember me; please help me; please treat me well",
+  "examples": [
+   {
+    "ja": "{資料|しりょう}を{送|おく}りましたので、ご{確認|かくにん}をよろしくお{願|ねが}いします。",
+    "en": "I've sent the documents over — I'd appreciate it if you could take a look."
+   }
+  ],
+  "related": [
+   "よろしく"
+  ],
+  "kanji": [
+   "願"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_34749cfdf6",
+  "headword": "よろしく",
+  "reading": "よろしく",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "【カジュアル】「よろしくお{願|ねが}いします」の{短|みじか}い{形|かたち}。{友達|ともだち}や{後輩|こうはい}に{頼|たの}むときや、{気軽|きがる}な{自己紹介|じこしょうかい}で{使|つか}う。{目上|めうえ}の{人|ひと}には{使|つか}わない。",
+  "english": "well; properly; suitably",
+  "examples": [
+   {
+    "ja": "じゃあ、{明日|あした}の{準備|じゅんび}よろしくね。",
+    "en": "Okay, I'm counting on you to get things ready for tomorrow."
+   }
+  ],
+  "related": [
+   "よろしくお願いします"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9d686c015c",
+  "headword": "お疲れさまです",
+  "reading": "おつかれさまです",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{職場|しょくば}で{会|あ}ったときのあいさつや、{仕事|しごと}をしている{人|ひと}へのねぎらいに{使|つか}う。{社内|しゃない}の{人|ひと}なら{上司|じょうし}にも{使|つか}える。{帰|かえ}る{人|ひと}には「お{疲|つか}れさまでした」と{言|い}う。",
+  "english": "Hi, hope your day's going well — I left the meeting materials on your desk.",
+  "examples": [
+   {
+    "ja": "お{疲|つか}れさまです。{会議|かいぎ}の{資料|しりょう}、{机|つくえ}に{置|お}いておきました。",
+    "en": "Hi, hope your day's going well — I left the meeting materials on your desk."
+   }
+  ],
+  "related": [
+   "お先に失礼します"
+  ],
+  "kanji": [
+   "疲"
+  ],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_ca529f010a",
+  "headword": "お先に失礼します",
+  "reading": "おさきにしつれいします",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{職場|しょくば}などで、まだ{残|のこ}っている{人|ひと}より{先|さき}に{帰|かえ}るときのあいさつ。{言|い}われた{人|ひと}は「お{疲|つか}れさまでした」と{返|かえ}す。",
+  "english": "pardon me for leaving (first)",
+  "examples": [
+   {
+    "ja": "{今日|きょう}はこれで、お{先|さき}に{失礼|しつれい}します。",
+    "en": "That's it for me today — I'll be heading out ahead of you."
+   }
+  ],
+  "related": [
+   "お疲れさまです",
+   "失礼します"
+  ],
+  "kanji": [
+   "先",
+   "失",
+   "礼"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_019983fe59",
+  "headword": "恐れ入ります",
+  "reading": "おそれいります",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "「すみません」「ありがとうございます」をより{改|あらた}まって{言|い}う{言葉|ことば}。お{客|きゃく}さまや{取引先|とりひきさき}に、{何|なに}かを{頼|たの}むときや、{親切|しんせつ}にお{礼|れい}を{言|い}うときに{使|つか}う。",
+  "english": "I feel honored; you have my sincere gratitude; it's very kind of you",
+  "examples": [
+   {
+    "ja": "{恐|おそ}れ{入|い}りますが、こちらにお{名前|なまえ}をご{記入|きにゅう}いただけますか。",
+    "en": "I'm sorry to trouble you, but would you mind writing your name here?"
+   }
+  ],
+  "related": [
+   "申し訳ございません"
+  ],
+  "kanji": [
+   "入",
+   "恐"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_97051de3c7",
+  "headword": "とんでもない",
+  "reading": "とんでもない",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "ほめられたりお{礼|れい}を{言|い}われたりしたときに、「そんなことはありません」と{謙遜|けんそん}して{返|かえ}す{言葉|ことば}。{目上|めうえ}には「とんでもないです」「とんでもございません」。「ひどい、ありえない」という{意味|いみ}もある。",
+  "english": "unthinkable; unexpected; absurd",
+  "examples": [
+   {
+    "ja": "「{本当|ほんとう}に{助|たす}かりました。」「いえ、とんでもないです。」",
+    "en": "\"You were such a huge help.\" \"Oh no, not at all.\""
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0fbe011d81",
+  "headword": "お世話になっております",
+  "reading": "おせわになっております",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "ビジネスのメールや{電話|でんわ}の{最初|さいしょ}に{言|い}う{決|き}まり{文句|もんく}。{実際|じっさい}に{世話|せわ}をしてもらったかどうかに{関係|かんけい}なく、{社外|しゃがい}の{相手|あいて}に{使|つか}う。",
+  "english": "thank you very much for everything; it has always been a pleasure to work with you",
+  "examples": [
+   {
+    "ja": "いつもお{世話|せわ}になっております。{青葉|あおば}{商事|しょうじ}の{鈴木|すずき}です。",
+    "en": "Thank you as always for your business. This is Suzuki from Aoba Trading."
+   }
+  ],
+  "related": [
+   "ご無沙汰しております"
+  ],
+  "kanji": [
+   "世",
+   "話"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d87e69de8d",
+  "headword": "考えておきます",
+  "reading": "かんがえておきます",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{文字|もじ}どおりは「{考|かんが}えます」だが、{商談|しょうだん}や{誘|さそ}いでは、はっきり{言|い}わずに{断|ことわ}るときに{使|つか}われることが{多|おお}い。{相手|あいて}の{表情|ひょうじょう}や{言|い}い{方|かた}と{合|あ}わせて{判断|はんだん}する。",
+  "english": "I'll... give this offer some thought. (Often a polite no.)",
+  "examples": [
+   {
+    "ja": "{今回|こんかい}のお{話|はなし}は、ちょっと{考|かんが}えておきます。",
+    "en": "I'll... give this offer some thought. (Often a polite no.)"
+   }
+  ],
+  "related": [
+   "ちょっと"
+  ],
+  "kanji": [
+   "考"
+  ],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_f5eff022d4",
+  "headword": "お構いなく",
+  "reading": "おかまいなく",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{訪問先|ほうもんさき}でお{茶|ちゃ}などを{出|だ}されそうなときに、「{気|き}を{遣|つか}わないでください」と{丁寧|ていねい}に{言|い}う{言葉|ことば}。",
+  "english": "please don't fuss over me; don't go to any trouble; don't bother",
+  "examples": [
+   {
+    "ja": "どうぞお{構|かま}いなく。すぐに{失礼|しつれい}しますので。",
+    "en": "Please don't go to any trouble — I won't be staying long."
+   }
+  ],
+  "related": [
+   "気を遣う"
+  ],
+  "kanji": [
+   "構"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2e79e45649",
+  "headword": "ご無沙汰しております",
+  "reading": "ごぶさたしております",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{長|なが}い{間|あいだ}{連絡|れんらく}しなかった{目上|めうえ}の{人|ひと}や{取引先|とりひきさき}に{言|い}う、{改|あらた}まったあいさつ。{友達|ともだち}には「{久|ひさ}しぶり」と{言|い}う。",
+  "english": "Professor, it's been far too long. How have you been?",
+  "examples": [
+   {
+    "ja": "{先生|せんせい}、ご{無沙汰|ぶさた}しております。お{元気|げんき}でしたか。",
+    "en": "Professor, it's been far too long. How have you been?"
+   }
+  ],
+  "related": [
+   "久しぶり"
+  ],
+  "kanji": [
+   "汰",
+   "沙",
+   "無"
+  ],
+  "source": "original editorial content"
+ },
+ {
+  "id": "w_d68a04a151",
+  "headword": "久しぶり",
+  "reading": "ひさしぶり",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "【カジュアル】{長|なが}く{会|あ}っていなかった{友達|ともだち}に{会|あ}ったときのあいさつ。{丁寧|ていねい}に{言|い}うときは「お{久|ひさ}しぶりです」。",
+  "english": "a long time (since the last time); first in a long time; it's been a long time",
+  "examples": [
+   {
+    "ja": "{久|ひさ}しぶり！{元気|げんき}だった？",
+    "en": "Long time no see! How've you been?"
+   }
+  ],
+  "related": [
+   "ご無沙汰しております"
+  ],
+  "kanji": [
+   "久"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_69544eb60b",
+  "headword": "お大事に",
+  "reading": "おだいじに",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{病気|びょうき}やけがをした{人|ひと}に「{早|はや}く{良|よ}くなってください」と{伝|つた}えるあいさつ。{目上|めうえ}には「お{大事|だいじ}になさってください」。",
+  "english": "take care of yourself; get well soon",
+  "examples": [
+   {
+    "ja": "{風邪|かぜ}ですか。どうぞお{大事|だいじ}に。",
+    "en": "A cold? Take care of yourself."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "事",
+   "大"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_42487d5ac0",
+  "headword": "申し訳ございません",
+  "reading": "もうしわけございません",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "「すみません」よりずっと{丁寧|ていねい}で{重|おも}い{謝罪|しゃざい}の{言葉|ことば}。お{客|きゃく}さまや{取引先|とりひきさき}に{謝|あやま}るときに{使|つか}う。",
+  "english": "I'm sorry; (it's) inexcusable; thank you very much (for help, etc.)",
+  "examples": [
+   {
+    "ja": "{大変|たいへん}{申|もう}し{訳|わけ}ございません。すぐにお{取|と}り{替|か}えいたします。",
+    "en": "We're terribly sorry. We'll replace it for you right away."
+   }
+  ],
+  "related": [
+   "恐れ入ります"
+  ],
+  "kanji": [
+   "申",
+   "訳"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_68b9d89ded",
+  "headword": "おっしゃる",
+  "reading": "おっしゃる",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "「{言|い}う」の{尊敬語|そんけいご}。{先生|せんせい}や{上司|じょうし}、お{客|きゃく}さまなど、{目上|めうえ}の{人|ひと}が{言|い}うことを{高|たか}めて{表|あらわ}す。ます{形|けい}は「おっしゃいます」。",
+  "english": "to say; to speak; to tell",
+  "examples": [
+   {
+    "ja": "{部長|ぶちょう}がおっしゃったとおり、{計画|けいかく}を{変|か}えましょう。",
+    "en": "Let's change the plan, just as the department head said."
+   }
+  ],
+  "related": [
+   "言う",
+   "申す"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_70b710d958",
+  "headword": "申す",
+  "reading": "もうす",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "「{言|い}う」の{謙譲語|けんじょうご}。{自分|じぶん}や{自分|じぶん}の{側|がわ}の{人|ひと}が{言|い}うことを、{相手|あいて}に{対|たい}してへりくだって{表|あらわ}す。{自己紹介|じこしょうかい}の「〜と{申|もう}します」が{代表的|だいひょうてき}。",
+  "english": "to say; to be called; to do",
+  "examples": [
+   {
+    "ja": "はじめまして、{森|もり}と{申|もう}します。",
+    "en": "How do you do? My name is Mori."
+   }
+  ],
+  "related": [
+   "言う",
+   "おっしゃる",
+   "申し上げる"
+  ],
+  "kanji": [
+   "申"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4862d6d5d3",
+  "headword": "申し上げる",
+  "reading": "もうしあげる",
+  "level": "MASTERY",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "「{言|い}う」の{謙譲語|けんじょうご}で、「{申|もう}す」より{相手|あいて}をさらに{立|た}てる。お{礼|れい}やお{詫|わ}びを、とても{改|あらた}まって{伝|つた}えるときに{使|つか}う。",
+  "english": "to say; to tell; to state",
+  "examples": [
+   {
+    "ja": "{心|こころ}よりお{礼|れい}{申|もう}し{上|あ}げます。",
+    "en": "Please accept my most heartfelt thanks."
+   }
+  ],
+  "related": [
+   "申す"
+  ],
+  "kanji": [
+   "上",
+   "申"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_90f7a78df0",
+  "headword": "いらっしゃる",
+  "reading": "いらっしゃる",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "「いる」「{行|い}く」「{来|く}る」の{尊敬語|そんけいご}。{目上|めうえ}の{人|ひと}やお{客|きゃく}さまがいる、{来|く}る、{行|い}くことを{高|たか}めて{言|い}う。",
+  "english": "to come; to go; to be (somewhere)",
+  "examples": [
+   {
+    "ja": "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}にいらっしゃいます。",
+    "en": "The president is in the conference room at the moment."
+   }
+  ],
+  "related": [
+   "参る"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_93210ced99",
+  "headword": "参る",
+  "reading": "まいる",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "「{行|い}く」「{来|く}る」の{謙譲語|けんじょうご}。{自分|じぶん}が{行|い}く・{来|く}ることを、{相手|あいて}に{改|あらた}まって{伝|つた}えるときに{使|つか}う。{駅|えき}の「{電車|でんしゃ}が{参|まい}ります」のように、{丁寧|ていねい}に{言|い}うだけの{使|つか}い{方|かた}もある。",
+  "english": "to go; to come; to lose",
+  "examples": [
+   {
+    "ja": "{明日|あした}{十時|じゅうじ}に{御社|おんしゃ}へ{参|まい}ります。",
+    "en": "I will come to your office tomorrow at ten."
+   }
+  ],
+  "related": [
+   "いらっしゃる"
+  ],
+  "kanji": [
+   "参"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_977a0d45d6",
+  "headword": "召し上がる",
+  "reading": "めしあがる",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "「{食|た}べる」「{飲|の}む」の{尊敬語|そんけいご}。お{客|きゃく}さまや{目上|めうえ}の{人|ひと}に、「どうぞ{召|め}し{上|あ}がってください」と{料理|りょうり}を{勧|すす}めるときに{使|つか}う。",
+  "english": "to eat; to drink",
+  "examples": [
+   {
+    "ja": "{冷|さ}めないうちに{召|め}し{上|あ}がってください。",
+    "en": "Please enjoy it while it's still warm."
+   }
+  ],
+  "related": [
+   "いただく"
+  ],
+  "kanji": [
+   "上",
+   "召"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_626b6e8b58",
+  "headword": "いただく",
+  "reading": "いただく",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "「もらう」「{食|た}べる」「{飲|の}む」の{謙譲語|けんじょうご}。{目上|めうえ}の{人|ひと}から{何|なに}かを{受|う}け{取|と}るときや、「〜ていただけますか」と{丁寧|ていねい}に{頼|たの}むときに{使|つか}う。",
+  "english": "to receive; to get; to accept",
+  "examples": [
+   {
+    "ja": "{部長|ぶちょう}からお{土産|みやげ}をいただきました。",
+    "en": "The department head kindly gave me a souvenir."
+   }
+  ],
+  "related": [
+   "召し上がる"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_022c5dbe5a",
+  "headword": "ご覧になる",
+  "reading": "ごらんになる",
+  "level": "MASTERY",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "「{見|み}る」の{尊敬語|そんけいご}。{目上|めうえ}の{人|ひと}やお{客|きゃく}さまが{見|み}ることを{高|たか}めて{言|い}う。",
+  "english": "to see; to look; to watch",
+  "examples": [
+   {
+    "ja": "こちらの{資料|しりょう}はもうご{覧|らん}になりましたか。",
+    "en": "Have you already had a chance to look at these materials?"
+   }
+  ],
+  "related": [
+   "拝見"
+  ],
+  "kanji": [
+   "覧"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_60fa8d3e67",
+  "headword": "拝見",
+  "reading": "はいけん",
+  "level": "MASTERY",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "「{見|み}る」の{謙譲語|けんじょうご}で、「{拝見|はいけん}する」の{形|かたち}で{使|つか}う。{目上|めうえ}の{人|ひと}や{相手|あいて}のものを{見|み}ることを、へりくだって{言|い}う。",
+  "english": "seeing; looking at",
+  "examples": [
+   {
+    "ja": "{先日|せんじつ}のメール、{拝見|はいけん}しました。",
+    "en": "I've read the email you sent the other day."
+   }
+  ],
+  "related": [
+   "ご覧になる"
+  ],
+  "kanji": [
+   "拝",
+   "見"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2fd29a1e2a",
+  "headword": "存じる",
+  "reading": "ぞんじる",
+  "level": "MASTERY",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "「{知|し}る」「{思|おも}う」の{謙譲語|けんじょうご}。ビジネスの{場|ば}で、{自分|じぶん}が{知|し}っていることや{考|かんが}えを{改|あらた}まって{伝|つた}える。「{存|ぞん}じません」は「{知|し}りません」の{丁寧|ていねい}な{形|かたち}。",
+  "english": "to know; to be aware (of); to be acquainted (with)",
+  "examples": [
+   {
+    "ja": "その{件|けん}については{存|ぞん}じておりませんでした。",
+    "en": "I'm afraid I wasn't aware of that matter."
+   }
+  ],
+  "related": [
+   "ご存じ"
+  ],
+  "kanji": [
+   "存"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_72b8e555f6",
+  "headword": "ご存じ",
+  "reading": "ごぞんじ",
+  "level": "MASTERY",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "「{知|し}っている」の{尊敬語|そんけいご}。「ご{存|ぞん}じですか」の{形|かたち}で、{目上|めうえ}の{人|ひと}に{知|し}っているかどうかを{丁寧|ていねい}に{聞|き}く。",
+  "english": "knowing; being aware (of); (an) acquaintance",
+  "examples": [
+   {
+    "ja": "この{近|ちか}くに{郵便局|ゆうびんきょく}があるか、ご{存|ぞん}じですか。",
+    "en": "Would you happen to know if there's a post office around here?"
+   }
+  ],
+  "related": [
+   "存じる"
+  ],
+  "kanji": [
+   "存"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_55a1e5741c",
+  "headword": "ぺらぺら",
+  "reading": "ぺらぺら",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{外国語|がいこくご}などをすらすらと{上手|じょうず}に{話|はな}す{様子|ようす}。よくしゃべりすぎる{様子|ようす}や、{紙|かみ}などが{薄|うす}い{様子|ようす}も{表|あらわ}す。",
+  "english": "fluently (speaking a foreign language); incessantly (speaking); glibly",
+  "examples": [
+   {
+    "ja": "{彼女|かのじょ}は{英語|えいご}も{中国語|ちゅうごくご}もぺらぺらです。",
+    "en": "She's fluent in both English and Chinese."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8a0f5b8906",
+  "headword": "いらいら",
+  "reading": "いらいら",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{思|おも}いどおりにならず、{落|お}ち{着|つ}かない{怒|いか}りを{感|かん}じる{様子|ようす}。「いらいらする」の{形|かたち}でよく{使|つか}う。",
+  "english": "to get irritated; to get annoyed; to be on the edge",
+  "examples": [
+   {
+    "ja": "{電車|でんしゃ}が{全然|ぜんぜん}{動|うご}かなくて、いらいらしました。",
+    "en": "The train just wouldn't move, and I got really worked up."
+   }
+  ],
+  "related": [
+   "腹が立つ"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_cc0383580f",
+  "headword": "わくわく",
+  "reading": "わくわく",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{楽|たの}しいことを{期待|きたい}して、{胸|むね}がはずむ{様子|ようす}。",
+  "english": "to be excited; to be nervous; to be thrilled",
+  "examples": [
+   {
+    "ja": "{明日|あした}から{旅行|りょこう}なので、わくわくしています。",
+    "en": "The trip starts tomorrow, and I'm so excited."
+   }
+  ],
+  "related": [
+   "どきどき"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5dce9d54a8",
+  "headword": "ぎりぎり",
+  "reading": "ぎりぎり",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{時間|じかん}や{量|りょう}などが{限界|げんかい}にとても{近|ちか}く、{余裕|よゆう}がない{様子|ようす}。",
+  "english": "just barely; only just; at the very limit",
+  "examples": [
+   {
+    "ja": "{走|はし}って、{何|なん}とか{終電|しゅうでん}にぎりぎり{間|ま}に{合|あ}いました。",
+    "en": "I ran and only just made the last train."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_93f7b0be9c",
+  "headword": "どきどき",
+  "reading": "どきどき",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{緊張|きんちょう}や{不安|ふあん}、{恋|こい}などで{心臓|しんぞう}が{速|はや}く{打|う}つ{様子|ようす}。",
+  "english": "thump-thump; bang-bang; pit-a-pat",
+  "examples": [
+   {
+    "ja": "{面接|めんせつ}の{前|まえ}は、いつもどきどきします。",
+    "en": "My heart always races before an interview."
+   }
+  ],
+  "related": [
+   "わくわく"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bc032c6b2f",
+  "headword": "ばたばた",
+  "reading": "ばたばた",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{忙|いそが}しくて{落|お}ち{着|つ}かない{様子|ようす}。{仕事|しごと}で「{今週|こんしゅう}はばたばたしていて」と、{忙|いそが}しさをやわらかく{伝|つた}えるときによく{使|つか}う。",
+  "english": "flapping; rattling; fluttering",
+  "examples": [
+   {
+    "ja": "{年度末|ねんどまつ}でばたばたしていて、お{返事|へんじ}が{遅|おそ}くなりました。",
+    "en": "Things have been hectic with the fiscal year ending, so I'm sorry for the late reply."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_83bd03fcb2",
+  "headword": "ぼちぼち",
+  "reading": "ぼちぼち",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "【カジュアル】{少|すこ}しずつ、ゆっくりと{物事|ものごと}を{始|はじ}めたり{進|すす}めたりする{様子|ようす}。「{調子|ちょうし}はどう？」に「ぼちぼちです」と{答|こた}えると「まあまあ」の{意味|いみ}になる。",
+  "english": "leisurely; slowly; gradually",
+  "examples": [
+   {
+    "ja": "そろそろ{時間|じかん}だし、ぼちぼち{帰|かえ}ろうか。",
+    "en": "It's getting late — shall we start heading home?"
+   }
+  ],
+  "related": [
+   "のんびり"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_601a6527e3",
+  "headword": "のんびり",
+  "reading": "のんびり",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{急|いそ}がず、{気持|きも}ちも{体|からだ}もゆったりしている{様子|ようす}。",
+  "english": "at leisure; in a relaxed manner; in a carefree manner",
+  "examples": [
+   {
+    "ja": "{休|やす}みの{日|ひ}は、{家|いえ}でのんびり{過|す}ごしたいです。",
+    "en": "On my days off, I like to just take it easy at home."
+   }
+  ],
+  "related": [
+   "ぼちぼち"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5177acb198",
+  "headword": "うっかり",
+  "reading": "うっかり",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{注意|ちゅうい}が{足|た}りず、{気|き}づかないうちに{失敗|しっぱい}してしまう{様子|ようす}。{自分|じぶん}の{小|ちい}さなミスを{謝|あやま}るときによく{使|つか}う。",
+  "english": "carelessly; thoughtlessly; inadvertently",
+  "examples": [
+   {
+    "ja": "うっかり{会議|かいぎ}の{時間|じかん}を{忘|わす}れていました。すみません。",
+    "en": "I completely forgot about the meeting time. I'm so sorry."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a5fec12165",
+  "headword": "すっきり",
+  "reading": "すっきり",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{余計|よけい}なものがなくなって、{気持|きも}ちや{見|み}た{目|め}がさわやかになる{様子|ようす}。",
+  "english": "refreshingly; with a feeling of relief; pleasantly",
+  "examples": [
+   {
+    "ja": "{部屋|へや}を{片付|かたづ}けたら、{気分|きぶん}もすっきりしました。",
+    "en": "After tidying my room, I felt refreshed too."
+   }
+  ],
+  "related": [
+   "もやもや"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a35d5a6368",
+  "headword": "もやもや",
+  "reading": "もやもや",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{気持|きも}ちがはっきりせず、すっきりしない{様子|ようす}。{言|い}いたいことが{言|い}えなかったときなどに{使|つか}う。",
+  "english": "hazy; misty; foggy",
+  "examples": [
+   {
+    "ja": "{理由|りゆう}を{聞|き}けなかったので、ずっともやもやしています。",
+    "en": "I never got to hear the reason, and it's been nagging at me ever since."
+   }
+  ],
+  "related": [
+   "すっきり"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_341d021d4b",
+  "headword": "ばったり",
+  "reading": "ばったり",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{思|おも}いがけず、{偶然|ぐうぜん}{人|ひと}に{会|あ}う{様子|ようす}。「ばったり{会|あ}う」の{形|かたち}でよく{使|つか}う。",
+  "english": "with a clash; with a thud; with a bang",
+  "examples": [
+   {
+    "ja": "{駅|えき}で{昔|むかし}の{同級生|どうきゅうせい}にばったり{会|あ}いました。",
+    "en": "I bumped into an old classmate at the station."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_273cfd4b6d",
+  "headword": "へとへと",
+  "reading": "へとへと",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{疲|つか}れきって、もう{力|ちから}が{残|のこ}っていない{様子|ようす}。",
+  "english": "completely exhausted; dead tired; knackered",
+  "examples": [
+   {
+    "ja": "{一日中|いちにちじゅう}{歩|ある}いて、へとへとです。",
+    "en": "I walked around all day and I'm completely wiped out."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6384e3a3a8",
+  "headword": "そわそわ",
+  "reading": "そわそわ",
+  "level": "MASTERY",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{気|き}になることがあって、{落|お}ち{着|つ}かない{様子|ようす}。",
+  "english": "restlessly; nervously; uneasily",
+  "examples": [
+   {
+    "ja": "{結果|けっか}の{発表|はっぴょう}が{近|ちか}づいて、みんなそわそわしている。",
+    "en": "The results are about to be announced, and everyone's getting restless."
+   }
+  ],
+  "related": [
+   "どきどき"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ }
+]

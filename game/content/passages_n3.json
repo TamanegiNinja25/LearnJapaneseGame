@@ -1,0 +1,53 @@
+[
+ {
+  "id": "n3_rd_001", "level": "N3",
+  "title_ja": "{朝|あさ}の{時間|じかん}を{大切|たいせつ}に",
+  "text_ja": "{最近|さいきん}、{朝|あさ}{早|はや}く{起|お}きて{勉強|べんきょう}や{運動|うんどう}をする{人|ひと}が{増|ふ}えているらしい。{私|わたし}も{去年|きょねん}から、{毎朝|まいあさ}{六時|ろくじ}に{起|お}きることにしている。{初|はじ}めは{眠|ねむ}くてつらかったが、{一|いっ}か{月|げつ}ぐらいで{自然|しぜん}に{目|め}が{覚|さ}めるようになった。{朝|あさ}は{電話|でんわ}もメールも{来|こ}ないので、{集中|しゅうちゅう}しやすい。{夜|よる}なら{一時間|いちじかん}かかる{仕事|しごと}が、{朝|あさ}は{三十分|さんじゅっぷん}で{終|お}わることもある。{朝|あさ}の{時間|じかん}が{人気|にんき}なわけだ。ただ、{早|はや}く{起|お}きるためには、{夜|よる}{早|はや}く{寝|ね}ることが{一番|いちばん}{大切|たいせつ}だと{思|おも}う。",
+  "text_en": "Apparently more and more people get up early to study or exercise. Since last year I have also made it a rule to get up at six every morning. At first it was hard because I was sleepy, but after about a month I began waking up naturally. In the morning no calls or emails come in, so it is easy to concentrate. Work that takes an hour at night sometimes takes only thirty minutes in the morning. No wonder morning time is popular. However, I think the most important thing for getting up early is going to bed early.",
+  "questions": [
+   {"q_ja": "{筆者|ひっしゃ}は{何時|なんじ}に{起|お}きることにしていますか。", "q_en": "What time has the writer made a rule of getting up?",
+    "options": ["{五時|ごじ}", "{六時|ろくじ}", "{七時|しちじ}"], "answer": 1,
+    "why_ja": "「{毎朝|まいあさ}{六時|ろくじ}に{起|お}きることにしている」とあります。", "why_en": "The text says the writer gets up at six every morning."},
+   {"q_ja": "{朝|あさ}に{集中|しゅうちゅう}しやすいのはどうしてですか。", "q_en": "Why is it easy to concentrate in the morning?",
+    "options": ["{電話|でんわ}やメールが{来|こ}ないから", "{眠|ねむ}くないから", "{仕事|しごと}が{少|すく}ないから"], "answer": 0,
+    "why_ja": "「{朝|あさ}は{電話|でんわ}もメールも{来|こ}ないので、{集中|しゅうちゅう}しやすい」とあります。", "why_en": "No calls or emails come in the morning."},
+   {"q_ja": "{筆者|ひっしゃ}が{一番|いちばん}{大切|たいせつ}だと{思|おも}っていることは{何|なん}ですか。", "q_en": "What does the writer think is most important?",
+    "options": ["{朝|あさ}に{運動|うんどう}すること", "{夜|よる}{早|はや}く{寝|ね}ること", "{仕事|しごと}を{早|はや}く{終|お}わらせること"], "answer": 1,
+    "why_ja": "{最後|さいご}の{文|ぶん}に「{夜|よる}{早|はや}く{寝|ね}ることが{一番|いちばん}{大切|たいせつ}」とあります。", "why_en": "The last sentence says going to bed early matters most."}
+  ]
+ },
+ {
+  "id": "n3_rd_002", "level": "N3",
+  "title_ja": "{社内|しゃない}のお{知|し}らせ：{健康診断|けんこうしんだん}について",
+  "text_ja": "{社員|しゃいん}の{皆|みな}さんへ。{今年|ことし}の{健康診断|けんこうしんだん}は、{十月|じゅうがつ}{十五日|じゅうごにち}から{十七日|じゅうしちにち}まで、{三階|さんがい}の{会議室|かいぎしつ}で{行|おこな}うことになりました。{部署|ぶしょ}によって{受|う}ける{日|ひ}が{違|ちが}いますので、メールで{確認|かくにん}してください。{当日|とうじつ}は、{正確|せいかく}な{結果|けっか}が{出|で}るように、{朝|あさ}ご{飯|はん}を{食|た}べないで{来|き}てください。{水|みず}は{飲|の}んでもかまいません。{都合|つごう}が{悪|わる}い{人|ひと}は、{十月|じゅうがつ}{十日|とおか}までに{総務部|そうむぶ}に{連絡|れんらく}してください。{受|う}けなかった{人|ひと}は、{自分|じぶん}で{病院|びょういん}に{行|い}くことになりますので、{注意|ちゅうい}してください。",
+  "text_en": "To all employees. This year's health checkup will be held from October 15 to 17 in the third-floor meeting room. The day you take it differs by department, so please check your email. On the day, please come without eating breakfast so that the results are accurate. You may drink water. If the dates do not suit you, contact General Affairs by October 10. Anyone who does not take it will have to go to a hospital on their own, so please be careful.",
+  "questions": [
+   {"q_ja": "{健康診断|けんこうしんだん}はどこで{行|おこな}いますか。", "q_en": "Where will the health checkup be held?",
+    "options": ["{三階|さんがい}の{会議室|かいぎしつ}", "{総務部|そうむぶ}", "{病院|びょういん}"], "answer": 0,
+    "why_ja": "「{三階|さんがい}の{会議室|かいぎしつ}で{行|おこな}う」とあります。", "why_en": "It will be held in the third-floor meeting room."},
+   {"q_ja": "{当日|とうじつ}の{朝|あさ}、してはいけないことは{何|なん}ですか。", "q_en": "What must you not do on the morning of the checkup?",
+    "options": ["{水|みず}を{飲|の}むこと", "{朝|あさ}ご{飯|はん}を{食|た}べること", "メールを{見|み}ること"], "answer": 1,
+    "why_ja": "「{朝|あさ}ご{飯|はん}を{食|た}べないで{来|き}てください」とあります。{水|みず}は{飲|の}んでもかまいません。", "why_en": "Come without eating breakfast; water is allowed."},
+   {"q_ja": "{都合|つごう}が{悪|わる}い{人|ひと}はどうしなければなりませんか。", "q_en": "What must people do if the dates don't suit them?",
+    "options": ["{十月|じゅうがつ}{十日|とおか}までに{総務部|そうむぶ}に{連絡|れんらく}する", "{十月|じゅうがつ}{十五日|じゅうごにち}に{病院|びょういん}へ{行|い}く", "{部長|ぶちょう}にメールを{送|おく}る"], "answer": 0,
+    "why_ja": "「{十月|じゅうがつ}{十日|とおか}までに{総務部|そうむぶ}に{連絡|れんらく}してください」とあります。", "why_en": "Contact General Affairs by October 10."}
+  ]
+ },
+ {
+  "id": "n3_rd_003", "level": "N3",
+  "title_ja": "{打|う}ち{合|あ}わせの{日程|にってい}{変更|へんこう}のお{願|ねが}い",
+  "text_ja": "{営業部|えいぎょうぶ}の{田中|たなか}さん、お{疲|つか}れさまです。{企画部|きかくぶ}の{林|はやし}です。{来週|らいしゅう}{月曜日|げつようび}の{打|う}ち{合|あ}わせについて、ご{相談|そうだん}があってメールしました。{実|じつ}は、その{日|ひ}に{急|きゅう}に{大阪|おおさか}へ{出張|しゅっちょう}することになってしまいました。{申|もう}し{訳|わけ}ありませんが、{水曜日|すいようび}か{木曜日|もくようび}の{午後|ごご}に{変|か}えていただけないでしょうか。{資料|しりょう}は{金曜日|きんようび}までにお{送|おく}りするようにします。よろしくお{願|ねが}いします。",
+  "text_en": "Mr. Tanaka in Sales, hello. This is Hayashi from Planning. I'm writing because I'd like to discuss next Monday's meeting. Actually, I have suddenly been sent on a business trip to Osaka that day. I'm very sorry, but could we move it to Wednesday or Thursday afternoon? I'll make sure to send you the materials by Friday. Thank you.",
+  "questions": [
+   {"q_ja": "{林|はやし}さんはどうして{打|う}ち{合|あ}わせの{日|ひ}を{変|か}えたいのですか。", "q_en": "Why does Hayashi want to change the meeting day?",
+    "options": ["{月曜日|げつようび}に{出張|しゅっちょう}があるから", "{資料|しりょう}ができていないから", "{田中|たなか}さんが{忙|いそが}しいから"], "answer": 0,
+    "why_ja": "「その{日|ひ}に{急|きゅう}に{大阪|おおさか}へ{出張|しゅっちょう}することになって」とあります。", "why_en": "Hayashi has to go to Osaka on business that Monday."},
+   {"q_ja": "{林|はやし}さんは{何曜日|なんようび}がいいと{言|い}っていますか。", "q_en": "Which days does Hayashi suggest?",
+    "options": ["{月曜日|げつようび}か{火曜日|かようび}", "{水曜日|すいようび}か{木曜日|もくようび}", "{金曜日|きんようび}"], "answer": 1,
+    "why_ja": "「{水曜日|すいようび}か{木曜日|もくようび}の{午後|ごご}に{変|か}えていただけないでしょうか」とあります。", "why_en": "Wednesday or Thursday afternoon."},
+   {"q_ja": "「{出張|しゅっちょう}することになってしまいました」からわかることは{何|なん}ですか。", "q_en": "What does 出張することになってしまいました tell us?",
+    "options": ["{林|はやし}さんが{自分|じぶん}で{出張|しゅっちょう}を{決|き}めた", "{出張|しゅっちょう}は{林|はやし}さん{以外|いがい}が{決|き}めた", "{出張|しゅっちょう}はもう{終|お}わった"], "answer": 1,
+    "why_ja": "「ことになる」は{自分|じぶん}ではなく{会社|かいしゃ}などが{決|き}めたことを{表|あらわ}します。", "why_en": "ことになる means someone else, such as the company, decided it."}
+  ]
+ }
+]

@@ -21,7 +21,7 @@ const LOCATION_IDS: Array[String] = [
 const DEFAULT_UNLOCKED: Array[String] = ["home", "school", "shopping"]
 const TRIGGER_RADIUS := 2.5
 const FONT_PATH := "res://assets/fonts/NotoSansJP-Variable.ttf"
-const PROMPT_TEXT := "E：話す"
+const PROMPT_TEXT := "E：はなす"
 const PLAYER_START := Vector3(0, 0, 33)
 
 const LAYER_WORLD := 1
@@ -42,21 +42,21 @@ const C_PERSIMMON := Color("#C4521F")
 ## Layout + look of each location. side: -1 = west of the street, +1 = east.
 ## size = width (along the street) x depth x wall height; roof: "gable" | "flat" | "tower".
 const ZONES := {
-	"home": {"ja": "自宅", "side": -1, "z": 27.0, "size": Vector3(7, 7, 3.2), "roof": "gable",
+	"home": {"ja": "自宅", "rd": "じたく", "side": -1, "z": 27.0, "size": Vector3(7, 7, 3.2), "roof": "gable",
 		"wall": "#EFE3CC", "roof_color": "#4E5866", "accent": "#8A5A3B", "npc": "Mage"},
-	"school": {"ja": "学校", "side": 1, "z": 27.0, "size": Vector3(14, 8, 7), "roof": "flat",
+	"school": {"ja": "学校", "rd": "がっこう", "side": 1, "z": 27.0, "size": Vector3(14, 8, 7), "roof": "flat",
 		"wall": "#F3EBDC", "roof_color": "#8E9AA6", "accent": "#3A6EA5", "npc": "Knight"},
-	"shopping": {"ja": "商店街", "side": -1, "z": 9.0, "size": Vector3(12, 7, 4), "roof": "flat",
+	"shopping": {"ja": "商店街", "rd": "しょうてんがい", "side": -1, "z": 9.0, "size": Vector3(12, 7, 4), "roof": "flat",
 		"wall": "#E8D6B5", "roof_color": "#7A6A5A", "accent": "#C4521F", "npc": "Barbarian"},
-	"station": {"ja": "駅", "side": 1, "z": 9.0, "size": Vector3(14, 7, 5), "roof": "flat",
+	"station": {"ja": "駅", "rd": "えき", "side": 1, "z": 9.0, "size": Vector3(14, 7, 5), "roof": "flat",
 		"wall": "#D9D2C5", "roof_color": "#5B6670", "accent": "#2F7D5B", "npc": "Ranger"},
 	"restaurant": {"ja": "レストラン", "side": -1, "z": -9.0, "size": Vector3(9, 7, 3.6), "roof": "gable",
 		"wall": "#E9D9BF", "roof_color": "#3F4A57", "accent": "#B83A4B", "npc": "Rogue_Hooded"},
-	"office": {"ja": "会社", "side": 1, "z": -9.0, "size": Vector3(10, 8, 10), "roof": "flat",
+	"office": {"ja": "会社", "rd": "かいしゃ", "side": 1, "z": -9.0, "size": Vector3(10, 8, 10), "roof": "flat",
 		"wall": "#C9CED3", "roof_color": "#7D8790", "accent": "#3A6EA5", "npc": "Knight"},
-	"library": {"ja": "図書館", "side": -1, "z": -27.0, "size": Vector3(13, 9, 6), "roof": "gable",
+	"library": {"ja": "図書館", "rd": "としょかん", "side": -1, "z": -27.0, "size": Vector3(13, 9, 6), "roof": "gable",
 		"wall": "#D8C3A0", "roof_color": "#5A4A3E", "accent": "#8A5A3B", "npc": "Mage"},
-	"city": {"ja": "都会", "side": 1, "z": -27.0, "size": Vector3(9, 9, 16), "roof": "tower",
+	"city": {"ja": "都会", "rd": "とかい", "side": 1, "z": -27.0, "size": Vector3(9, 9, 16), "roof": "tower",
 		"wall": "#B9C2CC", "roof_color": "#6B7580", "accent": "#B8860B", "npc": "Ranger"},
 }
 const STREET_HALF_WIDTH := 2.0
@@ -335,7 +335,13 @@ func _build_zone(id: String) -> void:
 	sign.name = "Sign"
 	sign.position = Vector3(0, minf(roof_top, 4.6) + 1.2, 1.2)
 	root.add_child(sign)
-	var lock_label := _label(LOCATION_STAGE[id] + "で解放", 80, C_LOCK, C_TEXT)
+	# Furigana for the sign (the game's rule: every kanji carries its reading).
+	if spec.has("rd"):
+		var ruby := _label(String(spec["rd"]), 70, C_SIGN, C_TEXT)
+		ruby.name = "SignRuby"
+		ruby.position = sign.position + Vector3(0, 0.95, 0)
+		root.add_child(ruby)
+	var lock_label := _label(LOCATION_STAGE[id] + "でかいほう", 80, C_LOCK, C_TEXT)
 	lock_label.name = "LockLabel"
 	lock_label.position = sign.position + Vector3(0, -1.2, 0)
 	root.add_child(lock_label)

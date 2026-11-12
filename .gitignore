@@ -33,3 +33,4 @@ Thumbs.db
 
 # Subagent memory written by the Claude Code harness
 .claude/agent-memory/
+.claude/worktrees/

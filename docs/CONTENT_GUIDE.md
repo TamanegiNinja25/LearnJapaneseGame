@@ -154,7 +154,7 @@ of a kind and stage, and ids must be unique across all of them.
 }
 ```
 
-3–6 sentences at the stage's level, 2–4 questions answerable only from the text.
+3–6 sentences at N5/N4 and up to 10 at N3 and above, written at the stage's level, with 2–4 questions answerable only from the text.
 
 ## Anchor sentences — `game/content/anchors_<stage>.json`
 

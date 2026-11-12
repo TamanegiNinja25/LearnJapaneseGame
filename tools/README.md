@@ -1,41 +1,44 @@
 # Content pipeline
 
-Two scripts, Python 3.10+, no third-party packages.
+Python 3.10+, no third-party packages. Formats are defined in `docs/CONTENT_GUIDE.md`.
 
-## `bake_content.py`
+| Script | What it does |
+|---|---|
+| `bake_content.py` | Reads `wordlists/<stage>/*.tsv`, adds JMdict English glosses, writes `game/content/vocab_<stage>.json`, `kanji_<stage>.json` (from KANJIDIC2) and `kana.json`. `--report` lists stage kanji no word uses yet. |
+| `check_tsv.py` | Checks word lists: columns, categories, furigana markup (errors); reading plausibility against JMdict/KANJIDIC2, duplicates across stages, examples missing the word (warnings). |
+| `validate_content.py` | Validates every JSON file in `game/content/` (CI). `--file <name>` checks one file. |
+| `check_ui_text.py` | Scans GDScript for literal UI strings that would show a kanji without furigana (CI). |
+| `jpcheck.py` | Shared helpers: markup parsing, stable word ids, the reading checker. |
 
-Reads `n5_wordlist.tsv` and writes `game/content/kana.json` and `game/content/vocab_n5.json`.
+## Dictionaries
 
-If a JMdict SQLite database is available, each word is enriched with up to three English glosses
-and a part of speech. The expected schema is the one produced by the Immersion Reader project:
+The raw dictionaries are git-ignored; only baked JSON ships.
 
-```
-entries(id INTEGER PRIMARY KEY, common INTEGER, data TEXT)   -- data is JMdict JSON per entry
-forms(text TEXT, entry_id INTEGER, is_kana INTEGER)
-```
+- **JMdict** (SQLite, schema `entries(id, common, data JSON)` + `forms(text, entry_id, is_kana)`).
+  Looked up at `tools/data/jmdict.sqlite`, then
+  `~/Downloads/Learn Japanese/Immersion Reader/data/jmdict.sqlite`. To build one, download the
+  JSON from https://github.com/scriptin/jmdict-simplified and load it with the Immersion Reader's
+  `build_dict.py`. Without JMdict the bake still works; English falls back to the example
+  translation and reading checks are skipped.
+- **KANJIDIC2**: `tools/data/kanjidic2-en.json.zip` from the same jmdict-simplified releases.
 
-Search order: `--jmdict PATH`, then `tools/data/jmdict.sqlite` (git-ignored), then
-`~/Downloads/Learn Japanese/Immersion Reader/data/jmdict.sqlite`. Without JMdict the bake still
-succeeds; the English field falls back to the example translation.
+Both are © the Electronic Dictionary Research and Development Group, used under CC BY-SA 4.0
+(https://www.edrdg.org/edrdg/licence.html).
 
-JMdict is © the Electronic Dictionary Research and Development Group and is used under
-CC BY-SA 4.0 (https://www.edrdg.org/edrdg/licence.html). To obtain it, download the JSON build
-from https://github.com/scriptin/jmdict-simplified and load it into the schema above (the
-Immersion Reader's `build_dict.py` does this).
+## JLPT levels for kanji
 
-## `validate_content.py`
-
-Checks every file in `game/content/` for required fields and, crucially, that **no kanji appears
-outside `{漢字|かんじ}` markup** in any Japanese field. CI runs it; run it before committing content.
+KANJIDIC2 still uses the pre-2010 four-level JLPT field. Mapping: old 4 → N5, old 3 → N4,
+old 2 split by frequency (more frequent half → N3, rest → N2), old 1 → N1.
 
 ## Word list format
 
-Tab-separated, UTF-8, header line starting with `#`:
+Tab-separated, UTF-8, LF, one header line:
 
 ```
-headword  reading  category  jp_definition  example_jp  example_en  related
+#headword	reading	category	jp_definition	example_jp	example_en	related
 ```
 
-- `category`: noun, pronoun, verb-u, verb-ru, verb-irregular, adj-i, adj-na, expression, adverb.
-- `jp_definition` and `example_jp` use furigana markup.
+- `category`: noun, pronoun, verb-u, verb-ru, verb-irregular, adj-i, adj-na, adverb,
+  expression, conjunction, counter, particle, prefix, suffix, interjection.
+- `jp_definition` and `example_jp` use `{漢字|かんじ}` markup.
 - `related`: comma-separated headwords (may be empty; the trailing tab may be omitted).

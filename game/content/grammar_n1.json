@@ -1,0 +1,356 @@
+[
+ {
+  "id": "n1_ikan",
+  "pattern": "〜いかんでは／〜いかんによらず",
+  "level": "N1",
+  "meaning_en": "depending on ~ / regardless of ~",
+  "explanation_ja": "「いかん」は「どうであるか」という{意味|いみ}の{硬|かた}い{言葉|ことば}です。「Nいかんでは」は「Nの{内容|ないよう}や{結果|けっか}によっては」という{意味|いみ}で、{結果|けっか}が{大|おお}きく{変|か}わる{可能性|かのうせい}を{表|あらわ}します。「Nのいかんによらず」は「Nがどうであっても{関係|かんけい}なく」という{意味|いみ}です。{規則|きそく}やお{知|し}らせなど、{改|あらた}まった{文章|ぶんしょう}でよく{使|つか}われます。",
+  "explanation_en": "いかん is a formal word for 'how something turns out'. Nいかんでは means the outcome may change depending on N; Nのいかんによらず means N makes no difference. Typical of rules, notices and official writing.",
+  "one_liner_ja": "「いかん」は「どうであるか」を{表|あらわ}す{硬|かた}い{言葉|ことば}です。",
+  "requires": [],
+  "examples": [
+   {"ja": "{試験|しけん}の{結果|けっか}いかんでは、{卒業|そつぎょう}できないこともある。", "en": "Depending on the exam results, you may not be able to graduate."},
+   {"ja": "{理由|りゆう}のいかんによらず、{一度|いちど}{支払|しはら}われた{料金|りょうきん}はお{返|かえ}しできません。", "en": "Whatever the reason, fees once paid cannot be refunded."},
+   {"ja": "{今後|こんご}の{努力|どりょく}いかんでは、{代表|だいひょう}に{選|えら}ばれる{可能性|かのうせい}もある。", "en": "Depending on your efforts from now on, you could even be chosen for the national team."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{交渉|こうしょう}の{結果|けっか}［　］、{計画|けいかく}を{見直|みなお}すことになる。", "options": ["いかんでは", "いかんによらず", "にひきかえ", "をもって"], "answer": 0, "why_ja": "{交渉|こうしょう}の{結果|けっか}によって{計画|けいかく}が{変|か}わるので「いかんでは」です。", "why_en": "The plan may change depending on the result, so いかんでは."},
+   {"kind": "choice", "ja": "{国籍|こくせき}の［　］、だれでも{応募|おうぼ}できます。", "options": ["いかんでは", "ならでは", "いかんによらず", "ともなると"], "answer": 2, "why_ja": "「{国籍|こくせき}に{関係|かんけい}なく」という{意味|いみ}なので「いかんによらず」です。", "why_en": "Nationality makes no difference, so いかんによらず."},
+   {"kind": "particle", "ja": "{理由|りゆう}［　］いかんによらず、{遅刻|ちこく}は{認|みと}めません。", "options": ["を", "の", "に", "で"], "answer": 1, "why_ja": "「Nのいかんによらず」の{形|かたち}で{使|つか}います。", "why_en": "The set form is Nのいかんによらず."},
+   {"kind": "meaning", "ja": "「{成績|せいせき}いかんでは{奨学金|しょうがくきん}を{打|う}ち{切|き}る」の「いかんでは」は［　］という{意味|いみ}だ。", "options": ["{成績|せいせき}に{関係|かんけい}なく", "{成績|せいせき}のおかげで", "{成績|せいせき}によっては"], "answer": 2, "why_ja": "「いかんでは」は「〜によっては」という{意味|いみ}です。", "why_en": "いかんでは means 'depending on'."},
+   {"kind": "choice", "ja": "{天候|てんこう}［　］、{大会|たいかい}は{中止|ちゅうし}になる{場合|ばあい}もあります。", "options": ["いかんでは", "いかんによらず", "を{禁|きん}じ{得|え}ず"], "answer": 0, "why_ja": "{天気|てんき}によって{中止|ちゅうし}になるかもしれないので「いかんでは」です。", "why_en": "Cancellation depends on the weather, so いかんでは."},
+   {"kind": "choice", "ja": "{会員|かいいん}かどうかの［　］、{入場料|にゅうじょうりょう}は{同|おな}じです。", "options": ["いかんでは", "いかんによらず", "いかんなら"], "answer": 1, "why_ja": "{会員|かいいん}でもそうでなくても{同|おな}じなので「いかんによらず」です。", "why_en": "Members and non-members pay the same, so いかんによらず."}
+  ]
+ },
+ {
+  "id": "n1_naradewa",
+  "pattern": "〜ならでは",
+  "level": "N1",
+  "meaning_en": "unique to ~; only ~ could (praise)",
+  "explanation_ja": "「Nならでは」は「Nだからこそできる・Nにしかない」という{意味|いみ}で、そのものだけが{持|も}つ{良|よ}さを{褒|ほ}めるときに{使|つか}います。「NならではのN」「Nならではだ」の{形|かたち}が{多|おお}いです。{悪|わる}い{特徴|とくちょう}にはあまり{使|つか}いません。",
+  "explanation_en": "Nならでは praises something that only N has or only N can do. Usually NならではのN or Nならではだ; not used for negative traits.",
+  "one_liner_ja": "「ならでは」は「それにしかない{良|よ}さ」を{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "この{料理|りょうり}は、{港町|みなとまち}ならではの{新鮮|しんせん}な{味|あじ}だ。", "en": "This dish has a freshness you only find in a port town."},
+   {"ja": "{子供|こども}ならではの{自由|じゆう}な{発想|はっそう}に{驚|おどろ}かされた。", "en": "I was surprised by the free thinking only a child could have."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{職人|しょくにん}［　］の{細|こま}やかな{技術|ぎじゅつ}が{光|ひか}る{作品|さくひん}だ。", "options": ["にひきかえ", "ならでは", "といえども", "をもって"], "answer": 1, "why_ja": "{職人|しょくにん}にしかない{技術|ぎじゅつ}を{褒|ほ}めているので「ならでは」です。", "why_en": "It praises skill only a craftsman has, so ならでは."},
+   {"kind": "choice", "ja": "この{景色|けしき}は、{山|やま}の{上|うえ}［　］のものだ。", "options": ["いかんでは", "までも", "ならでは"], "answer": 2, "why_ja": "{山|やま}の{上|うえ}でしか{見|み}られない{景色|けしき}なので「ならでは」です。", "why_en": "A view you only get from the mountaintop: ならでは."},
+   {"kind": "meaning", "ja": "「{地元|じもと}ならではの{料理|りょうり}」とは、［　］{料理|りょうり}のことだ。", "options": ["その{土地|とち}でしか{味|あじ}わえない", "どこでも{食|た}べられる", "{地元|じもと}の{人|ひと}が{嫌|きら}う"], "answer": 0, "why_ja": "「ならでは」は「そこにしかない」という{意味|いみ}です。", "why_en": "ならでは means 'found only there'."},
+   {"kind": "choice", "ja": "{手作|てづく}り［　］の{温|あたた}かさが{伝|つた}わってくる。", "options": ["きらい", "ならでは", "ものを"], "answer": 1, "why_ja": "{手作|てづく}りだからこその{良|よ}さなので「ならでは」です。", "why_en": "Warmth only handmade things have: ならでは."},
+   {"kind": "choice", "ja": "{雨|あめ}の{日|ひ}［　］の{静|しず}かな{庭|にわ}の{美|うつく}しさがある。", "options": ["ばこそ", "べく", "ならでは"], "answer": 2, "why_ja": "{雨|あめ}の{日|ひ}にしかない{美|うつく}しさなので「ならでは」です。", "why_en": "A beauty only rainy days have: ならでは."},
+   {"kind": "choice", "ja": "{実際|じっさい}に{現場|げんば}で{働|はたら}いた{人|ひと}［　］の{説得力|せっとくりょく}のある{意見|いけん}だ。", "options": ["ならでは", "いかんによらず", "が{最後|さいご}"], "answer": 0, "why_ja": "{現場|げんば}を{知|し}る{人|ひと}だけが{言|い}える{意見|いけん}なので「ならでは」です。", "why_en": "Only someone who worked on site could say it: ならでは."}
+  ]
+ },
+ {
+  "id": "n1_kinjienai",
+  "pattern": "〜を{禁|きん}じ{得|え}ない",
+  "level": "N1",
+  "meaning_en": "cannot help feeling ~ (formal)",
+  "explanation_ja": "「Nを{禁|きん}じ{得|え}ない」は「Nの{気持|きも}ちを{抑|おさ}えることができない」という{意味|いみ}です。Nには「{同情|どうじょう}」「{怒|いか}り」「{驚|おどろ}き」「{涙|なみだ}」など、{感情|かんじょう}を{表|あらわ}す{名詞|めいし}が{入|はい}ります。{硬|かた}い{書|か}き{言葉|ことば}で、{主|おも}に{話|はな}し{手|て}{自身|じしん}の{気持|きも}ちに{使|つか}います。",
+  "explanation_en": "Nを禁じ得ない: 'cannot suppress N', with an emotion noun (sympathy, anger, surprise, tears). Formal written style, mostly about the speaker's own feelings.",
+  "one_liner_ja": "「を{禁|きん}じ{得|え}ない」は{感情|かんじょう}が{自然|しぜん}にわいてくることを{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{被害者|ひがいしゃ}の{話|はなし}を{聞|き}いて、{同情|どうじょう}を{禁|きん}じ{得|え}なかった。", "en": "Hearing the victims' story, I could not help feeling sympathy."},
+   {"ja": "{無責任|むせきにん}な{対応|たいおう}には、{怒|いか}りを{禁|きん}じ{得|え}ない。", "en": "I cannot help feeling angry at such an irresponsible response."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{突然|とつぜん}の{知|し}らせに、{驚|おどろ}き［　］。", "options": ["を{余儀|よぎ}なくされた", "にひきかえ", "を{禁|きん}じ{得|え}なかった"], "answer": 2, "why_ja": "{驚|おどろ}きという{感情|かんじょう}を{抑|おさ}えられなかったので「を{禁|きん}じ{得|え}なかった」です。", "why_en": "Surprise is an emotion you could not hold back."},
+   {"kind": "particle", "ja": "{彼|かれ}の{不幸|ふこう}な{生|お}い{立|た}ちに、{同情|どうじょう}［　］{禁|きん}じ{得|え}ない。", "options": ["が", "を", "に", "で"], "answer": 1, "why_ja": "「Nを{禁|きん}じ{得|え}ない」の{形|かたち}です。", "why_en": "The set form is Nを禁じ得ない."},
+   {"kind": "conjugation", "ja": "{彼|かれ}の{発言|はつげん}には、{怒|いか}りを{禁|きん}じ［　］。", "options": ["{得|え}ない", "{得|え}る", "{得|え}たい"], "answer": 0, "why_ja": "「{禁|きん}じ{得|え}ない」で「{抑|おさ}えられない」という{意味|いみ}になります。", "why_en": "Only 禁じ得ない means 'cannot suppress'."},
+   {"kind": "choice", "ja": "{涙|なみだ}を［　］ほど{感動的|かんどうてき}な{場面|ばめん}だった。", "options": ["{禁|きん}じ{得|え}る", "{禁|きん}じ{得|え}ない", "{余儀|よぎ}なくされる"], "answer": 1, "why_ja": "{涙|なみだ}を{止|と}められないほどなので「{禁|きん}じ{得|え}ない」です。", "why_en": "So moving that tears could not be held back."},
+   {"kind": "meaning", "ja": "「{苦笑|くしょう}を{禁|きん}じ{得|え}なかった」は［　］という{意味|いみ}だ。", "options": ["{苦笑|くしょう}を{我慢|がまん}できた", "{苦笑|くしょう}を{禁止|きんし}された", "{思|おも}わず{苦笑|くしょう}してしまった"], "answer": 2, "why_ja": "{抑|おさ}えられずに{苦笑|くしょう}してしまったという{意味|いみ}です。", "why_en": "It means you could not help a wry smile."},
+   {"kind": "conjugation", "ja": "{戦争|せんそう}の{写真|しゃしん}を{見|み}て、{悲|かな}しみを［　］。", "options": ["{禁|きん}じさせた", "{禁|きん}じ{得|え}なかった", "{禁|きん}じ{得|え}た"], "answer": 1, "why_ja": "{悲|かな}しみが{自然|しぜん}にわいたので「{禁|きん}じ{得|え}なかった」です。", "why_en": "Sadness welled up unbidden: 禁じ得なかった."}
+  ]
+ },
+ {
+  "id": "n1_nisokushite",
+  "pattern": "〜に{即|そく}して",
+  "level": "N1",
+  "meaning_en": "in line with ~; in accordance with (facts, rules, reality)",
+  "explanation_ja": "「Nに{即|そく}して」は「N（{事実|じじつ}・{規則|きそく}・{状況|じょうきょう}など）にぴったり{合|あ}わせて」という{意味|いみ}です。{名詞|めいし}を{説明|せつめい}するときは「Nに{即|そく}したN」の{形|かたち}になります。{報告|ほうこく}や{政策|せいさく}など、{改|あらた}まった{話題|わだい}で{使|つか}われます。",
+  "explanation_en": "Nに即して: closely following facts, rules or the actual situation. Before a noun it becomes Nに即したN. Used in formal topics like reports and policy.",
+  "one_liner_ja": "「に{即|そく}して」は「〜に{合|あ}わせて、〜のとおりに」という{意味|いみ}です。",
+  "requires": [],
+  "examples": [
+   {"ja": "{事実|じじつ}に{即|そく}して{報告書|ほうこくしょ}を{書|か}いてください。", "en": "Please write the report strictly according to the facts."},
+   {"ja": "{現場|げんば}の{実情|じつじょう}に{即|そく}した{対策|たいさく}が{求|もと}められている。", "en": "Measures that fit the real situation on the ground are needed."}
+  ],
+  "items": [
+   {"kind": "particle", "ja": "{法律|ほうりつ}［　］{即|そく}して{判断|はんだん}する。", "options": ["を", "で", "に", "と"], "answer": 2, "why_ja": "「Nに{即|そく}して」の{形|かたち}です。", "why_en": "The set form is Nに即して."},
+   {"kind": "conjugation", "ja": "{地域|ちいき}の{実態|じったい}に{即|そく}［　］{政策|せいさく}が{必要|ひつよう}だ。", "options": ["した", "して", "すれば"], "answer": 0, "why_ja": "{後|うし}ろの「{政策|せいさく}」を{説明|せつめい}しているので「{即|そく}した」です。", "why_en": "It modifies the noun 政策, so 即した."},
+   {"kind": "choice", "ja": "{規則|きそく}に［　］{処理|しょり}してください。", "options": ["ひきかえ", "{即|そく}して", "{禁|きん}じ{得|え}ず"], "answer": 1, "why_ja": "{規則|きそく}のとおりに、という{意味|いみ}なので「{即|そく}して」です。", "why_en": "'According to the rules': 即して."},
+   {"kind": "meaning", "ja": "「{経験|けいけん}に{即|そく}して{話|はな}す」とは、［　］ことだ。", "options": ["{経験|けいけん}がなくても{話|はな}す", "{経験|けいけん}と{反対|はんたい}のことを{話|はな}す", "{実際|じっさい}の{経験|けいけん}のとおりに{話|はな}す"], "answer": 2, "why_ja": "「に{即|そく}して」は「〜のとおりに」という{意味|いみ}です。", "why_en": "に即して means 'in line with'."},
+   {"kind": "choice", "ja": "{時代|じだい}の{変化|へんか}［　］{制度|せいど}を{改|あらた}めるべきだ。", "options": ["に{即|そく}して", "にひきかえ", "ならでは"], "answer": 0, "why_ja": "{変化|へんか}に{合|あ}わせて{改|あらた}めるので「に{即|そく}して」です。", "why_en": "Reform to match the changing times: に即して."},
+   {"kind": "choice", "ja": "{実験|じっけん}データ［　］{結論|けつろん}を{出|だ}すべきだ。", "options": ["にひきかえ", "といえども", "に{即|そく}して"], "answer": 2, "why_ja": "データのとおりに{結論|けつろん}を{出|だ}すので「に{即|そく}して」です。", "why_en": "Draw conclusions in line with the data: に即して."}
+  ]
+ },
+ {
+  "id": "n1_womotte",
+  "pattern": "〜をもって",
+  "level": "N1",
+  "meaning_en": "by means of ~ / as of ~ (formal)",
+  "explanation_ja": "「Nをもって」には{二|ふた}つの{使|つか}い{方|かた}があります。①{手段|しゅだん}・{方法|ほうほう}・{態度|たいど}：「{書面|しょめん}をもってお{知|し}らせします」「{誠意|せいい}をもって{対応|たいおう}する」。②{区切|くぎ}りの{時点|じてん}：「{本日|ほんじつ}をもって{閉店|へいてん}いたします」。どちらも{改|あらた}まった{場面|ばめん}で{使|つか}う{硬|かた}い{表現|ひょうげん}で、さらに{丁寧|ていねい}な{形|かたち}は「をもちまして」です。",
+  "explanation_en": "Nをもって has two uses: (1) means, method or attitude (by letter, with sincerity); (2) a cut-off point in time (as of today). Both are formal; をもちまして is even more polite.",
+  "one_liner_ja": "「をもって」は{手段|しゅだん}や{区切|くぎ}りの{時点|じてん}を{改|あらた}まって{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{本日|ほんじつ}をもって{受付|うけつけ}を{終了|しゅうりょう}いたします。", "en": "Registration closes as of today."},
+   {"ja": "{結果|けっか}は{書面|しょめん}をもってお{知|し}らせします。", "en": "We will notify you of the result in writing."},
+   {"ja": "{誠意|せいい}をもって{対応|たいおう}すれば、{相手|あいて}にも{伝|つた}わるはずだ。", "en": "If you respond with sincerity, the other side will surely feel it."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{当店|とうてん}は{今月末|こんげつまつ}［　］{閉店|へいてん}いたします。", "options": ["にひきかえ", "ならでは", "をもって", "いかんでは"], "answer": 2, "why_ja": "{終|お}わりの{時点|じてん}を{改|あらた}まって{言|い}うので「をもって」です。", "why_en": "A formal cut-off point: をもって."},
+   {"kind": "particle", "ja": "{合否|ごうひ}はメール［　］もってお{知|し}らせします。", "options": ["が", "を", "に"], "answer": 1, "why_ja": "「Nをもって」の{形|かたち}です。", "why_en": "The set form is Nをもって."},
+   {"kind": "meaning", "ja": "「{本日|ほんじつ}をもって{退職|たいしょく}します」の「をもって」は［　］を{表|あらわ}す。", "options": ["{区切|くぎ}りの{時点|じてん}", "{理由|りゆう}", "{場所|ばしょ}"], "answer": 0, "why_ja": "{今日|きょう}で{終|お}わり、という{時点|じてん}を{表|あらわ}しています。", "why_en": "It marks the point in time when something ends."},
+   {"kind": "meaning", "ja": "「{誠意|せいい}をもって{対応|たいおう}する」の「をもって」は［　］を{表|あらわ}す。", "options": ["{時点|じてん}", "{手段|しゅだん}・{態度|たいど}", "{比較|ひかく}"], "answer": 1, "why_ja": "どんな{態度|たいど}で{対応|たいおう}するかを{表|あらわ}しています。", "why_en": "It shows the attitude used: means/manner."},
+   {"kind": "choice", "ja": "{以上|いじょう}［　］、{本日|ほんじつ}の{会議|かいぎ}を{終|お}わります。", "options": ["にひきかえ", "といえども", "をもちまして"], "answer": 2, "why_ja": "{会議|かいぎ}を{締|し}めくくる{改|あらた}まった{表現|ひょうげん}は「{以上|いじょう}をもちまして」です。", "why_en": "以上をもちまして is the formal closing phrase."},
+   {"kind": "choice", "ja": "{彼|かれ}の{実力|じつりょく}［　］すれば、{優勝|ゆうしょう}も{夢|ゆめ}ではない。", "options": ["をもって", "にひきかえ", "ならでは"], "answer": 0, "why_ja": "「Nをもってすれば」で「Nを{使|つか}えば」という{意味|いみ}です。", "why_en": "Nをもってすれば: 'with N, ...'."}
+  ]
+ },
+ {
+  "id": "n1_tomonaruto",
+  "pattern": "〜ともなると",
+  "level": "N1",
+  "meaning_en": "once it comes to ~; when one reaches the level of ~",
+  "explanation_ja": "「Nともなると」は「Nという{立場|たちば}・{段階|だんかい}になると、{当然|とうぜん}〜だ」という{意味|いみ}です。{年齢|ねんれい}・{地位|ちい}・{時期|じき}などがある{程度|ていど}まで{進|すす}むと、{状況|じょうきょう}がそれにふさわしく{変|か}わることを{表|あらわ}します。「ともなれば」とも{言|い}います。",
+  "explanation_en": "Nともなると: once you reach the level of N (age, rank, season), things naturally change accordingly. Also ともなれば.",
+  "one_liner_ja": "「ともなると」は「その{段階|だんかい}になると{当然|とうぜん}〜」を{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{社長|しゃちょう}ともなると、{休|やす}む{暇|ひま}もないほど{忙|いそが}しい。", "en": "Once you are company president, you are too busy even to rest."},
+   {"ja": "{十二月|じゅうにがつ}ともなると、{街|まち}はどこも{人|ひと}でいっぱいだ。", "en": "Come December, the streets are packed everywhere."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{大学生|だいがくせい}［　］、{自分|じぶん}のことは{自分|じぶん}で{決|き}めるべきだ。", "options": ["ならでは", "ともなると", "をもって", "にひきかえ"], "answer": 1, "why_ja": "{大学生|だいがくせい}という{段階|だんかい}になれば{当然|とうぜん}、という{意味|いみ}なので「ともなると」です。", "why_en": "Once you are a university student, naturally...: ともなると."},
+   {"kind": "choice", "ja": "{真夏|まなつ}［　］、{気温|きおん}は{四十度|よんじゅうど}{近|ちか}くまで{上|あ}がる。", "options": ["ものを", "べく", "ともなると"], "answer": 2, "why_ja": "{真夏|まなつ}という{時期|じき}になれば{当然|とうぜん}{暑|あつ}くなるので「ともなると」です。", "why_en": "In high summer it naturally gets that hot: ともなると."},
+   {"kind": "meaning", "ja": "「プロともなると、{練習|れんしゅう}の{量|りょう}が{違|ちが}う」は［　］という{意味|いみ}だ。", "options": ["プロなのに{練習|れんしゅう}しない", "プロという{段階|だんかい}になれば、{当然|とうぜん}{練習量|れんしゅうりょう}も{違|ちが}う", "プロでなくても{練習量|れんしゅうりょう}は{同|おな}じだ"], "answer": 1, "why_ja": "「ともなると」は「その{段階|だんかい}になると{当然|とうぜん}」という{意味|いみ}です。", "why_en": "ともなると: at that level, naturally..."},
+   {"kind": "conjugation", "ja": "{部長|ぶちょう}とも［　］と、{責任|せきにん}も{重|おも}くなる。", "options": ["なる", "なり", "なれ"], "answer": 0, "why_ja": "「ともなると」の{形|かたち}で{使|つか}います。", "why_en": "The form is ともなると."},
+   {"kind": "choice", "ja": "{結婚式|けっこんしき}［　］、{服装|ふくそう}にも{気|き}を{遣|つか}わなければならない。", "options": ["が{最後|さいご}", "をよそに", "ともなると"], "answer": 2, "why_ja": "{結婚式|けっこんしき}のような{場|ば}になれば{当然|とうぜん}、なので「ともなると」です。", "why_en": "When it is a wedding, naturally...: ともなると."},
+   {"kind": "choice", "ja": "{年末|ねんまつ}［　］、どの{店|みせ}も{混雑|こんざつ}する。", "options": ["ともなると", "ずにはおかない", "きらいがある"], "answer": 0, "why_ja": "{年末|ねんまつ}という{時期|じき}になれば{当然|とうぜん}{混|こ}むので「ともなると」です。", "why_en": "At year-end, shops naturally get crowded."}
+  ]
+ },
+ {
+  "id": "n1_toiedomo",
+  "pattern": "〜といえども",
+  "level": "N1",
+  "meaning_en": "even though ~; even (a/the) ~",
+  "explanation_ja": "「Nといえども」は「Nであっても、やはり」という{意味|いみ}の{硬|かた}い{逆接|ぎゃくせつ}です。「Nなら{普通|ふつう}は〜だろうが、{実際|じっさい}はそうではない」という{気持|きも}ちを{表|あらわ}します。「{子供|こども}といえども」「{専門家|せんもんか}といえども」のように{使|つか}い、{後|うし}ろには{話|はな}し{手|て}の{判断|はんだん}や{主張|しゅちょう}が{来|き}ます。",
+  "explanation_en": "Nといえども: 'even N' — what you might expect of N does not hold. Formal concessive; the second half is the speaker's judgement or claim.",
+  "one_liner_ja": "「といえども」は「〜であっても」という{硬|かた}い{逆接|ぎゃくせつ}です。",
+  "requires": [],
+  "examples": [
+   {"ja": "{専門家|せんもんか}といえども、すべてを{知|し}っているわけではない。", "en": "Even experts do not know everything."},
+   {"ja": "{子供|こども}といえども、{決|き}まりは{守|まも}らなければならない。", "en": "Even children must follow the rules."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{名医|めいい}［　］、すべての{病気|びょうき}を{治|なお}せるわけではない。", "options": ["ならでは", "をもって", "ともなると", "といえども"], "answer": 3, "why_ja": "「{名医|めいい}であっても」という{逆接|ぎゃくせつ}なので「といえども」です。", "why_en": "'Even a great doctor': といえども."},
+   {"kind": "choice", "ja": "{冬|ふゆ}［　］、{今日|きょう}は{春|はる}のように{暖|あたた}かい。", "options": ["といえども", "ともなると", "いかんでは"], "answer": 0, "why_ja": "{冬|ふゆ}なのに{暖|あたた}かい、という{逆接|ぎゃくせつ}なので「といえども」です。", "why_en": "Winter, yet warm: concessive といえども."},
+   {"kind": "meaning", "ja": "「{一円|いちえん}といえども{無駄|むだ}にできない」は［　］という{意味|いみ}だ。", "options": ["{一円|いちえん}なら{無駄|むだ}にしてもいい", "たとえ{一円|いちえん}でも{無駄|むだ}にできない", "{一円|いちえん}だけ{無駄|むだ}にした"], "answer": 1, "why_ja": "「といえども」は「たとえ〜でも」という{意味|いみ}です。", "why_en": "といえども means 'even'."},
+   {"kind": "choice", "ja": "{親|おや}［　］、{子供|こども}の{手紙|てがみ}を{勝手|かって}に{読|よ}んではいけない。", "options": ["ならでは", "にひきかえ", "といえども"], "answer": 2, "why_ja": "「{親|おや}であっても」という{意味|いみ}なので「といえども」です。", "why_en": "'Even a parent': といえども."},
+   {"kind": "choice", "ja": "{小|ちい}さな{会社|かいしゃ}［　］、{技術力|ぎじゅつりょく}では{大手|おおて}に{負|ま}けない。", "options": ["をもって", "といえども", "が{最後|さいご}"], "answer": 1, "why_ja": "{小|ちい}さくても{負|ま}けない、という{逆接|ぎゃくせつ}なので「といえども」です。", "why_en": "Small, yet not beaten: といえども."},
+   {"kind": "choice", "ja": "いかに{優秀|ゆうしゅう}な{選手|せんしゅ}［　］、{毎回|まいかい}{勝|か}てるとは{限|かぎ}らない。", "options": ["といえども", "ともなると", "ばこそ"], "answer": 0, "why_ja": "「いかに〜といえども」で「どんなに〜でも」という{意味|いみ}です。", "why_en": "いかに〜といえども: 'however ~ one may be'."}
+  ]
+ },
+ {
+  "id": "n1_zunihaokanai",
+  "pattern": "〜ずにはおかない",
+  "level": "N1",
+  "meaning_en": "will certainly ~ / cannot fail to make ~",
+  "explanation_ja": "「Vずにはおかない」は「{必|かなら}ず〜する・{必|かなら}ず〜させる」という{意味|いみ}です。①「この{映画|えいが}は{見|み}る{人|ひと}を{感動|かんどう}させずにはおかない」のように、ものが{人|ひと}の{気持|きも}ちを{強|つよ}く{動|うご}かす{場合|ばあい}と、②「{真相|しんそう}を{明|あき}らかにせずにはおかない」のように{強|つよ}い{決意|けつい}を{表|あらわ}す{場合|ばあい}があります。「する」は「せずにはおかない」になります。",
+  "explanation_en": "Vずにはおかない: will without fail do/cause V. (1) Something inevitably moves people (often with a causative); (2) a firm resolve. する becomes せずにはおかない.",
+  "one_liner_ja": "「ずにはおかない」は「{必|かなら}ず〜する・{必|かなら}ず〜させる」を{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{彼|かれ}の{演説|えんぜつ}は、{聴衆|ちょうしゅう}を{感動|かんどう}させずにはおかなかった。", "en": "His speech could not fail to move the audience."},
+   {"ja": "{今回|こんかい}の{不正|ふせい}は、{必|かなら}ず{明|あき}らかにせずにはおかない。", "en": "I will bring this fraud to light, no matter what."}
+  ],
+  "items": [
+   {"kind": "conjugation", "ja": "この{小説|しょうせつ}は{読者|どくしゃ}を［　］ずにはおかない。", "options": ["{泣|な}き", "{泣|な}かせ", "{泣|な}く"], "answer": 1, "why_ja": "{読者|どくしゃ}を{泣|な}く{状態|じょうたい}にさせるので、{使役|しえき}の「{泣|な}かせ」です。", "why_en": "The novel makes readers cry: causative 泣かせ."},
+   {"kind": "conjugation", "ja": "{今度|こんど}の{失敗|しっぱい}は、{責任者|せきにんしゃ}に{責任|せきにん}を{取|と}らせ［　］。", "options": ["ずにはおく", "ないではおく", "ずにはおかない"], "answer": 2, "why_ja": "「{必|かなら}ず{取|と}らせる」という{意味|いみ}は「ずにはおかない」です。", "why_en": "'Will surely make them take responsibility': ずにはおかない."},
+   {"kind": "conjugation", "ja": "{真相|しんそう}を{明|あき}らかに［　］ずにはおかない。", "options": ["せ", "し", "する"], "answer": 0, "why_ja": "「する」は「せず」になるので「せずにはおかない」です。", "why_en": "する becomes せず."},
+   {"kind": "meaning", "ja": "「{人々|ひとびと}の{関心|かんしん}を{集|あつ}めずにはおかない」は［　］という{意味|いみ}だ。", "options": ["{関心|かんしん}を{集|あつ}めてはいけない", "{関心|かんしん}を{集|あつ}めないでおく", "{必|かなら}ず{関心|かんしん}を{集|あつ}める"], "answer": 2, "why_ja": "「ずにはおかない」は「{必|かなら}ず〜する」という{意味|いみ}です。", "why_en": "ずにはおかない means 'will certainly'."},
+   {"kind": "choice", "ja": "その{美|うつく}しい{音楽|おんがく}は、{聴|き}く{人|ひと}の{心|こころ}を{動|うご}かさ［　］。", "options": ["ないものを", "ずにはおかない", "ざるを{得|え}る"], "answer": 1, "why_ja": "{音楽|おんがく}が{必|かなら}ず{心|こころ}を{動|うご}かすので「ずにはおかない」です。", "why_en": "The music inevitably moves people."},
+   {"kind": "choice", "ja": "あの{記者|きしゃ}は、{政治家|せいじか}の{不正|ふせい}を{暴|あば}か［　］と{語|かた}った。", "options": ["ずにはおかない", "ずにはおく", "ないべく"], "answer": 0, "why_ja": "{強|つよ}い{決意|けつい}を{表|あらわ}すので「ずにはおかない」です。", "why_en": "A firm resolve: ずにはおかない."}
+  ]
+ },
+ {
+  "id": "n1_mademonai",
+  "pattern": "〜までもない",
+  "level": "N1",
+  "meaning_en": "there is no need to ~; it goes without ~",
+  "explanation_ja": "「Vまでもない」は「わざわざVする{必要|ひつよう}はない。それほど{簡単|かんたん}・{明|あき}らかだ」という{意味|いみ}です。「{言|い}うまでもない」は「{当然|とうぜん}だ」という{意味|いみ}でよく{使|つか}われます。{文|ぶん}が{続|つづ}くときは「Vまでもなく」になります。",
+  "explanation_en": "Vまでもない: no need to go so far as V, because it is simple or obvious. 言うまでもない = 'it goes without saying'. Mid-sentence it becomes までもなく.",
+  "one_liner_ja": "「までもない」は「そこまでする{必要|ひつよう}はない」を{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{健康|けんこう}が{大切|たいせつ}なのは{言|い}うまでもない。", "en": "It goes without saying that health is important."},
+   {"ja": "この{程度|ていど}の{傷|きず}なら、{病院|びょういん}に{行|い}くまでもない。", "en": "A cut like this is not worth going to hospital for."}
+  ],
+  "items": [
+   {"kind": "conjugation", "ja": "そんな{簡単|かんたん}なことは、{先生|せんせい}に［　］までもない。", "options": ["{聞|き}いた", "{聞|き}かない", "{聞|き}く"], "answer": 2, "why_ja": "「までもない」の{前|まえ}は{動詞|どうし}の{辞書形|じしょけい}です。", "why_en": "までもない follows the dictionary form."},
+   {"kind": "choice", "ja": "{彼|かれ}が{優秀|ゆうしゅう}なことは{言|い}う［　］。", "options": ["までもない", "ものを", "きらいがある"], "answer": 0, "why_ja": "「{言|い}うまでもない」で「{当然|とうぜん}だ」という{意味|いみ}です。", "why_en": "言うまでもない: it goes without saying."},
+   {"kind": "meaning", "ja": "「わざわざ{来|く}るまでもない」は［　］という{意味|いみ}だ。", "options": ["{必|かなら}ず{来|く}るべきだ", "{来|く}る{必要|ひつよう}はない", "{来|く}ることができない"], "answer": 1, "why_ja": "「までもない」は「する{必要|ひつよう}はない」という{意味|いみ}です。", "why_en": "までもない means 'no need to'."},
+   {"kind": "choice", "ja": "{電話|でんわ}で{済|す}む{話|はなし}だから、{会|あ}って{話|はな}す［　］。", "options": ["ずにはおかない", "を{禁|きん}じ{得|え}ない", "までもない"], "answer": 2, "why_ja": "{会|あ}う{必要|ひつよう}はない、という{意味|いみ}なので「までもない」です。", "why_en": "No need to meet: までもない."},
+   {"kind": "conjugation", "ja": "{確認|かくにん}する［　］、{答|こた}えは{明|あき}らかだ。", "options": ["までもない", "までもなく", "ばこそ"], "answer": 1, "why_ja": "{文|ぶん}が{後|うし}ろに{続|つづ}くので「までもなく」です。", "why_en": "The sentence continues, so までもなく."},
+   {"kind": "choice", "ja": "{結果|けっか}は{見|み}る［　］わかっている。", "options": ["にひきかえ", "までもなく", "ともなると"], "answer": 1, "why_ja": "{見|み}る{必要|ひつよう}もなく、という{意味|いみ}なので「までもなく」です。", "why_en": "Known without even looking: までもなく."}
+  ]
+ },
+ {
+  "id": "n1_bakoso",
+  "pattern": "〜ばこそ",
+  "level": "N1",
+  "meaning_en": "precisely because ~",
+  "explanation_ja": "「〜ばこそ」は「〜からこそ」と{同|おな}じく、{理由|りゆう}を{強|つよ}く{示|しめ}す{硬|かた}い{表現|ひょうげん}です。「{他|ほか}の{理由|りゆう}ではなく、まさにこの{理由|りゆう}で」という{気持|きも}ちを{表|あらわ}し、{文末|ぶんまつ}は「〜のだ」になることが{多|おお}いです。{動詞|どうし}は「ば{形|けい}＋こそ」、{名詞|めいし}・な{形容詞|けいようし}は「であればこそ」になります。",
+  "explanation_en": "〜ばこそ: 'precisely because', a formal, emphatic reason like からこそ. The sentence often ends in のだ. Verbs take the ば-form; nouns and na-adjectives use であればこそ.",
+  "one_liner_ja": "「ばこそ」は「まさにその{理由|りゆう}で」と{理由|りゆう}を{強調|きょうちょう}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{君|きみ}のことを{思|おも}えばこそ、{厳|きび}しく{言|い}うのだ。", "en": "It is precisely because I care about you that I speak harshly."},
+   {"ja": "{健康|けんこう}であればこそ、{好|す}きな{仕事|しごと}が{続|つづ}けられる。", "en": "Only because you are healthy can you keep doing the work you love."}
+  ],
+  "items": [
+   {"kind": "conjugation", "ja": "{子供|こども}を{愛|あい}して［　］こそ、{叱|しか}るのだ。", "options": ["いる", "いれば", "いた"], "answer": 1, "why_ja": "「ばこそ」の{前|まえ}は「ば{形|けい}」なので「いれば」です。", "why_en": "ばこそ needs the ば-form: いれば."},
+   {"kind": "conjugation", "ja": "{家族|かぞく}の{支|ささ}えが［　］、ここまで{頑張|がんば}れたのだ。", "options": ["あるばこそ", "あったばこそ", "あればこそ"], "answer": 2, "why_ja": "「ある」のば{形|けい}は「あれば」なので「あればこそ」です。", "why_en": "The ば-form of ある is あれば."},
+   {"kind": "meaning", "ja": "「{信頼|しんらい}していればこそ{任|まか}せたのだ」は［　］という{意味|いみ}だ。", "options": ["{信頼|しんらい}しているからこそ{任|まか}せた", "{信頼|しんらい}していないのに{任|まか}せた", "{信頼|しんらい}すれば{任|まか}せるかもしれない"], "answer": 0, "why_ja": "「ばこそ」は「からこそ」と{同|おな}じ{意味|いみ}です。", "why_en": "ばこそ = からこそ."},
+   {"kind": "conjugation", "ja": "{健康|けんこう}で［　］こそ、{夢|ゆめ}を{追|お}いかけられる。", "options": ["あり", "あれば", "ある"], "answer": 1, "why_ja": "な{形容詞|けいようし}は「であればこそ」になります。", "why_en": "Na-adjectives take であればこそ."},
+   {"kind": "choice", "ja": "{本当|ほんとう}の{友達|ともだち}だと{思|おも}え［　］、{言|い}いにくいことも{言|い}うのだ。", "options": ["ばこそ", "ば{最後|さいご}", "までも"], "answer": 0, "why_ja": "{友達|ともだち}だと{思|おも}うからこそ、という{理由|りゆう}の{強調|きょうちょう}なので「ばこそ」です。", "why_en": "Emphatic reason: ばこそ."},
+   {"kind": "choice", "ja": "{苦労|くろう}があれ［　］、{成功|せいこう}の{喜|よろこ}びも{大|おお}きいのだ。", "options": ["までもなく", "ものを", "ばこそ"], "answer": 2, "why_ja": "{苦労|くろう}があるからこそ{喜|よろこ}びが{大|おお}きいので「ばこそ」です。", "why_en": "Joy is great precisely because of hardship: ばこそ."}
+  ]
+ },
+ {
+  "id": "n1_beku",
+  "pattern": "〜べく",
+  "level": "N1",
+  "meaning_en": "in order to ~ (formal)",
+  "explanation_ja": "「Vべく」は「Vするために」という{意味|いみ}の{硬|かた}い{書|か}き{言葉|ことば}です。{目的|もくてき}を{表|あらわ}し、{後|うし}ろにはその{目的|もくてき}のための{行動|こうどう}が{来|き}ます。「する」は「するべく」または「すべく」になります。{自分|じぶん}の{意志|いし}で{行|おこな}う{目的|もくてき}に{使|つか}い、{依頼|いらい}や{命令|めいれい}の{文|ぶん}には{使|つか}いません。",
+  "explanation_en": "Vべく: 'in order to V', formal written style. The second half is the action taken for that purpose. する becomes するべく or すべく. Only for intentional goals; not with requests or commands.",
+  "one_liner_ja": "「べく」は「〜するために」という{目的|もくてき}を{硬|かた}く{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{新|あたら}しい{市場|しじょう}を{開拓|かいたく}すべく、{海外|かいがい}に{支社|ししゃ}を{設立|せつりつ}した。", "en": "To open up new markets, we set up an overseas branch."},
+   {"ja": "{夢|ゆめ}を{実現|じつげん}するべく、{毎日|まいにち}{努力|どりょく}を{重|かさ}ねている。", "en": "I work hard every day in order to make my dream come true."}
+  ],
+  "items": [
+   {"kind": "conjugation", "ja": "{記録|きろく}を［　］べく、{厳|きび}しい{練習|れんしゅう}を{続|つづ}けている。", "options": ["{更新|こうしん}し", "{更新|こうしん}す", "{更新|こうしん}して"], "answer": 1, "why_ja": "「する」は「すべく」になるので「{更新|こうしん}すべく」です。", "why_en": "する + べく can be すべく."},
+   {"kind": "conjugation", "ja": "{真相|しんそう}を［　］べく、{調査|ちょうさ}が{始|はじ}まった。", "options": ["{究明|きゅうめい}した", "{究明|きゅうめい}しない", "{究明|きゅうめい}す"], "answer": 2, "why_ja": "「べく」の{前|まえ}は{辞書形|じしょけい}（する→す）です。", "why_en": "べく follows the dictionary form (する→す)."},
+   {"kind": "meaning", "ja": "「{期待|きたい}に{応|こた}えるべく{努力|どりょく}する」の「べく」は［　］を{表|あらわ}す。", "options": ["{目的|もくてき}", "{原因|げんいん}", "{時間|じかん}"], "answer": 0, "why_ja": "「{応|こた}えるために」という{目的|もくてき}を{表|あらわ}します。", "why_en": "べく marks purpose."},
+   {"kind": "choice", "ja": "{試験|しけん}に{合格|ごうかく}す［　］、{毎晩|まいばん}{遅|おそ}くまで{勉強|べんきょう}した。", "options": ["べき", "べく", "べし"], "answer": 1, "why_ja": "{目的|もくてき}を{表|あらわ}して{文|ぶん}が{続|つづ}くので「べく」です。", "why_en": "Purpose, continuing the sentence: べく."},
+   {"kind": "choice", "ja": "{被災地|ひさいち}を{支援|しえん}す［　］、{多|おお}くのボランティアが{集|あつ}まった。", "options": ["ものを", "までもなく", "べく"], "answer": 2, "why_ja": "「{支援|しえん}するために」という{目的|もくてき}なので「べく」です。", "why_en": "'In order to support': べく."},
+   {"kind": "choice", "ja": "「べく」の{使|つか}い{方|かた}が{正|ただ}しいのは［　］。", "options": ["{早|はや}く{来|く}るべく、{急|いそ}いでください。", "{会議|かいぎ}に{間|ま}に{合|あ}うべく、{早|はや}めに{家|いえ}を{出|で}た。", "{雨|あめ}が{降|ふ}るべく、{傘|かさ}を{持|も}った。"], "answer": 1, "why_ja": "「べく」は{自分|じぶん}の{意志|いし}による{目的|もくてき}に{使|つか}い、{依頼|いらい}の{文|ぶん}や{自然|しぜん}の{出来事|できごと}には{使|つか}いません。", "why_en": "べく needs an intentional goal; not with requests or natural events."}
+  ]
+ },
+ {
+  "id": "n1_monowo",
+  "pattern": "〜ものを",
+  "level": "N1",
+  "meaning_en": "if only ~; although ~ (regret, reproach)",
+  "explanation_ja": "「〜ものを」は「〜のに」に{近|ちか}い{意味|いみ}で、{実際|じっさい}にはそうならなかったことへの{不満|ふまん}・{後悔|こうかい}・{残念|ざんねん}な{気持|きも}ちを{表|あらわ}します。「〜ば〜ものを」の{形|かたち}が{多|おお}く、{文|ぶん}の{終|お}わりに{置|お}いて{後|うし}ろを{言|い}わないこともあります。",
+  "explanation_en": "〜ものを, close to のに, expresses dissatisfaction, regret or reproach that things did not turn out as they could have. Often 〜ば〜ものを, and it can end the sentence with the rest left unsaid.",
+  "one_liner_ja": "「ものを」は「〜のに（そうしなかった）」という{残念|ざんねん}な{気持|きも}ちを{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{一言|ひとこと}{相談|そうだん}してくれれば{手伝|てつだ}ったものを。", "en": "If only you had asked, I would have helped."},
+   {"ja": "{早|はや}く{病院|びょういん}に{行|い}けばすぐ{治|なお}ったものを、{我慢|がまん}したせいで{悪|わる}くなった。", "en": "It would have healed quickly if he had gone to hospital early, but he put up with it and it got worse."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{言|い}ってくれれば{貸|か}してあげた［　］。", "options": ["ものの", "ものを", "ものなら"], "answer": 1, "why_ja": "{言|い}ってくれなかったことへの{残念|ざんねん}な{気持|きも}ちなので「ものを」です。", "why_en": "Regret that they did not ask: ものを."},
+   {"kind": "choice", "ja": "もう{少|すこ}し{早|はや}く{出|で}れば{間|ま}に{合|あ}った［　］、{寝坊|ねぼう}してしまった。", "options": ["ものを", "ものだ", "ものか"], "answer": 0, "why_ja": "{間|ま}に{合|あ}ったはずなのに、という{後悔|こうかい}なので「ものを」です。", "why_en": "Regret: could have made it, but overslept."},
+   {"kind": "meaning", "ja": "「{黙|だま}っていればいいものを」に{込|こ}められた{気持|きも}ちは［　］だ。", "options": ["{感謝|かんしゃ}", "{希望|きぼう}", "{不満|ふまん}・{残念|ざんねん}"], "answer": 2, "why_ja": "{黙|だま}らなかったことへの{不満|ふまん}を{表|あらわ}しています。", "why_en": "It voices dissatisfaction that they spoke up."},
+   {"kind": "choice", "ja": "{謝|あやま}れば{許|ゆる}してもらえた［　］、{彼|かれ}は{意地|いじ}を{張|は}った。", "options": ["ことを", "ものを", "ほどを"], "answer": 1, "why_ja": "{許|ゆる}してもらえたのに、という{残念|ざんねん}な{気持|きも}ちなので「ものを」です。", "why_en": "He could have been forgiven: ものを."},
+   {"kind": "choice", "ja": "{知|し}っていたなら{教|おし}えてくれればいい［　］。", "options": ["ものの", "ばこそ", "ものを"], "answer": 2, "why_ja": "{教|おし}えてくれなかったことへの{不満|ふまん}なので「ものを」です。", "why_en": "Reproach for not telling: ものを."},
+   {"kind": "choice", "ja": "{安|やす}いときに{買|か}っておけばよかった［　］、{今|いま}は{倍|ばい}の{値段|ねだん}だ。", "options": ["ものを", "べく", "といえども"], "answer": 0, "why_ja": "{買|か}わなかったことへの{後悔|こうかい}なので「ものを」です。", "why_en": "Regret at not buying earlier: ものを."}
+  ]
+ },
+ {
+  "id": "n1_gasaigo",
+  "pattern": "〜たが{最後|さいご}",
+  "level": "N1",
+  "meaning_en": "once ~, (there's no stopping / no going back)",
+  "explanation_ja": "「Vたが{最後|さいご}」は「いったんVしたら、もう{元|もと}に{戻|もど}れない・{必|かなら}ずそうなってしまう」という{意味|いみ}です。{後|うし}ろには「〜まで〜ない」「〜てしまう」など、{止|と}められない{結果|けっか}が{来|き}ます。{悪|わる}い{結果|けっか}が{多|おお}く、「Vたら{最後|さいご}」とも{言|い}います。",
+  "explanation_en": "Vたが最後: once V happens, there is no going back and a (usually bad) result follows inevitably. Also Vたら最後.",
+  "one_liner_ja": "「たが{最後|さいご}」は「{一度|いちど}〜したら、もう{止|と}められない」を{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{彼|かれ}は{話|はな}し{始|はじ}めたが{最後|さいご}、{二時間|にじかん}は{止|と}まらない。", "en": "Once he starts talking, he does not stop for two hours."},
+   {"ja": "このソファに{座|すわ}ったが{最後|さいご}、もう{立|た}ち{上|あ}がれない。", "en": "Once you sit on this sofa, you can never get up again."}
+  ],
+  "items": [
+   {"kind": "conjugation", "ja": "{弟|おとうと}はゲームを［　］が{最後|さいご}、{夜中|よなか}までやめない。", "options": ["{始|はじ}める", "{始|はじ}めた", "{始|はじ}めて"], "answer": 1, "why_ja": "「が{最後|さいご}」の{前|まえ}は「た{形|けい}」です。", "why_en": "が最後 follows the た-form."},
+   {"kind": "choice", "ja": "{秘密|ひみつ}を{知|し}られた［　］、{二度|にど}と{平和|へいわ}な{生活|せいかつ}には{戻|もど}れない。", "options": ["べく", "が{最後|さいご}", "までもなく"], "answer": 1, "why_ja": "{一度|いちど}{知|し}られたら{戻|もど}れないので「が{最後|さいご}」です。", "why_en": "Once known, there's no going back: が最後."},
+   {"kind": "meaning", "ja": "「{目|め}を{離|はな}したが{最後|さいご}、{子供|こども}はどこかへ{行|い}ってしまう」は［　］という{意味|いみ}だ。", "options": ["{目|め}を{離|はな}しても{大丈夫|だいじょうぶ}だ", "{最後|さいご}に{目|め}を{離|はな}した", "{少|すこ}しでも{目|め}を{離|はな}したら、すぐいなくなる"], "answer": 2, "why_ja": "「たが{最後|さいご}」は「{一度|いちど}〜したら{必|かなら}ず」という{意味|いみ}です。", "why_en": "たが最後: once you do it, the result is certain."},
+   {"kind": "particle", "ja": "あの{店|みせ}に{入|はい}った［　］{最後|さいご}、{何|なに}か{買|か}わずには{出|で}られない。", "options": ["を", "に", "が", "で"], "answer": 2, "why_ja": "「Vたが{最後|さいご}」の{形|かたち}です。", "why_en": "The form is Vたが最後."},
+   {"kind": "choice", "ja": "この{本|ほん}は{読|よ}み{始|はじ}めた［　］、{止|や}められなくなる。", "options": ["が{最後|さいご}", "にひきかえ", "ともなると"], "answer": 0, "why_ja": "{一度|いちど}{読|よ}み{始|はじ}めたら{止|や}められないので「が{最後|さいご}」です。", "why_en": "Once you start reading, you can't stop."},
+   {"kind": "choice", "ja": "{一度|いちど}{嘘|うそ}をついた［　］、{信用|しんよう}は{二度|にど}と{戻|もど}らない。", "options": ["をもって", "が{最後|さいご}", "といえども"], "answer": 1, "why_ja": "{嘘|うそ}をついたら{信用|しんよう}は{戻|もど}らない、という{取|と}り{返|かえ}しのつかない{結果|けっか}なので「が{最後|さいご}」です。", "why_en": "Irreversible result: が最後."}
+  ]
+ },
+ {
+  "id": "n1_yoginakusareru",
+  "pattern": "〜を{余儀|よぎ}なくされる",
+  "level": "N1",
+  "meaning_en": "to be forced to ~ (by circumstances)",
+  "explanation_ja": "「Nを{余儀|よぎ}なくされる」は「{自分|じぶん}の{意志|いし}ではなく、{状況|じょうきょう}のせいでNをしなければならなくなる」という{意味|いみ}です。Nには「{中止|ちゅうし}」「{変更|へんこう}」「{撤退|てったい}」など、{動作|どうさ}を{表|あらわ}す{名詞|めいし}が{入|はい}ります。{原因|げんいん}を{主語|しゅご}にすると「（{原因|げんいん}が）Nを{余儀|よぎ}なくさせる」になります。ニュースや{新聞|しんぶん}でよく{使|つか}われます。",
+  "explanation_en": "Nを余儀なくされる: be forced by circumstances to do N (cancel, change, withdraw). With the cause as subject it becomes Nを余儀なくさせる. Common in news writing.",
+  "one_liner_ja": "「を{余儀|よぎ}なくされる」は「{仕方|しかた}なく〜しなければならなくなる」を{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{台風|たいふう}のため、{大会|たいかい}は{延期|えんき}を{余儀|よぎ}なくされた。", "en": "Because of the typhoon, the tournament had to be postponed."},
+   {"ja": "{資金|しきん}{不足|ぶそく}で、{会社|かいしゃ}は{事業|じぎょう}の{縮小|しゅくしょう}を{余儀|よぎ}なくされた。", "en": "Short of funds, the company was forced to scale back its business."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{大雪|おおゆき}の{影響|えいきょう}で、{電車|でんしゃ}は{運転|うんてん}{見合|みあ}わせを［　］。", "options": ["{禁|きん}じ{得|え}なかった", "{余儀|よぎ}なくされた", "{余儀|よぎ}なくさせた"], "answer": 1, "why_ja": "{電車|でんしゃ}は{状況|じょうきょう}のせいで{止|と}まったので、{受身|うけみ}の「{余儀|よぎ}なくされた」です。", "why_en": "The trains were forced to stop: passive される form."},
+   {"kind": "conjugation", "ja": "{度重|たびかさ}なる{事故|じこ}が、{工場|こうじょう}の{閉鎖|へいさ}を{余儀|よぎ}なく［　］。", "options": ["された", "なった", "させた"], "answer": 2, "why_ja": "{主語|しゅご}が{原因|げんいん}（{事故|じこ}）なので「{余儀|よぎ}なくさせた」です。", "why_en": "The cause is the subject, so させた."},
+   {"kind": "particle", "ja": "{彼|かれ}は{病気|びょうき}で{引退|いんたい}［　］{余儀|よぎ}なくされた。", "options": ["を", "が", "に", "で"], "answer": 0, "why_ja": "「Nを{余儀|よぎ}なくされる」の{形|かたち}です。", "why_en": "The set form is Nを余儀なくされる."},
+   {"kind": "meaning", "ja": "「{計画|けいかく}の{変更|へんこう}を{余儀|よぎ}なくされた」は［　］という{意味|いみ}だ。", "options": ["{喜|よろこ}んで{計画|けいかく}を{変|か}えた", "{計画|けいかく}を{変|か}えずに{済|す}んだ", "{仕方|しかた}なく{計画|けいかく}を{変|か}えた"], "answer": 2, "why_ja": "{状況|じょうきょう}のせいで{仕方|しかた}なく、という{意味|いみ}です。", "why_en": "Forced by circumstances: reluctantly changed."},
+   {"kind": "conjugation", "ja": "{悪天候|あくてんこう}のため、{登山隊|とざんたい}は［　］を{余儀|よぎ}なくされた。", "options": ["{引|ひ}き{返|かえ}す", "{引|ひ}き{返|かえ}すこと", "{引|ひ}き{返|かえ}し"], "answer": 1, "why_ja": "「を」の{前|まえ}は{名詞|めいし}なので、{動詞|どうし}は「〜こと」にします。", "why_en": "を needs a noun, so 引き返すこと."},
+   {"kind": "choice", "ja": "{予算|よさん}{不足|ぶそく}が、{研究|けんきゅう}の{中断|ちゅうだん}を［　］。", "options": ["{余儀|よぎ}なくさせた", "{余儀|よぎ}なくされた", "{禁|きん}じ{得|え}なかった"], "answer": 0, "why_ja": "{主語|しゅご}の「{予算|よさん}{不足|ぶそく}」は{原因|げんいん}なので「{余儀|よぎ}なくさせた」です。", "why_en": "The cause is the subject: させた."}
+  ]
+ },
+ {
+  "id": "n1_nihikikae",
+  "pattern": "〜にひきかえ",
+  "level": "N1",
+  "meaning_en": "in contrast to ~; unlike ~",
+  "explanation_ja": "「Nにひきかえ」は「Nとは{反対|はんたい}に・Nと{比|くら}べて{大|おお}きく{違|ちが}って」という{意味|いみ}です。{二|ふた}つのものを{比|くら}べて、その{違|ちが}いを{強調|きょうちょう}します。{話|はな}し{手|て}の{評価|ひょうか}や{感想|かんそう}が{入|はい}ることが{多|おお}いです。{動詞|どうし}や{形容詞|けいようし}には「のにひきかえ」をつけ、な{形容詞|けいようし}は「なのにひきかえ」になります。",
+  "explanation_en": "Nにひきかえ: in sharp contrast to N. It compares two things and stresses the gap, often with the speaker's judgement. Verbs and adjectives take のにひきかえ (na-adjectives: なのにひきかえ).",
+  "one_liner_ja": "「にひきかえ」は「〜とは{反対|はんたい}に」と{二|ふた}つを{比|くら}べます。",
+  "requires": [],
+  "examples": [
+   {"ja": "{兄|あに}が{社交的|しゃこうてき}なのにひきかえ、{弟|おとうと}は{人見知|ひとみし}りだ。", "en": "Unlike his outgoing older brother, the younger one is shy."},
+   {"ja": "{去年|きょねん}の{猛暑|もうしょ}にひきかえ、{今年|ことし}の{夏|なつ}は{涼|すず}しい。", "en": "In contrast to last year's heatwave, this summer is cool."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{前|まえ}の{部長|ぶちょう}［　］、{今度|こんど}の{部長|ぶちょう}はとても{話|はな}しやすい。", "options": ["ならでは", "をもって", "いかんでは", "にひきかえ"], "answer": 3, "why_ja": "{前|まえ}の{部長|ぶちょう}と{比|くら}べて{違|ちが}いを{強調|きょうちょう}しているので「にひきかえ」です。", "why_en": "Contrasting the two managers: にひきかえ."},
+   {"kind": "choice", "ja": "{兄|あに}［　］、{弟|おとうと}は{勉強|べんきょう}が{苦手|にがて}だ。", "options": ["ばこそ", "にひきかえ", "べく"], "answer": 1, "why_ja": "{兄|あに}と{弟|おとうと}を{比|くら}べているので「にひきかえ」です。", "why_en": "Comparing brothers: にひきかえ."},
+   {"kind": "meaning", "ja": "「{昨年|さくねん}にひきかえ、{今年|ことし}は{売|う}り{上|あ}げが{好調|こうちょう}だ」は［　］という{意味|いみ}だ。", "options": ["{昨年|さくねん}と{同|おな}じく{好調|こうちょう}だ", "{昨年|さくねん}とは{反対|はんたい}に、{今年|ことし}は{好調|こうちょう}だ", "{昨年|さくねん}のおかげで{好調|こうちょう}だ"], "answer": 1, "why_ja": "「にひきかえ」は「〜とは{反対|はんたい}に」という{意味|いみ}です。", "why_en": "にひきかえ means 'in contrast to'."},
+   {"kind": "choice", "ja": "{都会|とかい}の{騒|さわ}がしさ［　］、この{村|むら}は{本当|ほんとう}に{静|しず}かだ。", "options": ["といえども", "ともなると", "にひきかえ"], "answer": 2, "why_ja": "{騒|さわ}がしさと{静|しず}かさを{対比|たいひ}しているので「にひきかえ」です。", "why_en": "Noise versus quiet: にひきかえ."},
+   {"kind": "particle", "ja": "{彼|かれ}がよく{働|はたら}く［　］にひきかえ、{私|わたし}は{怠|なま}けてばかりだ。", "options": ["な", "の", "だ"], "answer": 1, "why_ja": "{動詞|どうし}には「のにひきかえ」をつけます。", "why_en": "Verbs take のにひきかえ."},
+   {"kind": "choice", "ja": "{晴|は}れていた{昨日|きのう}［　］、{今日|きょう}は{朝|あさ}から{大雨|おおあめ}だ。", "options": ["にひきかえ", "が{最後|さいご}", "ずにはおかない"], "answer": 0, "why_ja": "{昨日|きのう}と{今日|きょう}の{天気|てんき}を{対比|たいひ}しているので「にひきかえ」です。", "why_en": "Yesterday versus today: にひきかえ."}
+  ]
+ },
+ {
+  "id": "n1_kiraigaaru",
+  "pattern": "〜きらいがある",
+  "level": "N1",
+  "meaning_en": "to have a (bad) tendency to ~",
+  "explanation_ja": "「〜きらいがある」は「〜という{良|よ}くない{傾向|けいこう}がある」という{意味|いみ}です。{人|ひと}や{物事|ものごと}の{好|この}ましくない{性質|せいしつ}を、{少|すこ}し{遠回|とおまわ}しに{批判|ひはん}するときに{使|つか}います。「Vきらいがある」「Nのきらいがある」の{形|かたち}になり、{良|よ}い{傾向|けいこう}や{毎日|まいにち}の{習慣|しゅうかん}には{使|つか}いません。",
+  "explanation_en": "〜きらいがある: has an undesirable tendency to ~; a mild, indirect criticism. Forms: Vきらいがある, Nのきらいがある. Not for good tendencies or simple habits.",
+  "one_liner_ja": "「きらいがある」は「〜という{良|よ}くない{傾向|けいこう}がある」を{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{彼|かれ}は{何|なん}でも{一人|ひとり}で{決|き}めてしまうきらいがある。", "en": "He tends to decide everything on his own."},
+   {"ja": "{最近|さいきん}の{報道|ほうどう}は、{感情|かんじょう}に{訴|うった}えすぎるきらいがある。", "en": "Recent reporting tends to appeal too much to emotion."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{彼女|かのじょ}は{物事|ものごと}を{悪|わる}い{方|ほう}に{考|かんが}える［　］。", "options": ["べく", "ものを", "きらいがある"], "answer": 2, "why_ja": "{良|よ}くない{傾向|けいこう}を{表|あらわ}すので「きらいがある」です。", "why_en": "An undesirable tendency: きらいがある."},
+   {"kind": "particle", "ja": "{彼|かれ}のやり{方|かた}は{独断|どくだん}［　］きらいがある。", "options": ["を", "の", "に"], "answer": 1, "why_ja": "{名詞|めいし}には「Nのきらいがある」の{形|かたち}で{使|つか}います。", "why_en": "With a noun: Nのきらいがある."},
+   {"kind": "meaning", "ja": "「{楽観|らっかん}しすぎるきらいがある」は［　］という{意味|いみ}だ。", "options": ["{楽観|らっかん}しすぎる{良|よ}くない{傾向|けいこう}がある", "{楽観|らっかん}するのが{嫌|きら}いだ", "{楽観|らっかん}してはいけない"], "answer": 0, "why_ja": "「きらい」は「{嫌|きら}い」ではなく「{傾向|けいこう}」という{意味|いみ}です。", "why_en": "きらい here means 'tendency', not 'dislike'."},
+   {"kind": "choice", "ja": "「きらいがある」の{使|つか}い{方|かた}が{正|ただ}しいのは［　］。", "options": ["{彼|かれ}は{親切|しんせつ}にするきらいがある。", "{彼|かれ}は{毎朝|まいあさ}{六時|ろくじ}に{起|お}きるきらいがある。", "{彼|かれ}は{約束|やくそく}を{忘|わす}れるきらいがある。"], "answer": 2, "why_ja": "「きらいがある」は{良|よ}くない{傾向|けいこう}に{使|つか}います。{親切|しんせつ}や{早起|はやお}きには{使|つか}いません。", "why_en": "Only for bad tendencies, not kindness or routine habits."},
+   {"kind": "conjugation", "ja": "{若者|わかもの}はネットの{情報|じょうほう}をすぐに［　］きらいがある。", "options": ["{信|しん}じ", "{信|しん}じる", "{信|しん}じて"], "answer": 1, "why_ja": "「きらいがある」の{前|まえ}は{動詞|どうし}の{辞書形|じしょけい}です。", "why_en": "Dictionary form before きらいがある."},
+   {"kind": "choice", "ja": "{新人|しんじん}の{田中|たなか}さんは、{細|こま}かいことにこだわりすぎる［　］。", "options": ["きらいがある", "を{余儀|よぎ}なくされる", "にひきかえ"], "answer": 0, "why_ja": "{少|すこ}し{批判的|ひはんてき}に{傾向|けいこう}を{述|の}べているので「きらいがある」です。", "why_en": "Gently critical about a tendency: きらいがある."}
+  ]
+ }
+]

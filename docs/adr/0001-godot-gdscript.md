@@ -72,3 +72,14 @@ GitHub Actions imports the project headlessly and runs `tests/test_runner.gd`.
   tweak layouts in the editor. Revisit if a second contributor joins on the art side.
 - Content is small and curated (64 N5 words). Scaling to the GDD's ~700-word N5 inventory is a
   pipeline and editorial job, not an engine change.
+
+## Update — 2026-11-13
+
+- Noto Sans JP (variable) and BIZ UDPGothic are now bundled, so CJK rendering no longer depends
+  on system fonts. Web exports use the Compatibility renderer (`rendering_method.web`).
+- The explorable town (`game/world/`) is a 3D scene shown inside a `SubViewport` by the town
+  screen; KayKit glTF characters use KayKit's own Rig_Medium animations, so no retargeting was
+  needed and the Quaternius library was not imported.
+- Listening uses the operating system's text-to-speech through `DisplayServer.tts_*`, which keeps
+  the game offline. Automatic pronunciation scoring was not built for the same reason.
+- An exported `.pck` was verified to load all 1,539 words, 127 grammar points and 17 scenarios.

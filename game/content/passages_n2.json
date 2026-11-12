@@ -1,0 +1,53 @@
+[
+ {
+  "id": "n2_rd_001", "level": "N2",
+  "title_ja": "{市立図書館|しりつとしょかん}、{夜間|やかん}{開館|かいかん}を{開始|かいし}へ",
+  "text_ja": "{緑川市|みどりかわし}は{十日|とおか}、{市立図書館|しりつとしょかん}の{開館|かいかん}{時間|じかん}を{来月|らいげつ}から{午後九時|ごごくじ}まで{延長|えんちょう}すると{発表|はっぴょう}した。これまでは{午後六時|ごごろくじ}に{閉館|へいかん}していたが、{仕事|しごと}や{学校|がっこう}の{後|あと}に{利用|りよう}したいという{声|こえ}が{増|ふ}えつつあった。{市|し}が{昨年|さくねん}{行|おこな}った{調査|ちょうさ}では、{回答者|かいとうしゃ}の{約|やく}{六割|ろくわり}が「{夜|よる}も{開|あ}いていれば{利用|りよう}したい」と{答|こた}えている。この{結果|けっか}をきっかけに、{市|し}は{夜間|やかん}{開館|かいかん}の{準備|じゅんび}を{進|すす}めてきた。{一方|いっぽう}で、{職員|しょくいん}を{増|ふ}やすための{費用|ひよう}が{課題|かだい}となっている。そのため、{夜間|やかん}は{本|ほん}の{貸|か}し{出|だ}しと{返却|へんきゃく}、{自習室|じしゅうしつ}の{利用|りよう}に{限|かぎ}ってサービスを{行|おこな}う。{今後|こんご}は{利用者|りようしゃ}の{数|かず}に{応|おう}じて、サービスの{内容|ないよう}を{見直|みなお}す{予定|よてい}だという。{市|し}の{担当者|たんとうしゃ}は「{多|おお}くの{市民|しみん}に{図書館|としょかん}を{身近|みぢか}に{感|かん}じてほしい」と{話|はな}している。",
+  "text_en": "On the 10th, Midorikawa City announced that from next month the city library will stay open until 9 p.m. Until now it closed at 6 p.m., but more and more people had said they wanted to use it after work or school. In a survey the city carried out last year, about 60% of respondents answered that they would use the library if it were open in the evening. Prompted by this result, the city has been preparing for evening opening. On the other hand, the cost of hiring more staff remains a problem. For this reason, evening service will be limited to borrowing and returning books and the use of the study room. The city plans to review the services in future according to the number of users. A city official said, 'We want many citizens to feel that the library is close to them.'",
+  "questions": [
+   {"q_ja": "{夜間|やかん}{開館|かいかん}を{準備|じゅんび}するきっかけになったのは{何|なん}ですか。", "q_en": "What prompted the preparations for evening opening?",
+    "options": ["{職員|しょくいん}が{増|ふ}えたこと", "{市|し}が{行|おこな}った{調査|ちょうさ}の{結果|けっか}", "{図書館|としょかん}の{建物|たてもの}が{新|あたら}しくなったこと"], "answer": 1,
+    "why_ja": "「この{結果|けっか}をきっかけに」とあり、{調査|ちょうさ}の{結果|けっか}が{始|はじ}まりだとわかります。", "why_en": "The text says the survey result was the trigger (この結果をきっかけに)."},
+   {"q_ja": "{夜間|やかん}に{利用|りよう}できないサービスはどれですか。", "q_en": "Which service is NOT available in the evening?",
+    "options": ["{本|ほん}を{借|か}りること", "{自習室|じしゅうしつ}を{使|つか}うこと", "{司書|ししょ}に{調|しら}べ{物|もの}の{相談|そうだん}をすること"], "answer": 2,
+    "why_ja": "{夜間|やかん}は{貸|か}し{出|だ}し・{返却|へんきゃく}と{自習室|じしゅうしつ}の{利用|りよう}に{限|かぎ}られています。", "why_en": "Evening service is limited to lending, returns and the study room."},
+   {"q_ja": "{今後|こんご}、サービスの{内容|ないよう}はどうなりますか。", "q_en": "What will happen to the services in future?",
+    "options": ["{利用者|りようしゃ}の{数|かず}によって{見直|みなお}される", "{絶対|ぜったい}に{変|か}わらない", "{来月|らいげつ}で{終|お}わる"], "answer": 0,
+    "why_ja": "「{利用者|りようしゃ}の{数|かず}に{応|おう}じて、サービスの{内容|ないよう}を{見直|みなお}す」とあります。", "why_en": "The services will be reviewed according to the number of users."}
+  ]
+ },
+ {
+  "id": "n2_rd_002", "level": "N2",
+  "title_ja": "{失敗|しっぱい}から{学|まな}ぶということ",
+  "text_ja": "{私|わたし}たちは{子|こ}どものころから、{失敗|しっぱい}は{悪|わる}いことだと{教|おし}えられることが{多|おお}い。しかし、{失敗|しっぱい}が{必|かなら}ずしも{悪|わる}い{結果|けっか}だけをもたらすとは{限|かぎ}らない。{私|わたし}は{大学|だいがく}{一年生|いちねんせい}のとき、{初|はじ}めての{発表|はっぴょう}で{何|なに}も{話|はな}せなくなってしまった。{準備|じゅんび}はしていたものの、{大勢|おおぜい}の{前|まえ}に{立|た}つと{緊張|きんちょう}で{頭|あたま}が{真|ま}っ{白|しろ}になったのだ。その{経験|けいけん}をきっかけに、{私|わたし}は{人前|ひとまえ}で{話|はな}す{練習|れんしゅう}を{毎週|まいしゅう}{続|つづ}けるようになった。{今|いま}では、{発表|はっぴょう}が{得意|とくい}だと{言|い}えるまでになった。あのとき{失敗|しっぱい}したからこそ、{自分|じぶん}の{弱|よわ}さに{気|き}づき、{努力|どりょく}することができたのだと{思|おも}う。{失敗|しっぱい}を{恐|おそ}れて{何|なに}もしないより、{挑戦|ちょうせん}して{失敗|しっぱい}するほうが、{得|え}るものはずっと{大|おお}きいのではないだろうか。",
+  "text_en": "From childhood we are often taught that failure is a bad thing. But failure does not necessarily bring only bad results. In my first year at university, I was unable to say anything at my first presentation. I had prepared, but when I stood in front of so many people, my mind went blank with nerves. That experience led me to start practising public speaking every week. Now I can even say that I am good at presentations. I think it was precisely because I failed then that I noticed my weakness and was able to make the effort. Rather than doing nothing out of fear of failure, isn't there far more to gain from trying and failing?",
+  "questions": [
+   {"q_ja": "{筆者|ひっしゃ}が{初|はじ}めての{発表|はっぴょう}で{話|はな}せなくなった{理由|りゆう}は{何|なん}ですか。", "q_en": "Why couldn't the writer speak at the first presentation?",
+    "options": ["{準備|じゅんび}をしていなかったから", "{大勢|おおぜい}の{前|まえ}で{緊張|きんちょう}したから", "{体|からだ}の{調子|ちょうし}が{悪|わる}かったから"], "answer": 1,
+    "why_ja": "「{準備|じゅんび}はしていたものの」{緊張|きんちょう}で{頭|あたま}が{真|ま}っ{白|しろ}になった、とあります。", "why_en": "The writer had prepared, but went blank from nerves in front of many people."},
+   {"q_ja": "{失敗|しっぱい}の{後|あと}、{筆者|ひっしゃ}は{何|なに}をするようになりましたか。", "q_en": "What did the writer start doing after the failure?",
+    "options": ["{人前|ひとまえ}で{話|はな}す{練習|れんしゅう}を{毎週|まいしゅう}{続|つづ}けた", "{発表|はっぴょう}をしないようにした", "{別|べつ}の{大学|だいがく}に{移|うつ}った"], "answer": 0,
+    "why_ja": "「その{経験|けいけん}をきっかけに、{人前|ひとまえ}で{話|はな}す{練習|れんしゅう}を{毎週|まいしゅう}{続|つづ}けるようになった」とあります。", "why_en": "The text says the writer began weekly public-speaking practice."},
+   {"q_ja": "{筆者|ひっしゃ}の{考|かんが}えに{合|あ}うものはどれですか。", "q_en": "Which matches the writer's view?",
+    "options": ["{失敗|しっぱい}はできるだけ{避|さ}けるべきだ", "{失敗|しっぱい}は{子|こ}どもにだけ{必要|ひつよう}だ", "{挑戦|ちょうせん}して{失敗|しっぱい}することには{価値|かち}がある"], "answer": 2,
+    "why_ja": "{最後|さいご}の{文|ぶん}で、{挑戦|ちょうせん}して{失敗|しっぱい}するほうが{得|え}るものが{大|おお}きいと{述|の}べています。", "why_en": "The last sentence says trying and failing brings more than doing nothing."}
+  ]
+ },
+ {
+  "id": "n2_rd_003", "level": "N2",
+  "title_ja": "{納期|のうき}{変更|へんこう}のお{願|ねが}い",
+  "text_ja": "{青葉商事|あおばしょうじ}{株式会社|かぶしきがいしゃ}　{営業部|えいぎょうぶ}　{佐藤|さとう}{様|さま}\nいつもお{世話|せわ}になっております。{山川製作所|やまかわせいさくしょ}の{田中|たなか}でございます。{先日|せんじつ}ご{注文|ちゅうもん}いただいた{部品|ぶひん}{五百個|ごひゃっこ}の{納期|のうき}について、ご{相談|そうだん}があり、ご{連絡|れんらく}いたしました。{材料|ざいりょう}を{仕入|しい}れている{工場|こうじょう}で{機械|きかい}の{故障|こしょう}があったため、{予定|よてい}どおりに{材料|ざいりょう}が{届|とど}かなくなりました。{大変|たいへん}{申|もう}し{訳|わけ}ございませんが、{納期|のうき}を{三月十日|さんがつとおか}から{三月十七日|さんがつじゅうしちにち}に{変更|へんこう}せざるを{得|え}ない{状況|じょうきょう}となりました。なお、そのうち{二百個|にひゃっこ}につきましては、{当初|とうしょ}の{予定|よてい}どおり{三月十日|さんがつとおか}にお{届|とど}けできます。ご{迷惑|めいわく}をおかけすることになり、{心|こころ}よりお{詫|わ}び{申|もう}し{上|あ}げます。ご{不明|ふめい}な{点|てん}がございましたら、お{気軽|きがる}にお{問|と}い{合|あ}わせください。{何卒|なにとぞ}よろしくお{願|ねが}い{申|もう}し{上|あ}げます。",
+  "text_en": "To Mr./Ms. Sato, Sales Department, Aoba Trading Co., Ltd.\nThank you for your continued business. This is Tanaka from Yamakawa Works. I am writing to consult you about the delivery date of the 500 parts you recently ordered. Because a machine broke down at the factory that supplies our materials, the materials will not arrive as scheduled. We sincerely apologise, but we have no choice but to change the delivery date from March 10 to March 17. However, 200 of those parts can be delivered on March 10 as originally planned. We deeply apologise for the inconvenience. If anything is unclear, please feel free to contact us. Thank you very much for your understanding.",
+  "questions": [
+   {"q_ja": "このメールの{一番|いちばん}の{目的|もくてき}は{何|なん}ですか。", "q_en": "What is the main purpose of this email?",
+    "options": ["{新|あたら}しい{注文|ちゅうもん}をお{願|ねが}いすること", "{納期|のうき}の{変更|へんこう}を{伝|つた}えること", "{部品|ぶひん}の{値段|ねだん}を{知|し}らせること"], "answer": 1,
+    "why_ja": "{件名|けんめい}も{内容|ないよう}も、{納期|のうき}を{変|か}えなければならないことについてです。", "why_en": "Both the subject and the body are about changing the delivery date."},
+   {"q_ja": "{納期|のうき}が{変|か}わった{原因|げんいん}は{何|なん}ですか。", "q_en": "Why did the delivery date change?",
+    "options": ["{材料|ざいりょう}の{工場|こうじょう}で{機械|きかい}が{故障|こしょう}したこと", "{注文|ちゅうもん}の{数|かず}が{増|ふ}えたこと", "{田中|たなか}さんが{病気|びょうき}になったこと"], "answer": 0,
+    "why_ja": "「{工場|こうじょう}で{機械|きかい}の{故障|こしょう}があったため」と{書|か}いてあります。", "why_en": "A machine broke down at the materials factory."},
+   {"q_ja": "{三月十日|さんがつとおか}に{届|とど}く{部品|ぶひん}はいくつですか。", "q_en": "How many parts will arrive on March 10?",
+    "options": ["{五百個|ごひゃっこ}", "{三百個|さんびゃっこ}", "{二百個|にひゃっこ}"], "answer": 2,
+    "why_ja": "「そのうち{二百個|にひゃっこ}につきましては、{当初|とうしょ}の{予定|よてい}どおり{三月十日|さんがつとおか}にお{届|とど}けできます」とあります。", "why_en": "200 of the parts can still be delivered on March 10."}
+  ]
+ }
+]

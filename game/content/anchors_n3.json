@@ -1,0 +1,83 @@
+[
+ {
+  "id": "n3_an_001", "level": "N3",
+  "ja": "{日本|にほん}で{生活|せいかつ}するなら、{日常会話|にちじょうかいわ}を{理解|りかい}できるようになりたいです。",
+  "en": "If I'm going to live in Japan, I want to become able to understand everyday conversation.",
+  "variants": [
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}で「{理解|りかい}できるようになりたい」と{言|い}うのはどうしてですか。", "prompt_en": "Why does the sentence say 理解できるようになりたい?",
+    "options": ["{今|いま}はできないことが、できるように{変|か}わってほしいから", "もう{理解|りかい}できているから", "{理解|りかい}することを{人|ひと}に{命令|めいれい}しているから", "{理解|りかい}したことを{思|おも}い{出|だ}しているから"], "answer": 0,
+    "why_ja": "「〜ようになる」は{能力|のうりょく}の{変化|へんか}です。「たい」がついて、その{変化|へんか}を{望|のぞ}んでいます。", "why_en": "ようになる is a change in ability; with たい, the speaker wishes for that change."},
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "「{生活|せいかつ}するなら」の「なら」の{意味|いみ}は？", "prompt_en": "What does なら mean in 生活するなら?",
+    "options": ["もし〜という{場合|ばあい}は", "〜したあとで", "〜しながら", "〜したことがあるので"], "answer": 0,
+    "why_ja": "「なら」は「その{場合|ばあい}は」という{条件|じょうけん}を{表|あらわ}します。", "why_en": "なら sets a condition: \"if that's the case\"."},
+   {"type": "meaning", "section": "vocab",
+    "prompt_ja": "「{日常会話|にちじょうかいわ}」とはどんな{会話|かいわ}ですか。", "prompt_en": "What kind of conversation is 日常会話?",
+    "options": ["{毎日|まいにち}の{生活|せいかつ}でする{会話|かいわ}", "{仕事|しごと}の{会議|かいぎ}での{会話|かいわ}", "テレビのニュースの{言葉|ことば}", "{試験|しけん}のための{会話|かいわ}"], "answer": 0,
+    "why_ja": "「{日常|にちじょう}」は「ふだんの{毎日|まいにち}」という{意味|いみ}です。", "why_en": "日常 means ordinary daily life."},
+   {"type": "rewrite", "section": "grammar",
+    "prompt_ja": "{同|おな}じ{意味|いみ}の{文|ぶん}はどれですか。", "prompt_en": "Which sentence means the same?",
+    "options": ["{日本|にほん}に{住|す}むなら、ふだんの{会話|かいわ}がわかるようになりたいです。", "{日本|にほん}に{住|す}んだので、ふだんの{会話|かいわ}がわかるようになりました。", "{日本|にほん}に{住|す}むなら、ふだんの{会話|かいわ}を{理解|りかい}させたいです。", "{日本|にほん}に{住|す}むために、ふだんの{会話|かいわ}はわからなくてもいいです。"], "answer": 0,
+    "why_ja": "「{生活|せいかつ}する」は「{住|す}む」、「{理解|りかい}できる」は「わかる」と{言|い}いかえられます。{他|ほか}の{文|ぶん}は{時|とき}や{意味|いみ}が{違|ちが}います。", "why_en": "生活する ≈ 住む and 理解できる ≈ わかる; the others change the tense or meaning."},
+   {"type": "same_pattern", "section": "grammar",
+    "prompt_ja": "「〜ようになりたい」と{同|おな}じ{使|つか}い{方|かた}の{文|ぶん}はどれですか。", "prompt_en": "Which sentence uses the same 〜ようになりたい pattern?",
+    "options": ["{漢字|かんじ}が{読|よ}めるようになりたいです。", "{忘|わす}れないようにメモします。", "{雨|あめ}が{降|ふ}るようです。", "{先生|せんせい}のように{話|はな}したいです。"], "answer": 0,
+    "why_ja": "「{読|よ}めるようになりたい」も{能力|のうりょく}の{変化|へんか}を{望|のぞ}んでいます。{他|ほか}は{目的|もくてき}・{推量|すいりょう}・たとえの「よう」です。", "why_en": "読めるようになりたい also wishes for a change in ability; the others are purpose, conjecture and comparison."}
+  ]
+ },
+ {
+  "id": "n3_an_002", "level": "N3",
+  "ja": "{部長|ぶちょう}に{言|い}われて、{来月|らいげつ}から{新|あたら}しいプロジェクトを{担当|たんとう}することになりました。",
+  "en": "My manager told me, and it's been decided that I'll be in charge of a new project from next month.",
+  "variants": [
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "どうして「ことにしました」ではなく「ことになりました」を{使|つか}っていますか。", "prompt_en": "Why ことになりました rather than ことにしました?",
+    "options": ["{部長|ぶちょう}が{決|き}めたことだから", "{自分|じぶん}で{決|き}めたことだから", "{昔|むかし}からの{習慣|しゅうかん}だから", "まだ{決|き}まっていないから"], "answer": 0,
+    "why_ja": "「{部長|ぶちょう}に{言|い}われて」とあります。{自分|じぶん}{以外|いがい}が{決|き}めたので「ことになる」です。", "why_en": "The manager decided, not the speaker, so ことになる."},
+   {"type": "subject_object", "section": "grammar",
+    "prompt_ja": "「{部長|ぶちょう}に{言|い}われて」で、{言|い}ったのは{誰|だれ}ですか。", "prompt_en": "In 部長に言われて, who did the saying?",
+    "options": ["{部長|ぶちょう}", "{私|わたし}", "プロジェクトのメンバー"], "answer": 0,
+    "why_ja": "{受身|うけみ}の{文|ぶん}では「に」の{人|ひと}が{動作|どうさ}をします。{部長|ぶちょう}が{言|い}って、{私|わたし}が{言|い}われました。", "why_en": "In a passive, the に person does the action: the manager spoke."},
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "「{来月|らいげつ}から」の「から」の{意味|いみ}は？", "prompt_en": "What does から mean in 来月から?",
+    "options": ["{始|はじ}まる{時|とき}", "{理由|りゆう}", "{材料|ざいりょう}", "{場所|ばしょ}"], "answer": 0,
+    "why_ja": "ここの「から」は、{担当|たんとう}が{始|はじ}まる{時|とき}を{表|あらわ}します。", "why_en": "から marks when it starts."},
+   {"type": "respond", "section": "conversation",
+    "prompt_ja": "この{話|はなし}を{聞|き}いた{同僚|どうりょう}の{返事|へんじ}として、{一番|いちばん}{自然|しぜん}なのはどれですか。", "prompt_en": "Which is the most natural reply from a colleague?",
+    "options": ["そうなんですか。{大変|たいへん}そうですが、がんばってください。", "どういたしまして。", "お{大事|だいじ}にしてください。", "{私|わたし}が{担当|たんとう}することにしました。"], "answer": 0,
+    "why_ja": "{新|あたら}しい{仕事|しごと}を{任|まか}された{人|ひと}には、「がんばってください」と{励|はげ}ますのが{自然|しぜん}です。", "why_en": "Encouraging someone with a new responsibility is natural."},
+   {"type": "meaning", "section": "reading",
+    "prompt_ja": "この{文|ぶん}の{内容|ないよう}と{合|あ}うものはどれですか。", "prompt_en": "Which matches the content of the sentence?",
+    "options": ["{来月|らいげつ}から{新|あたら}しい{仕事|しごと}が{始|はじ}まる", "{部長|ぶちょう}がプロジェクトを{担当|たんとう}する", "{私|わたし}はプロジェクトを{断|ことわ}った", "プロジェクトはもう{終|お}わった"], "answer": 0,
+    "why_ja": "「{来月|らいげつ}から…{担当|たんとう}することになりました」とあるので、{来月|らいげつ}から{新|あたら}しい{仕事|しごと}が{始|はじ}まります。", "why_en": "The speaker starts the new project next month."}
+  ]
+ },
+ {
+  "id": "n3_an_003", "level": "N3",
+  "ja": "{雨|あめ}が{降|ふ}り{出|だ}さないうちに、{急|いそ}いで{家|いえ}に{帰|かえ}りましょう。",
+  "en": "Let's hurry home before it starts to rain.",
+  "variants": [
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の「うちに」の{意味|いみ}は？", "prompt_en": "What does うちに mean here?",
+    "options": ["{雨|あめ}が{降|ふ}り{出|だ}す{前|まえ}に", "{雨|あめ}が{降|ふ}っている{間|あいだ}に", "{雨|あめ}が{降|ふ}ったあとで", "{雨|あめ}が{降|ふ}るから"], "answer": 0,
+    "why_ja": "「〜ないうちに」は「その{状態|じょうたい}が{変|か}わる{前|まえ}に」という{意味|いみ}です。", "why_en": "〜ないうちに = before the situation changes."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "どうして「{降|ふ}り{出|だ}さない」と「〜ない」の{形|かたち}を{使|つか}っていますか。", "prompt_en": "Why the negative form 降り出さない?",
+    "options": ["まだ{降|ふ}っていない{状態|じょうたい}が{続|つづ}いている{間|あいだ}に、という{意味|いみ}だから", "{雨|あめ}が{嫌|きら}いだから", "{過去|かこ}のことだから", "{相手|あいて}に{命令|めいれい}しているから"], "answer": 0,
+    "why_ja": "「{降|ふ}り{出|だ}さない」{状態|じょうたい}が{終|お}わる{前|まえ}に{行動|こうどう}する、という{意味|いみ}です。", "why_en": "Act while the 'not raining yet' state still holds."},
+   {"type": "rewrite", "section": "grammar",
+    "prompt_ja": "{同|おな}じ{意味|いみ}の{文|ぶん}はどれですか。", "prompt_en": "Which sentence means the same?",
+    "options": ["{雨|あめ}が{降|ふ}り{出|だ}す{前|まえ}に、{急|いそ}いで{家|いえ}に{帰|かえ}りましょう。", "{雨|あめ}が{降|ふ}り{出|だ}してから、{急|いそ}いで{家|いえ}に{帰|かえ}りましょう。", "{雨|あめ}が{降|ふ}り{出|だ}したので、ゆっくり{家|いえ}に{帰|かえ}りましょう。", "{雨|あめ}が{降|ふ}り{出|だ}すように、{家|いえ}に{帰|かえ}りましょう。"], "answer": 0,
+    "why_ja": "「{降|ふ}り{出|だ}さないうちに」は「{降|ふ}り{出|だ}す{前|まえ}に」と{言|い}いかえられます。", "why_en": "降り出さないうちに ≈ 降り出す前に."},
+   {"type": "respond", "section": "conversation",
+    "prompt_ja": "この{文|ぶん}に{返事|へんじ}をするなら、どれが{一番|いちばん}{自然|しぜん}ですか。", "prompt_en": "Which reply is the most natural?",
+    "options": ["そうですね。{急|いそ}ぎましょう。", "いいえ、どういたしまして。", "はい、もう{降|ふ}り{出|だ}しました。", "{雨|あめ}が{好|す}きだったんですか。"], "answer": 0,
+    "why_ja": "「〜ましょう」と{誘|さそ}われたので、「そうですね。〜ましょう」と{賛成|さんせい}するのが{自然|しぜん}です。", "why_en": "A 〜ましょう suggestion is naturally answered by agreeing."},
+   {"type": "same_pattern", "section": "grammar",
+    "prompt_ja": "「うちに」を{同|おな}じ{意味|いみ}で{使|つか}っている{文|ぶん}はどれですか。", "prompt_en": "Which sentence uses うちに in the same sense?",
+    "options": ["{温|あたた}かいうちに{食|た}べてください。", "{私|わたし}のうちに{遊|あそ}びに{来|き}てください。", "{彼|かれ}はうちの{会社|かいしゃ}の{社員|しゃいん}です。", "{三人|さんにん}のうち{一人|ひとり}が{来|き}ました。"], "answer": 0,
+    "why_ja": "「{温|あたた}かいうちに」も「{冷|さ}める{前|まえ}に」という{意味|いみ}です。{他|ほか}の「うち」は{家|いえ}・{自分|じぶん}の・「〜の{中|なか}で」の{意味|いみ}です。", "why_en": "温かいうちに also means before it changes; the other うち mean home, our, or among."}
+  ]
+ }
+]

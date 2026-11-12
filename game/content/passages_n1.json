@@ -1,0 +1,53 @@
+[
+ {
+  "id": "n1_rd_001", "level": "N1",
+  "title_ja": "{情報|じょうほう}があふれる{時代|じだい}の{判断力|はんだんりょく}",
+  "text_ja": "{近年|きんねん}、インターネットの{普及|ふきゅう}により、{誰|だれ}もが{瞬時|しゅんじ}に{大量|たいりょう}の{情報|じょうほう}を{手|て}にできるようになった。{便利|べんり}になったのは{言|い}うまでもないが、その{一方|いっぽう}で、{見過|みす}ごせない{問題|もんだい}も{生|う}まれている。{人|ひと}は{自分|じぶん}の{考|かんが}えに{合|あ}う{情報|じょうほう}ばかりを{集|あつ}めるきらいがあり、{異|こと}なる{意見|いけん}に{触|ふ}れる{機会|きかい}が{減|へ}っているのだ。しかも、{閲覧|えつらん}{履歴|りれき}に{基|もと}づいて{情報|じょうほう}を{選|えら}ぶ{仕組|しく}みが、この{傾向|けいこう}に{拍車|はくしゃ}をかけている。{専門家|せんもんか}といえども、この{影響|えいきょう}から{完全|かんぜん}に{逃|のが}れることは{難|むずか}しい。{問題|もんだい}は、{情報|じょうほう}の{量|りょう}ではなく、それをどう{扱|あつか}うかにある。{情報|じょうほう}があふれる{時代|じだい}であればこそ、{出所|でどころ}を{確|たし}かめ、{複数|ふくすう}の{立場|たちば}から{考|かんが}える{力|ちから}が{求|もと}められる。{学校|がっこう}{教育|きょういく}においても、{知識|ちしき}を{覚|おぼ}えさせるだけでなく、{情報|じょうほう}を{批判的|ひはんてき}に{読|よ}み{解|と}く{訓練|くんれん}を{重視|じゅうし}すべきだ。{技術|ぎじゅつ}の{進歩|しんぽ}を{生|い}かすも{殺|ころ}すも、{結局|けっきょく}は{使|つか}う{人間|にんげん}の{判断力|はんだんりょく}いかんにかかっている。",
+  "text_en": "In recent years, the spread of the internet has let anyone obtain vast amounts of information instantly. It goes without saying that this is convenient, but it has also created problems we cannot ignore. People tend to gather only information that matches their own views, and their chances to encounter different opinions are shrinking. What is more, systems that select information based on browsing history are accelerating this tendency. Even experts find it hard to escape this influence entirely. The problem lies not in the amount of information but in how we handle it. Precisely because we live in an age overflowing with information, we need the ability to check sources and think from several standpoints. Schools, too, should not only make students memorise knowledge but emphasise training in reading information critically. In the end, whether technological progress is put to good use or wasted depends on the judgement of the people who use it.",
+  "questions": [
+   {"q_ja": "{筆者|ひっしゃ}によると、{本当|ほんとう}の{問題|もんだい}は{何|なん}か。", "q_en": "According to the writer, what is the real problem?",
+    "options": ["{情報|じょうほう}の{量|りょう}が{多|おお}すぎること", "{情報|じょうほう}をどう{扱|あつか}うか", "インターネットの{速度|そくど}が{遅|おそ}いこと"], "answer": 1,
+    "why_ja": "「{問題|もんだい}は、{情報|じょうほう}の{量|りょう}ではなく、それをどう{扱|あつか}うかにある」とあります。", "why_en": "The text says the problem is not quantity but how information is handled."},
+   {"q_ja": "「{拍車|はくしゃ}をかけている」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。", "q_en": "Which is closest in meaning to 拍車をかけている?",
+    "options": ["{傾向|けいこう}をさらに{強|つよ}めている", "{傾向|けいこう}を{止|と}めている", "{傾向|けいこう}とは{関係|かんけい}がない"], "answer": 0,
+    "why_ja": "{履歴|りれき}に{基|もと}づく{仕組|しく}みが、{同|おな}じ{意見|いけん}ばかり{集|あつ}める{傾向|けいこう}をもっと{強|つよ}くしている、という{意味|いみ}です。", "why_en": "The system makes the tendency even stronger."},
+   {"q_ja": "{筆者|ひっしゃ}が{学校|がっこう}{教育|きょういく}に{求|もと}めていることは{何|なん}か。", "q_en": "What does the writer want from school education?",
+    "options": ["{知識|ちしき}をもっと{多|おお}く{覚|おぼ}えさせること", "インターネットの{利用|りよう}を{禁止|きんし}すること", "{情報|じょうほう}を{批判的|ひはんてき}に{読|よ}み{解|と}く{訓練|くんれん}"], "answer": 2,
+    "why_ja": "「{情報|じょうほう}を{批判的|ひはんてき}に{読|よ}み{解|と}く{訓練|くんれん}を{重視|じゅうし}すべきだ」とあります。", "why_en": "The writer says schools should emphasise critical reading of information."}
+  ]
+ },
+ {
+  "id": "n1_rd_002", "level": "N1",
+  "title_ja": "{睡眠|すいみん}と{記憶|きおく}の{定着|ていちゃく}に{関|かん}する{研究|けんきゅう}{要旨|ようし}",
+  "text_ja": "{本研究|ほんけんきゅう}は、{睡眠|すいみん}が{記憶|きおく}の{定着|ていちゃく}に{与|あた}える{影響|えいきょう}を{明|あき}らかにすべく{行|おこな}われた。{対象|たいしょう}は{大学生|だいがくせい}{六十名|ろくじゅうめい}で、{全員|ぜんいん}に{同|おな}じ{単語|たんご}リストを{覚|おぼ}えてもらった。その{後|ご}、{半数|はんすう}には{八時間|はちじかん}の{睡眠|すいみん}をとらせ、{残|のこ}りの{半数|はんすう}には{一晩中|ひとばんじゅう}{起|お}きていてもらった。{翌日|よくじつ}のテストでは、{睡眠|すいみん}をとった{群|ぐん}の{正答率|せいとうりつ}が{平均|へいきん}{七十八|ななじゅうはち}パーセントだったのにひきかえ、{睡眠|すいみん}をとらなかった{群|ぐん}は{五十二|ごじゅうに}パーセントにとどまった。この{差|さ}は、{単語|たんご}の{難|むずか}しさのいかんによらず、ほぼ{一定|いってい}であった。{以上|いじょう}の{結果|けっか}から、{睡眠|すいみん}は{記憶|きおく}を{整理|せいり}し、{定着|ていちゃく}させる{働|はたら}きを{持|も}つと{考|かんが}えられる。ただし、{今回|こんかい}の{調査|ちょうさ}は{若|わか}い{世代|せだい}のみを{対象|たいしょう}としており、{高齢者|こうれいしゃ}にも{同|おな}じ{結果|けっか}が{当|あ}てはまるとは{限|かぎ}らない。また、{実験室|じっけんしつ}という{特殊|とくしゅ}な{環境|かんきょう}で{行|おこな}われた{点|てん}も、{結果|けっか}を{解釈|かいしゃく}する{際|さい}に{考慮|こうりょ}すべきである。{今後|こんご}は、{幅広|はばひろ}い{年齢層|ねんれいそう}を{対象|たいしょう}に、{日常|にちじょう}{生活|せいかつ}に{即|そく}した{条件|じょうけん}で{調査|ちょうさ}を{進|すす}める{予定|よてい}である。",
+  "text_en": "This study was conducted to clarify how sleep affects memory consolidation. Participants were sixty university students, all of whom memorised the same word list. Half were then allowed eight hours of sleep, while the other half stayed awake all night. In a test the next day, the group that slept averaged 78% correct, whereas the group that did not sleep reached only 52%. This gap was almost constant regardless of word difficulty. These results suggest that sleep works to organise and consolidate memories. However, the study covered only young people, so the same result may not hold for older adults. The fact that it was carried out in the special setting of a laboratory should also be considered when interpreting the results. Going forward, we plan to study a wide range of age groups under conditions closer to everyday life.",
+  "questions": [
+   {"q_ja": "{睡眠|すいみん}をとらなかった{群|ぐん}の{正答率|せいとうりつ}は{何|なん}パーセントだったか。", "q_en": "What was the accuracy of the group that did not sleep?",
+    "options": ["{七十八|ななじゅうはち}パーセント", "{五十二|ごじゅうに}パーセント", "{六十|ろくじゅう}パーセント"], "answer": 1,
+    "why_ja": "「{睡眠|すいみん}をとらなかった{群|ぐん}は{五十二|ごじゅうに}パーセントにとどまった」とあります。", "why_en": "The text gives 52% for the group that stayed awake."},
+   {"q_ja": "{単語|たんご}の{難|むずか}しさと{結果|けっか}の{関係|かんけい}について、{本文|ほんぶん}と{合|あ}うものはどれか。", "q_en": "Which matches the text about word difficulty and the results?",
+    "options": ["{難|むずか}しい{単語|たんご}ほど{差|さ}が{大|おお}きかった", "{易|やさ}しい{単語|たんご}では{差|さ}がなかった", "{難|むずか}しさに{関係|かんけい}なく、{差|さ}はほぼ{同|おな}じだった"], "answer": 2,
+    "why_ja": "「{単語|たんご}の{難|むずか}しさのいかんによらず、ほぼ{一定|いってい}であった」とあります。", "why_en": "The gap was nearly constant regardless of difficulty."},
+   {"q_ja": "この{研究|けんきゅう}の{限界|げんかい}として、{本文|ほんぶん}で{挙|あ}げられていないものはどれか。", "q_en": "Which limitation is NOT mentioned in the text?",
+    "options": ["{若|わか}い{世代|せだい}だけを{調|しら}べたこと", "{参加者|さんかしゃ}の{人数|にんずう}が{少|すく}なかったこと", "{実験室|じっけんしつ}で{行|おこな}ったこと"], "answer": 1,
+    "why_ja": "{年齢|ねんれい}と{実験室|じっけんしつ}の{環境|かんきょう}については{書|か}かれていますが、{人数|にんずう}の{問題|もんだい}には{触|ふ}れていません。", "why_en": "Age and the lab setting are mentioned; the number of participants is not."}
+  ]
+ },
+ {
+  "id": "n1_rd_003", "level": "N1",
+  "title_ja": "{夕暮|ゆうぐ}れの{路地|ろじ}",
+  "text_ja": "{夕暮|ゆうぐ}れの{路地|ろじ}には、どこからか{魚|さかな}を{焼|や}く{匂|にお}いが{漂|ただよ}っていた。{軒先|のきさき}に{吊|つ}るされた{風鈴|ふうりん}が、{思|おも}い{出|だ}したように{小|ちい}さく{鳴|な}る。{石畳|いしだたみ}はまだ{昼間|ひるま}の{熱|ねつ}を{残|のこ}し、{裸足|はだし}で{駆|か}けていく{子供|こども}たちの{足音|あしおと}を{柔|やわ}らかく{受|う}け{止|と}めていた。{高層|こうそう}ビルが{並|なら}ぶ{駅|えき}の{向|む}こう{側|がわ}の{喧騒|けんそう}にひきかえ、ここでは{時間|じかん}さえもゆっくりと{流|なが}れているようだった。{私|わたし}は{古|ふる}びた{木|き}の{看板|かんばん}の{前|まえ}で{足|あし}を{止|と}めた。{墨|すみ}で{書|か}かれた{文字|もじ}はすっかり{薄|うす}れていたが、{祖父|そふ}が{営|いとな}んでいた{店|みせ}の{名|な}であることは{読|よ}むまでもなかった。{戸|と}の{隙間|すきま}から{中|なか}をのぞくと、{埃|ほこり}をかぶった{棚|たな}に{西日|にしび}が{斜|なな}めに{差|さ}し{込|こ}んでいる。{幼|おさな}い{日|ひ}、この{棚|たな}の{前|まえ}で{祖父|そふ}の{手|て}つきを{飽|あ}きずに{眺|なが}めていたことが、{昨日|きのう}のことのように{思|おも}い{出|だ}された。{胸|むね}の{奥|おく}からこみ{上|あ}げてくる{懐|なつ}かしさを、{私|わたし}は{禁|きん}じ{得|え}なかった。{遠|とお}くで{豆腐屋|とうふや}のラッパが{鳴|な}り、{路地|ろじ}はゆっくりと{夜|よる}の{色|いろ}に{染|そ}まっていった。",
+  "text_en": "In the alley at dusk, the smell of grilling fish drifted from somewhere. A wind chime hanging from the eaves rang softly, as if it had suddenly remembered to. The paving stones still held the heat of the day and softly received the footsteps of children running barefoot. In contrast to the bustle beyond the station, where high-rise buildings stood in rows, here even time seemed to flow slowly. I stopped in front of a weathered wooden signboard. The ink-brushed characters had almost faded, but I did not need to read them to know it was the name of the shop my grandfather had run. Peering through a gap in the door, I saw the evening sun slanting onto dusty shelves. The days when, as a small child, I had watched my grandfather's hands at work in front of these shelves without ever tiring came back as if they were yesterday. I could not hold back the nostalgia welling up from deep in my chest. Far off, the tofu seller's horn sounded, and the alley slowly took on the colours of night.",
+  "questions": [
+   {"q_ja": "「{私|わたし}」が{足|あし}を{止|と}めた{看板|かんばん}は、{何|なん}の{看板|かんばん}か。", "q_en": "Whose signboard did the narrator stop in front of?",
+    "options": ["{祖父|そふ}が{営|いとな}んでいた{店|みせ}の{看板|かんばん}", "{魚|さかな}を{焼|や}く{店|みせ}の{看板|かんばん}", "{豆腐屋|とうふや}の{看板|かんばん}"], "answer": 0,
+    "why_ja": "「{祖父|そふ}が{営|いとな}んでいた{店|みせ}の{名|な}であることは{読|よ}むまでもなかった」とあります。", "why_en": "The sign bore the name of the grandfather's shop."},
+   {"q_ja": "{駅|えき}の{向|む}こう{側|がわ}と{比|くら}べて、この{路地|ろじ}はどのように{描|えが}かれているか。", "q_en": "Compared with the other side of the station, how is the alley described?",
+    "options": ["{同|おな}じように{騒|さわ}がしい", "{静|しず}かで、{時間|じかん}がゆっくり{流|なが}れている", "{高層|こうそう}ビルが{多|おお}い"], "answer": 1,
+    "why_ja": "「{喧騒|けんそう}にひきかえ、ここでは{時間|じかん}さえもゆっくりと{流|なが}れているようだった」とあります。", "why_en": "In contrast to the bustle, time seems to flow slowly here."},
+   {"q_ja": "「{懐|なつ}かしさを、{私|わたし}は{禁|きん}じ{得|え}なかった」とあるが、「{私|わたし}」の{気持|きも}ちに{最|もっと}も{近|ちか}いのはどれか。", "q_en": "What best describes the narrator's feeling in 懐かしさを禁じ得なかった?",
+    "options": ["{少|すこ}しも{懐|なつ}かしくなかった", "{懐|なつ}かしいと{感|かん}じてはいけないと{思|おも}った", "{懐|なつ}かしさを{抑|おさ}えることができなかった"], "answer": 2,
+    "why_ja": "「を{禁|きん}じ{得|え}ない」は「{気持|きも}ちを{抑|おさ}えられない」という{意味|いみ}です。", "why_en": "を禁じ得ない means being unable to hold a feeling back."}
+  ]
+ }
+]

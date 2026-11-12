@@ -1,0 +1,54 @@
+name: Release builds
+
+# Push a tag like v0.2.0 (or run manually) to export Windows, Linux and Web builds.
+# The Web build can be uploaded to itch.io as an HTML5 game (enable SharedArrayBuffer support).
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+env:
+  GODOT_VERSION: 4.7.2
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Godot and export templates
+        run: |
+          set -euo pipefail
+          BASE="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable"
+          curl -sSL "$BASE/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip" -o godot.zip
+          unzip -q godot.zip
+          sudo mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+          curl -sSL "$BASE/Godot_v${GODOT_VERSION}-stable_export_templates.tpz" -o templates.tpz
+          mkdir -p "$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable"
+          unzip -q templates.tpz -d tpl
+          mv tpl/templates/* "$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable/"
+
+      - name: Import project
+        run: godot --headless --path game --import
+
+      - name: Export
+        run: |
+          set -euo pipefail
+          mkdir -p build/windows build/linux build/web
+          godot --headless --path game --export-release "Windows Desktop" ../build/windows/NihongoNoSekai.exe
+          godot --headless --path game --export-release "Linux" ../build/linux/NihongoNoSekai.x86_64
+          godot --headless --path game --export-release "Web" ../build/web/index.html
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          path: build/windows
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux
+          path: build/linux
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web
+          path: build/web

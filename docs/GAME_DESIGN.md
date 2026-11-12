@@ -480,86 +480,57 @@ Evaluated on the Dashboard, first matching rule wins:
 
 ## 11. Content data model
 
-All content lives in `content/*.json` baked by the Python pipeline (`tools/`), hand-curated fields
-marked **(curated)**. Furigana uses inline ruby markup: `漢字[かんじ]` — the bracket applies to the
-immediately preceding kanji run. JMdict-derived files carry `"attribution": "JMdict © EDRDG, CC BY-SA 4.0"`
-in their header and the in-game 情報 screen credits EDRDG.
+The authoritative schemas, with examples, are in `docs/CONTENT_GUIDE.md`; `tools/validate_content.py`
+enforces them in CI. This section records the shape and the decisions behind it. (The first draft
+of this section proposed `漢字[かんじ]` ruby, JMdict-seq ids and different field names; the
+implementation below replaced it, 2026-11-12.)
 
-### 11.1 `vocab.json` — entry
+**Furigana markup.** Every Japanese field uses inline `{漢字|かんじ}` groups. No kanji may appear
+outside a group — the validator fails CI otherwise, and `tools/check_ui_text.py` applies the same
+rule to literal UI strings in GDScript. Okurigana stays outside the group (`{食|た}べる`);
+jukujikun is one group (`{今日|きょう}`).
 
-| Field | Type | Notes |
+**Files.** `game/content/<kind>_<stage>[_suffix].json`, kind ∈ vocab, kanji, grammar, sentences,
+scenarios, passages, anchors; stage ∈ n5, n4, n3, n2, n1, mastery. All files of a kind and stage
+are merged at load. `kana.json` holds both scripts (basic, dakuten, handakuten, yōon).
+
+| Kind | Source | Key fields |
 |---|---|---|
-| `id` | string | stable, e.g. `v_1281850` (JMdict seq) |
-| `jmdict_seq` | int | source id |
-| `headword` | string | 勉強 |
-| `reading` | string | べんきょう |
-| `ruby` | string | 勉強[べんきょう] |
-| `jlpt` | int | 5..1 |
-| `pos` | string[] | `["n", "vs"]` |
-| `meaning_ja` | string | **(curated)** Japanese definition |
-| `meaning_en` | string | short English, from JMdict glosses, trimmed **(curated)** |
-| `examples` | object[] | `{ruby, en, grammar_ids[], anchor: bool}` **(curated)** |
-| `related` | string[] | vocab ids (学習, 練習, 研究, 復習) |
-| `collocations` | object[] | `{ruby, en}` (勉強する, 勉強になる) |
-| `synonyms`, `antonyms` | string[] | vocab ids |
-| `kanji` | string[] | characters in headword |
-| `tags` | string[] | topic tags |
-| `freq_rank` | int | for ordering 今日の単語 |
+| vocab | baked from `tools/wordlists/<stage>/*.tsv` + JMdict | `id` (stable hash of headword+reading), `headword`, `reading`, `level`, `category`, `definition_ja` (original), `english` (JMdict), `examples[{ja,en}]`, `related`, `kanji[]`, `source` |
+| kanji | baked from KANJIDIC2 | `kanji`, `on[]`, `kun[]`, `meanings[]`, `strokes`, `freq`, `level`, `words[]` (vocab ids using it) |
+| grammar | authored | `id`, `pattern`, `level`, `meaning_en`, `explanation_ja/en`, `one_liner_ja`, `requires[]`, `examples[]`, `items[{kind, ja (with ［　］), options, answer, why_ja, why_en}]` (6–10) |
+| sentences | authored | `id`, `level`, `tier` 1–3, `prompt_en`, `ja_hint`, `tiles` (canonical order), `distractors`, `accepted[][]` (accepted[0] = tiles), `grammar[]` |
+| scenarios | authored | `id`, `level`, `register`, `title_ja/en`, `location`, `turns[{speaker, line_ja, line_en, options[{ja, verdict correct/unnatural/wrong, register?, feedback_ja/en}], typed[]}]` |
+| passages | authored | `id`, `level`, `title_ja`, `text_ja`, `text_en`, `questions[{q_ja, q_en, options, answer, why_ja, why_en}]` |
+| anchors | authored | `id`, `level`, `ja`, `en`, `variants[{type, section, prompt_ja, prompt_en, options, answer, why_ja, why_en}]` (≥ 4) |
 
-### 11.2 `grammar.json` — point
+**Stage inventory as shipped (2026-11-13).**
 
-`id` (string, `g_wa_topic`), `jlpt` (int), `title_ja`, `title_en`, `pattern` (string, `N は N です`),
-`explanation_ja`, `explanation_en`, `one_liner_ja` (used in sentence-builder particle feedback),
-`examples` (object[] `{ruby, en}`), `requires` (string[] grammar ids), `items` (object[]
-`{ruby_with_blank, options[4], answer_index, why_ja, why_en}`).
+| Stage | Words | Kanji (KANJIDIC2) | Grammar | Prompts | Scenarios | Passages | Anchors |
+|---|---|---|---|---|---|---|---|
+| N5 | 772 | 103 (all used by N5 words) | 46 | 48 | 6 | 10 | 10 |
+| N4 | 218 | 181 | 20 | 16 | 2 | 4 | 4 |
+| N3 | 158 | 369 | 15 | 12 | 2 | 3 | 3 |
+| N2 | 155 | 370 | 15 | 10 | 2 | 3 | 3 |
+| N1 | 149 | 1207 | 16 | 10 | 2 | 3 | 3 |
+| Mastery | 87 expressions | — | 15 | 10 | 3 | 3 | 3 |
 
-### 11.3 `prompts.json` — sentence-builder prompt
+N5 meets the §5.1 inventory. N4–N1 and Mastery are starter packs: every system works at every
+stage, but those stages need more curated words to match the §5.1 targets (§12).
 
-`id`, `tier` (int 1–3), `target` (string[]), `alternatives` (string[][]), `distractors` (string[]),
-`ruby_target` (string, full sentence with ruby), `en`, `ja_hint`, `grammar_ids` (string[]),
-`vocab_ids` (string[]), `particle_tiles` (int[]), `anchor_id` (string|null).
-
-### 11.4 `scenarios.json` — scenario
-
-`id`, `title_ja`, `title_en`, `location` (string), `register` (string), `jlpt` (int), `turns`
-(object[]): `{id, npc_ruby, npc_en, npc_register, options: [{tag, ruby, en, why_ja, why_en,
-register, vocab_ids[], grammar_ids[]}], next}`.
-
-### 11.5 `kana.json`
-
-`char` (string), `romaji` (string), `script` (`hiragana`|`katakana`), `kind`
-(`basic`|`dakuten`|`handakuten`|`yoon`), `row` (string), `similar` (string[]), `stroke_image` (path).
-
-### 11.6 `anchors.json`
-
-`id`, `ruby`, `en`, `vocab_ids`, `grammar_ids`, `variants` (object[] `{type, section, data}` where
-`data` holds the type-specific payload: tile lists, options, answer index).
-
-### 11.7 Player save — `user://save.json`
-
-| Field | Type | Notes |
-|---|---|---|
-| `version` | int | schema version for migration |
-| `created_at`, `last_played` | ISO-8601 string | |
-| `profile` | object | `{name, assistance_mode: 0..3, english_toggle_default: bool}` |
-| `stage` | int | 1..6 |
-| `skills` | object | per skill `{perf: float, n: float, score: int}`; `cov` is recomputed on load |
-| `xp` | int | level derived |
-| `streak_days`, `days_studied` | int | |
-| `daily` | object | `{date, quests: {quest_id: progress}, new_words_today, assessment_done}` |
-| `words` | object | `id → {rank, rec, rcl, use, box, due_at, streak, lapses, last_seen}` |
-| `kana` | object | `char → {box, due_at}` |
-| `grammar` | object | `id → {attempts, correct, lesson_done}` |
-| `prompts` | object | `id → {attempts, best_c}` |
-| `scenarios` | object | `id → {completions, best_score}` |
-| `assessments` | object[] | `{date, stage, sections: {skill: pct}, passed}` |
-| `cooldown_until` | ISO-8601 string|null | |
-| `recent_samples` | object[] | ring buffer, last 200 `{t, skill, w, c, source}` for debugging and re-tuning α |
-| `recommend_history` | string[] | last 3 recommendations |
-
-Save is written after every completed item (not only at session end) and uses write-to-temp-then-rename.
+**Player save — `user://save.json` (version 2).** `stage`, `xp`, `english_mode`, `settings`
+{theme, font, english_auto, tts_rate, voice, onboarded, typed_answers}, `skills` {perf, n} per
+skill, `words` id → {rank, rec, rcl, use, box, due, streak, lapses, last_lapse, srs}, `kana`,
+`grammar` id → {attempts, correct, lesson_done}, `prompts`, `scenarios`, `assessments`
+[{date, stage, sections, passed, items}], `cooldown_until`, `consecutive_fails`, `daily`
+{date, counters, paid, new_words, assessment_done, assessment_score, scenarios_rewarded},
+`study_days`, `recommend_history`, `cleared_stages`, `recent_samples` (ring of 200), `reports`.
+Version-1 saves migrate on load (every discovered word joins the review queue). Saves are written
+after every completed item with write-to-temp-then-rename.
 
 ## 12. Later phases
+
+Status 2026-11-13: listening (system TTS), shadowing with self-rating, typed answers (romaji or IME), N4–N1/Mastery starter content and the explorable 3D town are implemented. Automatic pronunciation scoring and free composition graded by a language model are not — they need a speech recogniser or an online service, which conflicts with the offline design. The paragraphs below are the original plan.
 
 **N4–N1 content.** Same schemas; the pipeline adds JLPT-tagged word lists per stage and curators
 write grammar points and anchors. Sentence builder gains clause reordering, formal ↔ casual rewrite,
@@ -586,24 +557,18 @@ in the wrong register is `unnatural`; post-N1 content adds natural connectors (�
 and contextual depth (大丈夫 in five situations). Mastery stage is gated mainly by 会話 (90) and a
 separate practical-communication rubric.
 
-## 13. Open design questions
+## 13. Design decisions (formerly open questions, resolved 2026-11-12)
 
-1. **Onboarding vs pillar P1.** A true zero beginner cannot read the Japanese-first UI before
-   finishing the kana trainer. Do we ship a one-time bilingual onboarding mode, or accept that
-   kana is the real "tutorial"?
-2. **Coverage weight.** `covw = 0.5` means a player who knows 50% of N5 words perfectly tops out at
-   語彙 75 — intentional pressure to cover the list, but is 700 words the right N5 inventory size?
-3. **聴解 in Phase 1.** Keep it visible but optional (shows the gap honestly) or hide the bar until TTS
-   exists (less confusing)?
-4. **Alternative-order coverage.** Authored `alternatives` will miss some natural orders; do we add a
-   "report as natural" button that feeds the curation queue?
-5. **Lapse severity.** `box − 2` plus a rank demotion may feel punitive for Mastered words; should
-   Mastered lapses demote only after two lapses within 30 days?
-6. **Exam eligibility margin.** Threshold − 15 lets players attempt early and learn from the report;
-   is a 24 h cooldown enough to stop "exam farming" as the main study activity?
-7. **Furigana granularity.** Per-kanji-run ruby is simple; per-character (jukujikun-safe) ruby is
-   more correct but needs a morphological analyser in the pipeline. Which does Phase 1 use?
-8. **Daily new-word budget of 10** — fixed, or scaled by streak and review accuracy?
+| # | Question | Decision as implemented |
+|---|---|---|
+| 1 | Onboarding vs Japanese-first | A one-time bilingual onboarding (3 cards, `onboarding.gd`) explains the game, lets the player pick an English-assistance mode, then sends them to the kana trainer. Everything after it is Japanese-first. |
+| 2 | Coverage weight / N5 size | Keep `covw = 0.5`; the N5 inventory is now 772 words, so 語彙 85 needs real coverage plus accuracy. Revisit after playtests. |
+| 3 | 聴解 in Phase 1 | Visible and marked 任意 (optional) at N5. It becomes mandatory from N4. Without an installed Japanese voice the gate section is waived and labelled 免除, so a missing voice never blocks progress. |
+| 4 | Missing natural orders | The sentence builder offers 「この{順番|じゅんばん}も{自然|しぜん}だと{思|おも}う」 on a wrong-order answer. Reports are saved in the save file and exported from 設定 to `user://reports.json` for curation. |
+| 5 | Lapse severity for Mastered words | One grace lapse per 30 days: counters and box still drop, but a Mastered word only loses its rank on a second lapse inside the window (`Mastery.MASTERED_GRACE_SECONDS`). |
+| 6 | Exam farming | Escalating cooldown after consecutive fails: 24 h, 48 h, then 72 h. A pass resets it. Practice sittings (模擬試験) are always available and never change the stage. |
+| 7 | Furigana granularity | Per-kanji-run ruby, with jukujikun as one group, authored by hand and checked against JMdict/KANJIDIC2 by `tools/jpcheck.py`. No morphological analyser in the pipeline. |
+| 8 | Daily new-word budget | Base 10; +5 when recent review accuracy ≥ 85% and fewer than 20 reviews are due; −5 when 40 or more are due; minimum 5. Words only enter reviews through 学習する (or by being answered in review). |
 
 ## 14. Glossary of in-game Japanese terms
 

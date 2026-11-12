@@ -1,0 +1,95 @@
+[
+ {
+  "id": "mastery_sb_001", "level": "MASTERY", "tier": 3,
+  "prompt_en": "Politely decline your manager's invitation for tonight (Sorry, tonight I have something on…).",
+  "ja_hint": "{上司|じょうし}の{誘|さそ}いを{柔|やわ}らかく{断|ことわ}る{文|ぶん}",
+  "tiles": ["すみません", "{今夜|こんや}", "は", "ちょっと", "{用事|ようじ}", "が", "あって"],
+  "distractors": ["を", "{行|い}きません", "ごめん"],
+  "accepted": [
+   ["すみません", "{今夜|こんや}", "は", "ちょっと", "{用事|ようじ}", "が", "あって"],
+   ["すみません", "ちょっと", "{今夜|こんや}", "は", "{用事|ようじ}", "が", "あって"]
+  ],
+  "grammar": ["mastery_indirect_refusal", "mastery_apology_levels"]
+ },
+ {
+  "id": "mastery_sb_002", "level": "MASTERY", "tier": 3,
+  "prompt_en": "In an email, ask a client to kindly check the attached file.",
+  "ja_hint": "お{客様|きゃくさま}に{丁寧|ていねい}に{確認|かくにん}をお{願|ねが}いする{文|ぶん}",
+  "tiles": ["{添付|てんぷ}", "ファイル", "を", "ご{確認|かくにん}", "いただけます", "でしょうか"],
+  "distractors": ["が", "してくれる", "ください"],
+  "accepted": [["{添付|てんぷ}", "ファイル", "を", "ご{確認|かくにん}", "いただけます", "でしょうか"]],
+  "grammar": ["mastery_register_ladder", "mastery_sonkei_kenjou"]
+ },
+ {
+  "id": "mastery_sb_003", "level": "MASTERY", "tier": 3,
+  "prompt_en": "Casually tell a friend: sorry, I've got to go home now.",
+  "ja_hint": "{友達|ともだち}に「{帰|かえ}らなければならない」をくだけて{言|い}う{文|ぶん}",
+  "tiles": ["ごめん", "もう", "{家|いえ}", "に", "{帰|かえ}らなきゃ"],
+  "distractors": ["を", "{帰|かえ}りなきゃ", "{帰|かえ}らなければなりません"],
+  "accepted": [["ごめん", "もう", "{家|いえ}", "に", "{帰|かえ}らなきゃ"]],
+  "grammar": ["mastery_contractions"]
+ },
+ {
+  "id": "mastery_sb_004", "level": "MASTERY", "tier": 3,
+  "prompt_en": "On the phone, tell a client that your manager Tanaka is out of the office right now (humble).",
+  "ja_hint": "{社外|しゃがい}の{人|ひと}に{自分|じぶん}の{上司|じょうし}のことを{謙譲語|けんじょうご}で{伝|つた}える{文|ぶん}",
+  "tiles": ["{申|もう}し{訳|わけ}ありません", "{田中|たなか}", "は", "ただいま", "{外出|がいしゅつ}して", "おります"],
+  "distractors": ["{田中|たなか}さん", "いらっしゃいます", "を"],
+  "accepted": [["{申|もう}し{訳|わけ}ありません", "{田中|たなか}", "は", "ただいま", "{外出|がいしゅつ}して", "おります"]],
+  "grammar": ["mastery_sonkei_kenjou", "mastery_apology_levels"]
+ },
+ {
+  "id": "mastery_sb_005", "level": "MASTERY", "tier": 3,
+  "prompt_en": "Politely ask a passer-by for help by explaining that you want to go to city hall (and trailing off).",
+  "ja_hint": "{事情|じじょう}を{言|い}って{柔|やわ}らかく{道|みち}を{聞|き}く{文|ぶん}",
+  "tiles": ["すみません", "{市役所|しやくしょ}", "に", "{行|い}きたい", "んですけど"],
+  "distractors": ["を", "{行|い}け", "んだから"],
+  "accepted": [["すみません", "{市役所|しやくしょ}", "に", "{行|い}きたい", "んですけど"]],
+  "grammar": ["mastery_softening"]
+ },
+ {
+  "id": "mastery_sb_006", "level": "MASTERY", "tier": 3,
+  "prompt_en": "Gently disagree in a meeting: I think the schedule may be a little tight…",
+  "ja_hint": "{会議|かいぎ}で{柔|やわ}らかく{反対|はんたい}する{文|ぶん}",
+  "tiles": ["スケジュール", "が", "{少|すこ}し", "{厳|きび}しい", "と", "{思|おも}うんですが"],
+  "distractors": ["を", "{絶対|ぜったい}", "{思|おも}え"],
+  "accepted": [["スケジュール", "が", "{少|すこ}し", "{厳|きび}しい", "と", "{思|おも}うんですが"]],
+  "grammar": ["mastery_implied_disagreement"]
+ },
+ {
+  "id": "mastery_sb_007", "level": "MASTERY", "tier": 3,
+  "prompt_en": "Casually tell a friend that Yamada says she'll be about ten minutes late.",
+  "ja_hint": "{聞|き}いたことを{友達|ともだち}にくだけて{伝|つた}える{文|ぶん}",
+  "tiles": ["{山田|やまだ}さん", "{十分|じゅっぷん}", "くらい", "{遅|おく}れる", "って"],
+  "distractors": ["とのことでございます", "{遅|おく}れて", "ごろ"],
+  "accepted": [["{山田|やまだ}さん", "{十分|じゅっぷん}", "くらい", "{遅|おく}れる", "って"]],
+  "grammar": ["mastery_quote_tte", "mastery_contractions"]
+ },
+ {
+  "id": "mastery_sb_008", "level": "MASTERY", "tier": 3,
+  "prompt_en": "Formally thank a client for giving you their time when they are busy.",
+  "ja_hint": "{忙|いそが}しい{相手|あいて}に{改|あらた}まってお{礼|れい}を{言|い}う{文|ぶん}",
+  "tiles": ["お{忙|いそが}しい", "ところ", "お{時間|じかん}", "を", "いただき", "ありがとうございます"],
+  "distractors": ["が", "くれて", "サンキュー"],
+  "accepted": [["お{忙|いそが}しい", "ところ", "お{時間|じかん}", "を", "いただき", "ありがとうございます"]],
+  "grammar": ["mastery_gratitude_levels", "mastery_sonkei_kenjou"]
+ },
+ {
+  "id": "mastery_sb_009", "level": "MASTERY", "tier": 3,
+  "prompt_en": "Apologise formally to a customer for the late delivery.",
+  "ja_hint": "お{客様|きゃくさま}に{配達|はいたつ}の{遅|おく}れを{謝|あやま}る{文|ぶん}",
+  "tiles": ["お{届|とど}け", "が", "{遅|おく}れてしまい", "{誠|まこと}に", "{申|もう}し{訳|わけ}ございません"],
+  "distractors": ["を", "{遅|おく}れちゃって", "ごめんなさい"],
+  "accepted": [["お{届|とど}け", "が", "{遅|おく}れてしまい", "{誠|まこと}に", "{申|もう}し{訳|わけ}ございません"]],
+  "grammar": ["mastery_apology_levels"]
+ },
+ {
+  "id": "mastery_sb_010", "level": "MASTERY", "tier": 3,
+  "prompt_en": "Kindly tell a colleague that it's fine to hand in the report next week.",
+  "ja_hint": "「{来週|らいしゅう}でも{問題|もんだい}ない」と{相手|あいて}に{教|おし}える{文|ぶん}",
+  "tiles": ["{報告書|ほうこくしょ}", "は", "{来週|らいしゅう}", "でも", "{大丈夫|だいじょうぶ}です", "よ"],
+  "distractors": ["を", "しか", "か"],
+  "accepted": [["{報告書|ほうこくしょ}", "は", "{来週|らいしゅう}", "でも", "{大丈夫|だいじょうぶ}です", "よ"]],
+  "grammar": ["mastery_daijoubu", "mastery_final_particles"]
+ }
+]

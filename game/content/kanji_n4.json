@@ -15,7 +15,11 @@
   "strokes": 6,
   "freq": 15,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_efe12b9cf2",
+   "w_15811e8095",
+   "w_98e8c1845f"
+  ]
  },
  {
   "kanji": "事",
@@ -37,7 +41,16 @@
   "strokes": 8,
   "freq": 18,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_c0ebfb66ea",
+   "w_57090b998c",
+   "w_91e274569b",
+   "w_12b8adc624",
+   "w_43063ea820",
+   "w_ae0d387d3d",
+   "w_0a9f617f41",
+   "w_69544eb60b"
+  ]
  },
  {
   "kanji": "自",
@@ -56,7 +69,14 @@
   "strokes": 6,
   "freq": 19,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_e612e13423",
+   "w_f49d2e70ea",
+   "w_d5f2fe180c",
+   "w_1bb256678f",
+   "w_8b02a719e5",
+   "w_86f2e25680"
+  ]
  },
  {
   "kanji": "民",
@@ -98,7 +118,12 @@
   "strokes": 9,
   "freq": 32,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_ab1a75b261",
+   "w_5d68d7e433",
+   "w_e6ac0f2205",
+   "w_fde78fbbdc"
+  ]
  },
  {
   "kanji": "者",
@@ -115,7 +140,10 @@
   "strokes": 8,
   "freq": 38,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_05918cd307",
+   "w_87cc2f68dd"
+  ]
  },
  {
   "kanji": "地",
@@ -131,7 +159,12 @@
   "strokes": 6,
   "freq": 40,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f65ecbb6d4",
+   "w_26ee886191",
+   "w_278f350609",
+   "w_8b306fa3fd"
+  ]
  },
  {
   "kanji": "合",
@@ -160,7 +193,16 @@
   "strokes": 6,
   "freq": 41,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a15b0dc24a",
+   "w_97538ab4ab",
+   "w_96d5f3f055",
+   "w_2346755432",
+   "w_9911e273de",
+   "w_8024a92b90",
+   "w_eb5635d068",
+   "w_117b1f0797"
+  ]
  },
  {
   "kanji": "市",
@@ -178,7 +220,9 @@
   "strokes": 5,
   "freq": 42,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_e69b3b17e7"
+  ]
  },
  {
   "kanji": "業",
@@ -198,7 +242,16 @@
   "strokes": 13,
   "freq": 43,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_817716492f",
+   "w_cdc1e820db",
+   "w_55993099fd",
+   "w_bf1dc20fae",
+   "w_8f07b7fb54",
+   "w_7b459c5f63",
+   "w_8a05420cc6",
+   "w_8b02a719e5"
+  ]
  },
  {
   "kanji": "方",
@@ -218,7 +271,14 @@
   "strokes": 4,
   "freq": 46,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_8b0b7152c8",
+   "w_09727d9307",
+   "w_b62bac6b08",
+   "w_cb5e7ae987",
+   "w_cff2032e8a",
+   "w_bbbfe3a088"
+  ]
  },
  {
   "kanji": "回",
@@ -246,7 +306,9 @@
   "strokes": 6,
   "freq": 50,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_7a21877dd5"
+  ]
  },
  {
   "kanji": "場",
@@ -264,7 +326,12 @@
   "strokes": 12,
   "freq": 52,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_84f7eedc8e",
+   "w_67401302cb",
+   "w_5dea5a278c",
+   "w_e69b3b17e7"
+  ]
  },
  {
   "kanji": "員",
@@ -281,7 +348,10 @@
   "strokes": 10,
   "freq": 54,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_ce55f79ced",
+   "w_2d86ef404d"
+  ]
  },
  {
   "kanji": "開",
@@ -304,7 +374,12 @@
   "strokes": 12,
   "freq": 59,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f2ab1232a2",
+   "w_94edc659df",
+   "w_e6ac0f2205",
+   "w_767343ce4f"
+  ]
  },
  {
   "kanji": "力",
@@ -325,7 +400,11 @@
   "strokes": 2,
   "freq": 62,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_d698018416",
+   "w_d2f0e437ab",
+   "w_3c597527eb"
+  ]
  },
  {
   "kanji": "問",
@@ -345,7 +424,10 @@
   "strokes": 11,
   "freq": 64,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_48e3733d9c",
+   "w_2bf06bc8bf"
+  ]
  },
  {
   "kanji": "代",
@@ -373,7 +455,9 @@
   "strokes": 5,
   "freq": 66,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_31f3bee78e"
+  ]
  },
  {
   "kanji": "明",
@@ -402,7 +486,10 @@
   "freq": 67,
   "level": "N4",
   "words": [
-   "w_ebe21d31dd"
+   "w_ebe21d31dd",
+   "w_1244393f7a",
+   "w_88da3a2714",
+   "w_dcd37628b0"
   ]
  },
  {
@@ -423,7 +510,14 @@
   "strokes": 11,
   "freq": 73,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_09f3bd4dab",
+   "w_5c50f0ea11",
+   "w_82a09687dc",
+   "w_560486c62b",
+   "w_fc03dd6947",
+   "w_5d0b4ad636"
+  ]
  },
  {
   "kanji": "京",
@@ -469,7 +563,12 @@
   "strokes": 10,
   "freq": 80,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_0124dcfa2b",
+   "w_652dc34b82",
+   "w_b393eb82be",
+   "w_234f244b63"
+  ]
  },
  {
   "kanji": "理",
@@ -488,7 +587,13 @@
   "strokes": 11,
   "freq": 86,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_53bbb3c002",
+   "w_b8a96bac39",
+   "w_5c8c670f27",
+   "w_9a591cb7c8",
+   "w_ff948ef9fd"
+  ]
  },
  {
   "kanji": "体",
@@ -509,7 +614,10 @@
   "strokes": 7,
   "freq": 88,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_2b2328359d",
+   "w_ed3ebde363"
+  ]
  },
  {
   "kanji": "田",
@@ -549,7 +657,13 @@
   "strokes": 5,
   "freq": 95,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_3961f4fea1",
+   "w_d7534b7098",
+   "w_a6c85837d1",
+   "w_8d6bbf0bd9",
+   "w_f41026a601"
+  ]
  },
  {
   "kanji": "題",
@@ -564,7 +678,11 @@
   "strokes": 18,
   "freq": 96,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_9a74b33d1c",
+   "w_48e3733d9c",
+   "w_4557afbb43"
+  ]
  },
  {
   "kanji": "首",
@@ -581,7 +699,9 @@
   "strokes": 9,
   "freq": 98,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_17ba6716f6"
+  ]
  },
  {
   "kanji": "意",
@@ -598,7 +718,15 @@
   "strokes": 13,
   "freq": 99,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_015e84e84d",
+   "w_8da89035d5",
+   "w_ba74b26048",
+   "w_d0ef29ee48",
+   "w_25770bf43a",
+   "w_92ce6f4790",
+   "w_c0bf729ba7"
+  ]
  },
  {
   "kanji": "不",
@@ -616,7 +744,10 @@
   "strokes": 4,
   "freq": 101,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_9bb07ee88a",
+   "w_413d1d3802"
+  ]
  },
  {
   "kanji": "作",
@@ -638,7 +769,10 @@
   "strokes": 7,
   "freq": 103,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_b60d287ad4",
+   "w_ea53509383"
+  ]
  },
  {
   "kanji": "用",
@@ -657,7 +791,14 @@
   "strokes": 5,
   "freq": 107,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_12b8adc624",
+   "w_ba74b26048",
+   "w_6530046dc3",
+   "w_96b0684224",
+   "w_8c4dfc0233",
+   "w_c0bf729ba7"
+  ]
  },
  {
   "kanji": "度",
@@ -679,7 +820,11 @@
   "strokes": 9,
   "freq": 110,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_571574474a",
+   "w_14b25a71c2",
+   "w_4ac7323be6"
+  ]
  },
  {
   "kanji": "強",
@@ -701,7 +846,8 @@
   "freq": 112,
   "level": "N4",
   "words": [
-   "w_a219c8badb"
+   "w_a219c8badb",
+   "w_c96ea4c66e"
   ]
  },
  {
@@ -721,7 +867,12 @@
   "strokes": 9,
   "freq": 119,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_86064cc643",
+   "w_a0b1e7953e",
+   "w_cd42d79d89",
+   "w_5aa61c9947"
+  ]
  },
  {
   "kanji": "野",
@@ -742,7 +893,10 @@
   "strokes": 11,
   "freq": 120,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f6c3b8624f",
+   "w_2b46f46420"
+  ]
  },
  {
   "kanji": "都",
@@ -762,7 +916,9 @@
   "strokes": 11,
   "freq": 123,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_97538ab4ab"
+  ]
  },
  {
   "kanji": "以",
@@ -781,7 +937,9 @@
   "strokes": 5,
   "freq": 126,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_16de103b06"
+  ]
  },
  {
   "kanji": "思",
@@ -799,7 +957,11 @@
   "strokes": 9,
   "freq": 132,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_49b8a9b972",
+   "w_bdb49839f5",
+   "w_c7796c699b"
+  ]
  },
  {
   "kanji": "家",
@@ -822,7 +984,9 @@
   "freq": 133,
   "level": "N4",
   "words": [
-   "w_a0ffc92e53"
+   "w_a0ffc92e53",
+   "w_423310b9f2",
+   "w_d5f8b5e37d"
   ]
  },
  {
@@ -844,7 +1008,12 @@
   "strokes": 5,
   "freq": 135,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_8cacc0621f",
+   "w_cd00cc18c2",
+   "w_d58a45a22d",
+   "w_0fbe011d81"
+  ]
  },
  {
   "kanji": "区",
@@ -897,7 +1066,11 @@
   "strokes": 11,
   "freq": 142,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_e892902dd1",
+   "w_1f8ff0f161",
+   "w_69203bf07e"
+  ]
  },
  {
   "kanji": "正",
@@ -920,7 +1093,11 @@
   "strokes": 5,
   "freq": 143,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_d456bdbc89",
+   "w_6ece775deb",
+   "w_265416389f"
+  ]
  },
  {
   "kanji": "院",
@@ -937,7 +1114,11 @@
   "strokes": 10,
   "freq": 150,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a5dc9ef485",
+   "w_18351abbbd",
+   "w_98a7c0c807"
+  ]
  },
  {
   "kanji": "心",
@@ -957,7 +1138,13 @@
   "strokes": 4,
   "freq": 157,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_d113664348",
+   "w_169b53f967",
+   "w_a5695c7317",
+   "w_6fb46034b7",
+   "w_16de103b06"
+  ]
  },
  {
   "kanji": "界",
@@ -972,7 +1159,9 @@
   "strokes": 9,
   "freq": 158,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_8cacc0621f"
+  ]
  },
  {
   "kanji": "産",
@@ -994,7 +1183,10 @@
   "strokes": 11,
   "freq": 161,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_ba78fa0284",
+   "w_cdc1e820db"
+  ]
  },
  {
   "kanji": "教",
@@ -1013,7 +1205,11 @@
   "strokes": 11,
   "freq": 166,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_fd6accbf3d",
+   "w_35844e0f90",
+   "w_806ea3053d"
+  ]
  },
  {
   "kanji": "文",
@@ -1034,7 +1230,12 @@
   "strokes": 4,
   "freq": 190,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_b60d287ad4",
+   "w_6144ccbc3e",
+   "w_93980fbcc8",
+   "w_a60f8e54cf"
+  ]
  },
  {
   "kanji": "元",
@@ -1081,7 +1282,11 @@
   "strokes": 9,
   "freq": 193,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_781e9ebf16",
+   "w_f01621d8ed",
+   "w_0b16c5a2e1"
+  ]
  },
  {
   "kanji": "近",
@@ -1101,7 +1306,10 @@
   "strokes": 7,
   "freq": 194,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_1a4a68e41e",
+   "w_f13f6716a1"
+  ]
  },
  {
   "kanji": "考",
@@ -1119,7 +1327,11 @@
   "strokes": 6,
   "freq": 196,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f07399bbfe",
+   "w_6685ebe7c8",
+   "w_d87e69de8d"
+  ]
  },
  {
   "kanji": "画",
@@ -1144,7 +1356,10 @@
   "freq": 199,
   "level": "N4",
   "words": [
-   "w_21a05e3b07"
+   "w_21a05e3b07",
+   "w_4147b2c8e6",
+   "w_9fd7dd39d9",
+   "w_37efa34238"
   ]
  },
  {
@@ -1162,7 +1377,9 @@
   "strokes": 9,
   "freq": 200,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_8cf83dffa2"
+  ]
  },
  {
   "kanji": "売",
@@ -1179,7 +1396,12 @@
   "strokes": 7,
   "freq": 202,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_853b8e35d6",
+   "w_f85c34beb2",
+   "w_5878da2bed",
+   "w_5dea5a278c"
+  ]
  },
  {
   "kanji": "知",
@@ -1197,7 +1419,12 @@
   "strokes": 8,
   "freq": 205,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_545b259425",
+   "w_a15b0dc24a",
+   "w_41885c410b",
+   "w_ac0fca9d1b"
+  ]
  },
  {
   "kanji": "集",
@@ -1218,7 +1445,10 @@
   "strokes": 12,
   "freq": 210,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_6e57824151",
+   "w_c0c4809f8e"
+  ]
  },
  {
   "kanji": "別",
@@ -1238,7 +1468,11 @@
   "strokes": 7,
   "freq": 214,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_4abf743f68",
+   "w_d80fe96ffd",
+   "w_5f3142f9f2"
+  ]
  },
  {
   "kanji": "物",
@@ -1258,7 +1492,16 @@
   "strokes": 8,
   "freq": 215,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_b3c3c50b2a",
+   "w_b1ba12e364",
+   "w_4c5e8f9f4b",
+   "w_47f5f5f9ba",
+   "w_c694703036",
+   "w_721caaad85",
+   "w_817f7f659f",
+   "w_ba2a039f3e"
+  ]
  },
  {
   "kanji": "引",
@@ -1278,7 +1521,14 @@
   "strokes": 4,
   "freq": 218,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f932ae3cea",
+   "w_57130e8463",
+   "w_81ec998600",
+   "w_614ac0519f",
+   "w_44b9e83498",
+   "w_01c6914d8e"
+  ]
  },
  {
   "kanji": "使",
@@ -1300,7 +1550,9 @@
   "strokes": 8,
   "freq": 219,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a539f50ccb"
+  ]
  },
  {
   "kanji": "所",
@@ -1320,7 +1572,12 @@
   "strokes": 8,
   "freq": 221,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_045a2fb75a",
+   "w_1e502abf87",
+   "w_f71f504507",
+   "w_fa6c1c29b5"
+  ]
  },
  {
   "kanji": "品",
@@ -1340,7 +1597,10 @@
   "strokes": 9,
   "freq": 225,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_0179f69b48",
+   "w_0b15e1bd61"
+  ]
  },
  {
   "kanji": "計",
@@ -1360,7 +1620,11 @@
   "strokes": 9,
   "freq": 228,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_7304473f5a",
+   "w_37efa34238",
+   "w_1a208a2605"
+  ]
  },
  {
   "kanji": "死",
@@ -1378,7 +1642,9 @@
   "strokes": 6,
   "freq": 229,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_fd1983f2f3"
+  ]
  },
  {
   "kanji": "特",
@@ -1392,7 +1658,11 @@
   "strokes": 10,
   "freq": 234,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a08d404346",
+   "w_4abf743f68",
+   "w_f84048db5d"
+  ]
  },
  {
   "kanji": "私",
@@ -1432,7 +1702,10 @@
   "strokes": 8,
   "freq": 244,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_322213fe33",
+   "w_2810dc2566"
+  ]
  },
  {
   "kanji": "朝",
@@ -1452,7 +1725,12 @@
   "freq": 248,
   "level": "N4",
   "words": [
-   "w_9739536935"
+   "w_9739536935",
+   "w_ce34ea2ba4",
+   "w_294723ccaa",
+   "w_230e71c3a7",
+   "w_3acb970380",
+   "w_7e75b4ee68"
   ]
  },
  {
@@ -1470,7 +1748,9 @@
   "strokes": 7,
   "freq": 253,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_9f8b13c317"
+  ]
  },
  {
   "kanji": "運",
@@ -1489,7 +1769,11 @@
   "strokes": 12,
   "freq": 255,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_82a09687dc",
+   "w_5d967b8dbe",
+   "w_4f2371c5ea"
+  ]
  },
  {
   "kanji": "終",
@@ -1511,7 +1795,9 @@
   "strokes": 11,
   "freq": 256,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_d9f11d3a82"
+  ]
  },
  {
   "kanji": "台",
@@ -1532,7 +1818,11 @@
   "strokes": 5,
   "freq": 262,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_045a2fb75a",
+   "w_e263be0333",
+   "w_e2cab4a3e2"
+  ]
  },
  {
   "kanji": "広",
@@ -1554,7 +1844,12 @@
   "strokes": 5,
   "freq": 263,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_43ac094ec2",
+   "w_c22d67b09a",
+   "w_22db4e542b",
+   "w_b848136f68"
+  ]
  },
  {
   "kanji": "住",
@@ -1577,7 +1872,10 @@
   "strokes": 7,
   "freq": 270,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_1e502abf87",
+   "w_78340d6891"
+  ]
  },
  {
   "kanji": "真",
@@ -1597,7 +1895,12 @@
   "strokes": 10,
   "freq": 279,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a7b41d9b72",
+   "w_d2faada464",
+   "w_5b6caa4c36",
+   "w_becabf01f2"
+  ]
  },
  {
   "kanji": "有",
@@ -1617,7 +1920,11 @@
   "strokes": 6,
   "freq": 282,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_31393523e4",
+   "w_963097c518",
+   "w_d014c7316c"
+  ]
  },
  {
   "kanji": "町",
@@ -1636,7 +1943,9 @@
   "strokes": 7,
   "freq": 292,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_38238af0e2"
+  ]
  },
  {
   "kanji": "料",
@@ -1651,7 +1960,12 @@
   "strokes": 10,
   "freq": 295,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_53bbb3c002",
+   "w_0833231af5",
+   "w_0106480d15",
+   "w_7bc6277d7f"
+  ]
  },
  {
   "kanji": "工",
@@ -1669,7 +1983,9 @@
   "strokes": 3,
   "freq": 299,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_84f7eedc8e"
+  ]
  },
  {
   "kanji": "建",
@@ -1689,7 +2005,11 @@
   "strokes": 9,
   "freq": 300,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_ba2a039f3e",
+   "w_ee38d90583",
+   "w_31074dc7eb"
+  ]
  },
  {
   "kanji": "急",
@@ -1710,7 +2030,12 @@
   "strokes": 9,
   "freq": 309,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a08d404346",
+   "w_7540133c43",
+   "w_0f2e9925f6",
+   "w_9fc503c64d"
+  ]
  },
  {
   "kanji": "止",
@@ -1740,7 +2065,11 @@
   "strokes": 4,
   "freq": 310,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_d108f805b0",
+   "w_e64c778373",
+   "w_f6ce6d2956"
+  ]
  },
  {
   "kanji": "送",
@@ -1757,7 +2086,9 @@
   "strokes": 9,
   "freq": 311,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_da36a92b3d"
+  ]
  },
  {
   "kanji": "切",
@@ -1785,7 +2116,15 @@
   "strokes": 4,
   "freq": 324,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f7b5384898",
+   "w_b36fe905e3",
+   "w_6862cb9b39",
+   "w_ccb2faf519",
+   "w_35929858f4",
+   "w_f15db70e1b",
+   "w_d5c13fd137"
+  ]
  },
  {
   "kanji": "説",
@@ -1805,7 +2144,9 @@
   "strokes": 14,
   "freq": 326,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_88da3a2714"
+  ]
  },
  {
   "kanji": "転",
@@ -1830,7 +2171,11 @@
   "strokes": 11,
   "freq": 327,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f49d2e70ea",
+   "w_5d967b8dbe",
+   "w_c0cf708e9f"
+  ]
  },
  {
   "kanji": "研",
@@ -1848,7 +2193,9 @@
   "strokes": 9,
   "freq": 336,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_588f2801ab"
+  ]
  },
  {
   "kanji": "究",
@@ -1866,7 +2213,9 @@
   "strokes": 7,
   "freq": 368,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_588f2801ab"
+  ]
  },
  {
   "kanji": "楽",
@@ -1888,7 +2237,10 @@
   "strokes": 13,
   "freq": 373,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_102c07b049",
+   "w_63016c3fce"
+  ]
  },
  {
   "kanji": "起",
@@ -1911,7 +2263,8 @@
   "freq": 374,
   "level": "N4",
   "words": [
-   "w_6c847e9424"
+   "w_6c847e9424",
+   "w_db17d4e501"
   ]
  },
  {
@@ -1935,7 +2288,14 @@
   "strokes": 12,
   "freq": 376,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_c694703036",
+   "w_7baf4be7c1",
+   "w_32298802e6",
+   "w_8a56bbff74",
+   "w_7203af4260",
+   "w_08d426fa65"
+  ]
  },
  {
   "kanji": "乗",
@@ -1957,7 +2317,11 @@
   "strokes": 9,
   "freq": 377,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_6ebc76d390",
+   "w_0ae6a4e73e",
+   "w_375345368f"
+  ]
  },
  {
   "kanji": "病",
@@ -1977,7 +2341,10 @@
   "strokes": 10,
   "freq": 384,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_89ad2bd5a3",
+   "w_a5dc9ef485"
+  ]
  },
  {
   "kanji": "声",
@@ -1995,7 +2362,9 @@
   "strokes": 7,
   "freq": 388,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_3c4bb26d42"
+  ]
  },
  {
   "kanji": "質",
@@ -2019,7 +2388,10 @@
   "strokes": 15,
   "freq": 389,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_2bf06bc8bf",
+   "w_bd96ff4a6f"
+  ]
  },
  {
   "kanji": "待",
@@ -2037,7 +2409,11 @@
   "strokes": 9,
   "freq": 391,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_60d7e7866a",
+   "w_6b341ecb2d",
+   "w_203fefb54a"
+  ]
  },
  {
   "kanji": "試",
@@ -2057,7 +2433,11 @@
   "strokes": 13,
   "freq": 392,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_0deb2313da",
+   "w_a488057b50",
+   "w_3e7d5e63aa"
+  ]
  },
  {
   "kanji": "族",
@@ -2090,7 +2470,9 @@
   "strokes": 14,
   "freq": 395,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_fb2a44284d"
+  ]
  },
  {
   "kanji": "早",
@@ -2113,7 +2495,9 @@
   "strokes": 6,
   "freq": 402,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_4a372ce2b1"
+  ]
  },
  {
   "kanji": "映",
@@ -2135,7 +2519,8 @@
   "freq": 404,
   "level": "N4",
   "words": [
-   "w_21a05e3b07"
+   "w_21a05e3b07",
+   "w_4147b2c8e6"
   ]
  },
  {
@@ -2158,7 +2543,13 @@
   "strokes": 16,
   "freq": 406,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_990978d1ec",
+   "w_35929858f4",
+   "w_5380da92bb",
+   "w_c9898b9052",
+   "w_eb1b72fbcc"
+  ]
  },
  {
   "kanji": "験",
@@ -2180,7 +2571,10 @@
   "strokes": 18,
   "freq": 410,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_0deb2313da",
+   "w_e971f33496"
+  ]
  },
  {
   "kanji": "働",
@@ -2197,7 +2591,9 @@
   "strokes": 13,
   "freq": 417,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_2edb902a34"
+  ]
  },
  {
   "kanji": "好",
@@ -2219,7 +2615,9 @@
   "freq": 423,
   "level": "N4",
   "words": [
-   "w_1b81aff6fe"
+   "w_1b81aff6fe",
+   "w_dd59995a07",
+   "w_b72e4878ed"
   ]
  },
  {
@@ -2263,7 +2661,10 @@
   "strokes": 16,
   "freq": 433,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_5f6f63041c",
+   "w_ff3b860fab"
+  ]
  },
  {
   "kanji": "低",
@@ -2283,7 +2684,9 @@
   "strokes": 7,
   "freq": 435,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_60168e30fa"
+  ]
  },
  {
   "kanji": "医",
@@ -2302,7 +2705,10 @@
   "strokes": 7,
   "freq": 437,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_05918cd307",
+   "w_87cc2f68dd"
+  ]
  },
  {
   "kanji": "仕",
@@ -2322,7 +2728,9 @@
   "strokes": 5,
   "freq": 439,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_57090b998c"
+  ]
  },
  {
   "kanji": "去",
@@ -2343,7 +2751,9 @@
   "strokes": 5,
   "freq": 440,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_ddeb858fcd"
+  ]
  },
  {
   "kanji": "味",
@@ -2361,7 +2771,13 @@
   "strokes": 8,
   "freq": 442,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_668469130b",
+   "w_015e84e84d",
+   "w_fa36e94a74",
+   "w_6061c5dabf",
+   "w_14ae5e216e"
+  ]
  },
  {
   "kanji": "門",
@@ -2379,7 +2795,9 @@
   "strokes": 8,
   "freq": 452,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_aa039910cb"
+  ]
  },
  {
   "kanji": "写",
@@ -2401,7 +2819,9 @@
   "strokes": 5,
   "freq": 453,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a7b41d9b72"
+  ]
  },
  {
   "kanji": "字",
@@ -2422,7 +2842,10 @@
   "strokes": 6,
   "freq": 485,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_283232db14",
+   "w_8732760e13"
+  ]
  },
  {
   "kanji": "答",
@@ -2440,7 +2863,10 @@
   "strokes": 12,
   "freq": 486,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_7b769ca99d",
+   "w_42ec398138"
+  ]
  },
  {
   "kanji": "夜",
@@ -2480,7 +2906,11 @@
   "strokes": 9,
   "freq": 491,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_102c07b049",
+   "w_ab1a75b261",
+   "w_98e8c1845f"
+  ]
  },
  {
   "kanji": "注",
@@ -2501,7 +2931,10 @@
   "strokes": 8,
   "freq": 497,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_23872ac8f0",
+   "w_8da89035d5"
+  ]
  },
  {
   "kanji": "帰",
@@ -2524,7 +2957,8 @@
   "freq": 504,
   "level": "N4",
   "words": [
-   "w_45e5839bb4"
+   "w_45e5839bb4",
+   "w_f3c0e88c1a"
   ]
  },
  {
@@ -2543,7 +2977,11 @@
   "strokes": 14,
   "freq": 519,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_d829e376f8",
+   "w_2cfc0db357",
+   "w_bbd4701399"
+  ]
  },
  {
   "kanji": "光",
@@ -2589,7 +3027,9 @@
   "strokes": 11,
   "freq": 530,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_ee7098811f"
+  ]
  },
  {
   "kanji": "図",
@@ -2610,7 +3050,10 @@
   "strokes": 7,
   "freq": 539,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a37425dd81",
+   "w_02652b9cd3"
+  ]
  },
  {
   "kanji": "室",
@@ -2629,7 +3072,9 @@
   "strokes": 9,
   "freq": 550,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_fd6accbf3d"
+  ]
  },
  {
   "kanji": "太",
@@ -2649,7 +3094,9 @@
   "strokes": 4,
   "freq": 552,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_400fe9b21f"
+  ]
  },
  {
   "kanji": "歩",
@@ -2669,7 +3116,11 @@
   "strokes": 8,
   "freq": 554,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_520dda5e33",
+   "w_f03b8482dd",
+   "w_69203bf07e"
+  ]
  },
  {
   "kanji": "風",
@@ -2690,7 +3141,13 @@
   "strokes": 9,
   "freq": 558,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_739581d057",
+   "w_38e61a4af4",
+   "w_763addda54",
+   "w_e2cab4a3e2",
+   "w_0e31df841e"
+  ]
  },
  {
   "kanji": "紙",
@@ -2706,7 +3163,10 @@
   "strokes": 10,
   "freq": 559,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f225356a8c",
+   "w_d5d4959d83"
+  ]
  },
  {
   "kanji": "黒",
@@ -2724,7 +3184,11 @@
   "strokes": 11,
   "freq": 573,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_c6df0dce39",
+   "w_c80e8e56a4",
+   "w_1292080914"
+  ]
  },
  {
   "kanji": "春",
@@ -2741,7 +3205,9 @@
   "strokes": 9,
   "freq": 579,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_d77459cf60"
+  ]
  },
  {
   "kanji": "赤",
@@ -2762,7 +3228,11 @@
   "strokes": 7,
   "freq": 584,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_a566fd2e11",
+   "w_1b1f4847be",
+   "w_8377bcb5fe"
+  ]
  },
  {
   "kanji": "青",
@@ -2782,7 +3252,10 @@
   "strokes": 8,
   "freq": 589,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_7ec53e7a2f",
+   "w_6f41d89d96"
+  ]
  },
  {
   "kanji": "森",
@@ -2799,7 +3272,9 @@
   "strokes": 12,
   "freq": 609,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f6cc696b7c"
+  ]
  },
  {
   "kanji": "館",
@@ -2819,7 +3294,12 @@
   "strokes": 16,
   "freq": 613,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_4147b2c8e6",
+   "w_a37425dd81",
+   "w_d63239cd69",
+   "w_95648633cd"
+  ]
  },
  {
   "kanji": "屋",
@@ -2838,7 +3318,16 @@
   "strokes": 9,
   "freq": 616,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_8d1b09f09e",
+   "w_cd5cd5ab05",
+   "w_363e79bec7",
+   "w_3697131335",
+   "w_cce20e3681",
+   "w_07e1827293",
+   "w_a6ffbe7d7c",
+   "w_1203ed3ebe"
+  ]
  },
  {
   "kanji": "色",
@@ -2855,7 +3344,14 @@
   "strokes": 6,
   "freq": 621,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_32f7cfd56c",
+   "w_c741791e2e",
+   "w_3d8ea1c304",
+   "w_62065629cf",
+   "w_c9813b915c",
+   "w_d63b938a2a"
+  ]
  },
  {
   "kanji": "走",
@@ -2871,7 +3367,9 @@
   "strokes": 7,
   "freq": 626,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_367e72e28d"
+  ]
  },
  {
   "kanji": "秋",
@@ -2888,7 +3386,9 @@
   "strokes": 9,
   "freq": 635,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_4d2496772e"
+  ]
  },
  {
   "kanji": "林",
@@ -2905,7 +3405,9 @@
   "strokes": 8,
   "freq": 656,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_d8e321ad14"
+  ]
  },
  {
   "kanji": "夏",
@@ -2923,7 +3425,9 @@
   "strokes": 10,
   "freq": 659,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_4fb377f74f"
+  ]
  },
  {
   "kanji": "顔",
@@ -2940,7 +3444,10 @@
   "strokes": 18,
   "freq": 676,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_abdebe92a4",
+   "w_b848136f68"
+  ]
  },
  {
   "kanji": "短",
@@ -2959,7 +3466,10 @@
   "strokes": 12,
   "freq": 689,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_27a8a623d4",
+   "w_1f7dd241c8"
+  ]
  },
  {
   "kanji": "薬",
@@ -2978,7 +3488,9 @@
   "strokes": 16,
   "freq": 702,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_abb8885291"
+  ]
  },
  {
   "kanji": "習",
@@ -2996,7 +3508,12 @@
   "strokes": 11,
   "freq": 706,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_cee4557584",
+   "w_6f28a8fc9a",
+   "w_d4d7cebb08",
+   "w_dbdb0ea241"
+  ]
  },
  {
   "kanji": "便",
@@ -3016,7 +3533,11 @@
   "strokes": 9,
   "freq": 729,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_85d9027eda",
+   "w_ade48d22da",
+   "w_9bb07ee88a"
+  ]
  },
  {
   "kanji": "洋",
@@ -3033,7 +3554,9 @@
   "strokes": 9,
   "freq": 763,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_9830cd4a61"
+  ]
  },
  {
   "kanji": "旅",
@@ -3050,7 +3573,10 @@
   "strokes": 10,
   "freq": 783,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_7a2f67c442",
+   "w_95648633cd"
+  ]
  },
  {
   "kanji": "軽",
@@ -3072,7 +3598,10 @@
   "strokes": 12,
   "freq": 790,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_ccecda94a6",
+   "w_181b3f80ca"
+  ]
  },
  {
   "kanji": "池",
@@ -3091,7 +3620,9 @@
   "strokes": 6,
   "freq": 827,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_6acea441a8"
+  ]
  },
  {
   "kanji": "服",
@@ -3108,7 +3639,11 @@
   "strokes": 8,
   "freq": 873,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_50a2f5f72e",
+   "w_9830cd4a61",
+   "w_2e4b27d842"
+  ]
  },
  {
   "kanji": "遠",
@@ -3126,7 +3661,11 @@
   "strokes": 13,
   "freq": 887,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_293bce1f90",
+   "w_daecb536a9",
+   "w_5ded6b83de"
+  ]
  },
  {
   "kanji": "夕",
@@ -3142,7 +3681,10 @@
   "strokes": 3,
   "freq": 924,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_b62bac6b08",
+   "w_3acb970380"
+  ]
  },
  {
   "kanji": "借",
@@ -3159,7 +3701,10 @@
   "strokes": 10,
   "freq": 932,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_343b887851",
+   "w_e0f6909c64"
+  ]
  },
  {
   "kanji": "曜",
@@ -3173,7 +3718,16 @@
   "strokes": 18,
   "freq": 940,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_fd6b013e11",
+   "w_25c7f6fcf7",
+   "w_4b335b505d",
+   "w_8929861ab2",
+   "w_47099b03fb",
+   "w_4c07c0de9b",
+   "w_9f646de4aa",
+   "w_20d5114df8"
+  ]
  },
  {
   "kanji": "弱",
@@ -3193,7 +3747,9 @@
   "strokes": 10,
   "freq": 958,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_188acf3ebd"
+  ]
  },
  {
   "kanji": "肉",
@@ -3209,7 +3765,13 @@
   "strokes": 6,
   "freq": 986,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_983c2cec70",
+   "w_016b658ff9",
+   "w_f0670b2650",
+   "w_0c2b9483c2",
+   "w_3697131335"
+  ]
  },
  {
   "kanji": "貸",
@@ -3227,7 +3789,9 @@
   "strokes": 12,
   "freq": 995,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_447dd96cac"
+  ]
  },
  {
   "kanji": "堂",
@@ -3242,7 +3806,9 @@
   "strokes": 11,
   "freq": 1010,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_84617f48b6"
+  ]
  },
  {
   "kanji": "暗",
@@ -3263,7 +3829,9 @@
   "strokes": 13,
   "freq": 1040,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_500ccacbe6"
+  ]
  },
  {
   "kanji": "鳥",
@@ -3280,7 +3848,10 @@
   "strokes": 11,
   "freq": 1043,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_585dc6df02",
+   "w_bf2c8f798e"
+  ]
  },
  {
   "kanji": "飯",
@@ -3298,7 +3869,10 @@
   "freq": 1046,
   "level": "N4",
   "words": [
-   "w_f5efef5f2e"
+   "w_f5efef5f2e",
+   "w_ce34ea2ba4",
+   "w_f576cc486e",
+   "w_51d402cc6f"
   ]
  },
  {
@@ -3336,7 +3910,9 @@
   "strokes": 5,
   "freq": 1090,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_72ca007ab8"
+  ]
  },
  {
   "kanji": "昼",
@@ -3353,7 +3929,10 @@
   "strokes": 9,
   "freq": 1115,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f576cc486e",
+   "w_e54e23fe85"
+  ]
  },
  {
   "kanji": "茶",
@@ -3369,7 +3948,12 @@
   "freq": 1116,
   "level": "N4",
   "words": [
-   "w_d1fadbc70c"
+   "w_d1fadbc70c",
+   "w_2636478559",
+   "w_90929e1a05",
+   "w_62065629cf",
+   "w_c9813b915c",
+   "w_e0262459db"
   ]
  },
  {
@@ -3389,7 +3973,10 @@
   "strokes": 7,
   "freq": 1161,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_3e9fee5e65",
+   "w_f4b291f247"
+  ]
  },
  {
   "kanji": "洗",
@@ -3407,7 +3994,11 @@
   "strokes": 9,
   "freq": 1168,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_beafe31639",
+   "w_391f8c23da",
+   "w_72516ef2ab"
+  ]
  },
  {
   "kanji": "牛",
@@ -3423,7 +4014,10 @@
   "strokes": 4,
   "freq": 1202,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_ff049f1a5e",
+   "w_016b658ff9"
+  ]
  },
  {
   "kanji": "兄",
@@ -3441,7 +4035,11 @@
   "strokes": 5,
   "freq": 1219,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_4091011baa",
+   "w_5e4fdbae81",
+   "w_f4b291f247"
+  ]
  },
  {
   "kanji": "犬",
@@ -3476,7 +4074,9 @@
   "strokes": 11,
   "freq": 1327,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_f6c3b8624f"
+  ]
  },
  {
   "kanji": "暑",
@@ -3494,7 +4094,9 @@
   "strokes": 12,
   "freq": 1442,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_9c8bf796be"
+  ]
  },
  {
   "kanji": "妹",
@@ -3510,7 +4112,9 @@
   "strokes": 8,
   "freq": 1446,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_77cf199e7f"
+  ]
  },
  {
   "kanji": "寒",
@@ -3526,7 +4130,9 @@
   "strokes": 12,
   "freq": 1456,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_7075f30966"
+  ]
  },
  {
   "kanji": "姉",
@@ -3543,7 +4149,10 @@
   "strokes": 8,
   "freq": 1473,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_b8c5f2df03",
+   "w_7d28f60972"
+  ]
  },
  {
   "kanji": "漢",
@@ -3558,6 +4167,8 @@
   "strokes": 13,
   "freq": 1487,
   "level": "N4",
-  "words": []
+  "words": [
+   "w_283232db14"
+  ]
  }
 ]

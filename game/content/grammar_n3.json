@@ -1,0 +1,462 @@
+[
+ {
+  "id": "n3_you_ni",
+  "pattern": "〜ように",
+  "level": "N3",
+  "meaning_en": "so that / in order that (with non-volitional verbs)",
+  "explanation_ja": "「〜ように」は{目的|もくてき}を{表|あらわ}します。{前|まえ}には「できる」「わかる」「{見|み}える」のように、{自分|じぶん}の{意志|いし}では{決|き}められない{動詞|どうし}や、「〜ない」の{形|かたち}が{来|き}ます。",
+  "explanation_en": "ように expresses a goal: \"so that ~ (happens / doesn't happen)\". It follows verbs that are not directly under your control — potential forms, わかる, 見える, 聞こえる — or a negative ない form.",
+  "one_liner_ja": "「〜ように」は「〜できる」「〜ない」という{状態|じょうたい}を{目指|めざ}すときに{使|つか}います。",
+  "requires": [],
+  "examples": [
+   {"ja": "{後|うし}ろの{人|ひと}にも{聞|き}こえるように、{大|おお}きい{声|こえ}で{話|はな}します。", "en": "I speak loudly so that the people at the back can hear too."},
+   {"ja": "{忘|わす}れないように、メモしておきます。", "en": "I'll make a note so I don't forget."},
+   {"ja": "{日本語|にほんご}が{話|はな}せるように、{毎日|まいにち}{練習|れんしゅう}しています。", "en": "I practise every day so that I can speak Japanese."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{日本語|にほんご}の{新聞|しんぶん}が{読|よ}める［　］、{漢字|かんじ}を{勉強|べんきょう}しています。", "options": ["ように", "ために", "ばかり"], "answer": 0,
+    "why_ja": "「{読|よ}める」は{可能|かのう}の{形|かたち}です。{可能|かのう}の{形|かたち}には「ために」ではなく「ように」を{使|つか}います。", "why_en": "読める is a potential form, and potential forms take ように, not ために."},
+   {"kind": "choice", "ja": "{黒板|こくばん}の{字|じ}がよく{見|み}える［　］、{前|まえ}の{席|せき}に{座|すわ}りました。", "options": ["ように", "ために", "のに"], "answer": 0,
+    "why_ja": "「{見|み}える」は{意志|いし}で{決|き}められない{動詞|どうし}なので「ように」です。", "why_en": "見える is not a volitional verb, so the purpose is marked with ように."},
+   {"kind": "conjugation", "ja": "{遅|おく}れ［　］ように、{早|はや}く{家|いえ}を{出|で}ました。", "options": ["ない", "る", "た"], "answer": 0,
+    "why_ja": "{目的|もくてき}は「{遅|おく}れないこと」なので「{遅|おく}れないように」です。", "why_en": "The goal is not being late, so the negative 遅れないように."},
+   {"kind": "choice", "ja": "{子|こ}どもでもわかる［　］、やさしい{言葉|ことば}で{説明|せつめい}しました。", "options": ["ように", "ために", "ところ"], "answer": 0,
+    "why_ja": "「わかる」は{意志|いし}でする{動作|どうさ}ではないので「ように」を{使|つか}います。", "why_en": "わかる is not something you do on purpose, so ように."},
+   {"kind": "meaning", "ja": "「{忘|わす}れないように、メモします。」→「{忘|わす}れないこと」はメモする［　］です。", "options": ["{目的|もくてき}", "{理由|りゆう}", "{場所|ばしょ}"], "answer": 0,
+    "why_ja": "「ように」は{目的|もくてき}を{表|あらわ}します。{忘|わす}れないためにメモするのです。", "why_en": "ように marks the purpose: you write a note so as not to forget."},
+   {"kind": "choice", "ja": "{電車|でんしゃ}に{間|ま}に{合|あ}う［　］、{駅|えき}まで{走|はし}りました。", "options": ["ように", "ことに", "らしく"], "answer": 0,
+    "why_ja": "「{間|ま}に{合|あ}う」ことを{目指|めざ}して{走|はし}ったので「ように」です。", "why_en": "Running with the aim of making the train: ように."},
+   {"kind": "choice", "ja": "{試験|しけん}に{合格|ごうかく}できる［　］、{毎晩|まいばん}{勉強|べんきょう}しています。", "options": ["ように", "ために", "うちに"], "answer": 0,
+    "why_ja": "「できる」の{後|あと}は「ように」です。「できるために」とは{言|い}いません。", "why_en": "After できる use ように; できるために is not used."}
+  ]
+ },
+ {
+  "id": "n3_tame_ni",
+  "pattern": "〜ために",
+  "level": "N3",
+  "meaning_en": "in order to / for the sake of (with volitional verbs); also \"because of\"",
+  "explanation_ja": "「〜ために」は{目的|もくてき}を{表|あらわ}します。{前|まえ}には「{買|か}う」「{行|い}く」のように{自分|じぶん}の{意志|いし}でする{動詞|どうし}の{辞書形|じしょけい}か、「{名詞|めいし}＋の」が{来|き}ます。{前|まえ}と{後|あと}の{主語|しゅご}は{同|おな}じです。「{大雪|おおゆき}のために」のように{原因|げんいん}を{表|あらわ}すこともあります。",
+  "explanation_en": "ために expresses purpose: \"in order to ~ / for the sake of ~\". It follows a volitional verb in the dictionary form or a noun + の, and both halves share one subject. With a noun or past form it can also mean \"because of\".",
+  "one_liner_ja": "「〜ために」は{意志|いし}でする{行動|こうどう}の{目的|もくてき}を{表|あらわ}します。",
+  "requires": ["n3_you_ni"],
+  "examples": [
+   {"ja": "{留学|りゅうがく}するために、お{金|かね}を{貯|た}めています。", "en": "I'm saving money in order to study abroad."},
+   {"ja": "{家族|かぞく}のために、{毎日|まいにち}{働|はたら}いています。", "en": "I work every day for my family."},
+   {"ja": "{新|あたら}しいパソコンを{買|か}うために、アルバイトを{始|はじ}めました。", "en": "I started a part-time job to buy a new computer."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{日本|にほん}の{大学|だいがく}に{入|はい}る［　］、{日本語|にほんご}を{勉強|べんきょう}しています。", "options": ["ために", "ように", "うちに"], "answer": 0,
+    "why_ja": "「{入|はい}る」は{自分|じぶん}の{意志|いし}でする{動作|どうさ}なので「ために」です。", "why_en": "入る is a volitional action, so the purpose takes ために."},
+   {"kind": "particle", "ja": "{健康|けんこう}［　］ために、{毎朝|まいあさ}{走|はし}っています。", "options": ["の", "が", "に", "を"], "answer": 0,
+    "why_ja": "{名詞|めいし}の{後|あと}は「の」をつけて「{健康|けんこう}のために」です。", "why_en": "A noun takes の before ために: 健康のために."},
+   {"kind": "choice", "ja": "{写真|しゃしん}を{撮|と}る［　］、カメラを{持|も}ってきました。", "options": ["ために", "ばかり", "ところ"], "answer": 0,
+    "why_ja": "カメラを{持|も}ってきた{目的|もくてき}は{写真|しゃしん}を{撮|と}ることです。", "why_en": "Taking photos is the purpose of bringing the camera."},
+   {"kind": "conjugation", "ja": "{資料|しりょう}を［　］ために、{早|はや}く{会社|かいしゃ}に{来|き}ました。", "options": ["{作|つく}る", "{作|つく}れる", "{作|つく}って"], "answer": 0,
+    "why_ja": "「ために」の{前|まえ}は{意志|いし}を{表|あらわ}す{辞書形|じしょけい}です。{可能|かのう}の{形|かたち}は{使|つか}いません。", "why_en": "ために follows the plain dictionary form, not the potential form."},
+   {"kind": "meaning", "ja": "「{子|こ}どものために{料理|りょうり}を{作|つく}ります。」→{料理|りょうり}を{作|つく}るのは［　］です。", "options": ["{子|こ}どもに{食|た}べてもらうため", "{子|こ}どもが{作|つく}ったから", "{子|こ}どもといっしょだから"], "answer": 0,
+    "why_ja": "「{名詞|めいし}＋のために」は「その{人|ひと}のためになるように」という{意味|いみ}です。", "why_en": "Noun + のために means doing it for that person's benefit."},
+   {"kind": "choice", "ja": "{試合|しあい}に{勝|か}つ［　］、{毎日|まいにち}{練習|れんしゅう}しています。", "options": ["ために", "らしく", "みたいに"], "answer": 0,
+    "why_ja": "{勝|か}つことが{練習|れんしゅう}の{目的|もくてき}なので「ために」です。", "why_en": "Winning is the purpose of practising, so ために."},
+   {"kind": "choice", "ja": "{大雪|おおゆき}の［　］、{電車|でんしゃ}が{止|と}まりました。", "options": ["ために", "ように", "うちに"], "answer": 0,
+    "why_ja": "ここの「ために」は{原因|げんいん}です。{大雪|おおゆき}が{理由|りゆう}で{電車|でんしゃ}が{止|と}まりました。", "why_en": "Here ために marks the cause: the trains stopped because of heavy snow."}
+  ]
+ },
+ {
+  "id": "n3_koto_ni_naru",
+  "pattern": "〜ことになる",
+  "level": "N3",
+  "meaning_en": "it has been decided that ~ / it turns out that ~ (not by the speaker)",
+  "explanation_ja": "「〜ことになる」は、{自分|じぶん}ではなく、{会社|かいしゃ}や{周|まわ}りの{事情|じじょう}で{何|なに}かが{決|き}まったことを{表|あらわ}します。「〜ことになりました」の{形|かたち}でよく{使|つか}います。「〜ことになっている」は{規則|きそく}や{予定|よてい}です。",
+  "explanation_en": "ことになる says something has been decided or arranged — by circumstances or other people rather than the speaker. It is common as 〜ことになりました when announcing news. 〜ことになっている describes a rule or fixed arrangement.",
+  "one_liner_ja": "「〜ことになる」は{自分|じぶん}{以外|いがい}が{決|き}めたことを{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{来月|らいげつ}から{大阪|おおさか}の{支店|してん}で{働|はたら}くことになりました。", "en": "It's been decided that I'll work at the Osaka branch from next month."},
+   {"ja": "{会議|かいぎ}は{金曜日|きんようび}に{行|おこな}うことになりました。", "en": "The meeting has been set for Friday."},
+   {"ja": "この{会社|かいしゃ}では、{休|やす}むときは{朝|あさ}{電話|でんわ}することになっています。", "en": "At this company, the rule is that you phone in the morning when you take a day off."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{会社|かいしゃ}の{命令|めいれい}で、{来年|らいねん}アメリカに{行|い}く［　］になりました。", "options": ["こと", "もの", "ところ"], "answer": 0,
+    "why_ja": "{会社|かいしゃ}が{決|き}めたことなので「ことになりました」です。", "why_en": "The company decided it, so ことになりました."},
+   {"kind": "particle", "ja": "{結婚式|けっこんしき}は{六月|ろくがつ}に{行|おこな}うこと［　］なりました。", "options": ["に", "を", "が", "で"], "answer": 0,
+    "why_ja": "{形|かたち}は「ことになる」です。「に」を{使|つか}います。", "why_en": "The pattern is こと＋に＋なる."},
+   {"kind": "choice", "ja": "この{会社|かいしゃ}では、{会議室|かいぎしつ}を{使|つか}う{前|まえ}に{予約|よやく}する［　］になっています。", "options": ["こと", "ため", "はず"], "answer": 0,
+    "why_ja": "「ことになっている」は{会社|かいしゃ}の{規則|きそく}を{表|あらわ}します。", "why_en": "ことになっている describes a company rule."},
+   {"kind": "choice", "ja": "{雨|あめ}が{続|つづ}いたので、{運動会|うんどうかい}は{中止|ちゅうし}という［　］になりました。", "options": ["こと", "はず", "わけ"], "answer": 0,
+    "why_ja": "{天気|てんき}の{事情|じじょう}で{中止|ちゅうし}が{決|き}まったので「ことになりました」です。", "why_en": "The weather led to the cancellation being decided: ことになりました."},
+   {"kind": "meaning", "ja": "「{転勤|てんきん}することになりました。」→{転勤|てんきん}を{決|き}めたのは［　］です。", "options": ["{会社|かいしゃ}", "{自分|じぶん}", "{友達|ともだち}"], "answer": 0,
+    "why_ja": "「ことになる」は{自分|じぶん}ではなく、{会社|かいしゃ}などが{決|き}めたことを{表|あらわ}します。", "why_en": "ことになる means someone else, such as the company, decided."},
+   {"kind": "conjugation", "ja": "{話|はな}し{合|あ}いの{結果|けっか}、{新|あたら}しいシステムを［　］ことになりました。", "options": ["{使|つか}う", "{使|つか}った", "{使|つか}って"], "answer": 0,
+    "why_ja": "「ことになる」の{前|まえ}は{辞書形|じしょけい}です。これからすることだからです。", "why_en": "ことになる follows the dictionary form for something that will happen."},
+   {"kind": "choice", "ja": "{上司|じょうし}に{言|い}われて、{来週|らいしゅう}から{私|わたし}がこの{仕事|しごと}を{担当|たんとう}する［　］。", "options": ["ことになりました", "ことにしました", "ところでした"], "answer": 0,
+    "why_ja": "{上司|じょうし}が{決|き}めたことなので「ことになりました」です。", "why_en": "The boss decided it, so ことになりました, not ことにしました."}
+  ]
+ },
+ {
+  "id": "n3_koto_ni_suru",
+  "pattern": "〜ことにする",
+  "level": "N3",
+  "meaning_en": "decide to ~ (the speaker's own decision); ことにしている = make it a rule to ~",
+  "explanation_ja": "「〜ことにする」は、{自分|じぶん}の{意志|いし}で{何|なに}かを{決|き}めることを{表|あらわ}します。「〜ことにしている」は、{自分|じぶん}で{決|き}めて{続|つづ}けている{習慣|しゅうかん}です。",
+  "explanation_en": "ことにする means the speaker decides to do something. ことにしている describes a personal rule or habit you have chosen to keep.",
+  "one_liner_ja": "「〜ことにする」は{自分|じぶん}で{決|き}めたことを{表|あらわ}します。",
+  "requires": ["n3_koto_ni_naru"],
+  "examples": [
+   {"ja": "{健康|けんこう}のために、{毎朝|まいあさ}{歩|ある}くことにしました。", "en": "I've decided to walk every morning for my health."},
+   {"ja": "{寝|ね}る{前|まえ}は、スマホを{見|み}ないことにしています。", "en": "I make it a rule not to look at my phone before bed."}
+  ],
+  "items": [
+   {"kind": "particle", "ja": "よく{考|かんが}えて、{私|わたし}は{会社|かいしゃ}を{辞|や}めること［　］しました。", "options": ["に", "が", "を", "で"], "answer": 0,
+    "why_ja": "{形|かたち}は「ことにする」です。「に」を{使|つか}います。", "why_en": "The pattern is こと＋に＋する."},
+   {"kind": "choice", "ja": "{自分|じぶん}で{決|き}めて、{今年|ことし}からタバコをやめる［　］。", "options": ["ことにしました", "ことになりました", "ところです"], "answer": 0,
+    "why_ja": "「{自分|じぶん}で{決|き}めて」とあるので「ことにしました」です。", "why_en": "自分で決めて shows it was your own decision: ことにしました."},
+   {"kind": "conjugation", "ja": "{夜|よる}は{甘|あま}いものを［　］ことにしています。", "options": ["{食|た}べない", "{食|た}べなかった", "{食|た}べられた"], "answer": 0,
+    "why_ja": "{習慣|しゅうかん}を{言|い}うときは{辞書形|じしょけい}か「〜ない」の{形|かたち}です。", "why_en": "A habit uses the dictionary or ない form before ことにしている."},
+   {"kind": "choice", "ja": "{天気|てんき}が{悪|わる}いので、{私|わたし}は{今日|きょう}{家|いえ}にいる［　］にします。", "options": ["こと", "はず", "わけ"], "answer": 0,
+    "why_ja": "{自分|じぶん}で{決|き}めることなので「ことにします」です。", "why_en": "You are deciding for yourself: ことにします."},
+   {"kind": "meaning", "ja": "「{毎日|まいにち}{日記|にっき}を{書|か}くことにしています。」→これは［　］です。", "options": ["{自分|じぶん}で{決|き}めた{習慣|しゅうかん}", "{会社|かいしゃ}の{規則|きそく}", "{一回|いっかい}だけしたこと"], "answer": 0,
+    "why_ja": "「ことにしている」は{自分|じぶん}で{決|き}めて{続|つづ}けている{習慣|しゅうかん}です。", "why_en": "ことにしている is a habit you chose for yourself."},
+   {"kind": "choice", "ja": "{迷|まよ}いましたが、{赤|あか}いほうのかばんを{買|か}う［　］にしました。", "options": ["こと", "ため", "よう"], "answer": 0,
+    "why_ja": "{迷|まよ}ってから{自分|じぶん}で{決|き}めたので「ことにしました」です。", "why_en": "After hesitating, you made a decision: ことにしました."},
+   {"kind": "choice", "ja": "{来週|らいしゅう}の{旅行|りょこう}は、{電車|でんしゃ}で{行|い}く［　］しました。", "options": ["ことに", "ことが", "ものに"], "answer": 0,
+    "why_ja": "「〜ことにしました」で{自分|じぶん}の{決定|けってい}を{表|あらわ}します。", "why_en": "〜ことにしました states your decision."}
+  ]
+ },
+ {
+  "id": "n3_wake_da",
+  "pattern": "〜わけだ",
+  "level": "N3",
+  "meaning_en": "so that's why ~ / no wonder ~ / it follows that ~",
+  "explanation_ja": "「〜わけだ」は、{理由|りゆう}や{事実|じじつ}を{知|し}って「だから〜なのか」と{納得|なっとく}したときに{使|つか}います。「それで〜わけだ」「どうりで〜わけだ」の{形|かたち}が{多|おお}いです。{計算|けいさん}などで「つまり〜ということだ」という{意味|いみ}にもなります。",
+  "explanation_en": "わけだ shows you understand a result from its cause: \"so that's why ~ / no wonder ~\". It often comes with それで or どうりで. It can also state a logical conclusion: \"which means ~\".",
+  "one_liner_ja": "「〜わけだ」は{理由|りゆう}がわかって{納得|なっとく}したときに{使|つか}います。",
+  "requires": [],
+  "examples": [
+   {"ja": "A：{田中|たなか}さん、{十年|じゅうねん}アメリカに{住|す}んでいたそうです。B：それで{英語|えいご}が{上手|じょうず}なわけですね。", "en": "A: I hear Tanaka lived in America for ten years. B: So that's why his English is so good."},
+   {"ja": "{駅|えき}から{歩|ある}いて{二分|にふん}か。{家賃|やちん}が{高|たか}いわけだ。", "en": "Two minutes' walk from the station? No wonder the rent is high."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "エアコンが{壊|こわ}れている。どうりで{暑|あつ}い［　］だ。", "options": ["わけ", "ため", "ところ"], "answer": 0,
+    "why_ja": "{暑|あつ}い{理由|りゆう}がわかって{納得|なっとく}しているので「わけだ」です。", "why_en": "You've found the reason it's hot and accept it: わけだ."},
+   {"kind": "choice", "ja": "{彼|かれ}は{毎日|まいにち}{三時間|さんじかん}{練習|れんしゅう}している。{上手|じょうず}な［　］だ。", "options": ["わけ", "ところ", "うち"], "answer": 0,
+    "why_ja": "{練習|れんしゅう}が{上手|じょうず}な{理由|りゆう}なので「わけだ」です。", "why_en": "The practice explains the skill: わけだ."},
+   {"kind": "conjugation", "ja": "{昨日|きのう}{徹夜|てつや}したそうだ。{眠|ねむ}そうに［　］わけだ。", "options": ["{見|み}える", "{見|み}えて", "{見|み}え"], "answer": 0,
+    "why_ja": "「わけだ」の{前|まえ}は{普通形|ふつうけい}です。「{見|み}えるわけだ」になります。", "why_en": "わけだ follows the plain form: 見えるわけだ."},
+   {"kind": "choice", "ja": "A：{山田|やまだ}さん、{来月|らいげつ}{結婚|けっこん}するんですって。B：それで{最近|さいきん}うれしそうな［　］ですね。", "options": ["わけ", "ため", "ばかり"], "answer": 0,
+    "why_ja": "「それで」と{理由|りゆう}を{受|う}けて{納得|なっとく}しているので「わけです」です。", "why_en": "それで picks up the reason, so わけです."},
+   {"kind": "meaning", "ja": "「{雪|ゆき}が{降|ふ}っている。{寒|さむ}いわけだ。」→{話|はな}している{人|ひと}は［　］。", "options": ["{寒|さむ}い{理由|りゆう}がわかった", "これから{寒|さむ}くなると{思|おも}っている", "{寒|さむ}いかどうかわからない"], "answer": 0,
+    "why_ja": "「わけだ」は{理由|りゆう}がわかって{納得|なっとく}した{気持|きも}ちです。", "why_en": "わけだ shows the speaker now understands why it's cold."},
+   {"kind": "choice", "ja": "{値段|ねだん}が{半分|はんぶん}だから、{客|きゃく}が{多|おお}い［　］だ。", "options": ["わけ", "うち", "ところ"], "answer": 0,
+    "why_ja": "{値段|ねだん}が{安|やす}いことが{客|きゃく}が{多|おお}い{理由|りゆう}なので「わけだ」です。", "why_en": "Half price explains the crowd: わけだ."},
+   {"kind": "choice", "ja": "{時差|じさ}が{八時間|はちじかん}あるから、{東京|とうきょう}が{夜|よる}{九時|くじ}なら、ロンドンは{午後|ごご}{一時|いちじ}という［　］だ。", "options": ["わけ", "ばかり", "うち"], "answer": 0,
+    "why_ja": "{計算|けいさん}して「つまり〜だ」と{言|い}うときも「わけだ」を{使|つか}います。", "why_en": "わけだ also states a logical result: \"which means ~\"."}
+  ]
+ },
+ {
+  "id": "n3_hazu_da",
+  "pattern": "〜はずだ",
+  "level": "N3",
+  "meaning_en": "should be / is expected to ~ (based on reasoning); はずがない = there's no way ~",
+  "explanation_ja": "「〜はずだ」は、{理由|りゆう}があって「きっとそうだ」と{思|おも}うときに{使|つか}います。「〜はずがない」は「そんなことは{絶対|ぜったい}にない」という{意味|いみ}です。「〜はずなのに」は、{思|おも}ったとおりにならなかったときに{使|つか}います。",
+  "explanation_en": "はずだ states a confident expectation based on some reason: \"should be / must be ~\". はずがない means \"there's no way ~\". はずなのに expresses surprise that the expectation didn't come true.",
+  "one_liner_ja": "「〜はずだ」は{理由|りゆう}があって{強|つよ}くそう{思|おも}うことを{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{荷物|にもつ}は{昨日|きのう}{送|おく}ったから、{明日|あした}{届|とど}くはずです。", "en": "I sent the package yesterday, so it should arrive tomorrow."},
+   {"ja": "あんなにまじめな{人|ひと}が、うそをつくはずがありません。", "en": "There's no way such a serious person would lie."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{会議|かいぎ}は{三時|さんじ}からだと{伝|つた}えたから、{部長|ぶちょう}も{知|し}っている［　］です。", "options": ["はず", "ところ", "ばかり"], "answer": 0,
+    "why_ja": "{伝|つた}えたという{理由|りゆう}があって「きっと{知|し}っている」と{思|おも}うので「はず」です。", "why_en": "You told him, so you expect he knows: はず."},
+   {"kind": "choice", "ja": "{鍵|かぎ}はかばんに{入|い}れた［　］なのに、{見|み}つからない。", "options": ["はず", "わけ", "ため"], "answer": 0,
+    "why_ja": "{思|おも}ったとおりにならないときは「はずなのに」です。", "why_en": "Expectation not met: はずなのに."},
+   {"kind": "particle", "ja": "{彼|かれ}が{来|く}るはず［　］ない。{今|いま}、{海外|かいがい}にいるから。", "options": ["が", "を", "で", "に"], "answer": 0,
+    "why_ja": "「はずがない」で「{絶対|ぜったい}にない」という{意味|いみ}です。", "why_en": "はずがない = there's no way."},
+   {"kind": "conjugation", "ja": "{昨日|きのう}たくさん{寝|ね}たから、{今日|きょう}は{元気|げんき}［　］はずだ。", "options": ["な", "だ", "の"], "answer": 0,
+    "why_ja": "な{形容詞|けいようし}の{後|あと}は「な」をつけて「{元気|げんき}なはずだ」です。", "why_en": "A na-adjective takes な before はず: 元気なはず."},
+   {"kind": "choice", "ja": "{田中|たなか}さんは{十年|じゅうねん}この{町|まち}に{住|す}んでいたから、この{辺|へん}の{道|みち}に{詳|くわ}しい［　］です。", "options": ["はず", "ところ", "うち"], "answer": 0,
+    "why_ja": "{長|なが}く{住|す}んでいたという{理由|りゆう}から{考|かんが}えているので「はず」です。", "why_en": "Reasoning from his long residence: はず."},
+   {"kind": "meaning", "ja": "「{彼女|かのじょ}はもう{家|いえ}に{着|つ}いたはずだ。」→{話|はな}している{人|ひと}は［　］。", "options": ["{理由|りゆう}があって、そう{思|おも}っている", "{着|つ}いたのを{自分|じぶん}で{見|み}た", "{着|つ}いてほしいと{願|ねが}っている"], "answer": 0,
+    "why_ja": "「はずだ」は{見|み}たことではなく、{理由|りゆう}から{考|かんが}えたことです。", "why_en": "はずだ is a reasoned expectation, not something seen."},
+   {"kind": "choice", "ja": "{店|みせ}は{十時|じゅうじ}に{開|ひら}く［　］なのに、まだ{閉|し}まっている。", "options": ["はず", "ばかり", "みたい"], "answer": 0,
+    "why_ja": "{開|ひら}くと{思|おも}っていたのに{閉|し}まっているので「はずなのに」です。", "why_en": "It was expected to open but is still closed: はずなのに."}
+  ]
+ },
+ {
+  "id": "n3_bakari",
+  "pattern": "〜ばかり／〜てばかりいる／〜たばかり",
+  "level": "N3",
+  "meaning_en": "nothing but / only ~; do nothing but ~; have just done ~",
+  "explanation_ja": "「〜ばかり」は「そればかりで、{他|ほか}のことがない」という{意味|いみ}です。「〜てばかりいる」は{同|おな}じことを{何度|なんど}もしている{様子|ようす}で、よくない{気持|きも}ちを{表|あらわ}すことが{多|おお}いです。「〜たばかり」は「{少|すこ}し{前|まえ}にした」という{意味|いみ}です。",
+  "explanation_en": "ばかり means \"nothing but / only ~\", often with a note of criticism. Verb-てばかりいる = \"do nothing but ~\". Verb-たばかり = \"have just done ~\" (it feels recent to the speaker).",
+  "one_liner_ja": "「〜ばかり」は「それだけ」、「〜たばかり」は「{少|すこ}し{前|まえ}に」という{意味|いみ}です。",
+  "requires": [],
+  "examples": [
+   {"ja": "{弟|おとうと}はゲームばかりしています。", "en": "My little brother does nothing but play games."},
+   {"ja": "{彼|かれ}は{文句|もんく}を{言|い}ってばかりいる。", "en": "He's always complaining."},
+   {"ja": "この{会社|かいしゃ}に{入|はい}ったばかりなので、まだよくわかりません。", "en": "I've only just joined this company, so I don't know much yet."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{息子|むすこ}は{肉|にく}［　］{食|た}べて、{野菜|やさい}を{食|た}べない。", "options": ["ばかり", "ように", "はず"], "answer": 0,
+    "why_ja": "{肉|にく}だけを{食|た}べているので「ばかり」です。", "why_en": "He eats only meat: ばかり."},
+   {"kind": "conjugation", "ja": "{毎日|まいにち}{寝|ね}［　］いないで、{少|すこ}しは{運動|うんどう}しなさい。", "options": ["てばかり", "たばかり", "るばかり"], "answer": 0,
+    "why_ja": "「〜てばかりいる」で「そればかりしている」という{意味|いみ}です。", "why_en": "〜てばかりいる = do nothing but ~."},
+   {"kind": "choice", "ja": "{日本|にほん}に{来|き}た［　］なので、まだ{友達|ともだち}がいません。", "options": ["ばかり", "はず", "わけ"], "answer": 0,
+    "why_ja": "「{来|き}たばかり」は{来|き}てからまだ{時間|じかん}が{短|みじか}いという{意味|いみ}です。", "why_en": "来たばかり = only just arrived."},
+   {"kind": "choice", "ja": "{昼|ひる}ご{飯|はん}を{食|た}べた［　］なのに、もうおなかがすいた。", "options": ["ばかり", "ように", "らしい"], "answer": 0,
+    "why_ja": "{少|すこ}し{前|まえ}に{食|た}べたことを「{食|た}べたばかり」と{言|い}います。", "why_en": "食べたばかり = just ate a moment ago."},
+   {"kind": "meaning", "ja": "「{彼|かれ}は{寝|ね}てばかりいる。」→［　］。", "options": ["いつも{寝|ね}ている", "{今|いま}{寝|ね}たところだ", "{少|すこ}しだけ{寝|ね}る"], "answer": 0,
+    "why_ja": "「〜てばかりいる」は{何度|なんど}も、いつもそうしている{様子|ようす}です。", "why_en": "〜てばかりいる means always doing it."},
+   {"kind": "choice", "ja": "{雨|あめ}［　］で、どこにも{行|い}けない{週末|しゅうまつ}だった。", "options": ["ばかり", "はず", "わけ"], "answer": 0,
+    "why_ja": "{雨|あめ}の{日|ひ}しかなかったので「{雨|あめ}ばかり」です。", "why_en": "Nothing but rain: 雨ばかり."},
+   {"kind": "choice", "ja": "{彼女|かのじょ}は{泣|な}いて［　］いて、{何|なに}も{話|はな}してくれない。", "options": ["ばかり", "はず", "ところ"], "answer": 0,
+    "why_ja": "ずっと{泣|な}いている{様子|ようす}なので「{泣|な}いてばかりいる」です。", "why_en": "She keeps crying: 泣いてばかりいる."}
+  ]
+ },
+ {
+  "id": "n3_you_ni_naru",
+  "pattern": "〜ようになる",
+  "level": "N3",
+  "meaning_en": "come to (be able to) ~ / start doing ~ (gradual change)",
+  "explanation_ja": "「〜ようになる」は、{前|まえ}はできなかったことや、しなかったことが、{今|いま}はできる・するように{変|か}わったことを{表|あらわ}します。{可能|かのう}の{形|かたち}や{辞書形|じしょけい}といっしょに{使|つか}います。",
+  "explanation_en": "ようになる describes a change over time: something you couldn't do or didn't do before, you now can or now do. It follows potential or dictionary forms: \"come to be able to / start to ~\".",
+  "one_liner_ja": "「〜ようになる」は{能力|のうりょく}や{習慣|しゅうかん}の{変化|へんか}を{表|あらわ}します。",
+  "requires": ["n3_you_ni"],
+  "examples": [
+   {"ja": "{練習|れんしゅう}して、{漢字|かんじ}が{読|よ}めるようになりました。", "en": "With practice, I became able to read kanji."},
+   {"ja": "{日本|にほん}に{来|き}てから、{毎朝|まいあさ}{納豆|なっとう}を{食|た}べるようになりました。", "en": "Since coming to Japan, I've started eating natto every morning."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{毎日|まいにち}{練習|れんしゅう}したので、{泳|およ}げる［　］になりました。", "options": ["よう", "こと", "はず"], "answer": 0,
+    "why_ja": "できなかったことができるように{変|か}わったので「ようになりました」です。", "why_en": "A change in ability: ようになりました."},
+   {"kind": "conjugation", "ja": "{一年|いちねん}{勉強|べんきょう}して、{日本語|にほんご}のニュースが［　］ようになりました。", "options": ["わかる", "わかった", "わかって"], "answer": 0,
+    "why_ja": "「ようになる」の{前|まえ}は{辞書形|じしょけい}です。", "why_en": "ようになる follows the dictionary form."},
+   {"kind": "choice", "ja": "{子|こ}どもの{頃|ころ}は{野菜|やさい}が{嫌|きら}いでしたが、{今|いま}は{食|た}べられる［　］なりました。", "options": ["ように", "ことに", "ために"], "answer": 0,
+    "why_ja": "{前|まえ}と{今|いま}で{変|か}わったことを「ようになる」で{表|あらわ}します。", "why_en": "A change from before to now: ようになる."},
+   {"kind": "particle", "ja": "{最近|さいきん}、{自分|じぶん}で{料理|りょうり}をするよう［　］なりました。", "options": ["に", "が", "を", "で"], "answer": 0,
+    "why_ja": "{形|かたち}は「よう＋に＋なる」です。", "why_en": "The pattern is よう＋に＋なる."},
+   {"kind": "meaning", "ja": "「{自転車|じてんしゃ}に{乗|の}れるようになった。」→［　］。", "options": ["{前|まえ}は{乗|の}れなかったが、{今|いま}は{乗|の}れる", "これから{乗|の}る{予定|よてい}だ", "{乗|の}ることを{自分|じぶん}で{決|き}めた"], "answer": 0,
+    "why_ja": "「ようになった」は、できなかったことができるようになった{変化|へんか}です。", "why_en": "ようになった shows a change from can't to can."},
+   {"kind": "choice", "ja": "{引|ひ}っ{越|こ}してから、{会社|かいしゃ}まで{歩|ある}いて{行|い}く［　］になった。", "options": ["よう", "わけ", "ばかり"], "answer": 0,
+    "why_ja": "{引|ひ}っ{越|こ}しで{習慣|しゅうかん}が{変|か}わったので「ようになった」です。", "why_en": "The move changed a habit: ようになった."},
+   {"kind": "choice", "ja": "{眼鏡|めがね}をかけたら、{遠|とお}くの{字|じ}がよく{見|み}える［　］なった。", "options": ["ように", "ために", "うちに"], "answer": 0,
+    "why_ja": "{見|み}えなかったものが{見|み}えるように{変|か}わったので「ようになった」です。", "why_en": "A change from not seeing to seeing: ようになった."}
+  ]
+ },
+ {
+  "id": "n3_rashii",
+  "pattern": "〜らしい",
+  "level": "N3",
+  "meaning_en": "apparently / it seems (hearsay, outside information); Noun-らしい = typical of",
+  "explanation_ja": "「〜らしい」は、{人|ひと}から{聞|き}いたことや{見|み}たことから「たぶんそうだ」と{考|かんが}えるときに{使|つか}います。{自分|じぶん}の{意見|いけん}より、{外|そと}からの{情報|じょうほう}を{伝|つた}える{感|かん}じです。{名詞|めいし}の{後|あと}につけて、「{春|はる}らしい」のように「いかにもそれらしい」という{意味|いみ}にもなります。",
+  "explanation_en": "らしい reports something you heard or inferred from outside evidence: \"apparently / it seems ~\". It sounds more detached than みたいだ. Noun + らしい can also mean \"typical of / just like a proper ~\" (春らしい).",
+  "one_liner_ja": "「〜らしい」は{聞|き}いた{情報|じょうほう}から{考|かんが}えたことを{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "ニュースによると、{明日|あした}は{雪|ゆき}が{降|ふ}るらしいです。", "en": "According to the news, it seems it'll snow tomorrow."},
+   {"ja": "{駅前|えきまえ}に{新|あたら}しいカフェができたらしいよ。", "en": "Apparently a new café opened in front of the station."},
+   {"ja": "{今日|きょう}は{春|はる}らしい{暖|あたた}かい{日|ひ}ですね。", "en": "It's a warm, truly spring-like day today."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{友達|ともだち}の{話|はなし}では、あの{店|みせ}のラーメンはとてもおいしい［　］。", "options": ["らしい", "ことにする", "ばかりだ"], "answer": 0,
+    "why_ja": "{友達|ともだち}から{聞|き}いた{情報|じょうほう}なので「らしい」です。", "why_en": "Information from a friend: らしい."},
+   {"kind": "conjugation", "ja": "{天気予報|てんきよほう}によると、{今夜|こんや}は［　］らしい。", "options": ["{雨|あめ}", "{雨|あめ}だ", "{雨|あめ}な"], "answer": 0,
+    "why_ja": "{名詞|めいし}には{直接|ちょくせつ}「らしい」をつけます。「{雨|あめ}らしい」です。", "why_en": "らしい attaches directly to a noun: 雨らしい."},
+   {"kind": "choice", "ja": "{部長|ぶちょう}は{来週|らいしゅう}{出張|しゅっちょう}に{行|い}く［　］ですよ。{山田|やまだ}さんが{言|い}っていました。", "options": ["らしい", "みたいな", "ように"], "answer": 0,
+    "why_ja": "{山田|やまだ}さんから{聞|き}いたことなので「らしいです」です。", "why_en": "Something heard from Yamada: らしいです."},
+   {"kind": "meaning", "ja": "「{今日|きょう}は{春|はる}らしい{天気|てんき}だ。」→［　］。", "options": ["いかにも{春|はる}という{感|かん}じの{天気|てんき}", "{春|はる}だと{人|ひと}から{聞|き}いた{天気|てんき}", "{春|はる}ではない{天気|てんき}"], "answer": 0,
+    "why_ja": "{名詞|めいし}＋「らしい」は「いかにもそれらしい」という{意味|いみ}です。", "why_en": "Noun + らしい here means typical of spring."},
+   {"kind": "choice", "ja": "{隣|となり}の{部屋|へや}がずっと{静|しず}かだ。{誰|だれ}もいない［　］。", "options": ["らしい", "ために", "ばかり"], "answer": 0,
+    "why_ja": "{静|しず}かだという{様子|ようす}から「たぶんいない」と{考|かんが}えているので「らしい」です。", "why_en": "Inferring from the silence: らしい."},
+   {"kind": "choice", "ja": "{田中|たなか}さんはいつも{明|あか}るくて{元気|げんき}だね。{本当|ほんとう}に{田中|たなか}さん［　］ね。", "options": ["らしい", "みたいな", "ような"], "answer": 0,
+    "why_ja": "「{田中|たなか}さんらしい」は「いかにも{田中|たなか}さんという{感|かん}じ」という{意味|いみ}です。", "why_en": "田中さんらしい = so typical of Tanaka."},
+   {"kind": "particle", "ja": "{話|はなし}［　］よると、{山田|やまだ}さんは{会社|かいしゃ}を{辞|や}めるらしい。", "options": ["に", "を", "で", "が"], "answer": 0,
+    "why_ja": "{情報|じょうほう}の{元|もと}は「〜によると」で{表|あらわ}します。", "why_en": "The source of information is marked by 〜によると."}
+  ]
+ },
+ {
+  "id": "n3_mitai_da",
+  "pattern": "〜みたいだ",
+  "level": "N3",
+  "meaning_en": "seems / looks like ~ (conversational); like ~ (comparison)",
+  "explanation_ja": "「〜みたいだ」は、{自分|じぶん}で{見|み}たり{感|かん}じたりしたことから「〜のようだ」と{思|おも}うときに{使|つか}います。「ようだ」よりくだけた{話|はな}し{言葉|ことば}です。「{夢|ゆめ}みたい」のように、たとえにも{使|つか}います。{名詞|めいし}の{前|まえ}では「みたいな」、{動詞|どうし}や{形容詞|けいようし}の{前|まえ}では「みたいに」になります。",
+  "explanation_en": "みたいだ means \"it seems / looks like ~\", based on what you see or feel yourself. It's the conversational version of ようだ. It's also used for comparisons (\"like a dream\"). Before a noun it becomes みたいな; before a verb or adjective, みたいに.",
+  "one_liner_ja": "「〜みたいだ」は{自分|じぶん}で{感|かん}じた「〜のようだ」です。",
+  "requires": ["n3_rashii"],
+  "examples": [
+   {"ja": "{電気|でんき}が{消|き}えている。{田中|たなか}さんはもう{帰|かえ}ったみたいだ。", "en": "The lights are off. Looks like Tanaka has already gone home."},
+   {"ja": "{試験|しけん}に{合格|ごうかく}したなんて、{夢|ゆめ}みたいです。", "en": "I passed the exam? It's like a dream."},
+   {"ja": "{彼女|かのじょ}はモデルみたいな{服|ふく}を{着|き}ている。", "en": "She's wearing clothes like a model's."}
+  ],
+  "items": [
+   {"kind": "conjugation", "ja": "{熱|ねつ}がある。{風邪|かぜ}を［　］みたいだ。", "options": ["ひいた", "ひく", "ひいて"], "answer": 0,
+    "why_ja": "もう{熱|ねつ}があるので、{過去|かこ}の{形|かたち}「ひいた」です。", "why_en": "You already have a fever, so the past form ひいた."},
+   {"kind": "choice", "ja": "{外|そと}を{見|み}て。{雪|ゆき}が{降|ふ}っている［　］。", "options": ["みたい", "はず", "わけ"], "answer": 0,
+    "why_ja": "{自分|じぶん}の{目|め}で{見|み}て{感|かん}じたことなので「みたい」です。", "why_en": "Based on what you can see yourself: みたい."},
+   {"kind": "conjugation", "ja": "{彼|かれ}は{子|こ}ども［　］{泣|な}いた。", "options": ["みたいに", "みたいな", "みたいだ"], "answer": 0,
+    "why_ja": "{動詞|どうし}「{泣|な}く」の{前|まえ}なので「みたいに」です。", "why_en": "Before a verb, use みたいに."},
+   {"kind": "conjugation", "ja": "{彼女|かのじょ}はモデル［　］{服|ふく}を{着|き}ている。", "options": ["みたいな", "みたいに", "みたいだ"], "answer": 0,
+    "why_ja": "{名詞|めいし}「{服|ふく}」の{前|まえ}なので「みたいな」です。", "why_en": "Before a noun, use みたいな."},
+   {"kind": "meaning", "ja": "「{山田|やまだ}さんは{留守|るす}みたいだ。」→［　］。", "options": ["{家|いえ}の{様子|ようす}を{見|み}て、いないと{思|おも}った", "{山田|やまだ}さんに{会|あ}って{話|はな}した", "{山田|やまだ}さんがいてうれしい"], "answer": 0,
+    "why_ja": "「みたいだ」は{見|み}た{様子|ようす}から{考|かんが}えたことです。", "why_en": "みたいだ is a guess from what you observed."},
+   {"kind": "choice", "ja": "{目|め}が{赤|あか}いね。{昨日|きのう}あまり{寝|ね}ていない［　］ね。", "options": ["みたいだ", "ばかりだ", "ことにする"], "answer": 0,
+    "why_ja": "{赤|あか}い{目|め}を{見|み}て{考|かんが}えているので「みたいだ」です。", "why_en": "Guessing from the red eyes: みたいだ."},
+   {"kind": "choice", "ja": "まるで{夢|ゆめ}［　］です。", "options": ["みたい", "らしい", "ばかり"], "answer": 0,
+    "why_ja": "「まるで」はたとえの「みたい」といっしょに{使|つか}います。", "why_en": "まるで goes with the comparison みたい."}
+  ]
+ },
+ {
+  "id": "n3_ni_yotte",
+  "pattern": "〜によって",
+  "level": "N3",
+  "meaning_en": "depending on ~ / due to ~ / by ~ (agent of a passive, means)",
+  "explanation_ja": "「〜によって」にはいくつかの{意味|いみ}があります。①「{人|ひと}によって{考|かんが}え{方|かた}が{違|ちが}う」のように「〜ごとに{違|ちが}う」。②「{台風|たいふう}によって{木|き}が{倒|たお}れた」のように{原因|げんいん}。③{受身|うけみ}の{文|ぶん}で、{作品|さくひん}などを{作|つく}った{人|ひと}。④「{話|はな}し{合|あ}いによって」のように{方法|ほうほう}です。",
+  "explanation_en": "によって has several uses: (1) \"depending on ~\" (it varies by person, place, day…), (2) cause — \"due to ~\", (3) the agent of a passive verb, especially creators (\"written by ~\"), (4) means — \"by way of ~\".",
+  "one_liner_ja": "「〜によって」は「〜ごとに{違|ちが}う」「{原因|げんいん}」「{受身|うけみ}の{動作|どうさ}をした{人|ひと}」「{方法|ほうほう}」を{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{国|くに}によって{文化|ぶんか}が{違|ちが}います。", "en": "Culture differs from country to country."},
+   {"ja": "この{小説|しょうせつ}は{有名|ゆうめい}な{作家|さっか}によって{書|か}かれました。", "en": "This novel was written by a famous author."},
+   {"ja": "{台風|たいふう}によって、{多|おお}くの{木|き}が{倒|たお}れました。", "en": "Many trees fell because of the typhoon."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{季節|きせつ}［　］、{店|みせ}のメニューが{変|か}わります。", "options": ["によって", "について", "のために"], "answer": 0,
+    "why_ja": "{季節|きせつ}ごとにメニューが{違|ちが}うので「によって」です。", "why_en": "The menu varies by season: によって."},
+   {"kind": "choice", "ja": "この{絵|え}は{有名|ゆうめい}な{画家|がか}［　］{描|か}かれました。", "options": ["によって", "について", "にとって"], "answer": 0,
+    "why_ja": "{受身|うけみ}の{文|ぶん}で{作品|さくひん}を{作|つく}った{人|ひと}は「によって」で{表|あらわ}します。", "why_en": "The creator in a passive sentence takes によって."},
+   {"kind": "conjugation", "ja": "この{橋|はし}は{有名|ゆうめい}な{建築家|けんちくか}によって［　］。", "options": ["{設計|せっけい}されました", "{設計|せっけい}しました", "{設計|せっけい}させました"], "answer": 0,
+    "why_ja": "{主語|しゅご}は「{橋|はし}」なので、{受身|うけみ}の「{設計|せっけい}されました」です。", "why_en": "The bridge is the subject, so the passive 設計されました."},
+   {"kind": "choice", "ja": "{大雨|おおあめ}［　］、{電車|でんしゃ}が{遅|おく}れています。", "options": ["によって", "について", "にとって"], "answer": 0,
+    "why_ja": "{大雨|おおあめ}が{原因|げんいん}なので「によって」です。", "why_en": "Heavy rain is the cause: によって."},
+   {"kind": "meaning", "ja": "「{人|ひと}によって{好|この}みが{違|ちが}う。」→［　］。", "options": ["{一人一人|ひとりひとり}{好|この}みが{違|ちが}う", "{誰|だれ}かが{好|この}みを{決|き}める", "みんな{好|この}みが{同|おな}じだ"], "answer": 0,
+    "why_ja": "「{人|ひと}によって」は「{人|ひと}ごとに」という{意味|いみ}です。", "why_en": "人によって = from person to person."},
+   {"kind": "particle", "ja": "{話|はな}し{合|あ}い［　］よって、{問題|もんだい}を{解決|かいけつ}しました。", "options": ["に", "を", "で", "が"], "answer": 0,
+    "why_ja": "{方法|ほうほう}を{表|あらわ}す「によって」です。", "why_en": "によって marking the means."},
+   {"kind": "choice", "ja": "{日|ひ}［　］{気温|きおん}がかなり{違|ちが}います。", "options": ["によって", "についての", "ばかりに"], "answer": 0,
+    "why_ja": "{日|ひ}ごとに{気温|きおん}が{違|ちが}うので「によって」です。", "why_en": "The temperature varies from day to day: によって."}
+  ]
+ },
+ {
+  "id": "n3_ni_tsuite",
+  "pattern": "〜について",
+  "level": "N3",
+  "meaning_en": "about / concerning ~",
+  "explanation_ja": "「〜について」は、{話|はな}したり、{考|かんが}えたり、{調|しら}べたりする{内容|ないよう}（テーマ）を{表|あらわ}します。{名詞|めいし}の{前|まえ}では「〜についての」になります。",
+  "explanation_en": "について marks the topic of speaking, thinking, writing or researching: \"about / concerning ~\". Before a noun it becomes についての.",
+  "one_liner_ja": "「〜について」は{話|はなし}や{考|かんが}えのテーマを{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{日本|にほん}の{歴史|れきし}について{調|しら}べています。", "en": "I'm researching Japanese history."},
+   {"ja": "{新|あたら}しい{計画|けいかく}についての{意見|いけん}を{聞|き}かせてください。", "en": "Please tell me your opinion on the new plan."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{明日|あした}の{会議|かいぎ}では、{来年|らいねん}の{予算|よさん}［　］{話|はな}し{合|あ}います。", "options": ["について", "によって", "にとって"], "answer": 0,
+    "why_ja": "{話|はな}し{合|あ}うテーマが「{予算|よさん}」なので「について」です。", "why_en": "The budget is the topic of discussion: について."},
+   {"kind": "conjugation", "ja": "{環境|かんきょう}［　］{本|ほん}を{読|よ}みました。", "options": ["についての", "についてな", "についてだ"], "answer": 0,
+    "why_ja": "{名詞|めいし}「{本|ほん}」の{前|まえ}なので「についての」です。", "why_en": "Before the noun 本, use についての."},
+   {"kind": "choice", "ja": "{彼|かれ}は{自分|じぶん}の{家族|かぞく}［　］あまり{話|はな}しません。", "options": ["について", "によって", "のために"], "answer": 0,
+    "why_ja": "{話|はなし}の{内容|ないよう}が「{家族|かぞく}」なので「について」です。", "why_en": "His family is what he rarely talks about: について."},
+   {"kind": "particle", "ja": "この{問題|もんだい}［　］ついて、どう{思|おも}いますか。", "options": ["に", "を", "で", "が"], "answer": 0,
+    "why_ja": "{形|かたち}は「について」です。", "why_en": "The pattern is に＋ついて."},
+   {"kind": "meaning", "ja": "「{旅行|りょこう}について{話|はな}す。」→［　］。", "options": ["{旅行|りょこう}がテーマの{話|はなし}をする", "{旅行|りょこう}しながら{話|はな}す", "{旅行|りょこう}のために{話|はな}す"], "answer": 0,
+    "why_ja": "「について」は{話|はなし}のテーマを{表|あらわ}します。", "why_en": "について marks the topic of talk."},
+   {"kind": "choice", "ja": "{日本|にほん}の{会社|かいしゃ}の{働|はたら}き{方|かた}［　］{調|しら}べて、{発表|はっぴょう}しました。", "options": ["について", "にとって", "によると"], "answer": 0,
+    "why_ja": "{調|しら}べた{内容|ないよう}なので「について」です。", "why_en": "What was researched: について."},
+   {"kind": "choice", "ja": "{商品|しょうひん}［　］{質問|しつもん}があれば、{何|なん}でも{聞|き}いてください。", "options": ["について", "にとって", "ばかり"], "answer": 0,
+    "why_ja": "{質問|しつもん}の{内容|ないよう}が「{商品|しょうひん}」なので「について」です。", "why_en": "Questions concerning the products: について."}
+  ]
+ },
+ {
+  "id": "n3_uchi_ni",
+  "pattern": "〜うちに",
+  "level": "N3",
+  "meaning_en": "while ~ (before the situation changes); while doing ~ (something changed)",
+  "explanation_ja": "「〜うちに」は「その{状態|じょうたい}が{変|か}わる{前|まえ}に」という{意味|いみ}です。「{若|わか}いうちに」「{温|あたた}かいうちに」「{明|あか}るいうちに」のように{使|つか}います。「〜ているうちに」は、{何|なに}かをしている{間|あいだ}に、{気|き}づかないうちに{変化|へんか}が{起|お}きたことを{表|あらわ}します。",
+  "explanation_en": "うちに means \"while ~ still holds\" — do something before a situation changes: 若いうちに, 温かいうちに. Verb-ているうちに means \"while doing ~, (something changed without you noticing)\".",
+  "one_liner_ja": "「〜うちに」は{状態|じょうたい}が{変|か}わる{前|まえ}に{何|なに}かをすることを{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{温|あたた}かいうちに{食|た}べてください。", "en": "Please eat it while it's warm."},
+   {"ja": "{若|わか}いうちに、いろいろな{国|くに}へ{行|い}きたいです。", "en": "I want to visit lots of countries while I'm young."},
+   {"ja": "{本|ほん}を{読|よ}んでいるうちに、{寝|ね}てしまいました。", "en": "I fell asleep while reading."}
+  ],
+  "items": [
+   {"kind": "choice", "ja": "{雨|あめ}が{降|ふ}らない［　］、{洗濯物|せんたくもの}を{取|と}り{込|こ}みましょう。", "options": ["うちに", "ために", "ばかりに"], "answer": 0,
+    "why_ja": "{雨|あめ}が{降|ふ}り{出|だ}す{前|まえ}に、という{意味|いみ}なので「うちに」です。", "why_en": "Before it starts raining: うちに."},
+   {"kind": "conjugation", "ja": "{日本|にほん}に［　］うちに、{富士山|ふじさん}に{登|のぼ}りたいです。", "options": ["いる", "いた", "いて"], "answer": 0,
+    "why_ja": "「{日本|にほん}にいる」{状態|じょうたい}が{続|つづ}いている{間|あいだ}に、なので「いるうちに」です。", "why_en": "While you are still in Japan: いるうちに."},
+   {"kind": "choice", "ja": "{友達|ともだち}と{話|はな}している［　］、だんだん{元気|げんき}になってきました。", "options": ["うちに", "ように", "はずに"], "answer": 0,
+    "why_ja": "{話|はな}している{間|あいだ}に{気持|きも}ちが{変|か}わったので「ているうちに」です。", "why_en": "Your mood changed while talking: ているうちに."},
+   {"kind": "choice", "ja": "{明|あか}るい［　］、{家|いえ}に{帰|かえ}りましょう。", "options": ["うちに", "ために", "ところに"], "answer": 0,
+    "why_ja": "{暗|くら}くなる{前|まえ}に、という{意味|いみ}なので「うちに」です。", "why_en": "Before it gets dark: うちに."},
+   {"kind": "meaning", "ja": "「{若|わか}いうちに{勉強|べんきょう}しなさい。」→［　］。", "options": ["{若|わか}い{時期|じき}が{終|お}わる{前|まえ}に", "{若|わか}くなったら", "{若|わか}いから{勉強|べんきょう}しなくてもいい"], "answer": 0,
+    "why_ja": "「{若|わか}いうちに」は{若|わか}い{状態|じょうたい}が{変|か}わる{前|まえ}に、という{意味|いみ}です。", "why_en": "若いうちに = before your youth is over."},
+   {"kind": "choice", "ja": "{知|し}らない［　］に、{外|そと}が{暗|くら}くなっていた。", "options": ["うち", "はず", "わけ"], "answer": 0,
+    "why_ja": "「{知|し}らないうちに」は{気|き}づかない{間|あいだ}に、という{意味|いみ}です。", "why_en": "知らないうちに = before you knew it."},
+   {"kind": "choice", "ja": "{料理|りょうり}が{冷|さ}めない［　］、どうぞ{召|め}し{上|あ}がってください。", "options": ["うちに", "ばかりに", "わけに"], "answer": 0,
+    "why_ja": "{冷|さ}める{前|まえ}に{食|た}べてほしいので「うちに」です。", "why_en": "Eat before it gets cold: うちに."}
+  ]
+ },
+ {
+  "id": "n3_tokoro_da",
+  "pattern": "〜ところだ",
+  "level": "N3",
+  "meaning_en": "be about to ~ / be in the middle of ~ / have just ~",
+  "explanation_ja": "「〜ところだ」は{動作|どうさ}の{段階|だんかい}を{表|あらわ}します。「{辞書形|じしょけい}＋ところだ」はこれから{始|はじ}める{直前|ちょくぜん}、「〜ているところだ」は{今|いま}している{最中|さいちゅう}、「〜たところだ」は{終|お}わった{直後|ちょくご}です。",
+  "explanation_en": "ところだ pinpoints the stage of an action: dictionary form + ところ = \"about to ~\", ている + ところ = \"in the middle of ~\", た + ところ = \"have just finished ~\".",
+  "one_liner_ja": "「〜ところだ」は{動作|どうさ}の{直前|ちょくぜん}・{最中|さいちゅう}・{直後|ちょくご}を{表|あらわ}します。",
+  "requires": ["n3_bakari"],
+  "examples": [
+   {"ja": "これから{出|で}かけるところです。", "en": "I'm just about to go out."},
+   {"ja": "{今|いま}、{資料|しりょう}を{作|つく}っているところです。", "en": "I'm in the middle of making the documents."},
+   {"ja": "{今|いま}{駅|えき}に{着|つ}いたところです。", "en": "I've just arrived at the station."}
+  ],
+  "items": [
+   {"kind": "conjugation", "ja": "A：もう{昼|ひる}ご{飯|はん}を{食|た}べましたか。B：いいえ、これから［　］ところです。", "options": ["{食|た}べる", "{食|た}べた", "{食|た}べている"], "answer": 0,
+    "why_ja": "「これから」なので、{始|はじ}める{直前|ちょくぜん}の「{辞書形|じしょけい}＋ところ」です。", "why_en": "これから signals \"about to\": dictionary form + ところ."},
+   {"kind": "conjugation", "ja": "{今|いま}は{会議|かいぎ}の{最中|さいちゅう}です。{新|あたら}しい{計画|けいかく}について［　］ところです。", "options": ["{話|はな}し{合|あ}っている", "{話|はな}し{合|あ}った", "{話|はな}し{合|あ}う"], "answer": 0,
+    "why_ja": "{今|いま}している{最中|さいちゅう}なので「〜ているところ」です。", "why_en": "In the middle of it: 〜ているところ."},
+   {"kind": "choice", "ja": "{今|いま}、{家|いえ}に{着|つ}いた［　］です。", "options": ["ところ", "うち", "ように"], "answer": 0,
+    "why_ja": "{着|つ}いた{直後|ちょくご}なので「たところ」です。", "why_en": "Right after arriving: たところ."},
+   {"kind": "meaning", "ja": "「{今|いま}{起|お}きたところです。」→［　］。", "options": ["{少|すこ}し{前|まえ}に{起|お}きた", "これから{起|お}きる", "{起|お}きている{最中|さいちゅう}だ"], "answer": 0,
+    "why_ja": "「たところ」は{終|お}わった{直後|ちょくご}を{表|あらわ}します。", "why_en": "たところ = just finished."},
+   {"kind": "choice", "ja": "{電車|でんしゃ}がちょうど{出|で}た［　］なので、{次|つぎ}の{電車|でんしゃ}を{待|ま}ちます。", "options": ["ところ", "ため", "ように"], "answer": 0,
+    "why_ja": "{電車|でんしゃ}が{出|で}た{直後|ちょくご}なので「たところ」です。", "why_en": "The train has just left: たところ."},
+   {"kind": "choice", "ja": "これから{出|で}かける［　］なので、{後|あと}で{電話|でんわ}します。", "options": ["ところ", "うち", "ばかり"], "answer": 0,
+    "why_ja": "{出|で}かける{直前|ちょくぜん}なので「{辞書形|じしょけい}＋ところ」です。", "why_en": "About to leave: dictionary form + ところ."},
+   {"kind": "choice", "ja": "A：{宿題|しゅくだい}はもう{終|お}わった？ B：うん、ちょうど{今|いま}{終|お}わった［　］だよ。", "options": ["ところ", "うち", "はず"], "answer": 0,
+    "why_ja": "「ちょうど{今|いま}」{終|お}わったので「たところ」です。", "why_en": "Finished just now: たところ."}
+  ]
+ },
+ {
+  "id": "n3_saseru",
+  "pattern": "〜させる（{使役|しえき}）",
+  "level": "N3",
+  "meaning_en": "causative: make / let someone do ~",
+  "explanation_ja": "「〜させる」は{使役|しえき}の{形|かたち}です。だれかに{何|なに}かをさせる（{命令|めいれい}する）ときや、{自由|じゆう}にさせる（{許|ゆる}す）ときに{使|つか}います。グループ1は「{書|か}く→{書|か}かせる」、グループ2は「{食|た}べる→{食|た}べさせる」、「する→させる」「{来|く}る→{来|こ}させる」です。「〜させてください」は、{丁寧|ていねい}に{許可|きょか}をもらう{言|い}い{方|かた}です。",
+  "explanation_en": "The causative (〜せる/〜させる) means \"make / let someone do ~\". Group 1: 書く→書かせる; Group 2: 食べる→食べさせる; する→させる; 来る→来させる. The person made to act takes に (or を with intransitive verbs). 〜させてください politely asks: \"please let me ~\".",
+  "one_liner_ja": "「〜させる」は{人|ひと}に{何|なに}かをさせる、または{許|ゆる}すことを{表|あらわ}します。",
+  "requires": [],
+  "examples": [
+   {"ja": "{母|はは}は{弟|おとうと}に{野菜|やさい}を{食|た}べさせました。", "en": "My mother made my little brother eat vegetables."},
+   {"ja": "{部長|ぶちょう}は{新人|しんじん}に{資料|しりょう}をコピーさせた。", "en": "The manager had the new employee copy the documents."},
+   {"ja": "その{仕事|しごと}、{私|わたし}にやらせてください。", "en": "Please let me do that job."}
+  ],
+  "items": [
+   {"kind": "conjugation", "ja": "{先生|せんせい}は{学生|がくせい}に{作文|さくぶん}を［　］。", "options": ["{書|か}かせました", "{書|か}きさせました", "{書|か}けさせました"], "answer": 0,
+    "why_ja": "「{書|か}く」はグループ1なので「{書|か}かせる」です。", "why_en": "書く is Group 1: 書かせる."},
+   {"kind": "particle", "ja": "{部長|ぶちょう}は{私|わたし}［　］{報告書|ほうこくしょ}を{書|か}かせました。", "options": ["に", "を", "が", "で"], "answer": 0,
+    "why_ja": "させられる{人|ひと}は「に」で{表|あらわ}します。「{報告書|ほうこくしょ}を」があるので「を」は{使|つか}えません。", "why_en": "The person made to act takes に; を is already used for 報告書."},
+   {"kind": "conjugation", "ja": "{子|こ}どもに{好|す}きなものを［　］あげたい。", "options": ["{食|た}べさせて", "{食|た}べられて", "{食|た}べて"], "answer": 0,
+    "why_ja": "{子|こ}どもが{食|た}べることを{許|ゆる}すので「{食|た}べさせてあげる」です。", "why_en": "Letting the child eat: 食べさせてあげる."},
+   {"kind": "conjugation", "ja": "その{仕事|しごと}、ぜひ{私|わたし}に［　］ください。", "options": ["やらせて", "やられて", "やって"], "answer": 0,
+    "why_ja": "{自分|じぶん}がすることを{許|ゆる}してほしいときは「〜させてください」です。", "why_en": "Asking permission to do it yourself: 〜させてください."},
+   {"kind": "conjugation", "ja": "{毎朝|まいあさ}、{犬|いぬ}を{公園|こうえん}で［　］います。", "options": ["{走|はし}らせて", "{走|はし}られて", "{走|はし}って"], "answer": 0,
+    "why_ja": "{走|はし}るのは{犬|いぬ}です。「{犬|いぬ}を」があるので{使役|しえき}の「{走|はし}らせる」です。", "why_en": "The dog runs; you make it run: 走らせる."},
+   {"kind": "meaning", "ja": "「{母|はは}は{妹|いもうと}に{部屋|へや}を{掃除|そうじ}させた。」→{掃除|そうじ}をしたのは［　］です。", "options": ["{妹|いもうと}", "{母|はは}", "{二人|ふたり}とも"], "answer": 0,
+    "why_ja": "{使役|しえき}の{文|ぶん}では、「に」の{人|ひと}が{動作|どうさ}をします。", "why_en": "In a causative, the person marked by に does the action."},
+   {"kind": "conjugation", "ja": "{上司|じょうし}は{新人|しんじん}に{電話|でんわ}の{練習|れんしゅう}を［　］。", "options": ["させました", "しさせました", "しせました"], "answer": 0,
+    "why_ja": "「する」の{使役|しえき}は「させる」です。", "why_en": "The causative of する is させる."}
+  ]
+ }
+]

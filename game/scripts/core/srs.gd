@@ -57,7 +57,8 @@ static func pick_due(words: Dictionary, now: int, limit: int = 20) -> Array[Stri
 	var due: Array[String] = []
 	for id: String in words:
 		var w: Dictionary = words[id]
-		if int(w.get("rank", 0)) > Mastery.Rank.UNSEEN and is_due(w, now):
+		# Only words the player chose to study (学習する) or answered in review are scheduled.
+		if w.get("srs", false) and is_due(w, now):
 			due.append(id)
 	due.sort_custom(func(a: String, b: String) -> bool:
 		return int(words[a]["due"]) < int(words[b]["due"]))

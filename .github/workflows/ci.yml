@@ -9,6 +9,22 @@ env:
   GODOT_VERSION: 4.7.2
 
 jobs:
+  content:
+    name: Content and UI text checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate content JSON (schemas + furigana on every kanji)
+        run: python tools/validate_content.py game/content
+      - name: Check word lists (format; reading checks need local JMdict and are skipped here)
+        run: python tools/check_tsv.py tools/wordlists/*/*.tsv --quiet
+      - name: Check UI strings for kanji without furigana
+        run: python tools/check_ui_text.py game/scripts game/world
+
   test:
     name: GDScript tests (headless)
     runs-on: ubuntu-latest
@@ -28,21 +44,10 @@ jobs:
       - name: Import project (populates .godot/ on a fresh checkout)
         run: godot --headless --path game --import
 
-      - name: Validate content JSON
-        run: python3 tools/validate_content.py game/content
-
-      - name: Run GDScript tests
+      - name: Run game tests
         timeout-minutes: 5
         run: godot --headless --path game --script res://tests/test_runner.gd
 
-  content:
-    name: Content pipeline smoke test
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - name: Validate content JSON
-        run: python3 tools/validate_content.py game/content
+      - name: Run 3D town tests
+        timeout-minutes: 5
+        run: godot --headless --path game --script res://tests/test_world.gd

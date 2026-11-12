@@ -1,0 +1,179 @@
+[
+ {
+  "id": "n5_rd_001",
+  "level": "N5",
+  "title_ja": "{日曜日|にちようび}の{日記|にっき}",
+  "text_ja": "{今日|きょう}は{日曜日|にちようび}でした。{朝|あさ}、{母|はは}と{公園|こうえん}へ{行|い}きました。{公園|こうえん}で{犬|いぬ}と{遊|あそ}びました。{午後|ごご}は{家|いえ}で{本|ほん}を{読|よ}みました。{楽|たの}しい{一日|いちにち}でした。",
+  "text_en": "Today was Sunday. In the morning I went to the park with my mother. We played with a dog in the park. In the afternoon I read a book at home. It was a fun day.",
+  "questions": [
+   {"q_ja": "{朝|あさ}、だれと{公園|こうえん}へ{行|い}きましたか。", "q_en": "Who did the writer go to the park with in the morning?",
+    "options": ["{母|はは}", "{父|ちち}", "{友達|ともだち}"], "answer": 0,
+    "why_ja": "「{朝|あさ}、{母|はは}と{公園|こうえん}へ{行|い}きました」とあります。", "why_en": "The diary says they went to the park with their mother."},
+   {"q_ja": "{午後|ごご}、{何|なに}をしましたか。", "q_en": "What did the writer do in the afternoon?",
+    "options": ["{犬|いぬ}と{遊|あそ}びました", "{本|ほん}を{読|よ}みました", "{買|か}い{物|もの}をしました"], "answer": 1,
+    "why_ja": "「{午後|ごご}は{家|いえ}で{本|ほん}を{読|よ}みました」とあります。{犬|いぬ}と{遊|あそ}んだのは{朝|あさ}です。", "why_en": "The afternoon was spent reading at home; playing with the dog was in the morning."}
+  ]
+ },
+ {
+  "id": "n5_rd_002",
+  "level": "N5",
+  "title_ja": "{友達|ともだち}へのメモ",
+  "text_ja": "ゆきさんへ。{明日|あした}の{昼|ひる}、いっしょにご{飯|はん}を{食|た}べませんか。{学校|がっこう}の{近|ちか}くに{新|あたら}しいラーメン{屋|や}があります。{十二時|じゅうにじ}に{図書館|としょかん}の{前|まえ}で{待|ま}っています。マリアより。",
+  "text_en": "To Yuki. Would you like to have lunch together tomorrow? There is a new ramen shop near the school. I'll be waiting in front of the library at twelve. From Maria.",
+  "questions": [
+   {"q_ja": "マリアさんは{何|なに}を{食|た}べたいですか。", "q_en": "What does Maria want to eat?",
+    "options": ["すし", "ラーメン", "パン"], "answer": 1,
+    "why_ja": "「{新|あたら}しいラーメン{屋|や}があります」と{書|か}いてあります。", "why_en": "She mentions a new ramen shop."},
+   {"q_ja": "どこで{会|あ}いますか。", "q_en": "Where will they meet?",
+    "options": ["{学校|がっこう}の{中|なか}", "ラーメン{屋|や}の{前|まえ}", "{図書館|としょかん}の{前|まえ}"], "answer": 2,
+    "why_ja": "「{図書館|としょかん}の{前|まえ}で{待|ま}っています」とあります。", "why_en": "Maria will wait in front of the library."},
+   {"q_ja": "{何時|なんじ}に{会|あ}いますか。", "q_en": "What time will they meet?",
+    "options": ["{十時|じゅうじ}", "{十一時|じゅういちじ}", "{十二時|じゅうにじ}"], "answer": 2,
+    "why_ja": "「{十二時|じゅうにじ}に」と{書|か}いてあります。", "why_en": "The note says twelve o'clock."}
+  ]
+ },
+ {
+  "id": "n5_rd_003",
+  "level": "N5",
+  "title_ja": "パン{屋|や}のお{知|し}らせ",
+  "text_ja": "パンの{店|みせ}「こむぎ」です。{店|みせ}は{朝|あさ}{七時|しちじ}から{夜|よる}{六時|ろくじ}までです。{水曜日|すいようび}は{休|やす}みです。{毎朝|まいあさ}、{新|あたら}しいパンを{焼|や}きます。メロンパンは{一|ひと}つ{百五十|ひゃくごじゅう}{円|えん}です。",
+  "text_en": "This is the bakery Komugi. We are open from 7 a.m. to 6 p.m. We are closed on Wednesdays. We bake fresh bread every morning. Melon bread is 150 yen each.",
+  "questions": [
+   {"q_ja": "{店|みせ}は{何曜日|なんようび}が{休|やす}みですか。", "q_en": "Which day is the shop closed?",
+    "options": ["{月曜日|げつようび}", "{水曜日|すいようび}", "{日曜日|にちようび}"], "answer": 1,
+    "why_ja": "「{水曜日|すいようび}は{休|やす}みです」とあります。", "why_en": "The sign says it is closed on Wednesdays."},
+   {"q_ja": "メロンパンは{一|ひと}つ、いくらですか。", "q_en": "How much is one melon bread?",
+    "options": ["{百|ひゃく}{円|えん}", "{百五十|ひゃくごじゅう}{円|えん}", "{二百|にひゃく}{円|えん}"], "answer": 1,
+    "why_ja": "「メロンパンは{一|ひと}つ{百五十|ひゃくごじゅう}{円|えん}です」とあります。", "why_en": "The sign says 150 yen each."},
+   {"q_ja": "{夜|よる}{七時|しちじ}に{店|みせ}は{開|あ}いていますか。", "q_en": "Is the shop open at 7 p.m.?",
+    "options": ["はい、{開|あ}いています", "いいえ、{開|あ}いていません"], "answer": 1,
+    "why_ja": "{店|みせ}は{夜|よる}{六時|ろくじ}までです。{七時|しちじ}にはもう{閉|し}まっています。", "why_en": "The shop closes at 6 p.m., so it is closed at 7."}
+  ]
+ },
+ {
+  "id": "n5_rd_004",
+  "level": "N5",
+  "title_ja": "{学校|がっこう}からのお{知|し}らせ",
+  "text_ja": "{来週|らいしゅう}の{金曜日|きんようび}は、{学校|がっこう}の{山|やま}{登|のぼ}りです。{朝|あさ}{八時半|はちじはん}に{学校|がっこう}の{門|もん}の{前|まえ}に{来|き}てください。お{弁当|べんとう}と{水|みず}を{持|も}ってきてください。{雨|あめ}の{日|ひ}は、{次|つぎ}の{月曜日|げつようび}に{行|い}きます。",
+  "text_en": "Next Friday is the school hiking trip. Please come to the school gate at 8:30 in the morning. Please bring a packed lunch and water. If it rains, we will go the following Monday.",
+  "questions": [
+   {"q_ja": "{山|やま}{登|のぼ}りは{何曜日|なんようび}ですか。", "q_en": "What day is the hiking trip?",
+    "options": ["{月曜日|げつようび}", "{水曜日|すいようび}", "{金曜日|きんようび}"], "answer": 2,
+    "why_ja": "「{来週|らいしゅう}の{金曜日|きんようび}は、{学校|がっこう}の{山|やま}{登|のぼ}りです」とあります。", "why_en": "The notice says next Friday."},
+   {"q_ja": "{何|なに}を{持|も}っていきますか。", "q_en": "What should students bring?",
+    "options": ["お{弁当|べんとう}と{水|みず}", "{本|ほん}とペン", "{傘|かさ}とお{金|かね}"], "answer": 0,
+    "why_ja": "「お{弁当|べんとう}と{水|みず}を{持|も}ってきてください」とあります。", "why_en": "The notice asks for a packed lunch and water."},
+   {"q_ja": "{金曜日|きんようび}に{雨|あめ}が{降|ふ}ったら、どうしますか。", "q_en": "What happens if it rains on Friday?",
+    "options": ["{山|やま}{登|のぼ}りはありません", "{次|つぎ}の{月曜日|げつようび}に{行|い}きます", "{学校|がっこう}で{勉強|べんきょう}します"], "answer": 1,
+    "why_ja": "「{雨|あめ}の{日|ひ}は、{次|つぎ}の{月曜日|げつようび}に{行|い}きます」とあります。", "why_en": "On a rainy day the trip moves to the following Monday."}
+  ]
+ },
+ {
+  "id": "n5_rd_005",
+  "level": "N5",
+  "title_ja": "{自己紹介|じこしょうかい}",
+  "text_ja": "はじめまして。キムです。{韓国|かんこく}から{来|き}ました。{今|いま}、{大学|だいがく}で{日本語|にほんご}を{勉強|べんきょう}しています。{趣味|しゅみ}はテニスです。どうぞよろしくお{願|ねが}いします。",
+  "text_en": "Nice to meet you. I'm Kim. I come from Korea. I am studying Japanese at university now. My hobby is tennis. Pleased to meet you.",
+  "questions": [
+   {"q_ja": "キムさんはどこから{来|き}ましたか。", "q_en": "Where does Kim come from?",
+    "options": ["{中国|ちゅうごく}", "{韓国|かんこく}", "アメリカ"], "answer": 1,
+    "why_ja": "「{韓国|かんこく}から{来|き}ました」とあります。", "why_en": "Kim says they came from Korea."},
+   {"q_ja": "キムさんの{趣味|しゅみ}は{何|なん}ですか。", "q_en": "What is Kim's hobby?",
+    "options": ["サッカー", "{料理|りょうり}", "テニス"], "answer": 2,
+    "why_ja": "「{趣味|しゅみ}はテニスです」とあります。", "why_en": "Kim says the hobby is tennis."},
+   {"q_ja": "キムさんは{今|いま}、{何|なに}をしていますか。", "q_en": "What is Kim doing now?",
+    "options": ["{大学|だいがく}で{日本語|にほんご}を{勉強|べんきょう}しています", "{会社|かいしゃ}で{働|はたら}いています", "{高校|こうこう}で{英語|えいご}を{教|おし}えています"], "answer": 0,
+    "why_ja": "「{今|いま}、{大学|だいがく}で{日本語|にほんご}を{勉強|べんきょう}しています」とあります。", "why_en": "Kim is studying Japanese at university."}
+  ]
+ },
+ {
+  "id": "n5_rd_006",
+  "level": "N5",
+  "title_ja": "{週末|しゅうまつ}の{予定|よてい}",
+  "text_ja": "{今週|こんしゅう}の{土曜日|どようび}、{兄|あに}と{海|うみ}へ{行|い}きます。{電車|でんしゃ}で{二時間|にじかん}ぐらいです。{海|うみ}で{泳|およ}いで、{魚|さかな}を{食|た}べます。{日曜日|にちようび}は{家|いえ}で{休|やす}みます。",
+  "text_en": "This Saturday I'm going to the sea with my older brother. It's about two hours by train. We'll swim in the sea and eat fish. On Sunday I'll rest at home.",
+  "questions": [
+   {"q_ja": "だれと{海|うみ}へ{行|い}きますか。", "q_en": "Who is the writer going to the sea with?",
+    "options": ["{姉|あね}", "{兄|あに}", "{弟|おとうと}"], "answer": 1,
+    "why_ja": "「{兄|あに}と{海|うみ}へ{行|い}きます」とあります。", "why_en": "The writer is going with their older brother."},
+   {"q_ja": "{何|なに}で{海|うみ}へ{行|い}きますか。", "q_en": "How will they get to the sea?",
+    "options": ["バス", "{電車|でんしゃ}", "{車|くるま}"], "answer": 1,
+    "why_ja": "「{電車|でんしゃ}で{二時間|にじかん}ぐらいです」とあります。", "why_en": "They are going by train."},
+   {"q_ja": "{日曜日|にちようび}は{何|なに}をしますか。", "q_en": "What will the writer do on Sunday?",
+    "options": ["{海|うみ}で{泳|およ}ぎます", "{魚|さかな}を{買|か}います", "{家|いえ}で{休|やす}みます"], "answer": 2,
+    "why_ja": "「{日曜日|にちようび}は{家|いえ}で{休|やす}みます」とあります。", "why_en": "Sunday is a rest day at home."}
+  ]
+ },
+ {
+  "id": "n5_rd_007",
+  "level": "N5",
+  "title_ja": "{喫茶店|きっさてん}のメニュー",
+  "text_ja": "{喫茶店|きっさてん}「そら」のランチメニューです。カレーライスは{八百|はっぴゃく}{円|えん}です。{少|すこ}し{辛|から}いです。サンドイッチは{五百|ごひゃく}{円|えん}で、{卵|たまご}とハムが{入|はい}っています。ランチにはコーヒーか{紅茶|こうちゃ}がつきます。",
+  "text_en": "This is the lunch menu at Cafe Sora. Curry rice is 800 yen. It is a little spicy. The sandwich is 500 yen and has egg and ham in it. Lunch comes with coffee or tea.",
+  "questions": [
+   {"q_ja": "{辛|から}いのはどれですか。", "q_en": "Which item is spicy?",
+    "options": ["カレーライス", "サンドイッチ", "コーヒー"], "answer": 0,
+    "why_ja": "カレーライスについて「{少|すこ}し{辛|から}いです」とあります。", "why_en": "The curry rice is described as a little spicy."},
+   {"q_ja": "サンドイッチはいくらですか。", "q_en": "How much is the sandwich?",
+    "options": ["{五百|ごひゃく}{円|えん}", "{八百|はっぴゃく}{円|えん}", "{千|せん}{円|えん}"], "answer": 0,
+    "why_ja": "「サンドイッチは{五百|ごひゃく}{円|えん}で」とあります。{八百|はっぴゃく}{円|えん}はカレーライスです。", "why_en": "The sandwich is 500 yen; 800 yen is the curry."},
+   {"q_ja": "サンドイッチには{何|なに}が{入|はい}っていますか。", "q_en": "What is in the sandwich?",
+    "options": ["{肉|にく}と{野菜|やさい}", "{卵|たまご}とハム", "{魚|さかな}とご{飯|はん}"], "answer": 1,
+    "why_ja": "「{卵|たまご}とハムが{入|はい}っています」とあります。", "why_en": "The menu says egg and ham."}
+  ]
+ },
+ {
+  "id": "n5_rd_008",
+  "level": "N5",
+  "title_ja": "{明日|あした}の{天気|てんき}",
+  "text_ja": "{明日|あした}の{天気|てんき}です。{朝|あさ}は{晴|は}れますが、{午後|ごご}から{雨|あめ}が{降|ふ}ります。{気温|きおん}は{十五度|じゅうごど}ぐらいで、{少|すこ}し{寒|さむ}いです。{出|で}かけるときは、{傘|かさ}を{持|も}っていってください。",
+  "text_en": "Here is tomorrow's weather. It will be sunny in the morning, but it will rain from the afternoon. The temperature will be around 15 degrees, a little cold. Please take an umbrella when you go out.",
+  "questions": [
+   {"q_ja": "{明日|あした}の{午後|ごご}の{天気|てんき}はどうですか。", "q_en": "What will the weather be tomorrow afternoon?",
+    "options": ["{晴|は}れ", "くもり", "{雨|あめ}"], "answer": 2,
+    "why_ja": "「{午後|ごご}から{雨|あめ}が{降|ふ}ります」とあります。{晴|は}れるのは{朝|あさ}です。", "why_en": "Rain starts in the afternoon; only the morning is sunny."},
+   {"q_ja": "{明日|あした}、{何|なに}を{持|も}っていきますか。", "q_en": "What should you take tomorrow?",
+    "options": ["{傘|かさ}", "{帽子|ぼうし}", "お{弁当|べんとう}"], "answer": 0,
+    "why_ja": "「{傘|かさ}を{持|も}っていってください」とあります。", "why_en": "The report says to take an umbrella."},
+   {"q_ja": "{気温|きおん}は{何度|なんど}ぐらいですか。", "q_en": "About how warm will it be?",
+    "options": ["{五度|ごど}", "{十五度|じゅうごど}", "{二十五度|にじゅうごど}"], "answer": 1,
+    "why_ja": "「{気温|きおん}は{十五度|じゅうごど}ぐらい」とあります。", "why_en": "The report says around 15 degrees."}
+  ]
+ },
+ {
+  "id": "n5_rd_009",
+  "level": "N5",
+  "title_ja": "{私|わたし}の{家族|かぞく}",
+  "text_ja": "{私|わたし}の{家族|かぞく}は{四人|よにん}です。{父|ちち}と{母|はは}と{妹|いもうと}と{私|わたし}です。{父|ちち}は{銀行|ぎんこう}で{働|はたら}いています。{母|はは}は{料理|りょうり}が{上手|じょうず}です。{妹|いもうと}は{十歳|じゅっさい}で、{小学生|しょうがくせい}です。",
+  "text_en": "There are four people in my family: my father, my mother, my younger sister and me. My father works at a bank. My mother is good at cooking. My sister is ten and in elementary school.",
+  "questions": [
+   {"q_ja": "{家族|かぞく}は{何人|なんにん}ですか。", "q_en": "How many people are in the family?",
+    "options": ["{三人|さんにん}", "{四人|よにん}", "{五人|ごにん}"], "answer": 1,
+    "why_ja": "「{私|わたし}の{家族|かぞく}は{四人|よにん}です」とあります。", "why_en": "The text says four people."},
+   {"q_ja": "お{父|とう}さんはどこで{働|はたら}いていますか。", "q_en": "Where does the father work?",
+    "options": ["{銀行|ぎんこう}", "{病院|びょういん}", "{学校|がっこう}"], "answer": 0,
+    "why_ja": "「{父|ちち}は{銀行|ぎんこう}で{働|はたら}いています」とあります。", "why_en": "The father works at a bank."},
+   {"q_ja": "{妹|いもうと}さんは{何歳|なんさい}ですか。", "q_en": "How old is the younger sister?",
+    "options": ["{八歳|はっさい}", "{十二歳|じゅうにさい}", "{十歳|じゅっさい}"], "answer": 2,
+    "why_ja": "「{妹|いもうと}は{十歳|じゅっさい}で」とあります。", "why_en": "The sister is ten."}
+  ]
+ },
+ {
+  "id": "n5_rd_010",
+  "level": "N5",
+  "title_ja": "{私|わたし}の{毎日|まいにち}",
+  "text_ja": "{私|わたし}は{毎朝|まいあさ}{六時半|ろくじはん}に{起|お}きます。{朝|あさ}ご{飯|はん}はパンと{牛乳|ぎゅうにゅう}です。{八時|はちじ}にバスで{会社|かいしゃ}へ{行|い}きます。{仕事|しごと}は{五時|ごじ}に{終|お}わります。{夜|よる}は{十一時|じゅういちじ}ごろ{寝|ね}ます。",
+  "text_en": "I get up at 6:30 every morning. Breakfast is bread and milk. At eight I go to the office by bus. Work ends at five. At night I go to bed around eleven.",
+  "questions": [
+   {"q_ja": "{何時|なんじ}に{起|お}きますか。", "q_en": "What time does the writer get up?",
+    "options": ["{六時|ろくじ}", "{六時半|ろくじはん}", "{七時|しちじ}"], "answer": 1,
+    "why_ja": "「{毎朝|まいあさ}{六時半|ろくじはん}に{起|お}きます」とあります。", "why_en": "The writer gets up at 6:30."},
+   {"q_ja": "{何|なに}で{会社|かいしゃ}へ{行|い}きますか。", "q_en": "How does the writer get to work?",
+    "options": ["{電車|でんしゃ}", "{自転車|じてんしゃ}", "バス"], "answer": 2,
+    "why_ja": "「バスで{会社|かいしゃ}へ{行|い}きます」とあります。", "why_en": "The writer goes by bus."},
+   {"q_ja": "{仕事|しごと}は{何時|なんじ}に{終|お}わりますか。", "q_en": "What time does work end?",
+    "options": ["{五時|ごじ}", "{八時|はちじ}", "{十一時|じゅういちじ}"], "answer": 0,
+    "why_ja": "「{仕事|しごと}は{五時|ごじ}に{終|お}わります」とあります。{十一時|じゅういちじ}は{寝|ね}る{時間|じかん}です。", "why_en": "Work ends at five; eleven is bedtime."}
+  ]
+ }
+]

@@ -1,0 +1,53 @@
+[
+ {
+  "id": "mastery_rd_001", "level": "MASTERY",
+  "title_ja": "{友達|ともだち}とのチャット",
+  "text_ja": "ミカ：{明日|あした}の{映画|えいが}、{何時|なんじ}にする？\nリョウ：{十時|じゅうじ}の{回|かい}どう？\nミカ：{十時|じゅうじ}かぁ…。{明日|あした}、{朝|あさ}からバイトなんだよね…\nリョウ：あ、そっか。じゃあ{夕方|ゆうがた}の{回|かい}にする？\nミカ：ほんと？{助|たす}かる！{六時|ろくじ}のがあるって\nリョウ：おっけー。そういえば、ケンも{来|く}るって\nミカ：まじか、{楽|たの}しみ！",
+  "text_en": "Mika: What time for tomorrow's film?\nRyo: How about the 10 o'clock showing?\nMika: Ten, huh… I've got my part-time job tomorrow morning…\nRyo: Oh right. The evening showing, then?\nMika: Really? That helps! Apparently there's one at six.\nRyo: OK. Oh, and Ken says he's coming too.\nMika: No way, can't wait!",
+  "questions": [
+   {"q_ja": "ミカさんが「{十時|じゅうじ}かぁ…」と{書|か}いた{本当|ほんとう}の{気持|きも}ちは？", "q_en": "What did Mika really mean by 'Ten, huh…'?",
+    "options": ["{十時|じゅうじ}がいちばんいい", "{十時|じゅうじ}は{都合|つごう}が{悪|わる}い", "{映画|えいが}を{見|み}たくない", "{十時|じゅうじ}を{忘|わす}れていた"], "answer": 1,
+    "why_ja": "「〜かぁ…」と{言葉|ことば}を{止|と}め、{朝|あさ}のバイトの{事情|じじょう}を{言|い}っているので、{十時|じゅうじ}は{無理|むり}だという{意味|いみ}です。", "why_en": "She trails off and mentions her morning shift — a soft 'that doesn't work'."},
+   {"q_ja": "{何時|なんじ}の{映画|えいが}を{見|み}ることになりましたか。", "q_en": "Which showing did they settle on?",
+    "options": ["{十時|じゅうじ}", "{明日|あした}の{朝|あさ}", "{六時|ろくじ}", "まだ{決|き}まっていない"], "answer": 2,
+    "why_ja": "「{夕方|ゆうがた}の{回|かい}」「{六時|ろくじ}のがある」「おっけー」で{六時|ろくじ}に{決|き}まりました。", "why_en": "Evening showing, the six o'clock one, OK — six it is."},
+   {"q_ja": "「ケンも{来|く}るって」はどういう{意味|いみ}ですか。", "q_en": "What does 'ケンも来るって' mean?",
+    "options": ["ケンさんが{来|く}ると{言|い}っていた", "ケンさんに{来|き}てほしい", "ケンさんは{来|こ}ない", "リョウさんがケンさんを{呼|よ}べと{言|い}った"], "answer": 0,
+    "why_ja": "「〜って」は{聞|き}いたことを{伝|つた}える{話|はな}し{言葉|ことば}です。", "why_en": "〜って reports something heard."}
+  ]
+ },
+ {
+  "id": "mastery_rd_002", "level": "MASTERY",
+  "title_ja": "{打|う}ち{合|あ}わせ{日程|にってい}のご{相談|そうだん}",
+  "text_ja": "{株式会社|かぶしきがいしゃ}みどり{企画|きかく}　{佐藤|さとう}{様|さま}\nいつもお{世話|せわ}になっております。ひかり{商事|しょうじ}の{木村|きむら}でございます。\n{先日|せんじつ}ご{提案|ていあん}いただいた{来週|らいしゅう}{月曜日|げつようび}の{打|う}ち{合|あ}わせの{件|けん}ですが、あいにくその{日|ひ}は{終日|しゅうじつ}{外出|がいしゅつ}の{予定|よてい}が{入|はい}っております。\n{大変|たいへん}{恐縮|きょうしゅく}ですが、{水曜日|すいようび}か{木曜日|もくようび}の{午後|ごご}でご{調整|ちょうせい}いただくことは{可能|かのう}でしょうか。\nお{忙|いそが}しいところ{申|もう}し{訳|わけ}ございませんが、ご{検討|けんとう}のほど、よろしくお{願|ねが}いいたします。",
+  "text_en": "To Mr Sato, Midori Planning Co.\nThank you for your continued support. This is Kimura from Hikari Trading.\nRegarding the meeting you kindly proposed for next Monday — unfortunately I am out of the office all that day.\nI'm very sorry to ask, but would it be possible to arrange Wednesday or Thursday afternoon instead?\nI apologise for troubling you when you are busy, and thank you for considering it.",
+  "questions": [
+   {"q_ja": "{木村|きむら}さんがこのメールで{本当|ほんとう}に{伝|つた}えたいことは？", "q_en": "What is Kimura really trying to say?",
+    "options": ["{月曜日|げつようび}の{打|う}ち{合|あ}わせを{楽|たの}しみにしている", "{打|う}ち{合|あ}わせをやめたい", "{佐藤|さとう}さんの{会社|かいしゃ}に{行|い}きたくない", "{月曜日|げつようび}は{無理|むり}なので、{別|べつ}の{日|ひ}にしてほしい"], "answer": 3,
+    "why_ja": "「あいにく」「{恐縮|きょうしゅく}ですが」と{丁寧|ていねい}に{包|つつ}んでいますが、{中身|なかみ}は「{日|ひ}を{変|か}えてほしい」というお{願|ねが}いです。", "why_en": "Wrapped in courtesy, the core message is a request to reschedule."},
+   {"q_ja": "{木村|きむら}さんが{提案|ていあん}している{時間|じかん}は？", "q_en": "When does Kimura suggest meeting?",
+    "options": ["{月曜日|げつようび}の{午前|ごぜん}", "{水曜日|すいようび}か{木曜日|もくようび}の{午後|ごご}", "{金曜日|きんようび}の{終日|しゅうじつ}", "{来月|らいげつ}"], "answer": 1,
+    "why_ja": "「{水曜日|すいようび}か{木曜日|もくようび}の{午後|ごご}」と{書|か}いてあります。", "why_en": "The email says Wednesday or Thursday afternoon."},
+   {"q_ja": "「あいにく」という{言葉|ことば}から{分|わ}かる{気持|きも}ちは？", "q_en": "What feeling does あいにく convey?",
+    "options": ["{残念|ざんねん}だが{都合|つごう}が{悪|わる}いという{気持|きも}ち", "うれしい{気持|きも}ち", "{怒|おこ}っている{気持|きも}ち", "{急|いそ}いでいる{気持|きも}ち"], "answer": 0,
+    "why_ja": "「あいにく」は「{残念|ざんねん}ながら{都合|つごう}が{合|あ}わない」と{伝|つた}える{丁寧|ていねい}な{言葉|ことば}です。", "why_en": "あいにく = 'unfortunately, it doesn't work out'."}
+  ]
+ },
+ {
+  "id": "mastery_rd_003", "level": "MASTERY",
+  "title_ja": "「また{今度|こんど}」の{意味|いみ}",
+  "text_ja": "{日本|にほん}に{来|き}たばかりのころ、{同僚|どうりょう}に「また{今度|こんど}{飲|の}みに{行|い}きましょう」と{言|い}われて、とてもうれしかった。{私|わたし}はすぐに{手帳|てちょう}を{出|だ}して、「いつにしますか」と{聞|き}いた。{同僚|どうりょう}は{少|すこ}し{困|こま}った{顔|かお}で「そうですね…また{連絡|れんらく}します」と{言|い}った。{連絡|れんらく}は{来|こ}なかった。{今|いま}なら{分|わ}かる。あの「また{今度|こんど}」は{約束|やくそく}ではなく、{会話|かいわ}を{気持|きも}ちよく{終|お}わらせるための{言葉|ことば}だったのだ。{言葉|ことば}の{意味|いみ}だけでなく、{言|い}い{方|かた}や{顔|かお}を{見|み}ることも、{日本語|にほんご}の{勉強|べんきょう}なのだと{思|おも}う。",
+  "text_en": "When I had just arrived in Japan, a colleague said, 'Let's go for a drink again sometime,' and I was delighted. I pulled out my planner and asked, 'When shall we make it?' My colleague looked a little uncomfortable and said, 'Well… I'll get in touch.' No message ever came. Now I understand. That 'sometime' wasn't a promise — it was a phrase for ending the conversation on a pleasant note. Watching how things are said, and people's faces, is part of learning Japanese too.",
+  "questions": [
+   {"q_ja": "{同僚|どうりょう}の「また{今度|こんど}」の{本当|ほんとう}の{意味|いみ}は？", "q_en": "What did the colleague really mean by 'sometime'?",
+    "options": ["{来週|らいしゅう}{必|かなら}ず{行|い}くという{約束|やくそく}", "{具体的|ぐたいてき}な{約束|やくそく}ではなく、{気持|きも}ちのいいあいさつ", "{二度|にど}と{会|あ}いたくないという{意味|いみ}", "{筆者|ひっしゃ}を{飲|の}み{会|かい}に{招待|しょうたい}した"], "answer": 1,
+    "why_ja": "{筆者|ひっしゃ}は「{約束|やくそく}ではなく、{会話|かいわ}を{気持|きも}ちよく{終|お}わらせるための{言葉|ことば}」と{書|か}いています。", "why_en": "The writer says it was a pleasant closing phrase, not a promise."},
+   {"q_ja": "{同僚|どうりょう}が{困|こま}った{顔|かお}をしたのはなぜですか。", "q_en": "Why did the colleague look uncomfortable?",
+    "options": ["{筆者|ひっしゃ}が{飲|の}みに{行|い}くのを{断|ことわ}ったから", "{手帳|てちょう}をなくしたから", "お{酒|さけ}が{嫌|きら}いだったから", "{筆者|ひっしゃ}がすぐに{日|ひ}にちを{決|き}めようとしたから"], "answer": 3,
+    "why_ja": "あいさつのつもりだったのに、{筆者|ひっしゃ}が{手帳|てちょう}を{出|だ}して{日|ひ}にちを{聞|き}いたので{困|こま}ったのです。", "why_en": "It was just a pleasantry, but the writer tried to fix a date on the spot."},
+   {"q_ja": "{筆者|ひっしゃ}がこの{文章|ぶんしょう}でいちばん{言|い}いたいことは？", "q_en": "What is the writer's main point?",
+    "options": ["{言葉|ことば}の{意味|いみ}だけでなく、{言|い}い{方|かた}や{表情|ひょうじょう}も{大切|たいせつ}だ", "{同僚|どうりょう}はうそつきだ", "{手帳|てちょう}を{持|も}つべきだ", "{日本|にほん}では{飲|の}みに{行|い}かないほうがいい"], "answer": 0,
+    "why_ja": "{最後|さいご}の{文|ぶん}で「{言|い}い{方|かた}や{顔|かお}を{見|み}ることも{日本語|にほんご}の{勉強|べんきょう}」とまとめています。", "why_en": "The last sentence sums it up: reading tone and faces is part of the language."}
+  ]
+ }
+]

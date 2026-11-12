@@ -1,0 +1,83 @@
+[
+ {
+  "id": "n1_an_001", "level": "N1",
+  "ja": "{彼|かれ}の{発言|はつげん}は、{必|かなら}ずしも{事実|じじつ}を{反映|はんえい}しているとは{限|かぎ}らない。",
+  "en": "What he says does not necessarily reflect the facts.",
+  "variants": [
+   {"type": "meaning", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。", "prompt_en": "Which is closest in meaning to this sentence?",
+    "options": ["{彼|かれ}の{発言|はつげん}は{必|かなら}ず{事実|じじつ}だ", "{彼|かれ}の{発言|はつげん}は{事実|じじつ}と{違|ちが}う{場合|ばあい}もある", "{彼|かれ}の{発言|はつげん}はすべて{嘘|うそ}だ", "{彼|かれ}は{何|なに}も{発言|はつげん}していない"], "answer": 1,
+    "why_ja": "「{必|かなら}ずしも〜とは{限|かぎ}らない」は「いつも〜というわけではない」という{部分|ぶぶん}{否定|ひてい}です。すべて{嘘|うそ}だとは{言|い}っていません。", "why_en": "必ずしも〜とは限らない is a partial negation: not always true, not 'always false'."},
+   {"type": "subject_object", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}で、{何|なに}が{何|なに}を{反映|はんえい}しているのか。", "prompt_en": "In this sentence, what reflects what?",
+    "options": ["{事実|じじつ}が{発言|はつげん}を", "{発言|はつげん}が{事実|じじつ}を", "{彼|かれ}が{事実|じじつ}を"], "answer": 1,
+    "why_ja": "{主題|しゅだい}は「{彼|かれ}の{発言|はつげん}は」で、「{事実|じじつ}を」が{目的語|もくてきご}です。", "why_en": "The topic is 彼の発言, and 事実を is the object."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "「{反映|はんえい}している」と「ている」の{形|かたち}になっているのはなぜか。", "prompt_en": "Why is it 反映している (ている form)?",
+    "options": ["{発言|はつげん}が{事実|じじつ}を{映|うつ}している{状態|じょうたい}を{表|あらわ}すから", "{過去|かこ}の{一回|いっかい}の{動作|どうさ}を{表|あらわ}すから", "これからの{予定|よてい}を{表|あらわ}すから"], "answer": 0,
+    "why_ja": "「ている」はここでは{動作|どうさ}の{途中|とちゅう}ではなく、{発言|はつげん}が{持|も}っている{状態|じょうたい}・{性質|せいしつ}を{表|あらわ}しています。", "why_en": "Here ている describes a state or property of the statement, not an ongoing action."},
+   {"type": "meaning", "section": "vocab",
+    "prompt_ja": "「{反映|はんえい}する」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。", "prompt_en": "Which is closest to the meaning of 反映する?",
+    "options": ["{強|つよ}く{反対|はんたい}する", "{何度|なんど}もくり{返|かえ}す", "{物事|ものごと}の{様子|ようす}がほかのものに{表|あらわ}れる"], "answer": 2,
+    "why_ja": "「{反映|はんえい}する」は、ある{物事|ものごと}の{様子|ようす}や{性質|せいしつ}が、ほかのものにそのまま{表|あらわ}れることです。", "why_en": "反映する: one thing's state shows up faithfully in another (to reflect)."},
+   {"type": "rewrite", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}と{同|おな}じ{意味|いみ}の{文|ぶん}はどれか。", "prompt_en": "Which sentence means the same?",
+    "options": ["{彼|かれ}の{発言|はつげん}は{事実|じじつ}を{反映|はんえい}しているに{違|ちが}いない。", "{彼|かれ}の{発言|はつげん}は{事実|じじつ}を{反映|はんえい}しているはずがない。", "{彼|かれ}の{発言|はつげん}が{事実|じじつ}を{反映|はんえい}しているとは{言|い}い{切|き}れない。"], "answer": 2,
+    "why_ja": "「〜とは{言|い}い{切|き}れない」も「そうでない{可能性|かのうせい}もある」という{意味|いみ}です。「に{違|ちが}いない」は{強|つよ}い{肯定|こうてい}、「はずがない」は{強|つよ}い{否定|ひてい}です。", "why_en": "とは言い切れない also leaves room for doubt; に違いない is strong certainty and はずがない a strong denial."}
+  ]
+ },
+ {
+  "id": "n1_an_002", "level": "N1",
+  "ja": "{台風|たいふう}の{接近|せっきん}により、{明日|あす}の{式典|しきてん}は{延期|えんき}を{余儀|よぎ}なくされた。",
+  "en": "With the typhoon approaching, tomorrow's ceremony has had to be postponed.",
+  "variants": [
+   {"type": "meaning", "section": "reading",
+    "prompt_ja": "{式典|しきてん}はどうなったか。", "prompt_en": "What happened to the ceremony?",
+    "options": ["{予定|よてい}どおり{明日|あす}{行|おこな}われる", "{仕方|しかた}なく{日程|にってい}を{先|さき}に{延|の}ばすことになった", "{完全|かんぜん}に{中止|ちゅうし}になった"], "answer": 1,
+    "why_ja": "「{延期|えんき}」は{日程|にってい}を{後|あと}にずらすことで、「{余儀|よぎ}なくされた」は{仕方|しかた}なくそうなったことを{表|あらわ}します。{中止|ちゅうし}ではありません。", "why_en": "延期 means postponing (not cancelling), and 余儀なくされた means it was unavoidable."},
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の「により」の{意味|いみ}は？", "prompt_en": "What does により mean here?",
+    "options": ["{原因|げんいん}・{理由|りゆう}", "{手段|しゅだん}・{道具|どうぐ}", "{場所|ばしょ}", "{動作|どうさ}の{相手|あいて}"], "answer": 0,
+    "why_ja": "{台風|たいふう}が{近|ちか}づいたことが、{延期|えんき}の{原因|げんいん}です。「により」は{硬|かた}い{文|ぶん}で{原因|げんいん}を{表|あらわ}します。", "why_en": "The approaching typhoon is the cause; により marks cause in formal writing."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "「{余儀|よぎ}なくされた」と{受身|うけみ}の{形|かたち}になっているのはなぜか。", "prompt_en": "Why the passive 余儀なくされた?",
+    "options": ["{丁寧|ていねい}に{言|い}うためだけの{形|かたち}だから", "{式典|しきてん}が{状況|じょうきょう}によって{延期|えんき}させられる{側|がわ}だから", "{式典|しきてん}が{自分|じぶん}から{延期|えんき}を{選|えら}んだから"], "answer": 1,
+    "why_ja": "{主語|しゅご}の「{式典|しきてん}」は{台風|たいふう}という{状況|じょうきょう}の{影響|えいきょう}を{受|う}ける{側|がわ}なので、{受身|うけみ}の「される」を{使|つか}います。", "why_en": "The ceremony is on the receiving end of the circumstances, so the passive される."},
+   {"type": "same_pattern", "section": "grammar",
+    "prompt_ja": "「を{余儀|よぎ}なくされる」の{使|つか}い{方|かた}が{正|ただ}しい{文|ぶん}はどれか。", "prompt_en": "Which sentence uses を余儀なくされる correctly?",
+    "options": ["{彼|かれ}は{喜|よろこ}んで{旅行|りょこう}を{余儀|よぎ}なくされた。", "{雨|あめ}が{止|や}んで、{試合|しあい}は{再開|さいかい}を{余儀|よぎ}なくされた。", "{資金|しきん}{不足|ぶそく}で、{工事|こうじ}は{中断|ちゅうだん}を{余儀|よぎ}なくされた。"], "answer": 2,
+    "why_ja": "「を{余儀|よぎ}なくされる」は{望|のぞ}まないことを{仕方|しかた}なくするときに{使|つか}います。「{喜|よろこ}んで」や、{良|よ}い{知|し}らせである「{再開|さいかい}」には{合|あ}いません。", "why_en": "It is for unwanted, unavoidable outcomes; not with 喜んで or a welcome restart."},
+   {"type": "respond", "section": "conversation",
+    "prompt_ja": "{同僚|どうりょう}からこの{知|し}らせを{聞|き}きました。{返事|へんじ}として{最|もっと}も{自然|しぜん}なのはどれか。", "prompt_en": "A colleague tells you this news. Which reply is most natural?",
+    "options": ["そうですか。では、{新|あたら}しい{日程|にってい}が{決|き}まったら{教|おし}えてください。", "よかったですね。{明日|あす}が{楽|たの}しみです。", "では、{台風|たいふう}を{延期|えんき}してください。"], "answer": 0,
+    "why_ja": "{式典|しきてん}は{延期|えんき}になったので、{新|あたら}しい{日程|にってい}を{尋|たず}ねるのが{自然|しぜん}です。{明日|あす}は{行|おこな}われません。", "why_en": "Since it was postponed, asking about the new date is natural; it is not happening tomorrow."}
+  ]
+ },
+ {
+  "id": "n1_an_003", "level": "N1",
+  "ja": "{彼女|かのじょ}の{演奏|えんそう}は、{聴|き}く{者|もの}の{心|こころ}を{揺|ゆ}さぶらずにはおかない。",
+  "en": "Her playing cannot fail to stir the hearts of those who hear it.",
+  "variants": [
+   {"type": "meaning", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。", "prompt_en": "Which is closest in meaning to this sentence?",
+    "options": ["{聴|き}く{人|ひと}の{心|こころ}を{動|うご}かしてはいけない", "{聴|き}く{人|ひと}の{心|こころ}はあまり{動|うご}かない", "{聴|き}く{人|ひと}の{心|こころ}を{必|かなら}ず{強|つよ}く{動|うご}かす"], "answer": 2,
+    "why_ja": "「ずにはおかない」は「{必|かなら}ず〜する・{必|かなら}ず〜させる」という{意味|いみ}です。", "why_en": "ずにはおかない means 'will certainly'."},
+   {"type": "subject_object", "section": "grammar",
+    "prompt_ja": "{心|こころ}を{揺|ゆ}さぶるのは{何|なに}か。", "prompt_en": "What stirs people's hearts?",
+    "options": ["{聴|き}く{者|もの}", "{彼女|かのじょ}の{演奏|えんそう}", "{心|こころ}そのもの"], "answer": 1,
+    "why_ja": "{主題|しゅだい}の「{彼女|かのじょ}の{演奏|えんそう}は」が、「{聴|き}く{者|もの}の{心|こころ}を」{揺|ゆ}さぶります。", "why_en": "The topic 彼女の演奏 is what stirs 聴く者の心."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "「{揺|ゆ}さぶらず」の{形|かたち}について{正|ただ}しいのはどれか。", "prompt_en": "Which correctly explains the form 揺さぶらず?",
+    "options": ["「{揺|ゆ}さぶる」のない{形|けい}の{語幹|ごかん}「{揺|ゆ}さぶら」に「ず」がついた", "「{揺|ゆ}さぶる」の{過去形|かこけい}", "「{揺|ゆ}さぶる」の{受身形|うけみけい}"], "answer": 0,
+    "why_ja": "「ず」は「ない」の{硬|かた}い{形|かたち}で、ない{形|けい}と{同|おな}じ「{揺|ゆ}さぶら」につきます。", "why_en": "ず is a literary 'not', attached to the same stem as ない: 揺さぶら."},
+   {"type": "rewrite", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}と{同|おな}じ{意味|いみ}の{文|ぶん}はどれか。", "prompt_en": "Which sentence means the same?",
+    "options": ["{彼女|かのじょ}の{演奏|えんそう}は、{聴|き}く{者|もの}の{心|こころ}を{揺|ゆ}さぶるまでもない。", "{彼女|かのじょ}の{演奏|えんそう}を{聴|き}けば、{誰|だれ}でも{心|こころ}を{揺|ゆ}さぶられるだろう。", "{彼女|かのじょ}の{演奏|えんそう}を{聴|き}いても、{心|こころ}は{揺|ゆ}さぶられない。"], "answer": 1,
+    "why_ja": "「{誰|だれ}でも{心|こころ}を{揺|ゆ}さぶられる」が「{必|かなら}ず{心|こころ}を{揺|ゆ}さぶる」と{同|おな}じ{内容|ないよう}です。「までもない」は「{必要|ひつよう}がない」という{意味|いみ}です。", "why_en": "'Anyone would be moved' matches 'cannot fail to move'; までもない means 'no need to'."},
+   {"type": "meaning", "section": "vocab",
+    "prompt_ja": "この{文|ぶん}での「{揺|ゆ}さぶる」の{意味|いみ}はどれか。", "prompt_en": "What does 揺さぶる mean in this sentence?",
+    "options": ["{物|もの}を{手|て}で{強|つよ}くゆらす", "{感情|かんじょう}を{強|つよ}く{動|うご}かす", "{音|おと}を{大|おお}きくする"], "answer": 1,
+    "why_ja": "{目的語|もくてきご}が「{心|こころ}」なので、{物|もの}をゆらすのではなく、{気持|きも}ちを{強|つよ}く{動|うご}かすという{意味|いみ}です。", "why_en": "With 心 as the object, it means to stir emotions, not to shake an object."}
+  ]
+ }
+]

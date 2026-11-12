@@ -1,0 +1,83 @@
+[
+ {
+  "id": "mastery_an_001", "level": "MASTERY",
+  "ja": "{言葉|ことば}だけでなく、{相手|あいて}の{気持|きも}ちや{状況|じょうきょう}も{考|かんが}えて{話|はな}すことが{大切|たいせつ}です。",
+  "en": "It is important to speak with thought not only for your words but also for the other person's feelings and situation.",
+  "variants": [
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の「だけでなく」の{意味|いみ}は？", "prompt_en": "What does だけでなく mean here?",
+    "options": ["〜しかない", "〜だけではなく、ほかにも", "〜より{少|すく}ない", "〜のかわりに"], "answer": 1,
+    "why_ja": "「AだけでなくBも」は、AとBの{両方|りょうほう}という{意味|いみ}です。", "why_en": "AだけでなくBも = not only A but also B."},
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "「{気持|きも}ちや{状況|じょうきょう}」の「や」の{働|はたら}きは？", "prompt_en": "What does や do in 気持ちや状況?",
+    "options": ["{理由|りゆう}を{表|あらわ}す", "{場所|ばしょ}を{表|あらわ}す", "{例|れい}をいくつか{並|なら}べる（ほかにもある）", "{全部|ぜんぶ}を{並|なら}べる（ほかにはない）"], "answer": 2,
+    "why_ja": "「や」は{例|れい}を{並|なら}べ、ほかにもあることを{示|しめ}します。", "why_en": "や lists examples, implying there are others."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "「{考|かんが}えて{話|はな}す」の「て」は{何|なに}を{表|あらわ}していますか。", "prompt_en": "What does the て in 考えて話す express?",
+    "options": ["{話|はな}す{方法|ほうほう}・{様子|ようす}（{考|かんが}えた{上|うえ}で{話|はな}す）", "{原因|げんいん}", "{命令|めいれい}", "{過去|かこ}"], "answer": 0,
+    "why_ja": "「〜て〜する」で、どのように{話|はな}すか（{方法|ほうほう}）を{表|あらわ}しています。", "why_en": "〜て + verb describes how the action is done."},
+   {"type": "respond", "section": "conversation",
+    "prompt_ja": "この{文|ぶん}の{考|かんが}えに{合|あ}う{返事|へんじ}は？　{友達|ともだち}：「{試験|しけん}、だめだった…」", "prompt_en": "Which reply fits this idea? Friend: 'I failed the exam…'",
+    "options": ["{勉強|べんきょう}しなかったからでしょ。", "{私|わたし}は{合格|ごうかく}したよ！", "ふーん。", "そっか…{残念|ざんねん}だったね。{今日|きょう}はゆっくり{休|やす}もう。"], "answer": 3,
+    "why_ja": "{相手|あいて}の{落|お}ち{込|こ}んだ{気持|きも}ちを{考|かんが}えて、まず{受|う}け{止|と}めています。", "why_en": "It considers the friend's feelings and acknowledges them first."},
+   {"type": "rewrite", "section": "reading",
+    "prompt_ja": "{同|おな}じ{意味|いみ}の{文|ぶん}はどれですか。", "prompt_en": "Which sentence means the same?",
+    "options": ["{話|はな}すときは、{言葉|ことば}だけを{考|かんが}えればいいです。", "{話|はな}すときは、{言葉|ことば}に{加|くわ}えて{相手|あいて}の{気持|きも}ちや{状況|じょうきょう}にも{気|き}を{配|くば}るべきです。", "{相手|あいて}の{気持|きも}ちより{言葉|ことば}のほうが{大切|たいせつ}です。", "{状況|じょうきょう}を{考|かんが}えると、{話|はな}さないほうがいいです。"], "answer": 1,
+    "why_ja": "「だけでなく〜も」＝「〜に{加|くわ}えて」です。", "why_en": "だけでなく〜も = in addition to."}
+  ]
+ },
+ {
+  "id": "mastery_an_002", "level": "MASTERY",
+  "ja": "すみません、{今日|きょう}はちょっと{用事|ようじ}があって…。また{誘|さそ}ってください。",
+  "en": "Sorry, I have something on today… Please ask me again.",
+  "variants": [
+   {"type": "meaning", "section": "conversation",
+    "prompt_ja": "この{人|ひと}が{本当|ほんとう}に{言|い}いたいことは？", "prompt_en": "What does this person really want to say?",
+    "options": ["{今日|きょう}{少|すこ}しだけなら{行|い}ける", "{今日|きょう}は{行|い}けないが、{関係|かんけい}は{大切|たいせつ}にしたい", "もう{誘|さそ}わないでほしい", "{用事|ようじ}が{終|お}わったら{必|かなら}ず{行|い}く"], "answer": 1,
+    "why_ja": "「ちょっと…」で{断|ことわ}り、「また{誘|さそ}ってください」で{次|つぎ}も{誘|さそ}ってほしい{気持|きも}ちを{伝|つた}えています。", "why_en": "ちょっと… declines; また誘ってください keeps the door open."},
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "ここでの「ちょっと」の{働|はたら}きは？", "prompt_en": "What does ちょっと do here?",
+    "options": ["{量|りょう}が{少|すく}ないことを{表|あらわ}す", "{時間|じかん}が{短|みじか}いことを{表|あらわ}す", "{相手|あいて}を{呼|よ}ぶ", "{断|ことわ}りを{柔|やわ}らかくする"], "answer": 3,
+    "why_ja": "ここの「ちょっと」は{量|りょう}ではなく、{断|ことわ}りの{言葉|ことば}を{柔|やわ}らかくしています。", "why_en": "Here ちょっと is a softener, not 'a little'."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "「{用事|ようじ}があって…」と「て」で{止|と}めているのはなぜですか。", "prompt_en": "Why does it stop at the て-form 用事があって…?",
+    "options": ["{理由|りゆう}だけ{言|い}って、「{行|い}けません」をはっきり{言|い}わないため", "{命令|めいれい}するため", "{過去|かこ}のことだから", "{文法|ぶんぽう}の{間違|まちが}い"], "answer": 0,
+    "why_ja": "{理由|りゆう}で{止|と}めると、{相手|あいて}が{断|ことわ}りだと{察|さっ}してくれます。", "why_en": "Stopping at the reason lets the listener infer the refusal."},
+   {"type": "respond", "section": "conversation",
+    "prompt_ja": "こう{言|い}われたとき、{誘|さそ}った{人|ひと}の{自然|しぜん}な{返事|へんじ}は？", "prompt_en": "What is a natural reply from the person who invited them?",
+    "options": ["どんな{用事|ようじ}？{詳|くわ}しく{教|おし}えて。", "じゃあ、{用事|ようじ}をやめて{来|き}て。", "そっか、{残念|ざんねん}。じゃあ、また{今度|こんど}ね。", "わかりました。{二度|にど}と{誘|さそ}いません。"], "answer": 2,
+    "why_ja": "{理由|りゆう}を{深|ふか}く{聞|き}かず、{気持|きも}ちよく{受|う}け{入|い}れるのが{自然|しぜん}です。", "why_en": "Accept graciously without probing the reason."},
+   {"type": "same_pattern", "section": "grammar",
+    "prompt_ja": "「〜はちょっと…」と{同|おな}じ{使|つか}い{方|かた}の{文|ぶん}はどれですか。", "prompt_en": "Which sentence uses ちょっと… the same way?",
+    "options": ["ちょっと{待|ま}ってください。", "{辛|から}いものはちょっと…。", "ちょっと{塩|しお}を{入|い}れます。", "ちょっと{寒|さむ}くなりました。"], "answer": 1,
+    "why_ja": "「{辛|から}いものはちょっと…」も、{言葉|ことば}を{止|と}めて{柔|やわ}らかく{断|ことわ}っています。", "why_en": "辛いものはちょっと… is also a trailing soft refusal."}
+  ]
+ },
+ {
+  "id": "mastery_an_003", "level": "MASTERY",
+  "ja": "お{忙|いそが}しいところ{恐|おそ}れ{入|い}りますが、{資料|しりょう}をご{確認|かくにん}いただけますでしょうか。",
+  "en": "I'm sorry to trouble you when you're busy, but could you kindly check the documents?",
+  "variants": [
+   {"type": "subject_object", "section": "grammar",
+    "prompt_ja": "{資料|しりょう}を{確認|かくにん}するのは{誰|だれ}ですか。", "prompt_en": "Who will check the documents?",
+    "options": ["{話|はな}している{人|ひと}", "{話|はな}している{人|ひと}の{部下|ぶか}", "{聞|き}いている{人|ひと}（{相手|あいて}）", "{書|か}かれていない{第三者|だいさんしゃ}"], "answer": 2,
+    "why_ja": "「〜ていただく」は{相手|あいて}にしてもらうことなので、{確認|かくにん}するのは{相手|あいて}です。", "why_en": "〜ていただく means the listener does it for you."},
+   {"type": "particle_meaning", "section": "grammar",
+    "prompt_ja": "「{恐|おそ}れ{入|い}りますが」の「が」の{働|はたら}きは？", "prompt_en": "What does が do in 恐れ入りますが?",
+    "options": ["{前置|まえお}きとして{頼|たの}みを{柔|やわ}らかくする", "{主語|しゅご}を{表|あらわ}す", "{強|つよ}い{反対|はんたい}を{表|あらわ}す", "{理由|りゆう}を{表|あらわ}す"], "answer": 0,
+    "why_ja": "この「が」は{逆接|ぎゃくせつ}ではなく、{頼|たの}みの{前|まえ}に{置|お}くクッションです。", "why_en": "This が is a cushion before the request, not a real contrast."},
+   {"type": "rewrite", "section": "conversation",
+    "prompt_ja": "{同|おな}じ{頼|たの}みを{仲|なか}のいい{同僚|どうりょう}にするなら？", "prompt_en": "How would you make the same request to a close colleague?",
+    "options": ["{資料|しりょう}をご{確認|かくにん}あそばせ。", "{資料|しりょう}を{拝見|はいけん}してくれる？", "{資料|しりょう}を{見|み}ろ。", "{忙|いそが}しいところごめん、{資料|しりょう}ちょっと{見|み}てもらえる？"], "answer": 3,
+    "why_ja": "{親|した}しい{同僚|どうりょう}には「ごめん」「〜てもらえる？」くらいが{自然|しぜん}です。「{拝見|はいけん}」は{自分|じぶん}が{見|み}るときの{謙譲語|けんじょうご}です。", "why_en": "ごめん + 〜てもらえる？ suits a close colleague; 拝見 is humble for your own looking."},
+   {"type": "conjugation_why", "section": "grammar",
+    "prompt_ja": "なぜ「ご{確認|かくにん}いただけますでしょうか」と{言|い}うのですか。", "prompt_en": "Why say ご確認いただけますでしょうか?",
+    "options": ["{自分|じぶん}が{確認|かくにん}するため", "{相手|あいて}にしてもらうことを{謙譲語|けんじょうご}で{表|あらわ}し、{可能|かのう}かどうか{丁寧|ていねい}に{聞|き}くため", "{相手|あいて}に{物|もの}をあげるため", "{過去|かこ}のことを{言|い}うため"], "answer": 1,
+    "why_ja": "「いただく」で{自分|じぶん}を{低|ひく}くし、「〜でしょうか」で{押|お}しつけずに{聞|き}いています。", "why_en": "いただく lowers you; でしょうか asks without pressing."},
+   {"type": "meaning", "section": "vocab",
+    "prompt_ja": "ここでの「{恐|おそ}れ{入|い}ります」に{近|ちか}い{気持|きも}ちは？", "prompt_en": "Which feeling is closest to 恐れ入ります here?",
+    "options": ["{怖|こわ}いです", "{入|はい}ってもいいですか", "{申|もう}し{訳|わけ}なく、ありがたいです", "うれしくないです"], "answer": 2,
+    "why_ja": "「{恐|おそ}れ{入|い}ります」は、{手間|てま}をかけて{申|もう}し{訳|わけ}ない{気持|きも}ちと{感謝|かんしゃ}を{表|あらわ}します。", "why_en": "恐れ入ります mixes apology for the trouble with gratitude."}
+  ]
+ }
+]

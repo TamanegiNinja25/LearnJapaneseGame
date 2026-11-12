@@ -3,7 +3,7 @@ extends Control
 class_name FuriganaLabel
 ## Draws Japanese text with furigana (ruby) above every kanji group, following the typography
 ## rules in docs/ART_BIBLE.md §2.2: ruby at 50% of the base size (min 11 px), 2 px ruby gap,
-## line height 1.9x the base, ruby centred over its base, wrapping at character boundaries with
+## line height 1.9× the base, ruby centred over its base, wrapping at character boundaries with
 ## 禁則処理 (no line starts with closing punctuation or small kana). Ruby height is always
 ## reserved so lines never jump when ruby is hidden.
 ##
@@ -13,14 +13,22 @@ const RUBY_GAP := 2.0
 const LINE_FACTOR := 1.9
 const NO_LINE_START := "。、」』）!?！？・ーぁぃぅぇぉっゃゅょァィゥェォッャュョ"
 
+## Kanji runs whose ruby is hidden in Japanese-only mode (words the player knows well).
+## Maintained by Progress; empty means "show all ruby".
+static var known_bases: Dictionary = {}
+
 @export_multiline var text: String = "":
 	set(value):
 		text = value
 		_segments = Furigana.parse(text)
 		_relayout()
-@export_range(11, 96) var font_size: int = 24:
+@export_range(11, 128) var font_size: int = 24:
 	set(value):
 		font_size = value
+		_relayout()
+@export var weight: int = 400:
+	set(value):
+		weight = value
 		_relayout()
 @export var color: Color = Color("#2B2520"):
 	set(value):
@@ -45,7 +53,6 @@ const NO_LINE_START := "。、」』）!?！？・ーぁぃぅぇぉっゃゅょ
 
 var _segments: Array[Dictionary] = []
 var _lines: Array[Dictionary] = []   # {"cells": Array[Dictionary], "width": float}
-var _layout_width := -1.0
 
 
 func _init() -> void:
@@ -62,7 +69,15 @@ func line_height() -> float:
 
 
 func _font() -> Font:
-	return get_theme_default_font()
+	if Engine.is_editor_hint():
+		return get_theme_default_font()
+	return UITheme.font(weight)
+
+
+func _ruby_font() -> Font:
+	if Engine.is_editor_hint():
+		return get_theme_default_font()
+	return UITheme.font(400)
 
 
 func _notification(what: int) -> void:
@@ -84,19 +99,20 @@ func _get_minimum_size() -> Vector2:
 
 ## Split segments into drawable cells: one cell per kanji group, one per plain character.
 func _cells() -> Array[Dictionary]:
-	var font := _font()
+	var f := _font()
+	var rf := _ruby_font()
 	var cells: Array[Dictionary] = []
 	for seg in _segments:
 		if seg["ruby"] != "":
-			var base_w := font.get_string_size(seg["base"], HORIZONTAL_ALIGNMENT_LEFT, -1, font_size).x
-			var ruby_w := font.get_string_size(seg["ruby"], HORIZONTAL_ALIGNMENT_LEFT, -1, ruby_size()).x
+			var base_w := f.get_string_size(seg["base"], HORIZONTAL_ALIGNMENT_LEFT, -1, font_size).x
+			var ruby_w := rf.get_string_size(seg["ruby"], HORIZONTAL_ALIGNMENT_LEFT, -1, ruby_size()).x
 			cells.append({"base": seg["base"], "ruby": seg["ruby"], "base_w": base_w, "ruby_w": ruby_w, "w": maxf(base_w, ruby_w)})
 		else:
 			for ch in seg["base"]:
 				if ch == "\n":
 					cells.append({"base": "\n", "ruby": "", "base_w": 0.0, "ruby_w": 0.0, "w": 0.0})
 					continue
-				var w := font.get_string_size(ch, HORIZONTAL_ALIGNMENT_LEFT, -1, font_size).x
+				var w := f.get_string_size(ch, HORIZONTAL_ALIGNMENT_LEFT, -1, font_size).x
 				cells.append({"base": ch, "ruby": "", "base_w": w, "ruby_w": 0.0, "w": w})
 	return cells
 
@@ -123,15 +139,15 @@ func _relayout() -> void:
 		width += cw
 	if not current.is_empty() or _lines.is_empty():
 		_lines.append({"cells": current, "width": width})
-	_layout_width = avail
 	update_minimum_size()
 	queue_redraw()
 
 
 func _draw() -> void:
-	var font := _font()
-	var ascent := font.get_ascent(font_size)
-	var ruby_ascent := font.get_ascent(ruby_size())
+	var f := _font()
+	var rf := _ruby_font()
+	var ascent := f.get_ascent(font_size)
+	var ruby_ascent := rf.get_ascent(ruby_size())
 	var lh := line_height()
 	var ruby_band := ruby_size() + RUBY_GAP
 	for i in _lines.size():
@@ -142,15 +158,14 @@ func _draw() -> void:
 			offset = maxf(0.0, (size.x - float(line["width"])) * 0.5)
 		elif alignment == HORIZONTAL_ALIGNMENT_RIGHT:
 			offset = maxf(0.0, size.x - float(line["width"]))
-		# Centre the base + ruby block inside the 1.9x line box.
-		var block := ruby_band + font.get_height(font_size)
+		var block := ruby_band + f.get_height(font_size)
 		var block_top := top + (lh - block) * 0.5
 		var baseline := block_top + ruby_band + ascent
 		for cell in line["cells"]:
 			var x := offset + float(cell["x"])
 			var w := float(cell["w"])
 			var bx := x + (w - float(cell["base_w"])) * 0.5
-			draw_string(font, Vector2(bx, baseline), cell["base"], HORIZONTAL_ALIGNMENT_LEFT, -1, font_size, color)
-			if show_ruby and cell["ruby"] != "":
+			draw_string(f, Vector2(bx, baseline), cell["base"], HORIZONTAL_ALIGNMENT_LEFT, -1, font_size, color)
+			if show_ruby and cell["ruby"] != "" and not known_bases.has(cell["base"]):
 				var rx := x + (w - float(cell["ruby_w"])) * 0.5
-				draw_string(font, Vector2(rx, block_top + ruby_ascent), cell["ruby"], HORIZONTAL_ALIGNMENT_LEFT, -1, ruby_size(), ruby_color)
+				draw_string(rf, Vector2(rx, block_top + ruby_ascent), cell["ruby"], HORIZONTAL_ALIGNMENT_LEFT, -1, ruby_size(), ruby_color)

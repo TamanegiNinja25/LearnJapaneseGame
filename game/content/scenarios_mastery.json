@@ -1,0 +1,212 @@
+[
+ {
+  "id": "mastery_sc_izakaya", "level": "MASTERY", "register": "casual",
+  "title_ja": "{居酒屋|いざかや}で{友達|ともだち}と",
+  "title_en": "Catching up with a friend at an izakaya",
+  "location": "{都会|とかい}",
+  "turns": [
+   {"speaker": "ユウタ", "line_ja": "おつかれ！{先|さき}に{始|はじ}めちゃってた。{何|なに}{飲|の}む？", "line_en": "Hey! We already started. What'll you drink?",
+    "options": [
+     {"ja": "お{疲|つか}れ{様|さま}でございます。ビールをいただけますでしょうか。", "verdict": "unnatural", "register": "respectful",
+      "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{友達|ともだち}にこの{敬語|けいご}は{堅|かた}すぎて{距離|きょり}を{感|かん}じさせます。", "feedback_en": "Grammatical, but this keigo is far too stiff with a friend."},
+     {"ja": "おつかれ〜。とりあえずビールかな。", "verdict": "correct", "register": "casual",
+      "feedback_ja": "{友達|ともだち}には「おつかれ」と「〜かな」で{軽|かる}く{答|こた}えるのが{自然|しぜん}です。", "feedback_en": "おつかれ and a relaxed 〜かな are just right with a friend."},
+     {"ja": "ビールが{飲|の}みます。", "verdict": "wrong",
+      "feedback_ja": "「{飲|の}む」の{前|まえ}は「を」です。「が」では{意味|いみ}がおかしくなります。", "feedback_en": "飲む takes を, not が."}
+    ],
+    "typed": ["とりあえずビールかな", "とりあえずビール", "ビールかな", "おつかれ、とりあえずビールかな"]},
+   {"speaker": "{店員|てんいん}", "line_ja": "いらっしゃいませ。ご{注文|ちゅうもん}はお{決|き}まりですか。", "line_en": "Welcome. Are you ready to order?",
+    "options": [
+     {"ja": "{生|なま}ひとつ、{持|も}ってきて。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{友達|ともだち}と{一緒|いっしょ}でも、{店員|てんいん}には{丁寧|ていねい}に{話|はな}します。{命令|めいれい}の{形|かたち}は{失礼|しつれい}です。", "feedback_en": "Even out with friends, you switch to polite with staff; a bare command is rude."},
+     {"ja": "{生|なま}ビールを{一|ひと}つ{注文|ちゅうもん}されます。", "verdict": "wrong",
+      "feedback_ja": "「される」は{自分|じぶん}の{動作|どうさ}には{使|つか}いません。", "feedback_en": "される is not used for your own action."},
+     {"ja": "{生|なま}ビール、{一|ひと}つお{願|ねが}いします。", "verdict": "correct", "register": "polite",
+      "feedback_ja": "{店員|てんいん}には「〜お{願|ねが}いします」。{相手|あいて}が{変|か}わったら{話|はな}し{方|かた}も{変|か}えます。", "feedback_en": "〜お願いします to staff — switch register when the listener changes."}
+    ],
+    "typed": ["生ビール一つお願いします", "生ビールひとつお願いします", "なまビールひとつおねがいします", "生一つお願いします", "生ひとつお願いします"]},
+   {"speaker": "ユウタ", "line_ja": "そういえば、{新|あたら}しい{仕事|しごと}どう？もう{慣|な}れた？", "line_en": "That reminds me, how's the new job? Used to it yet?",
+    "options": [
+     {"ja": "まあまあかな。{覚|おぼ}えることが{多|おお}くて、けっこう{疲|つか}れてる。", "verdict": "correct", "register": "casual",
+      "feedback_ja": "「〜かな」「〜てる」で、{友達|ともだち}らしい{自然|しぜん}な{答|こた}えになっています。", "feedback_en": "〜かな and 〜てる make it a natural, friendly answer."},
+     {"ja": "おかげさまで、{大変|たいへん}{順調|じゅんちょう}に{推移|すいい}しております。", "verdict": "unnatural", "register": "business",
+      "feedback_ja": "ビジネスの{報告|ほうこく}のような{言|い}い{方|かた}です。{居酒屋|いざかや}で{友達|ともだち}には{合|あ}いません。", "feedback_en": "Sounds like a business report — wrong register for a friend at an izakaya."},
+     {"ja": "{慣|な}れたが{仕事|しごと}です。", "verdict": "wrong",
+      "feedback_ja": "{文|ぶん}の{形|かたち}が{壊|こわ}れていて、{意味|いみ}が{通|つう}じません。", "feedback_en": "The sentence is broken and doesn't mean anything."}
+    ],
+    "typed": ["まあまあかな", "まあまあ", "まだ慣れてない", "まだなれてない", "けっこう疲れてる"]},
+   {"speaker": "ユウタ", "line_ja": "{実|じつ}はさ、{来月|らいげつ}{引|ひ}っ{越|こ}すんだよね。", "line_en": "Actually, I'm moving next month.",
+    "options": [
+     {"ja": "うん、{引|ひ}っ{越|こ}すよね。{知|し}らなかった。", "verdict": "wrong",
+      "feedback_ja": "「よね」は{知|し}っていることを{確認|かくにん}する{言葉|ことば}なので、「{知|し}らなかった」と{合|あ}いません。", "feedback_en": "よね presumes you knew, which contradicts 知らなかった."},
+     {"ja": "さようでございますか。お{引|ひ}っ{越|こ}し{先|さき}はどちらでいらっしゃいますか。", "verdict": "unnatural", "register": "respectful",
+      "feedback_ja": "{友達|ともだち}のニュースに{最高|さいこう}の{敬語|けいご}で{答|こた}えると、{冷|つめ}たく{聞|き}こえます。", "feedback_en": "Top-level keigo for a friend's news sounds cold."},
+     {"ja": "えっ、マジで？どこに？", "verdict": "correct", "register": "casual",
+      "feedback_ja": "{驚|おどろ}きの{相|あい}づちと{短|みじか}い{質問|しつもん}で、{話|はなし}をよく{聞|き}いていることが{伝|つた}わります。", "feedback_en": "A surprised aizuchi and a quick question show you're engaged."}
+    ],
+    "typed": ["えっ、マジで？どこに？", "マジで？どこに？", "本当？どこに？", "ほんとう？どこに？", "え、どこに"]},
+   {"speaker": "ユウタ", "line_ja": "{横浜|よこはま}。で、{日曜|にちよう}が{引|ひ}っ{越|こ}しなんだけど、{手伝|てつだ}ってくれたりする？", "line_en": "Yokohama. So the move's on Sunday — any chance you could help?",
+    "options": [
+     {"ja": "ごめん、{日曜|にちよう}はちょっと{用事|ようじ}があって…。{土曜|どよう}なら{行|い}けるよ。", "verdict": "correct", "register": "casual",
+      "feedback_ja": "「ちょっと…」で{柔|やわ}らかく{断|ことわ}り、{代|か}わりの{案|あん}を{出|だ}しています。", "feedback_en": "A soft ちょっと… refusal plus an alternative offer."},
+     {"ja": "{無理|むり}。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{友達|ともだち}でも、{一言|ひとこと}だけの{断|ことわ}りは{冷|つめ}たすぎます。", "feedback_en": "Even with a friend, a one-word refusal is too blunt."},
+     {"ja": "{日曜|にちよう}はちょっと{暇|ひま}だから{行|い}けない。", "verdict": "wrong",
+      "feedback_ja": "「{暇|ひま}だから{行|い}けない」は{理由|りゆう}と{結果|けっか}が{合|あ}いません。", "feedback_en": "'I'm free, so I can't come' is contradictory."},
+     {"ja": "せっかくのお{誘|さそ}いですが、{今回|こんかい}は{遠慮|えんりょ}させていただきます。", "verdict": "unnatural", "register": "business",
+      "feedback_ja": "ビジネスの{断|ことわ}り{方|かた}です。{友達|ともだち}の{頼|たの}みには{堅|かた}すぎます。", "feedback_en": "A business-style refusal — too formal for a friend."}
+    ],
+    "typed": ["ごめん、日曜はちょっと", "日曜はちょっと", "にちようはちょっと", "ごめん、日曜はちょっと用事があって", "土曜なら行けるよ"]},
+   {"speaker": "ユウタ", "line_ja": "{土曜|どよう}でも{全然|ぜんぜん}{助|たす}かる！ありがとう！", "line_en": "Saturday would be a huge help! Thanks!",
+    "options": [
+     {"ja": "とんでもないことでございます。", "verdict": "unnatural", "register": "respectful",
+      "feedback_ja": "お{客様|きゃくさま}への{返事|へんじ}のようで、{友達|ともだち}には{合|あ}いません。", "feedback_en": "Sounds like answering a client, not a friend."},
+     {"ja": "いいよいいよ。じゃ、{土曜|どよう}{何時|なんじ}に{行|い}けばいい？", "verdict": "correct", "register": "casual",
+      "feedback_ja": "「いいよいいよ」で{気軽|きがる}に{受|う}け、すぐに{予定|よてい}の{話|はなし}に{進|すす}んでいます。", "feedback_en": "いいよいいよ shrugs off the thanks and moves on to plans."},
+     {"ja": "どういたしましてが{行|い}きます。", "verdict": "wrong",
+      "feedback_ja": "「どういたしまして」は{主語|しゅご}になりません。{文|ぶん}が{成|な}り{立|た}ちません。", "feedback_en": "どういたしまして can't be a subject; the sentence is nonsense."}
+    ],
+    "typed": ["いいよいいよ", "いいよ", "土曜何時に行けばいい", "何時に行けばいい", "なんじにいけばいい"]}
+  ]
+ },
+ {
+  "id": "mastery_sc_client", "level": "MASTERY", "register": "respectful",
+  "title_ja": "{会社|かいしゃ}でお{客様|きゃくさま}を{迎|むか}える",
+  "title_en": "Receiving a client at the office",
+  "location": "{会社|かいしゃ}",
+  "turns": [
+   {"speaker": "{木村|きむら}{様|さま}", "line_ja": "{失礼|しつれい}します。{二時|にじ}にお{約束|やくそく}をしております、ひかり{商事|しょうじ}の{木村|きむら}と{申|もう}します。", "line_en": "Excuse me. I'm Kimura from Hikari Trading; I have a two o'clock appointment.",
+    "options": [
+     {"ja": "あ、{木村|きむら}さん。どうも、こっちです。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "お{客様|きゃくさま}には「{様|さま}」と{尊敬語|そんけいご}を{使|つか}います。「こっち」もくだけすぎです。", "feedback_en": "Clients get 様 and keigo; こっち is too casual."},
+     {"ja": "{木村|きむら}{様|さま}ですね。お{待|ま}ちしておりました。どうぞこちらへ。", "verdict": "correct", "register": "respectful",
+      "feedback_ja": "「お{待|ま}ちしておりました」は{謙譲語|けんじょうご}で{丁寧|ていねい}な{迎|むか}え{方|かた}です。", "feedback_en": "お待ちしておりました is the humble, proper welcome."},
+     {"ja": "{木村|きむら}{様|さま}と{申|もう}しますね。お{待|ま}ちになりました。", "verdict": "wrong",
+      "feedback_ja": "「{申|もう}す」は{自分|じぶん}のことにしか{使|つか}いません。「お{待|ま}ちになりました」も{意味|いみ}が{違|ちが}います。", "feedback_en": "申す is only for yourself, and お待ちになりました means something else."}
+    ],
+    "typed": ["お待ちしておりました", "おまちしておりました", "木村様ですね、お待ちしておりました", "どうぞこちらへ"]},
+   {"speaker": "{木村|きむら}{様|さま}", "line_ja": "{少|すこ}し{早|はや}く{着|つ}いてしまって、すみません。", "line_en": "Sorry, I've arrived a little early.",
+    "options": [
+     {"ja": "{大丈夫|だいじょうぶ}っす。{山本|やまもと}さん{呼|よ}んできますね。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "「〜っす」はくだけすぎです。{社外|しゃがい}の{人|ひと}に{自分|じぶん}の{上司|じょうし}を「さん」づけで{呼|よ}ぶのも{不自然|ふしぜん}です。", "feedback_en": "〜っす is too casual, and you don't add さん to your own boss for an outsider."},
+     {"ja": "とんでもないです。{山本|やまもと}{部長|ぶちょう}がいらっしゃいますので、お{待|ま}ちしてください。", "verdict": "wrong",
+      "feedback_ja": "「お{待|ま}ちしてください」は{間違|まちが}った{形|かたち}です。{自分|じぶん}の{上司|じょうし}に「いらっしゃる」も{使|つか}いません。", "feedback_en": "お待ちしてください is a broken form, and いらっしゃる can't be used for your own boss here."},
+     {"ja": "とんでもないです。ただいま{担当|たんとう}の{山本|やまもと}を{呼|よ}んでまいりますので、こちらで{少々|しょうしょう}お{待|ま}ちください。", "verdict": "correct", "register": "respectful",
+      "feedback_ja": "{自分|じぶん}の{会社|かいしゃ}の{人|ひと}は{呼|よ}び{捨|す}てにし、「まいります」で{謙譲|けんじょう}を{示|しめ}しています。", "feedback_en": "Your colleague's name without さん, and humble まいります — exactly right."}
+    ],
+    "typed": ["とんでもないです", "少々お待ちください", "しょうしょうおまちください", "こちらで少々お待ちください"]},
+   {"speaker": "{木村|きむら}{様|さま}", "line_ja": "ありがとうございます。では、{失礼|しつれい}して{座|すわ}らせていただきます。", "line_en": "Thank you. I'll take a seat, then.",
+    "options": [
+     {"ja": "お{飲|の}み{物|もの}は、コーヒーと{緑茶|りょくちゃ}、どちらになさいますか。", "verdict": "correct", "register": "respectful",
+      "feedback_ja": "お{客様|きゃくさま}の{選|えら}ぶ{動作|どうさ}なので、{尊敬語|そんけいご}の「なさる」が{正|ただ}しいです。", "feedback_en": "The client is choosing, so sonkeigo なさる is right."},
+     {"ja": "{何|なに}{飲|の}む？", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "お{客様|きゃくさま}にはくだけすぎた{言|い}い{方|かた}です。", "feedback_en": "Far too casual for a client."},
+     {"ja": "お{飲|の}み{物|もの}は、コーヒーと{緑茶|りょくちゃ}、どちらにいたしますか。", "verdict": "wrong",
+      "feedback_ja": "「いたす」は{謙譲語|けんじょうご}なので、お{客様|きゃくさま}の{動作|どうさ}には{使|つか}えません。", "feedback_en": "いたす is humble; it can't describe the client's action."}
+    ],
+    "typed": ["コーヒーと緑茶、どちらになさいますか", "お飲み物はどちらになさいますか", "おのみものはどちらになさいますか", "何になさいますか"]},
+   {"speaker": "{木村|きむら}{様|さま}", "line_ja": "では、コーヒーをお{願|ねが}いします。それにしても、{立派|りっぱ}なオフィスですね。", "line_en": "Coffee, please. What a splendid office, by the way.",
+    "options": [
+     {"ja": "はい、{立派|りっぱ}でいらっしゃいます。", "verdict": "wrong",
+      "feedback_ja": "{自分|じぶん}の{会社|かいしゃ}のオフィスに{尊敬語|そんけいご}は{使|つか}いません。", "feedback_en": "You don't use sonkeigo for your own office."},
+     {"ja": "でしょ？けっこう{高|たか}かったんだよ。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "お{客様|きゃくさま}にくだけた{話|はな}し{方|かた}で、{自慢|じまん}にも{聞|き}こえます。", "feedback_en": "Casual and sounds like bragging to a client."},
+     {"ja": "{恐|おそ}れ{入|い}ります。{去年|きょねん}{移|うつ}ったばかりなんです。", "verdict": "correct", "register": "respectful",
+      "feedback_ja": "ほめられたときは「{恐|おそ}れ{入|い}ります」で{謙虚|けんきょ}に{受|う}けます。", "feedback_en": "恐れ入ります accepts a compliment modestly."}
+    ],
+    "typed": ["恐れ入ります", "おそれいります", "ありがとうございます", "恐れ入ります、去年移ったばかりなんです"]},
+   {"speaker": "{木村|きむら}{様|さま}", "line_ja": "{山本|やまもと}{部長|ぶちょう}は、{今日|きょう}はお{忙|いそが}しいんですか。", "line_en": "Is Mr Yamamoto busy today?",
+    "options": [
+     {"ja": "{申|もう}し{訳|わけ}ございません。{山本|やまもと}は{前|まえ}の{会議|かいぎ}が{少|すこ}し{長引|ながび}いておりまして、{五分|ごふん}ほどで{参|まい}ります。", "verdict": "correct", "register": "respectful",
+      "feedback_ja": "{謝|あやま}ってから、{自分|じぶん}の{上司|じょうし}のことを{謙譲語|けんじょうご}で{説明|せつめい}しています。", "feedback_en": "Apologise, then describe your boss with humble forms."},
+     {"ja": "{山本|やまもと}{部長|ぶちょう}は{会議|かいぎ}が{長引|ながび}いていらっしゃって、もうすぐいらっしゃいます。", "verdict": "unnatural", "register": "respectful",
+      "feedback_ja": "{社外|しゃがい}の{人|ひと}の{前|まえ}で、{自分|じぶん}の{上司|じょうし}を{尊敬語|そんけいご}で{高|たか}めるのは{間違|まちが}った{使|つか}い{方|かた}です。", "feedback_en": "Raising your own boss with sonkeigo in front of a client is a keigo error."},
+     {"ja": "{山本|やまもと}は{会議|かいぎ}が{長引|ながび}いて、{五分|ごふん}{前|まえ}に{参|まい}りました。", "verdict": "wrong",
+      "feedback_ja": "「{五分|ごふん}{前|まえ}に{参|まい}りました」では、もう{来|き}たことになり、{状況|じょうきょう}と{合|あ}いません。", "feedback_en": "'Came five minutes ago' contradicts the situation."},
+     {"ja": "あー、なんか{会議|かいぎ}{長引|ながび}いてるっぽいです。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "「なんか」「〜っぽい」はお{客様|きゃくさま}には{軽|かる}すぎます。", "feedback_en": "なんか and 〜っぽい are too light for a client."}
+    ],
+    "typed": ["申し訳ございません、山本は五分ほどで参ります", "山本は五分ほどで参ります", "やまもとはごふんほどでまいります", "五分ほどで参ります"]},
+   {"speaker": "{木村|きむら}{様|さま}", "line_ja": "{承知|しょうち}しました。では、こちらで{待|ま}たせていただきます。", "line_en": "Understood. I'll wait here, then.",
+    "options": [
+     {"ja": "じゃ、コーヒー{持|も}ってくるね。", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{友達|ともだち}への{話|はな}し{方|かた}です。お{客様|きゃくさま}には{謙譲語|けんじょうご}を{使|つか}います。", "feedback_en": "That's how you'd talk to a friend; clients need humble forms."},
+     {"ja": "コーヒーを{召|め}し{上|あ}がってまいります。", "verdict": "wrong",
+      "feedback_ja": "「{召|め}し{上|あ}がる」は{相手|あいて}が{飲|の}むときの{尊敬語|そんけいご}です。{意味|いみ}が{通|つう}じません。", "feedback_en": "召し上がる is the other person eating/drinking; the sentence makes no sense."},
+     {"ja": "すぐにコーヒーをお{持|も}ちしますので、{少々|しょうしょう}お{待|ま}ちくださいませ。", "verdict": "correct", "register": "respectful",
+      "feedback_ja": "「お{持|も}ちする」は{謙譲語|けんじょうご}。{最後|さいご}まで{丁寧|ていねい}な{応対|おうたい}です。", "feedback_en": "お持ちする is humble — polished to the end."}
+    ],
+    "typed": ["コーヒーをお持ちしますので少々お待ちください", "コーヒーをお持ちします", "コーヒーをおもちします", "少々お待ちくださいませ"]}
+  ]
+ },
+ {
+  "id": "mastery_sc_neighbour", "level": "MASTERY", "register": "polite",
+  "title_ja": "お{隣|となり}さんに{音|おと}のことを{相談|そうだん}する",
+  "title_en": "A delicate word with an elderly neighbour about noise",
+  "location": "{自宅|じたく}",
+  "turns": [
+   {"speaker": "{鈴木|すずき}さん", "line_ja": "あら、こんにちは。{今日|きょう}は{暖|あたた}かいわねえ。", "line_en": "Oh, hello. Isn't it warm today.",
+    "options": [
+     {"ja": "あの、テレビの{音|おと}がうるさいんですけど。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "いきなり{本題|ほんだい}に{入|はい}ると{直接的|ちょくせつてき}すぎます。まずあいさつに{答|こた}えましょう。", "feedback_en": "Jumping straight to the complaint is too direct; answer the greeting first."},
+     {"ja": "こんにちは。{暖|あたた}かいがですね。", "verdict": "wrong",
+      "feedback_ja": "「{暖|あたた}かいがですね」は{文法|ぶんぽう}が{間違|まちが}っています。", "feedback_en": "暖かいがですね is ungrammatical."},
+     {"ja": "こんにちは。ほんとに{暖|あたた}かいですね。", "verdict": "correct", "register": "polite",
+      "feedback_ja": "「ね」で{気持|きも}ちを{合|あ}わせ、{話|はなし}しやすい{空気|くうき}を{作|つく}っています。", "feedback_en": "Agreeing with ね builds a friendly atmosphere first."}
+    ],
+    "typed": ["こんにちは、ほんとに暖かいですね", "暖かいですね", "あたたかいですね", "本当に暖かいですね"]},
+   {"speaker": "{鈴木|すずき}さん", "line_ja": "そうそう。ところで、{何|なに}かご{用|よう}？", "line_en": "Yes indeed. So, was there something?",
+    "options": [
+     {"ja": "あの…{実|じつ}は、ちょっとご{相談|そうだん}したいことがあるんですけど…。", "verdict": "correct", "register": "polite",
+      "feedback_ja": "「{実|じつ}は」「〜んですけど…」で、{言|い}いにくい{話|はなし}を{柔|やわ}らかく{始|はじ}めています。", "feedback_en": "実は and 〜んですけど… open a delicate topic gently."},
+     {"ja": "{文句|もんく}を{言|い}いに{来|き}ました。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "{丁寧|ていねい}な{形|かたち}でも、{内容|ないよう}が{直接的|ちょくせつてき}すぎて{相手|あいて}を{傷|きず}つけます。", "feedback_en": "Polite in form, but far too blunt in content."},
+     {"ja": "ご{相談|そうだん}がありになるんですけど…。", "verdict": "wrong",
+      "feedback_ja": "「ありになる」という{形|かたち}はありません。", "feedback_en": "ありになる is not a valid form."}
+    ],
+    "typed": ["実はちょっとご相談したいことがあるんですけど", "ちょっとご相談したいことがあるんですけど", "ちょっとごそうだんしたいことがあるんですけど", "ご相談があるんですけど"]},
+   {"speaker": "{鈴木|すずき}さん", "line_ja": "あら、なにかしら。どうぞ{言|い}ってちょうだい。", "line_en": "Oh, what is it? Go ahead, tell me.",
+    "options": [
+     {"ja": "{毎晩|まいばん}テレビがうるさすぎます。{今日|きょう}から{消|け}してください。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "{命令|めいれい}のように{聞|き}こえ、{目上|めうえ}の{近所|きんじょ}の{人|ひと}には{強|つよ}すぎます。", "feedback_en": "Sounds like an order — too strong for an elderly neighbour."},
+     {"ja": "{夜|よる}、テレビの{音|おと}を{少|すこ}し{聞|き}いてきて…。", "verdict": "wrong",
+      "feedback_ja": "{自然|しぜん}に{耳|みみ}に{入|はい}るときは「{聞|き}こえる」です。「{聞|き}いてきて」では{意味|いみ}が{違|ちが}います。", "feedback_en": "For sound reaching you, use 聞こえる, not 聞く."},
+     {"ja": "{夜|よる}{十一時|じゅういちじ}ごろなんですけど、テレビの{音|おと}が{少|すこ}し{聞|き}こえてきて…。{朝|あさ}が{早|はや}い{仕事|しごと}なもので…。", "verdict": "correct", "register": "polite",
+      "feedback_ja": "{事実|じじつ}と{自分|じぶん}の{事情|じじょう}だけを{伝|つた}え、お{願|ねが}いは{言|い}わずに{察|さっ}してもらっています。", "feedback_en": "State the facts and your situation, and let her infer the request."}
+    ],
+    "typed": ["夜、テレビの音が少し聞こえてきて", "テレビの音が少し聞こえてきて", "てれびのおとがすこしきこえてきて", "夜十一時ごろ、テレビの音が少し聞こえてきて"]},
+   {"speaker": "{鈴木|すずき}さん", "line_ja": "まあ、ごめんなさいね。{最近|さいきん}{耳|みみ}が{遠|とお}くなっちゃって、{全然|ぜんぜん}{気|き}がつかなかったわ。", "line_en": "Oh dear, I'm so sorry. My hearing's gone lately — I had no idea.",
+    "options": [
+     {"ja": "いえいえ、こちらこそ{急|きゅう}にすみません。", "verdict": "correct", "register": "polite",
+      "feedback_ja": "{相手|あいて}が{謝|あやま}ったら「こちらこそ」と{返|かえ}して、{気持|きも}ちを{楽|らく}にさせます。", "feedback_en": "Answering an apology with こちらこそ eases her embarrassment."},
+     {"ja": "そうですよ。{本当|ほんとう}に{困|こま}っていました。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "{謝|あやま}っている{相手|あいて}をさらに{責|せ}める{言|い}い{方|かた}で、{関係|かんけい}が{悪|わる}くなります。", "feedback_en": "Piling on after she apologises would sour the relationship."},
+     {"ja": "いえいえ、{耳|みみ}が{遠|とお}いでいらっしゃいますね。", "verdict": "wrong",
+      "feedback_ja": "「{遠|とお}いでいらっしゃる」は{間違|まちが}った{形|かたち}です。{内容|ないよう}も{失礼|しつれい}です。", "feedback_en": "遠いでいらっしゃる is a broken form, and the content is rude."}
+    ],
+    "typed": ["いえいえ、こちらこそ急にすみません", "こちらこそすみません", "いえいえこちらこそ", "こちらこそきゅうにすみません"]},
+   {"speaker": "{鈴木|すずき}さん", "line_ja": "{夜|よる}は{音|おと}を{小|ちい}さくするわね。でも、{自分|じぶん}じゃわからないかもしれないわ。", "line_en": "I'll keep it down at night. But I might not notice myself.",
+    "options": [
+     {"ja": "わからないなら、ヘッドホンを{買|か}ってください。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "{丁寧|ていねい}な{形|かたち}ですが、{指示|しじ}のようで{目上|めうえ}の{人|ひと}には{失礼|しつれい}です。", "feedback_en": "Polite in form but reads as an instruction — rude to an elder."},
+     {"ja": "ありがとうございます。もしまた{気|き}になったら、そのときはお{伝|つた}えしてもいいですか。", "verdict": "correct", "register": "polite",
+      "feedback_ja": "お{礼|れい}を{言|い}い、{謙譲語|けんじょうご}「お{伝|つた}えする」で{次|つぎ}のことを{柔|やわ}らかく{相談|そうだん}しています。", "feedback_en": "Thanks plus humble お伝えする to agree on next steps gently."},
+     {"ja": "ありがとうございます。もしまた{気|き}になったら、お{伝|つた}えになってもいいですか。", "verdict": "wrong",
+      "feedback_ja": "「お{伝|つた}えになる」は{尊敬語|そんけいご}なので、{自分|じぶん}の{動作|どうさ}には{使|つか}えません。", "feedback_en": "お伝えになる is sonkeigo and can't describe your own action."}
+    ],
+    "typed": ["そのときはお伝えしてもいいですか", "お伝えしてもいいですか", "おつたえしてもいいですか", "ありがとうございます、そのときはお伝えしてもいいですか"]},
+   {"speaker": "{鈴木|すずき}さん", "line_ja": "ええ、もちろん。{言|い}ってくれてよかったわ。これ、{田舎|いなか}から{届|とど}いたみかん。{持|も}っていって。", "line_en": "Of course. I'm glad you told me. Here, some mandarins from the countryside — take them.",
+    "options": [
+     {"ja": "いいです。", "verdict": "unnatural", "register": "polite",
+      "feedback_ja": "「いいです」だけでは{断|ことわ}りか{受|う}け{取|と}りかわからず、{冷|つめ}たく{聞|き}こえます。", "feedback_en": "A bare いいです is ambiguous and sounds cold."},
+     {"ja": "わあ、すみません。ありがとうございます。いただきます。", "verdict": "correct", "register": "polite",
+      "feedback_ja": "「すみません」は{手間|てま}への{感謝|かんしゃ}。{気持|きも}ちよく{受|う}け{取|と}ると{関係|かんけい}がよくなります。", "feedback_en": "すみません as thanks for her trouble — accepting warmly strengthens the bond."},
+     {"ja": "わあ、ありがとうございます。いただかれます。", "verdict": "wrong",
+      "feedback_ja": "「いただかれる」という{形|かたち}は{使|つか}いません。", "feedback_en": "いただかれる is not a usable form."},
+     {"ja": "サンキュー、ばあちゃん！", "verdict": "unnatural", "register": "casual",
+      "feedback_ja": "{家族|かぞく}ではないお{年寄|としよ}りに、この{話|はな}し{方|かた}は{失礼|しつれい}です。", "feedback_en": "Far too familiar for an elderly neighbour who isn't family."}
+    ],
+    "typed": ["すみません、ありがとうございます", "ありがとうございます、いただきます", "ありがとうございます", "いただきます"]}
+  ]
+ }
+]

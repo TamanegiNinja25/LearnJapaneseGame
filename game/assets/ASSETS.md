@@ -56,51 +56,58 @@ Not yet in the folder, to be evaluated later for Phase 2 (see `docs/ART_BIBLE.md
 KayKit "Bits" packs (kaylousberg.itch.io), Kenney city/furniture/train kits (kenney.nl), and
 Quaternius building/furniture packs (quaternius.com). Add a row here when one is adopted.
 
-## Fonts
+## Fonts (bundled)
 
-All fonts below are licensed under the **SIL Open Font License 1.1**: free to bundle in and
-distribute with the game, including commercially; the font files may not be sold on their own;
-the OFL text must ship with the font. Place each family in its own folder with its `OFL.txt`.
+Both families are licensed under the **SIL Open Font License 1.1**: free to bundle and
+redistribute with the game, including commercially; the font files may not be sold on their own;
+the OFL text ships beside them.
 
-| Family | Weights bundled | Source | Local path |
+| Family | File | Source | Notes |
 |---|---|---|---|
-| Noto Sans JP (primary UI/body) | Regular 400, Medium 500, Bold 700 (static) | https://fonts.google.com/noto/specimen/Noto+Sans+JP · https://github.com/notofonts/noto-cjk | `game/assets/fonts/noto_sans_jp/` |
-| Zen Kaku Gothic New (optional headings) | Medium 500, Bold 700 | https://fonts.google.com/specimen/Zen+Kaku+Gothic+New | `game/assets/fonts/zen_kaku_gothic_new/` |
-| BIZ UDPGothic (accessibility toggle) | Regular 400, Bold 700 | https://fonts.google.com/specimen/BIZ+UDPGothic · https://github.com/googlefonts/morisawa-biz-ud-gothic | `game/assets/fonts/biz_udpgothic/` |
+| Noto Sans JP (UI and body) | `fonts/NotoSansJP-Variable.ttf` + `NotoSansJP-OFL.txt` | https://github.com/google/fonts/tree/main/ofl/notosansjp | Variable font (9.6 MB). One file covers Regular 400, Medium 500 and Bold 700 through `FontVariation` on the `wght` axis, which is smaller than three static files (13.5 MB). |
+| BIZ UDPGothic (accessibility font, 設定) | `fonts/BIZUDPGothic-Regular.ttf`, `fonts/BIZUDPGothic-Bold.ttf` + `BIZUDPGothic-OFL.txt` | https://github.com/google/fonts/tree/main/ofl/bizudpgothic | Universal-design gothic; separates similar kanji such as 末/未. |
 
-Only Noto Sans JP is required for Phase 1; the other two are added when the corresponding
-feature (heading style / legibility toggle) is built.
+Zen Kaku Gothic New (optional headings in the art bible) is not bundled.
 
-## Icons
+## Icons (bundled)
 
-| Set | Licence | Source | Local path |
+| Set | Licence | Source | Files |
 |---|---|---|---|
-| Tabler Icons or Lucide (pick one; do not mix) | MIT / ISC | https://tabler.io/icons · https://lucide.dev | `game/assets/ui/icons/` |
-| Six skill icons (語彙 文法 読解 聴解 会話 漢字) | project | authored in-house | `game/assets/ui/icons/skill/` |
+| Tabler Icons v3, outline | MIT (`icons/LICENSE-tabler.txt`) | https://tabler.io/icons | `icons/*.svg` — home, map-2, language-hiragana, book, repeat, brush, notebook, puzzle, messages, headphones, certificate, settings, volume, microphone, player-play. Stroke recoloured to white so the UI tints them with `modulate`. |
+
+## Dictionary data (not bundled as files)
+
+| Data | Licence | Use |
+|---|---|---|
+| JMdict (EDRDG) | CC BY-SA 4.0 | English glosses and reading checks while baking `content/vocab_*.json` |
+| KANJIDIC2 (EDRDG), via jmdict-simplified | CC BY-SA 4.0 | Kanji readings, meanings, stroke counts and JLPT level for `content/kanji_*.json` |
+
+The raw dictionaries stay out of the repo (`tools/data/` is git-ignored); only the baked,
+attributed JSON ships. See `tools/README.md`.
 
 ## Attribution
 
-Ready to paste into the in-game credits screen and the README:
+Ready to paste into credits (the in-game 設定 › 情報 section shows the same list):
 
 ```
+Dictionary data
+  JMdict and KANJIDIC2 — Electronic Dictionary Research and Development Group, CC BY-SA 4.0
+
 3D assets
-  KayKit Adventurers, Dungeon Pack, Forest Nature Pack and Skeletons by Kay Lousberg
+  KayKit Adventurers, Dungeon Pack and Forest Nature Pack by Kay Lousberg
   (kaylousberg.itch.io) — CC0 1.0
-  Universal Animation Library 1 & 2 by Quaternius (quaternius.com) — CC0 1.0
 
 Fonts
   Noto Sans JP — Google / Noto Project, SIL Open Font License 1.1
-  Zen Kaku Gothic New — Yoshimichi Ohira, SIL Open Font License 1.1
   BIZ UDPGothic — Morisawa Inc., SIL Open Font License 1.1
 
 Icons
-  Tabler Icons (MIT) / Lucide (ISC) — whichever set is adopted
-
-All Japanese town props under game/assets/env_jp/ are original work for 日本語の世界.
+  Tabler Icons — MIT
 ```
 
-Single-line form for store pages: *3D assets by Kay Lousberg (KayKit) and Quaternius, CC0;
-fonts Noto Sans JP, Zen Kaku Gothic New and BIZ UDPGothic under the SIL Open Font License.*
+Single-line form for store pages: *Dictionary data JMdict/KANJIDIC2 © EDRDG (CC BY-SA 4.0);
+3D assets by Kay Lousberg (KayKit), CC0; fonts Noto Sans JP and BIZ UDPGothic (SIL OFL);
+icons Tabler (MIT).*
 
 ## How to re-download
 

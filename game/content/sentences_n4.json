@@ -1,0 +1,158 @@
+[
+ {
+  "id": "n4_sb_001", "level": "N4", "tier": 1,
+  "prompt_en": "I can read kanji.",
+  "ja_hint": "「{読|よ}む」の{可能形|かのうけい}を{使|つか}う{文|ぶん}",
+  "tiles": ["{漢字|かんじ}", "が", "{読|よ}めます"],
+  "distractors": ["{読|よ}みます"],
+  "accepted": [["{漢字|かんじ}", "が", "{読|よ}めます"]],
+  "grammar": ["n4_potential"]
+ },
+ {
+  "id": "n4_sb_002", "level": "N4", "tier": 1,
+  "prompt_en": "Let's go home now. (casual)",
+  "ja_hint": "{友達|ともだち}をさそう{文|ぶん}（{意向形|いこうけい}）",
+  "tiles": ["もう", "{帰|かえ}ろう"],
+  "distractors": ["{帰|かえ}った"],
+  "accepted": [["もう", "{帰|かえ}ろう"]],
+  "grammar": ["n4_volitional"]
+ },
+ {
+  "id": "n4_sb_003", "level": "N4", "tier": 1,
+  "prompt_en": "May I sit here?",
+  "ja_hint": "{許可|きょか}をもらう{文|ぶん}",
+  "tiles": ["ここ", "に", "{座|すわ}ってもいいですか"],
+  "distractors": ["を"],
+  "accepted": [["ここ", "に", "{座|すわ}ってもいいですか"]],
+  "grammar": ["n4_temo_ii"]
+ },
+ {
+  "id": "n4_sb_004", "level": "N4", "tier": 1,
+  "prompt_en": "I have been to Japan.",
+  "ja_hint": "{経験|けいけん}を{言|い}う{文|ぶん}",
+  "tiles": ["{日本|にほん}", "に", "{行|い}ったことがあります"],
+  "distractors": ["を"],
+  "accepted": [["{日本|にほん}", "に", "{行|い}ったことがあります"]],
+  "grammar": ["n4_ta_koto_ga_aru"]
+ },
+ {
+  "id": "n4_sb_005", "level": "N4", "tier": 1,
+  "prompt_en": "I'll try eating it.",
+  "ja_hint": "{試|ため}しに{食|た}べる{文|ぶん}",
+  "tiles": ["{食|た}べて", "みます"],
+  "distractors": ["{食|た}べる"],
+  "accepted": [["{食|た}べて", "みます"]],
+  "grammar": ["n4_te_miru"]
+ },
+ {
+  "id": "n4_sb_006", "level": "N4", "tier": 2,
+  "prompt_en": "You must not take photos here.",
+  "ja_hint": "{禁止|きんし}を{表|あらわ}す{文|ぶん}",
+  "tiles": ["ここ", "で", "{写真|しゃしん}", "を", "{撮|と}ってはいけません"],
+  "distractors": ["に", "{撮|と}ってもいいです"],
+  "accepted": [
+   ["ここ", "で", "{写真|しゃしん}", "を", "{撮|と}ってはいけません"],
+   ["{写真|しゃしん}", "を", "ここ", "で", "{撮|と}ってはいけません"]
+  ],
+  "grammar": ["n4_tewa_ikenai"]
+ },
+ {
+  "id": "n4_sb_007", "level": "N4", "tier": 2,
+  "prompt_en": "I have to take my medicine.",
+  "ja_hint": "{義務|ぎむ}を{表|あらわ}す{文|ぶん}",
+  "tiles": ["{薬|くすり}", "を", "{飲|の}まなければなりません"],
+  "distractors": ["が", "{飲|の}まなくてもいいです"],
+  "accepted": [["{薬|くすり}", "を", "{飲|の}まなければなりません"]],
+  "grammar": ["n4_nakereba_naranai"]
+ },
+ {
+  "id": "n4_sb_008", "level": "N4", "tier": 2,
+  "prompt_en": "My friend gave me a book.",
+  "ja_hint": "{友達|ともだち}から{私|わたし}へ{物|もの}が{来|く}る{文|ぶん}",
+  "tiles": ["{友達|ともだち}", "が", "{本|ほん}", "を", "くれました"],
+  "distractors": ["あげました", "に"],
+  "accepted": [["{友達|ともだち}", "が", "{本|ほん}", "を", "くれました"]],
+  "grammar": ["n4_ageru_kureru_morau"]
+ },
+ {
+  "id": "n4_sb_009", "level": "N4", "tier": 2,
+  "prompt_en": "I study while listening to music.",
+  "ja_hint": "{二|ふた}つのことを{同時|どうじ}にする{文|ぶん}",
+  "tiles": ["{音楽|おんがく}", "を", "{聞|き}きながら", "{勉強|べんきょう}します"],
+  "distractors": ["{聞|き}くながら", "が"],
+  "accepted": [["{音楽|おんがく}", "を", "{聞|き}きながら", "{勉強|べんきょう}します"]],
+  "grammar": ["n4_nagara"]
+ },
+ {
+  "id": "n4_sb_010", "level": "N4", "tier": 2,
+  "prompt_en": "It's raining, so I'll go home by taxi.",
+  "ja_hint": "{理由|りゆう}をやわらかく{言|い}う{文|ぶん}",
+  "tiles": ["{雨|あめ}", "なので", "タクシー", "で", "{帰|かえ}ります"],
+  "distractors": ["だので", "を"],
+  "accepted": [["{雨|あめ}", "なので", "タクシー", "で", "{帰|かえ}ります"]],
+  "grammar": ["n4_node"]
+ },
+ {
+  "id": "n4_sb_011", "level": "N4", "tier": 2,
+  "prompt_en": "If you hurry, you'll still make it.",
+  "ja_hint": "「もし〜なら」の{条件|じょうけん}を{言|い}う{文|ぶん}",
+  "tiles": ["{急|いそ}げば", "まだ", "{間|ま}に{合|あ}います"],
+  "distractors": ["{急|いそ}ぐば", "{急|いそ}いでも"],
+  "accepted": [
+   ["{急|いそ}げば", "まだ", "{間|ま}に{合|あ}います"],
+   ["まだ", "{急|いそ}げば", "{間|ま}に{合|あ}います"]
+  ],
+  "grammar": ["n4_ba"]
+ },
+ {
+  "id": "n4_sb_012", "level": "N4", "tier": 3,
+  "prompt_en": "I think Tanaka-san has already gone home.",
+  "ja_hint": "{自分|じぶん}の{考|かんが}えを{言|い}う{文|ぶん}",
+  "tiles": ["{田中|たなか}さん", "は", "もう", "{帰|かえ}った", "と", "{思|おも}います"],
+  "distractors": ["を", "{帰|かえ}りました", "に"],
+  "accepted": [["{田中|たなか}さん", "は", "もう", "{帰|かえ}った", "と", "{思|おも}います"]],
+  "grammar": ["n4_to_omou"]
+ },
+ {
+  "id": "n4_sb_013", "level": "N4", "tier": 3,
+  "prompt_en": "I plan to study in Japan next year.",
+  "ja_hint": "{決|き}めている{予定|よてい}を{言|い}う{文|ぶん}",
+  "tiles": ["{来年|らいねん}", "{日本|にほん}", "で", "{勉強|べんきょう}する", "つもり", "です"],
+  "distractors": ["に", "{勉強|べんきょう}した", "ながら"],
+  "accepted": [
+   ["{来年|らいねん}", "{日本|にほん}", "で", "{勉強|べんきょう}する", "つもり", "です"],
+   ["{日本|にほん}", "で", "{来年|らいねん}", "{勉強|べんきょう}する", "つもり", "です"]
+  ],
+  "grammar": ["n4_tsumori"]
+ },
+ {
+  "id": "n4_sb_014", "level": "N4", "tier": 3,
+  "prompt_en": "I studied a lot, but I still failed the exam.",
+  "ja_hint": "{思|おも}っていたことと{違|ちが}う{結果|けっか}の{文|ぶん}",
+  "tiles": ["たくさん", "{勉強|べんきょう}した", "のに", "{試験|しけん}", "に", "{落|お}ちました"],
+  "distractors": ["ので", "を", "{勉強|べんきょう}する"],
+  "accepted": [["たくさん", "{勉強|べんきょう}した", "のに", "{試験|しけん}", "に", "{落|お}ちました"]],
+  "grammar": ["n4_noni"]
+ },
+ {
+  "id": "n4_sb_015", "level": "N4", "tier": 3,
+  "prompt_en": "When you get to the station, please give me a call.",
+  "ja_hint": "「〜したあとで」のお{願|ねが}いの{文|ぶん}",
+  "tiles": ["{駅|えき}", "に", "{着|つ}いたら", "{電話|でんわ}", "を", "ください"],
+  "distractors": ["で", "{着|つ}くと", "が"],
+  "accepted": [["{駅|えき}", "に", "{着|つ}いたら", "{電話|でんわ}", "を", "ください"]],
+  "grammar": ["n4_tara"]
+ },
+ {
+  "id": "n4_sb_016", "level": "N4", "tier": 3,
+  "prompt_en": "This shop is cheap and the food is good, so I come here often.",
+  "ja_hint": "{理由|りゆう}を{二|ふた}つ{並|なら}べる{文|ぶん}",
+  "tiles": ["この{店|みせ}", "は", "{安|やす}いし", "おいしいし", "よく", "{来|き}ます"],
+  "distractors": ["{安|やす}くし", "を", "{来|こ}ます"],
+  "accepted": [
+   ["この{店|みせ}", "は", "{安|やす}いし", "おいしいし", "よく", "{来|き}ます"],
+   ["この{店|みせ}", "は", "おいしいし", "{安|やす}いし", "よく", "{来|き}ます"]
+  ],
+  "grammar": ["n4_shi"]
+ }
+]
