@@ -194,8 +194,7 @@ def bake_kanji(vocab_by_stage: dict[str, list[dict]]) -> dict[str, list[dict]]:
 # ---------------------------------------------------------------- main
 
 def write_json(name: str, data) -> None:
-    (OUT / name).write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="
-")
+    (OUT / name).write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
 
 
 def main(argv: list[str]) -> int:
