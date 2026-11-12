@@ -247,7 +247,8 @@ def check_anchors(data, name: str, stage: str) -> None:
 def kind_of(name: str) -> tuple[str, str | None]:
     if name == "kana.json":
         return "kana", None
-    m = re.fullmatch(r"(vocab|kanji|grammar|sentences|scenarios|passages|anchors)_(n5|n4|n3|n2|n1|mastery)\.json", name)
+    # An optional _suffix lets several files share a kind and stage (grammar_n5_verbs.json).
+    m = re.fullmatch(r"(vocab|kanji|grammar|sentences|scenarios|passages|anchors)_(n5|n4|n3|n2|n1|mastery)(?:_[a-z0-9]+)?\.json", name)
     if not m:
         return "unknown", None
     return m.group(1), m.group(2)

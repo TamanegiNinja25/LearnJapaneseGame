@@ -58,6 +58,9 @@ required; aim for zero unexplained warnings.
 
 ## Grammar — `game/content/grammar_<stage>.json`
 
+Any JSON content file may carry a suffix (`grammar_n5_verbs.json`); the game loads every file
+of a kind and stage, and ids must be unique across all of them.
+
 ```json
 {
  "id": "n5_wa",
