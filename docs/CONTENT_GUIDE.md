@@ -120,7 +120,7 @@ of a kind and stage, and ids must be unique across all of them.
  "turns": [
   {"speaker": "{店員|てんいん}", "line_ja": "いらっしゃいませ！", "line_en": "Welcome!",
    "options": [
-    {"ja": "{水|みず}をください。", "verdict": "correct", "register": "polite",
+    {"ja": "{水|みず}をください。", "en": "Water, please.", "verdict": "correct", "register": "polite",
      "feedback_ja": "…", "feedback_en": "…"},
     {"ja": "{水|みず}、ある？", "verdict": "unnatural", "register": "casual", "feedback_ja": "…", "feedback_en": "…"},
     {"ja": "{水|みず}がいます。", "verdict": "wrong", "feedback_ja": "…", "feedback_en": "…"}
@@ -131,6 +131,8 @@ of a kind and stage, and ids must be unique across all of them.
 ```
 
 - `register`: `casual`, `polite`, `business`, `respectful` or `written`.
+- `en` on every option: a natural English translation of that answer as written, including what
+  makes it wrong or odd (e.g. "Water is (here)." for 水がいます). Beginners see it until they reach N4.
 - `location` is one of the town locations: 自宅 学校 商店街 駅 レストラン 会社 図書館 都会 (markup).
 - Each turn: 2–4 options, **exactly one `correct`**, at least one `wrong`. `unnatural` means
   grammatical but not what a native speaker would say here (wrong register, too blunt, odd word).

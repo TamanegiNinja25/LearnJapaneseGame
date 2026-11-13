@@ -193,6 +193,8 @@ def check_scenarios(data, name: str, stage: str) -> None:
                 ja(opt["feedback_ja"], f"{ow}.feedback_ja")
                 if opt["verdict"] not in ("correct", "unnatural", "wrong"):
                     err(f"{ow}: verdict must be correct|unnatural|wrong")
+                if "en" in opt and (not isinstance(opt["en"], str) or not opt["en"].strip()):
+                    err(f"{ow}: 'en' must be a non-empty English translation")
                 if "register" in opt and opt["register"] not in REGISTERS:
                     err(f"{ow}: unknown register")
                 verdicts.append(opt["verdict"])
