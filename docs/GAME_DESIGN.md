@@ -504,18 +504,20 @@ are merged at load. `kana.json` holds both scripts (basic, dakuten, handakuten, 
 | passages | authored | `id`, `level`, `title_ja`, `text_ja`, `text_en`, `questions[{q_ja, q_en, options, answer, why_ja, why_en}]` |
 | anchors | authored | `id`, `level`, `ja`, `en`, `variants[{type, section, prompt_ja, prompt_en, options, answer, why_ja, why_en}]` (≥ 4) |
 
-**Stage inventory as shipped (2026-11-13).**
+**Stage inventory as shipped (2026-11-13, v0.3.0).**
 
 | Stage | Words | Kanji (KANJIDIC2) | Grammar | Prompts | Scenarios | Passages | Anchors |
 |---|---|---|---|---|---|---|---|
-| N5 | 772 | 103 (all used by N5 words) | 46 | 48 | 6 | 10 | 10 |
-| N4 | 218 | 181 | 20 | 16 | 2 | 4 | 4 |
+| N5 | 772 | 103 (all used by N5 words) | 46 | 72 | 11 | 18 | 10 |
+| N4 | 630 | 181 (176 used) | 38 | 46 | 7 | 12 | 10 |
 | N3 | 158 | 369 | 15 | 12 | 2 | 3 | 3 |
 | N2 | 155 | 370 | 15 | 10 | 2 | 3 | 3 |
 | N1 | 149 | 1207 | 16 | 10 | 2 | 3 | 3 |
 | Mastery | 87 expressions | — | 15 | 10 | 3 | 3 | 3 |
 
-N5 meets the §5.1 inventory. N4–N1 and Mastery are starter packs: every system works at every
+Every scenario option also carries an `en` translation, shown to beginners until N4.
+
+N5 meets the §5.1 inventory and N4 is most of the way there. N3–N1 and Mastery are starter packs: every system works at every
 stage, but those stages need more curated words to match the §5.1 targets (§12).
 
 **Player save — `user://save.json` (version 2).** `stage`, `xp`, `english_mode`, `settings`

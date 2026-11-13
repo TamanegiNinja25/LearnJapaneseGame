@@ -47,13 +47,11 @@ func _menu() -> void:
 		["shadowing", "シャドーイング", "Listen, repeat, compare your recording"]]
 	var buttons: Array = []
 	for m in modes:
-		var b := TileButton.new(m[1], UITheme.SIZE_BODY_L)
+		var b := TileButton.new(m[1], UITheme.SIZE_BODY_L, m[2] if Progress.show_english() else "")
 		b.tooltip_text = m[2]
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		b.pressed.connect(_start.bind(m[0]))
 		_box.add_child(b)
-		if Progress.show_explanations():
-			_box.add_child(UITheme.en(m[2], UITheme.SIZE_LABEL))
 		buttons.append(b)
 	set_options(buttons)
 

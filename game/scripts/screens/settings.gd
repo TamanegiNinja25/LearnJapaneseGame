@@ -15,7 +15,17 @@ func _ready() -> void:
 	column.add_child(UITheme.toggle("ステージに{合|あ}わせて{自動|じどう}で{減|へ}らす", bool(Progress.setting("english_auto")),
 		func(on: bool) -> void: Progress.set_setting("english_auto", on), "Reduce English automatically as you advance"))
 
+	column.add_child(UITheme.toggle("N4まで{英語|えいご}を{全部|ぜんぶ}{表示|ひょうじ}する", bool(Progress.setting("beginner_english")),
+		func(on: bool) -> void:
+			Progress.set_setting("beginner_english", on)
+			go(&"settings"), "Show English everywhere until you reach N4"))
+
 	_section("{表示|ひょうじ}", "Display")
+	column.add_child(UITheme.ja("{文字|もじ}の{大|おお}きさ", UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
+	var scales := [0.0, 1.0, 1.15, 1.3, 1.45]
+	var current := scales.find(float(Progress.setting("ui_scale")))
+	column.add_child(UITheme.segmented(["{自動|じどう}", "小", "中", "大", "特大"], maxi(0, current), func(i: int) -> void:
+		Progress.set_setting("ui_scale", scales[i])))
 	column.add_child(UITheme.segmented(["ライト", "ダーク"], 1 if Progress.setting("theme") == "dark" else 0,
 		func(i: int) -> void: Progress.set_setting("theme", "dark" if i == 1 else "light")))
 	column.add_child(UITheme.segmented(["Noto Sans JP（{標準|ひょうじゅん}）", "BIZ UDPゴシック（{読|よ}みやすい）"], 1 if Progress.setting("font") == "bizud" else 0,

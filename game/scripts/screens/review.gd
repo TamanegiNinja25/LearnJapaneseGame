@@ -114,7 +114,7 @@ func _typed_input(v: VBoxContainer, q: Dictionary) -> void:
 		_resolve(q, r["correct"])
 	check.pressed.connect(submit)
 	input.text_submitted.connect(func(_t: String) -> void: submit.call())
-	input.call_deferred("grab_focus")
+	setup_text_input(input)
 
 
 ## GDD §6.4: the dimension with the lowest counter among those unlocked for the rank.

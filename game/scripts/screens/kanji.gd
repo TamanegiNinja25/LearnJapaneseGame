@@ -27,7 +27,7 @@ func _ready() -> void:
 	_detail = UITheme.vbox(UITheme.GAP)
 	column.add_child(_detail)
 	var grid := GridContainer.new()
-	grid.columns = 10
+	grid.columns = clampi(int(content_width() / 72.0), 6, 16)
 	grid.add_theme_constant_override("h_separation", 8)
 	grid.add_theme_constant_override("v_separation", 8)
 	column.add_child(grid)
@@ -98,7 +98,8 @@ func _show(k: Dictionary) -> void:
 			var w := ContentDB.word(id)
 			if w.is_empty():
 				continue
-			var b := TileButton.new(ExamBuilder.headword_markup(w), UITheme.SIZE_LABEL)
+			var b := TileButton.new(ExamBuilder.headword_markup(w), UITheme.SIZE_LABEL,
+				ExamBuilder._short_gloss(w["english"]) if Progress.show_english() else "")
 			if Progress.rank_of(id) >= Mastery.Rank.LEARNED:
 				b.set_state(UITheme.CORRECT_TINT, UITheme.CORRECT)
 			b.pressed.connect(func() -> void: go(&"dictionary", {"word_id": id}))

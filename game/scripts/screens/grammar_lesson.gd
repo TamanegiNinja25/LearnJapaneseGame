@@ -37,7 +37,8 @@ func _show_list() -> void:
 		var rec: Dictionary = Progress.grammar.get(g["id"], {})
 		var done: bool = rec.get("lesson_done", false)
 		var covered := int(rec.get("correct", 0)) >= Mastery.GRAMMAR_COVERED_AT
-		var b := TileButton.new("%s　%s" % ["○" if done else ("◐" if covered else "・"), g["pattern"]], UITheme.SIZE_BODY)
+		var b := TileButton.new("%s　%s" % ["○" if done else ("◐" if covered else "・"), g["pattern"]], UITheme.SIZE_BODY,
+			g["meaning_en"] if Progress.show_english() else "")
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		b.tooltip_text = "%s — %s" % [g["level"], g["meaning_en"]]
 		if done:

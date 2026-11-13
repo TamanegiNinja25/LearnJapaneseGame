@@ -1,0 +1,146 @@
+[
+ {
+  "id": "n5_rd_011",
+  "level": "N5",
+  "title_ja": "{旅行|りょこう}のはがき",
+  "text_ja": "{先生|せんせい}、お{元気|げんき}ですか。{私|わたし}は{今|いま}、{家族|かぞく}と{京都|きょうと}に{来|き}ています。{昨日|きのう}は{古|ふる}いお{寺|てら}を{見|み}ました。{今日|きょう}は{雨|あめ}なので、ホテルの{近|ちか}くで{買|か}い{物|もの}をします。{来週|らいしゅう}の{月曜日|げつようび}に{学校|がっこう}で{会|あ}いましょう。アンナより。",
+  "text_en": "Dear teacher, how are you? I'm in Kyoto with my family right now. Yesterday we saw an old temple. Today it's raining, so we'll go shopping near the hotel. Let's meet at school next Monday. From Anna.",
+  "questions": [
+   {"q_ja": "アンナさんはだれと{京都|きょうと}に{来|き}ていますか。", "q_en": "Who is Anna in Kyoto with?",
+    "options": ["{友達|ともだち}", "{家族|かぞく}", "{先生|せんせい}"], "answer": 1,
+    "why_ja": "「{家族|かぞく}と{京都|きょうと}に{来|き}ています」とあります。{先生|せんせい}ははがきをもらう{人|ひと}です。", "why_en": "She is there with her family; the teacher is the one receiving the postcard."},
+   {"q_ja": "{今日|きょう}は{何|なに}をしますか。", "q_en": "What will Anna do today?",
+    "options": ["お{寺|てら}を{見|み}ます", "{買|か}い{物|もの}をします", "{学校|がっこう}へ{行|い}きます"], "answer": 1,
+    "why_ja": "「{今日|きょう}は…ホテルの{近|ちか}くで{買|か}い{物|もの}をします」とあります。お{寺|てら}は{昨日|きのう}です。", "why_en": "Today she goes shopping near the hotel; the temple was yesterday."},
+   {"q_ja": "どうして{今日|きょう}はホテルの{近|ちか}くにいますか。", "q_en": "Why is Anna staying near the hotel today?",
+    "options": ["{雨|あめ}だから", "{疲|つか}れたから", "{寒|さむ}いから"], "answer": 0,
+    "why_ja": "「{今日|きょう}は{雨|あめ}なので」と{書|か}いてあります。", "why_en": "She writes that it is raining today."}
+  ]
+ },
+ {
+  "id": "n5_rd_012",
+  "level": "N5",
+  "title_ja": "{授業|じゅぎょう}の{時間|じかん}のお{知|し}らせ",
+  "text_ja": "{日本語|にほんご}クラスのみなさんへ。{来週|らいしゅう}から、{火曜日|かようび}の{授業|じゅぎょう}は{午後|ごご}{二時|にじ}から{三時半|さんじはん}までです。{教室|きょうしつ}は{三階|さんがい}の{大|おお}きい{部屋|へや}です。{木曜日|もくようび}の{授業|じゅぎょう}は{今|いま}と{同|おな}じです。{質問|しつもん}がある{人|ひと}は、{一階|いっかい}の{事務所|じむしょ}に{来|き}てください。",
+  "text_en": "To everyone in the Japanese class. From next week, Tuesday's lesson will be from 2:00 to 3:30 in the afternoon. The classroom is the big room on the third floor. Thursday's lesson stays the same as now. If you have questions, please come to the office on the first floor.",
+  "questions": [
+   {"q_ja": "{来週|らいしゅう}から、{火曜日|かようび}の{授業|じゅぎょう}は{何時|なんじ}に{始|はじ}まりますか。", "q_en": "From next week, what time does Tuesday's lesson start?",
+    "options": ["{午前|ごぜん}{十時|じゅうじ}", "{午後|ごご}{二時|にじ}", "{午後|ごご}{三時半|さんじはん}"], "answer": 1,
+    "why_ja": "「{午後|ごご}{二時|にじ}から{三時半|さんじはん}まで」とあります。{三時半|さんじはん}は{終|お}わる{時間|じかん}です。", "why_en": "It runs from 2:00 to 3:30, so it starts at 2:00; 3:30 is the end."},
+   {"q_ja": "{木曜日|もくようび}の{授業|じゅぎょう}はどうなりますか。", "q_en": "What happens to Thursday's lesson?",
+    "options": ["{変|か}わりません", "{休|やす}みになります", "{三階|さんがい}になります"], "answer": 0,
+    "why_ja": "「{木曜日|もくようび}の{授業|じゅぎょう}は{今|いま}と{同|おな}じです」とあります。", "why_en": "The notice says Thursday stays the same."},
+   {"q_ja": "{質問|しつもん}がある{人|ひと}はどこへ{行|い}きますか。", "q_en": "Where should people with questions go?",
+    "options": ["{三階|さんがい}の{教室|きょうしつ}", "{一階|いっかい}の{事務所|じむしょ}", "{図書館|としょかん}"], "answer": 1,
+    "why_ja": "「{一階|いっかい}の{事務所|じむしょ}に{来|き}てください」とあります。", "why_en": "They should come to the office on the first floor."}
+  ]
+ },
+ {
+  "id": "n5_rd_013",
+  "level": "N5",
+  "title_ja": "{忘|わす}れ{物|もの}のお{知|し}らせ",
+  "text_ja": "{昨日|きのう}の{夕方|ゆうがた}、この{公園|こうえん}で{黒|くろ}い{傘|かさ}がありました。{傘|かさ}には{白|しろ}い{猫|ねこ}の{絵|え}があります。{今|いま}、{公園|こうえん}の{事務所|じむしょ}にあります。{事務所|じむしょ}は{朝|あさ}{九時|くじ}から{夕方|ゆうがた}{五時|ごじ}までです。{日曜日|にちようび}は{休|やす}みです。",
+  "text_en": "Yesterday evening, a black umbrella was found in this park. It has a picture of a white cat on it. It is now at the park office. The office is open from 9 a.m. to 5 p.m. It is closed on Sundays.",
+  "questions": [
+   {"q_ja": "{公園|こうえん}に{何|なに}がありましたか。", "q_en": "What was found in the park?",
+    "options": ["{白|しろ}い{傘|かさ}", "{黒|くろ}い{傘|かさ}", "{白|しろ}い{猫|ねこ}"], "answer": 1,
+    "why_ja": "「{黒|くろ}い{傘|かさ}がありました」とあります。{白|しろ}い{猫|ねこ}は{傘|かさ}の{絵|え}です。", "why_en": "A black umbrella was found; the white cat is only the picture on it."},
+   {"q_ja": "{傘|かさ}は{今|いま}どこにありますか。", "q_en": "Where is the umbrella now?",
+    "options": ["{公園|こうえん}の{事務所|じむしょ}", "{駅|えき}", "{公園|こうえん}のベンチ"], "answer": 0,
+    "why_ja": "「{今|いま}、{公園|こうえん}の{事務所|じむしょ}にあります」とあります。", "why_en": "The sign says it is at the park office."},
+   {"q_ja": "いつ{傘|かさ}を{取|と}りに{行|い}くことができませんか。", "q_en": "When can the owner NOT go to pick up the umbrella?",
+    "options": ["{月曜日|げつようび}の{朝|あさ}{十時|じゅうじ}", "{土曜日|どようび}の{午後|ごご}{三時|さんじ}", "{日曜日|にちようび}"], "answer": 2,
+    "why_ja": "「{日曜日|にちようび}は{休|やす}みです」とあります。ほかの{二|ふた}つは{事務所|じむしょ}が{開|あ}いている{時間|じかん}です。", "why_en": "The office is closed on Sundays; the other two times are within opening hours."}
+  ]
+ },
+ {
+  "id": "n5_rd_014",
+  "level": "N5",
+  "title_ja": "たまごサンドの{作|つく}り{方|かた}",
+  "text_ja": "まず、{卵|たまご}を{十分|じゅっぷん}ぐらいゆでます。{次|つぎ}に、{卵|たまご}を{小|ちい}さく{切|き}って、マヨネーズと{塩|しお}を{少|すこ}し{入|い}れます。パンにバターをぬって、{卵|たまご}をのせます。{最後|さいご}に、もう{一枚|いちまい}のパンをのせて、{半分|はんぶん}に{切|き}ります。",
+  "text_en": "First, boil the eggs for about ten minutes. Next, chop the eggs into small pieces and add mayonnaise and a little salt. Spread butter on the bread and put the egg on it. Finally, put another slice of bread on top and cut it in half.",
+  "questions": [
+   {"q_ja": "{卵|たまご}を{何分|なんぷん}ぐらいゆでますか。", "q_en": "About how long do you boil the eggs?",
+    "options": ["{五分|ごふん}", "{十分|じゅっぷん}", "{十五分|じゅうごふん}"], "answer": 1,
+    "why_ja": "「{卵|たまご}を{十分|じゅっぷん}ぐらいゆでます」とあります。", "why_en": "The recipe says about ten minutes."},
+   {"q_ja": "パンに{何|なに}をぬりますか。", "q_en": "What do you spread on the bread?",
+    "options": ["マヨネーズ", "{塩|しお}", "バター"], "answer": 2,
+    "why_ja": "「パンにバターをぬって」とあります。マヨネーズと{塩|しお}は{卵|たまご}に{入|い}れます。", "why_en": "Butter goes on the bread; mayonnaise and salt go into the egg."},
+   {"q_ja": "{最後|さいご}に{何|なに}をしますか。", "q_en": "What do you do last?",
+    "options": ["{卵|たまご}をゆでます", "パンを{半分|はんぶん}に{切|き}ります", "{塩|しお}を{入|い}れます"], "answer": 1,
+    "why_ja": "「{最後|さいご}に…{半分|はんぶん}に{切|き}ります」とあります。", "why_en": "The last step is cutting the sandwich in half."}
+  ]
+ },
+ {
+  "id": "n5_rd_015",
+  "level": "N5",
+  "title_ja": "{誕生日|たんじょうび}パーティー",
+  "text_ja": "けんたさんへ。{来週|らいしゅう}の{土曜日|どようび}は{私|わたし}の{誕生日|たんじょうび}です。{夜|よる}{六時|ろくじ}から{私|わたし}の{家|いえ}でパーティーをします。{料理|りょうり}は{母|はは}が{作|つく}りますから、{飲|の}み{物|もの}を{一|ひと}つ{持|も}ってきてください。{来|く}る{人|ひと}は、{金曜日|きんようび}にメールをください。さくらより。",
+  "text_en": "To Kenta. Next Saturday is my birthday. I'm having a party at my house from 6 in the evening. My mother will make the food, so please bring one drink. If you're coming, please email me on Friday. From Sakura.",
+  "questions": [
+   {"q_ja": "パーティーはいつですか。", "q_en": "When is the party?",
+    "options": ["{来週|らいしゅう}の{金曜日|きんようび}", "{来週|らいしゅう}の{土曜日|どようび}", "{来週|らいしゅう}の{日曜日|にちようび}"], "answer": 1,
+    "why_ja": "「{来週|らいしゅう}の{土曜日|どようび}は{私|わたし}の{誕生日|たんじょうび}です」とあります。{金曜日|きんようび}はメールの{日|ひ}です。", "why_en": "The party is on her birthday, next Saturday; Friday is the day to email."},
+   {"q_ja": "けんたさんは{何|なに}を{持|も}っていきますか。", "q_en": "What should Kenta bring?",
+    "options": ["{料理|りょうり}", "{飲|の}み{物|もの}", "ケーキ"], "answer": 1,
+    "why_ja": "「{飲|の}み{物|もの}を{一|ひと}つ{持|も}ってきてください」とあります。{料理|りょうり}はお{母|かあ}さんが{作|つく}ります。", "why_en": "He should bring a drink; Sakura's mother makes the food."},
+   {"q_ja": "パーティーに{行|い}く{人|ひと}は、{金曜日|きんようび}に{何|なに}をしますか。", "q_en": "What should people who are coming do on Friday?",
+    "options": ["メールを{送|おく}ります", "{電話|でんわ}をかけます", "{料理|りょうり}を{作|つく}ります"], "answer": 0,
+    "why_ja": "「{来|く}る{人|ひと}は、{金曜日|きんようび}にメールをください」とあります。", "why_en": "They should send Sakura an email on Friday."}
+  ]
+ },
+ {
+  "id": "n5_rd_016",
+  "level": "N5",
+  "title_ja": "{図書館|としょかん}のきまり",
+  "text_ja": "{図書館|としょかん}の{中|なか}では、{大|おお}きい{声|こえ}で{話|はな}さないでください。{食|た}べ{物|もの}を{食|た}べないでください。{水|みず}やお{茶|ちゃ}はだいじょうぶです。{本|ほん}は{一人|ひとり}{五冊|ごさつ}まで{借|か}りることができます。{月曜日|げつようび}は{休|やす}みです。",
+  "text_en": "Inside the library, please don't talk loudly. Please don't eat food. Water and tea are fine. Each person can borrow up to five books. The library is closed on Mondays.",
+  "questions": [
+   {"q_ja": "{図書館|としょかん}の{中|なか}で、{何|なに}はだいじょうぶですか。", "q_en": "What is allowed inside the library?",
+    "options": ["パンを{食|た}べること", "お{茶|ちゃ}を{飲|の}むこと", "{大|おお}きい{声|こえ}で{話|はな}すこと"], "answer": 1,
+    "why_ja": "「{水|みず}やお{茶|ちゃ}はだいじょうぶです」とあります。{食|た}べ{物|もの}と{大|おお}きい{声|こえ}はだめです。", "why_en": "Water and tea are fine; food and loud talking are not."},
+   {"q_ja": "{本|ほん}は{何冊|なんさつ}まで{借|か}りることができますか。", "q_en": "Up to how many books can one person borrow?",
+    "options": ["{二冊|にさつ}", "{五冊|ごさつ}", "{十冊|じゅっさつ}"], "answer": 1,
+    "why_ja": "「{一人|ひとり}{五冊|ごさつ}まで」とあります。", "why_en": "The rules say up to five books per person."},
+   {"q_ja": "{図書館|としょかん}が{休|やす}みの{日|ひ}は{何曜日|なんようび}ですか。", "q_en": "Which day is the library closed?",
+    "options": ["{月曜日|げつようび}", "{水曜日|すいようび}", "{日曜日|にちようび}"], "answer": 0,
+    "why_ja": "「{月曜日|げつようび}は{休|やす}みです」とあります。", "why_en": "The library is closed on Mondays."}
+  ]
+ },
+ {
+  "id": "n5_rd_017",
+  "level": "N5",
+  "title_ja": "{友達|ともだち}とのメッセージ",
+  "text_ja": "リー：「もう{映画館|えいがかん}の{前|まえ}にいるよ。ゆかは{今|いま}どこ？」ゆか：「ごめん、まだバスの{中|なか}。あと{十分|じゅっぷん}で{着|つ}くよ。」リー：「わかった。チケットは{私|わたし}が{二枚|にまい}{買|か}うね。」ゆか：「ありがとう！じゃあ、{飲|の}み{物|もの}は{私|わたし}が{買|か}うね。」",
+  "text_en": "Lee: \"I'm already in front of the cinema. Where are you now, Yuka?\" Yuka: \"Sorry, I'm still on the bus. I'll get there in ten minutes.\" Lee: \"Okay. I'll buy two tickets.\" Yuka: \"Thanks! Then I'll buy the drinks.\"",
+  "questions": [
+   {"q_ja": "ゆかさんは{今|いま}どこにいますか。", "q_en": "Where is Yuka now?",
+    "options": ["{映画館|えいがかん}の{前|まえ}", "バスの{中|なか}", "{家|いえ}"], "answer": 1,
+    "why_ja": "ゆかさんは「まだバスの{中|なか}」と{書|か}いています。{映画館|えいがかん}の{前|まえ}にいるのはリーさんです。", "why_en": "Yuka is still on the bus; Lee is the one at the cinema."},
+   {"q_ja": "だれがチケットを{買|か}いますか。", "q_en": "Who buys the tickets?",
+    "options": ["リーさん", "ゆかさん", "{映画館|えいがかん}の{人|ひと}"], "answer": 0,
+    "why_ja": "リーさんが「チケットは{私|わたし}が{二枚|にまい}{買|か}うね」と{書|か}いています。", "why_en": "Lee offers to buy two tickets."},
+   {"q_ja": "ゆかさんは{何|なに}を{買|か}いますか。", "q_en": "What will Yuka buy?",
+    "options": ["チケット", "{飲|の}み{物|もの}", "おかし"], "answer": 1,
+    "why_ja": "ゆかさんは「{飲|の}み{物|もの}は{私|わたし}が{買|か}うね」と{書|か}いています。", "why_en": "Yuka says she will buy the drinks."}
+  ]
+ },
+ {
+  "id": "n5_rd_018",
+  "level": "N5",
+  "title_ja": "{雨|あめ}の{日|ひ}の{日記|にっき}",
+  "text_ja": "{今日|きょう}は{朝|あさ}から{雨|あめ}でした。{友達|ともだち}とテニスをする{予定|よてい}でしたが、できませんでした。{午前|ごぜん}は{部屋|へや}を{掃除|そうじ}しました。{午後|ごご}は{姉|あね}といっしょにクッキーを{作|つく}りました。{夜|よる}、{雨|あめ}がやんで、{空|そら}に{月|つき}が{見|み}えました。",
+  "text_en": "It rained from the morning today. I was going to play tennis with a friend, but I couldn't. In the morning I cleaned my room. In the afternoon I made cookies with my older sister. At night the rain stopped and I could see the moon in the sky.",
+  "questions": [
+   {"q_ja": "{今日|きょう}、テニスをしましたか。", "q_en": "Did the writer play tennis today?",
+    "options": ["はい、{友達|ともだち}としました", "はい、{姉|あね}としました", "いいえ、しませんでした"], "answer": 2,
+    "why_ja": "「テニスをする{予定|よてい}でしたが、できませんでした」とあります。", "why_en": "Tennis was planned, but the writer couldn't play because of the rain."},
+   {"q_ja": "{午後|ごご}、{何|なに}をしましたか。", "q_en": "What did the writer do in the afternoon?",
+    "options": ["{部屋|へや}を{掃除|そうじ}しました", "クッキーを{作|つく}りました", "{月|つき}を{見|み}ました"], "answer": 1,
+    "why_ja": "「{午後|ごご}は{姉|あね}といっしょにクッキーを{作|つく}りました」とあります。{掃除|そうじ}は{午前|ごぜん}です。", "why_en": "Cookies were in the afternoon; cleaning was in the morning."},
+   {"q_ja": "{夜|よる}の{天気|てんき}はどうでしたか。", "q_en": "What was the weather like at night?",
+    "options": ["{雨|あめ}がやみました", "{雪|ゆき}が{降|ふ}りました", "{雨|あめ}が{強|つよ}くなりました"], "answer": 0,
+    "why_ja": "「{夜|よる}、{雨|あめ}がやんで」とあります。", "why_en": "The diary says the rain stopped at night."}
+  ]
+ }
+]

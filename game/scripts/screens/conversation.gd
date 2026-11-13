@@ -44,7 +44,8 @@ func _show_list() -> void:
 	for sc in _available():
 		var rec: Dictionary = Progress.scenarios.get(sc["id"], {})
 		var star := "★" if float(rec.get("best", 0.0)) >= 0.8 else "・"
-		var b := TileButton.new("%s %s　%s · %s" % [star, sc["title_ja"], sc["level"], sc["location"]], UITheme.SIZE_BODY)
+		var b := TileButton.new("%s %s　%s · %s" % [star, sc["title_ja"], sc["level"], sc["location"]], UITheme.SIZE_BODY,
+			sc["title_en"] if Progress.show_english() else "")
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		b.tooltip_text = sc["title_en"]
 		b.pressed.connect(_start.bind(sc))
@@ -103,7 +104,7 @@ func _render_turn() -> void:
 	for opt in ScreenBase.shuffled(turn["options"]):
 		if opt["ja"] in _removed:
 			continue
-		var b := TileButton.new(opt["ja"], UITheme.SIZE_BODY_L)
+		var b := TileButton.new(opt["ja"], UITheme.SIZE_BODY_L, String(opt.get("en", "")) if Progress.show_english() else "")
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		b.pressed.connect(_choose.bind(opt))
 		_box.add_child(b)
@@ -157,7 +158,7 @@ func _typed(turn: Dictionary) -> void:
 		hint_box.add_child(show)
 	send.pressed.connect(submit)
 	input.text_submitted.connect(func(_t: String) -> void: submit.call())
-	input.call_deferred("grab_focus")
+	setup_text_input(input)
 
 
 func _choose(opt: Dictionary) -> void:

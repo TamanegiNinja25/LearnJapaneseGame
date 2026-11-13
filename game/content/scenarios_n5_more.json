@@ -1,0 +1,327 @@
+[
+ {
+  "id": "n5_sc_supermarket",
+  "title_ja": "スーパーで{買|か}い{物|もの}",
+  "title_en": "Grocery shopping at the supermarket",
+  "level": "N5",
+  "location": "{商店街|しょうてんがい}",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "いらっしゃいませ！",
+    "line_en": "Welcome!",
+    "options": [
+     {"ja": "すみません、{卵|たまご}はどこですか。", "en": "Excuse me, where are the eggs?", "verdict": "correct", "register": "polite", "feedback_ja": "「すみません」と{言|い}ってから「〜はどこですか」と{聞|き}くと{丁寧|ていねい}です。", "feedback_en": "Start with すみません, then ask 〜はどこですか — polite and clear."},
+     {"ja": "{卵|たまご}、どこ？", "en": "Eggs, where?", "verdict": "unnatural", "register": "casual", "feedback_ja": "{意味|いみ}はわかりますが、{店|みせ}の{人|ひと}には{短|みじか}すぎて{失礼|しつれい}です。", "feedback_en": "Understandable, but far too blunt for shop staff."},
+     {"ja": "すみません、{卵|たまご}はだれですか。", "en": "Excuse me, who are the eggs?", "verdict": "wrong", "feedback_ja": "「だれ」は{人|ひと}に{使|つか}います。{場所|ばしょ}は「どこ」で{聞|き}きます。", "feedback_en": "だれ asks 'who'; to ask where something is, use どこ."}
+    ],
+    "typed": ["すみません、卵はどこですか", "すみません、たまごはどこですか", "卵はどこですか", "たまごはどこですか", "すみません、卵はどこにありますか", "すみません、たまごはどこにありますか", "卵はどこにありますか", "たまごはどこにありますか"]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "{卵|たまご}はあちらです。{牛乳|ぎゅうにゅう}の{隣|となり}にあります。",
+    "line_en": "The eggs are over there, next to the milk.",
+    "options": [
+     {"ja": "わかりました。ありがとうございます。", "en": "I see. Thank you.", "verdict": "correct", "register": "polite", "feedback_ja": "{教|おし}えてもらったら、「ありがとうございます」とお{礼|れい}を{言|い}います。", "feedback_en": "When someone helps you, thank them with ありがとうございます."},
+     {"ja": "そうですか。ご{苦労|くろう}さまです。", "en": "I see. Thanks for your hard work (said to someone below you).", "verdict": "unnatural", "register": "polite", "feedback_ja": "「ご{苦労|くろう}さま」は{上|うえ}の{人|ひと}が{下|した}の{人|ひと}に{言|い}う{言葉|ことば}です。お{客|きゃく}さんは{使|つか}いません。", "feedback_en": "ご苦労さま is said by a superior to a subordinate; a customer does not say it to staff."},
+     {"ja": "どういたしまして。", "en": "You're welcome.", "verdict": "wrong", "feedback_ja": "「どういたしまして」は「ありがとう」と{言|い}われたときの{答|こた}えです。", "feedback_en": "どういたしまして answers a thank-you; here you are the one who should say thanks."}
+    ],
+    "typed": ["わかりました、ありがとうございます", "分かりました、ありがとうございます", "ありがとうございます", "わかりました", "分かりました", "どうもありがとうございます"]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "こちらのトマトは{新|あたら}しいですよ。",
+    "line_en": "These tomatoes are fresh, you know.",
+    "options": [
+     {"ja": "このトマトはいくらですか。", "en": "How much are these tomatoes?", "verdict": "correct", "register": "polite", "feedback_ja": "{値段|ねだん}は「いくらですか」で{聞|き}きます。", "feedback_en": "いくらですか is how you ask a price."},
+     {"ja": "このトマトの{値段|ねだん}を{教|おし}えてくれ。", "en": "Tell me the price of these tomatoes.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{文|ぶん}は{正|ただ}しいですが、「〜てくれ」は{命令|めいれい}のようで、{店|みせ}の{人|ひと}にはとても{失礼|しつれい}です。", "feedback_en": "Grammatical, but 〜てくれ sounds like an order — rude to a shop clerk."},
+     {"ja": "このトマトはいつですか。", "en": "When are these tomatoes?", "verdict": "wrong", "feedback_ja": "「いつ」は{時間|じかん}を{聞|き}く{言葉|ことば}です。{値段|ねだん}は「いくら」です。", "feedback_en": "いつ asks 'when'; for a price you need いくら."}
+    ],
+    "typed": ["このトマトはいくらですか", "トマトはいくらですか", "いくらですか", "これはいくらですか"]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "{一|ひと}つ{百|ひゃく}{円|えん}です。",
+    "line_en": "They're 100 yen each.",
+    "options": [
+     {"ja": "じゃあ、{三|みっ}つください。", "en": "Then, three, please.", "verdict": "correct", "register": "polite", "feedback_ja": "トマトのような{物|もの}は「{一|ひと}つ、{二|ふた}つ、{三|みっ}つ」で{数|かぞ}えます。", "feedback_en": "Round things like tomatoes are counted with ひとつ, ふたつ, みっつ."},
+     {"ja": "じゃあ、{三|みっ}つちょうだい。", "en": "Then, gimme three.", "verdict": "unnatural", "register": "casual", "feedback_ja": "「ちょうだい」は{家族|かぞく}や{友達|ともだち}に{使|つか}います。{店|みせ}では「ください」です。", "feedback_en": "ちょうだい is for family and friends; in a shop say ください."},
+     {"ja": "じゃあ、{三枚|さんまい}ください。", "en": "Then, three sheets, please.", "verdict": "wrong", "feedback_ja": "「〜{枚|まい}」は{紙|かみ}やシャツのように{薄|うす}い{物|もの}を{数|かぞ}えます。トマトには{使|つか}いません。", "feedback_en": "枚 counts flat things like paper or shirts, not tomatoes."}
+    ],
+    "typed": ["じゃあ、三つください", "じゃあ、みっつください", "三つください", "みっつください", "三つお願いします", "みっつおねがいします", "じゃあ、三つお願いします"]
+   },
+   {
+    "speaker": "{店員|てんいん}",
+    "line_ja": "{全部|ぜんぶ}で{五百|ごひゃく}{円|えん}です。ポイントカードはありますか。",
+    "line_en": "That's 500 yen in total. Do you have a point card?",
+    "options": [
+     {"ja": "いいえ、ありません。", "en": "No, I don't.", "verdict": "correct", "register": "polite", "feedback_ja": "「ありますか」と{聞|き}かれたら、「ありません」と{答|こた}えます。", "feedback_en": "Answer ありますか with ありません."},
+     {"ja": "ない。", "en": "Nope.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{店|みせ}の{人|ひと}には{短|みじか}くて{失礼|しつれい}です。", "feedback_en": "Grammatical, but too short and curt for a shop clerk."},
+     {"ja": "いいえ、いません。", "en": "No, there isn't (as if the card were a living thing).", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。カードは「ありません」です。", "feedback_en": "います is for people and animals; a card takes ありません."}
+    ],
+    "typed": ["いいえ、ありません", "ありません", "いいえ、持っていません", "いいえ、もっていません", "持っていません", "もっていません"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_doctor",
+  "title_ja": "{病院|びょういん}で",
+  "title_en": "At the clinic",
+  "level": "N5",
+  "location": "{都会|とかい}",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{医者|いしゃ}",
+    "line_ja": "こんにちは。どうしましたか。",
+    "line_en": "Hello. What seems to be the problem?",
+    "options": [
+     {"ja": "{頭|あたま}が{痛|いた}いです。", "en": "I have a headache.", "verdict": "correct", "register": "polite", "feedback_ja": "{痛|いた}いところは「〜が{痛|いた}いです」と{言|い}います。", "feedback_en": "Say where it hurts with 〜が痛いです."},
+     {"ja": "{頭|あたま}が{痛|いた}いんだよ。", "en": "My head hurts, y'know.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{友達|ともだち}への{話|はな}し{方|かた}です。お{医者|いしゃ}さんには「です」を{使|つか}います。", "feedback_en": "That is how you talk to a friend; with a doctor use です."},
+     {"ja": "{頭|あたま}を{痛|いた}いです。", "en": "Head (as an object) is painful.", "verdict": "wrong", "feedback_ja": "「{痛|いた}い」の{前|まえ}は「が」です。「を」は{使|つか}いません。", "feedback_en": "痛い takes が, not を."}
+    ],
+    "typed": ["頭が痛いです", "あたまがいたいです", "頭がいたいです", "あたまが痛いです"]
+   },
+   {
+    "speaker": "{医者|いしゃ}",
+    "line_ja": "そうですか。{熱|ねつ}はありますか。",
+    "line_en": "I see. Do you have a fever?",
+    "options": [
+     {"ja": "はい、{少|すこ}し{熱|ねつ}があります。", "en": "Yes, I have a slight fever.", "verdict": "correct", "register": "polite", "feedback_ja": "{熱|ねつ}は「{熱|ねつ}があります」と{言|い}います。", "feedback_en": "A fever is something you 'have': 熱があります."},
+     {"ja": "はい、{熱|ねつ}が{大|おお}きいです。", "en": "Yes, my fever is big.", "verdict": "unnatural", "register": "polite", "feedback_ja": "{文|ぶん}は{正|ただ}しいですが、{熱|ねつ}は「{大|おお}きい」ではなく「{高|たか}い」と{言|い}います。", "feedback_en": "Grammatical, but a fever is 'high' (高い), not 'big'."},
+     {"ja": "はい、{少|すこ}し{熱|ねつ}がいます。", "en": "Yes, a little fever is (here, like a person).", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。{熱|ねつ}は「あります」です。", "feedback_en": "います is for living things; a fever takes あります."}
+    ],
+    "typed": ["はい、少し熱があります", "はい、すこしねつがあります", "少し熱があります", "すこしねつがあります", "はい、熱があります", "はい、ねつがあります", "熱があります", "ねつがあります"]
+   },
+   {
+    "speaker": "{医者|いしゃ}",
+    "line_ja": "いつからですか。",
+    "line_en": "Since when?",
+    "options": [
+     {"ja": "{昨日|きのう}の{夜|よる}からです。", "en": "Since last night.", "verdict": "correct", "register": "polite", "feedback_ja": "「いつから」には「〜からです」と{答|こた}えます。", "feedback_en": "Answer いつから with 〜からです."},
+     {"ja": "{昨日|きのう}の{夜|よる}からだ。", "en": "Since last night, man.", "verdict": "unnatural", "register": "casual", "feedback_ja": "「だ」はふつうの{形|かたち}です。お{医者|いしゃ}さんには「です」のほうがいいです。", "feedback_en": "だ is the plain form — too blunt with a doctor; use です."},
+     {"ja": "{明日|あした}の{夜|よる}からです。", "en": "From tomorrow night.", "verdict": "wrong", "feedback_ja": "{今|いま}、{頭|あたま}が{痛|いた}いです。「{明日|あした}から」はおかしいです。", "feedback_en": "Your head hurts now, so 'from tomorrow' makes no sense."}
+    ],
+    "typed": ["昨日の夜からです", "きのうのよるからです", "昨日からです", "きのうからです"]
+   },
+   {
+    "speaker": "{医者|いしゃ}",
+    "line_ja": "{風邪|かぜ}ですね。この{薬|くすり}を{一日|いちにち}{三回|さんかい}{飲|の}んでください。",
+    "line_en": "It's a cold. Please take this medicine three times a day.",
+    "options": [
+     {"ja": "はい、わかりました。", "en": "Yes, I understand.", "verdict": "correct", "register": "polite", "feedback_ja": "{説明|せつめい}を{聞|き}いたら「わかりました」と{答|こた}えます。", "feedback_en": "わかりました shows you understood the instructions."},
+     {"ja": "オッケー、わかった。", "en": "OK, got it.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{友達|ともだち}への{言|い}い{方|かた}です。お{医者|いしゃ}さんには{丁寧|ていねい}に{話|はな}します。", "feedback_en": "Friend-style speech; be polite with a doctor."},
+     {"ja": "はい、{一日|いちにち}{三回|さんかい}{食|た}べます。", "en": "Yes, I'll eat it three times a day.", "verdict": "wrong", "feedback_ja": "{薬|くすり}は「{食|た}べる」ではなく「{飲|の}む」と{言|い}います。", "feedback_en": "In Japanese you 'drink' (飲む) medicine, not 'eat' it."}
+    ],
+    "typed": ["はい、わかりました", "はい、分かりました", "わかりました", "分かりました", "はい、一日三回飲みます", "はい、いちにちさんかいのみます"]
+   },
+   {
+    "speaker": "{医者|いしゃ}",
+    "line_ja": "{今日|きょう}は{家|いえ}でゆっくり{休|やす}んでください。お{大事|だいじ}に。",
+    "line_en": "Please rest at home today. Take care.",
+    "options": [
+     {"ja": "ありがとうございました。", "en": "Thank you very much.", "verdict": "correct", "register": "polite", "feedback_ja": "{帰|かえ}るときは「ありがとうございました」とお{礼|れい}を{言|い}います。", "feedback_en": "Thank the doctor with ありがとうございました as you leave."},
+     {"ja": "ありがとう。", "en": "Thanks.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{間違|まちが}いではありませんが、お{医者|いしゃ}さんには「ございました」をつけたほうが{丁寧|ていねい}です。", "feedback_en": "Not wrong, but too casual for a doctor; add ございました."},
+     {"ja": "いただきます。", "en": "Let's eat (said before a meal).", "verdict": "wrong", "feedback_ja": "「いただきます」はご{飯|はん}を{食|た}べる{前|まえ}に{言|い}う{言葉|ことば}です。", "feedback_en": "いただきます is said before eating."}
+    ],
+    "typed": ["ありがとうございました", "ありがとうございます", "どうもありがとうございました"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_hotel",
+  "title_ja": "ホテルでチェックイン",
+  "title_en": "Checking in at a hotel",
+  "level": "N5",
+  "location": "{都会|とかい}",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{受付|うけつけ}",
+    "line_ja": "いらっしゃいませ。",
+    "line_en": "Welcome.",
+    "options": [
+     {"ja": "すみません、チェックインをお{願|ねが}いします。", "en": "Excuse me, I'd like to check in, please.", "verdict": "correct", "register": "polite", "feedback_ja": "「〜をお{願|ねが}いします」で{丁寧|ていねい}に{頼|たの}めます。", "feedback_en": "〜をお願いします is a polite way to ask for something."},
+     {"ja": "チェックインして。", "en": "Check me in.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{文|ぶん}は{正|ただ}しいですが、ホテルの{人|ひと}には{命令|めいれい}のように{聞|き}こえます。", "feedback_en": "Grammatical, but it sounds like an order to hotel staff."},
+     {"ja": "すみません、チェックインがいます。", "en": "Excuse me, there is a check-in (as if it were a person).", "verdict": "wrong", "feedback_ja": "「います」は{人|ひと}や{動物|どうぶつ}に{使|つか}います。{意味|いみ}がわかりません。", "feedback_en": "います is for living things; the sentence makes no sense."}
+    ],
+    "typed": ["すみません、チェックインをお願いします", "すみません、チェックインをおねがいします", "チェックインをお願いします", "チェックインをおねがいします", "チェックインお願いします", "チェックインおねがいします"]
+   },
+   {
+    "speaker": "{受付|うけつけ}",
+    "line_ja": "お{名前|なまえ}をお{願|ねが}いします。",
+    "line_en": "Your name, please.",
+    "options": [
+     {"ja": "ブラウンです。", "en": "I'm Brown.", "verdict": "correct", "register": "polite", "feedback_ja": "{名前|なまえ}は「〜です」で{言|い}えます。", "feedback_en": "Give your name with 〜です."},
+     {"ja": "ブラウンさんです。", "en": "I'm Mr. Brown.", "verdict": "unnatural", "register": "polite", "feedback_ja": "「さん」はほかの{人|ひと}につけます。{自分|じぶん}の{名前|なまえ}にはつけません。", "feedback_en": "さん is for other people; never add it to your own name."},
+     {"ja": "ブラウンでした。", "en": "I was Brown.", "verdict": "wrong", "feedback_ja": "「でした」は{過去|かこ}です。{今|いま}の{名前|なまえ}は「です」で{言|い}います。", "feedback_en": "でした is past tense; your name is still Brown, so use です."}
+    ],
+    "typed": ["ブラウンです", "ブラウンと申します", "ブラウンともうします", "ブラウンといいます"]
+   },
+   {
+    "speaker": "{受付|うけつけ}",
+    "line_ja": "ブラウン{様|さま}ですね。{何名様|なんめいさま}ですか。",
+    "line_en": "Mr. Brown, yes. How many people?",
+    "options": [
+     {"ja": "{二人|ふたり}です。", "en": "Two people.", "verdict": "correct", "register": "polite", "feedback_ja": "{人|ひと}は「{一人|ひとり}、{二人|ふたり}、{三人|さんにん}」と{数|かぞ}えます。", "feedback_en": "People are counted ひとり, ふたり, さんにん."},
+     {"ja": "{二名様|にめいさま}です。", "en": "Two honoured guests.", "verdict": "unnatural", "register": "respectful", "feedback_ja": "「{様|さま}」は{相手|あいて}への{言葉|ことば}です。{自分|じぶん}たちには{使|つか}いません。", "feedback_en": "様 shows respect to others; you don't use it about yourself."},
+     {"ja": "{二|ふた}つです。", "en": "Two (things).", "verdict": "wrong", "feedback_ja": "「{二|ふた}つ」は{物|もの}を{数|かぞ}えます。{人|ひと}は「{二人|ふたり}」です。", "feedback_en": "ふたつ counts things; for people use ふたり."}
+    ],
+    "typed": ["二人です", "ふたりです", "二名です", "にめいです"]
+   },
+   {
+    "speaker": "{受付|うけつけ}",
+    "line_ja": "お{部屋|へや}は{五階|ごかい}です。こちらが{鍵|かぎ}です。",
+    "line_en": "Your room is on the fifth floor. Here is the key.",
+    "options": [
+     {"ja": "ありがとうございます。エレベーターはどこですか。", "en": "Thank you. Where is the elevator?", "verdict": "correct", "register": "polite", "feedback_ja": "お{礼|れい}を{言|い}ってから、「どこですか」で{場所|ばしょ}を{聞|き}きます。", "feedback_en": "Thank them, then ask the location with どこですか."},
+     {"ja": "どうも。エレベーター、どこ？", "en": "Thanks. Elevator — where?", "verdict": "unnatural", "register": "casual", "feedback_ja": "{意味|いみ}はわかりますが、ホテルの{人|ひと}には{短|みじか}すぎます。", "feedback_en": "Understandable, but too clipped for hotel staff."},
+     {"ja": "ありがとうございます。エレベーターはいつですか。", "en": "Thank you. When is the elevator?", "verdict": "wrong", "feedback_ja": "「いつ」は{時間|じかん}を{聞|き}きます。{場所|ばしょ}は「どこ」です。", "feedback_en": "いつ asks 'when'; to ask 'where', use どこ."}
+    ],
+    "typed": ["ありがとうございます、エレベーターはどこですか", "エレベーターはどこですか", "エレベーターはどこにありますか", "すみません、エレベーターはどこですか"]
+   },
+   {
+    "speaker": "{受付|うけつけ}",
+    "line_ja": "あちらです。{朝|あさ}ご{飯|はん}は{七時|しちじ}からです。",
+    "line_en": "Over there. Breakfast is from seven.",
+    "options": [
+     {"ja": "わかりました。{何時|なんじ}までですか。", "en": "I see. Until what time?", "verdict": "correct", "register": "polite", "feedback_ja": "「〜から」を{聞|き}いたので、「{何時|なんじ}まで」と{聞|き}くのは{自然|しぜん}です。", "feedback_en": "You heard the start time, so asking 何時まで (until when) is natural."},
+     {"ja": "ふうん、そう。", "en": "Hmm, okay.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{友達|ともだち}にも{少|すこ}し{冷|つめ}たく{聞|き}こえます。ホテルの{人|ひと}には{使|つか}いません。", "feedback_en": "Sounds offhand even with friends; not for hotel staff."},
+     {"ja": "はい、{七時|しちじ}でした。", "en": "Yes, it was seven.", "verdict": "wrong", "feedback_ja": "{朝|あさ}ご{飯|はん}は{明日|あした}の{朝|あさ}です。「でした」は{過去|かこ}なので{合|あ}いません。", "feedback_en": "Breakfast is tomorrow; でした is past tense and doesn't fit."}
+    ],
+    "typed": ["わかりました、何時までですか", "わかりました、なんじまでですか", "分かりました、何時までですか", "何時までですか", "なんじまでですか"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_phone",
+  "title_ja": "{友達|ともだち}に{電話|でんわ}",
+  "title_en": "Calling a friend to say you'll be late",
+  "level": "N5",
+  "location": "{自宅|じたく}",
+  "register": "casual",
+  "turns": [
+   {
+    "speaker": "ゆい",
+    "line_ja": "もしもし、どうしたの？",
+    "line_en": "Hello? What's up?",
+    "options": [
+     {"ja": "もしもし、ゆい？ごめん、ちょっと{遅|おく}れる。", "en": "Hello, Yui? Sorry, I'll be a bit late.", "verdict": "correct", "register": "casual", "feedback_ja": "{友達|ともだち}には「ごめん」とふつうの{形|かたち}が{自然|しぜん}です。", "feedback_en": "With a friend, ごめん and the plain form are natural."},
+     {"ja": "{大変|たいへん}{申|もう}し{訳|わけ}ございません。{遅|おく}れます。", "en": "I am terribly sorry. I will be late.", "verdict": "unnatural", "register": "business", "feedback_ja": "{会社|かいしゃ}で{使|つか}う{謝|あやま}り{方|かた}です。{友達|ともだち}にはとても{硬|かた}いです。", "feedback_en": "This is a formal business apology — far too stiff for a friend."},
+     {"ja": "もしもし、ごめん、{昨日|きのう}{遅|おく}れる。", "en": "Hello, sorry, I'll be late yesterday.", "verdict": "wrong", "feedback_ja": "「{昨日|きのう}」は{過去|かこ}です。「{遅|おく}れる」はこれからのことなので{合|あ}いません。", "feedback_en": "昨日 (yesterday) cannot go with the future 遅れる."}
+    ],
+    "typed": ["もしもし、ゆい、ごめん、ちょっと遅れる", "ごめん、ちょっと遅れる", "ごめん、ちょっとおくれる", "ごめん、遅れる", "ごめん、おくれる", "ちょっと遅れる", "ちょっとおくれる"]
+   },
+   {
+    "speaker": "ゆい",
+    "line_ja": "え、そうなの？どのぐらい？",
+    "line_en": "Oh, really? How long?",
+    "options": [
+     {"ja": "{十五分|じゅうごふん}ぐらい。", "en": "About fifteen minutes.", "verdict": "correct", "register": "casual", "feedback_ja": "{時間|じかん}は「〜{分|ふん}ぐらい」で{答|こた}えます。{友達|ともだち}には「です」がなくてもいいです。", "feedback_en": "Answer with 〜分ぐらい; with a friend you can drop です."},
+     {"ja": "{十五分|じゅうごふん}ぐらいでございます。", "en": "It will be approximately fifteen minutes (customer-service style).", "verdict": "unnatural", "register": "business", "feedback_ja": "「でございます」はお{客|きゃく}さんに{使|つか}う{言葉|ことば}です。{友達|ともだち}には{変|へん}です。", "feedback_en": "でございます is customer-service language; odd with a friend."},
+     {"ja": "{十五人|じゅうごにん}ぐらい。", "en": "About fifteen people.", "verdict": "wrong", "feedback_ja": "「〜{人|にん}」は{人|ひと}を{数|かぞ}えます。{時間|じかん}は「〜{分|ふん}」です。", "feedback_en": "人 counts people; for time use 分."}
+    ],
+    "typed": ["十五分ぐらい", "じゅうごふんぐらい", "15分ぐらい", "十五分くらい", "じゅうごふんくらい", "15分くらい"]
+   },
+   {
+    "speaker": "ゆい",
+    "line_ja": "どうして？",
+    "line_en": "How come?",
+    "options": [
+     {"ja": "{電車|でんしゃ}が{来|こ}ないから。", "en": "Because the train isn't coming.", "verdict": "correct", "register": "casual", "feedback_ja": "{理由|りゆう}は「〜から」で{言|い}えます。", "feedback_en": "Give the reason with 〜から."},
+     {"ja": "{電車|でんしゃ}が{来|き}ませんので、{遅|おく}れます。", "en": "As the train is not coming, I will be late.", "verdict": "unnatural", "register": "polite", "feedback_ja": "{文|ぶん}は{正|ただ}しいですが、{仲|なか}のいい{友達|ともだち}には{丁寧|ていねい}すぎます。", "feedback_en": "Grammatical, but too polite and distant for a close friend."},
+     {"ja": "{電車|でんしゃ}を{来|こ}ないから。", "en": "Because (I) don't come the train.", "verdict": "wrong", "feedback_ja": "「{来|く}る」の{前|まえ}は「が」です。「を」は{使|つか}いません。", "feedback_en": "来る takes が for what is coming, not を."}
+    ],
+    "typed": ["電車が来ないから", "でんしゃがこないから", "電車が来ない", "でんしゃがこない", "電車がまだ来ないから", "でんしゃがまだこないから"]
+   },
+   {
+    "speaker": "ゆい",
+    "line_ja": "わかった。じゃあ、{駅|えき}の{前|まえ}の{喫茶店|きっさてん}で{待|ま}ってるね。",
+    "line_en": "Got it. Then I'll wait at the café in front of the station.",
+    "options": [
+     {"ja": "ありがとう。すぐ{行|い}くね。", "en": "Thanks. I'll be right there.", "verdict": "correct", "register": "casual", "feedback_ja": "これからのことなので「{行|い}く」です。「ね」で{優|やさ}しく{聞|き}こえます。", "feedback_en": "It's still ahead, so 行く; ね makes it sound warm."},
+     {"ja": "ありがとうございます。すぐ{参|まい}ります。", "en": "Thank you very much. I shall come at once.", "verdict": "unnatural", "register": "respectful", "feedback_ja": "「{参|まい}ります」は{目上|めうえ}の{人|ひと}に{使|つか}う{言葉|ことば}です。{友達|ともだち}には{硬|かた}すぎます。", "feedback_en": "参ります is humble speech for superiors; too stiff for a friend."},
+     {"ja": "ありがとう。すぐ{行|い}ったね。", "en": "Thanks. I went right away, huh.", "verdict": "wrong", "feedback_ja": "「{行|い}った」は{過去|かこ}です。まだ{行|い}っていないので{合|あ}いません。", "feedback_en": "行った is past tense, but you haven't gone yet."}
+    ],
+    "typed": ["ありがとう、すぐ行くね", "ありがとう、すぐいくね", "すぐ行くね", "すぐいくね", "ありがとう、すぐ行く", "ありがとう、すぐいく"]
+   },
+   {
+    "speaker": "ゆい",
+    "line_ja": "うん、{気|き}をつけてね。",
+    "line_en": "Okay, be careful.",
+    "options": [
+     {"ja": "うん、じゃあ、またあとで。", "en": "Yeah, see you later, then.", "verdict": "correct", "register": "casual", "feedback_ja": "すぐ{会|あ}うので「またあとで」がぴったりです。", "feedback_en": "You'll meet soon, so またあとで (see you later) fits perfectly."},
+     {"ja": "では、{失礼|しつれい}いたします。", "en": "Well then, I'll take my leave (very formal).", "verdict": "unnatural", "register": "business", "feedback_ja": "{会社|かいしゃ}の{電話|でんわ}で{使|つか}う{言葉|ことば}です。{友達|ともだち}にはとても{硬|かた}いです。", "feedback_en": "Business-phone language; very stiff with a friend."},
+     {"ja": "うん、はじめまして。", "en": "Yeah, nice to meet you.", "verdict": "wrong", "feedback_ja": "「はじめまして」は{初|はじ}めて{会|あ}う{人|ひと}に{言|い}います。ゆいさんは{友達|ともだち}です。", "feedback_en": "はじめまして is for meeting someone for the first time; Yui is your friend."}
+    ],
+    "typed": ["うん、じゃあ、またあとで", "じゃあ、またあとで", "またあとで", "また後で", "じゃあ、また後で", "うん、じゃあね", "じゃあね"]
+   }
+  ]
+ },
+ {
+  "id": "n5_sc_lost",
+  "title_ja": "{駅|えき}への{道|みち}を{聞|き}く",
+  "title_en": "Asking a stranger the way to the station",
+  "level": "N5",
+  "location": "{都会|とかい}",
+  "register": "polite",
+  "turns": [
+   {
+    "speaker": "{女|おんな}の{人|ひと}",
+    "line_ja": "はい、なんですか。",
+    "line_en": "Yes? Can I help you?",
+    "options": [
+     {"ja": "すみません、{駅|えき}はどこですか。", "en": "Excuse me, where is the station?", "verdict": "correct", "register": "polite", "feedback_ja": "{知|し}らない{人|ひと}には「すみません」と「です・ます」で{聞|き}きます。", "feedback_en": "With a stranger, use すみません and the です/ます form."},
+     {"ja": "おい、{駅|えき}はどこだ。", "en": "Hey, where's the station?", "verdict": "unnatural", "register": "casual", "feedback_ja": "「おい」と「だ」はとても{乱暴|らんぼう}です。{知|し}らない{人|ひと}には{使|つか}いません。", "feedback_en": "おい and だ sound very rough; never use them with a stranger."},
+     {"ja": "すみません、{駅|えき}はなんですか。", "en": "Excuse me, what is the station?", "verdict": "wrong", "feedback_ja": "「なん」は{物|もの}の{名前|なまえ}などを{聞|き}きます。{場所|ばしょ}は「どこ」です。", "feedback_en": "なん asks 'what'; to ask where, use どこ."}
+    ],
+    "typed": ["すみません、駅はどこですか", "すみません、えきはどこですか", "駅はどこですか", "えきはどこですか", "すみません、駅はどこにありますか", "すみません、えきはどこにありますか", "駅はどこにありますか", "えきはどこにありますか"]
+   },
+   {
+    "speaker": "{女|おんな}の{人|ひと}",
+    "line_ja": "{駅|えき}ですか。この{道|みち}をまっすぐ{行|い}ってください。",
+    "line_en": "The station? Please go straight along this road.",
+    "options": [
+     {"ja": "まっすぐですね。", "en": "Straight ahead, right?", "verdict": "correct", "register": "polite", "feedback_ja": "「〜ですね」で、{聞|き}いたことを{確|たし}かめられます。", "feedback_en": "〜ですね lets you check that you understood."},
+     {"ja": "まっすぐか。", "en": "Straight, huh.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{独|ひと}り{言|ごと}のようで、{教|おし}えてくれた{人|ひと}には{失礼|しつれい}です。", "feedback_en": "Sounds like talking to yourself — rude to the person helping you."},
+     {"ja": "はい、{右|みぎ}ですね。", "en": "Yes, to the right, right?", "verdict": "wrong", "feedback_ja": "{女|おんな}の{人|ひと}は「まっすぐ」と{言|い}いました。「{右|みぎ}」ではありません。", "feedback_en": "She said straight ahead, not right."}
+    ],
+    "typed": ["まっすぐですね", "まっすぐですか", "この道をまっすぐですね", "このみちをまっすぐですね"]
+   },
+   {
+    "speaker": "{女|おんな}の{人|ひと}",
+    "line_ja": "はい。{二|ふた}つ{目|め}の{信号|しんごう}を{左|ひだり}に{曲|ま}がってください。",
+    "line_en": "Yes. Please turn left at the second traffic light.",
+    "options": [
+     {"ja": "{二|ふた}つ{目|め}の{信号|しんごう}を{左|ひだり}ですね。", "en": "Left at the second light, right?", "verdict": "correct", "register": "polite", "feedback_ja": "{大事|だいじ}なところをくり{返|かえ}して{確|たし}かめると{安心|あんしん}です。", "feedback_en": "Repeating the key details back is a good way to confirm."},
+     {"ja": "わかった。{左|ひだり}ね。", "en": "Got it. Left, yeah.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{友達|ともだち}への{話|はな}し{方|かた}です。{知|し}らない{人|ひと}には「です・ます」を{使|つか}います。", "feedback_en": "Friend-style speech; use です/ます with a stranger."},
+     {"ja": "{二|ふた}つ{目|め}の{信号|しんごう}を{右|みぎ}ですね。", "en": "Right at the second light, right?", "verdict": "wrong", "feedback_ja": "{女|おんな}の{人|ひと}は「{左|ひだり}」と{言|い}いました。", "feedback_en": "She said left, not right."}
+    ],
+    "typed": ["二つ目の信号を左ですね", "ふたつめのしんごうをひだりですね", "二つ目の信号を左に曲がるんですね", "左ですね", "ひだりですね"]
+   },
+   {
+    "speaker": "{女|おんな}の{人|ひと}",
+    "line_ja": "{駅|えき}はその{先|さき}にあります。",
+    "line_en": "The station is just past there.",
+    "options": [
+     {"ja": "ここから{遠|とお}いですか。", "en": "Is it far from here?", "verdict": "correct", "register": "polite", "feedback_ja": "い{形容詞|けいようし}は「{遠|とお}いです」のように「です」をつけます。", "feedback_en": "An i-adjective just adds です: 遠いです."},
+     {"ja": "ここから{遠|とお}い？", "en": "Far from here?", "verdict": "unnatural", "register": "casual", "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{知|し}らない{人|ひと}には「ですか」で{聞|き}きます。", "feedback_en": "Grammatical, but with a stranger ask with ですか."},
+     {"ja": "ここから{遠|とお}いだですか。", "en": "Is it far-is from here? (broken)", "verdict": "wrong", "feedback_ja": "い{形容詞|けいようし}に「だ」はつけません。「{遠|とお}いですか」です。", "feedback_en": "An i-adjective never takes だ; say 遠いですか."}
+    ],
+    "typed": ["ここから遠いですか", "ここからとおいですか", "遠いですか", "とおいですか"]
+   },
+   {
+    "speaker": "{女|おんな}の{人|ひと}",
+    "line_ja": "いいえ、{歩|ある}いて{五分|ごふん}ぐらいですよ。",
+    "line_en": "No, it's about five minutes on foot.",
+    "options": [
+     {"ja": "そうですか。どうもありがとうございました。", "en": "I see. Thank you very much.", "verdict": "correct", "register": "polite", "feedback_ja": "{助|たす}けてもらったら、{最後|さいご}に{丁寧|ていねい}にお{礼|れい}を{言|い}います。", "feedback_en": "End by thanking the person politely for their help."},
+     {"ja": "そっか。サンキュー。", "en": "Oh, okay. Thanks.", "verdict": "unnatural", "register": "casual", "feedback_ja": "{友達|ともだち}には{使|つか}えますが、{知|し}らない{人|ひと}には{軽|かる}すぎます。", "feedback_en": "Fine with friends, but too light with a stranger."},
+     {"ja": "そうですか。どういたしまして。", "en": "I see. You're welcome.", "verdict": "wrong", "feedback_ja": "「どういたしまして」はお{礼|れい}を{言|い}われた{人|ひと}が{言|い}います。", "feedback_en": "どういたしまして is the reply to a thank-you, not a thank-you itself."}
+    ],
+    "typed": ["そうですか、どうもありがとうございました", "どうもありがとうございました", "ありがとうございました", "ありがとうございます", "どうもありがとうございます"]
+   }
+  ]
+ }
+]

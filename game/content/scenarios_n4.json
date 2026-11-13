@@ -12,11 +12,11 @@
     "line_ja": "お{客|きゃく}さま、どうかされましたか。",
     "line_en": "Can I help you, sir/madam?",
     "options": [
-     {"ja": "すみません、{電車|でんしゃ}がなかなか{来|こ}ないんですが…。", "verdict": "correct", "register": "polite",
+     {"ja": "すみません、{電車|でんしゃ}がなかなか{来|こ}ないんですが…。", "en": "Excuse me, the train just isn't coming...", "verdict": "correct", "register": "polite",
       "feedback_ja": "「〜んですが」で{困|こま}っていることをやわらかく{伝|つた}えられます。", "feedback_en": "〜んですが gently explains your problem and invites help."},
-     {"ja": "おい、{電車|でんしゃ}はまだ？", "verdict": "unnatural", "register": "casual",
+     {"ja": "おい、{電車|でんしゃ}はまだ？", "en": "Hey, where's the train?", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{意味|いみ}はわかりますが、{駅員|えきいん}さんに「おい」は{失礼|しつれい}です。", "feedback_en": "Understandable, but おい and casual speech are rude toward station staff."},
-     {"ja": "すみません、{電車|でんしゃ}を{来|こ}ないんですが…。", "verdict": "wrong",
+     {"ja": "すみません、{電車|でんしゃ}を{来|こ}ないんですが…。", "en": "Excuse me, the train isn't coming...", "verdict": "wrong",
       "feedback_ja": "「{来|く}る」は「を」を{使|つか}いません。「{電車|でんしゃ}が{来|こ}ない」です。", "feedback_en": "来る doesn't take を; the train is the subject: 電車が来ない."}
     ],
     "typed": ["すみません、電車がなかなか来ないんですが", "電車が来ないんですが", "すみません、でんしゃがこないんですが", "電車が来ません", "でんしゃがきません"]
@@ -26,11 +26,11 @@
     "line_ja": "{申|もう}し{訳|わけ}ございません。{事故|じこ}のため、{電車|でんしゃ}が{三十分|さんじゅっぷん}ほど{遅|おく}れています。",
     "line_en": "We're very sorry. Because of an accident, trains are running about thirty minutes late.",
     "options": [
-     {"ja": "そうですか。どうしたらいいですか。", "verdict": "correct", "register": "polite",
+     {"ja": "そうですか。どうしたらいいですか。", "en": "I see. What should I do?", "verdict": "correct", "register": "polite",
       "feedback_ja": "「どうしたらいいですか」は、どうすればいいか{聞|き}く{時|とき}の{自然|しぜん}な{言|い}い{方|かた}です。", "feedback_en": "どうしたらいいですか is the natural way to ask what you should do."},
-     {"ja": "{三十分|さんじゅっぷん}も！？{本当|ほんとう}に{困|こま}るよ。", "verdict": "unnatural", "register": "casual",
+     {"ja": "{三十分|さんじゅっぷん}も！？{本当|ほんとう}に{困|こま}るよ。", "en": "Thirty minutes!? This is a real pain.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{気持|きも}ちはわかりますが、{駅員|えきいん}さんに{文句|もんく}を{言|い}っても{何|なに}も{変|か}わりません。{言葉|ことば}もくだけすぎです。", "feedback_en": "Understandable, but complaining in casual speech to staff isn't natural and doesn't help."},
-     {"ja": "そうですか。どうしてもいいですか。", "verdict": "wrong",
+     {"ja": "そうですか。どうしてもいいですか。", "en": "I see. May I do anything at all?", "verdict": "wrong",
       "feedback_ja": "「どうしてもいいですか」は{意味|いみ}が{通|とお}りません。「どうしたらいいですか」です。", "feedback_en": "どうしてもいいですか doesn't make sense here; ask どうしたらいいですか."}
     ],
     "typed": ["どうしたらいいですか", "どうすればいいですか", "そうですか、どうしたらいいですか", "どうしたらいいでしょうか"]
@@ -40,11 +40,11 @@
     "line_ja": "お{急|いそ}ぎでしたら、{地下鉄|ちかてつ}で{行|い}くこともできますよ。",
     "line_en": "If you're in a hurry, you can also go by subway.",
     "options": [
-     {"ja": "{地下鉄|ちかてつ}の{駅|えき}へは、どう{行|い}けばいいですか。", "verdict": "correct", "register": "polite",
+     {"ja": "{地下鉄|ちかてつ}の{駅|えき}へは、どう{行|い}けばいいですか。", "en": "How do I get to the subway station?", "verdict": "correct", "register": "polite",
       "feedback_ja": "「〜ばいいですか」で{行|い}き{方|かた}を{丁寧|ていねい}に{聞|き}けます。", "feedback_en": "〜ばいいですか politely asks how to get there."},
-     {"ja": "{地下鉄|ちかてつ}？じゃ、{行|い}こう。", "verdict": "unnatural", "register": "casual",
+     {"ja": "{地下鉄|ちかてつ}？じゃ、{行|い}こう。", "en": "The subway? Okay, let's go.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{駅員|えきいん}さんへの{返事|へんじ}としてはくだけすぎで、{道|みち}もわかりません。", "feedback_en": "Grammatical, but too casual for staff, and you still don't know the way."},
-     {"ja": "{地下鉄|ちかてつ}の{駅|えき}へは、どう{行|い}くばいいですか。", "verdict": "wrong",
+     {"ja": "{地下鉄|ちかてつ}の{駅|えき}へは、どう{行|い}くばいいですか。", "en": "How do I goes to the subway station?", "verdict": "wrong",
       "feedback_ja": "「{行|い}く」のば{形|けい}は「{行|い}けば」です。", "feedback_en": "The ば form of 行く is 行けば, not 行くば."}
     ],
     "typed": ["地下鉄の駅へは、どう行けばいいですか", "地下鉄の駅へはどう行けばいいですか", "地下鉄の駅はどう行けばいいですか", "ちかてつのえきへはどういけばいいですか", "地下鉄の駅はどこですか"]
@@ -54,11 +54,11 @@
     "line_ja": "この{改札|かいさつ}を{出|で}て、{右|みぎ}にまっすぐ{行|い}くと、{入|い}り{口|ぐち}があります。",
     "line_en": "Go out this ticket gate and straight ahead to the right, and you'll find the entrance.",
     "options": [
-     {"ja": "わかりました。この{切符|きっぷ}で{地下鉄|ちかてつ}に{乗|の}ってもいいですか。", "verdict": "correct", "register": "polite",
+     {"ja": "わかりました。この{切符|きっぷ}で{地下鉄|ちかてつ}に{乗|の}ってもいいですか。", "en": "Understood. Can I ride the subway with this ticket?", "verdict": "correct", "register": "polite",
       "feedback_ja": "「〜てもいいですか」で{許可|きょか}をもらえます。", "feedback_en": "〜てもいいですか asks for permission."},
-     {"ja": "わかりました。この{切符|きっぷ}で{地下鉄|ちかてつ}に{乗|の}ってはいけませんか。", "verdict": "unnatural", "register": "polite",
+     {"ja": "わかりました。この{切符|きっぷ}で{地下鉄|ちかてつ}に{乗|の}ってはいけませんか。", "en": "Understood. Am I not allowed to ride the subway with this ticket?", "verdict": "unnatural", "register": "polite",
       "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{文句|もんく}を{言|い}っているように{聞|き}こえます。ふつうは「〜てもいいですか」と{聞|き}きます。", "feedback_en": "Grammatical, but it sounds like you're objecting; just ask 〜てもいいですか."},
-     {"ja": "わかりました。この{切符|きっぷ}で{地下鉄|ちかてつ}を{乗|の}ってもいいですか。", "verdict": "wrong",
+     {"ja": "わかりました。この{切符|きっぷ}で{地下鉄|ちかてつ}を{乗|の}ってもいいですか。", "en": "Understood. Can I ride the subway with this ticket?", "verdict": "wrong",
       "feedback_ja": "「{乗|の}る」は「に」を{使|つか}います。「{地下鉄|ちかてつ}に{乗|の}る」です。", "feedback_en": "乗る takes に: 地下鉄に乗る."}
     ],
     "typed": ["この切符で地下鉄に乗ってもいいですか", "この切符で乗ってもいいですか", "このきっぷでちかてつにのってもいいですか", "わかりました、この切符で地下鉄に乗ってもいいですか"]
@@ -68,11 +68,11 @@
     "line_ja": "はい。この{紙|かみ}を{地下鉄|ちかてつ}の{改札|かいさつ}で{見|み}せれば、{乗|の}れますよ。",
     "line_en": "Yes. If you show this slip at the subway gate, you can ride.",
     "options": [
-     {"ja": "{助|たす}かりました。ありがとうございます。", "verdict": "correct", "register": "polite",
+     {"ja": "{助|たす}かりました。ありがとうございます。", "en": "That really helped. Thank you.", "verdict": "correct", "register": "polite",
       "feedback_ja": "「{助|たす}かりました」で、{助|たす}けてもらったお{礼|れい}の{気持|きも}ちがよく{伝|つた}わります。", "feedback_en": "助かりました conveys real thanks for the help."},
-     {"ja": "ありがとう。じゃあね。", "verdict": "unnatural", "register": "casual",
+     {"ja": "ありがとう。じゃあね。", "en": "Thanks. See ya.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "お{礼|れい}はいいですが、{駅員|えきいん}さんに「じゃあね」は{友達|ともだち}への{言葉|ことば}です。", "feedback_en": "Thanking is fine, but じゃあね is for friends, not station staff."},
-     {"ja": "どういたしまして。", "verdict": "wrong",
+     {"ja": "どういたしまして。", "en": "You're welcome.", "verdict": "wrong",
       "feedback_ja": "「どういたしまして」はお{礼|れい}を{言|い}われた{人|ひと}が{言|い}う{言葉|ことば}です。", "feedback_en": "どういたしまして is the reply to thanks, not a way of thanking."}
     ],
     "typed": ["助かりました。ありがとうございます", "助かりました", "ありがとうございます", "どうもありがとうございます", "たすかりました", "ありがとうございました"]
@@ -92,11 +92,11 @@
     "line_ja": "お{電話|でんわ}ありがとうございます。レストラン・ミモザでございます。",
     "line_en": "Thank you for calling. This is Restaurant Mimosa.",
     "options": [
-     {"ja": "もしもし、{予約|よやく}をしたいんですが。", "verdict": "correct", "register": "polite",
+     {"ja": "もしもし、{予約|よやく}をしたいんですが。", "en": "Hello, I'd like to make a reservation.", "verdict": "correct", "register": "polite",
       "feedback_ja": "「〜たいんですが」で、やわらかく{用件|ようけん}を{伝|つた}えられます。", "feedback_en": "〜たいんですが states your purpose softly and politely."},
-     {"ja": "あ、{予約|よやく}して。", "verdict": "unnatural", "register": "casual",
+     {"ja": "あ、{予約|よやく}して。", "en": "Uh, book me in.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{意味|いみ}はわかりますが、お{店|みせ}の{人|ひと}に{命令|めいれい}のように{聞|き}こえて{失礼|しつれい}です。", "feedback_en": "Understandable, but it sounds like an order and is rude to the restaurant."},
-     {"ja": "もしもし、{予約|よやく}をしてあげたいんですが。", "verdict": "wrong",
+     {"ja": "もしもし、{予約|よやく}をしてあげたいんですが。", "en": "Hello, I'd like to make a reservation for you.", "verdict": "wrong",
       "feedback_ja": "「〜てあげる」は{相手|あいて}のためにすることです。{自分|じぶん}の{予約|よやく}には{使|つか}いません。", "feedback_en": "てあげる means doing something for the other person; it doesn't fit making your own booking."}
     ],
     "typed": ["予約をしたいんですが", "予約したいんですが", "もしもし、予約をしたいんですが", "よやくをしたいんですが", "予約をお願いします", "予約をしたいです"]
@@ -106,11 +106,11 @@
     "line_ja": "ありがとうございます。いつがよろしいですか。",
     "line_en": "Thank you. When would you like?",
     "options": [
-     {"ja": "{今週|こんしゅう}の{土曜日|どようび}、{夜|よる}{七時|しちじ}にお{願|ねが}いできますか。", "verdict": "correct", "register": "polite",
+     {"ja": "{今週|こんしゅう}の{土曜日|どようび}、{夜|よる}{七時|しちじ}にお{願|ねが}いできますか。", "en": "Could I book this Saturday at 7 p.m.?", "verdict": "correct", "register": "polite",
       "feedback_ja": "{日|ひ}と{時間|じかん}をはっきり{言|い}って、{丁寧|ていねい}にお{願|ねが}いしています。", "feedback_en": "Clear day and time, asked politely."},
-     {"ja": "{土曜日|どようび}の{七時|しちじ}がいいと{思|おも}います。", "verdict": "unnatural", "register": "polite",
+     {"ja": "{土曜日|どようび}の{七時|しちじ}がいいと{思|おも}います。", "en": "I think Saturday at seven would be good.", "verdict": "unnatural", "register": "polite",
       "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{自分|じぶん}の{予定|よてい}なのに{意見|いけん}のように{聞|き}こえます。「〜にお{願|ねが}いします」が{自然|しぜん}です。", "feedback_en": "Grammatical, but と思います makes your own booking sound like an opinion."},
-     {"ja": "{先週|せんしゅう}の{土曜日|どようび}にお{願|ねが}いします。", "verdict": "wrong",
+     {"ja": "{先週|せんしゅう}の{土曜日|どようび}にお{願|ねが}いします。", "en": "Last Saturday, please.", "verdict": "wrong",
       "feedback_ja": "「{先週|せんしゅう}」はもう{終|お}わった{日|ひ}です。{予約|よやく}はできません。", "feedback_en": "先週 is in the past; you can't book a table for last week."}
     ],
     "typed": ["今週の土曜日、夜七時にお願いできますか", "土曜日の夜七時にお願いします", "土曜日の七時にお願いします", "どようびのしちじにおねがいします", "土曜日の七時でお願いします"]
@@ -120,11 +120,11 @@
     "line_ja": "{土曜日|どようび}の{七時|しちじ}ですね。{何名|なんめい}さまですか。",
     "line_en": "Saturday at seven. How many people?",
     "options": [
-     {"ja": "{大人|おとな}{三人|さんにん}と{子|こ}ども{一人|ひとり}です。", "verdict": "correct", "register": "polite",
+     {"ja": "{大人|おとな}{三人|さんにん}と{子|こ}ども{一人|ひとり}です。", "en": "Three adults and one child.", "verdict": "correct", "register": "polite",
       "feedback_ja": "{人数|にんずう}を「〜{人|にん}」で{正|ただ}しく{言|い}えています。", "feedback_en": "The number of people is given correctly with 人."},
-     {"ja": "{四名|よんめい}さまです。", "verdict": "unnatural", "register": "polite",
+     {"ja": "{四名|よんめい}さまです。", "en": "Four honored guests.", "verdict": "unnatural", "register": "polite",
       "feedback_ja": "「さま」はお{店|みせ}の{人|ひと}がお{客|きゃく}さんに{使|つか}う{言葉|ことば}です。{自分|じぶん}たちには{使|つか}いません。", "feedback_en": "さま is what staff say to customers; don't use it about your own group."},
-     {"ja": "{四|よっ}つです。", "verdict": "wrong",
+     {"ja": "{四|よっ}つです。", "en": "Four things.", "verdict": "wrong",
       "feedback_ja": "「〜つ」は{物|もの}を{数|かぞ}える{言葉|ことば}です。{人|ひと}は「{四人|よにん}」です。", "feedback_en": "〜つ counts things; people are counted with 人: 四人."}
     ],
     "typed": ["大人三人と子ども一人です", "おとなさんにんとこどもひとりです", "四人です", "よにんです", "四人でお願いします"]
@@ -134,11 +134,11 @@
     "line_ja": "かしこまりました。{申|もう}し{訳|わけ}ございませんが、{七時|しちじ}は{窓|まど}の{近|ちか}くの{席|せき}がいっぱいです。{奥|おく}の{席|せき}でもよろしいですか。",
     "line_en": "Certainly. I'm sorry, but the window seats are full at seven. Would a table further inside be all right?",
     "options": [
-     {"ja": "はい、{奥|おく}の{席|せき}でもかまいません。", "verdict": "correct", "register": "polite",
+     {"ja": "はい、{奥|おく}の{席|せき}でもかまいません。", "en": "Yes, a table further in is fine.", "verdict": "correct", "register": "polite",
       "feedback_ja": "「〜でもかまいません」は「それでだいじょうぶです」という{丁寧|ていねい}な{返事|へんじ}です。", "feedback_en": "〜でもかまいません politely says that's fine."},
-     {"ja": "えー、{窓|まど}の{近|ちか}くがよかったのに。", "verdict": "unnatural", "register": "casual",
+     {"ja": "えー、{窓|まど}の{近|ちか}くがよかったのに。", "en": "Aww, I wanted one near the window.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "「のに」の{使|つか}い{方|かた}は{正|ただ}しいですが、{不満|ふまん}をそのまま{言|い}うのは{失礼|しつれい}です。", "feedback_en": "Correct use of のに, but voicing your disappointment like this is rude."},
-     {"ja": "はい、{奥|おく}の{席|せき}ではいけません。", "verdict": "wrong",
+     {"ja": "はい、{奥|おく}の{席|せき}ではいけません。", "en": "Yes, a table further in is not allowed.", "verdict": "wrong",
       "feedback_ja": "「はい」と{言|い}ったのに「いけません」では、{意味|いみ}が{合|あ}いません。", "feedback_en": "はい followed by 'that's not allowed' contradicts itself."}
     ],
     "typed": ["はい、奥の席でもかまいません", "奥の席でもかまいません", "はい、大丈夫です", "だいじょうぶです", "奥の席でもいいです", "はい、おくのせきでもかまいません"]
@@ -148,11 +148,11 @@
     "line_ja": "では、お{名前|なまえ}をお{願|ねが}いします。",
     "line_en": "Then may I have your name, please?",
     "options": [
-     {"ja": "{山田|やまだ}と{申|もう}します。よろしくお{願|ねが}いします。", "verdict": "correct", "register": "polite",
+     {"ja": "{山田|やまだ}と{申|もう}します。よろしくお{願|ねが}いします。", "en": "My name is Yamada. Thank you.", "verdict": "correct", "register": "polite",
       "feedback_ja": "「〜と{申|もう}します」は{自分|じぶん}の{名前|なまえ}を{丁寧|ていねい}に{言|い}う{言|い}い{方|かた}です。", "feedback_en": "〜と申します is the polite way to give your own name."},
-     {"ja": "{山田|やまだ}だよ。", "verdict": "unnatural", "register": "casual",
+     {"ja": "{山田|やまだ}だよ。", "en": "It's Yamada, dude.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{名前|なまえ}は{伝|つた}わりますが、お{店|みせ}への{電話|でんわ}では{言葉|ことば}がくだけすぎです。", "feedback_en": "The name gets across, but this is far too casual on the phone to a restaurant."},
-     {"ja": "{山田|やまだ}だと{思|おも}います。", "verdict": "wrong",
+     {"ja": "{山田|やまだ}だと{思|おも}います。", "en": "I think it's Yamada.", "verdict": "wrong",
       "feedback_ja": "{自分|じぶん}の{名前|なまえ}は{知|し}っているので、「と{思|おも}います」は{使|つか}いません。", "feedback_en": "You know your own name, so と思います makes no sense."}
     ],
     "typed": ["山田と申します", "山田と申します。よろしくお願いします", "山田です", "やまだです", "やまだともうします"]

@@ -63,6 +63,7 @@ const SIZE_BODY_L := 26
 const SIZE_BODY := 24
 const SIZE_LABEL := 22
 const SIZE_CAPTION := 20
+const SIZE_EN_SUB := 17   # English subtitles under Japanese labels (beginner help)
 
 # --- spacing / shape (ART_BIBLE §2.7)
 const PAD_CARD := 24
@@ -346,8 +347,43 @@ const UI_RUBY := {
 	"英語": "えいご", "表示": "ひょうじ", "読": "よ", "方": "かた", "次": "つぎ", "見": "み", "話": "はな",
 	"受": "う", "始": "はじ", "続": "つづ", "町": "まち", "戻": "もど", "文": "ぶん", "作": "つく",
 	"書": "か", "出": "だ", "思": "おも", "声": "こえ", "聞": "き", "止": "と", "答": "こた", "合": "あ",
-	"減": "へ", "消": "け", "訳": "やく", "済": "す", "全": "ぜん", "部": "ぶ", "直": "なお",
+	"減": "へ", "消": "け", "訳": "やく", "済": "す", "全": "ぜん", "部": "ぶ", "直": "なお", "特大": "とくだい", "小": "しょう", "中": "ちゅう", "大": "だい", "文字": "もじ",
 }
+
+
+## English for fixed UI labels, shown under the Japanese while Progress.beginner() is on.
+const UI_EN := {
+	"次へ": "Next", "ホームへ": "Home", "もう一回": "Again", "選択肢を見る": "Show choices", "辞書へ": "Dictionary",
+	"読み方の練習": "Practise readings", "話す": "Talk / say it", "試験を受ける": "Take the exam",
+	"練習を始める": "Start practice", "続ける": "Continue", "確認する": "Check", "確認": "Check",
+	"町へ戻る": "Back to town", "毎日の確認テスト": "Daily check", "次の文へ": "Next sentence",
+	"模擬試験": "Practice exam", "昇級試験": "Stage exam", "文を作る": "Build sentences", "戻る": "Back",
+	"学習データをリセット": "Reset progress", "一覧へ": "Back to list", "モード選択": "Choose mode",
+	"ヒント": "Hint", "シナリオ一覧": "Scenario list", "やり直す": "Clear", "もう一度": "Try again",
+	"この順番も自然だと思う": "This order is natural too", "● 録音": "Record", "■ 止める": "Stop",
+	"▶ 自分の声": "My voice", "▶ 聞く": "Listen", "▶ テスト": "Test", "▶ ゆっくり": "Slowly",
+	"はじめる": "Start", "報告済み": "Reported", "書き出し済み": "Exported", "報告を書き出す": "Export reports",
+	"ライト": "Light", "ダーク": "Dark", "日本語のみ": "Japanese only", "日本語＋説明": "+ explanations",
+	"日本語＋訳": "+ translations", "バイリンガル": "Bilingual", "小": "Small", "中": "Medium", "大": "Large",
+	"特大": "Extra large", "自動": "Auto",
+}
+
+
+static func en_for(text: String) -> String:
+	var key := Furigana.plain(text)
+	if UI_EN.has(key):
+		return UI_EN[key]
+	var cut := key.find("（")
+	if cut > 0 and UI_EN.has(key.substr(0, cut)):
+		return UI_EN[key.substr(0, cut)]
+	return ""
+
+
+static func beginner() -> bool:
+	# Looked up through the tree: UITheme is also compiled in contexts without autoload names.
+	var tree := Engine.get_main_loop() as SceneTree
+	var progress := tree.root.get_node_or_null("Progress") if tree else null
+	return progress != null and progress.call("beginner")
 
 
 ## Add furigana markup to plain UI text using UI_RUBY. Text that already has markup is returned
@@ -380,6 +416,13 @@ static func button(text: String, primary: bool = true) -> Button:
 	b.focus_mode = Control.FOCUS_ALL
 	if not primary:
 		set_secondary(b)
+	var box := VBoxContainer.new()
+	box.name = "Box"
+	box.alignment = BoxContainer.ALIGNMENT_CENTER
+	box.add_theme_constant_override("separation", 0)
+	box.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	b.add_child(box)
+	box.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	var lbl := FuriganaLabel.new()
 	lbl.name = "Ruby"
 	lbl.font_size = SIZE_LABEL
@@ -389,36 +432,57 @@ static func button(text: String, primary: bool = true) -> Button:
 	lbl.color = ON_PRIMARY if primary else PRIMARY
 	lbl.ruby_color = lbl.color
 	lbl.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	b.add_child(lbl)
-	lbl.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	box.add_child(lbl)
+	var sub := Label.new()
+	sub.name = "En"
+	sub.add_theme_font_override("font", font(400))
+	sub.add_theme_font_size_override("font_size", SIZE_EN_SUB)
+	sub.add_theme_color_override("font_color", lbl.color)
+	sub.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	sub.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	box.add_child(sub)
 	set_button_text(b, text)
 	b.draw.connect(func() -> void:
 		var c := TEXT_DISABLED if b.disabled else (ON_PRIMARY if primary else PRIMARY)
 		if lbl.color != c:
 			lbl.color = c
-			lbl.ruby_color = c)
+			lbl.ruby_color = c
+			sub.add_theme_color_override("font_color", c))
 	return b
 
 
 static func set_button_text(b: Button, text: String) -> void:
-	var lbl := b.get_node_or_null("Ruby") as FuriganaLabel
+	var lbl := b.get_node_or_null("Box/Ruby") as FuriganaLabel
 	if lbl == null:
 		b.text = text
 		return
 	b.text = ""
 	lbl.text = ruby(text)
+	var sub := b.get_node("Box/En") as Label
+	var english := en_for(text) if beginner() else ""
+	sub.text = english
+	sub.visible = english != ""
 	# get_minimum_size() asks the label directly; the combined size is cached and is not
 	# refreshed for nodes outside the tree.
 	var min := lbl.get_minimum_size()
-	b.custom_minimum_size = Vector2(min.x + 48, maxf(BUTTON_HEIGHT, min.y + 4))
+	var w := min.x
+	var h := min.y
+	if english != "":
+		w = maxf(w, font(400).get_string_size(english, HORIZONTAL_ALIGNMENT_LEFT, -1, SIZE_EN_SUB).x)
+		h += SIZE_EN_SUB + 4
+	b.custom_minimum_size = Vector2(w + 48, maxf(BUTTON_HEIGHT, h + 6))
 
 
 ## A labelled on/off switch whose label carries furigana.
 static func toggle(text: String, pressed: bool, on_toggled: Callable, tooltip: String = "") -> HBoxContainer:
 	var row := hbox(12)
-	var lbl := ja(ruby(text), SIZE_LABEL)
-	lbl.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-	row.add_child(lbl)
+	var col := vbox(0)
+	col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	col.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	col.add_child(ja(ruby(text), SIZE_LABEL))
+	if tooltip != "" and beginner():
+		col.add_child(en(tooltip, SIZE_LABEL))
+	row.add_child(col)
 	var cb := CheckButton.new()
 	cb.button_pressed = pressed
 	cb.tooltip_text = tooltip
@@ -435,7 +499,7 @@ static func segmented(options: Array, selected: int, on_select: Callable) -> HFl
 	flow.add_theme_constant_override("h_separation", 8)
 	flow.add_theme_constant_override("v_separation", 8)
 	for i in options.size():
-		var b := TileButton.new(ruby(String(options[i])), SIZE_LABEL)
+		var b := TileButton.new(ruby(String(options[i])), SIZE_LABEL, en_for(String(options[i])) if beginner() else "")
 		if i == selected:
 			b.set_state(PRIMARY_TINT, PRIMARY)
 		b.pressed.connect(on_select.bind(i))

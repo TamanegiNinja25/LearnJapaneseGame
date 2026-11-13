@@ -6,51 +6,51 @@
   "turns": [
    {"speaker": "{司書|ししょ}", "line_ja": "こんにちは。{何|なに}かお{探|さが}しですか。", "line_en": "Hello. Are you looking for something?",
     "options": [
-     {"ja": "すみません、{卒業|そつぎょう}{論文|ろんぶん}の{資料|しりょう}を{探|さが}しているのですが、{手伝|てつだ}っていただけますか。", "verdict": "correct", "register": "polite",
+     {"ja": "すみません、{卒業|そつぎょう}{論文|ろんぶん}の{資料|しりょう}を{探|さが}しているのですが、{手伝|てつだ}っていただけますか。", "en": "Excuse me, I'm looking for materials for my graduation thesis. Could you help me?", "verdict": "correct", "register": "polite",
       "feedback_ja": "「〜のですが」で{事情|じじょう}を{伝|つた}え、「〜ていただけますか」で{丁寧|ていねい}にお{願|ねが}いしています。", "feedback_en": "のですが sets out your situation and ていただけますか makes a polite request."},
-     {"ja": "ねえ、{論文|ろんぶん}の{資料|しりょう}ってどこ？", "verdict": "unnatural", "register": "casual",
+     {"ja": "ねえ、{論文|ろんぶん}の{資料|しりょう}ってどこ？", "en": "Hey, where's the stuff for papers?", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{初|はじ}めて{会|あ}う{司書|ししょ}さんに{友達|ともだち}のような{話|はな}し{方|かた}は{失礼|しつれい}です。", "feedback_en": "Grammatical, but far too casual for a librarian you've just met."},
-     {"ja": "すみません、{論文|ろんぶん}の{資料|しりょう}を{探|さが}してもらいます。", "verdict": "wrong",
+     {"ja": "すみません、{論文|ろんぶん}の{資料|しりょう}を{探|さが}してもらいます。", "en": "Excuse me, I will have you look for materials for my thesis.", "verdict": "wrong",
       "feedback_ja": "「〜てもらいます」は{自分|じぶん}の{予定|よてい}を{言|い}う{形|かたち}で、お{願|ねが}いになっていません。", "feedback_en": "てもらいます states a plan; it is not a request."}
     ],
     "typed": ["卒業論文の資料を探しているのですが、手伝っていただけますか", "そつぎょうろんぶんのしりょうをさがしているのですが、てつだっていただけますか", "論文の資料を探しているんですが、手伝っていただけますか", "資料を探しているのですが"]},
    {"speaker": "{司書|ししょ}", "line_ja": "はい、もちろんです。どのようなテーマでしょうか。", "line_en": "Of course. What is your topic?",
     "options": [
-     {"ja": "{地域|ちいき}の{人口|じんこう}の{変化|へんか}について{調|しら}べています。", "verdict": "correct", "register": "polite",
+     {"ja": "{地域|ちいき}の{人口|じんこう}の{変化|へんか}について{調|しら}べています。", "en": "I'm researching changes in the local population.", "verdict": "correct", "register": "polite",
       "feedback_ja": "「〜について{調|しら}べています」で、テーマをはっきり{伝|つた}えています。", "feedback_en": "〜について調べています clearly states your research topic."},
-     {"ja": "{地域|ちいき}の{人口|じんこう}の{変化|へんか}に{対|たい}して{調|しら}べています。", "verdict": "wrong",
+     {"ja": "{地域|ちいき}の{人口|じんこう}の{変化|へんか}に{対|たい}して{調|しら}べています。", "en": "I'm researching against changes in the local population.", "verdict": "wrong",
       "feedback_ja": "{調|しら}べる{内容|ないよう}は「について」で{表|あらわ}します。「に{対|たい}して」は{相手|あいて}や{対比|たいひ}に{使|つか}います。", "feedback_en": "The topic of research takes について, not に対して."},
-     {"ja": "{人口|じんこう}のこと。{何|なん}でもいいから{持|も}ってきて。", "verdict": "unnatural", "register": "casual",
+     {"ja": "{人口|じんこう}のこと。{何|なん}でもいいから{持|も}ってきて。", "en": "Population stuff. Just bring me whatever.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{意味|いみ}は{通|つう}じますが、{命令|めいれい}のようで{失礼|しつれい}です。テーマも{具体的|ぐたいてき}ではありません。", "feedback_en": "Understandable, but it sounds like an order and is too vague."}
     ],
     "typed": ["地域の人口の変化について調べています", "ちいきのじんこうのへんかについてしらべています", "人口の変化について調べています", "じんこうのへんかについてしらべています"]},
    {"speaker": "{司書|ししょ}", "line_ja": "それでしたら、{統計|とうけい}の{資料|しりょう}が{二階|にかい}にございます。ただ、{古|ふる}い{資料|しりょう}は{書庫|しょこ}にあるので、{申請|しんせい}が{必要|ひつよう}です。", "line_en": "In that case, the statistics materials are on the second floor. Older materials are in the stacks, though, so you need to submit a request.",
     "options": [
-     {"ja": "{申請|しんせい}はどのようにすればよろしいでしょうか。", "verdict": "correct", "register": "polite",
+     {"ja": "{申請|しんせい}はどのようにすればよろしいでしょうか。", "en": "How should I go about submitting a request?", "verdict": "correct", "register": "polite",
       "feedback_ja": "「よろしいでしょうか」は{丁寧|ていねい}に{方法|ほうほう}を{聞|き}く{言|い}い{方|かた}です。", "feedback_en": "よろしいでしょうか politely asks how to proceed."},
-     {"ja": "{申請|しんせい}って、めんどくさいですね。", "verdict": "unnatural", "register": "casual",
+     {"ja": "{申請|しんせい}って、めんどくさいですね。", "en": "Requests are such a hassle, aren't they?", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{助|たす}けてくれる{人|ひと}に{不満|ふまん}を{言|い}うのは{失礼|しつれい}です。", "feedback_en": "Grammatical, but complaining to someone who is helping you is rude."},
-     {"ja": "{申請|しんせい}をしざるを{得|え}ないですか。", "verdict": "wrong",
+     {"ja": "{申請|しんせい}をしざるを{得|え}ないですか。", "en": "Do I have no choice but to doing a request?", "verdict": "wrong",
       "feedback_ja": "「する」は「せざるを{得|え}ない」になります。「しざる」という{形|かたち}はありません。", "feedback_en": "する becomes せざるを得ない; しざる does not exist."}
     ],
     "typed": ["申請はどのようにすればよろしいでしょうか", "しんせいはどのようにすればよろしいでしょうか", "申請はどうすればいいですか", "申請の仕方を教えていただけますか"]},
    {"speaker": "{司書|ししょ}", "line_ja": "こちらの{用紙|ようし}にご{記入|きにゅう}ください。{書庫|しょこ}の{資料|しりょう}は{館内|かんない}でのみご{利用|りよう}いただけます。{貸|か}し{出|だ}しはできませんので、ご{了承|りょうしょう}ください。", "line_en": "Please fill in this form. Materials from the stacks may only be used inside the library. They cannot be borrowed, we're afraid.",
     "options": [
-     {"ja": "かしこまりました。コピーを{取|と}ることはできますか。", "verdict": "correct", "register": "polite",
+     {"ja": "かしこまりました。コピーを{取|と}ることはできますか。", "en": "Certainly. Is it possible to make copies?", "verdict": "correct", "register": "polite",
       "feedback_ja": "{条件|じょうけん}を{受|う}け{入|い}れたうえで、できることを{丁寧|ていねい}に{確認|かくにん}しています。", "feedback_en": "You accept the rule and politely ask what you can do instead."},
-     {"ja": "かしこまりました。では、{家|いえ}に{持|も}って{帰|かえ}ってもいいですか。", "verdict": "wrong",
+     {"ja": "かしこまりました。では、{家|いえ}に{持|も}って{帰|かえ}ってもいいですか。", "en": "Certainly. Then may I take them home?", "verdict": "wrong",
       "feedback_ja": "{貸|か}し{出|だ}しはできないと{言|い}われたばかりです。{話|はなし}の{内容|ないよう}に{合|あ}いません。", "feedback_en": "You were just told the materials cannot be taken out."},
-     {"ja": "わかった。コピーはいい？", "verdict": "unnatural", "register": "casual",
+     {"ja": "わかった。コピーはいい？", "en": "Got it. Copies okay?", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{意味|いみ}はわかりますが、{図書館|としょかん}の{人|ひと}には{丁寧|ていねい}な{言葉|ことば}を{使|つか}いましょう。", "feedback_en": "Understandable, but too casual for library staff."}
     ],
     "typed": ["コピーを取ることはできますか", "コピーをとることはできますか", "コピーはできますか", "コピーしてもいいですか"]},
    {"speaker": "{司書|ししょ}", "line_ja": "はい。{一枚|いちまい}{十円|じゅうえん}で、{一冊|いっさつ}の{半分|はんぶん}までコピーできます。", "line_en": "Yes. It's ten yen a page, and you can copy up to half of a book.",
     "options": [
-     {"ja": "ご{丁寧|ていねい}にありがとうございました。おかげで{助|たす}かりました。", "verdict": "correct", "register": "polite",
+     {"ja": "ご{丁寧|ていねい}にありがとうございました。おかげで{助|たす}かりました。", "en": "Thank you so much for your kindness. You've been a great help.", "verdict": "correct", "register": "polite",
       "feedback_ja": "「おかげで{助|たす}かりました」で、{手伝|てつだ}ってもらったことへの{感謝|かんしゃ}を{伝|つた}えています。", "feedback_en": "おかげで助かりました thanks the librarian for her help."},
-     {"ja": "ありがとうございました。あなたのせいで{助|たす}かりました。", "verdict": "wrong",
+     {"ja": "ありがとうございました。あなたのせいで{助|たす}かりました。", "en": "Thank you. It's all your fault that I was helped.", "verdict": "wrong",
       "feedback_ja": "「せいで」は{悪|わる}い{結果|けっか}の{原因|げんいん}に{使|つか}います。{感謝|かんしゃ}するときは「おかげで」です。", "feedback_en": "せいで is for blame; for thanks use おかげで."},
-     {"ja": "どうも。じゃ。", "verdict": "unnatural", "register": "casual",
+     {"ja": "どうも。じゃ。", "en": "Thanks. Bye.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{短|みじか}すぎて、たくさん{助|たす}けてもらった{後|あと}のお{礼|れい}としては{冷|つめ}たく{聞|き}こえます。", "feedback_en": "Too curt after all that help; it sounds cold."}
     ],
     "typed": ["ご丁寧にありがとうございました", "ごていねいにありがとうございました", "ありがとうございました", "おかげで助かりました"]}
@@ -63,51 +63,51 @@
   "turns": [
    {"speaker": "{担当者|たんとうしゃ}", "line_ja": "お{電話|でんわ}ありがとうございます。ミドリ{印刷|いんさつ}でございます。", "line_en": "Thank you for calling. This is Midori Printing.",
     "options": [
-     {"ja": "お{世話|せわ}になっております。{先日|せんじつ}{注文|ちゅうもん}したパンフレットの{件|けん}で、ご{相談|そうだん}したいことがあるのですが。", "verdict": "correct", "register": "business",
+     {"ja": "お{世話|せわ}になっております。{先日|せんじつ}{注文|ちゅうもん}したパンフレットの{件|けん}で、ご{相談|そうだん}したいことがあるのですが。", "en": "Thank you for your continued support. I'd like to consult you about the brochures I ordered the other day.", "verdict": "correct", "register": "business",
       "feedback_ja": "ビジネスの{挨拶|あいさつ}の{後|あと}、{用件|ようけん}を{柔|やわ}らかく{切|き}り{出|だ}しています。", "feedback_en": "A business greeting, then a soft lead-in to the issue."},
-     {"ja": "もしもし、パンフレットのことで{文句|もんく}があるんだけど。", "verdict": "unnatural", "register": "casual",
+     {"ja": "もしもし、パンフレットのことで{文句|もんく}があるんだけど。", "en": "Hello, I've got a complaint about the brochures.", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、ビジネスの{電話|でんわ}では{乱暴|らんぼう}に{聞|き}こえます。", "feedback_en": "Grammatical, but it sounds rough for a business call."},
-     {"ja": "お{世話|せわ}になっております。パンフレットの{件|けん}で、ご{相談|そうだん}したいことがあるに{違|ちが}いありません。", "verdict": "wrong",
+     {"ja": "お{世話|せわ}になっております。パンフレットの{件|けん}で、ご{相談|そうだん}したいことがあるに{違|ちが}いありません。", "en": "Thank you for your continued support. There must surely be something I'd like to consult you about regarding the brochures.", "verdict": "wrong",
       "feedback_ja": "「に{違|ちが}いない」は{推量|すいりょう}です。{自分|じぶん}の{用件|ようけん}を{伝|つた}えるときには{使|つか}いません。", "feedback_en": "に違いない is a guess; you can't use it about your own reason for calling."}
     ],
     "typed": ["先日注文したパンフレットの件で、ご相談したいことがあるのですが", "せんじつちゅうもんしたパンフレットのけんで、ごそうだんしたいことがあるのですが", "パンフレットの件でご相談したいことがあるのですが", "パンフレットの件でお電話しました"]},
    {"speaker": "{担当者|たんとうしゃ}", "line_ja": "いつもありがとうございます。どのような{問題|もんだい}でしょうか。", "line_en": "Thank you for your business. What seems to be the problem?",
     "options": [
-     {"ja": "{届|とど}いたパンフレットの{色|いろ}が、お{願|ねが}いしたものと{違|ちが}っていたのです。", "verdict": "correct", "register": "business",
+     {"ja": "{届|とど}いたパンフレットの{色|いろ}が、お{願|ねが}いしたものと{違|ちが}っていたのです。", "en": "The color of the brochures that arrived was different from what I asked for.", "verdict": "correct", "register": "business",
       "feedback_ja": "{事実|じじつ}を{落|お}ち{着|つ}いて{説明|せつめい}しています。「〜のです」で{事情|じじょう}を{伝|つた}えています。", "feedback_en": "A calm statement of the facts; のです explains the situation."},
-     {"ja": "{届|とど}いたパンフレットの{色|いろ}が、お{願|ねが}いしたものと{違|ちが}わざるを{得|え}ません。", "verdict": "wrong",
+     {"ja": "{届|とど}いたパンフレットの{色|いろ}が、お{願|ねが}いしたものと{違|ちが}わざるを{得|え}ません。", "en": "The color of the brochures that arrived has no choice but to differ from what I asked for.", "verdict": "wrong",
       "feedback_ja": "「ざるを{得|え}ない」は「しかたなくする」という{意味|いみ}で、ここでは{意味|いみ}が{通|とお}りません。", "feedback_en": "ざるを得ない means 'have no choice but to'; it makes no sense here."},
-     {"ja": "{色|いろ}が{全然|ぜんぜん}{違|ちが}うじゃないですか。どうしてくれるんですか。", "verdict": "unnatural", "register": "polite",
+     {"ja": "{色|いろ}が{全然|ぜんぜん}{違|ちが}うじゃないですか。どうしてくれるんですか。", "en": "The color is completely different, isn't it? What are you going to do about it?", "verdict": "unnatural", "register": "polite",
       "feedback_ja": "です・ますですが、{相手|あいて}を{責|せ}める{言|い}い{方|かた}で、ビジネスでは{話|はなし}がこじれます。", "feedback_en": "Polite in form, but accusatory; it will sour the negotiation."}
     ],
     "typed": ["届いたパンフレットの色が、お願いしたものと違っていたのです", "とどいたパンフレットのいろが、おねがいしたものとちがっていたのです", "パンフレットの色が違っていました", "色が注文と違っていました"]},
    {"speaker": "{担当者|たんとうしゃ}", "line_ja": "{大変|たいへん}{申|もう}し{訳|わけ}ございません。{確認|かくにん}いたしましたところ、こちらの{手違|てちが}いでした。", "line_en": "We are terribly sorry. We have checked, and it was our mistake.",
     "options": [
-     {"ja": "そうでしたか。{来週|らいしゅう}のイベントで{使|つか}うので、このまま{配|くば}るわけにはいかないんです。", "verdict": "correct", "register": "business",
+     {"ja": "そうでしたか。{来週|らいしゅう}のイベントで{使|つか}うので、このまま{配|くば}るわけにはいかないんです。", "en": "I see. We're using them at an event next week, so I can't hand them out as they are.", "verdict": "correct", "register": "business",
       "feedback_ja": "「わけにはいかない」で、{事情|じじょう}があって{使|つか}えないことを{穏|おだ}やかに{伝|つた}えています。", "feedback_en": "わけにはいかない calmly explains why you can't use them as they are."},
-     {"ja": "そうでしたか。{来週|らいしゅう}のイベントで{使|つか}うので、このまま{配|くば}るとは{限|かぎ}らないんです。", "verdict": "wrong",
+     {"ja": "そうでしたか。{来週|らいしゅう}のイベントで{使|つか}うので、このまま{配|くば}るとは{限|かぎ}らないんです。", "en": "I see. We're using them at an event next week, so I won't necessarily hand them out as they are.", "verdict": "wrong",
       "feedback_ja": "「とは{限|かぎ}らない」は「いつもそうではない」という{意味|いみ}で、ここでは{意味|いみ}が{合|あ}いません。", "feedback_en": "とは限らない means 'not necessarily'; it doesn't fit here."},
-     {"ja": "ああ、やっぱりね。で、どうするの？", "verdict": "unnatural", "register": "casual",
+     {"ja": "ああ、やっぱりね。で、どうするの？", "en": "Ah, figured. So, what are you gonna do?", "verdict": "unnatural", "register": "casual",
       "feedback_ja": "{取引先|とりひきさき}との{電話|でんわ}で、くだけた{言葉|ことば}は{使|つか}いません。", "feedback_en": "Too casual for a call with a business partner."}
     ],
     "typed": ["来週のイベントで使うので、このまま配るわけにはいかないんです", "らいしゅうのイベントでつかうので、このままくばるわけにはいかないんです", "このまま配るわけにはいかないんです", "このまま使うわけにはいきません"]},
    {"speaker": "{担当者|たんとうしゃ}", "line_ja": "すぐに{刷|す}り{直|なお}しをいたします。ただ、{完成|かんせい}までに{五日|いつか}ほどかかってしまうのですが…。", "line_en": "We will reprint them right away. However, it will take about five days to finish...",
     "options": [
-     {"ja": "イベントが{金曜日|きんようび}なので、{木曜日|もくようび}までに{届|とど}けていただくことは{可能|かのう}でしょうか。", "verdict": "correct", "register": "business",
+     {"ja": "イベントが{金曜日|きんようび}なので、{木曜日|もくようび}までに{届|とど}けていただくことは{可能|かのう}でしょうか。", "en": "The event is on Friday, so would it be possible to have them delivered by Thursday?", "verdict": "correct", "register": "business",
       "feedback_ja": "{理由|りゆう}を{示|しめ}して、{希望|きぼう}の{期限|きげん}を{丁寧|ていねい}に{交渉|こうしょう}しています。", "feedback_en": "You give the reason and politely negotiate a deadline."},
-     {"ja": "イベントが{金曜日|きんようび}なので、{木曜日|もくようび}までに{届|とど}けてさしあげることは{可能|かのう}でしょうか。", "verdict": "wrong",
+     {"ja": "イベントが{金曜日|きんようび}なので、{木曜日|もくようび}までに{届|とど}けてさしあげることは{可能|かのう}でしょうか。", "en": "The event is on Friday, so would it be possible for me to deliver them to you by Thursday?", "verdict": "wrong",
       "feedback_ja": "「さしあげる」は{自分|じぶん}が{相手|あいて}にするときの{言葉|ことば}です。{相手|あいて}にしてもらうときは「いただく」です。", "feedback_en": "さしあげる is for what you do for others; here you need いただく."},
-     {"ja": "{五日|いつか}もかかるなら、もういいです。", "verdict": "unnatural", "register": "polite",
+     {"ja": "{五日|いつか}もかかるなら、もういいです。", "en": "If it takes five whole days, forget it.", "verdict": "unnatural", "register": "polite",
       "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{交渉|こうしょう}をやめてしまい、{問題|もんだい}が{解決|かいけつ}しません。", "feedback_en": "Grammatical, but you give up instead of negotiating a solution."}
     ],
     "typed": ["木曜日までに届けていただくことは可能でしょうか", "もくようびまでにとどけていただくことはかのうでしょうか", "木曜日までに届けていただけますか", "木曜日までにお願いできますか"]},
    {"speaker": "{担当者|たんとうしゃ}", "line_ja": "かしこまりました。{特急|とっきゅう}で{対応|たいおう}し、{木曜日|もくようび}の{午前中|ごぜんちゅう}にお{届|とど}けいたします。{費用|ひよう}はもちろん{弊社|へいしゃ}で{負担|ふたん}いたします。", "line_en": "Certainly. We will rush the job and deliver on Thursday morning. Of course, we will cover the cost.",
     "options": [
-     {"ja": "ご{対応|たいおう}いただき、ありがとうございます。それでは、よろしくお{願|ねが}いいたします。", "verdict": "correct", "register": "business",
+     {"ja": "ご{対応|たいおう}いただき、ありがとうございます。それでは、よろしくお{願|ねが}いいたします。", "en": "Thank you for handling this. I'll leave it in your hands.", "verdict": "correct", "register": "business",
       "feedback_ja": "{相手|あいて}の{対応|たいおう}にお{礼|れい}を{言|い}い、ビジネスらしく{話|はなし}をまとめています。", "feedback_en": "You thank them for their response and close the call professionally."},
-     {"ja": "ご{対応|たいおう}いただいたせいで、ありがとうございます。", "verdict": "wrong",
+     {"ja": "ご{対応|たいおう}いただいたせいで、ありがとうございます。", "en": "It's your fault you handled it, thank you.", "verdict": "wrong",
       "feedback_ja": "「せいで」は{悪|わる}い{結果|けっか}の{原因|げんいん}に{使|つか}います。お{礼|れい}の{文|ぶん}には{合|あ}いません。", "feedback_en": "せいで is for blame and can't go with thanks."},
-     {"ja": "まあ、{当然|とうぜん}ですよね。", "verdict": "unnatural", "register": "polite",
+     {"ja": "まあ、{当然|とうぜん}ですよね。", "en": "Well, that's only natural.", "verdict": "unnatural", "register": "polite",
       "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{謝|あやま}って{対応|たいおう}してくれた{相手|あいて}に{失礼|しつれい}で、{関係|かんけい}が{悪|わる}くなります。", "feedback_en": "Grammatical, but rude to someone who apologised and fixed it."}
     ],
     "typed": ["ご対応いただき、ありがとうございます", "ごたいおういただき、ありがとうございます", "ありがとうございます。よろしくお願いいたします", "よろしくお願いします"]}

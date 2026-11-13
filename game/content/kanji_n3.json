@@ -38,6 +38,8 @@
   "freq": 25,
   "level": "N3",
   "words": [
+   "w_ead1dd05ff",
+   "w_b76d98267f",
    "w_1398eff306",
    "w_1b3cfa1218",
    "w_669ffb6f17"
@@ -64,6 +66,8 @@
   "freq": 30,
   "level": "N3",
   "words": [
+   "w_d7ec3c7e5b",
+   "w_249f606085",
    "w_9ee625b418",
    "w_c904142f53"
   ]
@@ -118,6 +122,8 @@
   "words": [
    "w_a6ffbe7d7c",
    "w_4015831bca",
+   "w_d0460a48c7",
+   "w_70ea60a865",
    "w_f6c22e36d5"
   ]
  },
@@ -160,6 +166,7 @@
   "level": "N3",
   "words": [
    "w_50cf484ec5",
+   "w_3be374eaa4",
    "w_2cb784ea16"
   ]
  },
@@ -182,6 +189,7 @@
   "freq": 45,
   "level": "N3",
   "words": [
+   "w_54d43ef56b",
    "w_31785d17cb",
    "w_d3e8c65718"
   ]
@@ -207,6 +215,8 @@
   "freq": 48,
   "level": "N3",
   "words": [
+   "w_daacb50344",
+   "w_195541033d",
    "w_68421148d7"
   ]
  },
@@ -281,6 +291,7 @@
   "freq": 68,
   "level": "N3",
   "words": [
+   "w_77b930ec6e",
    "w_e0279c67e4",
    "w_92ae0d459c",
    "w_bfaaeb94d6",
@@ -361,6 +372,7 @@
   "words": [
    "w_0d0b78410b",
    "w_e71ec8bfbb",
+   "w_2b8796a849",
    "w_cb5ead1c42"
   ]
  },
@@ -386,6 +398,8 @@
   "freq": 77,
   "level": "N3",
   "words": [
+   "w_d229566d78",
+   "w_4ceb3f8e23",
    "w_ae6f758c1f",
    "w_bd8884b81a"
   ]
@@ -411,6 +425,7 @@
   "freq": 78,
   "level": "N3",
   "words": [
+   "w_b643f57d9a",
    "w_e6301fde92"
   ]
  },
@@ -463,6 +478,8 @@
   "freq": 82,
   "level": "N3",
   "words": [
+   "w_fc1de58760",
+   "w_b7580173cd",
    "w_9b7423abd2"
   ]
  },
@@ -742,6 +759,8 @@
   "freq": 109,
   "level": "N3",
   "words": [
+   "w_e0864683b9",
+   "w_55678756a8",
    "w_48636622f1",
    "w_ddd31c475e"
   ]
@@ -762,6 +781,7 @@
   "freq": 111,
   "level": "N3",
   "words": [
+   "w_11a4b1d789",
    "w_dd239dcbc6"
   ]
  },
@@ -786,6 +806,7 @@
   "freq": 116,
   "level": "N3",
   "words": [
+   "w_b3cd6128fc",
    "w_c958e354ba",
    "w_3820ae6855",
    "w_630b1e0929"
@@ -808,6 +829,7 @@
   "freq": 117,
   "level": "N3",
   "words": [
+   "w_a85bbdecab",
    "w_203fefb54a",
    "w_03dabaaf4c"
   ]
@@ -923,6 +945,8 @@
   "words": [
    "w_82e3382cc3",
    "w_1ccba27132",
+   "w_b457eb66d8",
+   "w_1cd54cd00a",
    "w_79a417b67a",
    "w_498a85b21d"
   ]
@@ -947,7 +971,9 @@
   "strokes": 5,
   "freq": 128,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_efe2b9a620"
+  ]
  },
  {
   "kanji": "総",
@@ -1016,6 +1042,8 @@
   "freq": 136,
   "level": "N3",
   "words": [
+   "w_5cd3f934c3",
+   "w_be64cd5769",
    "w_573271a970"
   ]
  },
@@ -1102,6 +1130,7 @@
   "freq": 146,
   "level": "N3",
   "words": [
+   "w_e885507689",
    "w_8343c68e1f"
   ]
  },
@@ -1124,6 +1153,7 @@
   "freq": 147,
   "level": "N3",
   "words": [
+   "w_2103cb7d0d",
    "w_199d330685",
    "w_dcd2f3d242",
    "w_69d97d4870",
@@ -1156,7 +1186,11 @@
   "strokes": 13,
   "freq": 148,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_83bb5eefda",
+   "w_005c389663",
+   "w_aa178fba82"
+  ]
  },
  {
   "kanji": "記",
@@ -1175,6 +1209,7 @@
   "freq": 149,
   "level": "N3",
   "words": [
+   "w_b759c936f1",
    "w_1a361630ed"
   ]
  },
@@ -1200,7 +1235,8 @@
   "freq": 152,
   "level": "N3",
   "words": [
-   "w_ba1f8ef19a"
+   "w_ba1f8ef19a",
+   "w_fc1de58760"
   ]
  },
  {
@@ -1224,7 +1260,8 @@
   "level": "N3",
   "words": [
    "w_551c33db49",
-   "w_9649c88830"
+   "w_9649c88830",
+   "w_daacb50344"
   ]
  },
  {
@@ -1270,6 +1307,8 @@
   "freq": 159,
   "level": "N3",
   "words": [
+   "w_14bb60ac05",
+   "w_b5fc047557",
    "w_bddee71c5c",
    "w_cd941e2f50",
    "w_cd42d79d89"
@@ -1316,6 +1355,7 @@
   "words": [
    "w_b08fadadf4",
    "w_86441041c2",
+   "w_46cca95bd8",
    "w_7e4f68411d",
    "w_9f60152ddd",
    "w_f3c0e88c1a",
@@ -1347,6 +1387,7 @@
   "level": "N3",
   "words": [
    "w_63c9febc97",
+   "w_83bb5eefda",
    "w_cb8d3ec781"
   ]
  },
@@ -1368,6 +1409,7 @@
   "freq": 167,
   "level": "N3",
   "words": [
+   "w_f7baf72668",
    "w_dfbbf01a68",
    "w_0ae4499bc7",
    "w_d8b07655b3",
@@ -1402,6 +1444,7 @@
   "freq": 168,
   "level": "N3",
   "words": [
+   "w_3d3908ef23",
    "w_7da96a1681",
    "w_a43a84882a"
   ]
@@ -1445,7 +1488,8 @@
   "freq": 171,
   "level": "N3",
   "words": [
-   "w_065a431d4b"
+   "w_065a431d4b",
+   "w_70ea60a865"
   ]
  },
  {
@@ -1620,6 +1664,8 @@
   "freq": 180,
   "level": "N3",
   "words": [
+   "w_59891d8183",
+   "w_f7baf72668",
    "w_68421148d7",
    "w_7123cdac5c",
    "w_dc4158b1b8"
@@ -1654,6 +1700,7 @@
   "level": "N3",
   "words": [
    "w_289cfa248b",
+   "w_0d84068cf6",
    "w_f42e557058"
   ]
  },
@@ -1692,6 +1739,7 @@
   "freq": 184,
   "level": "N3",
   "words": [
+   "w_577a1b4b55",
    "w_19ad83596c"
   ]
  },
@@ -1716,7 +1764,10 @@
   "strokes": 12,
   "freq": 185,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_f70d3340ea",
+   "w_d19ec83479"
+  ]
  },
  {
   "kanji": "面",
@@ -1741,6 +1792,7 @@
   "words": [
    "w_36b70df57b",
    "w_5b6caa4c36",
+   "w_ccb8582828",
    "w_8bcbc5529b"
   ]
  },
@@ -1989,6 +2041,7 @@
   "level": "N3",
   "words": [
    "w_5e2fe8d58a",
+   "w_bea047b8e7",
    "w_98b893f9d7",
    "w_4d39d8941c"
   ]
@@ -2196,7 +2249,9 @@
   "strokes": 8,
   "freq": 230,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_117acee5e2"
+  ]
  },
  {
   "kanji": "増",
@@ -2219,6 +2274,7 @@
   "freq": 231,
   "level": "N3",
   "words": [
+   "w_ac9e82519c",
    "w_8e27c227d3",
    "w_baf16b270f"
   ]
@@ -2262,6 +2318,7 @@
   "freq": 233,
   "level": "N3",
   "words": [
+   "w_bb03cdf428",
    "w_255103d277",
    "w_5d0b4ad636",
    "w_84b61c22a1"
@@ -2308,6 +2365,7 @@
   "freq": 236,
   "level": "N3",
   "words": [
+   "w_b5e3495ffb",
    "w_a4e75aab0d"
   ]
  },
@@ -2474,6 +2532,8 @@
   "words": [
    "w_a709d5b9d9",
    "w_6d350d1541",
+   "w_2235430a8a",
+   "w_aaab86ffd9",
    "w_f483d156aa",
    "w_55f841edba",
    "w_43f6a058b3"
@@ -2539,6 +2599,7 @@
   "freq": 250,
   "level": "N3",
   "words": [
+   "w_195541033d",
    "w_ceedbb4371",
    "w_85c4dc9f9c"
   ]
@@ -2558,7 +2619,11 @@
   "strokes": 6,
   "freq": 251,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_46cca95bd8",
+   "w_90f3e03044",
+   "w_1fe3e8b9d9"
+  ]
  },
  {
   "kanji": "確",
@@ -2657,6 +2722,7 @@
   "freq": 261,
   "level": "N3",
   "words": [
+   "w_caec2ab229",
    "w_7238fcf07b",
    "w_90951a9f8f",
    "w_9446c125f9"
@@ -2679,6 +2745,7 @@
   "freq": 264,
   "level": "N3",
   "words": [
+   "w_c564d059e8",
    "w_2cb784ea16",
    "w_fdef6c813b"
   ]
@@ -2811,6 +2878,7 @@
   "freq": 272,
   "level": "N3",
   "words": [
+   "w_c796660047",
    "w_31785d17cb"
   ]
  },
@@ -2858,6 +2926,8 @@
   "words": [
    "w_b8a96bac39",
    "w_40d8a5cbd2",
+   "w_5ac5f1aaf1",
+   "w_ec0782a076",
    "w_d014c7316c",
    "w_2e79e45649"
   ]
@@ -2967,6 +3037,7 @@
   "freq": 281,
   "level": "N3",
   "words": [
+   "w_fffda39aa8",
    "w_dee76869ae",
    "w_0ee4f5dfbc"
   ]
@@ -3015,7 +3086,9 @@
   "strokes": 12,
   "freq": 285,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_45acb0a551"
+  ]
  },
  {
   "kanji": "局",
@@ -3036,6 +3109,7 @@
   "level": "N3",
   "words": [
    "w_85d9027eda",
+   "w_9e6c0445ec",
    "w_9f60152ddd"
   ]
  },
@@ -3061,7 +3135,9 @@
   "strokes": 8,
   "freq": 288,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_7fbbb1a1e4"
+  ]
  },
  {
   "kanji": "税",
@@ -3077,6 +3153,7 @@
   "freq": 289,
   "level": "N3",
   "words": [
+   "w_cf2ece745f",
    "w_725139ffb3"
   ]
  },
@@ -3096,6 +3173,7 @@
   "freq": 290,
   "level": "N3",
   "words": [
+   "w_577a1b4b55",
    "w_cf1ead8b1d"
   ]
  },
@@ -3158,7 +3236,8 @@
   "freq": 302,
   "level": "N3",
   "words": [
-   "w_2b46f46420"
+   "w_2b46f46420",
+   "w_d7a79255c6"
   ]
  },
  {
@@ -3200,7 +3279,9 @@
   "strokes": 18,
   "freq": 305,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_b211cc6a64"
+  ]
  },
  {
   "kanji": "与",
@@ -3291,6 +3372,7 @@
   "freq": 315,
   "level": "N3",
   "words": [
+   "w_610d77b226",
    "w_8fbd39d9fd"
   ]
  },
@@ -3340,6 +3422,7 @@
   "freq": 318,
   "level": "N3",
   "words": [
+   "w_083dd7a5e5",
    "w_c6ee87b8ab",
    "w_c51ac7193f",
    "w_8024a92b90"
@@ -3361,7 +3444,9 @@
   "strokes": 7,
   "freq": 320,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_8a2c5307dd"
+  ]
  },
  {
   "kanji": "費",
@@ -3382,6 +3467,7 @@
   "freq": 321,
   "level": "N3",
   "words": [
+   "w_cf2ece745f",
    "w_96b0684224",
    "w_199dce1c74"
   ]
@@ -3418,6 +3504,8 @@
   "freq": 322,
   "level": "N3",
   "words": [
+   "w_3a54519729",
+   "w_1f4edbb7fe",
    "w_573271a970",
    "w_9911e273de",
    "w_3be67c9e81"
@@ -3511,6 +3599,7 @@
   "freq": 331,
   "level": "N3",
   "words": [
+   "w_3c3eecb28d",
    "w_800d684528",
    "w_f6ce6d2956"
   ]
@@ -3557,7 +3646,8 @@
   "freq": 334,
   "level": "N3",
   "words": [
-   "w_925d26eda5"
+   "w_925d26eda5",
+   "w_f70d3340ea"
   ]
  },
  {
@@ -3626,6 +3716,7 @@
   "freq": 338,
   "level": "N3",
   "words": [
+   "w_218965aee7",
    "w_20d84df88c",
    "w_d50474b76a",
    "w_7448e78461",
@@ -3676,6 +3767,9 @@
   "level": "N3",
   "words": [
    "w_dd86dd00ed",
+   "w_52a872273a",
+   "w_8df6302543",
+   "w_9864f4efff",
    "w_752cdb92ff"
   ]
  },
@@ -3701,6 +3795,8 @@
    "w_777a53df1c",
    "w_6c7a9f7b1e",
    "w_f9ddad7f4f",
+   "w_3c3eecb28d",
+   "w_cf2ece745f",
    "w_632f3ef3d9"
   ]
  },
@@ -3769,7 +3865,8 @@
    "w_55094c0d39",
    "w_ff06158708",
    "w_339f7bd874",
-   "w_f09e1af903"
+   "w_f09e1af903",
+   "w_896d138a3d"
   ]
  },
  {
@@ -3810,6 +3907,7 @@
   "level": "N3",
   "words": [
    "w_d63239cd69",
+   "w_f5a382463d",
    "w_ead11e7606"
   ]
  },
@@ -3887,7 +3985,9 @@
   "strokes": 6,
   "freq": 357,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_261d75ae40"
+  ]
  },
  {
   "kanji": "害",
@@ -3966,6 +4066,7 @@
   "freq": 361,
   "level": "N3",
   "words": [
+   "w_9dd44221eb",
    "w_dc4158b1b8"
   ]
  },
@@ -4028,7 +4129,10 @@
   "strokes": 19,
   "freq": 366,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_9a03473a68",
+   "w_117acee5e2"
+  ]
  },
  {
   "kanji": "育",
@@ -4051,6 +4155,8 @@
   "freq": 369,
   "level": "N3",
   "words": [
+   "w_b15838eb9c",
+   "w_970993948d",
    "w_4751e66c9e",
    "w_5fe152d55e"
   ]
@@ -4072,7 +4178,12 @@
   "strokes": 10,
   "freq": 370,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_daacb50344",
+   "w_dd77272c1f",
+   "w_7f8f0d9051",
+   "w_d25c9bb47e"
+  ]
  },
  {
   "kanji": "輸",
@@ -4160,6 +4271,7 @@
   "level": "N3",
   "words": [
    "w_896d6dbc3c",
+   "w_66aa6a35ef",
    "w_c1db0714e7",
    "w_cdd0c10d52"
   ]
@@ -4182,7 +4294,9 @@
   "strokes": 13,
   "freq": 381,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_bb03cdf428"
+  ]
  },
  {
   "kanji": "線",
@@ -4199,7 +4313,9 @@
   "strokes": 15,
   "freq": 382,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_b91952b437"
+  ]
  },
  {
   "kanji": "率",
@@ -4433,6 +4549,7 @@
   "words": [
    "w_0d0b78410b",
    "w_d5f2fe180c",
+   "w_1c4bb69dcf",
    "w_07a2091881",
    "w_ec15a58d94",
    "w_a94cca583c"
@@ -4458,6 +4575,8 @@
   "freq": 403,
   "level": "N3",
   "words": [
+   "w_da77258a18",
+   "w_2c744eb988",
    "w_06f51aed6b",
    "w_8d6bbf0bd9",
    "w_bed7baa0c4",
@@ -4501,7 +4620,9 @@
   "strokes": 18,
   "freq": 407,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_377c79db5a"
+  ]
  },
  {
   "kanji": "環",
@@ -4562,6 +4683,7 @@
   "freq": 413,
   "level": "N3",
   "words": [
+   "w_f1def8593d",
    "w_0b15e1bd61"
   ]
  },
@@ -4583,7 +4705,9 @@
   "freq": 414,
   "level": "N3",
   "words": [
-   "w_36c1b477cc"
+   "w_36c1b477cc",
+   "w_18a3aca0dd",
+   "w_ff4c1ac4d8"
   ]
  },
  {
@@ -4610,7 +4734,11 @@
   "freq": 416,
   "level": "N3",
   "words": [
+   "w_07b07383cc",
    "w_cc7443b3f7",
+   "w_f98dc5cb9d",
+   "w_bdeb098208",
+   "w_26e6eb98fb",
    "w_16de103b06"
   ]
  },
@@ -4634,7 +4762,10 @@
   "strokes": 7,
   "freq": 418,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_adad6d2673",
+   "w_dcdc1ffd6e"
+  ]
  },
  {
   "kanji": "景",
@@ -4745,6 +4876,7 @@
   "level": "N3",
   "words": [
    "w_98a7c0c807",
+   "w_1dec5d01b7",
    "w_48723175e7"
   ]
  },
@@ -4899,7 +5031,8 @@
   "freq": 438,
   "level": "N3",
   "words": [
-   "w_dbdb0ea241"
+   "w_dbdb0ea241",
+   "w_f4c1ee61e6"
   ]
  },
  {
@@ -4921,7 +5054,9 @@
   "strokes": 9,
   "freq": 443,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_4b4cc61cf5"
+  ]
  },
  {
   "kanji": "渡",
@@ -4967,6 +5102,7 @@
   "level": "N3",
   "words": [
    "w_408ae1470f",
+   "w_7ceb66ff5c",
    "w_021ffc1d29",
    "w_8c7ca71e30",
    "w_bf1dc20fae",
@@ -5071,6 +5207,7 @@
   "freq": 455,
   "level": "N3",
   "words": [
+   "w_d3810f62f1",
    "w_4557afbb43"
   ]
  },
@@ -5096,6 +5233,7 @@
   "level": "N3",
   "words": [
    "w_ad5f1667e1",
+   "w_ec5cc0a6fb",
    "w_c0cf708e9f"
   ]
  },
@@ -5123,6 +5261,7 @@
   "level": "N3",
   "words": [
    "w_42aec0ed3e",
+   "w_896d138a3d",
    "w_e2cbb1dde6"
   ]
  },
@@ -5244,7 +5383,8 @@
   "level": "N3",
   "words": [
    "w_d63239cd69",
-   "w_fd8b59da80"
+   "w_fd8b59da80",
+   "w_c564d059e8"
   ]
  },
  {
@@ -5373,6 +5513,7 @@
   "freq": 470,
   "level": "N3",
   "words": [
+   "w_930429adb0",
    "w_43e056b524"
   ]
  },
@@ -5416,6 +5557,8 @@
   "freq": 476,
   "level": "N3",
   "words": [
+   "w_1e1f50de06",
+   "w_bc71c64cad",
    "w_cb8d3ec781"
   ]
  },
@@ -5435,6 +5578,9 @@
   "freq": 477,
   "level": "N3",
   "words": [
+   "w_9a03473a68",
+   "w_117acee5e2",
+   "w_9cda20c72c",
    "w_86a2239160"
   ]
  },
@@ -5496,7 +5642,8 @@
   "freq": 480,
   "level": "N3",
   "words": [
-   "w_4baa9d6387"
+   "w_4baa9d6387",
+   "w_218965aee7"
   ]
  },
  {
@@ -5600,6 +5747,7 @@
   "freq": 492,
   "level": "N3",
   "words": [
+   "w_245ff53660",
    "w_51a5a916b2",
    "w_42487d5ac0",
    "w_70b710d958",
@@ -5798,6 +5946,7 @@
   "freq": 506,
   "level": "N3",
   "words": [
+   "w_60fba365bb",
    "w_e496026e23"
   ]
  },
@@ -6004,7 +6153,9 @@
   "strokes": 8,
   "freq": 521,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_1c4bb69dcf"
+  ]
  },
  {
   "kanji": "兵",
@@ -6045,6 +6196,7 @@
   "freq": 523,
   "level": "N3",
   "words": [
+   "w_ccb8582828",
    "w_f483d156aa"
   ]
  },
@@ -6065,7 +6217,9 @@
   "strokes": 15,
   "freq": 525,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_b263883c10"
+  ]
  },
  {
   "kanji": "路",
@@ -6086,7 +6240,10 @@
   "strokes": 13,
   "freq": 529,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_14df71af20",
+   "w_74922157dc"
+  ]
  },
  {
   "kanji": "科",
@@ -6103,7 +6260,8 @@
   "freq": 531,
   "level": "N3",
   "words": [
-   "w_35844e0f90"
+   "w_35844e0f90",
+   "w_81bbd968ca"
   ]
  },
  {
@@ -6125,7 +6283,8 @@
   "freq": 535,
   "level": "N3",
   "words": [
-   "w_817716492f"
+   "w_817716492f",
+   "w_b42b9cfa66"
   ]
  },
  {
@@ -6391,6 +6550,7 @@
   "level": "N3",
   "words": [
    "w_d233b069fa",
+   "w_bc71c64cad",
    "w_40b7e1b0a3"
   ]
  },
@@ -6453,7 +6613,9 @@
   "strokes": 10,
   "freq": 563,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_915c224d7a"
+  ]
  },
  {
   "kanji": "材",
@@ -6555,7 +6717,9 @@
   "strokes": 11,
   "freq": 572,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_c5c3693196"
+  ]
  },
  {
   "kanji": "戸",
@@ -6596,7 +6760,8 @@
   "freq": 576,
   "level": "N3",
   "words": [
-   "w_9dc981c8f9"
+   "w_9dc981c8f9",
+   "w_74922157dc"
   ]
  },
  {
@@ -6768,7 +6933,8 @@
   "freq": 588,
   "level": "N3",
   "words": [
-   "w_4497f5b6b4"
+   "w_4497f5b6b4",
+   "w_dd77272c1f"
   ]
  },
  {
@@ -6791,6 +6957,7 @@
   "freq": 590,
   "level": "N3",
   "words": [
+   "w_2b4825abd4",
    "w_4d878ad1d4"
   ]
  },
@@ -6870,7 +7037,8 @@
   "freq": 594,
   "level": "N3",
   "words": [
-   "w_3f032e3475"
+   "w_3f032e3475",
+   "w_b457eb66d8"
   ]
  },
  {
@@ -7048,7 +7216,10 @@
   "strokes": 10,
   "freq": 604,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_6d97cb526d",
+   "w_802593e03e"
+  ]
  },
  {
   "kanji": "危",
@@ -7224,6 +7395,7 @@
   "freq": 620,
   "level": "N3",
   "words": [
+   "w_d09519ff92",
    "w_d45e1d77f0",
    "w_3c38d7f227"
   ]
@@ -7252,6 +7424,7 @@
   "level": "N3",
   "words": [
    "w_8a4dea05d8",
+   "w_835a64797c",
    "w_15c81b4191"
   ]
  },
@@ -7310,7 +7483,8 @@
   "level": "N3",
   "words": [
    "w_6a0536e52e",
-   "w_5c50f0ea11"
+   "w_5c50f0ea11",
+   "w_db0a0dcfcc"
   ]
  },
  {
@@ -7334,6 +7508,7 @@
   "words": [
    "w_96d5f3f055",
    "w_172d17adef",
+   "w_ece8cd9501",
    "w_ed3ebde363"
   ]
  },
@@ -7494,7 +7669,9 @@
   "strokes": 13,
   "freq": 640,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_41d22650e6"
+  ]
  },
  {
   "kanji": "幅",
@@ -7629,7 +7806,9 @@
   "strokes": 17,
   "freq": 653,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_d1d7f38f9e"
+  ]
  },
  {
   "kanji": "舞",
@@ -7650,7 +7829,9 @@
   "strokes": 15,
   "freq": 655,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_3e94519912"
+  ]
  },
  {
   "kanji": "装",
@@ -7714,7 +7895,9 @@
   "strokes": 3,
   "freq": 661,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_e6f9fdb029"
+  ]
  },
  {
   "kanji": "劇",
@@ -7790,8 +7973,10 @@
   "words": [
    "w_47b2ee0364",
    "w_d2ff8b5edd",
+   "w_fdfdffde1e",
    "w_d1f28c10e5",
-   "w_fe815800a4"
+   "w_fe815800a4",
+   "w_52004a2b97"
   ]
  },
  {
@@ -7875,7 +8060,9 @@
   "strokes": 11,
   "freq": 673,
   "level": "N3",
-  "words": []
+  "words": [
+   "w_8b0dabb53a"
+  ]
  },
  {
   "kanji": "込",
@@ -7918,6 +8105,7 @@
   "freq": 678,
   "level": "N3",
   "words": [
+   "w_7f36754093",
    "w_d831e738c6"
   ]
  },
@@ -8113,6 +8301,7 @@
   "freq": 687,
   "level": "N3",
   "words": [
+   "w_ca1a10c3f8",
    "w_375345368f"
   ]
  },
@@ -8133,6 +8322,7 @@
   "freq": 688,
   "level": "N3",
   "words": [
+   "w_6eadbd2394",
    "w_d68a04a151"
   ]
  },

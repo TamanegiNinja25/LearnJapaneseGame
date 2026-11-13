@@ -15,15 +15,20 @@ hand-curated.
 | ホーム Dashboard | Stage, six skill bars against the gate thresholds, streak, counters, today's quests, the recommended next activity |
 | 町 Town | A walkable low-poly 3D town (KayKit assets). Talk to people at 8 locations that unlock by stage |
 | かな Kana | Hiragana and katakana rounds, including yōon, with audio |
-| 辞書 Dictionary | 1,539 words across N5–Mastery, search by kana, kanji, romaji or English. 学習する adds a word to reviews within a daily budget |
+| 辞書 Dictionary | 1,951 words across N5–Mastery, search by kana, kanji, romaji or English. 学習する adds a word to reviews within a daily budget |
 | 復習 Review | Leitner spaced repetition: recognition, typed recall, kanji reading and usage questions; missed words return in the same session |
 | 漢字 Kanji | The stage's kanji (103 at N5) with readings, meanings, stroke counts and the words that use them |
-| 文法 Grammar | 127 grammar lessons, each with an explanation and a 6-question quiz |
+| 文法 Grammar | 145 grammar lessons, each with an explanation and a 6-question quiz |
 | 文を作る Sentence builder | Word tiles with distractors in three tiers, particle-specific feedback, hints |
-| 会話 Conversation | 17 scenarios with 正解 / 惜しい / 不正解 answers, spoken NPC lines, and an optional typed-answer mode |
+| 会話 Conversation | 27 scenarios with 正解 / 惜しい / 不正解 answers, spoken NPC lines, and an optional typed-answer mode |
 | 聴解 Listening | Word and sentence listening with the system Japanese voice, plus shadowing with your microphone |
 | 試験 Assessment | The stage gate exam, a daily 10-question check, and practice sittings |
 | 設定 Settings | English assistance, light/dark theme, an accessibility font, voice and speed, data, credits |
+
+Until you pass the N4 exam, beginner help shows English under every label, button, word tile and
+conversation answer, whatever the assistance mode (設定 › "N4まで英語を全部表示する" turns it off).
+The layout adapts to the screen, and 設定 › 文字の大きさ sets the text size (automatic is larger on
+touch screens). Touch drags scroll every list, including ones full of buttons.
 
 How progress works is specified in [docs/GAME_DESIGN.md](docs/GAME_DESIGN.md).
 
@@ -66,7 +71,9 @@ godot --headless --path game --export-debug "Android" ../build/android/NihongoNo
 ```
 
 It needs Godot's Android export templates, the Android SDK build tools and a JDK configured in
-Godot's editor settings (Editor › Editor Settings › Export › Android). To install it on a phone,
+Godot's editor settings (Editor › Editor Settings › Export › Android). Local and CI builds are signed
+with the project's debug key in `tools/android/debug.keystore`, so new APKs install over old ones
+and keep your progress. To install it on a phone,
 copy the APK over and allow "Install unknown apps" for your file manager, or run
 `adb install NihongoNoSekai.apk`. Requires Android 7.0 or newer (arm64 or x86_64).
 

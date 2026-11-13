@@ -93,12 +93,12 @@ func _load_prompt() -> void:
 		v.add_child(UITheme.ja("「%s」" % _prompt["prompt_en"], UITheme.SIZE_H2))
 		if _prompt.has("ja_hint"):
 			v.add_child(UITheme.ja(_prompt["ja_hint"], UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
-	if Progress.show_explanations():
+	if Progress.show_explanations() and not compact():
 		v.add_child(UITheme.en("Tap the tiles in order. Some tiles do not belong."))
 
 	v.add_child(UITheme.ja("{答|こた}え", UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
 	var answer_panel := UITheme.card(UITheme.SURFACE_ALT, UITheme.BORDER)
-	answer_panel.custom_minimum_size.y = 96
+	answer_panel.custom_minimum_size.y = 72 if compact() else 96
 	v.add_child(answer_panel)
 	_answer_flow = _flow()
 	answer_panel.add_child(_answer_flow)
@@ -142,7 +142,7 @@ func _render_tiles() -> void:
 	ScreenBase.clear(_answer_flow)
 	ScreenBase.clear(_tray_flow)
 	for i in _answer.size():
-		var b := TileButton.new(_answer[i], UITheme.SIZE_BODY_L)
+		var b := TileButton.new(_answer[i], UITheme.SIZE_BODY_L, _gloss(_answer[i]))
 		b.set_state(UITheme.PRIMARY_TINT, UITheme.PRIMARY)
 		b.disabled = _done
 		b.pressed.connect(func() -> void:
@@ -152,7 +152,7 @@ func _render_tiles() -> void:
 		_answer_flow.add_child(b)
 	var tray_buttons: Array = []
 	for i in _tray.size():
-		var b := TileButton.new(_tray[i], UITheme.SIZE_BODY_L)
+		var b := TileButton.new(_tray[i], UITheme.SIZE_BODY_L, _gloss(_tray[i]))
 		b.disabled = _done or (_hints >= 1 and _tray[i] in _prompt["distractors"])
 		b.pressed.connect(func() -> void:
 			_answer.append(_tray[i])
@@ -164,6 +164,48 @@ func _render_tiles() -> void:
 	_options.clear()
 	for b in tray_buttons:
 		_options.append(b)
+
+
+## Beginner help: a short English gloss under each tile (particles get their role).
+const PARTICLE_EN := {"は": "topic", "が": "subject", "を": "object", "に": "to / at (time)", "で": "at / by means of",
+	"へ": "toward", "と": "with / and", "も": "also", "の": "'s / of", "や": "and (etc.)", "から": "from / because",
+	"まで": "until / to", "か": "question", "ね": "right?", "よ": "you know", "より": "than"}
+
+
+func _gloss(tile: String) -> String:
+	if not Progress.beginner():
+		return ""
+	var plain := Furigana.plain(tile)
+	if PARTICLE_EN.has(plain):
+		return PARTICLE_EN[plain]
+	var entry := ContentDB.word_by_headword(plain)
+	if entry.is_empty():
+		entry = _verb_for(plain)
+	if entry.is_empty():
+		return ""
+	var g := ExamBuilder._short_gloss(entry["english"])
+	return g.split(";")[0]
+
+
+static var _verb_stems: Dictionary = {}
+
+
+## Conjugated verbs/adjectives (食べていません, 寒かった) map back to their dictionary form by the
+## longest matching stem (headword minus its final kana).
+func _verb_for(plain: String) -> Dictionary:
+	if _verb_stems.is_empty():
+		for e in ContentDB.unlocked_items("vocab", &"N4"):
+			var cat: String = e["category"]
+			if cat.begins_with("verb") or cat == "adj-i":
+				var hw: String = e["headword"]
+				var stem := hw.substr(0, hw.length() - 1) if hw.length() > 1 else hw
+				if stem.length() >= 1 and not _verb_stems.has(stem):
+					_verb_stems[stem] = e
+	for n in range(plain.length() - 1, 0, -1):
+		var stem := plain.substr(0, n)
+		if _verb_stems.has(stem):
+			return _verb_stems[stem]
+	return {}
 
 
 func _on_hint() -> void:

@@ -7,13 +7,13 @@ var _scores_box: VBoxContainer
 
 func _ready() -> void:
 	Progress.touch_today()
-	make_column(990)
+	make_column(1000)
 	var header := UITheme.hbox(UITheme.GAP)
 	column.add_child(header)
 	var title := UITheme.vbox(4)
 	title.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	header.add_child(title)
-	title.add_child(UITheme.ja("{日本語能力|にほんごのうりょく}", UITheme.SIZE_H2, UITheme.TEXT_SECONDARY))
+	title.add_child(ScreenBase.ja_en("{日本語能力|にほんごのうりょく}", "Your Japanese level", UITheme.SIZE_H2, UITheme.TEXT_SECONDARY))
 	title.add_child(UITheme.ja(Mastery.STAGE_LABEL_JA[Progress.stage], UITheme.SIZE_DISPLAY))
 	var streak := UITheme.vbox(0)
 	streak.size_flags_horizontal = Control.SIZE_SHRINK_END
@@ -24,6 +24,11 @@ func _ready() -> void:
 	var days_lbl := UITheme.ja("{連続日数|れんぞくにっすう}", UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY)
 	days_lbl.autowrap = false
 	streak.add_child(days_lbl)
+	if Progress.show_english():
+		var days_en := UITheme.en("day streak", UITheme.SIZE_LABEL)
+		days_en.autowrap_mode = TextServer.AUTOWRAP_OFF
+		days_en.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+		streak.add_child(days_en)
 
 	var cols := UITheme.hbox(UITheme.GAP_SECTION)
 	column.add_child(cols)
@@ -49,7 +54,7 @@ func _ready() -> void:
 
 func _render_scores() -> void:
 	ScreenBase.clear(_scores_box)
-	_scores_box.add_child(UITheme.ja("スキル", UITheme.SIZE_H2))
+	_scores_box.add_child(ScreenBase.ja_en("スキル", "Skills", UITheme.SIZE_H2))
 	var scores := Progress.scores()
 	var gate: Dictionary = Mastery.GATES.get(Progress.stage, {})
 	for skill in Mastery.SKILLS:
@@ -59,7 +64,17 @@ func _render_scores() -> void:
 		name.autowrap = false
 		name.custom_minimum_size.x = 64
 		name.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
-		row.add_child(name)
+		if Progress.show_english():
+			var stack := UITheme.vbox(0)
+			stack.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+			stack.custom_minimum_size.x = 120
+			stack.add_child(name)
+			var en := UITheme.label(Mastery.SKILL_LABEL_EN[skill], UITheme.SIZE_EN_SUB, UITheme.TEXT_SECONDARY)
+			en.autowrap_mode = TextServer.AUTOWRAP_OFF
+			stack.add_child(en)
+			row.add_child(stack)
+		else:
+			row.add_child(name)
 		row.add_child(UITheme.progress_bar(UITheme.SKILL_FILL[skill], float(scores[skill])))
 		var pct := UITheme.label("%d%%" % int(scores[skill]), UITheme.SIZE_CAPTION, UITheme.TEXT_SECONDARY)
 		pct.size_flags_horizontal = Control.SIZE_SHRINK_END
@@ -82,15 +97,15 @@ func _counters_card() -> PanelContainer:
 	grid.add_theme_constant_override("v_separation", 8)
 	card.add_child(grid)
 	var rows := [
-		["{学習済|がくしゅうず}みの{言葉|ことば}", str(Progress.count_words_at_least(Mastery.Rank.LEARNED))],
-		["{復習中|ふくしゅうちゅう}の{言葉|ことば}", str(_count_srs())],
-		["{今日|きょう}の{復習|ふくしゅう}", str(Progress.due_count())],
-		["{今日|きょう}{学習|がくしゅう}できる{新語|しんご}", str(Progress.budget_left())],
-		["{会話|かいわ}の{完了|かんりょう}", str(_sum(Progress.scenarios, "completions"))],
-		["{勉強|べんきょう}した{日|ひ}", str(Progress.days_studied())],
+		["{学習済|がくしゅうず}みの{言葉|ことば}", str(Progress.count_words_at_least(Mastery.Rank.LEARNED)), "Words learned"],
+		["{復習中|ふくしゅうちゅう}の{言葉|ことば}", str(_count_srs()), "Words in review"],
+		["{今日|きょう}の{復習|ふくしゅう}", str(Progress.due_count()), "Reviews due today"],
+		["{今日|きょう}{学習|がくしゅう}できる{新語|しんご}", str(Progress.budget_left()), "New words left today"],
+		["{会話|かいわ}の{完了|かんりょう}", str(_sum(Progress.scenarios, "completions")), "Conversations done"],
+		["{勉強|べんきょう}した{日|ひ}", str(Progress.days_studied()), "Days studied"],
 	]
 	for r in rows:
-		grid.add_child(UITheme.ja(r[0], UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
+		grid.add_child(ScreenBase.ja_en(r[0], r[2], UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
 		var v := UITheme.label(r[1], UITheme.SIZE_H2)
 		v.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 		grid.add_child(v)
@@ -114,9 +129,10 @@ func _recommendation_card() -> PanelContainer:
 	var card := UITheme.card(UITheme.PRIMARY_TINT, UITheme.PRIMARY)
 	var v := UITheme.vbox(12)
 	card.add_child(v)
-	v.add_child(UITheme.ja("{次|つぎ}にやること", UITheme.SIZE_H2, UITheme.PRIMARY))
+	v.add_child(ScreenBase.ja_en("{次|つぎ}にやること", "Up next", UITheme.SIZE_H2, UITheme.PRIMARY))
 	v.add_child(UITheme.ja(rec["reason"], UITheme.SIZE_BODY))
-	var go_btn := TileButton.new(_screen_label(rec["screen"], rec["mode"]), UITheme.SIZE_LABEL)
+	var go_btn := TileButton.new(_screen_label(rec["screen"], rec["mode"]), UITheme.SIZE_LABEL,
+		_screen_en(rec["screen"], rec["mode"]) if Progress.show_english() else "")
 	go_btn.set_state(UITheme.PRIMARY, UITheme.PRIMARY)
 	go_btn.set_text_color(UITheme.ON_PRIMARY)
 	go_btn.pressed.connect(func() -> void: go(rec["screen"], {"mode": rec["mode"]}))
@@ -129,7 +145,7 @@ func _quests_card() -> PanelContainer:
 	var card := UITheme.card()
 	var v := UITheme.vbox(8)
 	card.add_child(v)
-	v.add_child(UITheme.ja("{今日|きょう}のクエスト", UITheme.SIZE_H2))
+	v.add_child(ScreenBase.ja_en("{今日|きょう}のクエスト", "Today's quests", UITheme.SIZE_H2))
 	for q in Quests.LIST:
 		if q["id"] == "listening" and not Speech.available():
 			continue
@@ -141,7 +157,8 @@ func _quests_card() -> PanelContainer:
 		mark.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 		mark.custom_minimum_size.x = 24
 		row.add_child(mark)
-		var lbl := UITheme.ja(q["ja"], UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY if done else UITheme.TEXT_PRIMARY)
+		var lbl := ScreenBase.ja_en(q["ja"], q["en"], UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY if done else UITheme.TEXT_PRIMARY)
+		lbl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		row.add_child(lbl)
 		var count := UITheme.label("%d/%d · %d XP" % [n, int(q["target"]), int(q["xp"])], UITheme.SIZE_CAPTION, UITheme.TEXT_SECONDARY)
 		count.autowrap_mode = TextServer.AUTOWRAP_OFF
@@ -154,7 +171,7 @@ func _exam_card() -> PanelContainer:
 	var card := UITheme.card()
 	var v := UITheme.vbox(8)
 	card.add_child(v)
-	v.add_child(UITheme.ja("{昇級試験|しょうきゅうしけん}", UITheme.SIZE_H2))
+	v.add_child(ScreenBase.ja_en("{昇級試験|しょうきゅうしけん}", "Stage exam", UITheme.SIZE_H2))
 	if Progress.stage == &"MASTERY" and "MASTERY" in Progress.cleared_stages:
 		v.add_child(UITheme.ja("{完全習得|かんぜんしゅうとく}おめでとうございます！", UITheme.SIZE_BODY, UITheme.CORRECT))
 		return card
@@ -189,6 +206,14 @@ func _screen_label(target: StringName, mode: String) -> String:
 		&"kanji": return "{漢字|かんじ}を{学|まな}ぶ"
 		&"listening": return "{聴解|ちょうかい}の{練習|れんしゅう}"
 	return String(target)
+
+
+func _screen_en(target: StringName, mode: String) -> String:
+	if target == &"assessment":
+		return "Daily check" if mode == "daily" else "Take the exam"
+	return {&"kana": "Kana trainer", &"review": "Review", &"dictionary": "New words in the dictionary",
+		&"sentences": "Build sentences", &"grammar": "Grammar lesson", &"conversation": "Conversation",
+		&"kanji": "Learn kanji", &"listening": "Listening practice"}.get(target, "")
 
 
 func _count_srs() -> int:

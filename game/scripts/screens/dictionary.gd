@@ -19,7 +19,7 @@ func _ready() -> void:
 	add_child(root)
 
 	var left := UITheme.vbox(12)
-	left.custom_minimum_size.x = 340
+	left.custom_minimum_size.x = 420 if Progress.show_english() else 340
 	root.add_child(left)
 	left.add_child(UITheme.ja("{辞書|じしょ}", UITheme.SIZE_H1))
 	var search := LineEdit.new()
@@ -49,13 +49,15 @@ func _ready() -> void:
 	_list = ItemList.new()
 	_list.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	_list.item_selected.connect(_on_selected)
+	if DisplayServer.is_touchscreen_available():
+		_touch_list(_list)
+	else:
+		ScreenBase.touch_scroll_list(_list)
 	left.add_child(_list)
 
-	var scroll := ScrollContainer.new()
+	var scroll := ScreenBase.make_scroll(root)
 	scroll.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
-	root.add_child(scroll)
 	_entry_box = UITheme.vbox(UITheme.GAP)
 	_entry_box.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.add_child(_entry_box)
@@ -79,6 +81,27 @@ func _ready() -> void:
 	_list.call_deferred("grab_focus")
 
 
+## Touch: a swipe scrolls the list; only a tap (little movement) opens the word under the finger.
+func _touch_list(list: ItemList) -> void:
+	var state := {"down": Vector2.ZERO, "moved": 0.0}
+	list.gui_input.connect(func(e: InputEvent) -> void:
+		if e is InputEventScreenDrag:
+			list.get_v_scroll_bar().value -= (e as InputEventScreenDrag).relative.y
+			state["moved"] = float(state["moved"]) + (e as InputEventScreenDrag).relative.length()
+			list.accept_event()
+		elif e is InputEventMouseButton and (e as InputEventMouseButton).button_index == MOUSE_BUTTON_LEFT:
+			var mb := e as InputEventMouseButton
+			if mb.pressed:
+				state["down"] = mb.position
+				state["moved"] = 0.0
+			elif float(state["moved"]) < 20.0:
+				var idx := list.get_item_at_position(mb.position, true)
+				if idx >= 0:
+					list.select(idx)
+					_on_selected(idx)
+			list.accept_event())
+
+
 func _pool() -> Array:
 	var pool := ContentDB.unlocked_items("vocab", Progress.stage)
 	if _level != "":
@@ -94,7 +117,8 @@ func _refresh_list() -> void:
 		var rank := Progress.rank_of(e["id"])
 		var marker := "●" if rank >= Mastery.Rank.LEARNED else ("◐" if Progress.in_srs(e["id"]) else ("・" if rank > Mastery.Rank.UNSEEN else "○"))
 		var rd: String = "　" + e["reading"] if e["headword"] != e["reading"] else ""
-		_list.add_item("%s %s%s" % [marker, e["headword"], rd])
+		var gloss := "  — " + ExamBuilder._short_gloss(e["english"]) if Progress.show_english() else ""
+		_list.add_item("%s %s%s%s" % [marker, e["headword"], rd, gloss])
 
 
 func _on_selected(index: int) -> void:
@@ -126,7 +150,7 @@ func show_entry(entry: Dictionary) -> void:
 	if Progress.in_srs(entry["id"]):
 		status.add_child(UITheme.ja("{復習中|ふくしゅうちゅう}", UITheme.SIZE_LABEL, UITheme.CORRECT))
 	else:
-		var study := TileButton.new("{学習|がくしゅう}する", UITheme.SIZE_LABEL)
+		var study := TileButton.new("{学習|がくしゅう}する", UITheme.SIZE_LABEL, "Study this" if Progress.show_english() else "")
 		study.set_state(UITheme.PRIMARY, UITheme.PRIMARY)
 		study.set_text_color(UITheme.ON_PRIMARY)
 		study.size_flags_horizontal = Control.SIZE_SHRINK_END
@@ -180,7 +204,8 @@ func show_entry(entry: Dictionary) -> void:
 		v.add_child(flow2)
 		for headword in related:
 			var target := ContentDB.word_by_headword(headword)
-			var b := TileButton.new(ExamBuilder.headword_markup(target) if not target.is_empty() else _safe(headword), UITheme.SIZE_LABEL)
+			var b := TileButton.new(ExamBuilder.headword_markup(target) if not target.is_empty() else _safe(headword), UITheme.SIZE_LABEL,
+				ExamBuilder._short_gloss(target["english"]) if not target.is_empty() and Progress.show_english() else "")
 			if target.is_empty():
 				b.disabled = true
 			else:

@@ -1,0 +1,235 @@
+[
+ {
+  "id": "n5_sb_049", "level": "N5", "tier": 1,
+  "prompt_en": "I bought a bag.",
+  "ja_hint": "かばんを{買|か}ったと{言|い}う{文|ぶん}",
+  "tiles": ["かばん", "を", "{買|か}いました"],
+  "distractors": ["が"],
+  "accepted": [["かばん", "を", "{買|か}いました"]],
+  "grammar": ["n5_wo", "n5_masu_past"]
+ },
+ {
+  "id": "n5_sb_050", "level": "N5", "tier": 1,
+  "prompt_en": "This is delicious.",
+  "ja_hint": "{目|め}の{前|まえ}の{食|た}べ{物|もの}をほめる{文|ぶん}",
+  "tiles": ["これ", "は", "おいしいです"],
+  "distractors": ["おいしいだ"],
+  "accepted": [["これ", "は", "おいしいです"]],
+  "grammar": ["n5_kosoado", "n5_wa", "n5_i_adj"]
+ },
+ {
+  "id": "n5_sb_051", "level": "N5", "tier": 1,
+  "prompt_en": "I don't eat meat.",
+  "ja_hint": "{肉|にく}は{口|くち}に{入|い}れないと{言|い}う{文|ぶん}",
+  "tiles": ["{肉|にく}", "を", "{食|た}べません"],
+  "distractors": ["が"],
+  "accepted": [["{肉|にく}", "を", "{食|た}べません"]],
+  "grammar": ["n5_wo", "n5_masen"]
+ },
+ {
+  "id": "n5_sb_052", "level": "N5", "tier": 1,
+  "prompt_en": "The test wasn't difficult.",
+  "ja_hint": "テストがやさしかったと{言|い}う{文|ぶん}",
+  "tiles": ["テスト", "は", "{難|むずか}しくなかったです"],
+  "distractors": ["{難|むずか}しいじゃなかったです"],
+  "accepted": [["テスト", "は", "{難|むずか}しくなかったです"]],
+  "grammar": ["n5_wa", "n5_i_adj_past"]
+ },
+ {
+  "id": "n5_sb_053", "level": "N5", "tier": 1,
+  "prompt_en": "Won't you go with me?",
+  "ja_hint": "{相手|あいて}をやさしくさそう{文|ぶん}",
+  "tiles": ["いっしょに", "{行|い}きませんか"],
+  "distractors": ["{行|い}きましたか"],
+  "accepted": [["いっしょに", "{行|い}きませんか"]],
+  "grammar": ["n5_masenka"]
+ },
+ {
+  "id": "n5_sb_054", "level": "N5", "tier": 1,
+  "prompt_en": "It's a quiet park.",
+  "ja_hint": "{公園|こうえん}の{様子|ようす}を{言|い}う{文|ぶん}",
+  "tiles": ["{静|しず}かな", "{公園|こうえん}", "です"],
+  "distractors": ["{静|しず}かの"],
+  "accepted": [["{静|しず}かな", "{公園|こうえん}", "です"]],
+  "grammar": ["n5_na_adj", "n5_adj_noun"]
+ },
+ {
+  "id": "n5_sb_055", "level": "N5", "tier": 1,
+  "prompt_en": "I haven't eaten yet.",
+  "ja_hint": "ご{飯|はん}がまだ{終|お}わっていないと{言|い}う{文|ぶん}",
+  "tiles": ["まだ", "{食|た}べていません"],
+  "distractors": ["{食|た}べました"],
+  "accepted": [["まだ", "{食|た}べていません"]],
+  "grammar": ["n5_mou_mada", "n5_te_iru"]
+ },
+ {
+  "id": "n5_sb_056", "level": "N5", "tier": 1,
+  "prompt_en": "Two people came.",
+  "ja_hint": "{来|き}た{人|ひと}の{数|かず}を{言|い}う{文|ぶん}",
+  "tiles": ["{二人|ふたり}", "{来|き}ました"],
+  "distractors": ["{二|ふた}つ"],
+  "accepted": [["{二人|ふたり}", "{来|き}ました"]],
+  "grammar": ["n5_counters", "n5_masu_past"]
+ },
+ {
+  "id": "n5_sb_057", "level": "N5", "tier": 2,
+  "prompt_en": "Who is that person (over there)?",
+  "ja_hint": "{少|すこ}し{遠|とお}くにいる{人|ひと}について{聞|き}く{文|ぶん}",
+  "tiles": ["あの", "{人|ひと}", "は", "だれ", "ですか"],
+  "distractors": ["どの", "を"],
+  "accepted": [["あの", "{人|ひと}", "は", "だれ", "ですか"]],
+  "grammar": ["n5_kosoado", "n5_question_words", "n5_ka_question"]
+ },
+ {
+  "id": "n5_sb_058", "level": "N5", "tier": 2,
+  "prompt_en": "I didn't study yesterday.",
+  "ja_hint": "{昨日|きのう}は{勉強|べんきょう}をしなかったと{言|い}う{文|ぶん}",
+  "tiles": ["{昨日|きのう}", "は", "{勉強|べんきょう}しませんでした"],
+  "distractors": ["を", "{勉強|べんきょう}しません"],
+  "accepted": [["{昨日|きのう}", "は", "{勉強|べんきょう}しませんでした"]],
+  "grammar": ["n5_wa", "n5_masendeshita"]
+ },
+ {
+  "id": "n5_sb_059", "level": "N5", "tier": 2,
+  "prompt_en": "My mother likes flowers.",
+  "ja_hint": "{母|はは}がよろこぶものを{言|い}う{文|ぶん}",
+  "tiles": ["{母|はは}", "は", "{花|はな}", "が", "{好|す}きです"],
+  "distractors": ["を", "{好|す}きいです"],
+  "accepted": [["{母|はは}", "は", "{花|はな}", "が", "{好|す}きです"]],
+  "grammar": ["n5_wa", "n5_ga_preference", "n5_na_adj"]
+ },
+ {
+  "id": "n5_sb_060", "level": "N5", "tier": 2,
+  "prompt_en": "I want new shoes.",
+  "ja_hint": "{買|か}いたい{物|もの}を{言|い}う{文|ぶん}",
+  "tiles": ["{新|あたら}しい", "{靴|くつ}", "が", "ほしいです"],
+  "distractors": ["{新|あたら}しいな", "ほしいます"],
+  "accepted": [["{新|あたら}しい", "{靴|くつ}", "が", "ほしいです"]],
+  "grammar": ["n5_hoshii", "n5_i_adj", "n5_adj_noun"]
+ },
+ {
+  "id": "n5_sb_061", "level": "N5", "tier": 2,
+  "prompt_en": "Let's meet at the station.",
+  "ja_hint": "{待|ま}ち{合|あ}わせの{場所|ばしょ}を{決|き}める{文|ぶん}",
+  "tiles": ["{駅|えき}", "で", "{会|あ}いましょう"],
+  "distractors": ["を", "{会|あ}うましょう"],
+  "accepted": [["{駅|えき}", "で", "{会|あ}いましょう"]],
+  "grammar": ["n5_de_place", "n5_mashou"]
+ },
+ {
+  "id": "n5_sb_062", "level": "N5", "tier": 2,
+  "prompt_en": "I came to Japan last year.",
+  "ja_hint": "いつ{日本|にほん}に{来|き}たかを{言|い}う{文|ぶん}",
+  "tiles": ["{去年|きょねん}", "{日本|にほん}", "へ", "{来|き}ました"],
+  "distractors": ["を", "{来|き}ます"],
+  "accepted": [
+   ["{去年|きょねん}", "{日本|にほん}", "へ", "{来|き}ました"],
+   ["{日本|にほん}", "へ", "{去年|きょねん}", "{来|き}ました"]
+  ],
+  "grammar": ["n5_he", "n5_masu_past"]
+ },
+ {
+  "id": "n5_sb_063", "level": "N5", "tier": 2,
+  "prompt_en": "Today is not a day off.",
+  "ja_hint": "{今日|きょう}は{学校|がっこう}や{仕事|しごと}があると{言|い}う{文|ぶん}",
+  "tiles": ["{今日|きょう}", "は", "{休|やす}み", "じゃありません"],
+  "distractors": ["を", "じゃありませんでした"],
+  "accepted": [["{今日|きょう}", "は", "{休|やす}み", "じゃありません"]],
+  "grammar": ["n5_wa", "n5_desu_negative"]
+ },
+ {
+  "id": "n5_sb_064", "level": "N5", "tier": 2,
+  "prompt_en": "The movie was interesting.",
+  "ja_hint": "{見|み}た{映画|えいが}の{感想|かんそう}を{言|い}う{文|ぶん}",
+  "tiles": ["{映画|えいが}", "は", "おもしろかったです"],
+  "distractors": ["を", "おもしろいでした"],
+  "accepted": [["{映画|えいが}", "は", "おもしろかったです"]],
+  "grammar": ["n5_wa", "n5_i_adj_past"]
+ },
+ {
+  "id": "n5_sb_065", "level": "N5", "tier": 3,
+  "prompt_en": "Every day I walk from home to the station.",
+  "ja_hint": "{毎日|まいにち}、{家|いえ}を{出|で}て{駅|えき}に{着|つ}くまでのことを{言|い}う{文|ぶん}",
+  "tiles": ["{毎日|まいにち}", "{家|いえ}", "から", "{駅|えき}", "まで", "{歩|ある}きます"],
+  "distractors": ["で", "が", "{歩|ある}きました"],
+  "accepted": [
+   ["{毎日|まいにち}", "{家|いえ}", "から", "{駅|えき}", "まで", "{歩|ある}きます"],
+   ["{家|いえ}", "から", "{駅|えき}", "まで", "{毎日|まいにち}", "{歩|ある}きます"]
+  ],
+  "grammar": ["n5_kara_made", "n5_masu"]
+ },
+ {
+  "id": "n5_sb_066", "level": "N5", "tier": 3,
+  "prompt_en": "I bought bread at the shop and went home.",
+  "ja_hint": "{店|みせ}でしたことと、その{後|あと}にしたことを{言|い}う{文|ぶん}",
+  "tiles": ["{店|みせ}", "で", "パン", "を", "{買|か}って", "{帰|かえ}りました"],
+  "distractors": ["に", "が", "{買|か}いて"],
+  "accepted": [
+   ["{店|みせ}", "で", "パン", "を", "{買|か}って", "{帰|かえ}りました"],
+   ["パン", "を", "{店|みせ}", "で", "{買|か}って", "{帰|かえ}りました"]
+  ],
+  "grammar": ["n5_de_place", "n5_wo", "n5_te_form", "n5_masu_past"]
+ },
+ {
+  "id": "n5_sb_067", "level": "N5", "tier": 3,
+  "prompt_en": "This town is very lively, isn't it?",
+  "ja_hint": "{今|いま}いる{町|まち}の{様子|ようす}について{相手|あいて}に{話|はな}しかける{文|ぶん}",
+  "tiles": ["この", "{町|まち}", "は", "とても", "にぎやかです", "ね"],
+  "distractors": ["にぎやかいです", "を", "に"],
+  "accepted": [
+   ["この", "{町|まち}", "は", "とても", "にぎやかです", "ね"]
+  ],
+  "grammar": ["n5_kosoado", "n5_na_adj", "n5_yo_ne"]
+ },
+ {
+  "id": "n5_sb_068", "level": "N5", "tier": 3,
+  "prompt_en": "There are three cats at my house.",
+  "ja_hint": "{家|いえ}にいる{動物|どうぶつ}の{数|かず}を{言|い}う{文|ぶん}",
+  "tiles": ["{家|いえ}", "に", "{猫|ねこ}", "が", "{三匹|さんびき}", "います"],
+  "distractors": ["あります", "{三人|さんにん}", "を"],
+  "accepted": [
+   ["{家|いえ}", "に", "{猫|ねこ}", "が", "{三匹|さんびき}", "います"],
+   ["{猫|ねこ}", "が", "{家|いえ}", "に", "{三匹|さんびき}", "います"]
+  ],
+  "grammar": ["n5_location_aru", "n5_ga_exist", "n5_counters"]
+ },
+ {
+  "id": "n5_sb_069", "level": "N5", "tier": 3,
+  "prompt_en": "I don't drink coffee at night. (casual)",
+  "ja_hint": "{友達|ともだち}に、{夜|よる}にしないことを{言|い}う{文|ぶん}（ふつう{形|けい}）",
+  "tiles": ["{夜|よる}", "は", "コーヒー", "を", "{飲|の}まない"],
+  "distractors": ["{飲|の}みない", "が", "で"],
+  "accepted": [["{夜|よる}", "は", "コーヒー", "を", "{飲|の}まない"]],
+  "grammar": ["n5_wa", "n5_wo", "n5_nai_form", "n5_plain_form"]
+ },
+ {
+  "id": "n5_sb_070", "level": "N5", "tier": 3,
+  "prompt_en": "After eating, I watched TV.",
+  "ja_hint": "{食事|しょくじ}が{終|お}わってからしたことを{言|い}う{文|ぶん}",
+  "tiles": ["{食|た}べた", "{後|あと}", "で", "テレビ", "を", "{見|み}ました"],
+  "distractors": ["{食|た}べる", "が", "{見|み}ます"],
+  "accepted": [["{食|た}べた", "{後|あと}", "で", "テレビ", "を", "{見|み}ました"]],
+  "grammar": ["n5_ta_form", "n5_mae_ato", "n5_wo", "n5_masu_past"]
+ },
+ {
+  "id": "n5_sb_071", "level": "N5", "tier": 3,
+  "prompt_en": "It's raining, so I'll stay at home.",
+  "ja_hint": "{天気|てんき}が{悪|わる}いので、{出|で}かけないと{言|い}う{文|ぶん}",
+  "tiles": ["{雨|あめ}", "です", "から", "{家|いえ}", "に", "います"],
+  "distractors": ["まで", "を", "あります"],
+  "accepted": [["{雨|あめ}", "です", "から", "{家|いえ}", "に", "います"]],
+  "grammar": ["n5_kara_reason", "n5_location_aru"]
+ },
+ {
+  "id": "n5_sb_072", "level": "N5", "tier": 3,
+  "prompt_en": "I want to go shopping with my mother.",
+  "ja_hint": "{母|はは}といっしょにしたいことを{言|い}う{文|ぶん}",
+  "tiles": ["{母|はは}", "と", "{買|か}い{物|もの}", "に", "{行|い}きたいです"],
+  "distractors": ["を", "で", "{行|い}くたいです"],
+  "accepted": [
+   ["{母|はは}", "と", "{買|か}い{物|もの}", "に", "{行|い}きたいです"],
+   ["{買|か}い{物|もの}", "に", "{母|はは}", "と", "{行|い}きたいです"]
+  ],
+  "grammar": ["n5_to_with", "n5_ni_iku", "n5_tai"]
+ }
+]

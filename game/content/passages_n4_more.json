@@ -1,0 +1,138 @@
+[
+ {
+  "id": "n4_rd_005", "level": "N4",
+  "title_ja": "{先生|せんせい}へのメール",
+  "text_ja": "{田中|たなか}{先生|せんせい}、こんにちは。{二年|にねん}Bクラスのリンです。{昨日|きのう}から{熱|ねつ}があるので、{明日|あした}の{授業|じゅぎょう}を{休|やす}ませていただけませんか。{宿題|しゅくだい}のレポートは、{金曜日|きんようび}までにメールで{送|おく}ります。{来週|らいしゅう}の{試験|しけん}の{範囲|はんい}を{教|おし}えていただけると{助|たす}かります。よろしくお{願|ねが}いします。",
+  "text_en": "Hello, Mr. Tanaka. This is Lin from Year 2, Class B. I've had a fever since yesterday, so may I please be excused from tomorrow's class? I'll send my homework report by email by Friday. It would help me a lot if you could tell me what next week's test will cover. Thank you very much.",
+  "questions": [
+   {"q_ja": "どうして{明日|あした}の{授業|じゅぎょう}を{休|やす}みますか。", "q_en": "Why is Lin missing tomorrow's class?",
+    "options": ["アルバイトがあるから", "{熱|ねつ}があるから", "{試験|しけん}の{勉強|べんきょう}をするから"], "answer": 1,
+    "why_ja": "「{昨日|きのう}から{熱|ねつ}があるので」とあります。", "why_en": "The email says Lin has had a fever since yesterday."},
+   {"q_ja": "レポートはいつまでに{送|おく}りますか。", "q_en": "By when will Lin send the report?",
+    "options": ["{明日|あした}", "{来週|らいしゅう}", "{金曜日|きんようび}"], "answer": 2,
+    "why_ja": "「{金曜日|きんようび}までにメールで{送|おく}ります」とあります。", "why_en": "Lin will email it by Friday."},
+   {"q_ja": "リンさんは{先生|せんせい}に{何|なに}を{教|おし}えてほしいですか。", "q_en": "What does Lin want the teacher to tell them?",
+    "options": ["{試験|しけん}の{範囲|はんい}", "{授業|じゅぎょう}の{教室|きょうしつ}", "{先生|せんせい}の{電話番号|でんわばんごう}"], "answer": 0,
+    "why_ja": "「{試験|しけん}の{範囲|はんい}を{教|おし}えていただけると{助|たす}かります」とあります。", "why_en": "Lin asks what the test will cover."}
+  ]
+ },
+ {
+  "id": "n4_rd_006", "level": "N4",
+  "title_ja": "{部屋|へや}を{貸|か}します",
+  "text_ja": "さくら{駅|えき}から{歩|ある}いて{七分|ななふん}の{部屋|へや}です。{部屋|へや}は{二階|にかい}にあって、{南|みなみ}{向|む}きなので、{一日中|いちにちじゅう}{明|あか}るいです。{家賃|やちん}は{一|いっ}か{月|げつ}{五万五千円|ごまんごせんえん}で、{水道代|すいどうだい}も{入|はい}っています。{近|ちか}くにスーパーやコンビニがあるので、{買|か}い{物|もの}に{便利|べんり}です。ただし、ペットを{飼|か}うことはできません。{部屋|へや}を{見|み}たい{方|かた}は、{前|まえ}の{日|ひ}までに{電話|でんわ}で{予約|よやく}してください。",
+  "text_en": "An apartment a seven-minute walk from Sakura Station. It's on the second floor and faces south, so it's bright all day. The rent is 55,000 yen a month, water included. There's a supermarket and a convenience store nearby, so shopping is easy. However, pets are not allowed. If you'd like to see the apartment, please book by phone by the day before.",
+  "questions": [
+   {"q_ja": "{部屋|へや}はどうして{明|あか}るいですか。", "q_en": "Why is the apartment bright?",
+    "options": ["{駅|えき}から{近|ちか}いから", "{南|みなみ}{向|む}きだから", "{窓|まど}が{大|おお}きいから"], "answer": 1,
+    "why_ja": "「{南|みなみ}{向|む}きなので、{一日中|いちにちじゅう}{明|あか}るいです」とあります。", "why_en": "It faces south, so it's bright all day."},
+   {"q_ja": "この{部屋|へや}でできないことは{何|なん}ですか。", "q_en": "What can't you do in this apartment?",
+    "options": ["{犬|いぬ}や{猫|ねこ}を{飼|か}うこと", "{水道|すいどう}を{使|つか}うこと", "{近|ちか}くで{買|か}い{物|もの}をすること"], "answer": 0,
+    "why_ja": "「ペットを{飼|か}うことはできません」とあります。", "why_en": "Pets are not allowed."},
+   {"q_ja": "{部屋|へや}を{見|み}たい{時|とき}は、どうしなければなりませんか。", "q_en": "What must you do if you want to see the apartment?",
+    "options": ["その{日|ひ}に{行|い}く", "メールを{送|おく}る", "{前|まえ}の{日|ひ}までに{電話|でんわ}する"], "answer": 2,
+    "why_ja": "「{前|まえ}の{日|ひ}までに{電話|でんわ}で{予約|よやく}してください」とあります。", "why_en": "You must book by phone by the day before."}
+  ]
+ },
+ {
+  "id": "n4_rd_007", "level": "N4",
+  "title_ja": "{山|やま}の{温泉|おんせん}へ",
+  "text_ja": "{先週|せんしゅう}の{連休|れんきゅう}に、{家族|かぞく}と{山|やま}の{温泉|おんせん}に{行|い}ってきました。{電車|でんしゃ}とバスで{三時間|さんじかん}かかりましたが、{窓|まど}から{見|み}える{景色|けしき}がとてもきれいでした。{旅館|りょかん}の{料理|りょうり}はおいしくて、{父|ちち}は{食|た}べすぎてしまいました。{二日目|ふつかめ}は{雨|あめ}が{降|ふ}ったので、{山|やま}に{登|のぼ}ることができませんでした。でも、{雨|あめ}の{中|なか}で{入|はい}る{温泉|おんせん}も{気持|きも}ちがよかったです。{次|つぎ}は{秋|あき}に{紅葉|こうよう}を{見|み}に{行|い}きたいと{思|おも}います。",
+  "text_en": "Over last week's long weekend I went to a mountain hot spring with my family. It took three hours by train and bus, but the scenery from the window was beautiful. The inn's food was delicious, and my father ended up eating too much. On the second day it rained, so we couldn't climb the mountain. But bathing in the hot spring in the rain felt good too. Next time I'd like to go in autumn to see the autumn leaves.",
+  "questions": [
+   {"q_ja": "{温泉|おんせん}まで{何|なに}で{行|い}きましたか。", "q_en": "How did they travel to the hot spring?",
+    "options": ["{車|くるま}", "{電車|でんしゃ}とバス", "{飛行機|ひこうき}"], "answer": 1,
+    "why_ja": "「{電車|でんしゃ}とバスで{三時間|さんじかん}かかりました」とあります。", "why_en": "They went by train and bus."},
+   {"q_ja": "{二日目|ふつかめ}にできなかったことは{何|なん}ですか。", "q_en": "What couldn't they do on the second day?",
+    "options": ["{温泉|おんせん}に{入|はい}ること", "{旅館|りょかん}で{食|た}べること", "{山|やま}に{登|のぼ}ること"], "answer": 2,
+    "why_ja": "「{雨|あめ}が{降|ふ}ったので、{山|やま}に{登|のぼ}ることができませんでした」とあります。", "why_en": "Rain stopped them from climbing the mountain."},
+   {"q_ja": "{食|た}べすぎてしまったのはだれですか。", "q_en": "Who ate too much?",
+    "options": ["{父|ちち}", "{母|はは}", "{書|か}いた{人|ひと}"], "answer": 0,
+    "why_ja": "「{父|ちち}は{食|た}べすぎてしまいました」とあります。", "why_en": "The writer's father ate too much."}
+  ]
+ },
+ {
+  "id": "n4_rd_008", "level": "N4",
+  "title_ja": "シェアハウスのルール",
+  "text_ja": "このシェアハウスに{住|す}む{人|ひと}は、{次|つぎ}のルールを{守|まも}ってください。{夜|よる}{十一時|じゅういちじ}からは、{大|おお}きい{声|こえ}で{話|はな}したり、{音楽|おんがく}をかけたりしないでください。{台所|だいどころ}を{使|つか}ったら、すぐに{洗|あら}って{片付|かたづ}けなければなりません。ごみは{月曜日|げつようび}と{木曜日|もくようび}の{朝|あさ}{八時|はちじ}までに{出|だ}してください。{友達|ともだち}を{部屋|へや}に{泊|と}めたい{時|とき}は、{前|まえ}もって{管理人|かんりにん}に{言|い}ってください。{困|こま}ったことがあったら、いつでも{相談|そうだん}してください。",
+  "text_en": "Everyone living in this share house, please follow these rules. From 11 p.m., please don't talk loudly or play music. After using the kitchen, you must wash up and tidy away straight away. Put out the rubbish by 8 a.m. on Mondays and Thursdays. If you want a friend to stay over in your room, tell the manager in advance. If you have any problems, feel free to talk to us at any time.",
+  "questions": [
+   {"q_ja": "{夜|よる}{十一時|じゅういちじ}からしてはいけないことは{何|なん}ですか。", "q_en": "What must you not do from 11 p.m.?",
+    "options": ["{大|おお}きい{声|こえ}で{話|はな}すこと", "シャワーを{浴|あ}びること", "{管理人|かんりにん}に{相談|そうだん}すること"], "answer": 0,
+    "why_ja": "「{大|おお}きい{声|こえ}で{話|はな}したり…しないでください」とあります。", "why_en": "Talking loudly or playing music is not allowed."},
+   {"q_ja": "ごみはいつ{出|だ}しますか。", "q_en": "When is rubbish put out?",
+    "options": ["{毎朝|まいあさ}", "{月曜日|げつようび}と{木曜日|もくようび}の{朝|あさ}", "{週末|しゅうまつ}の{夜|よる}"], "answer": 1,
+    "why_ja": "「{月曜日|げつようび}と{木曜日|もくようび}の{朝|あさ}{八時|はちじ}までに」とあります。", "why_en": "By 8 a.m. on Mondays and Thursdays."},
+   {"q_ja": "{友達|ともだち}を{泊|と}めたい{時|とき}は、どうしますか。", "q_en": "What should you do if you want a friend to stay over?",
+    "options": ["{何|なに}もしなくてもいい", "ほかの{住|す}んでいる{人|ひと}に{聞|き}く", "{管理人|かんりにん}に{先|さき}に{言|い}う"], "answer": 2,
+    "why_ja": "「{前|まえ}もって{管理人|かんりにん}に{言|い}ってください」とあります。", "why_en": "Tell the manager in advance."}
+  ]
+ },
+ {
+  "id": "n4_rd_009", "level": "N4",
+  "title_ja": "{夏休|なつやす}みのお{知|し}らせ",
+  "text_ja": "{社員|しゃいん}の{皆|みな}さんへ。{今年|ことし}の{夏休|なつやす}みは、{八月|はちがつ}{十三日|じゅうさんにち}から{十六日|じゅうろくにち}までの{四日間|よっかかん}です。この{間|あいだ}、{会社|かいしゃ}のビルは{閉|し}まっているので、{入|はい}ることができません。{休|やす}みの{前|まえ}の{日|ひ}は、パソコンの{電源|でんげん}を{必|かなら}ず{切|き}ってから{帰|かえ}ってください。{急|いそ}ぎの{仕事|しごと}がある{人|ひと}は、{八月|はちがつ}{九日|ここのか}までに{部長|ぶちょう}に{相談|そうだん}してください。{十七日|じゅうしちにち}からは、いつも{通|どお}り{仕事|しごと}が{始|はじ}まります。",
+  "text_en": "To all staff. This year's summer holiday is four days, from 13 to 16 August. During this time the office building is closed, so you can't enter it. On the day before the holiday, be sure to switch off your computer before going home. Anyone with urgent work should talk to their department manager by 9 August. Work starts again as usual from the 17th.",
+  "questions": [
+   {"q_ja": "{夏休|なつやす}みは{何日間|なんにちかん}ですか。", "q_en": "How many days is the summer holiday?",
+    "options": ["{三日間|みっかかん}", "{四日間|よっかかん}", "{五日間|いつかかん}"], "answer": 1,
+    "why_ja": "「{十三日|じゅうさんにち}から{十六日|じゅうろくにち}までの{四日間|よっかかん}」とあります。", "why_en": "From the 13th to the 16th: four days."},
+   {"q_ja": "{休|やす}みの{前|まえ}の{日|ひ}、{帰|かえ}る{前|まえ}に{何|なに}をしなければなりませんか。", "q_en": "What must staff do before going home on the day before the holiday?",
+    "options": ["パソコンの{電源|でんげん}を{切|き}る", "{部長|ぶちょう}に{電話|でんわ}する", "ビルの{鍵|かぎ}を{閉|し}める"], "answer": 0,
+    "why_ja": "「パソコンの{電源|でんげん}を{必|かなら}ず{切|き}ってから{帰|かえ}ってください」とあります。", "why_en": "They must switch off their computers."},
+   {"q_ja": "{仕事|しごと}はいつからまた{始|はじ}まりますか。", "q_en": "When does work start again?",
+    "options": ["{八月|はちがつ}{九日|ここのか}", "{八月|はちがつ}{十六日|じゅうろくにち}", "{八月|はちがつ}{十七日|じゅうしちにち}"], "answer": 2,
+    "why_ja": "「{十七日|じゅうしちにち}からは、いつも{通|どお}り{仕事|しごと}が{始|はじ}まります」とあります。", "why_en": "Work restarts on 17 August."}
+  ]
+ },
+ {
+  "id": "n4_rd_010", "level": "N4",
+  "title_ja": "なくした{傘|かさ}",
+  "text_ja": "ある{雨|あめ}の{日|ひ}、{私|わたし}はお{気|き}に{入|い}りの{青|あお}い{傘|かさ}を{電車|でんしゃ}に{忘|わす}れてしまいました。{祖母|そぼ}にもらった{大切|たいせつ}な{傘|かさ}だったので、とても{悲|かな}しかったです。{次|つぎ}の{日|ひ}、{駅|えき}の{忘|わす}れ{物|もの}センターに{行|い}って{聞|き}いてみました。でも、{青|あお}い{傘|かさ}はたくさんあって、{私|わたし}のはなかなか{見|み}つかりませんでした。{最後|さいご}に、{持|も}つところに{小|ちい}さい{鈴|すず}がついている{傘|かさ}を{見|み}つけました。それは{祖母|そぼ}がつけてくれた{鈴|すず}だったので、{私|わたし}の{傘|かさ}だとすぐにわかりました。",
+  "text_en": "One rainy day, I left my favourite blue umbrella on the train. It was a precious umbrella my grandmother had given me, so I was very sad. The next day I went to the station's lost-property centre to ask. But there were lots of blue umbrellas, and I just couldn't find mine. In the end, I found an umbrella with a small bell on the handle. It was the bell my grandmother had put on for me, so I knew straight away it was mine.",
+  "questions": [
+   {"q_ja": "{傘|かさ}はどこに{忘|わす}れましたか。", "q_en": "Where did the writer leave the umbrella?",
+    "options": ["{電車|でんしゃ}", "{学校|がっこう}", "{祖母|そぼ}の{家|いえ}"], "answer": 0,
+    "why_ja": "「{傘|かさ}を{電車|でんしゃ}に{忘|わす}れてしまいました」とあります。", "why_en": "It was left on the train."},
+   {"q_ja": "どうして{悲|かな}しかったですか。", "q_en": "Why was the writer sad?",
+    "options": ["{高|たか}い{傘|かさ}だったから", "{雨|あめ}が{強|つよ}かったから", "{祖母|そぼ}にもらった{傘|かさ}だったから"], "answer": 2,
+    "why_ja": "「{祖母|そぼ}にもらった{大切|たいせつ}な{傘|かさ}だったので」とあります。", "why_en": "It was a precious gift from their grandmother."},
+   {"q_ja": "どうして{自分|じぶん}の{傘|かさ}だとわかりましたか。", "q_en": "How did the writer know it was their umbrella?",
+    "options": ["{名前|なまえ}が{書|か}いてあったから", "{鈴|すず}がついていたから", "{色|いろ}が{違|ちが}ったから"], "answer": 1,
+    "why_ja": "「{祖母|そぼ}がつけてくれた{鈴|すず}だったので」とあります。", "why_en": "It had the bell their grandmother attached."}
+  ]
+ },
+ {
+  "id": "n4_rd_011", "level": "N4",
+  "title_ja": "ホストファミリーへの{手紙|てがみ}",
+  "text_ja": "{山本|やまもと}さんご{家族|かぞく}の{皆|みな}さん、お{元気|げんき}ですか。{日本|にほん}にいた{一|いっ}か{月|げつ}の{間|あいだ}、{本当|ほんとう}にお{世話|せわ}になりました。お{母|かあ}さんが{作|つく}ってくれた{料理|りょうり}の{中|なか}では、{肉|にく}じゃがが{一番|いちばん}おいしかったです。{国|くに}に{帰|かえ}ってから{自分|じぶん}で{作|つく}ってみましたが、{同|おな}じ{味|あじ}にはなりませんでした。{来年|らいねん}の{春|はる}、また{日本|にほん}へ{行|い}くことになったので、ぜひ{会|あ}いに{行|い}きたいです。その{時|とき}は、{肉|にく}じゃがの{作|つく}り{方|かた}を{教|おし}えてください。",
+  "text_en": "Dear Yamamoto family, how are you all? Thank you so much for looking after me during my month in Japan. Of all the dishes Mum made for me, the nikujaga was the most delicious. After going home I tried making it myself, but it didn't taste the same. I'm going to Japan again next spring, so I'd really like to come and see you. When I do, please teach me how to make nikujaga.",
+  "questions": [
+   {"q_ja": "この{人|ひと}は{日本|にほん}にどのぐらいいましたか。", "q_en": "How long was the writer in Japan?",
+    "options": ["{一週間|いっしゅうかん}", "{一|いっ}か{月|げつ}", "{一年|いちねん}"], "answer": 1,
+    "why_ja": "「{日本|にほん}にいた{一|いっ}か{月|げつ}の{間|あいだ}」とあります。", "why_en": "The writer stayed for one month."},
+   {"q_ja": "{肉|にく}じゃがを{作|つく}ってみて、どうでしたか。", "q_en": "How did the writer's own nikujaga turn out?",
+    "options": ["{材料|ざいりょう}がなかった", "とても{上手|じょうず}にできた", "{同|おな}じ{味|あじ}にならなかった"], "answer": 2,
+    "why_ja": "「{同|おな}じ{味|あじ}にはなりませんでした」とあります。", "why_en": "It didn't taste the same."},
+   {"q_ja": "{来年|らいねん}の{春|はる}、この{人|ひと}は{何|なに}をしたいですか。", "q_en": "What does the writer want to do next spring?",
+    "options": ["{山本|やまもと}さんの{家族|かぞく}に{会|あ}う", "{料理|りょうり}の{学校|がっこう}に{入|はい}る", "{自分|じぶん}の{家族|かぞく}を{日本|にほん}に{呼|よ}ぶ"], "answer": 0,
+    "why_ja": "「ぜひ{会|あ}いに{行|い}きたいです」とあります。", "why_en": "The writer wants to visit the Yamamoto family."}
+  ]
+ },
+ {
+  "id": "n4_rd_012", "level": "N4",
+  "title_ja": "{町|まち}の{夏祭|なつまつ}り",
+  "text_ja": "{七月|しちがつ}{二十日|はつか}の{土曜日|どようび}に、みどり{公園|こうえん}で{夏祭|なつまつ}りがあります。{午後|ごご}{四時|よじ}から{夜|よる}{九時|くじ}までで、だれでも{無料|むりょう}で{参加|さんか}できます。{会場|かいじょう}には{食|た}べ{物|もの}の{店|みせ}がたくさん{出|で}るし、{七時|しちじ}からは{踊|おど}りの{時間|じかん}もあります。{駐車場|ちゅうしゃじょう}がないので、{電車|でんしゃ}かバスで{来|き}てください。{雨|あめ}が{降|ふ}った{場合|ばあい}は、{次|つぎ}の{日|ひ}の{日曜日|にちようび}に{行|おこな}います。{浴衣|ゆかた}を{着|き}て{来|き}た{人|ひと}には、{小|ちい}さいプレゼントがあります。",
+  "text_en": "On Saturday 20 July there will be a summer festival in Midori Park. It runs from 4 p.m. to 9 p.m., and anyone can join for free. There will be lots of food stalls, and from seven there's dancing too. There is no car park, so please come by train or bus. If it rains, it will be held the next day, Sunday. People who come in a yukata will get a small present.",
+  "questions": [
+   {"q_ja": "{祭|まつ}りに{参加|さんか}するのに、いくらかかりますか。", "q_en": "How much does it cost to join the festival?",
+    "options": ["{五百円|ごひゃくえん}", "お{金|かね}はかからない", "{子供|こども}だけ{無料|むりょう}"], "answer": 1,
+    "why_ja": "「だれでも{無料|むりょう}で{参加|さんか}できます」とあります。", "why_en": "Anyone can join for free."},
+   {"q_ja": "どうして{車|くるま}で{行|い}かないほうがいいですか。", "q_en": "Why shouldn't you go by car?",
+    "options": ["{駐車場|ちゅうしゃじょう}がないから", "{道|みち}が{狭|せま}いから", "{夜|よる}は{危|あぶ}ないから"], "answer": 0,
+    "why_ja": "「{駐車場|ちゅうしゃじょう}がないので」とあります。", "why_en": "There is no car park."},
+   {"q_ja": "{雨|あめ}が{降|ふ}ったら、どうなりますか。", "q_en": "What happens if it rains?",
+    "options": ["{祭|まつ}りはなくなる", "{次|つぎ}の{日|ひ}にする", "{体育館|たいいくかん}でする"], "answer": 1,
+    "why_ja": "「{次|つぎ}の{日|ひ}の{日曜日|にちようび}に{行|おこな}います」とあります。", "why_en": "It moves to the next day, Sunday."}
+  ]
+ }
+]

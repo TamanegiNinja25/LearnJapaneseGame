@@ -41,6 +41,7 @@ var _status: Label
 var _current: StringName = &""
 var _current_args: Dictionary = {}
 var _overlay: Control
+var _built_beginner := false
 
 
 func _ready() -> void:
@@ -60,6 +61,8 @@ func _ready() -> void:
 func _apply_settings() -> void:
 	UITheme.apply(Progress.setting("theme") == "dark", Progress.setting("font") == "bizud")
 	theme = UITheme.build_theme()
+	# Text size (設定 › 文字の大きさ). Automatic = larger on touch screens.
+	get_window().content_scale_factor = Progress.ui_scale()
 
 
 func _build() -> void:
@@ -75,6 +78,7 @@ func _build() -> void:
 	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	root.add_theme_constant_override("separation", 0)
 	add_child(root)
+	_built_beginner = Progress.beginner()
 	root.add_child(_build_sidebar())
 	_content = Control.new()
 	_content.size_flags_vertical = Control.SIZE_EXPAND_FILL
@@ -99,10 +103,9 @@ func _build_sidebar() -> Control:
 	sb.content_margin_top = 16
 	sb.content_margin_bottom = 16
 	bar.add_theme_stylebox_override("panel", sb)
-	bar.custom_minimum_size.x = 196
-	var scroll := ScrollContainer.new()
-	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
-	bar.add_child(scroll)
+	var beginner := Progress.beginner()
+	bar.custom_minimum_size.x = 220 if beginner else 196
+	var scroll := ScreenBase.make_scroll(bar)
 	var col := UITheme.vbox(6)
 	col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.add_child(col)
@@ -117,7 +120,7 @@ func _build_sidebar() -> Control:
 		b.focus_mode = Control.FOCUS_ALL
 		b.tooltip_text = item[3]
 		b.alignment = HORIZONTAL_ALIGNMENT_LEFT
-		b.custom_minimum_size = Vector2(0, 46)
+		b.custom_minimum_size = Vector2(0, 76 if beginner else 46)
 		UITheme.set_tile(b, UITheme.SURFACE, UITheme.SURFACE)
 		var row := UITheme.hbox(10)
 		row.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -130,8 +133,19 @@ func _build_sidebar() -> Control:
 		row.add_child(ic)
 		var lbl := UITheme.ja(item[2], UITheme.SIZE_LABEL)
 		lbl.autowrap = false
-		lbl.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-		row.add_child(lbl)
+		if beginner:
+			var stack := UITheme.vbox(0)
+			stack.mouse_filter = Control.MOUSE_FILTER_IGNORE
+			stack.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+			stack.add_child(lbl)
+			var en := UITheme.label(item[3], UITheme.SIZE_EN_SUB, UITheme.TEXT_SECONDARY)
+			en.autowrap_mode = TextServer.AUTOWRAP_OFF
+			en.mouse_filter = Control.MOUSE_FILTER_IGNORE
+			stack.add_child(en)
+			row.add_child(stack)
+		else:
+			lbl.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+			row.add_child(lbl)
 		b.pressed.connect(show_screen.bind(item[0], {}))
 		col.add_child(b)
 		_nav_buttons[item[0]] = {"button": b, "icon": ic}
@@ -177,7 +191,9 @@ func _notification(what: int) -> void:
 func _on_settings_changed() -> void:
 	var dark_now: bool = Progress.setting("theme") == "dark"
 	var biz_now: bool = Progress.setting("font") == "bizud"
-	if dark_now != UITheme.dark or biz_now != UITheme.accessible_font:
+	var scale_now := Progress.ui_scale()
+	var beginner_now := Progress.beginner()
+	if dark_now != UITheme.dark or biz_now != UITheme.accessible_font or not is_equal_approx(scale_now, get_window().content_scale_factor) or beginner_now != _built_beginner:
 		_apply_settings()
 		_build()
 		show_screen(_current, _current_args)
@@ -185,6 +201,9 @@ func _on_settings_changed() -> void:
 
 func _on_stage_changed(stage: StringName) -> void:
 	_refresh_status()
+	if Progress.beginner() != _built_beginner:
+		_build()
+		show_screen(_current, _current_args)
 	Toast.show_on(_overlay, "%s　{解放|かいほう}！" % Mastery.STAGE_LABEL_JA.get(stage, String(stage)), "New stage unlocked", UITheme.CORRECT)
 
 

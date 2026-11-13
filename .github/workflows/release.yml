@@ -37,17 +37,18 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Configure Android export (SDK from the runner, debug keystore)
+      # The APK is signed with the project's committed debug key (tools/android/debug.keystore,
+      # referenced by the Android preset) so every release installs over the previous one.
+      - name: Configure Android export (SDK from the runner)
         run: |
           set -euo pipefail
-          keytool -genkeypair -v -keystore "$HOME/debug.keystore" -storepass android -alias androiddebugkey             -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
           mkdir -p "$HOME/.config/godot"
           cat > "$HOME/.config/godot/editor_settings-4.7.tres" <<EOF
           [gd_resource type="EditorSettings" format=3]
           [resource]
           export/android/android_sdk_path = "$ANDROID_SDK_ROOT"
           export/android/java_sdk_path = "$JAVA_HOME"
-          export/android/debug_keystore = "$HOME/debug.keystore"
+          export/android/debug_keystore = "$GITHUB_WORKSPACE/tools/android/debug.keystore"
           export/android/debug_keystore_user = "androiddebugkey"
           export/android/debug_keystore_pass = "android"
           EOF

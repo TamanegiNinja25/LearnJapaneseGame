@@ -1,0 +1,297 @@
+[
+ {
+  "id": "n4_sb_017", "level": "N4", "tier": 1,
+  "prompt_en": "This pen is easy to write with.",
+  "ja_hint": "{簡単|かんたん}に{書|か}けることを{言|い}う{文|ぶん}",
+  "tiles": ["このペン", "は", "{書|か}きやすいです"],
+  "distractors": ["{書|か}くやすいです"],
+  "accepted": [["このペン", "は", "{書|か}きやすいです"]],
+  "grammar": ["n4_yasui_nikui"]
+ },
+ {
+  "id": "n4_sb_018", "level": "N4", "tier": 1,
+  "prompt_en": "I ate too much yesterday.",
+  "ja_hint": "{多|おお}く{食|た}べて、よくなかった{文|ぶん}",
+  "tiles": ["{昨日|きのう}", "{食|た}べすぎました"],
+  "distractors": ["{食|た}べるすぎました"],
+  "accepted": [["{昨日|きのう}", "{食|た}べすぎました"]],
+  "grammar": ["n4_sugiru"]
+ },
+ {
+  "id": "n4_sb_019", "level": "N4", "tier": 1,
+  "prompt_en": "It might rain tomorrow.",
+  "ja_hint": "はっきり{分|わ}からない{予想|よそう}の{文|ぶん}",
+  "tiles": ["{明日|あした}", "{雨|あめ}", "かもしれません"],
+  "distractors": ["{雨|あめ}だ"],
+  "accepted": [["{明日|あした}", "{雨|あめ}", "かもしれません"]],
+  "grammar": ["n4_kamoshirenai"]
+ },
+ {
+  "id": "n4_sb_020", "level": "N4", "tier": 1,
+  "prompt_en": "I'll buy the ticket in advance.",
+  "ja_hint": "あとのために{前|まえ}もってする{文|ぶん}",
+  "tiles": ["{切符|きっぷ}", "を", "{買|か}っておきます"],
+  "distractors": ["{買|か}いておきます"],
+  "accepted": [["{切符|きっぷ}", "を", "{買|か}っておきます"]],
+  "grammar": ["n4_te_oku"]
+ },
+ {
+  "id": "n4_sb_021", "level": "N4", "tier": 1,
+  "prompt_en": "I (accidentally) lost my wallet.",
+  "ja_hint": "{残念|ざんねん}な{気持|きも}ちを{表|あらわ}す{文|ぶん}",
+  "tiles": ["{財布|さいふ}", "を", "なくしてしまいました"],
+  "distractors": ["が"],
+  "accepted": [["{財布|さいふ}", "を", "なくしてしまいました"]],
+  "grammar": ["n4_te_shimau"]
+ },
+ {
+  "id": "n4_sb_022", "level": "N4", "tier": 1,
+  "prompt_en": "A name has been written (on it).",
+  "ja_hint": "だれかが{書|か}いた{結果|けっか}が{残|のこ}っている{文|ぶん}",
+  "tiles": ["{名前|なまえ}", "が", "{書|か}いてあります"],
+  "distractors": ["{書|か}いています"],
+  "accepted": [["{名前|なまえ}", "が", "{書|か}いてあります"]],
+  "grammar": ["n4_te_aru"]
+ },
+ {
+  "id": "n4_sb_023", "level": "N4", "tier": 1,
+  "prompt_en": "I was praised by the teacher.",
+  "ja_hint": "{先生|せんせい}にされたことを{言|い}う{受身|うけみ}の{文|ぶん}",
+  "tiles": ["{先生|せんせい}", "に", "ほめられました"],
+  "distractors": ["ほめました"],
+  "accepted": [["{先生|せんせい}", "に", "ほめられました"]],
+  "grammar": ["n4_passive"]
+ },
+ {
+  "id": "n4_sb_024", "level": "N4", "tier": 1,
+  "prompt_en": "Go to bed early. (parent to child)",
+  "ja_hint": "{親|おや}が{子|こ}どもに{言|い}う{命令|めいれい}の{文|ぶん}",
+  "tiles": ["{早|はや}く", "{寝|ね}なさい"],
+  "distractors": ["{寝|ね}るなさい"],
+  "accepted": [["{早|はや}く", "{寝|ね}なさい"]],
+  "grammar": ["n4_nasai"]
+ },
+ {
+  "id": "n4_sb_025", "level": "N4", "tier": 1,
+  "prompt_en": "I only just arrived a moment ago.",
+  "ja_hint": "{着|つ}いてから、まだ{時間|じかん}がたっていない{文|ぶん}",
+  "tiles": ["さっき", "{着|つ}いたばかりです"],
+  "distractors": ["{着|つ}くばかりです"],
+  "accepted": [["さっき", "{着|つ}いたばかりです"]],
+  "grammar": ["n4_ta_bakari"]
+ },
+ {
+  "id": "n4_sb_026", "level": "N4", "tier": 1,
+  "prompt_en": "I can swim.",
+  "ja_hint": "「ことができる」を{使|つか}う{文|ぶん}",
+  "tiles": ["{泳|およ}ぐこと", "が", "できます"],
+  "distractors": ["を"],
+  "accepted": [["{泳|およ}ぐこと", "が", "できます"]],
+  "grammar": ["n4_koto_ga_dekiru"]
+ },
+ {
+  "id": "n4_sb_027", "level": "N4", "tier": 2,
+  "prompt_en": "It seems Tanaka-san has caught a cold.",
+  "ja_hint": "{見|み}たことから「たぶんそうだ」と{考|かんが}える{文|ぶん}",
+  "tiles": ["{田中|たなか}さん", "は", "{風邪|かぜ}", "を", "ひいたようです"],
+  "distractors": ["に", "ひいたのようです"],
+  "accepted": [["{田中|たなか}さん", "は", "{風邪|かぜ}", "を", "ひいたようです"]],
+  "grammar": ["n4_you_da"]
+ },
+ {
+  "id": "n4_sb_028", "level": "N4", "tier": 2,
+  "prompt_en": "I make a point of eating vegetables every day.",
+  "ja_hint": "{気|き}をつけて{続|つづ}けている{習慣|しゅうかん}の{文|ぶん}",
+  "tiles": ["{毎日|まいにち}", "{野菜|やさい}", "を", "{食|た}べるようにしています"],
+  "distractors": ["が", "{食|た}べたようにしています"],
+  "accepted": [
+   ["{毎日|まいにち}", "{野菜|やさい}", "を", "{食|た}べるようにしています"],
+   ["{野菜|やさい}", "を", "{毎日|まいにち}", "{食|た}べるようにしています"]
+  ],
+  "grammar": ["n4_you_ni_suru"]
+ },
+ {
+  "id": "n4_sb_029", "level": "N4", "tier": 2,
+  "prompt_en": "If you are going to be late, please call.",
+  "ja_hint": "「もし〜{時|とき}は」とお{願|ねが}いする{文|ぶん}",
+  "tiles": ["{遅|おく}れる", "{場合|ばあい}", "は", "{電話|でんわ}してください"],
+  "distractors": ["{遅|おく}れて", "を"],
+  "accepted": [["{遅|おく}れる", "{場合|ばあい}", "は", "{電話|でんわ}してください"]],
+  "grammar": ["n4_baai_wa"]
+ },
+ {
+  "id": "n4_sb_030", "level": "N4", "tier": 2,
+  "prompt_en": "I don't know whether he will come.",
+  "ja_hint": "「{来|く}るか、{来|こ}ないか」を{文|ぶん}に{入|い}れる",
+  "tiles": ["{彼|かれ}", "が", "{来|く}るかどうか", "{分|わ}かりません"],
+  "distractors": ["{来|き}ますかどうか", "を"],
+  "accepted": [["{彼|かれ}", "が", "{来|く}るかどうか", "{分|わ}かりません"]],
+  "grammar": ["n4_ka_dou_ka"]
+ },
+ {
+  "id": "n4_sb_031", "level": "N4", "tier": 2,
+  "prompt_en": "Do you know where the station is?",
+  "ja_hint": "「どこ」の{質問|しつもん}を{文|ぶん}に{入|い}れる",
+  "tiles": ["{駅|えき}", "が", "どこにあるか", "{知|し}っていますか"],
+  "distractors": ["どこにありますか", "を"],
+  "accepted": [["{駅|えき}", "が", "どこにあるか", "{知|し}っていますか"]],
+  "grammar": ["n4_embedded_question"]
+ },
+ {
+  "id": "n4_sb_032", "level": "N4", "tier": 2,
+  "prompt_en": "This kanji is hard to remember.",
+  "ja_hint": "{覚|おぼ}えるのが{難|むずか}しいことを{言|い}う{文|ぶん}",
+  "tiles": ["この{漢字|かんじ}", "は", "{覚|おぼ}えにくいです"],
+  "distractors": ["{覚|おぼ}えるにくいです", "を"],
+  "accepted": [["この{漢字|かんじ}", "は", "{覚|おぼ}えにくいです"]],
+  "grammar": ["n4_yasui_nikui"]
+ },
+ {
+  "id": "n4_sb_033", "level": "N4", "tier": 2,
+  "prompt_en": "Please leave the window open.",
+  "ja_hint": "そのままにしてほしいとたのむ{文|ぶん}",
+  "tiles": ["{窓|まど}", "を", "{開|あ}けておいてください"],
+  "distractors": ["が", "{開|あ}いておいてください"],
+  "accepted": [["{窓|まど}", "を", "{開|あ}けておいてください"]],
+  "grammar": ["n4_te_oku"]
+ },
+ {
+  "id": "n4_sb_034", "level": "N4", "tier": 2,
+  "prompt_en": "My younger brother was bitten by a dog.",
+  "ja_hint": "{弟|おとうと}がされたことを{言|い}う{受身|うけみ}の{文|ぶん}",
+  "tiles": ["{弟|おとうと}", "は", "{犬|いぬ}", "に", "かまれました"],
+  "distractors": ["を", "かみました"],
+  "accepted": [["{弟|おとうと}", "は", "{犬|いぬ}", "に", "かまれました"]],
+  "grammar": ["n4_passive"]
+ },
+ {
+  "id": "n4_sb_035", "level": "N4", "tier": 2,
+  "prompt_en": "I'm in the middle of making dinner right now.",
+  "ja_hint": "{動作|どうさ}の{途中|とちゅう}だと{言|い}う{文|ぶん}",
+  "tiles": ["{今|いま}", "{夕|ゆう}ご{飯|はん}", "を", "{作|つく}っているところです"],
+  "distractors": ["が", "{作|つく}ってところです"],
+  "accepted": [
+   ["{今|いま}", "{夕|ゆう}ご{飯|はん}", "を", "{作|つく}っているところです"],
+   ["{夕|ゆう}ご{飯|はん}", "を", "{今|いま}", "{作|つく}っているところです"]
+  ],
+  "grammar": ["n4_tokoro"]
+ },
+ {
+  "id": "n4_sb_036", "level": "N4", "tier": 2,
+  "prompt_en": "There is a shop called Sakura.",
+  "ja_hint": "{店|みせ}の{名前|なまえ}を{紹介|しょうかい}する{文|ぶん}",
+  "tiles": ["「さくら」", "という", "{店|みせ}", "が", "あります"],
+  "distractors": ["と{言|い}った", "を"],
+  "accepted": [["「さくら」", "という", "{店|みせ}", "が", "あります"]],
+  "grammar": ["n4_to_iu"]
+ },
+ {
+  "id": "n4_sb_037", "level": "N4", "tier": 3,
+  "prompt_en": "Tanaka-san said he won't come tomorrow.",
+  "ja_hint": "{人|ひと}が{言|い}ったことを{伝|つた}える{文|ぶん}",
+  "tiles": ["{田中|たなか}さん", "は", "{明日|あした}", "{来|こ}ない", "と", "{言|い}っていました"],
+  "distractors": ["を", "{来|き}ない", "に"],
+  "accepted": [["{田中|たなか}さん", "は", "{明日|あした}", "{来|こ}ない", "と", "{言|い}っていました"]],
+  "grammar": ["n4_to_iu"]
+ },
+ {
+  "id": "n4_sb_038", "level": "N4", "tier": 3,
+  "prompt_en": "It will probably snow tomorrow.",
+  "ja_hint": "「たぶん〜だ」と{予想|よそう}する{文|ぶん}",
+  "tiles": ["{明日|あした}", "は", "たぶん", "{雪|ゆき}", "が", "{降|ふ}るでしょう"],
+  "distractors": ["を", "ぜひ", "{降|ふ}りでしょう"],
+  "accepted": [
+   ["{明日|あした}", "は", "たぶん", "{雪|ゆき}", "が", "{降|ふ}るでしょう"],
+   ["たぶん", "{明日|あした}", "は", "{雪|ゆき}", "が", "{降|ふ}るでしょう"],
+   ["{明日|あした}", "は", "{雪|ゆき}", "が", "たぶん", "{降|ふ}るでしょう"]
+  ],
+  "grammar": ["n4_deshou_darou"]
+ },
+ {
+  "id": "n4_sb_039", "level": "N4", "tier": 3,
+  "prompt_en": "I (accidentally) left my umbrella on the train.",
+  "ja_hint": "うっかりしたことを{残念|ざんねん}に{思|おも}う{文|ぶん}",
+  "tiles": ["{電車|でんしゃ}", "に", "{傘|かさ}", "を", "{忘|わす}れてしまいました"],
+  "distractors": ["へ", "が", "{忘|わす}れておきました"],
+  "accepted": [
+   ["{電車|でんしゃ}", "に", "{傘|かさ}", "を", "{忘|わす}れてしまいました"],
+   ["{傘|かさ}", "を", "{電車|でんしゃ}", "に", "{忘|わす}れてしまいました"]
+  ],
+  "grammar": ["n4_te_shimau"]
+ },
+ {
+  "id": "n4_sb_040", "level": "N4", "tier": 3,
+  "prompt_en": "Flowers have been placed on the desk.",
+  "ja_hint": "だれかが{飾|かざ}った{結果|けっか}が{残|のこ}っている{文|ぶん}",
+  "tiles": ["{机|つくえ}", "の", "{上|うえ}", "に", "{花|はな}", "が", "{飾|かざ}ってあります"],
+  "distractors": ["で", "{飾|かざ}っています", "{飾|かざ}りてあります"],
+  "accepted": [
+   ["{机|つくえ}", "の", "{上|うえ}", "に", "{花|はな}", "が", "{飾|かざ}ってあります"],
+   ["{花|はな}", "が", "{机|つくえ}", "の", "{上|うえ}", "に", "{飾|かざ}ってあります"]
+  ],
+  "grammar": ["n4_te_aru"]
+ },
+ {
+  "id": "n4_sb_041", "level": "N4", "tier": 3,
+  "prompt_en": "I make sure not to eat sweets at night.",
+  "ja_hint": "「〜しないように{気|き}をつけている」{文|ぶん}",
+  "tiles": ["{夜|よる}", "は", "{甘|あま}いもの", "を", "{食|た}べないようにしています"],
+  "distractors": ["が", "{食|た}べなくようにしています", "{食|た}べませんようにしています"],
+  "accepted": [["{夜|よる}", "は", "{甘|あま}いもの", "を", "{食|た}べないようにしています"]],
+  "grammar": ["n4_you_ni_suru"]
+ },
+ {
+  "id": "n4_sb_042", "level": "N4", "tier": 3,
+  "prompt_en": "I got caught in the rain on my way home.",
+  "ja_hint": "{困|こま}った{気持|きも}ちを{表|あらわ}す{受身|うけみ}の{文|ぶん}",
+  "tiles": ["{帰|かえ}る", "{途中|とちゅう}", "で", "{雨|あめ}", "に", "{降|ふ}られました"],
+  "distractors": ["が", "{降|ふ}りました", "を"],
+  "accepted": [["{帰|かえ}る", "{途中|とちゅう}", "で", "{雨|あめ}", "に", "{降|ふ}られました"]],
+  "grammar": ["n4_passive"]
+ },
+ {
+  "id": "n4_sb_043", "level": "N4", "tier": 3,
+  "prompt_en": "I've just got home, so I haven't eaten dinner yet.",
+  "ja_hint": "{終|お}わったすぐあとのことを{言|い}う{文|ぶん}",
+  "tiles": ["{今|いま}", "{帰|かえ}ってきたところなので", "まだ", "{夕|ゆう}ご{飯|はん}", "を", "{食|た}べていません"],
+  "distractors": ["{帰|かえ}るところなので", "が", "{食|た}べました"],
+  "accepted": [
+   ["{今|いま}", "{帰|かえ}ってきたところなので", "まだ", "{夕|ゆう}ご{飯|はん}", "を", "{食|た}べていません"],
+   ["{今|いま}", "{帰|かえ}ってきたところなので", "{夕|ゆう}ご{飯|はん}", "を", "まだ", "{食|た}べていません"]
+  ],
+  "grammar": ["n4_tokoro", "n4_node"]
+ },
+ {
+  "id": "n4_sb_044", "level": "N4", "tier": 3,
+  "prompt_en": "I only came here last month, so I can't speak Japanese yet.",
+  "ja_hint": "{来|き}てからあまり{時間|じかん}がたっていないことを{理由|りゆう}にする{文|ぶん}",
+  "tiles": ["{先月|せんげつ}", "{来|き}たばかりなので", "まだ", "{日本語|にほんご}", "が", "{話|はな}せません"],
+  "distractors": ["{来|く}るばかりなので", "で", "{話|はな}せるません"],
+  "accepted": [
+   ["{先月|せんげつ}", "{来|き}たばかりなので", "まだ", "{日本語|にほんご}", "が", "{話|はな}せません"],
+   ["{先月|せんげつ}", "{来|き}たばかりなので", "{日本語|にほんご}", "が", "まだ", "{話|はな}せません"]
+  ],
+  "grammar": ["n4_ta_bakari", "n4_potential"]
+ },
+ {
+  "id": "n4_sb_045", "level": "N4", "tier": 3,
+  "prompt_en": "Please tell me what time the meeting starts.",
+  "ja_hint": "「{何時|なんじ}」の{質問|しつもん}を{文|ぶん}に{入|い}れてたのむ",
+  "tiles": ["{会議|かいぎ}", "が", "{何時|なんじ}", "に", "{始|はじ}まるか", "{教|おし}えてください"],
+  "distractors": ["を", "{始|はじ}まりますか", "{始|はじ}まるかどうか"],
+  "accepted": [
+   ["{会議|かいぎ}", "が", "{何時|なんじ}", "に", "{始|はじ}まるか", "{教|おし}えてください"],
+   ["{何時|なんじ}", "に", "{会議|かいぎ}", "が", "{始|はじ}まるか", "{教|おし}えてください"]
+  ],
+  "grammar": ["n4_embedded_question"]
+ },
+ {
+  "id": "n4_sb_046", "level": "N4", "tier": 3,
+  "prompt_en": "These shoes are too small, so they're hard to walk in.",
+  "ja_hint": "「すぎる」と「にくい」をいっしょに{使|つか}う{文|ぶん}",
+  "tiles": ["この{靴|くつ}", "は", "サイズ", "が", "{小|ちい}さすぎて", "{歩|ある}きにくいです"],
+  "distractors": ["を", "{小|ちい}さいすぎて", "{歩|ある}きやすいです"],
+  "accepted": [["この{靴|くつ}", "は", "サイズ", "が", "{小|ちい}さすぎて", "{歩|ある}きにくいです"]],
+  "grammar": ["n4_sugiru", "n4_yasui_nikui"]
+ }
+]

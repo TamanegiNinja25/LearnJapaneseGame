@@ -68,7 +68,7 @@ func today() -> String:
 
 func default_settings() -> Dictionary:
 	return {"theme": "light", "font": "noto", "english_auto": true, "tts_rate": 1.0, "voice": "", "onboarded": false,
-		"typed_answers": false}
+		"typed_answers": false, "beginner_english": true, "ui_scale": 0.0}
 
 
 func reset() -> void:
@@ -115,12 +115,26 @@ func set_english_mode(mode: int, by_player: bool = true) -> void:
 	save_game()
 
 
+## Beginner help: until the player reaches N4, English is shown everywhere (meanings, UI labels,
+## answer translations) regardless of the assistance mode. Can be switched off in 設定.
+func beginner() -> bool:
+	return stage == &"N5" and bool(setting("beginner_english"))
+
+
 func show_english() -> bool:
-	return english_mode >= EnglishMode.TRANSLATIONS
+	return beginner() or english_mode >= EnglishMode.TRANSLATIONS
 
 
 func show_explanations() -> bool:
-	return english_mode >= EnglishMode.EXPLANATIONS
+	return beginner() or english_mode >= EnglishMode.EXPLANATIONS
+
+
+## UI scale factor: the player's choice, or automatic (larger on touch screens).
+func ui_scale() -> float:
+	var chosen := float(setting("ui_scale"))
+	if chosen > 0.0:
+		return chosen
+	return 1.15 if DisplayServer.is_touchscreen_available() else 1.0
 
 
 # ---------------------------------------------------------------- samples & scores
