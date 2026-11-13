@@ -77,6 +77,11 @@ func snap_camera(yaw: float = _yaw) -> void:
 	camera.position = Vector3(0, 0, CAMERA_DISTANCE)
 
 
+## Turn the camera by a screen-space drag distance (used by the touch controls).
+func rotate_camera(drag_x: float) -> void:
+	_yaw -= drag_x * 0.006
+
+
 func _unhandled_input(event: InputEvent) -> void:
 	var mb := event as InputEventMouseButton
 	if mb != null and mb.button_index == MOUSE_BUTTON_RIGHT:

@@ -15,13 +15,21 @@ func _ready() -> void:
 		make_column()
 		column.add_child(UITheme.ja("{町|まち}のデータがありません。", UITheme.SIZE_BODY))
 		return
+	# The menus run in low-processor mode (redraw only on change). The 3D town must redraw
+	# every frame, otherwise its SubViewport is never presented on some devices.
+	OS.low_processor_usage_mode = false
+	tree_exiting.connect(func() -> void: OS.low_processor_usage_mode = true)
 	var container := SubViewportContainer.new()
 	container.stretch = true
 	container.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(container)
 	var vp := SubViewport.new()
 	vp.handle_input_locally = true
-	vp.msaa_3d = Viewport.MSAA_2X
+	vp.render_target_update_mode = SubViewport.UPDATE_ALWAYS
+	# MSAA on a SubViewport fails silently on many GLES3 (Compatibility) Android GPUs: the
+	# viewport renders nothing. Only enable it on the desktop renderers.
+	if RenderingServer.get_current_rendering_method() != "gl_compatibility":
+		vp.msaa_3d = Viewport.MSAA_2X
 	container.add_child(vp)
 	_town = (load(TOWN_SCENE) as PackedScene).instantiate()
 	vp.add_child(_town)
@@ -39,8 +47,61 @@ func _ready() -> void:
 	var v := UITheme.vbox(4)
 	hud.add_child(v)
 	v.add_child(UITheme.ja("{町|まち}を{歩|ある}いて、{人|ひと}に{話|はな}しかけましょう。", UITheme.SIZE_LABEL))
+	var touch: bool = DisplayServer.is_touchscreen_available() or args.get("touch", false)
 	if Progress.show_english():
-		v.add_child(UITheme.en("WASD / stick to walk · Shift to run · E / Ⓐ to talk · Esc to leave", UITheme.SIZE_LABEL))
+		var hint := "Joystick to walk · drag the right side to look · 話す to talk" if touch 			else "WASD / stick to walk · Shift to run · E / Ⓐ to talk · Esc to leave"
+		v.add_child(UITheme.en(hint, UITheme.SIZE_LABEL))
+	if touch:
+		_add_touch_controls()
+
+
+## Phone/tablet controls: joystick (bottom left), camera drag (right half), talk and exit buttons.
+func _add_touch_controls() -> void:
+	var look := Control.new()
+	look.anchor_left = 0.5
+	look.anchor_right = 1.0
+	look.anchor_top = 0.0
+	look.anchor_bottom = 1.0
+	look.mouse_filter = Control.MOUSE_FILTER_PASS
+	look.gui_input.connect(func(e: InputEvent) -> void:
+		if e is InputEventScreenDrag:
+			var player: Node = _town.call("get_player")
+			if player:
+				player.call("rotate_camera", (e as InputEventScreenDrag).relative.x))
+	add_child(look)
+
+	var stick := TouchStick.new()
+	stick.anchor_left = 0.0
+	stick.anchor_top = 1.0
+	stick.anchor_bottom = 1.0
+	stick.offset_left = 24
+	stick.offset_top = -stick.custom_minimum_size.y - 24
+	stick.offset_right = 24 + stick.custom_minimum_size.x
+	stick.offset_bottom = -24
+	add_child(stick)
+
+	var talk := UITheme.button("話す")
+	talk.custom_minimum_size = Vector2(140, 96)
+	talk.anchor_left = 1.0
+	talk.anchor_right = 1.0
+	talk.anchor_top = 1.0
+	talk.anchor_bottom = 1.0
+	talk.offset_left = -164
+	talk.offset_top = -120
+	talk.offset_right = -24
+	talk.offset_bottom = -24
+	talk.pressed.connect(func() -> void: _town.call("try_interact"))
+	add_child(talk)
+
+	var leave := UITheme.button("ホームへ", false)
+	leave.anchor_left = 1.0
+	leave.anchor_right = 1.0
+	leave.offset_left = -180
+	leave.offset_top = 16
+	leave.offset_right = -16
+	leave.offset_bottom = 64
+	leave.pressed.connect(func() -> void: go(&"dashboard"))
+	add_child(leave)
 
 
 func _unlocked() -> Array:

@@ -44,6 +44,8 @@ var _overlay: Control
 
 
 func _ready() -> void:
+	# Android back gesture: go back to ホーム, and only leave the app from ホーム.
+	get_tree().quit_on_go_back = false
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	_apply_settings()
 	_build()
@@ -162,6 +164,14 @@ func show_screen(name: StringName, args: Dictionary = {}) -> void:
 		else:
 			UITheme.set_tile(b, UITheme.SURFACE, UITheme.SURFACE)
 			ic.modulate = UITheme.TEXT_SECONDARY
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_WM_GO_BACK_REQUEST:
+		if _current == &"dashboard":
+			get_tree().quit()
+		else:
+			show_screen(&"dashboard")
 
 
 func _on_settings_changed() -> void:

@@ -57,10 +57,28 @@ python tools/check_ui_text.py game/scripts game/world
 The import is needed once per fresh checkout. Every command exits non-zero on failure;
 CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs all of them.
 
+## Android (APK)
+
+A debug-signed APK for sideloading is built with the "Android" export preset:
+
+```bash
+godot --headless --path game --export-debug "Android" ../build/android/NihongoNoSekai.apk
+```
+
+It needs Godot's Android export templates, the Android SDK build tools and a JDK configured in
+Godot's editor settings (Editor › Editor Settings › Export › Android). To install it on a phone,
+copy the APK over and allow "Install unknown apps" for your file manager, or run
+`adb install NihongoNoSekai.apk`. Requires Android 7.0 or newer (arm64 or x86_64).
+
+On touch screens the town shows a joystick, a 話す (talk) button and drag-to-look on the right
+half; Android's back gesture returns to ホーム. Listening uses the phone's text-to-speech, so
+install a Japanese voice (Google Speech Services › Japanese) for the 聴解 screen. A Play Store
+release would need your own release keystore instead of the debug key.
+
 ## Build releases
 
 Push a tag such as `v0.2.0` and [release.yml](.github/workflows/release.yml) exports Windows,
-Linux and Web builds as workflow artifacts. The Web build can be uploaded to itch.io as an HTML5
+Linux, Web and Android (debug APK) builds as workflow artifacts. The Web build can be uploaded to itch.io as an HTML5
 game. Presets live in `game/export_presets.cfg`.
 
 ## Add content
