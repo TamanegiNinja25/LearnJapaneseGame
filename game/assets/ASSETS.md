@@ -51,6 +51,8 @@ Shared project files that belong to no pack:
 |---|---|
 | `game/assets/kaykit_adventurers/bone_map_rig_medium.tres` | Hand-built Godot bone map (Rig_Medium → `SkeletonProfileHumanoid`) used to retarget Quaternius clips onto KayKit characters. Authored by us; reused by every KayKit character import. |
 | `game/assets/env_jp/` | Our in-house Japanese signature props (roofs, shoji, noren, vending machine, utility pole, …) and their atlas `env_jp_atlas.png`. Original work; project licence. |
+| `tools/icon/app_icon_source.png` | The application icon (torii, Mt Fuji, open book with 日本語), supplied by the project owner. Source for every icon below; not imported by Godot. |
+| `game/icon.png`, `game/assets/app_icon/` | Generated from the source by `tools/make_app_icons.gd`: the project icon (window, Windows `.exe`, Web favicon, boot splash) and the Android legacy, adaptive (foreground and background) and themed monochrome launcher icons. Regenerate instead of editing by hand. |
 
 Not yet in the folder, to be evaluated later for Phase 2 (see `docs/ART_BIBLE.md` §3.2): further
 KayKit "Bits" packs (kaylousberg.itch.io), Kenney city/furniture/train kits (kenney.nl), and

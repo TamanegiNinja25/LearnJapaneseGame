@@ -82,6 +82,10 @@ half; Android's back gesture returns to ホーム. Listening uses the phone's te
 install a Japanese voice (Google Speech Services › Japanese) for the 聴解 screen. A Play Store
 release would need your own release keystore instead of the debug key.
 
+The app icon's source is `tools/icon/app_icon_source.png`. After replacing it, regenerate the
+project and Android launcher icons with
+`godot --headless --path game --script ../tools/make_app_icons.gd`.
+
 ## Build releases
 
 Push a tag such as `v0.2.0` and [release.yml](.github/workflows/release.yml) exports Windows,
