@@ -34,6 +34,7 @@ var skills: Dictionary = {}       # StringName -> {perf, n}
 var words: Dictionary = {}        # word_id -> Mastery.new_word() + {"srs": bool}
 var kana: Dictionary = {}         # kana char -> {"streak": int}
 var grammar: Dictionary = {}      # grammar id -> {"attempts", "correct", "lesson_done"}
+var writing: Dictionary = {}      # kanji -> {"traced", "written", "clean"} (clean = from memory, no mistakes)
 var scenarios: Dictionary = {}    # scenario id -> {"completions", "best"}
 var prompts: Dictionary = {}      # prompt id -> {"attempts", "best_c"}
 var assessments: Array = []       # [{date, stage, sections, passed, items}]
@@ -84,6 +85,7 @@ func reset() -> void:
 	words = {}
 	kana = {}
 	grammar = {}
+	writing = {}
 	scenarios = {}
 	prompts = {}
 	assessments = []
@@ -177,6 +179,15 @@ func coverage(skill: StringName) -> float:
 			var n := 0
 			for k in chars:
 				if learned_chars.has(k["kanji"]):
+					n += 1
+			return float(n) / chars.size()
+		&"writing":
+			var chars := ContentDB.stage_items("kanji", stage)
+			if chars.is_empty():
+				return 1.0
+			var n := 0
+			for k in chars:
+				if int(writing.get(k["kanji"], {}).get("clean", 0)) > 0:
 					n += 1
 			return float(n) / chars.size()
 		&"grammar":
@@ -430,6 +441,29 @@ func record_kana(ch: String, correct: bool) -> void:
 		add_xp(Mastery.XP[&"kana"])
 
 
+## One kanji finished on the writing pad. [param from_memory] false = traced over the guide.
+## Returns the correctness that was recorded (Mastery.writing_correctness).
+func record_writing(ch: String, from_memory: bool, mistakes: int, stroke_count: int) -> float:
+	var w: Dictionary = writing.get(ch, {"traced": 0, "written": 0, "clean": 0})
+	var c := Mastery.writing_correctness(mistakes, stroke_count)
+	var activity := &"kanji_writing" if from_memory else &"kanji_tracing"
+	w["written" if from_memory else "traced"] = int(w.get("written" if from_memory else "traced", 0)) + 1
+	if from_memory and mistakes == 0:
+		w["clean"] = int(w.get("clean", 0)) + 1
+	writing[ch] = w
+	record_sample(activity, c)
+	if c > 0.0:
+		add_xp(roundi(Mastery.XP[activity] * c))
+	bump_daily("kanji_written")
+	save_game()
+	return c
+
+
+## Times [param ch] was written from memory without a mistake.
+func writing_clean(ch: String) -> int:
+	return int(writing.get(ch, {}).get("clean", 0))
+
+
 ## Share of the core kana (basic, dakuten, handakuten in both scripts) answered correctly at
 ## least twice in a row. Yōon are practised but not required.
 func kana_mastery() -> float:
@@ -573,7 +607,7 @@ func to_dict() -> Dictionary:
 	return {
 		"version": SAVE_VERSION, "stage": String(stage), "xp": xp, "english_mode": english_mode,
 		"settings": settings, "skills": _stringify_keys(skills), "words": words, "kana": kana,
-		"grammar": grammar, "scenarios": scenarios, "prompts": prompts, "assessments": assessments,
+		"grammar": grammar, "writing": writing, "scenarios": scenarios, "prompts": prompts, "assessments": assessments,
 		"cooldown_until": cooldown_until, "consecutive_fails": consecutive_fails, "daily": daily,
 		"study_days": study_days, "recommend_history": recommend_history, "recommend_roll": recommend_roll, "cleared_stages": cleared_stages,
 		"recent_samples": recent_samples, "reports": reports,
@@ -605,6 +639,7 @@ func from_dict(data: Dictionary) -> void:
 		words[id] = base
 	kana = data.get("kana", {})
 	grammar = data.get("grammar", {})
+	writing = data.get("writing", {})
 	scenarios = data.get("scenarios", {})
 	prompts = data.get("prompts", {})
 	assessments = data.get("assessments", [])

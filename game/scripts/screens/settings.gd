@@ -90,6 +90,7 @@ func _ready() -> void:
 		"3D assets: KayKit by Kay Lousberg, CC0",
 		"Fonts: Noto Sans JP, BIZ UDPGothic — SIL Open Font License 1.1",
 		"Icons: Tabler Icons — MIT",
+		"Stroke order: KanjiVG © Ulrich Apel and contributors, CC BY-SA 3.0 (kanjivg.tagaini.net)",
 		"Engine: Godot Engine — MIT",
 	]:
 		column.add_child(UITheme.label(line, UITheme.SIZE_CAPTION, UITheme.TEXT_SECONDARY))

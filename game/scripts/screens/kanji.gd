@@ -91,6 +91,11 @@ func _show(k: Dictionary) -> void:
 	v.add_child(UITheme.ja("{画数|かくすう}：%d　レベル：%s" % [int(k["strokes"]), k.get("level", "")], UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
 	if Progress.show_explanations():
 		v.add_child(UITheme.en("Meaning: " + ", ".join(k["meanings"])))
+	if not ContentDB.strokes(k["kanji"]).is_empty():
+		var write := UITheme.button("書く練習", false)
+		write.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+		write.pressed.connect(func() -> void: go(&"writing", {"kanji": k["kanji"]}))
+		v.add_child(write)
 	var words: Array = k["words"]
 	if not words.is_empty():
 		v.add_child(UITheme.ja("この{漢字|かんじ}を{使|つか}う{言葉|ことば}", UITheme.SIZE_LABEL))

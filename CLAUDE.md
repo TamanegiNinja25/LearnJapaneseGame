@@ -15,6 +15,7 @@ python tools/validate_content.py game/content                      # content sch
 python tools/check_ui_text.py game/scripts game/world              # UI strings: no bare kanji
 python tools/check_tsv.py tools/wordlists/n5/*.tsv                 # word lists (readings need JMdict)
 python tools/bake_content.py --report                              # TSV + JMdict + KANJIDIC2 -> JSON
+python tools/bake_strokes.py                                       # KanjiVG -> strokes_<stage>.json
 godot --path game                                                  # run the game
 ```
 
@@ -24,7 +25,8 @@ the repo. CI runs the test, validate and UI-text commands on every push.
 ## Architecture rules
 
 - **Pure rules in `game/scripts/core/`** (`Mastery`, `Srs`, `Quests`, `Recommender`,
-  `ExamBuilder`, `SentenceCheck`, `AnswerMatch`, `Romaji`, `Furigana`): static functions, no node
+  `ExamBuilder`, `SentenceCheck`, `AnswerMatch`, `Romaji`, `Furigana`, `StrokeMatch`,
+  `UpdateCheck`): static functions, no node
   access, no I/O. Every rule change gets a test in `game/tests/test_runner.gd`. `Speech` wraps
   the OS text-to-speech and is safe without a voice.
 - **Two autoloads only.** `ContentDB` loads JSON (read-only, per stage). `Progress` owns the

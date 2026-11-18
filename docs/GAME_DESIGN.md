@@ -182,7 +182,7 @@ A typical 10-minute session:
 | 5 | N1 上級 | all six | later phase |
 | 6 | Mastery 完全習得 | 会話-weighted; see §12 | later phase |
 
-### 5.2 Six skill scores (0–100)
+### 5.2 Skill scores (0–100): six gated skills plus optional 書き
 
 Each skill `k` keeps `perf_k` (exponential moving average of correctness, 0–1), `n_k` (sample
 count) and, for inventory skills, `cov_k` (coverage).
@@ -202,6 +202,12 @@ score_k = round(100 · (covw_k · cov_k + (1 − covw_k) · perf_k · confidence
 | 読解 | 0 | — |
 | 会話 | 0 | — |
 | 聴解 | 0 | — |
+| 書き | 0.5 | share of stage kanji written from memory with no mistake at least once |
+
+書き (writing, added 2026-11-19) is optional like 聴解 before N4: it is in no gate, so it never
+blocks an exam. Its samples come from the writing pad (§10.3): tracing `{書き: 0.5}`, writing
+from memory `{書き: 1.0, 漢字: 0.3}`, with c = 1 for no mistakes, 0.5 for up to 1 + strokes/5
+mistakes, else 0. XP: 5 per traced kanji, 15 per kanji written from memory (scaled by c).
 
 Worked example: 語彙 with 420/700 words Learned (cov 0.6), perf 0.82, n 90 → 100·(0.3 + 0.5·0.82·1) = 71.
 
@@ -483,6 +489,25 @@ The same skill → activity mapping powers the tappable skill rows on the Dashbo
 - Review question type by weakest dimension (§6.4); kanji reading forced when 漢字 is the weakest skill.
 - Grammar point selection: lowest `correct` count first; prerequisites (`requires`) must have ≥ 3 correct.
 - Multiple-choice option count: 3 while a skill score < 30, otherwise 4.
+
+### 10.3 Writing practice (書き)
+
+- Stroke data: KanjiVG (CC BY-SA 3.0), baked by `tools/bake_strokes.py` into
+  `strokes_<stage>.json` (109 × 109 box, strokes in order, each in its writing direction).
+- Kanji order: the stage's kanji list; the next one is the first not yet written cleanly from
+  memory. The 漢字 screen's 書く練習 button opens a specific kanji.
+- Modes: なぞる traces over a faint model with the next stroke's start marked; 見ないで書く
+  shows only the readings, the meaning and a word that uses the kanji (as kana). A kanji is
+  traced the first time and written from memory afterwards; after tracing, 見ないでもう一度
+  repeats it from memory straight away.
+- Judging (`StrokeMatch`): strokes must come in order. Drawn and model strokes are resampled to
+  24 points; the mean distance must be ≤ 17 units, the ends within 26 units and the length within
+  0.45–2× (so shape, position and direction all count). Strokes under 14 units are dots and only
+  need the right place. A stroke that matches the reversed model is reported as "wrong
+  direction". A tap is ignored.
+- Mistakes: the first miss on a stroke counts one mistake and flashes the stroke red; the second
+  miss shows the stroke as a hint. ヒント shows it at once (one mistake). 書き順を見る animates
+  the stroke order without penalty.
 
 ## 11. Content data model
 

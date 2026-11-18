@@ -5,16 +5,19 @@ class_name Mastery
 ## unit-tested headlessly in tests/test_runner.gd.
 
 
-## The six tracked skills, in dashboard order. Keys are also used in the save file.
-const SKILLS: Array[StringName] = [&"vocab", &"grammar", &"reading", &"listening", &"conversation", &"kanji"]
+## The tracked skills, in dashboard order. Keys are also used in the save file. Writing (書き,
+## added 2026-11-19) is optional like listening: it is in no gate, so exams are unchanged.
+const SKILLS: Array[StringName] = [&"vocab", &"grammar", &"reading", &"listening", &"conversation", &"kanji", &"writing"]
 
 const SKILL_LABEL_JA := {
 	&"vocab": "{語彙|ごい}", &"grammar": "{文法|ぶんぽう}", &"reading": "{読解|どっかい}",
 	&"listening": "{聴解|ちょうかい}", &"conversation": "{会話|かいわ}", &"kanji": "{漢字|かんじ}",
+	&"writing": "{書|か}き",
 }
 const SKILL_LABEL_EN := {
 	&"vocab": "Vocabulary", &"grammar": "Grammar", &"reading": "Reading",
 	&"listening": "Listening", &"conversation": "Conversation", &"kanji": "Kanji",
+	&"writing": "Writing",
 }
 
 ## Stages in order. Content exists for N5 only in Phase 1; later stages are gated but empty.
@@ -43,7 +46,7 @@ const EXAM_PASS_XP := 1000
 const ALPHA := 0.08
 const CONFIDENCE_SAMPLES := 30.0
 ## Coverage weight per skill: inventory skills blend coverage 50/50 with performance.
-const COVERAGE_WEIGHT := {&"vocab": 0.5, &"kanji": 0.5, &"grammar": 0.5, &"reading": 0.0, &"listening": 0.0, &"conversation": 0.0}
+const COVERAGE_WEIGHT := {&"vocab": 0.5, &"kanji": 0.5, &"grammar": 0.5, &"reading": 0.0, &"listening": 0.0, &"conversation": 0.0, &"writing": 0.5}
 ## A grammar point counts as covered after this many correct answers.
 const GRAMMAR_COVERED_AT := 3
 ## Assessment samples weigh more than practice samples.
@@ -74,11 +77,15 @@ const ACTIVITY_WEIGHTS := {
 	&"anchor_vocab": {&"vocab": 1.0},
 	&"anchor_kanji": {&"kanji": 1.0},
 	&"anchor_listening": {&"listening": 1.0},
+	# Writing practice (GDD §10.3): tracing teaches the strokes, writing from memory proves them.
+	&"kanji_tracing": {&"writing": 0.5},
+	&"kanji_writing": {&"writing": 1.0, &"kanji": 0.3},
 }
 
 ## XP per item (GDD §5.5).
 const XP := {&"kana": 2, &"review": 5, &"sentence": 20, &"sentence_hinted": 10, &"scenario_turn": 15,
-	&"grammar_quiz": 10, &"scenario_complete": 200, &"daily_assessment": 250, &"listening": 5, &"passage": 10}
+	&"grammar_quiz": 10, &"scenario_complete": 200, &"daily_assessment": 250, &"listening": 5, &"passage": 10,
+	&"kanji_tracing": 5, &"kanji_writing": 15}
 
 ## Mastered words keep their rank on a single lapse; a second lapse within this window demotes
 ## them (GDD §13 question 5, resolved 2026-11-12).
@@ -172,6 +179,16 @@ static func skills_by_gap(scores: Dictionary, stage: StringName) -> Array[String
 # ---------------------------------------------------------------- XP
 
 ## Level L needs 500 * L * (L - 1) cumulative XP: L2 at 1000, L5 at 10000, L10 at 45000.
+## Correctness of one written kanji from its stroke mistakes (a mistake = a stroke that needed a
+## second try or the hint): clean = 1, a few slips = 0.5, otherwise 0.
+static func writing_correctness(mistakes: int, stroke_count: int) -> float:
+	if mistakes <= 0:
+		return 1.0
+	if mistakes <= 1 + stroke_count / 5:
+		return 0.5
+	return 0.0
+
+
 static func level_for_xp(xp: int) -> int:
 	return int(floor((1.0 + sqrt(1.0 + float(xp) / 125.0)) / 2.0))
 

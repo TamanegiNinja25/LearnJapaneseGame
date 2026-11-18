@@ -5,6 +5,8 @@ Python 3.10+, no third-party packages. Formats are defined in `docs/CONTENT_GUID
 | Script | What it does |
 |---|---|
 | `bake_content.py` | Reads `wordlists/<stage>/*.tsv`, adds JMdict English glosses, writes `game/content/vocab_<stage>.json`, `kanji_<stage>.json` (from KANJIDIC2) and `kana.json`. `--report` lists stage kanji no word uses yet. |
+| `bake_strokes.py` | Reads KanjiVG (`data/kanjivg.xml.gz`) and writes `game/content/strokes_<stage>.json` for the writing practice: each stage kanji's strokes as polylines in the 109 box. |
+| `make_app_icons.gd` | Godot script: builds the app and Android launcher icons from `icon/app_icon_source.png`. |
 | `check_tsv.py` | Checks word lists: columns, categories, furigana markup (errors); reading plausibility against JMdict/KANJIDIC2, duplicates across stages, examples missing the word (warnings). |
 | `validate_content.py` | Validates every JSON file in `game/content/` (CI). `--file <name>` checks one file. |
 | `check_ui_text.py` | Scans GDScript for literal UI strings that would show a kanji without furigana (CI). |
@@ -22,7 +24,11 @@ The raw dictionaries are git-ignored; only baked JSON ships.
   translation and reading checks are skipped.
 - **KANJIDIC2**: `tools/data/kanjidic2-en.json.zip` from the same jmdict-simplified releases.
 
-Both are © the Electronic Dictionary Research and Development Group, used under CC BY-SA 4.0
+- **KanjiVG**: `tools/data/kanjivg.xml.gz`, the `kanjivg-<date>.xml.gz` file from
+  https://github.com/KanjiVG/kanjivg/releases. © Ulrich Apel and contributors, CC BY-SA 3.0
+  (http://kanjivg.tagaini.net). Only the baked strokes ship.
+
+JMdict and KANJIDIC2 are © the Electronic Dictionary Research and Development Group, used under CC BY-SA 4.0
 (https://www.edrdg.org/edrdg/licence.html).
 
 ## JLPT levels for kanji

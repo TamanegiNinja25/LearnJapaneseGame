@@ -33,6 +33,8 @@ const TESTS: Array[String] = [
 	"test_recommender_rules",
 	"test_recommender_shuffle",
 	"test_update_check",
+	"test_stroke_match",
+	"test_writing_progress",
 	"test_content_loads",
 	"test_content_stages",
 	"test_exam_builder",
@@ -399,6 +401,58 @@ func test_update_check() -> bool:
 	release["prerelease"] = true
 	assert_eq(UpdateCheck.from_release(release), {}, "pre-releases are ignored")
 	assert_eq(UpdateCheck.from_release({"message": "API rate limit exceeded"}), {}, "error body is ignored")
+	return true
+
+
+func test_stroke_match() -> bool:
+	var hi: Array[PackedVector2Array] = content.strokes("日")
+	assert_eq(hi.size(), 4, "日 has four strokes")
+	assert_true(content.strokes("国").size() == 8, "国 has eight strokes")
+	assert_true(content.strokes("ゞ").is_empty(), "no data -> no strokes")
+	var first := hi[0]
+	assert_true(StrokeMatch.judge(first, first)["ok"], "the model stroke matches itself")
+	var wobbly := PackedVector2Array()
+	for i in StrokeMatch.resample(first).size():
+		var p := StrokeMatch.resample(first)[i]
+		wobbly.append(p + Vector2(5.0 + 3.0 * sin(i * 0.6), 4.0))
+	assert_true(StrokeMatch.judge(wobbly, first)["ok"], "a shaky, shifted hand-drawn stroke still matches")
+	var backwards := first.duplicate()
+	backwards.reverse()
+	assert_eq(StrokeMatch.judge(backwards, first)["reason"], "direction", "drawn backwards -> direction")
+	assert_eq(StrokeMatch.judge(hi[2], first)["reason"], "shape", "a horizontal stroke is not the vertical one")
+	assert_true(not StrokeMatch.judge(hi[3], hi[2])["ok"], "the bottom bar is not the middle bar (position counts)")
+	assert_eq(StrokeMatch.judge(PackedVector2Array([Vector2(30, 30), Vector2(30.5, 30)]), first)["reason"], "short", "a tap is ignored")
+	var dot := PackedVector2Array([Vector2(50, 50), Vector2(53, 55), Vector2(55, 60)])
+	assert_true(StrokeMatch.judge(PackedVector2Array([Vector2(48, 50), Vector2(52, 57)]), dot)["ok"], "dots only need the right place")
+	assert_true(not StrokeMatch.judge(PackedVector2Array([Vector2(10, 90), Vector2(14, 95)]), dot)["ok"], "a dot in the wrong place fails")
+	assert_eq(StrokeMatch.resample(first, 10).size(), 10, "resample count")
+	assert_true(absf(StrokeMatch.length(StrokeMatch.resample(first, 40)) - StrokeMatch.length(first)) < 2.0, "resampling keeps the length")
+	assert_eq(StrokeMatch.to_box(PackedVector2Array([Vector2(218, 109)]), 218.0)[0], Vector2(109, 54.5), "pad -> box")
+	return true
+
+
+func test_writing_progress() -> bool:
+	assert_eq(Mastery.writing_correctness(0, 4), 1.0, "clean")
+	assert_eq(Mastery.writing_correctness(1, 4), 0.5, "one slip on a short kanji")
+	assert_eq(Mastery.writing_correctness(2, 4), 0.0, "two slips on four strokes")
+	assert_eq(Mastery.writing_correctness(3, 12), 0.5, "longer kanji allow more slips")
+	assert_true(Mastery.SKILLS.has(&"writing"), "writing is a skill")
+	assert_true(not (Mastery.GATES[&"N5"] as Dictionary).has(&"writing"), "writing is optional (no gate)")
+	fresh_progress()
+	var before: int = progress.xp
+	progress.record_writing("日", false, 0, 4)
+	assert_eq(progress.writing["日"]["traced"], 1, "tracing counted")
+	assert_eq(progress.writing_clean("日"), 0, "tracing is not a clean write")
+	assert_eq(progress.coverage(&"writing"), 0.0, "no coverage from tracing")
+	progress.record_writing("日", true, 0, 4)
+	assert_eq(progress.writing_clean("日"), 1, "clean from memory")
+	assert_true(progress.coverage(&"writing") > 0.0, "coverage after a clean write")
+	assert_true(progress.xp > before, "writing earns XP")
+	assert_true(progress.scores()[&"writing"] > 0, "writing score rises")
+	progress.from_dict(JSON.parse_string(JSON.stringify(progress.to_dict())))
+	assert_eq(progress.writing_clean("日"), 1, "writing survives a save")
+	var rec := Recommender.for_skill(&"writing", {})
+	assert_eq(rec["screen"], Recommender.WRITING, "writing skill -> writing screen")
 	return true
 
 

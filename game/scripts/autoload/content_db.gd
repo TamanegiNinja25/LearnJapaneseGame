@@ -4,7 +4,7 @@ extends Node
 ## stage is merged. Content is read-only; player state lives in the Progress autoload.
 
 const CONTENT_DIR := "res://content/"
-const KINDS: Array[String] = ["vocab", "kanji", "grammar", "sentences", "scenarios", "passages", "anchors"]
+const KINDS: Array[String] = ["vocab", "kanji", "strokes", "grammar", "sentences", "scenarios", "passages", "anchors"]
 const STAGE_KEYS := {&"N5": "n5", &"N4": "n4", &"N3": "n3", &"N2": "n2", &"N1": "n1", &"MASTERY": "mastery"}
 
 var kana: Dictionary = {}
@@ -25,6 +25,7 @@ var _vocab_by_headword: Dictionary = {}
 var _grammar_by_id: Dictionary = {}
 var _scenario_by_id: Dictionary = {}
 var _kanji_by_char: Dictionary = {}
+var _strokes_by_char: Dictionary = {}  # kanji -> Array of PackedVector2Array (KanjiVG 109 box)
 
 
 func _ready() -> void:
@@ -67,6 +68,9 @@ func load_all() -> void:
 	_kanji_by_char.clear()
 	for k in kanji:
 		_kanji_by_char[k["kanji"]] = k
+	_strokes_by_char.clear()
+	for k in _merged("strokes"):
+		_strokes_by_char[k["kanji"]] = k["strokes"]
 
 
 # ---------------------------------------------------------------- stage views
@@ -129,6 +133,17 @@ func scenario(id: String) -> Dictionary:
 
 func kanji_info(ch: String) -> Dictionary:
 	return _kanji_by_char.get(ch, {})
+
+
+## The kanji's strokes in writing order (KanjiVG, 109 x 109 box), or [] without data.
+func strokes(ch: String) -> Array[PackedVector2Array]:
+	var out: Array[PackedVector2Array] = []
+	for flat: Array in _strokes_by_char.get(ch, []):
+		var pts := PackedVector2Array()
+		for i in range(0, flat.size() - 1, 2):
+			pts.append(Vector2(float(flat[i]), float(flat[i + 1])))
+		out.append(pts)
+	return out
 
 
 ## Case-insensitive substring search over headword, reading and English, limited to [param pool].

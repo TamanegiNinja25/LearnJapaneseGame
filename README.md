@@ -1,7 +1,8 @@
 # 日本語の世界 — LearnJapaneseGame
 
 A Japanese-first language-learning RPG. You level up from N5 to N1 and on to Mastery by proving
-proficiency across six skills (語彙・文法・読解・聴解・会話・漢字), not by grinding XP. Every kanji
+proficiency across six skills (語彙・文法・読解・聴解・会話・漢字), not by grinding XP, with optional
+kanji writing practice (書き) on top. Every kanji
 carries furigana, every word has an original Japanese definition first and a short English
 explanation second, and English assistance shrinks as you advance.
 
@@ -12,12 +13,13 @@ hand-curated.
 
 | Screen | What it does |
 |---|---|
-| ホーム Dashboard | Stage, six skill bars against the gate thresholds, streak, counters, today's quests, the recommended next activity |
+| ホーム Dashboard | Stage, skill bars against the gate thresholds (書き is optional), tap a skill to practise it, streak, counters, today's quests, the recommended next activity |
 | 町 Town | A walkable low-poly 3D town (KayKit assets). Talk to people at 8 locations that unlock by stage |
 | かな Kana | Hiragana and katakana rounds, including yōon, with audio |
 | 辞書 Dictionary | 1,951 words across N5–Mastery, search by kana, kanji, romaji or English. 学習する adds a word to reviews within a daily budget |
 | 復習 Review | Leitner spaced repetition: recognition, typed recall, kanji reading and usage questions; missed words return in the same session |
 | 漢字 Kanji | The stage's kanji (103 at N5) with readings, meanings, stroke counts and the words that use them |
+| 書き Writing | Write kanji stroke by stroke with a finger or the mouse: trace over a model (なぞる) or write from the readings and a word (見ないで書く). Each stroke is checked for order, shape and direction; 書き順を見る animates the stroke order |
 | 文法 Grammar | 145 grammar lessons, each with an explanation and a 6-question quiz |
 | 文を作る Sentence builder | Word tiles with distractors in three tiers, particle-specific feedback, hints |
 | 会話 Conversation | 27 scenarios with 正解 / 惜しい / 不正解 answers, spoken NPC lines, and an optional typed-answer mode |
@@ -132,5 +134,6 @@ tools/           Python content pipeline and checks
 ## Licences
 
 Code and original content: MIT ([LICENSE](LICENSE)). Dictionary data derived from JMdict and
-KANJIDIC2 is © EDRDG under CC BY-SA 4.0. KayKit assets are CC0. Fonts are SIL OFL 1.1. Icons are
+KANJIDIC2 is © EDRDG under CC BY-SA 4.0. Stroke-order data is from KanjiVG (© Ulrich Apel and
+contributors, CC BY-SA 3.0, http://kanjivg.tagaini.net). KayKit assets are CC0. Fonts are SIL OFL 1.1. Icons are
 Tabler (MIT). Full attribution: [game/assets/ASSETS.md](game/assets/ASSETS.md).

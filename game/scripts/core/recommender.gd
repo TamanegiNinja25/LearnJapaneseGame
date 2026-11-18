@@ -26,6 +26,7 @@ const CONVERSATION := &"conversation"
 const ASSESSMENT := &"assessment"
 const KANJI := &"kanji"
 const LISTENING := &"listening"
+const WRITING := &"writing"
 
 const REASON := {
 	"kana": "まずはかなを{覚|おぼ}えましょう。",
@@ -40,6 +41,7 @@ const REASON := {
 	"conversation": "{会話|かいわ}で{使|つか}ってみましょう。",
 	"kanji": "{漢字|かんじ}を{覚|おぼ}えましょう。",
 	"listening": "{日本語|にほんご}を{聞|き}いてみましょう。",
+	"writing": "{漢字|かんじ}を{書|か}いて{覚|おぼ}えましょう。",
 }
 ## Put before the reason when the suggestion was shuffled after REPEAT_LIMIT identical attempts.
 const SHUFFLED_REASON := "{気分転換|きぶんてんかん}に、{別|べつ}の{練習|れんしゅう}をしましょう。"
@@ -130,6 +132,8 @@ static func _for_skill(skill: StringName, s: Dictionary) -> Dictionary:
 			return _out(KANJI, "", "kanji")
 		&"listening":
 			return _out(LISTENING, "", "listening")
+		&"writing":
+			return _out(WRITING, "", "writing")
 	return _out(DICTIONARY, "", "vocab")
 
 

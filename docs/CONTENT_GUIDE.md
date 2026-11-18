@@ -181,12 +181,25 @@ One sentence, many questions (GDD §9.2). Each anchor has **at least 4** variant
 `conversation`, `vocab`, `kanji`). For `rewrite` and `same_pattern`, the options are full
 sentences.
 
+## Stroke data — `game/content/strokes_<stage>.json`
+
+Generated, never edited by hand: `python tools/bake_strokes.py` reads `tools/data/kanjivg.xml.gz`
+(a KanjiVG release, git-ignored) and the stage's `kanji_<stage>.json`.
+
+```json
+{"kanji": "日", "strokes": [[31.5, 24.5, 33.2, 89.5], ...]}
+```
+
+Each stroke is a flat `[x0, y0, x1, y1, ...]` list in KanjiVG's 109 × 109 box, one decimal, in
+writing order and writing direction. Re-run the bake after the kanji lists change.
+
 ## Commands
 
 ```bash
 python tools/check_tsv.py tools/wordlists/n5/*.tsv          # word lists
 python tools/validate_content.py game/content --file grammar_n5.json   # one JSON file
 python tools/bake_content.py --report                       # rebuild vocab/kanji JSON (maintainers)
+python tools/bake_strokes.py                                # rebuild stroke data from KanjiVG
 python tools/validate_content.py game/content               # everything (what CI runs)
 ```
 

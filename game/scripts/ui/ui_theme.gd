@@ -14,8 +14,8 @@ const LIGHT := {
 	"primary": "#C4521F", "primary_hover": "#A8441A", "primary_tint": "#FBE9DD", "on_primary": "#FFFDF8",
 	"correct": "#2F7D5B", "correct_tint": "#E1F1E8", "incorrect": "#B83A4B", "incorrect_tint": "#F7E2E5",
 	"neutral": "#3A6EA5", "neutral_tint": "#E2ECF6", "warning": "#B8860B", "shadow_alpha": 0.08,
-	"skill_fill": {"vocab": "#E0A526", "grammar": "#3A6EA5", "reading": "#2F7D5B", "listening": "#7B5EA7", "conversation": "#D65D7A", "kanji": "#8B5E3C"},
-	"skill_ink": {"vocab": "#7A5A0E", "grammar": "#2A5280", "reading": "#245F45", "listening": "#5C4580", "conversation": "#A23A54", "kanji": "#67432A"},
+	"skill_fill": {"vocab": "#E0A526", "grammar": "#3A6EA5", "reading": "#2F7D5B", "listening": "#7B5EA7", "conversation": "#D65D7A", "kanji": "#8B5E3C", "writing": "#3F7F86"},
+	"skill_ink": {"vocab": "#7A5A0E", "grammar": "#2A5280", "reading": "#245F45", "listening": "#5C4580", "conversation": "#A23A54", "kanji": "#67432A", "writing": "#2C5F64"},
 }
 const DARK := {
 	"bg": "#1C1917", "surface": "#26221F", "surface_alt": "#302B27", "border": "#3E3733",
@@ -23,8 +23,8 @@ const DARK := {
 	"primary": "#E8824F", "primary_hover": "#F09A6E", "primary_tint": "#3F2A1E", "on_primary": "#1C1917",
 	"correct": "#5BBF8A", "correct_tint": "#1E3A2C", "incorrect": "#E26A79", "incorrect_tint": "#3F2228",
 	"neutral": "#7FA7D9", "neutral_tint": "#1F2D3E", "warning": "#E0B341", "shadow_alpha": 0.0,
-	"skill_fill": {"vocab": "#F0BE4A", "grammar": "#6A9AD0", "reading": "#5BBF8A", "listening": "#A58BD0", "conversation": "#E8809A", "kanji": "#B88A64"},
-	"skill_ink": {"vocab": "#F0BE4A", "grammar": "#6A9AD0", "reading": "#5BBF8A", "listening": "#A58BD0", "conversation": "#E8809A", "kanji": "#B88A64"},
+	"skill_fill": {"vocab": "#F0BE4A", "grammar": "#6A9AD0", "reading": "#5BBF8A", "listening": "#A58BD0", "conversation": "#E8809A", "kanji": "#B88A64", "writing": "#6FB8BE"},
+	"skill_ink": {"vocab": "#F0BE4A", "grammar": "#6A9AD0", "reading": "#5BBF8A", "listening": "#A58BD0", "conversation": "#E8809A", "kanji": "#B88A64", "writing": "#6FB8BE"},
 }
 
 # --- palette (ART_BIBLE §2.4 / §2.6), switched by apply()
@@ -348,7 +348,7 @@ const UI_RUBY := {
 	"受": "う", "始": "はじ", "続": "つづ", "町": "まち", "戻": "もど", "文": "ぶん", "作": "つく",
 	"書": "か", "出": "だ", "思": "おも", "声": "こえ", "聞": "き", "止": "と", "答": "こた", "合": "あ",
 	"減": "へ", "消": "け", "訳": "やく", "済": "す", "全": "ぜん", "部": "ぶ", "直": "なお", "特大": "とくだい", "小": "しょう", "中": "ちゅう", "大": "だい", "文字": "もじ",
-	"走": "はし", "更新": "こうしん",
+	"走": "はし", "更新": "こうしん", "順": "じゅん",
 }
 
 
@@ -356,6 +356,8 @@ const UI_RUBY := {
 const UI_EN := {
 	"練習する": "Practise", "走る": "Run", "歩く": "Walk",
 	"ダウンロード": "Download", "あとで": "Later", "このバージョンをスキップ": "Skip this version",
+	"なぞる": "Trace", "見ないで書く": "From memory", "見ないでもう一度": "Again from memory",
+	"書き順を見る": "Show stroke order", "書き直す": "Start over", "書く練習": "Writing practice",
 	"次へ": "Next", "ホームへ": "Home", "もう一回": "Again", "選択肢を見る": "Show choices", "辞書へ": "Dictionary",
 	"読み方の練習": "Practise readings", "話す": "Talk / say it", "試験を受ける": "Take the exam",
 	"練習を始める": "Start practice", "続ける": "Continue", "確認する": "Check", "確認": "Check",

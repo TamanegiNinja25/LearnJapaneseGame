@@ -105,6 +105,7 @@ static func activity_label(screen: StringName, mode: String) -> String:
 		&"conversation": return "{会話|かいわ}する"
 		&"kanji": return "{漢字|かんじ}を{学|まな}ぶ"
 		&"listening": return "{聴解|ちょうかい}の{練習|れんしゅう}"
+		&"writing": return "{漢字|かんじ}を{書|か}く"
 	return String(screen)
 
 
@@ -116,7 +117,7 @@ static func activity_en(screen: StringName, mode: String) -> String:
 		return "Read example sentences"
 	return {&"kana": "Kana trainer", &"review": "Review", &"dictionary": "New words in the dictionary",
 		&"sentences": "Build sentences", &"grammar": "Grammar lesson", &"conversation": "Conversation",
-		&"kanji": "Learn kanji", &"listening": "Listening practice"}.get(screen, "")
+		&"kanji": "Learn kanji", &"listening": "Listening practice", &"writing": "Write kanji"}.get(screen, "")
 
 
 ## Japanese heading/label with its English underneath when English help is on.

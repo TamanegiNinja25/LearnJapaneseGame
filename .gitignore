@@ -23,6 +23,7 @@ tools/cache/
 # Local data (large dictionaries are not committed; see tools/README.md)
 tools/data/*.sqlite
 tools/data/*.json.zip
+tools/data/*.xml.gz
 
 # IDE / OS
 .idea/

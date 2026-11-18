@@ -116,6 +116,21 @@ def check_kanji(data, name: str, stage: str) -> None:
         require(k, {"kanji": str, "on": list, "kun": list, "meanings": list, "strokes": int, "words": list}, f"{name}[{i}]")
 
 
+def check_strokes(data, name: str) -> None:
+    """KanjiVG strokes: flat [x, y, ...] lists in the 109 box, at least two points each."""
+    for i, k in enumerate(data):
+        where = f"{name}[{i}]"
+        if not require(k, {"kanji": str, "strokes": list}, where):
+            continue
+        if not k["strokes"]:
+            err(f"{where}: no strokes")
+        for j, s in enumerate(k["strokes"]):
+            if not isinstance(s, list) or len(s) < 4 or len(s) % 2:
+                err(f"{where}.strokes[{j}]: needs an even number of coordinates, at least two points")
+            elif any(not isinstance(v, (int, float)) or v < -5 or v > 115 for v in s):
+                err(f"{where}.strokes[{j}]: coordinate outside the 109 box")
+
+
 def check_grammar(data, name: str, stage: str, gids: set) -> None:
     for i, g in enumerate(data):
         where = f"{name}[{i}]"
@@ -250,7 +265,7 @@ def kind_of(name: str) -> tuple[str, str | None]:
     if name == "kana.json":
         return "kana", None
     # An optional _suffix lets several files share a kind and stage (grammar_n5_verbs.json).
-    m = re.fullmatch(r"(vocab|kanji|grammar|sentences|scenarios|passages|anchors)_(n5|n4|n3|n2|n1|mastery)(?:_[a-z0-9]+)?\.json", name)
+    m = re.fullmatch(r"(vocab|kanji|strokes|grammar|sentences|scenarios|passages|anchors)_(n5|n4|n3|n2|n1|mastery)(?:_[a-z0-9]+)?\.json", name)
     if not m:
         return "unknown", None
     return m.group(1), m.group(2)
@@ -283,6 +298,8 @@ def validate(content: Path, only: str | None) -> None:
             check_vocab(data, path.name, stage, vocab_ids)
         elif kind == "kanji":
             check_kanji(data, path.name, stage)
+        elif kind == "strokes":
+            check_strokes(data, path.name)
         elif kind == "grammar":
             check_grammar(data, path.name, stage, grammar_ids)
         elif kind == "sentences":
@@ -294,7 +311,7 @@ def validate(content: Path, only: str | None) -> None:
             check_passages(data, path.name, stage)
         elif kind == "anchors":
             check_anchors(data, path.name, stage)
-        if kind not in ("kana", "kanji"):
+        if kind not in ("kana", "kanji", "strokes"):
             for i, item in enumerate(data):
                 if isinstance(item, dict) and item.get("level") not in (None, LEVELS.get(stage)):
                     err(f"{path.name}[{i}]: level {item.get('level')} does not match file stage")
