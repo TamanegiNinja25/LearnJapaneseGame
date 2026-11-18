@@ -32,6 +32,7 @@ const TESTS: Array[String] = [
 	"test_quests",
 	"test_recommender_rules",
 	"test_recommender_shuffle",
+	"test_update_check",
 	"test_content_loads",
 	"test_content_stages",
 	"test_exam_builder",
@@ -379,6 +380,25 @@ func test_recommender_shuffle() -> bool:
 	for rec in Recommender.alternatives(base):
 		has_listening = has_listening or rec["screen"] == Recommender.LISTENING
 	assert_true(has_listening, "listening offered with a voice")
+	return true
+
+
+func test_update_check() -> bool:
+	assert_eq(UpdateCheck.parse_version("v0.3.1"), [0, 3, 1], "tag with v")
+	assert_eq(UpdateCheck.parse_version("1.2"), [1, 2, 0], "short version padded")
+	assert_eq(UpdateCheck.parse_version("v1.0.0-beta"), [1, 0, 0], "suffix ignored")
+	assert_true(UpdateCheck.is_newer("v0.4.0", "0.3.1"), "minor bump is newer")
+	assert_true(UpdateCheck.is_newer("0.3.10", "0.3.9"), "numeric, not text, comparison")
+	assert_true(UpdateCheck.is_newer("1.0", "0.9.9"), "major bump is newer")
+	assert_true(not UpdateCheck.is_newer("v0.3.1", "0.3.1"), "same version is not newer")
+	assert_true(not UpdateCheck.is_newer("0.3.0", "0.3.1"), "older is not newer")
+	var release := {"tag_name": "v0.4.0", "html_url": "https://example.test/r", "draft": false, "prerelease": false,
+		"assets": [{"name": "SHA256SUMS.txt", "browser_download_url": "x"},
+			{"name": "NihongoNoSekai-v0.4.0-android.apk", "browser_download_url": "https://example.test/a.apk"}]}
+	assert_eq(UpdateCheck.from_release(release), {"version": "0.4.0", "url": "https://example.test/r", "apk": "https://example.test/a.apk"}, "release parsed")
+	release["prerelease"] = true
+	assert_eq(UpdateCheck.from_release(release), {}, "pre-releases are ignored")
+	assert_eq(UpdateCheck.from_release({"message": "API rate limit exceeded"}), {}, "error body is ignored")
 	return true
 
 

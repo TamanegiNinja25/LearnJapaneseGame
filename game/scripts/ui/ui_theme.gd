@@ -348,13 +348,14 @@ const UI_RUBY := {
 	"受": "う", "始": "はじ", "続": "つづ", "町": "まち", "戻": "もど", "文": "ぶん", "作": "つく",
 	"書": "か", "出": "だ", "思": "おも", "声": "こえ", "聞": "き", "止": "と", "答": "こた", "合": "あ",
 	"減": "へ", "消": "け", "訳": "やく", "済": "す", "全": "ぜん", "部": "ぶ", "直": "なお", "特大": "とくだい", "小": "しょう", "中": "ちゅう", "大": "だい", "文字": "もじ",
-	"走": "はし",
+	"走": "はし", "更新": "こうしん",
 }
 
 
 ## English for fixed UI labels, shown under the Japanese while Progress.beginner() is on.
 const UI_EN := {
 	"練習する": "Practise", "走る": "Run", "歩く": "Walk",
+	"ダウンロード": "Download", "あとで": "Later", "このバージョンをスキップ": "Skip this version",
 	"次へ": "Next", "ホームへ": "Home", "もう一回": "Again", "選択肢を見る": "Show choices", "辞書へ": "Dictionary",
 	"読み方の練習": "Practise readings", "話す": "Talk / say it", "試験を受ける": "Take the exam",
 	"練習を始める": "Start practice", "続ける": "Continue", "確認する": "Check", "確認": "Check",

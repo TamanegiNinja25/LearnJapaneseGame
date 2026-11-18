@@ -86,6 +86,15 @@ The app icon's source is `tools/icon/app_icon_source.png`. After replacing it, r
 project and Android launcher icons with
 `godot --headless --path game --script ../tools/make_app_icons.gd`.
 
+## Updates
+
+At start the game asks GitHub once for the latest release (one request to
+`api.github.com/repos/TamanegiNinja25/LearnJapaneseGame/releases/latest`). If it is newer than
+the installed version, a popup offers ダウンロード (the APK on Android, the release page
+elsewhere), あとで, or このバージョンをスキップ. Nothing else is sent and nothing happens when
+offline. Turn it off in 設定 › 起動時に更新を確認する. This is the only reason the Android build
+has the internet permission.
+
 ## Build releases
 
 Push a tag such as `v0.2.0` and [release.yml](.github/workflows/release.yml) exports Windows,

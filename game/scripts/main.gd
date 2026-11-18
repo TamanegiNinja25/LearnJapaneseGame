@@ -1,7 +1,8 @@
 extends Control
 ## Root of the running game: applies theme settings, shows the sidebar navigation, swaps screens,
 ## and shows toasts for rank-ups, quests and stage clears. Screens are plain scripts (no .tscn)
-## that build their own widgets; see scripts/screens/.
+## that build their own widgets; see scripts/screens/. At start it asks GitHub once whether a
+## newer release exists and offers it in a popup (設定 › 更新を確認する turns this off).
 
 const SCREENS := {
 	&"dashboard": "res://scripts/screens/dashboard.gd",
@@ -42,6 +43,7 @@ var _current: StringName = &""
 var _current_args: Dictionary = {}
 var _overlay: Control
 var _built_beginner := false
+var _update_request: HTTPRequest
 
 
 func _ready() -> void:
@@ -56,6 +58,7 @@ func _ready() -> void:
 	Progress.rank_up.connect(_on_rank_up)
 	Progress.quest_completed.connect(_on_quest)
 	show_screen(&"dashboard" if Progress.setting("onboarded") else &"onboarding")
+	_check_for_update()
 
 
 func _apply_settings() -> void:
@@ -67,6 +70,8 @@ func _apply_settings() -> void:
 
 func _build() -> void:
 	for c in get_children():
+		if c == _update_request:
+			continue  # a rebuild (theme change) must not cancel the update check
 		remove_child(c)
 		c.queue_free()
 	var bg := ColorRect.new()
@@ -216,3 +221,79 @@ func _on_rank_up(word_id: String, rank: int) -> void:
 
 func _on_quest(q: Dictionary) -> void:
 	Toast.show_on(_overlay, "%s　+%d XP" % [q["ja"], int(q["xp"])], q["en"], UITheme.SKILL_INK[&"vocab"])
+
+
+# ---------------------------------------------------------------- update check
+
+func _check_for_update() -> void:
+	if not bool(Progress.setting("check_updates")) or DisplayServer.get_name() == "headless":
+		return
+	_update_request = HTTPRequest.new()
+	_update_request.timeout = 10.0
+	add_child(_update_request)
+	_update_request.request_completed.connect(_on_update_response)
+	var headers := ["User-Agent: NihongoNoSekai/%s" % _version(), "Accept: application/vnd.github+json"]
+	if _update_request.request(UpdateCheck.RELEASES_API, headers) != OK:
+		_update_request.queue_free()
+
+
+func _on_update_response(result: int, code: int, _headers: PackedStringArray, body: PackedByteArray) -> void:
+	_update_request.queue_free()
+	_update_request = null
+	if result != HTTPRequest.RESULT_SUCCESS or code != 200:
+		return  # offline or rate-limited: try again next launch, silently
+	var data: Variant = JSON.parse_string(body.get_string_from_utf8())
+	if not data is Dictionary:
+		return
+	var info := UpdateCheck.from_release(data)
+	if info.is_empty() or not UpdateCheck.is_newer(info["version"], _version()):
+		return
+	if String(Progress.setting("skipped_update")) == info["version"]:
+		return
+	show_update_popup(info)
+
+
+static func _version() -> String:
+	return String(ProjectSettings.get_setting("application/config/version", "0.0.0"))
+
+
+## Modal card: the new version, a download button (the APK on Android, the release page
+## elsewhere), "later" and "skip this version".
+func show_update_popup(info: Dictionary) -> void:
+	var shade := ColorRect.new()
+	shade.color = Color(0, 0, 0, 0.45)
+	shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	shade.mouse_filter = Control.MOUSE_FILTER_STOP
+	_overlay.add_child(shade)
+	var center := CenterContainer.new()
+	center.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	shade.add_child(center)
+	var card := UITheme.card(UITheme.SURFACE, UITheme.PRIMARY)
+	card.custom_minimum_size.x = minf(560.0, get_viewport_rect().size.x - 48.0)
+	center.add_child(card)
+	var v := UITheme.vbox(UITheme.GAP)
+	card.add_child(v)
+	v.add_child(ScreenBase.ja_en("{新|あたら}しいバージョンがあります", "A new version is available", UITheme.SIZE_H2, UITheme.PRIMARY))
+	v.add_child(UITheme.ja("v%s　（{今|いま}は v%s）" % [info["version"], _version()], UITheme.SIZE_BODY))
+	if Progress.show_explanations():
+		v.add_child(UITheme.en("Your progress is kept when you install the update.", UITheme.SIZE_LABEL))
+	var close := func() -> void: shade.queue_free()
+	var download := UITheme.button("ダウンロード")
+	download.pressed.connect(func() -> void:
+		var android_apk: String = info["apk"] if OS.has_feature("android") else ""
+		OS.shell_open(android_apk if android_apk != "" else String(info["url"]))
+		close.call())
+	v.add_child(download)
+	var row := UITheme.hbox(12)
+	v.add_child(row)
+	var later := UITheme.button("あとで", false)
+	later.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	later.pressed.connect(close)
+	row.add_child(later)
+	var skip := UITheme.button("このバージョンをスキップ", false)
+	skip.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	skip.pressed.connect(func() -> void:
+		Progress.set_setting("skipped_update", info["version"])
+		close.call())
+	row.add_child(skip)
+	UITheme.animate_in(card)

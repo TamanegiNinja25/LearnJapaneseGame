@@ -82,6 +82,8 @@ func _ready() -> void:
 	column.add_child(reset)
 
 	_section("{情報|じょうほう}", "About and credits")
+	column.add_child(UITheme.toggle("{起動時|きどうじ}に{更新|こうしん}を{確認|かくにん}する", bool(Progress.setting("check_updates")),
+		func(on: bool) -> void: Progress.set_setting("check_updates", on), "Check GitHub for a new version at start (the only time the game goes online)"))
 	column.add_child(UITheme.ja("{日本語|にほんご}の{世界|せかい} — LearnJapaneseGame v%s (MIT licence)" % ProjectSettings.get_setting("application/config/version", "0"), UITheme.SIZE_CAPTION, UITheme.TEXT_SECONDARY))
 	for line in [
 		"Dictionary data: JMdict and KANJIDIC2 © EDRDG, CC BY-SA 4.0",

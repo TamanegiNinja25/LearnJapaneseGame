@@ -83,3 +83,9 @@ GitHub Actions imports the project headlessly and runs `tests/test_runner.gd`.
 - Listening uses the operating system's text-to-speech through `DisplayServer.tts_*`, which keeps
   the game offline. Automatic pronunciation scoring was not built for the same reason.
 - An exported `.pck` was verified to load all 1,539 words, 127 grammar points and 17 scenarios.
+
+## Update — 2026-11-18
+
+- The game stays offline except for an optional start-up update check: one GET to GitHub's
+  "latest release" API, compared with `application/config/version` by `UpdateCheck`. The Android
+  preset now requests the internet permission for it. Players can switch it off in 設定.

@@ -67,6 +67,10 @@ the repo. CI runs the test, validate and UI-text commands on every push.
 Automatic pronunciation scoring and free-composition grading need a speech recogniser or an
 online model; the game is offline. Shadowing uses self-rating instead.
 
+The one network call is the start-up update check (`UpdateCheck` + `main.gd`): one GET to the
+GitHub "latest release" API, skipped when 設定 › 起動時に更新を確認する is off, silent on failure.
+Never add other network calls without updating this note and the README.
+
 ## Attribution
 
 Commits written with Claude end with a `Co-Authored-By: Claude …` trailer.
