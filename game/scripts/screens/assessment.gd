@@ -36,13 +36,20 @@ func _show_intro() -> void:
 	card.add_child(v)
 	var gate: Dictionary = Mastery.GATES.get(Progress.stage, {})
 	v.add_child(UITheme.ja("{合格基準|ごうかくきじゅん}", UITheme.SIZE_H2))
+	if Progress.show_explanations():
+		v.add_child(UITheme.en("Your score / the pass mark. 練習する opens the practice that raises that skill.", UITheme.SIZE_LABEL))
 	var grid := GridContainer.new()
-	grid.columns = 2
+	grid.columns = 4
 	grid.add_theme_constant_override("h_separation", 24)
+	grid.add_theme_constant_override("v_separation", 8)
 	v.add_child(grid)
+	var scores := Progress.scores()
 	for skill: StringName in gate:
-		grid.add_child(UITheme.ja(Mastery.SKILL_LABEL_JA[skill], UITheme.SIZE_LABEL, UITheme.SKILL_INK[skill]))
-		grid.add_child(UITheme.label("%d%%" % int(gate[skill]), UITheme.SIZE_LABEL))
+		var ok := int(scores[skill]) >= int(gate[skill])
+		grid.add_child(_skill_name(skill))
+		grid.add_child(_cell("%d%%" % int(scores[skill]), UITheme.CORRECT if ok else UITheme.TEXT_PRIMARY))
+		grid.add_child(_cell("/ %d%%" % int(gate[skill]), UITheme.TEXT_SECONDARY))
+		grid.add_child(_practice_button(skill, not ok))
 	if _needs_listening() and not Speech.available():
 		v.add_child(UITheme.ja("{日本語|にほんご}の{音声|おんせい}がないため、{聴解|ちょうかい}は{免除|めんじょ}されます。", UITheme.SIZE_LABEL, UITheme.WARNING))
 	if Progress.show_explanations():
@@ -179,19 +186,29 @@ func _show_result() -> void:
 		_: title = "{模擬試験|もぎしけん}：" + ("{合格|ごうかく}ライン" if passed else "あと{少|すこ}し")
 	v.add_child(UITheme.ja(title, UITheme.SIZE_H1, UITheme.CORRECT if passed else UITheme.INCORRECT))
 	var grid := GridContainer.new()
-	grid.columns = 3
+	grid.columns = 4
 	grid.add_theme_constant_override("h_separation", 24)
+	grid.add_theme_constant_override("v_separation", 8)
 	v.add_child(grid)
 	var required: Dictionary = result.get("required", {})
 	for skill: StringName in sections:
-		grid.add_child(UITheme.ja(Mastery.SKILL_LABEL_JA[skill], UITheme.SIZE_LABEL, UITheme.SKILL_INK[skill]))
-		var shown := "{免除|めんじょ}" if waived and skill == &"listening" else "%d%%" % int(sections[skill])
-		grid.add_child(UITheme.ja(shown, UITheme.SIZE_LABEL))
+		var is_waived := waived and skill == &"listening"
+		grid.add_child(_skill_name(skill))
+		var shown := UITheme.ja("{免除|めんじょ}" if is_waived else "%d%%" % int(sections[skill]), UITheme.SIZE_LABEL)
+		shown.autowrap = false
+		shown.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		shown.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+		grid.add_child(shown)
+		var ok := true
 		if required.has(skill):
-			var ok := int(sections[skill]) >= int(required[skill])
-			grid.add_child(UITheme.label(("○ / %d" if ok else "✕ / %d") % int(required[skill]), UITheme.SIZE_LABEL, UITheme.CORRECT if ok else UITheme.INCORRECT))
+			ok = int(sections[skill]) >= int(required[skill])
+			grid.add_child(_cell(("○ / %d" if ok else "✕ / %d") % int(required[skill]), UITheme.CORRECT if ok else UITheme.INCORRECT))
 		else:
-			grid.add_child(UITheme.label("", UITheme.SIZE_LABEL))
+			grid.add_child(_cell("", UITheme.TEXT_SECONDARY))
+		if is_waived:
+			grid.add_child(Control.new())
+		else:
+			grid.add_child(_practice_button(skill, not ok))
 	if _mode == "gate" and passed:
 		v.add_child(UITheme.ja("{次|つぎ}のステージ：%s　＋%d XP" % [Mastery.STAGE_LABEL_JA[Progress.stage], Mastery.EXAM_PASS_XP], UITheme.SIZE_BODY))
 	elif _mode == "gate":
@@ -202,3 +219,31 @@ func _show_result() -> void:
 	v.add_child(home)
 	set_primary(home)
 	UITheme.animate_in(card)
+
+
+func _skill_name(skill: StringName) -> Control:
+	var name := ScreenBase.ja_en(Mastery.SKILL_LABEL_JA[skill], Mastery.SKILL_LABEL_EN[skill], UITheme.SIZE_LABEL, UITheme.SKILL_INK[skill])
+	name.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	name.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	name.custom_minimum_size.x = 150  # wrapping labels have no width of their own
+	return name
+
+
+func _cell(text: String, color: Color) -> Label:
+	var l := UITheme.label(text, UITheme.SIZE_LABEL, color)
+	l.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	l.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	return l
+
+
+## Opens the activity that trains [param skill] (the same mapping as 次にやること). Skills below
+## their pass mark get the filled style so the next step stands out.
+func _practice_button(skill: StringName, highlight: bool) -> Button:
+	var rec := Recommender.for_skill(skill, Progress.recommender_input())
+	var b := UITheme.button("練習する", highlight)
+	b.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	b.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	b.tooltip_text = ScreenBase.activity_en(rec["screen"], rec["mode"])
+	b.pressed.connect(func() -> void: go(rec["screen"], {"mode": rec["mode"]}))
+	return b

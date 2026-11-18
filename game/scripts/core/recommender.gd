@@ -4,15 +4,18 @@ class_name Recommender
 ## every input arrives in one Dictionary so tests can build any situation.
 ##
 ## Input keys: kana_mastery (0..1), due_count, exam_unlocked, scores, stage, history (Array of
-## screen names, most recent last), daily_done (bool), daily_score (0..100), familiar_words,
-## budget_left (new words still allowed today), weakest_grammar_correct (correct answers of the
-## least-covered grammar point), tts (bool: a Japanese voice is available).
+## activity keys the player started from 次にやること, most recent last; see [method key]),
+## daily_done (bool), daily_score (0..100), familiar_words, budget_left (new words still allowed
+## today), weakest_grammar_correct (correct answers of the least-covered grammar point), tts (bool:
+## a Japanese voice is available), roll (any int; picks the random alternative, so tests can fix it).
 ## Output: {"screen": StringName, "mode": String, "reason": String (markup)}.
 
 const KANA_TARGET := 0.9
 const REVIEW_PILE := 10
 const DAILY_EXAM_SCORE := 80
 const DAILY_MIN_WORDS := 50
+## After this many attempts in a row at the same suggestion, suggest a random different activity.
+const REPEAT_LIMIT := 3
 
 const KANA := &"kana"
 const REVIEW := &"review"
@@ -38,12 +41,61 @@ const REASON := {
 	"kanji": "{漢字|かんじ}を{覚|おぼ}えましょう。",
 	"listening": "{日本語|にほんご}を{聞|き}いてみましょう。",
 }
+## Put before the reason when the suggestion was shuffled after REPEAT_LIMIT identical attempts.
+const SHUFFLED_REASON := "{気分転換|きぶんてんかん}に、{別|べつ}の{練習|れんしゅう}をしましょう。"
 
 
 static func recommend(s: Dictionary) -> Dictionary:
+	var first := _rule_based(s)
+	if first["mode"] == "gate":
+		return first  # the stage exam is never shuffled away
+	var history: Array = s.get("history", [])
+	if history.size() < REPEAT_LIMIT:
+		return first
+	for entry in history.slice(-REPEAT_LIMIT):
+		if String(entry) != key(first):
+			return first
+	var others: Array[Dictionary] = []
+	for option in alternatives(s):
+		if key(option) != key(first):
+			others.append(option)
+	if others.is_empty():
+		return first
+	var pick := others[absi(int(s.get("roll", 0))) % others.size()].duplicate()
+	pick["reason"] = SHUFFLED_REASON + String(pick["reason"])
+	pick["shuffled"] = true
+	return pick
+
+
+## Identifies an activity in the history: "review:reading", "kanji:".
+static func key(rec: Dictionary) -> String:
+	return "%s:%s" % [rec["screen"], rec["mode"]]
+
+
+## The activity that trains [param skill] best right now (GDD §10.1 rule 5 mapping).
+static func for_skill(skill: StringName, s: Dictionary) -> Dictionary:
+	return _for_skill(skill, s)
+
+
+## One activity per skill, without duplicates: the pool the random alternative is drawn from.
+static func alternatives(s: Dictionary) -> Array[Dictionary]:
+	var skills: Array[StringName] = []
+	skills.assign(Mastery.SKILLS)
+	if not s.get("tts", false):
+		skills.erase(&"listening")
+	var out: Array[Dictionary] = []
+	var seen := {}
+	for skill in skills:
+		var rec := _for_skill(skill, s)
+		if not seen.has(key(rec)):
+			seen[key(rec)] = true
+			out.append(rec)
+	return out
+
+
+static func _rule_based(s: Dictionary) -> Dictionary:
 	var stage: StringName = s.get("stage", &"N5")
 	var scores: Dictionary = s.get("scores", {})
-	var history: Array = s.get("history", [])
 	if float(s.get("kana_mastery", 1.0)) < KANA_TARGET:
 		return _out(KANA, "", "kana")
 	if int(s.get("due_count", 0)) >= REVIEW_PILE:
@@ -57,10 +109,7 @@ static func recommend(s: Dictionary) -> Dictionary:
 		by_gap.append(&"listening")  # optional skill: offered last when a voice exists
 	if by_gap.is_empty():
 		return _out(DICTIONARY, "", "vocab")
-	var first := _for_skill(by_gap[0], s)
-	if history.size() >= 2 and history[-1] == first["screen"] and history[-2] == first["screen"] and by_gap.size() > 1:
-		return _for_skill(by_gap[1], s)
-	return first
+	return _for_skill(by_gap[0], s)
 
 
 static func _for_skill(skill: StringName, s: Dictionary) -> Dictionary:

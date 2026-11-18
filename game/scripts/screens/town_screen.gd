@@ -49,7 +49,7 @@ func _ready() -> void:
 	v.add_child(UITheme.ja("{町|まち}を{歩|ある}いて、{人|ひと}に{話|はな}しかけましょう。", UITheme.SIZE_LABEL))
 	var touch: bool = DisplayServer.is_touchscreen_available() or args.get("touch", false)
 	if Progress.show_english():
-		var hint := "Joystick to walk · drag the right side to look · 話す to talk" if touch 			else "WASD / stick to walk · Shift to run · E / Ⓐ to talk · Esc to leave"
+		var hint := "Joystick to walk · 走る to sprint · drag the right side to look · 話す to talk" if touch else "WASD / stick to walk · Shift to sprint · E / Ⓐ to talk · Esc to leave"
 		v.add_child(UITheme.en(hint, UITheme.SIZE_LABEL))
 	if touch:
 		_add_touch_controls()
@@ -92,6 +92,28 @@ func _add_touch_controls() -> void:
 	talk.offset_bottom = -24
 	talk.pressed.connect(func() -> void: _town.call("try_interact"))
 	add_child(talk)
+
+	# Sprint is a toggle: the right thumb stays free for looking around and talking.
+	var run := UITheme.button("走る", false)
+	run.toggle_mode = true
+	run.custom_minimum_size = Vector2(140, 80)
+	run.anchor_left = 1.0
+	run.anchor_right = 1.0
+	run.anchor_top = 1.0
+	run.anchor_bottom = 1.0
+	run.offset_left = -164
+	run.offset_top = -216
+	run.offset_right = -24
+	run.offset_bottom = -136
+	run.toggled.connect(func(on: bool) -> void:
+		var player: Node = _town.call("get_player")
+		if player:
+			player.set("sprint", on)
+		if on:
+			UITheme.set_tile(run, UITheme.PRIMARY_TINT, UITheme.PRIMARY)
+		else:
+			UITheme.set_secondary(run))
+	add_child(run)
 
 	var leave := UITheme.button("ホームへ", false)
 	leave.anchor_left = 1.0

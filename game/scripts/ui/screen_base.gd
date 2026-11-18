@@ -90,6 +90,35 @@ static func touch_scroll_list(list: ItemList) -> void:
 			list.get_v_scroll_bar().value -= (e as InputEventScreenDrag).relative.y)
 
 
+## Button text for a Recommender activity ({screen, mode}).
+static func activity_label(screen: StringName, mode: String) -> String:
+	if screen == &"assessment":
+		return "{毎日|まいにち}の{確認|かくにん}テスト" if mode == "daily" else "{試験|しけん}を{受|う}ける"
+	if screen == &"review" and mode == "reading":
+		return "{例文|れいぶん}を{読|よ}む"
+	match screen:
+		&"kana": return "かなトレーナー"
+		&"review": return "{復習|ふくしゅう}する"
+		&"dictionary": return "{辞書|じしょ}で{新|あたら}しい{言葉|ことば}"
+		&"sentences": return "{文|ぶん}を{作|つく}る"
+		&"grammar": return "{文法|ぶんぽう}レッスン"
+		&"conversation": return "{会話|かいわ}する"
+		&"kanji": return "{漢字|かんじ}を{学|まな}ぶ"
+		&"listening": return "{聴解|ちょうかい}の{練習|れんしゅう}"
+	return String(screen)
+
+
+## English for [method activity_label].
+static func activity_en(screen: StringName, mode: String) -> String:
+	if screen == &"assessment":
+		return "Daily check" if mode == "daily" else "Take the exam"
+	if screen == &"review" and mode == "reading":
+		return "Read example sentences"
+	return {&"kana": "Kana trainer", &"review": "Review", &"dictionary": "New words in the dictionary",
+		&"sentences": "Build sentences", &"grammar": "Grammar lesson", &"conversation": "Conversation",
+		&"kanji": "Learn kanji", &"listening": "Listening practice"}.get(screen, "")
+
+
 ## Japanese heading/label with its English underneath when English help is on.
 static func ja_en(markup: String, english: String, size: int = UITheme.SIZE_LABEL, color: Color = Color(0, 0, 0, 0)) -> Control:
 	if english == "" or not Progress.show_english():

@@ -41,7 +41,8 @@ var cooldown_until: int = 0
 var consecutive_fails: int = 0
 var daily: Dictionary = {}
 var study_days: Array = []
-var recommend_history: Array = []
+var recommend_history: Array = []   # activity keys started from 次にやること, most recent last
+var recommend_roll: int = 0        # re-rolled per attempt; picks the shuffled suggestion
 var cleared_stages: Array = []
 var recent_samples: Array = []    # ring buffer of {t, skill, w, c, source}
 var reports: Array = []           # player reports of rejected-but-natural answers (GDD §13 q4)
@@ -90,6 +91,7 @@ func reset() -> void:
 	daily = _new_daily("")
 	study_days = []
 	recommend_history = []
+	recommend_roll = 0
 	cleared_stages = []
 	recent_samples = []
 	reports = []
@@ -471,6 +473,27 @@ func weakest_grammar() -> Dictionary:
 	return {"point": best, "correct": best_n if not best.is_empty() else 99}
 
 
+## Everything Recommender needs, gathered from the save (dashboard and assessment share it).
+func recommender_input() -> Dictionary:
+	return {
+		"kana_mastery": kana_mastery(), "due_count": due_count(), "exam_unlocked": exam_unlocked(),
+		"scores": scores(), "stage": stage, "history": recommend_history, "roll": recommend_roll,
+		"daily_done": daily.get("assessment_done", false), "daily_score": int(daily.get("assessment_score", 0)),
+		"familiar_words": count_words_at_least(Mastery.Rank.FAMILIAR), "budget_left": budget_left(),
+		"weakest_grammar_correct": int(weakest_grammar()["correct"]), "tts": Speech.available(),
+	}
+
+
+## The player started the 次にやること suggestion [param rec]: remember it (last REPEAT_LIMIT
+## kept) and roll again, so a shuffled suggestion stays put until the next attempt.
+func record_recommend_attempt(rec: Dictionary) -> void:
+	recommend_history.append(Recommender.key(rec))
+	while recommend_history.size() > Recommender.REPEAT_LIMIT:
+		recommend_history.pop_front()
+	recommend_roll = randi()
+	save_game()
+
+
 func record_prompt(prompt_id: String, c: float) -> void:
 	var p: Dictionary = prompts.get(prompt_id, {"attempts": 0, "best_c": 0.0})
 	p["attempts"] = int(p["attempts"]) + 1
@@ -551,7 +574,7 @@ func to_dict() -> Dictionary:
 		"settings": settings, "skills": _stringify_keys(skills), "words": words, "kana": kana,
 		"grammar": grammar, "scenarios": scenarios, "prompts": prompts, "assessments": assessments,
 		"cooldown_until": cooldown_until, "consecutive_fails": consecutive_fails, "daily": daily,
-		"study_days": study_days, "recommend_history": recommend_history, "cleared_stages": cleared_stages,
+		"study_days": study_days, "recommend_history": recommend_history, "recommend_roll": recommend_roll, "cleared_stages": cleared_stages,
 		"recent_samples": recent_samples, "reports": reports,
 	}
 
@@ -592,6 +615,7 @@ func from_dict(data: Dictionary) -> void:
 		daily[key] = d[key]
 	study_days = data.get("study_days", [])
 	recommend_history = data.get("recommend_history", [])
+	recommend_roll = int(data.get("recommend_roll", 0))
 	cleared_stages = data.get("cleared_stages", [])
 	recent_samples = data.get("recent_samples", [])
 	reports = data.get("reports", [])

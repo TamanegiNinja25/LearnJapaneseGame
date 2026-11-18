@@ -467,8 +467,14 @@ Evaluated on the Dashboard, first matching rule wins:
    語彙 → 辞書 (今日の単語, if new-word budget remains; else 復習) · 文法 → 文を作ろう (or a grammar
    lesson if the lowest-coverage grammar point has < 3 correct) · 読解 → 復習 with example-reading
    questions forced · 会話 → 会話シナリオ · 漢字 → 復習 with kanji-reading questions forced.
-6. Tie-break / anti-repetition: if the mapped activity was the last two recommendations, take the
-   second-largest gap.
+6. Variety: the player's last three *attempts* (presses of the 次にやること button, stored as
+   `screen:mode` keys) are remembered. If all three were the activity rule 1–5 picked, a random
+   different activity is suggested instead (one per skill, listening only with a voice), headed
+   "気分転換に、別の練習をしましょう。". The random roll is re-drawn on each attempt, so the
+   suggestion stays the same between dashboard visits. The stage exam (rule 3) is never shuffled.
+
+The same skill → activity mapping powers the tappable skill rows on the Dashboard and the
+練習する buttons beside each score on the 試験 screen (thresholds and results).
 
 ### 10.2 Within-activity difficulty
 

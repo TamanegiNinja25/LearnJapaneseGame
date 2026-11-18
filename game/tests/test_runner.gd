@@ -31,6 +31,7 @@ const TESTS: Array[String] = [
 	"test_srs_pick_due_orders_and_caps",
 	"test_quests",
 	"test_recommender_rules",
+	"test_recommender_shuffle",
 	"test_content_loads",
 	"test_content_stages",
 	"test_exam_builder",
@@ -331,14 +332,53 @@ func test_recommender_rules() -> bool:
 	s["weakest_grammar_correct"] = 0
 	assert_eq(Recommender.recommend(s)["screen"], Recommender.GRAMMAR, "uncovered grammar -> lesson")
 	s["weakest_grammar_correct"] = 5
-	s["history"] = [Recommender.SENTENCES, Recommender.SENTENCES]
-	assert_eq(Recommender.recommend(s)["screen"], Recommender.CONVERSATION, "anti-repetition takes the next gap")
+	s["history"] = ["sentences:", "sentences:"]
+	assert_eq(Recommender.recommend(s)["screen"], Recommender.SENTENCES, "two attempts: still the usual suggestion")
 	s = base.duplicate()
 	s["scores"] = {&"vocab": 10, &"grammar": 85, &"reading": 80, &"conversation": 75, &"kanji": 75}
 	s["budget_left"] = 0
 	assert_eq(Recommender.recommend(s)["screen"], Recommender.REVIEW, "no budget -> review")
 	s["scores"] = {&"vocab": 85, &"grammar": 90, &"reading": 85, &"conversation": 80, &"kanji": 10}
 	assert_eq(Recommender.recommend(s)["screen"], Recommender.KANJI, "weak kanji -> kanji screen")
+	return true
+
+
+func test_recommender_shuffle() -> bool:
+	var base := {"kana_mastery": 0.95, "due_count": 0, "exam_unlocked": false, "stage": &"N5",
+		"scores": {&"vocab": 80, &"grammar": 10, &"reading": 80, &"conversation": 60, &"kanji": 75},
+		"history": [], "daily_done": false, "daily_score": 0, "familiar_words": 0, "budget_left": 10,
+		"weakest_grammar_correct": 5, "roll": 0}
+	var usual := Recommender.recommend(base)
+	assert_eq(Recommender.key(usual), "sentences:", "usual suggestion")
+	var s := base.duplicate()
+	s["history"] = ["sentences:", "sentences:", "sentences:"]
+	var shuffled := Recommender.recommend(s)
+	assert_true(shuffled.get("shuffled", false), "three attempts in a row shuffle")
+	assert_true(Recommender.key(shuffled) != "sentences:", "the shuffle never repeats the usual one")
+	assert_true(String(shuffled["reason"]).begins_with(Recommender.SHUFFLED_REASON), "shuffled reason says why")
+	var picks := {}
+	for roll in 8:
+		s["roll"] = roll
+		picks[Recommender.key(Recommender.recommend(s))] = true
+	assert_true(picks.size() > 1, "different rolls give different activities")
+	s["roll"] = 3
+	assert_eq(Recommender.recommend(s), Recommender.recommend(s), "same roll, same pick (stable between visits)")
+	s["history"] = ["sentences:", "kanji:", "sentences:"]
+	assert_eq(Recommender.key(Recommender.recommend(s)), "sentences:", "a different attempt resets the run")
+	s = base.duplicate()
+	s["exam_unlocked"] = true
+	s["daily_done"] = true
+	s["daily_score"] = 90
+	s["history"] = ["assessment:gate", "assessment:gate", "assessment:gate"]
+	assert_eq(Recommender.recommend(s)["mode"], "gate", "the stage exam is never shuffled away")
+	assert_eq(Recommender.key(Recommender.for_skill(&"reading", base)), "review:reading", "reading -> example reading")
+	for rec in Recommender.alternatives(base):
+		assert_true(rec["screen"] != Recommender.LISTENING, "no listening without a voice")
+	base["tts"] = true
+	var has_listening := false
+	for rec in Recommender.alternatives(base):
+		has_listening = has_listening or rec["screen"] == Recommender.LISTENING
+	assert_true(has_listening, "listening offered with a voice")
 	return true
 
 
@@ -455,6 +495,15 @@ func test_progress_roundtrip() -> bool:
 	var v1 := {"version": 1, "words": {"x": {"rank": 2, "box": 1, "due": 0}}}
 	progress.from_dict(v1)
 	assert_true(progress.in_srs("x"), "v1 saves migrate discovered words into reviews")
+	fresh_progress()
+	var rec := {"screen": &"kanji", "mode": "", "reason": ""}
+	for i in 5:
+		progress.record_recommend_attempt(rec)
+	assert_eq(progress.recommend_history, ["kanji:", "kanji:", "kanji:"], "attempt history keeps the last three")
+	var roll: int = progress.recommend_roll
+	progress.from_dict(JSON.parse_string(JSON.stringify(progress.to_dict())))
+	assert_eq(progress.recommend_roll, roll, "roll survives a save")
+	assert_true(progress.recommender_input().has("roll"), "recommender input carries the roll")
 	return true
 
 

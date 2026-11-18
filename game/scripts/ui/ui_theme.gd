@@ -348,11 +348,13 @@ const UI_RUBY := {
 	"受": "う", "始": "はじ", "続": "つづ", "町": "まち", "戻": "もど", "文": "ぶん", "作": "つく",
 	"書": "か", "出": "だ", "思": "おも", "声": "こえ", "聞": "き", "止": "と", "答": "こた", "合": "あ",
 	"減": "へ", "消": "け", "訳": "やく", "済": "す", "全": "ぜん", "部": "ぶ", "直": "なお", "特大": "とくだい", "小": "しょう", "中": "ちゅう", "大": "だい", "文字": "もじ",
+	"走": "はし",
 }
 
 
 ## English for fixed UI labels, shown under the Japanese while Progress.beginner() is on.
 const UI_EN := {
+	"練習する": "Practise", "走る": "Run", "歩く": "Walk",
 	"次へ": "Next", "ホームへ": "Home", "もう一回": "Again", "選択肢を見る": "Show choices", "辞書へ": "Dictionary",
 	"読み方の練習": "Practise readings", "話す": "Talk / say it", "試験を受ける": "Take the exam",
 	"練習を始める": "Start practice", "続ける": "Continue", "確認する": "Check", "確認": "Check",
@@ -526,6 +528,36 @@ static func set_tile(b: Button, fill: Color = SURFACE, border: Color = BORDER) -
 	b.add_theme_stylebox_override("focus", _outline(NEUTRAL, RADIUS_BUTTON, 2))
 	for state in ["font_color", "font_hover_color", "font_pressed_color", "font_focus_color", "font_hover_pressed_color", "font_disabled_color"]:
 		b.add_theme_color_override(state, TEXT_PRIMARY)
+
+
+## A flat button around [param content] (a whole row that opens something). The button takes
+## its height from the content, which is laid out inside with a small inset.
+static func row_button(content: Control) -> Button:
+	var b := Button.new()
+	b.focus_mode = Control.FOCUS_ALL
+	b.add_theme_stylebox_override("normal", _flat(Color.TRANSPARENT, RADIUS_BUTTON))
+	b.add_theme_stylebox_override("hover", _flat(PRIMARY_TINT, RADIUS_BUTTON))
+	b.add_theme_stylebox_override("pressed", _flat(PRIMARY_TINT, RADIUS_BUTTON, PRIMARY, 2))
+	b.add_theme_stylebox_override("focus", _outline(NEUTRAL, RADIUS_BUTTON, 2))
+	b.add_child(content)
+	content.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	content.offset_left = 8
+	content.offset_right = -8
+	content.offset_top = 6
+	content.offset_bottom = -6
+	_ignore_mouse(content)
+	var fit := func() -> void:
+		b.custom_minimum_size.y = content.get_combined_minimum_size().y + 12
+	content.minimum_size_changed.connect(fit)
+	b.ready.connect(fit)
+	return b
+
+
+static func _ignore_mouse(n: Node) -> void:
+	if n is Control:
+		(n as Control).mouse_filter = Control.MOUSE_FILTER_IGNORE
+	for c in n.get_children():
+		_ignore_mouse(c)
 
 
 static func progress_bar(fill: Color, value: float) -> ProgressBar:

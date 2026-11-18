@@ -4,6 +4,10 @@ class_name TileButton
 ## An optional English subtitle sits under the Japanese (beginner help until N4).
 ## Button.text stays empty; [member markup] holds the content.
 
+## Space above and below the text, so ruby and descenders never touch the border.
+const PAD_Y := 10.0
+const MIN_HEIGHT := 56.0
+
 var markup: String = ""
 var label: FuriganaLabel
 var subtitle: Label
@@ -59,7 +63,7 @@ func _fit() -> void:
 		var f := UITheme.font(400)
 		w = maxf(w, minf(f.get_string_size(subtitle.text, HORIZONTAL_ALIGNMENT_LEFT, -1, UITheme.SIZE_EN_SUB).x, 420.0))
 		h += UITheme.SIZE_EN_SUB + 6
-	custom_minimum_size = Vector2(w + 32, maxf(56.0, h + 8))
+	custom_minimum_size = Vector2(w + 32, maxf(MIN_HEIGHT, h + PAD_Y * 2.0))
 
 
 ## Let long options wrap inside a full-width button.
@@ -74,14 +78,21 @@ func enable_wrap() -> void:
 	_box.offset_right = -20
 	custom_minimum_size.x = 0
 	resized.connect(_fit_height)
+	# A Button is not a container: when the label re-wraps to more lines (after the first layout,
+	# or when the window narrows) nothing tells the button, and the text spilled into the next
+	# option. Listen for the label's new height instead.
+	label.minimum_size_changed.connect(_fit_height)
+	if subtitle:
+		subtitle.minimum_size_changed.connect(_fit_height)
 
 
 func _fit_height() -> void:
-	var h := label.get_minimum_size().y + 8
+	var h := label.get_minimum_size().y + PAD_Y * 2.0
 	if subtitle and subtitle.text != "":
 		h += subtitle.get_minimum_size().y + 2
-	if absf(custom_minimum_size.y - maxf(56.0, h)) > 1.0:
-		custom_minimum_size.y = maxf(56.0, h)
+	h = maxf(MIN_HEIGHT, h)
+	if absf(custom_minimum_size.y - h) > 1.0:
+		custom_minimum_size.y = h
 
 
 func set_state(fill: Color, border: Color) -> void:

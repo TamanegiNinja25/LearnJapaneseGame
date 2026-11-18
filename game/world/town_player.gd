@@ -3,9 +3,11 @@
 class_name TownPlayer
 extends CharacterBody3D
 
-const WALK_SPEED := 2.4
-const RUN_SPEED := 5.0
-const ACCEL := 14.0
+const WALK_SPEED := 3.6
+const RUN_SPEED := 7.5
+const ACCEL := 20.0
+## Above this ground speed the run clip plays instead of the walk clip.
+const RUN_ANIM_SPEED := 5.0
 const TURN_RATE := 10.0
 const GRAVITY := 18.0
 const CAMERA_FOLLOW := 8.0
@@ -20,6 +22,8 @@ var spring_arm: SpringArm3D
 var camera: Camera3D
 ## Set false by the host (e.g. while a conversation is open) to freeze the avatar.
 var controls_enabled: bool = true
+## Sprint switched on by the touch 走る button; Shift and the left-stick click sprint too.
+var sprint: bool = false
 
 var _yaw: float = 0.0
 var _mouse_dragging: bool = false
@@ -99,7 +103,7 @@ func _physics_process(delta: float) -> void:
 			if absf(Input.get_joy_axis(0, JOY_AXIS_RIGHT_X)) > 0.2 else 0.0
 	var dir := Vector3(input.x, 0, input.y).rotated(Vector3.UP, _yaw)
 	var strength := minf(input.length(), 1.0)
-	var running := Input.is_key_pressed(KEY_SHIFT) or (strength > 0.75 and _using_stick())
+	var running := sprint or Input.is_key_pressed(KEY_SHIFT) or Input.is_joy_button_pressed(0, JOY_BUTTON_LEFT_STICK) or (strength > 0.75 and _using_stick())
 	var target_speed := (RUN_SPEED if running else WALK_SPEED) * (1.0 if strength > 0.0 else 0.0)
 	var horizontal := Vector3(velocity.x, 0, velocity.z)
 	horizontal = horizontal.move_toward(dir.normalized() * target_speed, ACCEL * delta)
@@ -115,7 +119,7 @@ func _physics_process(delta: float) -> void:
 	if dir.length_squared() > 0.01:
 		var target_angle := atan2(dir.x, dir.z)
 		actor.rotation.y = lerp_angle(actor.rotation.y, target_angle, 1.0 - exp(-TURN_RATE * delta))
-	if speed > 3.6:
+	if speed > RUN_ANIM_SPEED:
 		actor.play(TownActor.ANIM_RUN)
 	elif speed > 0.4:
 		actor.play(TownActor.ANIM_WALK)

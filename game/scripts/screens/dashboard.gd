@@ -55,11 +55,13 @@ func _ready() -> void:
 func _render_scores() -> void:
 	ScreenBase.clear(_scores_box)
 	_scores_box.add_child(ScreenBase.ja_en("スキル", "Skills", UITheme.SIZE_H2))
+	if Progress.show_explanations():
+		_scores_box.add_child(UITheme.en("Tap a skill to practise it.", UITheme.SIZE_LABEL))
 	var scores := Progress.scores()
 	var gate: Dictionary = Mastery.GATES.get(Progress.stage, {})
+	var input := Progress.recommender_input()
 	for skill in Mastery.SKILLS:
 		var row := UITheme.hbox(12)
-		_scores_box.add_child(row)
 		var name := UITheme.ja(Mastery.SKILL_LABEL_JA[skill], UITheme.SIZE_LABEL, UITheme.SKILL_INK[skill])
 		name.autowrap = false
 		name.custom_minimum_size.x = 64
@@ -75,7 +77,9 @@ func _render_scores() -> void:
 			row.add_child(stack)
 		else:
 			row.add_child(name)
-		row.add_child(UITheme.progress_bar(UITheme.SKILL_FILL[skill], float(scores[skill])))
+		var bar := UITheme.progress_bar(UITheme.SKILL_FILL[skill], float(scores[skill]))
+		bar.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		row.add_child(bar)
 		var pct := UITheme.label("%d%%" % int(scores[skill]), UITheme.SIZE_CAPTION, UITheme.TEXT_SECONDARY)
 		pct.size_flags_horizontal = Control.SIZE_SHRINK_END
 		pct.custom_minimum_size.x = 56
@@ -87,6 +91,14 @@ func _render_scores() -> void:
 		target.custom_minimum_size.x = 56
 		target.size_flags_horizontal = Control.SIZE_SHRINK_END
 		row.add_child(target)
+		var chevron := UITheme.label("›", UITheme.SIZE_H2, UITheme.PRIMARY)
+		chevron.size_flags_horizontal = Control.SIZE_SHRINK_END
+		row.add_child(chevron)
+		var rec := Recommender.for_skill(skill, input)
+		var b := UITheme.row_button(row)
+		b.tooltip_text = ScreenBase.activity_en(rec["screen"], rec["mode"])
+		b.pressed.connect(func() -> void: go(rec["screen"], {"mode": rec["mode"]}))
+		_scores_box.add_child(b)
 
 
 func _counters_card() -> PanelContainer:
@@ -113,29 +125,19 @@ func _counters_card() -> PanelContainer:
 
 
 func _recommendation_card() -> PanelContainer:
-	var weakest := Progress.weakest_grammar()
-	var rec := Recommender.recommend({
-		"kana_mastery": Progress.kana_mastery(), "due_count": Progress.due_count(),
-		"exam_unlocked": Progress.exam_unlocked(), "scores": Progress.scores(), "stage": Progress.stage,
-		"history": Progress.recommend_history, "daily_done": Progress.daily.get("assessment_done", false),
-		"daily_score": int(Progress.daily.get("assessment_score", 0)),
-		"familiar_words": Progress.count_words_at_least(Mastery.Rank.FAMILIAR),
-		"budget_left": Progress.budget_left(), "weakest_grammar_correct": int(weakest["correct"]),
-		"tts": Speech.available(),
-	})
-	Progress.recommend_history.append(rec["screen"])
-	if Progress.recommend_history.size() > 3:
-		Progress.recommend_history.pop_front()
+	var rec := Recommender.recommend(Progress.recommender_input())
 	var card := UITheme.card(UITheme.PRIMARY_TINT, UITheme.PRIMARY)
 	var v := UITheme.vbox(12)
 	card.add_child(v)
 	v.add_child(ScreenBase.ja_en("{次|つぎ}にやること", "Up next", UITheme.SIZE_H2, UITheme.PRIMARY))
 	v.add_child(UITheme.ja(rec["reason"], UITheme.SIZE_BODY))
-	var go_btn := TileButton.new(_screen_label(rec["screen"], rec["mode"]), UITheme.SIZE_LABEL,
-		_screen_en(rec["screen"], rec["mode"]) if Progress.show_english() else "")
+	var go_btn := TileButton.new(ScreenBase.activity_label(rec["screen"], rec["mode"]), UITheme.SIZE_LABEL,
+		ScreenBase.activity_en(rec["screen"], rec["mode"]) if Progress.show_english() else "")
 	go_btn.set_state(UITheme.PRIMARY, UITheme.PRIMARY)
 	go_btn.set_text_color(UITheme.ON_PRIMARY)
-	go_btn.pressed.connect(func() -> void: go(rec["screen"], {"mode": rec["mode"]}))
+	go_btn.pressed.connect(func() -> void:
+		Progress.record_recommend_attempt(rec)
+		go(rec["screen"], {"mode": rec["mode"]}))
 	v.add_child(go_btn)
 	set_primary(go_btn)
 	return card
@@ -191,29 +193,6 @@ func _exam_card() -> PanelContainer:
 		if Progress.show_explanations():
 			v.add_child(UITheme.en("Unlocks when every required skill is within 15 points of its threshold."))
 	return card
-
-
-func _screen_label(target: StringName, mode: String) -> String:
-	if target == &"assessment":
-		return "{毎日|まいにち}の{確認|かくにん}テスト" if mode == "daily" else "{試験|しけん}を{受|う}ける"
-	match target:
-		&"kana": return "かなトレーナー"
-		&"review": return "{復習|ふくしゅう}する"
-		&"dictionary": return "{辞書|じしょ}で{新|あたら}しい{言葉|ことば}"
-		&"sentences": return "{文|ぶん}を{作|つく}る"
-		&"grammar": return "{文法|ぶんぽう}レッスン"
-		&"conversation": return "{会話|かいわ}する"
-		&"kanji": return "{漢字|かんじ}を{学|まな}ぶ"
-		&"listening": return "{聴解|ちょうかい}の{練習|れんしゅう}"
-	return String(target)
-
-
-func _screen_en(target: StringName, mode: String) -> String:
-	if target == &"assessment":
-		return "Daily check" if mode == "daily" else "Take the exam"
-	return {&"kana": "Kana trainer", &"review": "Review", &"dictionary": "New words in the dictionary",
-		&"sentences": "Build sentences", &"grammar": "Grammar lesson", &"conversation": "Conversation",
-		&"kanji": "Learn kanji", &"listening": "Listening practice"}.get(target, "")
 
 
 func _count_srs() -> int:

@@ -19,15 +19,19 @@ func _ready() -> void:
 			covered += 1
 	var info := UITheme.hbox(12)
 	column.add_child(info)
-	info.add_child(UITheme.ja("{覚|おぼ}えた{漢字|かんじ}：%d / %d" % [covered, chars.size()], UITheme.SIZE_LABEL, UITheme.SKILL_INK[&"kanji"]))
+	var count := UITheme.ja("{覚|おぼ}えた{漢字|かんじ}：%d / %d" % [covered, chars.size()], UITheme.SIZE_LABEL, UITheme.SKILL_INK[&"kanji"])
+	count.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	count.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	info.add_child(count)
 	var practise := UITheme.button("読み方の練習", false)
 	practise.size_flags_horizontal = Control.SIZE_SHRINK_END
 	practise.pressed.connect(func() -> void: go(&"review", {"mode": "kanji"}))
 	info.add_child(practise)
 	_detail = UITheme.vbox(UITheme.GAP)
 	column.add_child(_detail)
-	var grid := GridContainer.new()
-	grid.columns = clampi(int(content_width() / 72.0), 6, 16)
+	# A flow wraps the tiles to whatever width the column gets. (A fixed column count was computed
+	# before layout and made the page wider than a phone screen.)
+	var grid := HFlowContainer.new()
 	grid.add_theme_constant_override("h_separation", 8)
 	grid.add_theme_constant_override("v_separation", 8)
 	column.add_child(grid)
