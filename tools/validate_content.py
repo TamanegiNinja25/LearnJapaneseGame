@@ -131,6 +131,28 @@ def check_strokes(data, name: str) -> None:
                 err(f"{where}.strokes[{j}]: coordinate outside the 109 box")
 
 
+def check_rewrites(data, name: str) -> None:
+    """Register rewrite drills (表現 screen): from -> answer, two wrong rewrites."""
+    ids = set()
+    for i, d in enumerate(data):
+        where = f"{name}[{i}]"
+        if not require(d, {"id": str, "level": str, "from": str, "from_register": str, "to_register": str,
+                           "answer": str, "distractors": list, "en": str}, where):
+            continue
+        if d["id"] in ids:
+            err(f"{where}: duplicate id {d['id']}")
+        ids.add(d["id"])
+        for reg in ("from_register", "to_register"):
+            if d[reg] not in ("polite", "casual", "honorific"):
+                err(f"{where}.{reg}: {d[reg]!r} is not polite, casual or honorific")
+        if len(d["distractors"]) < 1 or d["answer"] in d["distractors"]:
+            err(f"{where}: needs wrong rewrites that differ from the answer")
+        for field in ("from", "answer"):
+            ja(d[field], f"{where}.{field}")
+        for j, x in enumerate(d["distractors"]):
+            ja(x, f"{where}.distractors[{j}]")
+
+
 def check_grammar(data, name: str, stage: str, gids: set) -> None:
     for i, g in enumerate(data):
         where = f"{name}[{i}]"
@@ -264,8 +286,10 @@ def check_anchors(data, name: str, stage: str) -> None:
 def kind_of(name: str) -> tuple[str, str | None]:
     if name == "kana.json":
         return "kana", None
+    if name == "strokes_extra.json":
+        return "strokes", None
     # An optional _suffix lets several files share a kind and stage (grammar_n5_verbs.json).
-    m = re.fullmatch(r"(vocab|kanji|strokes|grammar|sentences|scenarios|passages|anchors)_(n5|n4|n3|n2|n1|mastery)(?:_[a-z0-9]+)?\.json", name)
+    m = re.fullmatch(r"(vocab|kanji|strokes|rewrites|grammar|sentences|scenarios|passages|anchors)_(n5|n4|n3|n2|n1|mastery)(?:_[a-z0-9]+)?\.json", name)
     if not m:
         return "unknown", None
     return m.group(1), m.group(2)
@@ -300,6 +324,8 @@ def validate(content: Path, only: str | None) -> None:
             check_kanji(data, path.name, stage)
         elif kind == "strokes":
             check_strokes(data, path.name)
+        elif kind == "rewrites":
+            check_rewrites(data, path.name)
         elif kind == "grammar":
             check_grammar(data, path.name, stage, grammar_ids)
         elif kind == "sentences":

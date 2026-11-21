@@ -80,12 +80,15 @@ const ACTIVITY_WEIGHTS := {
 	# Writing practice (GDD §10.3): tracing teaches the strokes, writing from memory proves them.
 	&"kanji_tracing": {&"writing": 0.5},
 	&"kanji_writing": {&"writing": 1.0, &"kanji": 0.3},
+	# 表現 screen (GDD §9.5): register rewrites and spotting unnatural replies.
+	&"rewrite": {&"grammar": 0.6, &"conversation": 0.4},
+	&"naturalness": {&"conversation": 0.8, &"grammar": 0.2},
 }
 
 ## XP per item (GDD §5.5).
 const XP := {&"kana": 2, &"review": 5, &"sentence": 20, &"sentence_hinted": 10, &"scenario_turn": 15,
 	&"grammar_quiz": 10, &"scenario_complete": 200, &"daily_assessment": 250, &"listening": 5, &"passage": 10,
-	&"kanji_tracing": 5, &"kanji_writing": 15}
+	&"kanji_tracing": 5, &"kanji_writing": 15, &"rewrite": 10, &"naturalness": 10}
 
 ## Mastered words keep their rank on a single lapse; a second lapse within this window demotes
 ## them (GDD §13 question 5, resolved 2026-11-12).

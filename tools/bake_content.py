@@ -98,24 +98,47 @@ def katakana_table() -> list[dict]:
 
 # ---------------------------------------------------------------- vocab
 
+## Senses a beginner should not see first: slang, vulgar, archaic, obsolete, rare, derogatory.
+SKIP_SENSE_TAGS = {"sl", "vulg", "arch", "obs", "rare", "derog", "X", "male-sl", "net-sl"}
+
+
+def _entry_score(entry: dict, headword: str, reading: str) -> int:
+    """How well a JMdict entry fits the word list's (headword, reading)."""
+    kana = [k["t"] for k in entry.get("kana", [])]
+    kanji = entry.get("kanji", [])
+    if reading not in kana and headword not in kana and headword not in [k["t"] for k in kanji]:
+        return -1
+    score = 2 if entry["_common"] else 1
+    if headword == reading or headword in kana:
+        # Written in kana: prefer words that are usually written in kana (居る, not 射る, for いる).
+        senses = entry.get("sense", [])
+        if senses and "uk" in (senses[0].get("misc") or []):
+            score += 3
+        if not kanji or all(set(k.get("tags", [])) & {"rK", "oK", "iK", "sK"} for k in kanji):
+            score += 2
+    elif headword in [k["t"] for k in kanji]:
+        score += 3
+    return score
+
+
 def jmdict_gloss(headword: str, reading: str) -> tuple[list[str], str | None]:
     best = None
     for entry in jp.jmdict_entries(headword):
-        kana = [k["t"] for k in entry.get("kana", [])]
-        if reading in kana or headword in kana:
-            score = 2 if entry["_common"] else 1
-            if best is None or score > best[0]:
-                best = (score, entry)
+        score = _entry_score(entry, headword, reading)
+        if score >= 0 and (best is None or score > best[0]):
+            best = (score, entry)
     if best is None:
         return [], None
     glosses: list[str] = []
     pos = None
-    for sense in best[1].get("sense", []):
+    for i, sense in enumerate(best[1].get("sense", [])):
         if pos is None:
             for tag in sense.get("pos", []):
                 if tag in POS_MAP or tag.startswith("v5"):
                     pos = POS_MAP.get(tag, "verb-u")
                     break
+        if i > 0 and set(sense.get("misc") or []) & SKIP_SENSE_TAGS:
+            continue
         for g in sense.get("g", []):
             if g not in glosses:
                 glosses.append(g)
@@ -137,6 +160,9 @@ def bake_stage_vocab(stage: str, seen: dict[tuple[str, str], str]) -> list[dict]
                 continue
             seen[key] = f"{stage}/{path.name}"
             glosses, _pos = jmdict_gloss(*key)
+            override = OVERRIDES.get(key)
+            if override:
+                glosses = [g.strip() for g in override.split(";") if g.strip()]
             category = row["category"]
             entries.append({
                 "id": jp.word_id(*key),
@@ -155,6 +181,23 @@ def bake_stage_vocab(stage: str, seen: dict[tuple[str, str], str]) -> list[dict]
     return entries
 
 
+def load_overrides() -> dict[tuple[str, str], str]:
+    """Curated English for words whose JMdict first senses mislead a learner (肉 -> meat)."""
+    path = WORDLISTS / "gloss_overrides.tsv"
+    out: dict[tuple[str, str], str] = {}
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if not line.strip() or line.startswith("#"):
+                continue
+            parts = line.split("	")
+            if len(parts) >= 3 and parts[2].strip():
+                out[(parts[0].strip(), parts[1].strip())] = parts[2].strip()
+    return out
+
+
+OVERRIDES = load_overrides()
+
+
 # ---------------------------------------------------------------- kanji
 
 def stage_of_kanji() -> dict[str, str]:
@@ -165,6 +208,10 @@ def stage_of_kanji() -> dict[str, str]:
     half = len(old2) // 2
     for i, ch in enumerate(old2):
         out[ch] = "n3" if i < half else "n2"
+    # Mastery: the remaining jōyō kanji (KANJIDIC2 grades 1-8) that no JLPT level lists.
+    for ch, info in kd.items():
+        if ch not in out and info.get("grade") in (1, 2, 3, 4, 5, 6, 8):
+            out[ch] = "mastery"
     return out
 
 

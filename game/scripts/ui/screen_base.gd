@@ -216,6 +216,11 @@ static func feedback_card(verdict: String, ja: String, en: String, tint: Color, 
 	var v := UITheme.vbox(8)
 	card.add_child(v)
 	v.add_child(UITheme.ja(verdict, UITheme.SIZE_H2, ink))
+	# Every answer screen reports its verdict through this card, so the sound lives here too.
+	if ink == UITheme.CORRECT:
+		Sfx.play("correct")
+	elif ink == UITheme.INCORRECT:
+		Sfx.play("wrong")
 	if ja != "":
 		v.add_child(UITheme.ja(ja, UITheme.SIZE_BODY))
 	if en != "" and Progress.show_explanations():

@@ -1,0 +1,422 @@
+[
+ {
+  "id": "n5_rw_001",
+  "level": "N5",
+  "from": "{毎日|まいにち}{学校|がっこう}に{行|い}きます。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{毎日|まいにち}{学校|がっこう}に{行|い}く。",
+  "distractors": [
+   "{毎日|まいにち}{学校|がっこう}に{行|い}きる。",
+   "{毎日|まいにち}{学校|がっこう}に{行|い}くです。"
+  ],
+  "en": "I go to school every day.",
+  "note": "The ます form becomes the dictionary form."
+ },
+ {
+  "id": "n5_rw_002",
+  "level": "N5",
+  "from": "{肉|にく}を{食|た}べません。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{肉|にく}を{食|た}べない。",
+  "distractors": [
+   "{肉|にく}を{食|た}べらない。",
+   "{肉|にく}を{食|た}べなかった。"
+  ],
+  "en": "I don't eat meat.",
+  "note": "～ません becomes the plain ない form; for る-verbs drop る and add ない."
+ },
+ {
+  "id": "n5_rw_003",
+  "level": "N5",
+  "from": "{昨日|きのう}、{映画|えいが}を{見|み}ました。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{昨日|きのう}、{映画|えいが}を{見|み}た。",
+  "distractors": [
+   "{昨日|きのう}、{映画|えいが}を{見|み}った。",
+   "{昨日|きのう}、{映画|えいが}を{見|み}る。"
+  ],
+  "en": "I watched a movie yesterday.",
+  "note": "～ました becomes the plain past た form; 見る becomes 見た."
+ },
+ {
+  "id": "n5_rw_004",
+  "level": "N5",
+  "from": "{先週|せんしゅう}、{京都|きょうと}へ{行|い}きました。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{先週|せんしゅう}、{京都|きょうと}へ{行|い}った。",
+  "distractors": [
+   "{先週|せんしゅう}、{京都|きょうと}へ{行|い}きった。",
+   "{先週|せんしゅう}、{京都|きょうと}へ{行|い}いた。"
+  ],
+  "en": "I went to Kyoto last week.",
+  "note": "行く is irregular in the past: 行った, not 行いた."
+ },
+ {
+  "id": "n5_rw_005",
+  "level": "N5",
+  "from": "{友達|ともだち}が{家|いえ}に{来|き}ました。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{友達|ともだち}が{家|いえ}に{来|き}た。",
+  "distractors": [
+   "{友達|ともだち}が{家|いえ}に{来|こ}た。",
+   "{友達|ともだち}が{家|いえ}に{来|く}った。"
+  ],
+  "en": "A friend came to my house.",
+  "note": "The plain past of 来る is 来た, read きた."
+ },
+ {
+  "id": "n5_rw_006",
+  "level": "N5",
+  "from": "{昨日|きのう}、テニスをしました。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{昨日|きのう}、テニスをした。",
+  "distractors": [
+   "{昨日|きのう}、テニスをしった。",
+   "{昨日|きのう}、テニスをすった。"
+  ],
+  "en": "I played tennis yesterday.",
+  "note": "The plain past of する is した."
+ },
+ {
+  "id": "n5_rw_007",
+  "level": "N5",
+  "from": "{昨日|きのう}は{雨|あめ}でした。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{昨日|きのう}は{雨|あめ}だった。",
+  "distractors": [
+   "{昨日|きのう}は{雨|あめ}だ。",
+   "{昨日|きのう}は{雨|あめ}かった。"
+  ],
+  "en": "It rained yesterday.",
+  "note": "でした becomes だった, the plain past of だ."
+ },
+ {
+  "id": "n5_rw_008",
+  "level": "N5",
+  "from": "{今日|きょう}は{暑|あつ}いです。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{今日|きょう}は{暑|あつ}い。",
+  "distractors": [
+   "{今日|きょう}は{暑|あつ}いだ。",
+   "{今日|きょう}は{暑|あつ}かった。"
+  ],
+  "en": "It's hot today.",
+  "note": "An い-adjective just drops です; never add だ after it."
+ },
+ {
+  "id": "n5_rw_009",
+  "level": "N5",
+  "from": "この{部屋|へや}は{静|しず}かです。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "この{部屋|へや}は{静|しず}かだ。",
+  "distractors": [
+   "この{部屋|へや}は{静|しず}かい。",
+   "この{部屋|へや}は{静|しず}かな。"
+  ],
+  "en": "This room is quiet.",
+  "note": "A な-adjective takes だ in place of です."
+ },
+ {
+  "id": "n5_rw_010",
+  "level": "N5",
+  "from": "{私|わたし}は{学生|がくせい}です。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{私|わたし}は{学生|がくせい}だ。",
+  "distractors": [
+   "{私|わたし}は{学生|がくせい}だった。",
+   "{私|わたし}は{学生|がくせい}じゃない。"
+  ],
+  "en": "I am a student.",
+  "note": "After a noun, です becomes だ."
+ },
+ {
+  "id": "n5_rw_011",
+  "level": "N5",
+  "from": "この{本|ほん}は{高|たか}くないです。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "この{本|ほん}は{高|たか}くない。",
+  "distractors": [
+   "この{本|ほん}は{高|たか}いない。",
+   "この{本|ほん}は{高|たか}くないだ。"
+  ],
+  "en": "This book is not expensive.",
+  "note": "Drop です from ～くないです; ～くない is already plain."
+ },
+ {
+  "id": "n5_rw_012",
+  "level": "N5",
+  "from": "{魚|さかな}は{好|す}きじゃありません。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{魚|さかな}は{好|す}きじゃない。",
+  "distractors": [
+   "{魚|さかな}は{好|す}きくない。",
+   "{魚|さかな}は{好|す}きない。"
+  ],
+  "en": "I don't like fish.",
+  "note": "好き is a な-adjective, so its plain negative is 好きじゃない."
+ },
+ {
+  "id": "n5_rw_013",
+  "level": "N5",
+  "from": "{朝|あさ}ご{飯|はん}を{食|た}べませんでした。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{朝|あさ}ご{飯|はん}を{食|た}べなかった。",
+  "distractors": [
+   "{朝|あさ}ご{飯|はん}を{食|た}べないでした。",
+   "{朝|あさ}ご{飯|はん}を{食|た}べなかったでした。"
+  ],
+  "en": "I didn't eat breakfast.",
+  "note": "～ませんでした becomes ～なかった."
+ },
+ {
+  "id": "n5_rw_014",
+  "level": "N5",
+  "from": "コーヒーを{飲|の}みますか。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "コーヒーを{飲|の}む？",
+  "distractors": [
+   "コーヒーを{飲|の}むか。",
+   "コーヒーを{飲|の}みる？"
+  ],
+  "en": "Do you drink coffee?",
+  "note": "Casual questions usually drop か and use rising intonation."
+ },
+ {
+  "id": "n5_rw_015",
+  "level": "N5",
+  "from": "{日本語|にほんご}は{難|むずか}しいですか。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{日本語|にほんご}は{難|むずか}しい？",
+  "distractors": [
+   "{日本語|にほんご}は{難|むずか}しいだ？",
+   "{日本語|にほんご}は{難|むずか}しかった？"
+  ],
+  "en": "Is Japanese difficult?",
+  "note": "Drop ですか and raise your voice at the end."
+ },
+ {
+  "id": "n5_rw_016",
+  "level": "N5",
+  "from": "これは{何|なん}ですか。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "これは{何|なに}？",
+  "distractors": [
+   "これは{何|なん}だか。",
+   "これは{何|なに}か？"
+  ],
+  "en": "What is this?",
+  "note": "何ですか becomes 何？ in casual speech; 何か means \"something\"."
+ },
+ {
+  "id": "n5_rw_017",
+  "level": "N5",
+  "from": "ちょっと{待|ま}ってください。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "ちょっと{待|ま}って。",
+  "distractors": [
+   "ちょっと{待|ま}ちて。",
+   "ちょっと{待|ま}つください。"
+  ],
+  "en": "Wait a moment, please.",
+  "note": "Among friends, the て form alone makes a request."
+ },
+ {
+  "id": "n5_rw_018",
+  "level": "N5",
+  "from": "{窓|まど}を{開|あ}けてください。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{窓|まど}を{開|あ}けて。",
+  "distractors": [
+   "{窓|まど}を{開|あ}いて。",
+   "{窓|まど}を{開|あ}けるください。"
+  ],
+  "en": "Open the window, please.",
+  "note": "Drop ください and keep the て form of 開ける."
+ },
+ {
+  "id": "n5_rw_019",
+  "level": "N5",
+  "from": "{明日|あした}、{友達|ともだち}に{会|あ}う。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{明日|あした}、{友達|ともだち}に{会|あ}います。",
+  "distractors": [
+   "{明日|あした}、{友達|ともだち}を{会|あ}います。",
+   "{明日|あした}、{友達|ともだち}に{会|あ}うます。"
+  ],
+  "en": "I'm meeting a friend tomorrow.",
+  "note": "Change う to い and add ます; 会う takes に, not を."
+ },
+ {
+  "id": "n5_rw_020",
+  "level": "N5",
+  "from": "{日本語|にほんご}が{分|わ}からない。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{日本語|にほんご}が{分|わ}かりません。",
+  "distractors": [
+   "{日本語|にほんご}が{分|わ}からないます。",
+   "{日本語|にほんご}が{分|わ}かりました。"
+  ],
+  "en": "I don't understand Japanese.",
+  "note": "The polite negative is ～ません, not ない＋ます."
+ },
+ {
+  "id": "n5_rw_021",
+  "level": "N5",
+  "from": "{昨日|きのう}、{公園|こうえん}で{遊|あそ}んだ。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{昨日|きのう}、{公園|こうえん}で{遊|あそ}びました。",
+  "distractors": [
+   "{昨日|きのう}、{公園|こうえん}で{遊|あそ}んでした。",
+   "{昨日|きのう}、{公園|こうえん}に{遊|あそ}びました。"
+  ],
+  "en": "I played in the park yesterday.",
+  "note": "遊んだ becomes 遊びました; the place of an action takes で."
+ },
+ {
+  "id": "n5_rw_022",
+  "level": "N5",
+  "from": "この{店|みせ}は{安|やす}い。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "この{店|みせ}は{安|やす}いです。",
+  "distractors": [
+   "この{店|みせ}は{安|やす}います。",
+   "この{店|みせ}は{安|やす}いだです。"
+  ],
+  "en": "This shop is cheap.",
+  "note": "An い-adjective becomes polite by adding です."
+ },
+ {
+  "id": "n5_rw_023",
+  "level": "N5",
+  "from": "{駅|えき}は{遠|とお}くなかった。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{駅|えき}は{遠|とお}くありませんでした。",
+  "distractors": [
+   "{駅|えき}は{遠|とお}いじゃありませんでした。",
+   "{駅|えき}は{遠|とお}くないでした。"
+  ],
+  "en": "The station wasn't far.",
+  "note": "～くなかった becomes ～くありませんでした (or ～くなかったです)."
+ },
+ {
+  "id": "n5_rw_024",
+  "level": "N5",
+  "from": "{昨日|きのう}は{休|やす}みだった。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{昨日|きのう}は{休|やす}みでした。",
+  "distractors": [
+   "{昨日|きのう}は{休|やす}みだったです。",
+   "{昨日|きのう}は{休|やす}みです。"
+  ],
+  "en": "Yesterday was a day off.",
+  "note": "だった becomes でした."
+ },
+ {
+  "id": "n5_rw_025",
+  "level": "N5",
+  "from": "{部屋|へや}がきれいじゃない。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{部屋|へや}がきれいじゃありません。",
+  "distractors": [
+   "{部屋|へや}がきれくないです。",
+   "{部屋|へや}がきれいくないです。"
+  ],
+  "en": "The room isn't clean.",
+  "note": "きれい is a な-adjective, so use じゃありません, not ～くない."
+ },
+ {
+  "id": "n5_rw_026",
+  "level": "N5",
+  "from": "どこに{行|い}く？",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "どこに{行|い}きますか。",
+  "distractors": [
+   "どこに{行|い}くますか。",
+   "どこに{行|い}きましたか。"
+  ],
+  "en": "Where are you going?",
+  "note": "Polite questions use ～ますか instead of rising intonation."
+ },
+ {
+  "id": "n5_rw_027",
+  "level": "N5",
+  "from": "{一緒|いっしょ}に{食|た}べない？",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{一緒|いっしょ}に{食|た}べませんか。",
+  "distractors": [
+   "{一緒|いっしょ}に{食|た}べないますか。",
+   "{一緒|いっしょ}に{食|た}べましたか。"
+  ],
+  "en": "Won't you eat with me?",
+  "note": "A casual ～ない？ invitation becomes ～ませんか."
+ },
+ {
+  "id": "n5_rw_028",
+  "level": "N5",
+  "from": "ここに{名前|なまえ}を{書|か}いて。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "ここに{名前|なまえ}を{書|か}いてください。",
+  "distractors": [
+   "ここに{名前|なまえ}を{書|か}きてください。",
+   "ここに{名前|なまえ}を{書|か}くてください。"
+  ],
+  "en": "Please write your name here.",
+  "note": "Add ください after the て form; 書く becomes 書いて."
+ },
+ {
+  "id": "n5_rw_029",
+  "level": "N5",
+  "from": "ちょっと{見|み}せて。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "ちょっと{見|み}せてください。",
+  "distractors": [
+   "ちょっと{見|み}てください。",
+   "ちょっと{見|み}せるください。"
+  ],
+  "en": "Please show me for a moment.",
+  "note": "Add ください to 見せて; 見て would mean \"look\"."
+ },
+ {
+  "id": "n5_rw_030",
+  "level": "N5",
+  "from": "{明日|あした}は{忙|いそが}しくない。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{明日|あした}は{忙|いそが}しくないです。",
+  "distractors": [
+   "{明日|あした}は{忙|いそが}しいじゃないです。",
+   "{明日|あした}は{忙|いそが}しくなかったです。"
+  ],
+  "en": "I'm not busy tomorrow.",
+  "note": "Add です to ～くない to make it polite."
+ }
+]

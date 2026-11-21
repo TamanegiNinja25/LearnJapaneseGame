@@ -1,7 +1,11 @@
 name: Release builds
 
-# Push a tag like v0.2.0 (or run manually) to export Windows, Linux and Web builds.
-# The Web build can be uploaded to itch.io as an HTML5 game (enable SharedArrayBuffer support).
+# Push a tag like v0.2.0 (or run manually) to export Windows, Linux, macOS, Web and Android builds
+# and publish them as a GitHub release. The Web build can be uploaded to itch.io as an HTML5 game.
+#
+# Play Store: when the repository has the secrets ANDROID_RELEASE_KEYSTORE_BASE64,
+# ANDROID_RELEASE_KEY_ALIAS and ANDROID_RELEASE_KEY_PASSWORD, a signed .aab app bundle is also
+# built and uploaded as a workflow artifact (not attached to the public release). See README.
 on:
   push:
     tags: ["v*"]
@@ -60,11 +64,36 @@ jobs:
       - name: Export
         run: |
           set -euo pipefail
-          mkdir -p build/windows build/linux build/web build/android
+          mkdir -p build/windows build/linux build/web build/android build/macos
           godot --headless --path game --export-release "Windows Desktop" ../build/windows/NihongoNoSekai.exe
           godot --headless --path game --export-release "Linux" ../build/linux/NihongoNoSekai.x86_64
           godot --headless --path game --export-release "Web" ../build/web/index.html
+          godot --headless --path game --export-release "macOS" ../build/macos/NihongoNoSekai.zip
           godot --headless --path game --export-debug "Android" ../build/android/NihongoNoSekai.apk
+
+      - name: Play Store app bundle (only with the release-key secrets)
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_RELEASE_KEYSTORE_BASE64 }}
+          KEY_ALIAS: ${{ secrets.ANDROID_RELEASE_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_RELEASE_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          if [ -z "${KEYSTORE_B64}" ]; then
+            echo "No release-key secrets: skipping the Play Store bundle."
+            exit 0
+          fi
+          echo "${KEYSTORE_B64}" | base64 -d > "$RUNNER_TEMP/release.keystore"
+          # Gradle builds need Godot's Android build template inside the project.
+          mkdir -p game/android/build
+          unzip -q -o "$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable/android_source.zip" -d game/android/build
+          echo "${GODOT_VERSION}.stable" > game/android/.build_version
+          touch game/android/build/.gdignore
+          mkdir -p build/play
+          export GODOT_ANDROID_KEYSTORE_RELEASE_PATH="$RUNNER_TEMP/release.keystore"
+          export GODOT_ANDROID_KEYSTORE_RELEASE_USER="${KEY_ALIAS}"
+          export GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD="${KEY_PASSWORD}"
+          godot --headless --path game --export-release "Android (Play Store)" ../build/play/NihongoNoSekai.aab
+          rm -f "$RUNNER_TEMP/release.keystore"
 
       - uses: actions/upload-artifact@v4
         with:
@@ -82,6 +111,15 @@ jobs:
         with:
           name: android
           path: build/android/*.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macos
+          path: build/macos/*.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: play-store-bundle
+          path: build/play/*.aab
+          if-no-files-found: ignore
 
       - name: Package release files
         if: startsWith(github.ref, 'refs/tags/v')
@@ -93,6 +131,7 @@ jobs:
           (cd build/linux && zip -q -r "../../dist/NihongoNoSekai-${V}-linux.zip" .)
           (cd build/web && zip -q -r "../../dist/NihongoNoSekai-${V}-web.zip" .)
           cp build/android/NihongoNoSekai.apk "dist/NihongoNoSekai-${V}-android.apk"
+          cp build/macos/NihongoNoSekai.zip "dist/NihongoNoSekai-${V}-macos.zip"
           (cd dist && sha256sum * > SHA256SUMS.txt)
           ls -la dist
 

@@ -9,6 +9,8 @@ game/content/kanji_<stage>.json   the kanji the game teaches (written by bake_co
 Output
 ------
 game/content/strokes_<stage>.json   [{"kanji": "日", "strokes": [[x0, y0, x1, y1, ...], ...]}]
+game/content/strokes_extra.json     the same for every hiragana and katakana, ー and 々, and any
+                                    kanji used in a word but on no stage list (word writing)
 
 Coordinates are KanjiVG's 109 x 109 box, one decimal. Strokes are in writing order and each
 runs in the direction it is written. Curves are sampled, then simplified (Ramer-Douglas-Peucker)
@@ -168,6 +170,26 @@ def main() -> int:
         out.write_text(text, encoding="utf-8", newline="\n")
         total += len(entries)
         print(f"{out.name}: {len(entries)} kanji, {len(text) // 1024} KB")
+    # Kana and the leftovers needed to write whole words.
+    staged: set[str] = set()
+    for stage in STAGES:
+        src = CONTENT / f"kanji_{stage}.json"
+        if src.exists():
+            staged.update(k["kanji"] for k in json.loads(src.read_text(encoding="utf-8")))
+    extra = [chr(c) for c in range(0x3041, 0x3097)] + [chr(c) for c in range(0x30A1, 0x30FB)] + ["ー", "々"]
+    for vocab in sorted(CONTENT.glob("vocab_*.json")):
+        for e in json.loads(vocab.read_text(encoding="utf-8")):
+            for ch in e["headword"]:
+                if "一" <= ch <= "鿿" and ch not in staged and ch not in extra:
+                    extra.append(ch)
+    entries = []
+    for ch in extra:
+        if ch in kvg:
+            entries.append({"kanji": ch, "strokes": [[round(v, 1) for p in simplify(path_points(d), SIMPLIFY) for v in p] for d in kvg[ch]]})
+    out = CONTENT / "strokes_extra.json"
+    text = "[\n" + ",\n".join(json.dumps(e, ensure_ascii=False, separators=(",", ":")) for e in entries) + "\n]\n"
+    out.write_text(text, encoding="utf-8", newline="\n")
+    print(f"{out.name}: {len(entries)} characters, {len(text) // 1024} KB")
     print(f"{total} kanji baked" + (f"; no KanjiVG data for {''.join(missing)}" if missing else ""))
     return 0
 

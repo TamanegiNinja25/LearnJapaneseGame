@@ -29,17 +29,33 @@ static func is_newer(latest: String, current: String) -> bool:
 
 
 ## The fields the popup needs from a GitHub "latest release" response, or {} when the response
-## is not a usable published release. "apk" is the Android download, "" when there is none.
+## is not a usable published release. "apk", "windows", "linux" and "macos" are direct download
+## URLs for each platform's build ("" when the release has none).
 static func from_release(data: Dictionary) -> Dictionary:
 	var tag := String(data.get("tag_name", ""))
 	if tag == "" or data.get("draft", false) or data.get("prerelease", false):
 		return {}
-	var apk := ""
+	var out := {"version": tag.trim_prefix("v"), "url": String(data.get("html_url", RELEASES_PAGE)),
+		"apk": "", "windows": "", "linux": "", "macos": ""}
 	for asset: Variant in data.get("assets", []):
-		if asset is Dictionary and String((asset as Dictionary).get("name", "")).ends_with(".apk"):
-			apk = String((asset as Dictionary).get("browser_download_url", ""))
-	return {
-		"version": tag.trim_prefix("v"),
-		"url": String(data.get("html_url", RELEASES_PAGE)),
-		"apk": apk,
-	}
+		if not asset is Dictionary:
+			continue
+		var name := String((asset as Dictionary).get("name", ""))
+		var url := String((asset as Dictionary).get("browser_download_url", ""))
+		if name.ends_with(".apk"):
+			out["apk"] = url
+		elif name.ends_with("-windows.zip"):
+			out["windows"] = url
+		elif name.ends_with("-linux.zip"):
+			out["linux"] = url
+		elif name.ends_with("-macos.zip"):
+			out["macos"] = url
+	return out
+
+
+## The download for the running platform ("Android", "Windows", "Linux", "macOS"), falling back
+## to the release page (the Web build, or a release without that file).
+static func download_url(info: Dictionary, os_name: String) -> String:
+	var key: String = {"Android": "apk", "Windows": "windows", "Linux": "linux", "macOS": "macos"}.get(os_name, "")
+	var url := String(info.get(key, "")) if key != "" else ""
+	return url if url != "" else String(info.get("url", RELEASES_PAGE))

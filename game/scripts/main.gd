@@ -13,6 +13,7 @@ const SCREENS := {
 	&"review": "res://scripts/screens/review.gd",
 	&"kanji": "res://scripts/screens/kanji.gd",
 	&"writing": "res://scripts/screens/writing.gd",
+	&"style": "res://scripts/screens/style.gd",
 	&"grammar": "res://scripts/screens/grammar_lesson.gd",
 	&"sentences": "res://scripts/screens/sentence_builder.gd",
 	&"conversation": "res://scripts/screens/conversation.gd",
@@ -32,6 +33,7 @@ const NAV := [
 	[&"writing", "pencil-kanji", "{書|か}き", "Writing"],
 	[&"grammar", "notebook", "{文法|ぶんぽう}", "Grammar lessons"],
 	[&"sentences", "puzzle", "{文|ぶん}を{作|つく}る", "Sentence builder"],
+	[&"style", "swap-style", "{表現|ひょうげん}", "Natural Japanese"],
 	[&"conversation", "messages", "{会話|かいわ}", "Conversation"],
 	[&"listening", "headphones", "{聴解|ちょうかい}", "Listening"],
 	[&"assessment", "certificate", "{試験|しけん}", "Assessment"],
@@ -46,6 +48,7 @@ var _current_args: Dictionary = {}
 var _overlay: Control
 var _built_beginner := false
 var _update_request: HTTPRequest
+var _sfx: Sfx
 
 
 func _ready() -> void:
@@ -53,6 +56,8 @@ func _ready() -> void:
 	get_tree().quit_on_go_back = false
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	_apply_settings()
+	_sfx = Sfx.new()
+	add_child(_sfx)
 	_build()
 	Progress.xp_changed.connect(func(_xp: int) -> void: _refresh_status())
 	Progress.stage_changed.connect(_on_stage_changed)
@@ -72,8 +77,8 @@ func _apply_settings() -> void:
 
 func _build() -> void:
 	for c in get_children():
-		if c == _update_request:
-			continue  # a rebuild (theme change) must not cancel the update check
+		if c == _update_request or c == _sfx:
+			continue  # a rebuild (theme change) must not cancel the update check or the music
 		remove_child(c)
 		c.queue_free()
 	var bg := ColorRect.new()
@@ -196,6 +201,7 @@ func _notification(what: int) -> void:
 
 
 func _on_settings_changed() -> void:
+	Sfx.refresh()
 	var dark_now: bool = Progress.setting("theme") == "dark"
 	var biz_now: bool = Progress.setting("font") == "bizud"
 	var scale_now := Progress.ui_scale()
@@ -259,8 +265,8 @@ static func _version() -> String:
 	return String(ProjectSettings.get_setting("application/config/version", "0.0.0"))
 
 
-## Modal card: the new version, a download button (the APK on Android, the release page
-## elsewhere), "later" and "skip this version".
+## Modal card: the new version, a download button (this platform's build, or the release page
+## on the web), "later" and "skip this version".
 func show_update_popup(info: Dictionary) -> void:
 	var shade := ColorRect.new()
 	shade.color = Color(0, 0, 0, 0.45)
@@ -282,8 +288,7 @@ func show_update_popup(info: Dictionary) -> void:
 	var close := func() -> void: shade.queue_free()
 	var download := UITheme.button("ダウンロード")
 	download.pressed.connect(func() -> void:
-		var android_apk: String = info["apk"] if OS.has_feature("android") else ""
-		OS.shell_open(android_apk if android_apk != "" else String(info["url"]))
+		OS.shell_open(UpdateCheck.download_url(info, OS.get_name()))
 		close.call())
 	v.add_child(download)
 	var row := UITheme.hbox(12)

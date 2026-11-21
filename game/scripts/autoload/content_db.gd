@@ -4,7 +4,7 @@ extends Node
 ## stage is merged. Content is read-only; player state lives in the Progress autoload.
 
 const CONTENT_DIR := "res://content/"
-const KINDS: Array[String] = ["vocab", "kanji", "strokes", "grammar", "sentences", "scenarios", "passages", "anchors"]
+const KINDS: Array[String] = ["vocab", "kanji", "strokes", "rewrites", "grammar", "sentences", "scenarios", "passages", "anchors"]
 const STAGE_KEYS := {&"N5": "n5", &"N4": "n4", &"N3": "n3", &"N2": "n2", &"N1": "n1", &"MASTERY": "mastery"}
 
 var kana: Dictionary = {}
@@ -69,7 +69,8 @@ func load_all() -> void:
 	for k in kanji:
 		_kanji_by_char[k["kanji"]] = k
 	_strokes_by_char.clear()
-	for k in _merged("strokes"):
+	var extra: Variant = _load_json(CONTENT_DIR + "strokes_extra.json", [])
+	for k in (_merged("strokes") + (extra as Array if extra is Array else [])):
 		_strokes_by_char[k["kanji"]] = k["strokes"]
 
 

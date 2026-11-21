@@ -76,7 +76,7 @@ Zen Kaku Gothic New (optional headings in the art bible) is not bundled.
 | Set | Licence | Source | Files |
 |---|---|---|---|
 | Tabler Icons v3, outline | MIT (`icons/LICENSE-tabler.txt`) | https://tabler.io/icons | `icons/*.svg` — home, map-2, language-hiragana, book, repeat, brush, notebook, puzzle, messages, headphones, certificate, settings, volume, microphone, player-play. Stroke recoloured to white so the UI tints them with `modulate`. |
-| `pencil-kanji.svg` (書き) | project licence (MIT) | original | Drawn for this project in the same 2 px Tabler style. |
+| `pencil-kanji.svg` (書き), `swap-style.svg` (表現) | project licence (MIT) | original | Drawn for this project in the same 2 px Tabler style. |
 
 ## Dictionary data (not bundled as files)
 

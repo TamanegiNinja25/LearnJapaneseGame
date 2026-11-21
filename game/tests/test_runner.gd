@@ -35,6 +35,8 @@ const TESTS: Array[String] = [
 	"test_update_check",
 	"test_stroke_match",
 	"test_writing_progress",
+	"test_backup_restore",
+	"test_style_drills",
 	"test_content_loads",
 	"test_content_stages",
 	"test_exam_builder",
@@ -397,7 +399,14 @@ func test_update_check() -> bool:
 	var release := {"tag_name": "v0.4.0", "html_url": "https://example.test/r", "draft": false, "prerelease": false,
 		"assets": [{"name": "SHA256SUMS.txt", "browser_download_url": "x"},
 			{"name": "NihongoNoSekai-v0.4.0-android.apk", "browser_download_url": "https://example.test/a.apk"}]}
-	assert_eq(UpdateCheck.from_release(release), {"version": "0.4.0", "url": "https://example.test/r", "apk": "https://example.test/a.apk"}, "release parsed")
+	release["assets"].append({"name": "NihongoNoSekai-v0.4.0-windows.zip", "browser_download_url": "https://example.test/w.zip"})
+	var info := UpdateCheck.from_release(release)
+	assert_eq(info["version"], "0.4.0", "release version")
+	assert_eq(info["apk"], "https://example.test/a.apk", "android download")
+	assert_eq(UpdateCheck.download_url(info, "Android"), "https://example.test/a.apk", "android gets the apk")
+	assert_eq(UpdateCheck.download_url(info, "Windows"), "https://example.test/w.zip", "windows gets the zip")
+	assert_eq(UpdateCheck.download_url(info, "Linux"), "https://example.test/r", "no linux file -> release page")
+	assert_eq(UpdateCheck.download_url(info, "Web"), "https://example.test/r", "web -> release page")
 	release["prerelease"] = true
 	assert_eq(UpdateCheck.from_release(release), {}, "pre-releases are ignored")
 	assert_eq(UpdateCheck.from_release({"message": "API rate limit exceeded"}), {}, "error body is ignored")
@@ -453,6 +462,52 @@ func test_writing_progress() -> bool:
 	assert_eq(progress.writing_clean("日"), 1, "writing survives a save")
 	var rec := Recommender.for_skill(&"writing", {})
 	assert_eq(rec["screen"], Recommender.WRITING, "writing skill -> writing screen")
+	return true
+
+
+func test_backup_restore() -> bool:
+	fresh_progress()
+	progress.add_xp(1234)
+	progress.record_writing("日", true, 0, 4)
+	var saved_xp: int = progress.xp
+	var code: String = progress.backup_code()
+	assert_true(code.begins_with(progress.BACKUP_PREFIX), "backup code has its prefix")
+	assert_true(not code.contains("\n"), "backup code is one line")
+	fresh_progress()
+	assert_eq(progress.xp, 0, "fresh before restore")
+	assert_true(not progress.restore_backup("hello"), "random text is refused")
+	assert_true(not progress.restore_backup(progress.BACKUP_PREFIX + "!!!"), "broken code is refused")
+	assert_eq(progress.xp, 0, "a refused restore changes nothing")
+	assert_true(progress.restore_backup("  " + code + "\n"), "pasted code with spaces restores")
+	assert_eq(progress.xp, saved_xp, "xp restored")
+	assert_eq(progress.writing_clean("日"), 1, "writing restored")
+	assert_true(progress.restore_backup(JSON.stringify(progress.to_dict())), "raw save JSON restores too")
+	assert_true(Quests.quest("writing")["target"] > 0, "daily writing quest exists")
+	return true
+
+
+func test_style_drills() -> bool:
+	var item := {"id": "t1", "from": "{行|い}きます。", "to_register": "casual", "answer": "{行|い}く。",
+		"distractors": ["{行|い}きる。", "{行|い}くです。"], "en": "go", "note": "ます -> plain"}
+	var q := StyleDrills.rewrite_question(item, [2, 0, 1])
+	assert_eq(q["options"][q["answer"]], "{行|い}く。", "answer index follows the order")
+	assert_eq(q["context"], "{行|い}きます。", "the source sentence is shown")
+	assert_true(String(q["prompt"]).contains("{普通|ふつう}"), "prompt names the target register")
+	var sc := [{"id": "s", "turns": [
+		{"speaker": "A", "line_ja": "こんにちは", "line_en": "hi", "options": [
+			{"ja": "こんにちは", "verdict": "correct"}, {"ja": "おはよう", "verdict": "unnatural", "feedback_ja": "x", "feedback_en": "y"}]},
+		{"speaker": "A", "line_ja": "はい", "line_en": "yes", "options": [{"ja": "はい", "verdict": "correct"}, {"ja": "いいえ", "verdict": "wrong"}]}]}]
+	var nat := StyleDrills.unnatural_questions(sc)
+	assert_eq(nat.size(), 1, "only turns with an unnatural reply become questions")
+	assert_eq(nat[0]["options"][nat[0]["answer"]], "おはよう", "the unnatural reply is the answer")
+	var rng := RandomNumberGenerator.new()
+	rng.seed = 7
+	for i in 10:
+		var s := StyleDrills.shuffled(q, rng)
+		assert_eq(s["options"][s["answer"]], "{行|い}く。", "shuffling keeps the answer right")
+	var real := StyleDrills.unnatural_questions(content.unlocked_items("scenarios", &"N5"))
+	assert_true(real.size() >= 5, "N5 scenarios give unnatural-reply questions")
+	assert_true(content.stage_items("rewrites", &"N5").size() >= 20, "N5 rewrite drills load")
 	return true
 
 

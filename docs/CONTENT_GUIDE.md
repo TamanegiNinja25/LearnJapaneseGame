@@ -193,6 +193,29 @@ Generated, never edited by hand: `python tools/bake_strokes.py` reads `tools/dat
 Each stroke is a flat `[x0, y0, x1, y1, ...]` list in KanjiVG's 109 × 109 box, one decimal, in
 writing order and writing direction. Re-run the bake after the kanji lists change.
 
+`strokes_extra.json` (same format) holds every hiragana and katakana, ー, 々 and any kanji used in
+a word but on no stage list, so whole words can be written. The bake writes it too.
+
+## Register rewrites — `game/content/rewrites_<stage>.json`
+
+Drills for the 表現 screen's 言い換え mode:
+
+```json
+{"id": "n5_rw_001", "level": "N5", "from": "{毎日|まいにち}{学校|がっこう}に{行|い}きます。",
+ "from_register": "polite", "to_register": "casual", "answer": "{毎日|まいにち}{学校|がっこう}に{行|い}く。",
+ "distractors": ["{毎日|まいにち}{学校|がっこう}に{行|い}きる。", "..."], "en": "I go to school every day.",
+ "note": "The ます form becomes the dictionary form."}
+```
+
+Registers are `polite`, `casual` or `honorific`. Distractors must be wrong in a way a learner
+could pick (wrong conjugation, mixed registers, wrong particle), never acceptable variants.
+
+## English gloss overrides — `tools/wordlists/gloss_overrides.tsv`
+
+`headword<TAB>reading<TAB>english` replaces JMdict's first senses when they mislead a learner
+(肉 → meat, not flesh). The bake applies it; the bake also prefers kana-usual JMdict entries for
+words written in kana (いる → 居る, not 射る) and skips slang, vulgar and archaic senses.
+
 ## Commands
 
 ```bash

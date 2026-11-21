@@ -7,6 +7,7 @@ const HOLD := 2.2
 
 
 static func show_on(host: Control, markup: String, english: String = "", accent: Color = Color(0, 0, 0, 0)) -> void:
+	Sfx.play("levelup")
 	var t := Toast.new()
 	var ink := UITheme.PRIMARY if accent.a == 0.0 else accent
 	t.add_theme_stylebox_override("panel", UITheme._card(UITheme.SURFACE, ink))

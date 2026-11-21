@@ -6,6 +6,8 @@ Python 3.10+, no third-party packages. Formats are defined in `docs/CONTENT_GUID
 |---|---|
 | `bake_content.py` | Reads `wordlists/<stage>/*.tsv`, adds JMdict English glosses, writes `game/content/vocab_<stage>.json`, `kanji_<stage>.json` (from KANJIDIC2) and `kana.json`. `--report` lists stage kanji no word uses yet. |
 | `bake_strokes.py` | Reads KanjiVG (`data/kanjivg.xml.gz`) and writes `game/content/strokes_<stage>.json` for the writing practice: each stage kanji's strokes as polylines in the 109 box. |
+| `make_sounds.gd` | Godot script: synthesises the sound effects and the background loop (Karplus-Strong plucks on the yo pentatonic scale) into `game/assets/audio/`. Original audio. |
+| `phone_smoke.py` | Installs an APK on a USB phone over the current app, launches it and checks it stays up with no script errors; saves a screenshot. |
 | `make_app_icons.gd` | Godot script: builds the app and Android launcher icons from `icon/app_icon_source.png`. |
 | `check_tsv.py` | Checks word lists: columns, categories, furigana markup (errors); reading plausibility against JMdict/KANJIDIC2, duplicates across stages, examples missing the word (warnings). |
 | `validate_content.py` | Validates every JSON file in `game/content/` (CI). `--file <name>` checks one file. |

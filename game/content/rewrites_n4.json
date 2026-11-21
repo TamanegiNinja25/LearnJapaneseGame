@@ -1,0 +1,422 @@
+[
+ {
+  "id": "n4_rw_001",
+  "level": "N4",
+  "from": "{窓|まど}を{閉|し}めてくれませんか。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{窓|まど}を{閉|し}めてくれない？",
+  "distractors": [
+   "{窓|まど}を{閉|し}めてもらわない？",
+   "{窓|まど}を{閉|し}めるくれない？"
+  ],
+  "en": "Could you close the window?",
+  "note": "～てくれませんか becomes ～てくれない？ with rising intonation."
+ },
+ {
+  "id": "n4_rw_002",
+  "level": "N4",
+  "from": "ちょっと{手伝|てつだ}って。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "ちょっと{手伝|てつだ}ってくれませんか。",
+  "distractors": [
+   "ちょっと{手伝|てつだ}ってくれるませんか。",
+   "ちょっと{手伝|てつだ}ってあげませんか。"
+  ],
+  "en": "Could you help me a little?",
+  "note": "～てくれませんか is a polite request; あげる would mean you help someone."
+ },
+ {
+  "id": "n4_rw_003",
+  "level": "N4",
+  "from": "ここで{写真|しゃしん}を{撮|と}ってもいいですか。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "ここで{写真|しゃしん}を{撮|と}ってもいい？",
+  "distractors": [
+   "ここで{写真|しゃしん}を{撮|と}ってもいいだ？",
+   "ここで{写真|しゃしん}を{撮|と}ってはいい？"
+  ],
+  "en": "Can I take photos here?",
+  "note": "Drop ですか from ～てもいいですか and raise your voice."
+ },
+ {
+  "id": "n4_rw_004",
+  "level": "N4",
+  "from": "{窓|まど}を{開|あ}けてもいい？",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{窓|まど}を{開|あ}けてもいいですか。",
+  "distractors": [
+   "{窓|まど}を{開|あ}けてもいいますか。",
+   "{窓|まど}を{開|あ}けてはいいですか。"
+  ],
+  "en": "May I open the window?",
+  "note": "Asking permission politely: ～てもいいですか."
+ },
+ {
+  "id": "n4_rw_005",
+  "level": "N4",
+  "from": "{明日|あした}は{早|はや}く{来|こ}なくてもいい？",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{明日|あした}は{早|はや}く{来|こ}なくてもいいですか。",
+  "distractors": [
+   "{明日|あした}は{早|はや}く{来|き}なくてもいいですか。",
+   "{明日|あした}は{早|はや}く{来|こ}なくてもいいますか。"
+  ],
+  "en": "Is it OK if I don't come early tomorrow?",
+  "note": "Add ですか; the ない form of 来る is 来ない, read こない."
+ },
+ {
+  "id": "n4_rw_006",
+  "level": "N4",
+  "from": "{薬|くすり}を{飲|の}まなければなりません。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{薬|くすり}を{飲|の}まなければならない。",
+  "distractors": [
+   "{薬|くすり}を{飲|の}みなければならない。",
+   "{薬|くすり}を{飲|の}まなくてもいい。"
+  ],
+  "en": "I have to take my medicine.",
+  "note": "なりません becomes ならない; the verb stays in the ない stem 飲ま."
+ },
+ {
+  "id": "n4_rw_007",
+  "level": "N4",
+  "from": "{漢字|かんじ}が{読|よ}めます。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{漢字|かんじ}が{読|よ}める。",
+  "distractors": [
+   "{漢字|かんじ}が{読|よ}められる。",
+   "{漢字|かんじ}が{読|よ}めれる。"
+  ],
+  "en": "I can read kanji.",
+  "note": "The potential 読めます becomes 読める; it is already a る-verb."
+ },
+ {
+  "id": "n4_rw_008",
+  "level": "N4",
+  "from": "{日曜日|にちようび}は{来|こ}られません。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{日曜日|にちようび}は{来|こ}られない。",
+  "distractors": [
+   "{日曜日|にちようび}は{来|き}られない。",
+   "{日曜日|にちようび}は{来|こ}れらない。"
+  ],
+  "en": "I can't come on Sunday.",
+  "note": "来られません becomes 来られない, read こられない."
+ },
+ {
+  "id": "n4_rw_009",
+  "level": "N4",
+  "from": "{私|わたし}は{泳|およ}げない。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{私|わたし}は{泳|およ}げません。",
+  "distractors": [
+   "{私|わたし}は{泳|およ}ぎません。",
+   "{私|わたし}は{泳|およ}げれません。"
+  ],
+  "en": "I can't swim.",
+  "note": "Keep the potential stem 泳げ and add ません; 泳ぎません means \"I don't swim\"."
+ },
+ {
+  "id": "n4_rw_010",
+  "level": "N4",
+  "from": "{日本語|にほんご}で{話|はな}せる？",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{日本語|にほんご}で{話|はな}せますか。",
+  "distractors": [
+   "{日本語|にほんご}で{話|はな}せるますか。",
+   "{日本語|にほんご}に{話|はな}せますか。"
+  ],
+  "en": "Can you speak in Japanese?",
+  "note": "話せる becomes 話せます; the language you use takes で."
+ },
+ {
+  "id": "n4_rw_011",
+  "level": "N4",
+  "from": "{一緒|いっしょ}に{帰|かえ}りましょう。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{一緒|いっしょ}に{帰|かえ}ろう。",
+  "distractors": [
+   "{一緒|いっしょ}に{帰|かえ}よう。",
+   "{一緒|いっしょ}に{帰|かえ}るろう。"
+  ],
+  "en": "Let's go home together.",
+  "note": "帰る is an う-verb, so ～ましょう becomes 帰ろう."
+ },
+ {
+  "id": "n4_rw_012",
+  "level": "N4",
+  "from": "{少|すこ}し{休|やす}みましょう。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{少|すこ}し{休|やす}もう。",
+  "distractors": [
+   "{少|すこ}し{休|やす}みよう。",
+   "{少|すこ}し{休|やす}むよう。"
+  ],
+  "en": "Let's rest a little.",
+  "note": "For う-verbs the volitional ends in ～おう: 休む becomes 休もう."
+ },
+ {
+  "id": "n4_rw_013",
+  "level": "N4",
+  "from": "ご{飯|はん}を{食|た}べましょう。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "ご{飯|はん}を{食|た}べよう。",
+  "distractors": [
+   "ご{飯|はん}を{食|た}べろう。",
+   "ご{飯|はん}を{食|た}べるう。"
+  ],
+  "en": "Let's eat.",
+  "note": "For る-verbs, replace る with よう."
+ },
+ {
+  "id": "n4_rw_014",
+  "level": "N4",
+  "from": "{一緒|いっしょ}に{勉強|べんきょう}しよう。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{一緒|いっしょ}に{勉強|べんきょう}しましょう。",
+  "distractors": [
+   "{一緒|いっしょ}に{勉強|べんきょう}するましょう。",
+   "{一緒|いっしょ}に{勉強|べんきょう}しようです。"
+  ],
+  "en": "Let's study together.",
+  "note": "しよう becomes しましょう; the stem of する is し."
+ },
+ {
+  "id": "n4_rw_015",
+  "level": "N4",
+  "from": "{荷物|にもつ}を{持|も}ちましょうか。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{荷物|にもつ}を{持|も}とうか？",
+  "distractors": [
+   "{荷物|にもつ}を{持|も}ちようか？",
+   "{荷物|にもつ}を{持|も}ってようか？"
+  ],
+  "en": "Shall I carry your bags?",
+  "note": "An offer ～ましょうか becomes the volitional＋か: 持とうか？"
+ },
+ {
+  "id": "n4_rw_016",
+  "level": "N4",
+  "from": "{頭|あたま}が{痛|いた}いんです。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{頭|あたま}が{痛|いた}いんだ。",
+  "distractors": [
+   "{頭|あたま}が{痛|いた}いなんだ。",
+   "{頭|あたま}が{痛|いた}いんだです。"
+  ],
+  "en": "I have a headache, you see.",
+  "note": "～んです becomes ～んだ; an い-adjective connects directly."
+ },
+ {
+  "id": "n4_rw_017",
+  "level": "N4",
+  "from": "どうして{遅|おく}れたんですか。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "どうして{遅|おく}れたの？",
+  "distractors": [
+   "どうして{遅|おく}れたんだか？",
+   "どうして{遅|おく}れるたの？"
+  ],
+  "en": "Why were you late?",
+  "note": "In casual questions ～んですか becomes ～の？"
+ },
+ {
+  "id": "n4_rw_018",
+  "level": "N4",
+  "from": "{明日|あした}、{試験|しけん}があるんだ。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{明日|あした}、{試験|しけん}があるんです。",
+  "distractors": [
+   "{明日|あした}、{試験|しけん}があるんだです。",
+   "{明日|あした}、{試験|しけん}がいるんです。"
+  ],
+  "en": "I have an exam tomorrow, you see.",
+  "note": "～んだ becomes ～んです; things use ある, not いる."
+ },
+ {
+  "id": "n4_rw_019",
+  "level": "N4",
+  "from": "この{町|まち}は{夜|よる}も{静|しず}かなんです。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "この{町|まち}は{夜|よる}も{静|しず}かなんだ。",
+  "distractors": [
+   "この{町|まち}は{夜|よる}も{静|しず}かだんだ。",
+   "この{町|まち}は{夜|よる}も{静|しず}かいんだ。"
+  ],
+  "en": "This town is quiet even at night, you know.",
+  "note": "A な-adjective keeps な before んだ."
+ },
+ {
+  "id": "n4_rw_020",
+  "level": "N4",
+  "from": "{今日|きょう}は{休|やす}みなんだ。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{今日|きょう}は{休|やす}みなんです。",
+  "distractors": [
+   "{今日|きょう}は{休|やす}みだんです。",
+   "{今日|きょう}は{休|やす}みのんです。"
+  ],
+  "en": "It's my day off today, you see.",
+  "note": "A noun takes な before んです."
+ },
+ {
+  "id": "n4_rw_021",
+  "level": "N4",
+  "from": "ここでたばこを{吸|す}わないでください。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "ここでたばこを{吸|す}わないで。",
+  "distractors": [
+   "ここでたばこを{吸|す}わなくて。",
+   "ここでたばこを{吸|す}いないで。"
+  ],
+  "en": "Please don't smoke here.",
+  "note": "Drop ください from ～ないでください."
+ },
+ {
+  "id": "n4_rw_022",
+  "level": "N4",
+  "from": "{一度|いちど}{富士山|ふじさん}に{登|のぼ}ったことがあります。",
+  "from_register": "polite",
+  "to_register": "casual",
+  "answer": "{一度|いちど}{富士山|ふじさん}に{登|のぼ}ったことがある。",
+  "distractors": [
+   "{一度|いちど}{富士山|ふじさん}に{登|のぼ}ったことがいる。",
+   "{一度|いちど}{富士山|ふじさん}に{登|のぼ}ることがある。"
+  ],
+  "en": "I have climbed Mt. Fuji once.",
+  "note": "あります becomes ある; experience needs the past た form."
+ },
+ {
+  "id": "n4_rw_023",
+  "level": "N4",
+  "from": "{日本|にほん}に{行|い}ったことある？",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{日本|にほん}に{行|い}ったことがありますか。",
+  "distractors": [
+   "{日本|にほん}に{行|い}くことがありますか。",
+   "{日本|にほん}に{行|い}ったことがいますか。"
+  ],
+  "en": "Have you ever been to Japan?",
+  "note": "Restore が, use ありますか, and keep the past 行った."
+ },
+ {
+  "id": "n4_rw_024",
+  "level": "N4",
+  "from": "ペンを{貸|か}してくれる？",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "ペンを{貸|か}してくれますか。",
+  "distractors": [
+   "ペンを{貸|か}してくれるますか。",
+   "ペンを{借|か}りてくれますか。"
+  ],
+  "en": "Will you lend me a pen?",
+  "note": "くれる becomes くれますか; 貸す is lend, 借りる is borrow."
+ },
+ {
+  "id": "n4_rw_025",
+  "level": "N4",
+  "from": "{試験|しけん}に{合格|ごうかく}したいと{思|おも}う。",
+  "from_register": "casual",
+  "to_register": "polite",
+  "answer": "{試験|しけん}に{合格|ごうかく}したいと{思|おも}います。",
+  "distractors": [
+   "{試験|しけん}に{合格|ごうかく}したいですと{思|おも}います。",
+   "{試験|しけん}に{合格|ごうかく}したいと{思|おも}いました。"
+  ],
+  "en": "I want to pass the exam.",
+  "note": "Only the final verb becomes polite; the part before と stays plain."
+ },
+ {
+  "id": "n4_rw_026",
+  "level": "N4",
+  "from": "{先生|せんせい}は{今|いま}、いますか。",
+  "from_register": "polite",
+  "to_register": "honorific",
+  "answer": "{先生|せんせい}は{今|いま}、いらっしゃいますか。",
+  "distractors": [
+   "{先生|せんせい}は{今|いま}、おりますか。",
+   "{先生|せんせい}は{今|いま}、いらっしゃるますか。"
+  ],
+  "en": "Is the teacher in now?",
+  "note": "いらっしゃる is the honorific of いる; おる is humble, for yourself."
+ },
+ {
+  "id": "n4_rw_027",
+  "level": "N4",
+  "from": "{社長|しゃちょう}は{何|なに}を{食|た}べますか。",
+  "from_register": "polite",
+  "to_register": "honorific",
+  "answer": "{社長|しゃちょう}は{何|なに}を{召|め}し{上|あ}がりますか。",
+  "distractors": [
+   "{社長|しゃちょう}は{何|なに}をいただきますか。",
+   "{社長|しゃちょう}は{何|なに}をお{食|た}べしますか。"
+  ],
+  "en": "What will the president eat?",
+  "note": "召し上がる is the honorific of 食べる; いただく is humble."
+ },
+ {
+  "id": "n4_rw_028",
+  "level": "N4",
+  "from": "{先生|せんせい}は{明日|あした}{来|き}ますか。",
+  "from_register": "polite",
+  "to_register": "honorific",
+  "answer": "{先生|せんせい}は{明日|あした}いらっしゃいますか。",
+  "distractors": [
+   "{先生|せんせい}は{明日|あした}{参|まい}りますか。",
+   "{先生|せんせい}は{明日|あした}お{来|き}になりますか。"
+  ],
+  "en": "Will the teacher come tomorrow?",
+  "note": "来る has a special honorific, いらっしゃる; 参る is humble."
+ },
+ {
+  "id": "n4_rw_029",
+  "level": "N4",
+  "from": "{部長|ぶちょう}はもう{帰|かえ}りましたか。",
+  "from_register": "polite",
+  "to_register": "honorific",
+  "answer": "{部長|ぶちょう}はもうお{帰|かえ}りになりましたか。",
+  "distractors": [
+   "{部長|ぶちょう}はもうお{帰|かえ}りしましたか。",
+   "{部長|ぶちょう}はもうお{帰|かえ}りになるましたか。"
+  ],
+  "en": "Has the department head gone home already?",
+  "note": "Honorific pattern: お＋stem＋になる; お～する is humble."
+ },
+ {
+  "id": "n4_rw_030",
+  "level": "N4",
+  "from": "{田中|たなか}さんは{何|なん}と{言|い}いましたか。",
+  "from_register": "polite",
+  "to_register": "honorific",
+  "answer": "{田中|たなか}さんは{何|なん}とおっしゃいましたか。",
+  "distractors": [
+   "{田中|たなか}さんは{何|なん}と{申|もう}しましたか。",
+   "{田中|たなか}さんは{何|なん}とおっしゃりましたか。"
+  ],
+  "en": "What did Mr. Tanaka say?",
+  "note": "おっしゃる is the honorific of 言う; its ます form is おっしゃいます."
+ }
+]

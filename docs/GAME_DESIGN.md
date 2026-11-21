@@ -328,8 +328,12 @@ Pick the dimension with the lowest counter among those unlocked for the rank, ti
 | Rank | Unlocked question types |
 |---|---|
 | Discovered, Familiar | recognition (meaning choice from 4), kanji reading if headword has kanji |
-| Learned | + recall (choose the Japanese from 4, or type kana at box ≥ 3) |
-| Proficient, Mastered | + usage (fill the word into a cloze example from 4 tiles), example reading quiz |
+| Learned, or rec ≥ 4 | + recall (choose the Japanese from 4, or type kana at box ≥ 3) |
+| Proficient, Mastered, or rcl ≥ 4 | + usage (fill the word into a cloze example from 4 tiles), example reading quiz |
+
+Recall unlocks at `rec ≥ 4`, not at rank Learned: Learned itself needs `rcl ≥ 2`, so gating recall
+on the rank would make Learned unreachable from reviews. Usage unlocks at `rcl ≥ 4` for the same
+reason (Proficient needs `use ≥ 2`).
 
 Distractors come from the same part of speech and JLPT level; for kanji reading, from words
 sharing a kanji.
@@ -458,6 +462,19 @@ explanation + 6 items; ≥ 5 correct marks the point for coverage (`correct ≥ 
 10 questions, 2 per mandatory skill, drawn like the gate exam but weighted toward the two weakest
 skills (4 of the 10). Not a gate; samples with `w = 1.5`; 250 XP once per day.
 
+### 9.5 表現 — register rewrites and spotting unnatural replies
+
+Two drills about how Japanese sounds, built by `StyleDrills`:
+
+- **言い換え:** a sentence from `rewrites_<stage>.json` and its target register (丁寧 polite,
+  普通 casual, 尊敬語 honorific); choose the correct rewrite from three (the answer and two
+  learner-style mistakes). Activity `rewrite` → `{文法: 0.6, 会話: 0.4}`, 10 XP.
+- **不自然な文:** every scenario turn that has both a `correct` and an `unnatural` option becomes
+  "which reply would a native speaker not say?", with the unnatural option's feedback as the
+  explanation. Activity `naturalness` → `{会話: 0.8, 文法: 0.2}`, 10 XP.
+
+Rounds are 10 questions from the unlocked stages.
+
 ## 10. Adaptive difficulty (Phase 1)
 
 ### 10.1 Recommended next activity
@@ -494,8 +511,15 @@ The same skill → activity mapping powers the tappable skill rows on the Dashbo
 
 - Stroke data: KanjiVG (CC BY-SA 3.0), baked by `tools/bake_strokes.py` into
   `strokes_<stage>.json` (109 × 109 box, strokes in order, each in its writing direction).
-- Kanji order: the stage's kanji list; the next one is the first not yet written cleanly from
-  memory. The 漢字 screen's 書く練習 button opens a specific kanji.
+- Sources: the stage's 漢字, ひらがな and カタカナ (all kana groups, yōon written as two
+  characters), and 言葉: unlocked words with a kanji and at most five characters, known words
+  first, written character by character (each character is judged and recorded on its own).
+  Kana prompts from memory show the romaji (and the hiragana for katakana); word prompts show the
+  reading and the meaning.
+- Order: the source's list; the next item is the first not yet written cleanly from memory
+  (words are picked at random). The 漢字 screen's 書く練習 button opens a specific kanji.
+- Daily quest 字を5つ書く (100 XP) counts written characters. Kana strokes and the kanji of
+  words outside the stage lists come from `strokes_extra.json`.
 - Modes: なぞる traces over a faint model with the next stroke's start marked; 見ないで書く
   shows only the readings, the meaning and a word that uses the kanji (as kana). A kanji is
   traced the first time and written from memory afterwards; after tracing, 見ないでもう一度

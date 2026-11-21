@@ -47,6 +47,9 @@ func _ready() -> void:
 	_render_scores()
 	left.add_child(_counters_card())
 
+	var nudge := _streak_nudge()
+	if nudge:
+		right.add_child(nudge)
 	right.add_child(_recommendation_card())
 	right.add_child(_quests_card())
 	right.add_child(_exam_card())
@@ -140,6 +143,28 @@ func _recommendation_card() -> PanelContainer:
 		go(rec["screen"], {"mode": rec["mode"]}))
 	v.add_child(go_btn)
 	set_primary(go_btn)
+	return card
+
+
+## In-game study reminder: nothing practised yet today. (Phones get no push notification: Godot
+## has no local-notification API without a native plugin.)
+func _streak_nudge() -> PanelContainer:
+	var counters: Dictionary = Progress.daily.get("counters", {})
+	var done_today := 0
+	for key: String in counters:
+		done_today += int(counters[key])
+	if done_today > 0:
+		return null
+	var streak := Progress.streak_days()
+	var card := UITheme.card(UITheme.SURFACE_ALT, UITheme.WARNING)
+	var v := UITheme.vbox(4)
+	card.add_child(v)
+	if streak > 1:
+		v.add_child(UITheme.ja("{連続|れんぞく}%d{日|にち}！{今日|きょう}も{少|すこ}し{練習|れんしゅう}しましょう。" % streak, UITheme.SIZE_BODY, UITheme.WARNING))
+	else:
+		v.add_child(UITheme.ja("{今日|きょう}はまだ{練習|れんしゅう}していません。", UITheme.SIZE_BODY, UITheme.WARNING))
+	if Progress.show_english():
+		v.add_child(UITheme.en("You haven't practised today yet. One quest keeps your streak going." if streak > 1 else "You haven't practised today yet.", UITheme.SIZE_LABEL))
 	return card
 
 

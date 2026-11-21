@@ -63,7 +63,14 @@ func _ready() -> void:
 		test.pressed.connect(func() -> void: Speech.speak("こんにちは。{日本語|にほんご}を{勉強|べんきょう}しましょう。"))
 		rate_row.add_child(test)
 
+	_section("サウンド", "Sound")
+	column.add_child(UITheme.toggle("{効果音|こうかおん}", bool(Progress.setting("sfx")),
+		func(on: bool) -> void: Progress.set_setting("sfx", on), "Sound effects for answers, strokes and rank-ups"))
+	column.add_child(UITheme.toggle("{音楽|おんがく}", bool(Progress.setting("music")),
+		func(on: bool) -> void: Progress.set_setting("music", on), "Quiet background music (it fades out while Japanese is spoken)"))
+
 	_section("データ", "Data")
+	_backup_section()
 	var reports := Progress.reports.size()
 	var export := UITheme.button("報告を書き出す（%d）" % reports, false)
 	export.tooltip_text = "Write sentence orders you reported as natural to user://reports.json"
@@ -94,6 +101,77 @@ func _ready() -> void:
 		"Engine: Godot Engine — MIT",
 	]:
 		column.add_child(UITheme.label(line, UITheme.SIZE_CAPTION, UITheme.TEXT_SECONDARY))
+
+
+## Backups: a one-line code on the clipboard (works on phones, where the save file is private),
+## plus a file in Documents on desktop.
+func _backup_section() -> void:
+	if Progress.show_explanations():
+		column.add_child(UITheme.en("Your progress is stored only on this device. Copy a backup and keep it in your notes, e-mail or cloud drive; restore it on a new device or after reinstalling.", UITheme.SIZE_LABEL))
+	var row := HFlowContainer.new()
+	row.add_theme_constant_override("h_separation", 12)
+	row.add_theme_constant_override("v_separation", 12)
+	column.add_child(row)
+	var status := UITheme.vbox(2)
+	var copy := UITheme.button("バックアップをコピー", false)
+	copy.pressed.connect(func() -> void:
+		DisplayServer.clipboard_set(Progress.backup_code())
+		_status(status, "コピーしました。メモやメールに{貼|は}り{付|つ}けて{保存|ほぞん}してください。", "Copied. Paste it into a note or e-mail to keep it."))
+	row.add_child(copy)
+	var paste := UITheme.button("クリップボードから復元", false)
+	paste.pressed.connect(func() -> void: _confirm_restore(DisplayServer.clipboard_get(), status))
+	row.add_child(paste)
+	if not OS.has_feature("mobile") and not OS.has_feature("web"):
+		var save_file := UITheme.button("ファイルに書き出す", false)
+		save_file.pressed.connect(func() -> void:
+			var dir := OS.get_system_dir(OS.SYSTEM_DIR_DOCUMENTS)
+			var path := dir.path_join("NihongoNoSekai-backup-%s.txt" % Time.get_date_string_from_system())
+			var f := FileAccess.open(path, FileAccess.WRITE)
+			if f:
+				f.store_string(Progress.backup_code())
+				f.close()
+				_status(status, "{保存|ほぞん}しました。", path)
+			else:
+				_status(status, "{保存|ほぞん}できませんでした。", error_string(FileAccess.get_open_error())))
+		row.add_child(save_file)
+		var load_file := UITheme.button("ファイルから読み込む", false)
+		load_file.pressed.connect(func() -> void:
+			var dlg := FileDialog.new()
+			dlg.file_mode = FileDialog.FILE_MODE_OPEN_FILE
+			dlg.access = FileDialog.ACCESS_FILESYSTEM
+			dlg.filters = PackedStringArray(["*.txt, *.json ; Backup"])
+			dlg.current_dir = OS.get_system_dir(OS.SYSTEM_DIR_DOCUMENTS)
+			dlg.file_selected.connect(func(path: String) -> void:
+				_confirm_restore(FileAccess.get_file_as_string(path), status))
+			add_child(dlg)
+			dlg.popup_centered_ratio(0.7))
+		row.add_child(load_file)
+	column.add_child(status)
+
+
+func _status(box: VBoxContainer, markup: String, english: String) -> void:
+	ScreenBase.clear(box)
+	box.add_child(UITheme.ja(markup, UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
+	if english != "":
+		box.add_child(UITheme.en(english, UITheme.SIZE_LABEL))
+
+
+func _confirm_restore(text: String, status: VBoxContainer) -> void:
+	if not text.strip_edges().begins_with(Progress.BACKUP_PREFIX) and not text.strip_edges().begins_with("{"):
+		_status(status, "バックアップが{見|み}つかりません。", "Copy your backup code first, then press restore.")
+		return
+	var dlg := ConfirmationDialog.new()
+	dlg.title = "復元"
+	dlg.dialog_text = "今の学習データをバックアップで上書きします。よろしいですか？\nThis replaces your current progress with the backup."
+	dlg.ok_button_text = "復元する"
+	dlg.cancel_button_text = "やめる"
+	dlg.confirmed.connect(func() -> void:
+		if Progress.restore_backup(text):
+			go(&"dashboard")
+		else:
+			_status(status, "バックアップを{読|よ}めませんでした。", "That text is not a valid backup."))
+	add_child(dlg)
+	dlg.popup_centered()
 
 
 func _section(markup: String, english: String) -> void:

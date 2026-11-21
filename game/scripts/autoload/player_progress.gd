@@ -71,7 +71,7 @@ func today() -> String:
 func default_settings() -> Dictionary:
 	return {"theme": "light", "font": "noto", "english_auto": true, "tts_rate": 1.0, "voice": "", "onboarded": false,
 		"typed_answers": false, "beginner_english": true, "ui_scale": 0.0,
-		"check_updates": true, "skipped_update": ""}
+		"check_updates": true, "skipped_update": "", "sfx": true, "music": false, "writing_source": "kanji"}
 
 
 func reset() -> void:
@@ -688,6 +688,33 @@ func load_game() -> bool:
 
 
 ## Erase all progress (settings are kept).
+## Prefix of a backup code; the rest is the save JSON in base64, so the code survives being pasted
+## into notes, chat or e-mail.
+const BACKUP_PREFIX := "NNS1:"
+
+
+## The whole save as one line of text (設定 › バックアップをコピー).
+func backup_code() -> String:
+	return BACKUP_PREFIX + Marshalls.utf8_to_base64(JSON.stringify(to_dict()))
+
+
+## Restore from a backup code or from the save JSON itself. Returns false, leaving the current
+## progress untouched, when the text is not a backup.
+func restore_backup(text: String) -> bool:
+	var raw := text.strip_edges()
+	if raw.begins_with(BACKUP_PREFIX):
+		raw = Marshalls.base64_to_utf8(raw.substr(BACKUP_PREFIX.length()).strip_edges())
+	var parsed: Variant = JSON.parse_string(raw)
+	if not parsed is Dictionary or not (parsed as Dictionary).has("version") or not (parsed as Dictionary).has("words"):
+		return false
+	from_dict(parsed)
+	save_game()
+	scores_changed.emit(scores())
+	xp_changed.emit(xp)
+	settings_changed.emit()  # main rebuilds the sidebar for the restored stage and settings
+	return true
+
+
 func wipe() -> void:
 	var keep := settings.duplicate()
 	reset()
