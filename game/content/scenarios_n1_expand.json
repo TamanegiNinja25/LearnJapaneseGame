@@ -1,0 +1,464 @@
+[
+ {
+  "id": "n1_sc_x_apology",
+  "level": "N1",
+  "register": "business",
+  "title_ja": "{納品|のうひん}{遅延|ちえん}のお{詫|わ}び",
+  "title_en": "Apologising to a client for a late delivery",
+  "location": "{会社|かいしゃ}",
+  "turns": [
+   {
+    "speaker": "{取引先|とりひきさき}の{担当者|たんとうしゃ}",
+    "line_ja": "{先週|せんしゅう}お{願|ねが}いした{部品|ぶひん}が、まだ{届|とど}いていないのですが、どうなっていますか。",
+    "line_en": "The parts we ordered last week still haven't arrived. What's going on?",
+    "options": [
+     {
+      "ja": "{大変|たいへん}{申|もう}し{訳|わけ}ございません。{確認|かくにん}いたしましたところ、{弊社|へいしゃ}の{手違|てちが}いで{発送|はっそう}が{遅|おく}れておりました。",
+      "en": "We are terribly sorry. Having checked, we found the shipment was delayed by an error on our side.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "「{申|もう}し{訳|わけ}ございません」で{深|ふか}く{謝|あやま}り、「{弊社|へいしゃ}の{手違|てちが}い」と{原因|げんいん}を{認|みと}めています。{謝罪|しゃざい}の{基本|きほん}どおりです。",
+      "feedback_en": "You apologise deeply and own the cause (弊社の手違い): a textbook business apology."
+     },
+     {
+      "ja": "あ、すみません。まだ{送|おく}ってなかったみたいです。",
+      "en": "Oh, sorry. Looks like we hadn't sent them yet.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{謝|あやま}ってはいますが、{軽|かる}すぎて{他人事|ひとごと}のように{聞|き}こえます。{取引先|とりひきさき}への{言|い}い{方|かた}として{不適切|ふてきせつ}です。",
+      "feedback_en": "It is an apology, but far too light and sounds as if it were someone else's problem."
+     },
+     {
+      "ja": "{大変|たいへん}{申|もう}し{訳|わけ}ございません。{御社|おんしゃ}の{手違|てちが}いで{発送|はっそう}が{遅|おく}れておりました。",
+      "en": "We are terribly sorry. The shipment was delayed by an error on your company's side.",
+      "verdict": "wrong",
+      "register": "business",
+      "feedback_ja": "「{御社|おんしゃ}」は{相手|あいて}の{会社|かいしゃ}です。{自分|じぶん}の{会社|かいしゃ}のミスなら「{弊社|へいしゃ}」と{言|い}います。",
+      "feedback_en": "御社 means the client's company; your own company is 弊社."
+     }
+    ],
+    "typed": [
+     "大変申し訳ございません",
+     "たいへんもうしわけございません",
+     "誠に申し訳ございません"
+    ]
+   },
+   {
+    "speaker": "{取引先|とりひきさき}の{担当者|たんとうしゃ}",
+    "line_ja": "こちらは{来週|らいしゅう}から{生産|せいさん}を{始|はじ}める{予定|よてい}なんです。いつ{届|とど}きますか。",
+    "line_en": "We're planning to start production next week. When will they arrive?",
+    "options": [
+     {
+      "ja": "たぶん{明後日|あさって}ぐらいだと{思|おも}いますけど。",
+      "en": "Probably around the day after tomorrow, I think.",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "あいまいで{責任感|せきにんかん}が{感|かん}じられず、{謝罪|しゃざい}の{場面|ばめん}にふさわしくありません。",
+      "feedback_en": "Vague and lacking any sense of responsibility; not suitable when apologising."
+     },
+     {
+      "ja": "{本日|ほんじつ}{中|ちゅう}に{発送|はっそう}なさいますので、{明後日|あさって}にはお{届|とど}けになります。",
+      "en": "You will honourably ship them today, so they will honourably arrive the day after tomorrow.",
+      "verdict": "wrong",
+      "register": "business",
+      "feedback_ja": "「なさる」「お〜になる」は{尊敬語|そんけいご}で、{相手|あいて}の{動作|どうさ}に{使|つか}います。{自分|じぶん}の{会社|かいしゃ}の{動作|どうさ}には{謙譲語|けんじょうご}を{使|つか}います。",
+      "feedback_en": "なさる and お〜になる are respectful forms for the other party; your own company's actions need humble forms."
+     },
+     {
+      "ja": "{本日|ほんじつ}{中|ちゅう}に{発送|はっそう}いたしますので、{明後日|あさって}にはお{届|とど}けできるかと{存|ぞん}じます。",
+      "en": "We will ship them today, so we expect to be able to deliver them the day after tomorrow.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "{具体的|ぐたいてき}な{日程|にってい}を、「いたします」「{存|ぞん}じます」と{謙譲語|けんじょうご}で{伝|つた}えています。",
+      "feedback_en": "You give a concrete date using humble forms (いたします, 存じます)."
+     }
+    ],
+    "typed": [
+     "本日中に発送いたします",
+     "ほんじつちゅうにはっそういたします",
+     "明後日にはお届けできるかと存じます"
+    ]
+   },
+   {
+    "speaker": "{取引先|とりひきさき}の{担当者|たんとうしゃ}",
+    "line_ja": "わかりました。でも、こういうことが{続|つづ}くと{困|こま}るんですよ。",
+    "line_en": "All right. But it's a problem if this keeps happening.",
+    "options": [
+     {
+      "ja": "おっしゃるとおりです。{二度|にど}とこのようなことがないよう、{確認|かくにん}{体制|たいせい}を{見直|みなお}す{所存|しょぞん}です。",
+      "en": "You are quite right. We intend to review our checking procedures so that this never happens again.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "「{所存|しょぞん}です」で、{改善|かいぜん}の{決意|けつい}を{改|あらた}まって{伝|つた}えています。",
+      "feedback_en": "所存です formally states your resolve to improve."
+     },
+     {
+      "ja": "おっしゃるとおりです。{二度|にど}とこのようなことがないよう、{確認|かくにん}{体制|たいせい}を{見直|みなお}すきらいがあります。",
+      "en": "You are right. We have a tendency to review our checking procedures so that this never happens again.",
+      "verdict": "wrong",
+      "register": "business",
+      "feedback_ja": "「きらいがある」は{好|この}ましくない{傾向|けいこう}を{表|あらわ}す{表現|ひょうげん}で、{決意|けつい}には{使|つか}えません。",
+      "feedback_en": "きらいがある describes an undesirable tendency; it cannot express a resolution."
+     },
+     {
+      "ja": "はい、{次|つぎ}は{気|き}をつけます。",
+      "en": "Yes, I'll be careful next time.",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "{間違|まちが}いではありませんが、{個人|こじん}の{反省|はんせい}のようで、{会社|かいしゃ}としての{対策|たいさく}が{伝|つた}わりません。",
+      "feedback_en": "Not wrong, but it sounds like a personal promise; no measures from the company come across."
+     }
+    ],
+    "typed": [
+     "確認体制を見直す所存です",
+     "かくにんたいせいをみなおすしょぞんです",
+     "二度とこのようなことがないよう確認体制を見直す所存です"
+    ]
+   },
+   {
+    "speaker": "{取引先|とりひきさき}の{担当者|たんとうしゃ}",
+    "line_ja": "では、よろしくお{願|ねが}いしますね。",
+    "line_en": "Well then, I'm counting on you.",
+    "options": [
+     {
+      "ja": "このたびはご{迷惑|めいわく}をおかけし、{誠|まこと}にありがとうございました。",
+      "en": "Thank you very much for the trouble we caused this time.",
+      "verdict": "wrong",
+      "register": "business",
+      "feedback_ja": "{迷惑|めいわく}をかけたことには、お{礼|れい}ではなく{謝罪|しゃざい}の{言葉|ことば}を{使|つか}います。",
+      "feedback_en": "For trouble you caused, you apologise; you don't say thank you."
+     },
+     {
+      "ja": "はーい、じゃあ{失礼|しつれい}しまーす。",
+      "en": "Okaaay, bye then.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{語尾|ごび}を{伸|の}ばす{話|はな}し{方|かた}は{軽|かる}く、{謝罪|しゃざい}の{電話|でんわ}の{終|お}わり{方|かた}として{失礼|しつれい}です。",
+      "feedback_en": "Drawn-out casual endings sound flippant; rude at the end of an apology call."
+     },
+     {
+      "ja": "このたびはご{迷惑|めいわく}をおかけし、{誠|まこと}に{申|もう}し{訳|わけ}ございませんでした。{今後|こんご}ともよろしくお{願|ねが}い{申|もう}し{上|あ}げます。",
+      "en": "We sincerely apologise for the trouble this time. We look forward to continuing to work with you.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "{最後|さいご}にもう{一度|いちど}{謝|あやま}り、{今後|こんご}の{関係|かんけい}につなげる{締|し}めくくりの{言葉|ことば}です。",
+      "feedback_en": "You apologise once more and close by looking ahead to the ongoing relationship."
+     }
+    ],
+    "typed": [
+     "このたびはご迷惑をおかけし誠に申し訳ございませんでした",
+     "ご迷惑をおかけし申し訳ございませんでした",
+     "ごめいわくをおかけしもうしわけございませんでした"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "n1_sc_x_farewell",
+  "level": "N1",
+  "register": "respectful",
+  "title_ja": "{恩師|おんし}の{退職|たいしょく}を{祝|いわ}う{会|かい}",
+  "title_en": "At a party for a former teacher's retirement",
+  "location": "レストラン",
+  "turns": [
+   {
+    "speaker": "{司会者|しかいしゃ}",
+    "line_ja": "それでは、{卒業生|そつぎょうせい}を{代表|だいひょう}して、ごあいさつをお{願|ねが}いします。",
+    "line_en": "And now, could we have a few words on behalf of the graduates?",
+    "options": [
+     {
+      "ja": "ただいまご{紹介|しょうかい}にあずかりました、{十年前|じゅうねんまえ}の{卒業生|そつぎょうせい}の{田中|たなか}と{申|もう}します。",
+      "en": "Thank you for the introduction. My name is Tanaka, and I graduated ten years ago.",
+      "verdict": "correct",
+      "register": "respectful",
+      "feedback_ja": "「ご{紹介|しょうかい}にあずかりました」はスピーチの{始|はじ}めの{決|き}まった{言|い}い{方|かた}で、「{申|もう}します」と{謙譲語|けんじょうご}で{名乗|なの}っています。",
+      "feedback_en": "ご紹介にあずかりました is the set opening for a speech, and you give your name humbly with 申します."
+     },
+     {
+      "ja": "ただいまご{紹介|しょうかい}にあずかりました、{十年前|じゅうねんまえ}の{卒業生|そつぎょうせい}の{田中|たなか}とおっしゃいます。",
+      "en": "Thank you for the introduction. I am honourably called Tanaka, and I graduated ten years ago.",
+      "verdict": "wrong",
+      "register": "respectful",
+      "feedback_ja": "「おっしゃる」は{相手|あいて}を{高|たか}める{尊敬語|そんけいご}です。{自分|じぶん}の{名前|なまえ}を{言|い}うときは「{申|もう}します」です。",
+      "feedback_en": "おっしゃる is respectful language for others; for your own name use 申します."
+     },
+     {
+      "ja": "どうも、{田中|たなか}です。よろしく。",
+      "en": "Hi, I'm Tanaka. Nice to meet you.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{意味|いみ}は{通|つう}じますが、{改|あらた}まった{会|かい}の{代表|だいひょう}あいさつとしては{短|みじか}く、くだけすぎています。",
+      "feedback_en": "Understandable, but too short and casual for a formal speech on behalf of everyone."
+     }
+    ],
+    "typed": [
+     "ただいまご紹介にあずかりました田中と申します",
+     "田中と申します",
+     "たなかともうします"
+    ]
+   },
+   {
+    "speaker": "{恩師|おんし}",
+    "line_ja": "{田中|たなか}くん、{遠|とお}いところをわざわざ{来|き}てくれてありがとう。",
+    "line_en": "Tanaka, thank you for coming all this way.",
+    "options": [
+     {
+      "ja": "いえいえ、{暇|ひま}だったんで。",
+      "en": "Oh, no, I had nothing else to do.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{相手|あいて}に{気|き}を{遣|つか}わせないつもりでも、「{暇|ひま}だった」は{失礼|しつれい}に{聞|き}こえます。",
+      "feedback_en": "Even if meant to put him at ease, 'I had nothing to do' sounds rude."
+     },
+     {
+      "ja": "とんでもございません。{先生|せんせい}の{晴|は}れの{日|ひ}ですから、{何|なに}をおいても{伺|うかが}おうと{思|おも}っておりました。",
+      "en": "Not at all. It's your big day, so I was determined to come no matter what.",
+      "verdict": "correct",
+      "register": "respectful",
+      "feedback_ja": "「{伺|うかが}う」は「{行|い}く」の{謙譲語|けんじょうご}です。{恩師|おんし}への{敬意|けいい}がよく{伝|つた}わります。",
+      "feedback_en": "伺う is the humble form of 行く; your respect for your teacher comes across well."
+     },
+     {
+      "ja": "とんでもございません。{先生|せんせい}の{晴|は}れの{日|ひ}ですから、{何|なに}をおいてもいらっしゃろうと{思|おも}っておりました。",
+      "en": "Not at all. It's your big day, so I was determined to honourably come no matter what.",
+      "verdict": "wrong",
+      "register": "respectful",
+      "feedback_ja": "「いらっしゃる」は{尊敬語|そんけいご}なので、{自分|じぶん}の{行動|こうどう}には{使|つか}えません。「{伺|うかが}う」が{正|ただ}しいです。",
+      "feedback_en": "いらっしゃる is respectful and cannot describe your own action; use 伺う."
+     }
+    ],
+    "typed": [
+     "何をおいても伺おうと思っておりました",
+     "とんでもございません",
+     "なにをおいてもうかがおうとおもっておりました"
+    ]
+   },
+   {
+    "speaker": "{恩師|おんし}",
+    "line_ja": "{今|いま}は{何|なに}の{仕事|しごと}をしているんだい？",
+    "line_en": "What are you doing for work these days?",
+    "options": [
+     {
+      "ja": "{医療|いりょう}{機器|きき}の{開発|かいはつ}に{携|たずさ}えております。",
+      "en": "I am carrying medical equipment development in my hands.",
+      "verdict": "wrong",
+      "register": "respectful",
+      "feedback_ja": "「{携|たずさ}える」は「{手|て}に{持|も}つ」という{意味|いみ}です。{仕事|しごと}に{関|かか}わることは「{携|たずさ}わる」です。",
+      "feedback_en": "携える means to carry in your hand; being involved in work is 携わる."
+     },
+     {
+      "ja": "{医療|いりょう}{機器|きき}の{開発|かいはつ}に{携|たずさ}わっております。{先生|せんせい}に{教|おし}えていただいた{研究|けんきゅう}の{姿勢|しせい}が、{今|いま}も{支|ささ}えになっています。",
+      "en": "I'm involved in developing medical equipment. The approach to research you taught me still supports me today.",
+      "verdict": "correct",
+      "register": "respectful",
+      "feedback_ja": "「{携|たずさ}わっております」と{丁寧|ていねい}に{答|こた}え、{恩師|おんし}への{感謝|かんしゃ}も{添|そ}えています。",
+      "feedback_en": "You answer politely with 携わっております and add your gratitude to your teacher."
+     },
+     {
+      "ja": "{医療|いりょう}{機器|きき}の{開発|かいはつ}に{携|たずさ}わっております。{先生|せんせい}の{教|おし}えは、まあまあ{役|やく}に{立|た}っています。",
+      "en": "I'm involved in developing medical equipment. What you taught me has been reasonably useful.",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "「まあまあ」は{相手|あいて}を{評価|ひょうか}するような{言|い}い{方|かた}で、{恩師|おんし}に{対|たい}して{失礼|しつれい}です。",
+      "feedback_en": "まあまあ sounds like you are grading him; rude towards a former teacher."
+     }
+    ],
+    "typed": [
+     "医療機器の開発に携わっております",
+     "いりょうききのかいはつにたずさわっております",
+     "医療機器の開発に携わっています"
+    ]
+   },
+   {
+    "speaker": "{恩師|おんし}",
+    "line_ja": "そうか。{立派|りっぱ}になったなあ。",
+    "line_en": "I see. You've done well for yourself.",
+    "options": [
+     {
+      "ja": "ありがとうございます。{先生|せんせい}のますますのご{健康|けんこう}を{願|ねが}う{限|かぎ}りです。",
+      "en": "Thank you. I am utterly wishing for your continued health.",
+      "verdict": "wrong",
+      "register": "respectful",
+      "feedback_ja": "「{限|かぎ}りだ」は「うれしい」「{寂|さび}しい」など{気持|きも}ちを{表|あらわ}す{形容詞|けいようし}につきます。{願|ねが}いを{表|あらわ}すなら「{願|ねが}ってやみません」です。",
+      "feedback_en": "限りだ attaches to emotion adjectives like うれしい; to express a wish use 願ってやみません."
+     },
+     {
+      "ja": "まあ、{先生|せんせい}のおかげってことで。",
+      "en": "Well, let's just say it's thanks to you.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{照|て}れ{隠|かく}しのつもりでも、ぞんざいな{言|い}い{方|かた}で{感謝|かんしゃ}が{伝|つた}わりません。",
+      "feedback_en": "Even if you're just embarrassed, it sounds offhand and your gratitude doesn't come through."
+     },
+     {
+      "ja": "ありがとうございます。{先生|せんせい}のますますのご{健康|けんこう}を{願|ねが}ってやみません。",
+      "en": "Thank you. I sincerely wish you continued good health.",
+      "verdict": "correct",
+      "register": "respectful",
+      "feedback_ja": "「{願|ねが}ってやみません」で、{心|こころ}からの{願|ねが}いを{改|あらた}まって{伝|つた}えています。",
+      "feedback_en": "願ってやみません formally conveys a heartfelt wish."
+     }
+    ],
+    "typed": [
+     "先生のますますのご健康を願ってやみません",
+     "ご健康を願ってやみません",
+     "ごけんこうをねがってやみません"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "n1_sc_x_thesis",
+  "level": "N1",
+  "register": "respectful",
+  "title_ja": "{指導|しどう}{教員|きょういん}への{論文|ろんぶん}{相談|そうだん}",
+  "title_en": "Consulting your supervisor about your thesis",
+  "location": "{学校|がっこう}",
+  "turns": [
+   {
+    "speaker": "{教授|きょうじゅ}",
+    "line_ja": "どうぞ、{入|はい}ってください。{今日|きょう}はどうしましたか。",
+    "line_en": "Come in. What can I do for you today?",
+    "options": [
+     {
+      "ja": "お{忙|いそが}しいところ{恐|おそ}れ{入|い}ります。{卒業|そつぎょう}{論文|ろんぶん}のテーマについて、ご{意見|いけん}を{伺|うかが}いたく{参|まい}りました。",
+      "en": "I'm sorry to trouble you when you're busy. I've come to ask your opinion on my graduation thesis topic.",
+      "verdict": "correct",
+      "register": "respectful",
+      "feedback_ja": "「{恐|おそ}れ{入|い}ります」「{伺|うかが}いたく{参|まい}りました」と、{謙譲語|けんじょうご}で{用件|ようけん}をはっきり{伝|つた}えています。",
+      "feedback_en": "Humble forms (恐れ入ります, 伺いたく参りました) and a clear statement of why you came."
+     },
+     {
+      "ja": "あの、{論文|ろんぶん}のことでちょっと。",
+      "en": "Um, it's about my thesis, kind of.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{用件|ようけん}があいまいで、{先生|せんせい}の{時間|じかん}をいただく{態度|たいど}として{不十分|ふじゅうぶん}です。",
+      "feedback_en": "Too vague; not an adequate way to ask for your professor's time."
+     },
+     {
+      "ja": "お{忙|いそが}しいところ{恐|おそ}れ{入|い}ります。{卒業|そつぎょう}{論文|ろんぶん}のテーマについて、ご{意見|いけん}をおっしゃりたく{参|まい}りました。",
+      "en": "I'm sorry to trouble you. I've come wishing to honourably say your opinion on my thesis topic.",
+      "verdict": "wrong",
+      "register": "respectful",
+      "feedback_ja": "「おっしゃる」は{先生|せんせい}が{言|い}うときの{尊敬語|そんけいご}です。{自分|じぶん}が{聞|き}くことは「{伺|うかが}う」で{表|あらわ}します。",
+      "feedback_en": "おっしゃる is for the professor speaking; your own asking or hearing is 伺う."
+     }
+    ],
+    "typed": [
+     "卒業論文のテーマについてご意見を伺いたく参りました",
+     "ご意見を伺いたく参りました",
+     "ごいけんをうかがいたくまいりました"
+    ]
+   },
+   {
+    "speaker": "{教授|きょうじゅ}",
+    "line_ja": "テーマは{決|き}まりそうですか。",
+    "line_en": "Do you think you'll be able to settle on a topic?",
+    "options": [
+     {
+      "ja": "はい。{地方|ちほう}の{過疎|かそ}{問題|もんだい}を、{交通|こうつう}の{観点|かんてん}を{皮切|かわき}りに{論|ろん}じたいと{考|かんが}えております。",
+      "en": "Yes. I'm thinking of discussing rural depopulation, starting off with the standpoint of transport (one after another).",
+      "verdict": "wrong",
+      "register": "respectful",
+      "feedback_ja": "「を{皮切|かわき}りに」は、{出来事|できごと}が{次々|つぎつぎ}に{続|つづ}くときの{最初|さいしょ}を{表|あらわ}します。{立場|たちば}を{示|しめ}すには「の{観点|かんてん}から」を{使|つか}います。",
+      "feedback_en": "を皮切りに marks the first of a series of events; for a standpoint use の観点から."
+     },
+     {
+      "ja": "はい。{地方|ちほう}の{過疎|かそ}{問題|もんだい}を、{交通|こうつう}の{観点|かんてん}から{論|ろん}じたいと{考|かんが}えております。",
+      "en": "Yes. I'm thinking of discussing rural depopulation from the standpoint of transport.",
+      "verdict": "correct",
+      "register": "respectful",
+      "feedback_ja": "{研究|けんきゅう}の{対象|たいしょう}と{観点|かんてん}を、{改|あらた}まった{言葉|ことば}で{明確|めいかく}に{述|の}べています。",
+      "feedback_en": "You state the subject and angle of your research clearly in formal language."
+     },
+     {
+      "ja": "はい。{過疎|かそ}とか、そういう{感|かん}じのをやりたいです。",
+      "en": "Yes. I want to do something like depopulation or whatever.",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "「とか」「そういう{感|かん}じ」はあいまいで、{研究|けんきゅう}の{相談|そうだん}にふさわしくありません。",
+      "feedback_en": "とか and そういう感じ are vague; not suitable for discussing research."
+     }
+    ],
+    "typed": [
+     "地方の過疎問題を交通の観点から論じたいと考えております",
+     "交通の観点から論じたいと考えております",
+     "こうつうのかんてんからろんじたいとかんがえております"
+    ]
+   },
+   {
+    "speaker": "{教授|きょうじゅ}",
+    "line_ja": "おもしろいですね。ただ、{範囲|はんい}が{広|ひろ}すぎませんか。",
+    "line_en": "Interesting. But isn't the scope too broad?",
+    "options": [
+     {
+      "ja": "いや、{大丈夫|だいじょうぶ}だと{思|おも}います。",
+      "en": "No, I think it'll be fine.",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "{根拠|こんきょ}を{示|しめ}さずに{先生|せんせい}の{指摘|してき}を{否定|ひてい}しており、{失礼|しつれい}な{印象|いんしょう}を{与|あた}えます。",
+      "feedback_en": "You brush off your professor's point without giving reasons, which comes across as rude."
+     },
+     {
+      "ja": "ご{指摘|してき}のとおりです。{対象|たいしょう}を{一|ひと}つの{県|けん}に{絞|しぼ}って、{改|あらた}めてご{検討|けんとう}になります。",
+      "en": "You're quite right. You will honourably narrow it to one prefecture and reconsider.",
+      "verdict": "wrong",
+      "register": "respectful",
+      "feedback_ja": "「ご〜になる」は{尊敬語|そんけいご}です。{自分|じぶん}が{検討|けんとう}するので「{検討|けんとう}いたします」と{言|い}います。",
+      "feedback_en": "ご〜になる is respectful; since you are the one reconsidering, say 検討いたします."
+     },
+     {
+      "ja": "ご{指摘|してき}のとおりです。{対象|たいしょう}を{一|ひと}つの{県|けん}に{絞|しぼ}って、{改|あらた}めて{検討|けんとう}いたします。",
+      "en": "You're quite right. I'll narrow it down to one prefecture and reconsider.",
+      "verdict": "correct",
+      "register": "respectful",
+      "feedback_ja": "{指摘|してき}を{素直|すなお}に{受|う}け{止|と}め、{具体的|ぐたいてき}な{修正|しゅうせい}{案|あん}を{謙譲語|けんじょうご}で{示|しめ}しています。",
+      "feedback_en": "You accept the point graciously and propose a concrete change in humble language."
+     }
+    ],
+    "typed": [
+     "対象を一つの県に絞って改めて検討いたします",
+     "改めて検討いたします",
+     "あらためてけんとういたします"
+    ]
+   },
+   {
+    "speaker": "{教授|きょうじゅ}",
+    "line_ja": "では、{来週|らいしゅう}までに{計画書|けいかくしょ}を{見|み}せてください。",
+    "line_en": "Then please show me a plan by next week.",
+    "options": [
+     {
+      "ja": "{承知|しょうち}いたしました。{来週|らいしゅう}の{月曜日|げつようび}までにお{持|も}ちいたします。{本日|ほんじつ}はありがとうございました。",
+      "en": "Certainly. I will bring it to you by next Monday. Thank you for your time today.",
+      "verdict": "correct",
+      "register": "respectful",
+      "feedback_ja": "「{承知|しょうち}いたしました」「お{持|も}ちいたします」と{謙譲語|けんじょうご}で{答|こた}え、お{礼|れい}で{締|し}めくくっています。",
+      "feedback_en": "You reply with humble forms and close with thanks."
+     },
+     {
+      "ja": "{承知|しょうち}いたしました。{来週|らいしゅう}の{月曜日|げつようび}までにご{覧|らん}します。",
+      "en": "Certainly. I will honourably look at it by next Monday.",
+      "verdict": "wrong",
+      "register": "respectful",
+      "feedback_ja": "「ご{覧|らん}になる」は{相手|あいて}が{見|み}るときの{尊敬語|そんけいご}で、「ご{覧|らん}します」という{形|かたち}はありません。ここでは「お{持|も}ちいたします」です。",
+      "feedback_en": "ご覧になる is for others looking, and ご覧します does not exist; here say お持ちいたします."
+     },
+     {
+      "ja": "りょうかいです。じゃ、また。",
+      "en": "Roger that. See ya.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "「りょうかいです」「じゃ、また」は{友人|ゆうじん}{同士|どうし}の{言|い}い{方|かた}で、{先生|せんせい}には{不適切|ふてきせつ}です。",
+      "feedback_en": "Fine between friends, but not appropriate for a professor."
+     }
+    ],
+    "typed": [
+     "承知いたしました",
+     "しょうちいたしました",
+     "来週の月曜日までにお持ちいたします"
+    ]
+   }
+  ]
+ }
+]

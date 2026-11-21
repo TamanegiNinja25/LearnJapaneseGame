@@ -5155,6 +5155,31 @@
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
+  "id": "w_e5ed2b05fe",
+  "headword": "打診",
+  "reading": "だしん",
+  "level": "N1",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{相手|あいて}の{考|かんが}えや{気持|きも}ちを、{前|まえ}もってそれとなく{確|たし}かめること。",
+  "english": "percussion; tapping; examining by percussion",
+  "examples": [
+   {
+    "ja": "{取引先|とりひきさき}に{値上|ねあ}げが{可能|かのう}かどうか{打診|だしん}してみた。",
+    "en": "I sounded out our client on whether a price increase would be possible."
+   }
+  ],
+  "related": [
+   "意向",
+   "問い合わせ"
+  ],
+  "kanji": [
+   "打",
+   "診"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
   "id": "w_46fd4a1359",
   "headword": "進捗",
   "reading": "しんちょく",

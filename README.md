@@ -16,14 +16,14 @@ hand-curated.
 | ホーム Dashboard | Stage, skill bars against the gate thresholds (書き is optional), tap a skill to practise it, streak, counters, today's quests, the recommended next activity |
 | 町 Town | A walkable low-poly 3D town (KayKit assets). Talk to people at 8 locations that unlock by stage |
 | かな Kana | Hiragana and katakana rounds, including yōon, with audio |
-| 辞書 Dictionary | 1,951 words across N5–Mastery, search by kana, kanji, romaji or English. 学習する adds a word to reviews within a daily budget |
+| 辞書 Dictionary | 3,152 words across N5–Mastery, search by kana, kanji, romaji or English. 学習する adds a word to reviews within a daily budget |
 | 復習 Review | Leitner spaced repetition: recognition, typed recall, kanji reading and usage questions; missed words return in the same session |
 | 漢字 Kanji | The stage's kanji (103 at N5) with readings, meanings, stroke counts and the words that use them |
 | 書き Writing | Write kanji, hiragana, katakana or whole words stroke by stroke with a finger or the mouse: trace over a model (なぞる) or write from the readings, the meaning or the romaji (見ないで書く). Each stroke is checked for order, shape and direction; 書き順を見る animates the stroke order |
-| 文法 Grammar | 145 grammar lessons, each with an explanation and a 6-question quiz |
+| 文法 Grammar | 205 grammar lessons, each with an explanation and a 6-question quiz |
 | 表現 Natural Japanese | 言い換え: rewrite a sentence into another register (polite, casual, honorific). 不自然な文: pick the reply a native speaker would not say |
 | 文を作る Sentence builder | Word tiles with distractors in three tiers, particle-specific feedback, hints |
-| 会話 Conversation | 27 scenarios with 正解 / 惜しい / 不正解 answers, spoken NPC lines, and an optional typed-answer mode |
+| 会話 Conversation | 36 scenarios with 正解 / 惜しい / 不正解 answers, spoken NPC lines, and an optional typed-answer mode |
 | 聴解 Listening | Word and sentence listening with the system Japanese voice, plus shadowing with your microphone |
 | 試験 Assessment | The stage gate exam, a daily 10-question check, and practice sittings |
 | 設定 Settings | English assistance, light/dark theme, an accessibility font, voice and speed, data, credits |

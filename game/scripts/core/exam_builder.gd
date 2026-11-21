@@ -104,6 +104,12 @@ static func build_exam(pack: Dictionary, known: Dictionary = {}, exclude: Dictio
 				used += 1
 		if used >= MAX_ANCHOR_VARIANTS:
 			break
+	# Grammar, passage and anchor content usually lists the right answer first: shuffle every
+	# question's options so the position never gives it away (the daily check reuses these).
+	var rng := RandomNumberGenerator.new()
+	rng.randomize()
+	for i in out.size():
+		out[i] = StyleDrills.shuffled(out[i], rng)
 	return out
 
 

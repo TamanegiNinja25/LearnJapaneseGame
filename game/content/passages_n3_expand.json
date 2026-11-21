@@ -1,0 +1,227 @@
+[
+ {
+  "id": "n3_rd_x01",
+  "level": "N3",
+  "title_ja": "{駅|えき}の{忘|わす}れ{物|もの}",
+  "text_ja": "{駅|えき}には、{毎日|まいにち}たくさんの{忘|わす}れ{物|もの}が{届|とど}けられる。{一番|いちばん}{多|おお}いのは{傘|かさ}で、{特|とく}に{雨|あめ}がやんだ{日|ひ}に{増|ふ}えるそうだ。{降|ふ}っている{間|あいだ}は{傘|かさ}を{持|も}っていることを{意識|いしき}しているが、やむとつい{忘|わす}れてしまうのだろう。{次|つぎ}に{多|おお}いのは、{財布|さいふ}や{携帯電話|けいたいでんわ}などの{小|ちい}さな{物|もの}だ。{届|とど}けられた{物|もの}は、しばらく{駅|えき}で{預|あず}かった{後|あと}、{警察|けいさつ}に{送|おく}られる。{受|う}け{取|と}るときは、{本人|ほんにん}だと{証明|しょうめい}できるものが{必要|ひつよう}だ。{忘|わす}れ{物|もの}をしないためには、{電車|でんしゃ}を{降|お}りる{前|まえ}に、{座席|ざせき}や{棚|たな}をもう{一度|いちど}{見|み}る{習慣|しゅうかん}をつけるといい。",
+  "text_en": "Every day, many lost items are handed in at stations. The most common are umbrellas, and apparently there are especially many on days when the rain stops. While it's raining people are aware they have an umbrella, but once it stops they probably forget it without meaning to. Next most common are small things such as wallets and mobile phones. Items that are handed in are kept at the station for a while and then sent to the police. To collect something, you need something that proves who you are. To avoid leaving things behind, it's a good idea to make a habit of checking your seat and the luggage rack once more before getting off the train.",
+  "questions": [
+   {
+    "q_ja": "{傘|かさ}の{忘|わす}れ{物|もの}が{特|とく}に{増|ふ}えるのは、どんな{日|ひ}ですか。",
+    "q_en": "On what kind of day are umbrellas left behind most?",
+    "options": [
+     "{一日中|いちにちじゅう}{雨|あめ}が{降|ふ}っている{日|ひ}",
+     "{雨|あめ}がやんだ{日|ひ}",
+     "{一度|いちど}も{雨|あめ}が{降|ふ}らない{日|ひ}"
+    ],
+    "answer": 1,
+    "why_ja": "「{特|とく}に{雨|あめ}がやんだ{日|ひ}に{増|ふ}える」とあります。",
+    "why_en": "The text says they increase especially on days when the rain stops."
+   },
+   {
+    "q_ja": "{届|とど}けられた{忘|わす}れ{物|もの}は、{最後|さいご}にどこへ{送|おく}られますか。",
+    "q_en": "Where are lost items finally sent?",
+    "options": [
+     "{持|も}ち{主|ぬし}の{家|いえ}",
+     "{別|べつ}の{駅|えき}",
+     "{警察|けいさつ}"
+    ],
+    "answer": 2,
+    "why_ja": "「しばらく{駅|えき}で{預|あず}かった{後|あと}、{警察|けいさつ}に{送|おく}られる」とあります。",
+    "why_en": "After a while at the station, they go to the police."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}がすすめていることは{何|なん}ですか。",
+    "q_en": "What does the writer recommend?",
+    "options": [
+     "{降|お}りる{前|まえ}に{座席|ざせき}や{棚|たな}を{見|み}ること",
+     "{傘|かさ}を{持|も}たないで{出|で}かけること",
+     "{財布|さいふ}を{棚|たな}に{置|お}くこと"
+    ],
+    "answer": 0,
+    "why_ja": "{最後|さいご}の{文|ぶん}に「{座席|ざせき}や{棚|たな}をもう{一度|いちど}{見|み}る{習慣|しゅうかん}をつけるといい」とあります。",
+    "why_en": "The last sentence recommends checking the seat and rack."
+   }
+  ]
+ },
+ {
+  "id": "n3_rd_x02",
+  "level": "N3",
+  "title_ja": "{一人|ひとり}{暮|ぐ}らしの{食事|しょくじ}",
+  "text_ja": "{大学|だいがく}に{入|はい}って{一人|ひとり}{暮|ぐ}らしを{始|はじ}めてから、{半年|はんとし}が{経|た}った。{初|はじ}めのころは{料理|りょうり}をするのが{面倒|めんどう}くさくて、コンビニのお{弁当|べんとう}ばかり{食|た}べていた。そのせいか、{体|からだ}がだるい{日|ひ}が{多|おお}くなった。{心配|しんぱい}した{母|はは}に{言|い}われて、{週|しゅう}に{三回|さんかい}は{自分|じぶん}で{作|つく}ることにした。{最初|さいしょ}は{簡単|かんたん}な{野菜|やさい}スープしか{作|つく}れなかったが、{今|いま}では{友達|ともだち}を{呼|よ}んで{料理|りょうり}をごちそうすることもある。{自分|じぶん}で{作|つく}ると{節約|せつやく}にもなるし、{栄養|えいよう}のバランスも{考|かんが}えられる。もっと{早|はや}く{始|はじ}めればよかったと{思|おも}っている。",
+  "text_en": "Half a year has passed since I started university and began living on my own. At first cooking felt like such a hassle that I ate nothing but convenience-store bento. Perhaps because of that, I had more and more days when I felt sluggish. My worried mother told me to cook, so I decided to make my own meals at least three times a week. At first I could only make a simple vegetable soup, but now I sometimes invite friends over and cook for them. Cooking for yourself saves money, and you can think about a balanced diet. I wish I had started sooner.",
+  "questions": [
+   {
+    "q_ja": "{筆者|ひっしゃ}は、{初|はじ}めのころ{何|なに}をよく{食|た}べていましたか。",
+    "q_en": "What did the writer mostly eat at first?",
+    "options": [
+     "{自分|じぶん}で{作|つく}った{料理|りょうり}",
+     "{母|はは}が{送|おく}ってくれた{料理|りょうり}",
+     "コンビニのお{弁当|べんとう}"
+    ],
+    "answer": 2,
+    "why_ja": "「コンビニのお{弁当|べんとう}ばかり{食|た}べていた」とあります。",
+    "why_en": "The text says nothing but convenience-store bento."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}が{料理|りょうり}をすることにしたきっかけは{何|なん}ですか。",
+    "q_en": "What made the writer start cooking?",
+    "options": [
+     "{母|はは}に{言|い}われたこと",
+     "{友達|ともだち}に{頼|たの}まれたこと",
+     "お{金|かね}がなくなったこと"
+    ],
+    "answer": 0,
+    "why_ja": "「{心配|しんぱい}した{母|はは}に{言|い}われて」とあります。",
+    "why_en": "The writer's worried mother told them to."
+   },
+   {
+    "q_ja": "{今|いま}、{筆者|ひっしゃ}はどう{思|おも}っていますか。",
+    "q_en": "How does the writer feel now?",
+    "options": [
+     "コンビニのほうが{便利|べんり}でいい",
+     "もっと{早|はや}く{料理|りょうり}を{始|はじ}めたかった",
+     "{料理|りょうり}はもうしたくない"
+    ],
+    "answer": 1,
+    "why_ja": "{最後|さいご}に「もっと{早|はや}く{始|はじ}めればよかった」とあります。これは{後悔|こうかい}の{気持|きも}ちです。",
+    "why_en": "\"I should have started sooner\" — regret."
+   }
+  ]
+ },
+ {
+  "id": "n3_rd_x03",
+  "level": "N3",
+  "title_ja": "{町|まち}からのお{知|し}らせ",
+  "text_ja": "{住民|じゅうみん}の{皆様|みなさま}へ。{電気|でんき}の{工事|こうじ}のため、{来週|らいしゅう}の{水曜日|すいようび}、{午前|ごぜん}{九時|くじ}から{正午|しょうご}まで、{三丁目|さんちょうめ}{全体|ぜんたい}で{停電|ていでん}します。{工事|こうじ}が{順調|じゅんちょう}に{進|すす}めば、{予定|よてい}より{早|はや}く{終|お}わることもあります。{停電|ていでん}の{間|あいだ}は、エレベーターや{冷蔵庫|れいぞうこ}が{使|つか}えませんので、ご{注意|ちゅうい}ください。{冷蔵庫|れいぞうこ}は、なるべく{開|あ}けたり{閉|し}めたりしないようにお{願|ねが}いします。{雨|あめ}の{場合|ばあい}、{工事|こうじ}は{次|つぎ}の{日|ひ}に{変更|へんこう}になります。ご{不便|ふべん}をおかけしますが、ご{協力|きょうりょく}をお{願|ねが}いします。{問|と}い{合|あ}わせは、{町|まち}の{事務所|じむしょ}までお{電話|でんわ}ください。",
+  "text_en": "To all residents. Because of electrical work, there will be a power cut across all of 3-chōme next Wednesday from 9 a.m. until noon. If the work goes smoothly, it may finish earlier than planned. During the power cut, lifts and refrigerators cannot be used, so please be careful. Please try not to open and close your refrigerator. If it rains, the work will be moved to the following day. We apologise for the inconvenience and ask for your cooperation. For enquiries, please call the town office.",
+  "questions": [
+   {
+    "q_ja": "{停電|ていでん}は{何時|なんじ}までの{予定|よてい}ですか。",
+    "q_en": "Until what time is the power cut planned?",
+    "options": [
+     "{昼|ひる}の{十二時|じゅうにじ}",
+     "{午前|ごぜん}{九時|くじ}",
+     "{午前|ごぜん}{十時|じゅうじ}"
+    ],
+    "answer": 0,
+    "why_ja": "「{正午|しょうご}まで」とあります。{正午|しょうご}は{昼|ひる}の{十二時|じゅうにじ}です。",
+    "why_en": "\"Until noon\" — 正午 is 12 o'clock midday."
+   },
+   {
+    "q_ja": "{水曜日|すいようび}に{雨|あめ}が{降|ふ}ったら、どうなりますか。",
+    "q_en": "What happens if it rains on Wednesday?",
+    "options": [
+     "{工事|こうじ}は{午後|ごご}になる",
+     "{工事|こうじ}は{木曜日|もくようび}になる",
+     "{予定|よてい}どおり{工事|こうじ}をする"
+    ],
+    "answer": 1,
+    "why_ja": "「{雨|あめ}の{場合|ばあい}、{工事|こうじ}は{次|つぎ}の{日|ひ}に{変更|へんこう}」とあります。{水曜日|すいようび}の{次|つぎ}の{日|ひ}は{木曜日|もくようび}です。",
+    "why_en": "It moves to the next day, Thursday."
+   },
+   {
+    "q_ja": "{停電|ていでん}の{間|あいだ}、{住民|じゅうみん}がしたほうがいいことは{何|なん}ですか。",
+    "q_en": "What should residents do during the power cut?",
+    "options": [
+     "エレベーターで{荷物|にもつ}を{運|はこ}ぶこと",
+     "{町|まち}の{事務所|じむしょ}に{行|い}くこと",
+     "{冷蔵庫|れいぞうこ}をあまり{開|あ}けないこと"
+    ],
+    "answer": 2,
+    "why_ja": "「{冷蔵庫|れいぞうこ}は、なるべく{開|あ}けたり{閉|し}めたりしないように」とあります。",
+    "why_en": "They're asked not to open and close the fridge."
+   }
+  ]
+ },
+ {
+  "id": "n3_rd_x04",
+  "level": "N3",
+  "title_ja": "{苦手|にがて}だった{発表|はっぴょう}",
+  "text_ja": "{私|わたし}は{子|こ}どものころから、{人前|ひとまえ}で{話|はな}すのが{苦手|にがて}だった。{発表|はっぴょう}のたびに{緊張|きんちょう}して、{声|こえ}が{震|ふる}えてしまうのだ。{会社|かいしゃ}に{入|はい}ってからも、{会議|かいぎ}で{意見|いけん}を{言|い}おうとすると、{頭|あたま}が{真|ま}っ{白|しろ}になった。そんなとき、{先輩|せんぱい}が「{完璧|かんぺき}に{話|はな}そうとすることはないよ。{伝|つた}えたいことを{一|ひと}つだけ{決|き}めておけばいい」とアドバイスしてくれた。それからは、{話|はな}す{前|まえ}に{一番|いちばん}{言|い}いたいことをメモに{書|か}くようにしている。{不思議|ふしぎ}なことに、それだけで{気持|きも}ちがずいぶん{楽|らく}になった。{今|いま}でも{緊張|きんちょう}はするが、{発表|はっぴょう}が{前|まえ}ほど{怖|こわ}くなくなった。",
+  "text_en": "Ever since I was a child I've been bad at speaking in front of people. Every time I give a presentation I get nervous and my voice shakes. Even after joining the company, whenever I tried to give my opinion in a meeting, my mind went blank. Then a senior colleague gave me some advice: \"There's no need to try to speak perfectly. Just decide on one thing you want to get across.\" Since then, I make a point of writing down the main thing I want to say before I speak. Strangely, that alone made me feel much more relaxed. I still get nervous, but presentations don't scare me as much as they used to.",
+  "questions": [
+   {
+    "q_ja": "{筆者|ひっしゃ}は、{発表|はっぴょう}のときにどうなっていましたか。",
+    "q_en": "What used to happen to the writer during presentations?",
+    "options": [
+     "{話|はな}すのが{速|はや}くなりすぎた",
+     "{緊張|きんちょう}して{声|こえ}が{震|ふる}えた",
+     "{笑|わら}いが{止|と}まらなくなった"
+    ],
+    "answer": 1,
+    "why_ja": "「{発表|はっぴょう}のたびに{緊張|きんちょう}して、{声|こえ}が{震|ふる}えてしまう」とあります。",
+    "why_en": "Nervous, with a shaking voice, every time."
+   },
+   {
+    "q_ja": "{先輩|せんぱい}のアドバイスは、どんな{内容|ないよう}ですか。",
+    "q_en": "What was the senior colleague's advice?",
+    "options": [
+     "{毎日|まいにち}{発表|はっぴょう}の{練習|れんしゅう}をすること",
+     "{完璧|かんぺき}に{話|はな}せるまで{発表|はっぴょう}しないこと",
+     "{伝|つた}えたいことを{一|ひと}つ{決|き}めておくこと"
+    ],
+    "answer": 2,
+    "why_ja": "「{伝|つた}えたいことを{一|ひと}つだけ{決|き}めておけばいい」とあります。",
+    "why_en": "Decide on just one thing to get across."
+   },
+   {
+    "q_ja": "{今|いま}の{筆者|ひっしゃ}について、{正|ただ}しいものはどれですか。",
+    "q_en": "Which is true of the writer now?",
+    "options": [
+     "{緊張|きんちょう}はするが、{前|まえ}ほど{怖|こわ}くない",
+     "もう{全然|ぜんぜん}{緊張|きんちょう}しない",
+     "{発表|はっぴょう}をしないようにしている"
+    ],
+    "answer": 0,
+    "why_ja": "「{今|いま}でも{緊張|きんちょう}はするが、{発表|はっぴょう}が{前|まえ}ほど{怖|こわ}くなくなった」とあります。",
+    "why_en": "Still nervous, but less afraid than before."
+   }
+  ]
+ },
+ {
+  "id": "n3_rd_x05",
+  "level": "N3",
+  "title_ja": "{図書館|としょかん}の{新|あたら}しいサービス",
+  "text_ja": "{市|し}の{図書館|としょかん}で、{今月|こんげつ}から{新|あたら}しいサービスが{始|はじ}まった。ネットで{予約|よやく}した{本|ほん}を、{駅|えき}の{近|ちか}くにある{受|う}け{取|と}り{窓口|まどぐち}で{受|う}け{取|と}れるようになったのだ。{窓口|まどぐち}は{夜|よる}{九時|くじ}まで{開|あ}いているので、{仕事|しごと}の{帰|かえ}りに{寄|よ}ることができる。これまで、{平日|へいじつ}に{図書館|としょかん}へ{行|い}けない{人|ひと}にとって、{本|ほん}を{借|か}りるのは{簡単|かんたん}ではなかった。{利用|りよう}は{無料|むりょう}だが、{一度|いちど}に{予約|よやく}できるのは{五冊|ごさつ}までだ。また、{予約|よやく}した{本|ほん}は{一週間|いっしゅうかん}{以内|いない}に{受|う}け{取|と}らなければならない。{図書館|としょかん}は、このサービスで{若|わか}い{世代|せだい}の{利用者|りようしゃ}が{増|ふ}えることを{期待|きたい}している。",
+  "text_en": "A new service started at the city library this month. Books reserved online can now be collected at a pick-up counter near the station. The counter is open until 9 p.m., so you can drop in on your way home from work. Until now, borrowing books wasn't easy for people who couldn't get to the library on weekdays. The service is free, but you can reserve at most five books at a time. Also, reserved books must be collected within a week. The library hopes the service will bring in more users from the younger generation.",
+  "questions": [
+   {
+    "q_ja": "{新|あたら}しいサービスでは、{本|ほん}をどこで{受|う}け{取|と}れますか。",
+    "q_en": "Where can books be collected with the new service?",
+    "options": [
+     "{図書館|としょかん}の{二階|にかい}",
+     "{自分|じぶん}の{家|いえ}",
+     "{駅|えき}の{近|ちか}くの{窓口|まどぐち}"
+    ],
+    "answer": 2,
+    "why_ja": "「{駅|えき}の{近|ちか}くにある{受|う}け{取|と}り{窓口|まどぐち}で{受|う}け{取|と}れる」とあります。",
+    "why_en": "At the pick-up counter near the station."
+   },
+   {
+    "q_ja": "このサービスについて、{正|ただ}しいものはどれですか。",
+    "q_en": "Which is true of this service?",
+    "options": [
+     "{一週間|いっしゅうかん}{以内|いない}に{受|う}け{取|と}る{必要|ひつよう}がある",
+     "{本|ほん}を{一冊|いっさつ}{借|か}りるのに{百円|ひゃくえん}かかる",
+     "{一度|いちど}に{十冊|じゅっさつ}まで{予約|よやく}できる"
+    ],
+    "answer": 0,
+    "why_ja": "{利用|りよう}は{無料|むりょう}で、{予約|よやく}は{五冊|ごさつ}まで、{受|う}け{取|と}りは{一週間|いっしゅうかん}{以内|いない}です。",
+    "why_en": "It's free, up to five books, and must be collected within a week."
+   },
+   {
+    "q_ja": "{図書館|としょかん}が{期待|きたい}していることは{何|なん}ですか。",
+    "q_en": "What does the library hope for?",
+    "options": [
+     "{本|ほん}を{買|か}う{人|ひと}が{増|ふ}えること",
+     "{若|わか}い{利用者|りようしゃ}が{増|ふ}えること",
+     "{窓口|まどぐち}の{仕事|しごと}が{減|へ}ること"
+    ],
+    "answer": 1,
+    "why_ja": "{最後|さいご}の{文|ぶん}に「{若|わか}い{世代|せだい}の{利用者|りようしゃ}が{増|ふ}えることを{期待|きたい}している」とあります。",
+    "why_en": "More younger users, says the last sentence."
+   }
+  ]
+ }
+]

@@ -5630,6 +5630,802 @@
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
  {
+  "id": "w_4818114e34",
+  "headword": "生産",
+  "reading": "せいさん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{物|もの}を{作|つく}り{出|だ}すこと。",
+  "english": "production; manufacture",
+  "examples": [
+   {
+    "ja": "この{工場|こうじょう}では{一日|いちにち}に{千台|せんだい}の{車|くるま}を{生産|せいさん}している。",
+    "en": "This factory produces a thousand cars a day."
+   }
+  ],
+  "related": [
+   "製造"
+  ],
+  "kanji": [
+   "生",
+   "産"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8aca4c1b9e",
+  "headword": "独立",
+  "reading": "どくりつ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ほかの{人|ひと}や{組織|そしき}に{頼|たよ}らず、{自分|じぶん}の{力|ちから}でやっていくこと。",
+  "english": "independence; self-reliance; supporting oneself",
+  "examples": [
+   {
+    "ja": "{兄|あに}は{会社|かいしゃ}を{辞|や}めて、{独立|どくりつ}して{店|みせ}を{開|ひら}いた。",
+    "en": "My brother quit his company, went independent and opened his own shop."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "独",
+   "立"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_112129ec72",
+  "headword": "大家",
+  "reading": "おおや",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{家|いえ}や{部屋|へや}を{人|ひと}に{貸|か}している{持|も}ち{主|ぬし}。",
+  "english": "landlord; landlady",
+  "examples": [
+   {
+    "ja": "{水道|すいどう}が{壊|こわ}れたので、{大家|おおや}さんに{連絡|れんらく}した。",
+    "en": "The water pipe broke, so I contacted my landlord."
+   }
+  ],
+  "related": [
+   "家賃"
+  ],
+  "kanji": [
+   "大",
+   "家"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e24692af34",
+  "headword": "差別",
+  "reading": "さべつ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{性別|せいべつ}や{国籍|こくせき}などを{理由|りゆう}に、{人|ひと}を{不公平|ふこうへい}に{扱|あつか}うこと。",
+  "english": "distinction; differentiation; discrimination",
+  "examples": [
+   {
+    "ja": "どんな{理由|りゆう}があっても、{差別|さべつ}は{許|ゆる}されない。",
+    "en": "Discrimination is unacceptable whatever the reason."
+   }
+  ],
+  "related": [
+   "平等"
+  ],
+  "kanji": [
+   "別",
+   "差"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_634eb4f2a6",
+  "headword": "出世",
+  "reading": "しゅっせ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{会社|かいしゃ}などで、{高|たか}い{地位|ちい}に{上|あ}がること。",
+  "english": "success in life; getting ahead; successful career",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{同期|どうき}の{中|なか}で{一番|いちばん}{早|はや}く{出世|しゅっせ}した。",
+    "en": "He was promoted faster than anyone else who joined in his year."
+   }
+  ],
+  "related": [
+   "昇進"
+  ],
+  "kanji": [
+   "世",
+   "出"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_160a092d80",
+  "headword": "筋",
+  "reading": "すじ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{体|からだ}の{中|なか}の{細長|ほそなが}い{部分|ぶぶん}。また、{話|はなし}の{流|なが}れや、ものごとの{道理|どうり}。",
+  "english": "muscle; tendon; sinew",
+  "examples": [
+   {
+    "ja": "この{映画|えいが}は{筋|すじ}が{複雑|ふくざつ}で、わかりにくい。",
+    "en": "The plot of this film is complicated and hard to follow."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "筋"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e1129b4d99",
+  "headword": "先端",
+  "reading": "せんたん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{長|なが}いものの{一番|いちばん}{先|さき}の{部分|ぶぶん}。また、{時代|じだい}や{技術|ぎじゅつ}の{一番|いちばん}{新|あたら}しいところ。",
+  "english": "pointed end; tip; point",
+  "examples": [
+   {
+    "ja": "この{会社|かいしゃ}は{最先端|さいせんたん}の{技術|ぎじゅつ}を{使|つか}っている。",
+    "en": "This company uses cutting-edge technology."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "先",
+   "端"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9b70502a3c",
+  "headword": "相場",
+  "reading": "そうば",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "そのときの、{物|もの}の{一般的|いっぱんてき}な{値段|ねだん}。",
+  "english": "market price; speculation (e.g. on stocks); reputation (according to conventional wisdom)",
+  "examples": [
+   {
+    "ja": "この{辺|あた}りの{家賃|やちん}の{相場|そうば}はいくらぐらいですか。",
+    "en": "What's the going rate for rent around here?"
+   }
+  ],
+  "related": [
+   "値段"
+  ],
+  "kanji": [
+   "場",
+   "相"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5210f0787a",
+  "headword": "頼り",
+  "reading": "たより",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{困|こま}ったときに{助|たす}けてくれると{信|しん}じられる{人|ひと}やもの。",
+  "english": "reliance; dependence",
+  "examples": [
+   {
+    "ja": "{知|し}らない{町|まち}では、スマホの{地図|ちず}だけが{頼|たよ}りだった。",
+    "en": "In the unfamiliar town, my phone's map was all I had to rely on."
+   }
+  ],
+  "related": [
+   "頼る"
+  ],
+  "kanji": [
+   "頼"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_21e3e7fbfc",
+  "headword": "近道",
+  "reading": "ちかみち",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{目的地|もくてきち}に{早|はや}く{着|つ}ける{短|みじか}い{道|みち}。また、{早|はや}くできる{方法|ほうほう}。",
+  "english": "shorter way; shortcut",
+  "examples": [
+   {
+    "ja": "{公園|こうえん}を{通|とお}ると、{駅|えき}への{近道|ちかみち}になる。",
+    "en": "Going through the park is a shortcut to the station."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "近",
+   "道"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4fb9230aea",
+  "headword": "手当",
+  "reading": "てあて",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "けがや{病気|びょうき}の{処置|しょち}。また、{給料|きゅうりょう}のほかに{払|はら}われるお{金|かね}。",
+  "english": "salary; pay; compensation",
+  "examples": [
+   {
+    "ja": "{会社|かいしゃ}から{毎月|まいつき}{交通費|こうつうひ}の{手当|てあて}が{出|で}る。",
+    "en": "The company pays me a monthly travel allowance."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "当",
+   "手"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4f4b496c25",
+  "headword": "手入れ",
+  "reading": "ていれ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "よい{状態|じょうたい}を{保|たも}つために、{世話|せわ}をしたり{直|なお}したりすること。",
+  "english": "care; looking after; repair",
+  "examples": [
+   {
+    "ja": "{庭|にわ}の{手入|てい}れは{父|ちち}の{楽|たの}しみだ。",
+    "en": "Looking after the garden is my father's pleasure."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "入",
+   "手"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3163f3be06",
+  "headword": "手元",
+  "reading": "てもと",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{自分|じぶん}の{手|て}の{届|とど}く{近|ちか}く。",
+  "english": "at hand; on hand; nearby",
+  "examples": [
+   {
+    "ja": "{今|いま}、{手元|てもと}に{資料|しりょう}がないので、{後|あと}でお{送|おく}りします。",
+    "en": "I don't have the documents to hand right now, so I'll send them later."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "元",
+   "手"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_dc0a60ac6a",
+  "headword": "値下げ",
+  "reading": "ねさげ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものやサービスの{値段|ねだん}を{下|さ}げること。",
+  "english": "price reduction; price cut; reduction in price",
+  "examples": [
+   {
+    "ja": "{夏|なつ}の{終|お}わりには、{水着|みずぎ}が{大幅|おおはば}に{値下|ねさ}げされる。",
+    "en": "At the end of summer, swimsuits are heavily discounted."
+   }
+  ],
+  "related": [
+   "値上げ"
+  ],
+  "kanji": [
+   "下",
+   "値"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_303e36f23b",
+  "headword": "年代",
+  "reading": "ねんだい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{時代|じだい}の{区切|くぎ}り。また、{同|おな}じぐらいの{年齢|ねんれい}の{人々|ひとびと}。",
+  "english": "age; era; period",
+  "examples": [
+   {
+    "ja": "この{歌|うた}は{幅広|はばひろ}い{年代|ねんだい}の{人|ひと}に{人気|にんき}がある。",
+    "en": "This song is popular with people of all ages."
+   }
+  ],
+  "related": [
+   "世代"
+  ],
+  "kanji": [
+   "代",
+   "年"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7bccef2637",
+  "headword": "早口",
+  "reading": "はやくち",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{話|はな}す{速|はや}さがとても{速|はや}いこと。",
+  "english": "fast-talking; rapid talking",
+  "examples": [
+   {
+    "ja": "{緊張|きんちょう}すると、つい{早口|はやくち}になってしまう。",
+    "en": "When I get nervous, I end up talking too fast."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "口",
+   "早"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3dfbe6e3fb",
+  "headword": "日当たり",
+  "reading": "ひあたり",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{日|ひ}の{光|ひかり}がよく{当|あ}たるかどうかの{具合|ぐあい}。",
+  "english": "exposure to the sun; sunny place; per day",
+  "examples": [
+   {
+    "ja": "{南向|みなみむ}きの{部屋|へや}なので、{日当|ひあ}たりがいい。",
+    "en": "The room faces south, so it gets plenty of sun."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "当",
+   "日"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4e230c0c46",
+  "headword": "引き分け",
+  "reading": "ひきわけ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{試合|しあい}で、どちらも{勝|か}たず{負|ま}けずに{終|お}わること。",
+  "english": "draw (in competition); tie game",
+  "examples": [
+   {
+    "ja": "{試合|しあい}は{一対一|いったいいち}の{引|ひ}き{分|わ}けに{終|お}わった。",
+    "en": "The match ended in a one-all draw."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "分",
+   "引"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e48f48ed11",
+  "headword": "見本",
+  "reading": "みほん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "どんなものかを{見|み}せるための、{実際|じっさい}の{商品|しょうひん}と{同|おな}じもの。また、よい{例|れい}。",
+  "english": "sample; specimen; pattern",
+  "examples": [
+   {
+    "ja": "{注文|ちゅうもん}する{前|まえ}に、{生地|きじ}の{見本|みほん}を{送|おく}ってもらった。",
+    "en": "Before ordering, I had them send me a fabric sample."
+   }
+  ],
+  "related": [
+   "手本"
+  ],
+  "kanji": [
+   "本",
+   "見"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7cdf27062d",
+  "headword": "面会",
+  "reading": "めんかい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{会|あ}いに{行|い}って、{直接|ちょくせつ}{話|はな}すこと。{特|とく}に、{病院|びょういん}などで{人|ひと}に{会|あ}うこと。",
+  "english": "meeting (face-to-face); seeing; visit",
+  "examples": [
+   {
+    "ja": "{病院|びょういん}の{面会|めんかい}{時間|じかん}は{午後|ごご}{八時|はちじ}までです。",
+    "en": "Hospital visiting hours are until 8 p.m."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "会",
+   "面"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7a6b93b496",
+  "headword": "物音",
+  "reading": "ものおと",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{何|なに}かが{動|うご}いたり{当|あ}たったりして{出|で}る{音|おと}。",
+  "english": "noise; sound",
+  "examples": [
+   {
+    "ja": "{夜中|よなか}に{台所|だいどころ}で{物音|ものおと}がして、{目|め}が{覚|さ}めた。",
+    "en": "I woke up in the night to a noise in the kitchen."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "物",
+   "音"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_301b068f86",
+  "headword": "役目",
+  "reading": "やくめ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "その{人|ひと}がしなければならない{仕事|しごと}や{責任|せきにん}。",
+  "english": "duty; role; function",
+  "examples": [
+   {
+    "ja": "{子|こ}どもたちを{安全|あんぜん}に{家|いえ}まで{送|おく}るのが{私|わたし}の{役目|やくめ}だ。",
+    "en": "It's my job to see the children home safely."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "役",
+   "目"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_530e1685cf",
+  "headword": "屋台",
+  "reading": "やたい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{祭|まつ}りなどで、{道|みち}に{出|だ}して{食|た}べ{物|もの}などを{売|う}る{小|ちい}さな{店|みせ}。",
+  "english": "cart (esp. a food cart); stall; stand",
+  "examples": [
+   {
+    "ja": "お{祭|まつ}りの{夜|よる}、{屋台|やたい}で{焼|や}きそばを{買|か}った。",
+    "en": "On the night of the festival, I bought fried noodles at a stall."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "台",
+   "屋"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a4b45260e4",
+  "headword": "行方",
+  "reading": "ゆくえ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}やものが{行|い}った{先|さき}。また、ものごとがこれからどうなるか。",
+  "english": "(one's) whereabouts; destination; where one is headed",
+  "examples": [
+   {
+    "ja": "{逃|に}げた{犬|いぬ}の{行方|ゆくえ}がまだわからない。",
+    "en": "We still don't know where the runaway dog went."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "方",
+   "行"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_53ca41421b",
+  "headword": "夜明け",
+  "reading": "よあけ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{夜|よる}が{終|お}わって、{空|そら}が{明|あか}るくなり{始|はじ}めるころ。",
+  "english": "dawn; daybreak",
+  "examples": [
+   {
+    "ja": "{夜明|よあ}け{前|まえ}に{家|いえ}を{出|で}て、{山|やま}に{登|のぼ}った。",
+    "en": "I left home before dawn and climbed the mountain."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "夜",
+   "明"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_50e2d6a28b",
+  "headword": "連続",
+  "reading": "れんぞく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{同|おな}じようなことが、{切|き}れずに{続|つづ}くこと。",
+  "english": "continuation; succession; series",
+  "examples": [
+   {
+    "ja": "{今週|こんしゅう}は{三日|みっか}{連続|れんぞく}で{雨|あめ}が{降|ふ}った。",
+    "en": "This week it rained three days in a row."
+   }
+  ],
+  "related": [
+   "続く"
+  ],
+  "kanji": [
+   "続",
+   "連"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_67e3399743",
+  "headword": "労働",
+  "reading": "ろうどう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "お{金|かね}などを{得|え}るために、{体|からだ}や{頭|あたま}を{使|つか}って{働|はたら}くこと。",
+  "english": "labor; labour; work",
+  "examples": [
+   {
+    "ja": "{長時間|ちょうじかん}{労働|ろうどう}を{減|へ}らす{取|と}り{組|く}みが{進|すす}んでいる。",
+    "en": "Efforts to reduce long working hours are under way."
+   }
+  ],
+  "related": [
+   "働く"
+  ],
+  "kanji": [
+   "働",
+   "労"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2352197076",
+  "headword": "肌",
+  "reading": "はだ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}の{体|からだ}の{表面|ひょうめん}をおおっている{皮|かわ}。",
+  "english": "skin; body (in the context of intimate bodily contact); surface",
+  "examples": [
+   {
+    "ja": "{冬|ふゆ}は{空気|くうき}が{乾|かわ}いて、{肌|はだ}が{荒|あ}れやすい。",
+    "en": "In winter the air is dry, so your skin gets rough easily."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "肌"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_416ef7874a",
+  "headword": "世間体",
+  "reading": "せけんてい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{世|よ}の{中|なか}の{人|ひと}から、どう{見|み}られるかということ。",
+  "english": "appearance (in the eyes of society); decency",
+  "examples": [
+   {
+    "ja": "{母|はは}は{世間体|せけんてい}ばかり{気|き}にしている。",
+    "en": "My mother only cares about what other people think."
+   }
+  ],
+  "related": [
+   "世間"
+  ],
+  "kanji": [
+   "世",
+   "体",
+   "間"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e4412c34e5",
+  "headword": "気のせい",
+  "reading": "きのせい",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{本当|ほんとう}はそうではないのに、そう{感|かん}じること。",
+  "english": "(just) one's imagination",
+  "examples": [
+   {
+    "ja": "{誰|だれ}かに{呼|よ}ばれた{気|き}がしたが、{気|き}のせいだった。",
+    "en": "I thought someone called me, but it was just my imagination."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "気"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_430c48fa61",
+  "headword": "胸を張る",
+  "reading": "むねをはる",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{自信|じしん}を{持|も}って、{堂々|どうどう}とした{態度|たいど}をとる。",
+  "english": "to throw out one's chest; to be puffed up with pride",
+  "examples": [
+   {
+    "ja": "{自分|じぶん}の{仕事|しごと}に{胸|むね}を{張|は}るのは{大切|たいせつ}なことだ。",
+    "en": "It's important to be proud of your own work."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "張",
+   "胸"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5bbb30a01c",
+  "headword": "顔を出す",
+  "reading": "かおをだす",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{集|あつ}まりなどに、{少|すこ}しの{時間|じかん}だけ{参加|さんか}する。また、{姿|すがた}を{見|み}せる。",
+  "english": "to turn up; to make an appearance; to put in an appearance",
+  "examples": [
+   {
+    "ja": "{忙|いそが}しいけれど、{同窓会|どうそうかい}には{顔|かお}を{出|だ}すつもりだ。",
+    "en": "I'm busy, but I intend to show my face at the reunion."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "出",
+   "顔"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_35d052304a",
+  "headword": "耳にする",
+  "reading": "みみにする",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{聞|き}くつもりはなくても、{自然|しぜん}に{聞|き}こえてくる。",
+  "english": "to hear; to hear by chance; to hear by accident",
+  "examples": [
+   {
+    "ja": "{最近|さいきん}、その{店|みせ}の{名前|なまえ}をよく{耳|みみ}にする。",
+    "en": "I've been hearing that shop's name a lot lately."
+   }
+  ],
+  "related": [
+   "聞く"
+  ],
+  "kanji": [
+   "耳"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_69cc199859",
+  "headword": "目に付く",
+  "reading": "めにつく",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{目立|めだ}って、{自然|しぜん}に{見|み}える。",
+  "english": "to be noticeable; to notice; to catch one's eye",
+  "examples": [
+   {
+    "ja": "{最近|さいきん}、{駅前|えきまえ}で{空|あ}いている{店|みせ}がよく{目|め}に{付|つ}く。",
+    "en": "Lately I keep noticing empty shops in front of the station."
+   }
+  ],
+  "related": [
+   "目立つ"
+  ],
+  "kanji": [
+   "付",
+   "目"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5d3c9550ac",
+  "headword": "手を打つ",
+  "reading": "てをうつ",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{問題|もんだい}が{大|おお}きくなる{前|まえ}に、{必要|ひつよう}な{対策|たいさく}をとる。",
+  "english": "to take (preventive) measures; to come to an agreement (in bargaining, etc.); to strike a bargain",
+  "examples": [
+   {
+    "ja": "{客|きゃく}が{減|へ}る{前|まえ}に、{早|はや}めに{手|て}を{打|う}つ{必要|ひつよう}がある。",
+    "en": "We need to act early, before customers start dropping off."
+   }
+  ],
+  "related": [
+   "対策"
+  ],
+  "kanji": [
+   "手",
+   "打"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
   "id": "w_46e862501d",
   "headword": "当てはまる",
   "reading": "あてはまる",

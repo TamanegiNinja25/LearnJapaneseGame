@@ -1,0 +1,393 @@
+[
+ {
+  "id": "n1_an_x01",
+  "level": "N1",
+  "ja": "{彼|かれ}は{周囲|しゅうい}の{反対|はんたい}をよそに、{会社|かいしゃ}を{辞|や}めて{起業|きぎょう}した。",
+  "en": "Paying no heed to the objections of those around him, he quit his company and started his own business.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の「をよそに」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。",
+    "prompt_en": "Which is closest to をよそに here?",
+    "options": [
+     "〜を{気|き}にしないで",
+     "〜のおかげで",
+     "〜に{従|したが}って",
+     "〜をきっかけに"
+    ],
+    "answer": 0,
+    "why_ja": "「をよそに」は、{周|まわ}りの{気持|きも}ちや{状況|じょうきょう}を{気|き}にしないで{行動|こうどう}することです。",
+    "why_en": "をよそに: acting without regard to others' feelings."
+   },
+   {
+    "type": "subject_object",
+    "section": "grammar",
+    "prompt_ja": "{反対|はんたい}していたのは{誰|だれ}か。",
+    "prompt_en": "Who was opposed?",
+    "options": [
+     "{彼|かれ}",
+     "{周囲|しゅうい}の{人々|ひとびと}",
+     "{会社|かいしゃ}の{客|きゃく}"
+    ],
+    "answer": 1,
+    "why_ja": "「{周囲|しゅうい}の{反対|はんたい}」なので、{反対|はんたい}したのは{周|まわ}りの{人々|ひとびと}です。",
+    "why_en": "周囲の反対: the people around him objected."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "この{文|ぶん}と{同|おな}じ{意味|いみ}の{文|ぶん}はどれか。",
+    "prompt_en": "Which sentence means the same?",
+    "options": [
+     "{彼|かれ}は{周囲|しゅうい}に{反対|はんたい}されたので、{起業|きぎょう}をあきらめた。",
+     "{彼|かれ}は{周囲|しゅうい}が{反対|はんたい}するのも{気|き}にせず、{会社|かいしゃ}を{辞|や}めて{起業|きぎょう}した。",
+     "{彼|かれ}は{周囲|しゅうい}の{勧|すす}めで{起業|きぎょう}した。"
+    ],
+    "answer": 1,
+    "why_ja": "「をよそに」は「〜を{気|き}にせず」と{言|い}い{換|か}えられます。",
+    "why_en": "をよそに can be rephrased as 〜を気にせず."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{起業|きぎょう}する」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。",
+    "prompt_en": "Which is closest to 起業する?",
+    "options": [
+     "{新|あたら}しく{事業|じぎょう}を{始|はじ}める",
+     "{会社|かいしゃ}を{辞|や}める",
+     "{朝|あさ}{早|はや}く{起|お}きる"
+    ],
+    "answer": 0,
+    "why_ja": "「{起業|きぎょう}」は{自分|じぶん}で{新|あたら}しく{事業|じぎょう}を{起|お}こすことです。",
+    "why_en": "起業 means starting a new business."
+   },
+   {
+    "type": "same_pattern",
+    "section": "grammar",
+    "prompt_ja": "「をよそに」を{正|ただ}しく{使|つか}っている{文|ぶん}はどれか。",
+    "prompt_en": "Which sentence uses をよそに correctly?",
+    "options": [
+     "{家族|かぞく}の{心配|しんぱい}をよそに、{彼女|かのじょ}は{冬山|ふゆやま}に{登|のぼ}った。",
+     "{先生|せんせい}の{説明|せつめい}をよそに、よく{分|わ}かった。",
+     "{母|はは}の{手料理|てりょうり}をよそに、おいしく{食|た}べた。"
+    ],
+    "answer": 0,
+    "why_ja": "{周|まわ}りの{心配|しんぱい}を{気|き}にせず{行動|こうどう}した{文|ぶん}です。",
+    "why_en": "She acted regardless of her family's worries."
+   }
+  ]
+ },
+ {
+  "id": "n1_an_x02",
+  "level": "N1",
+  "ja": "{長年|ながねん}の{努力|どりょく}が{実|みの}り、{彼女|かのじょ}はついに{世界|せかい}{記録|きろく}を{樹立|じゅりつ}した。",
+  "en": "Her years of effort paid off, and she finally set a world record.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{樹立|じゅりつ}する」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。",
+    "prompt_en": "Which is closest to 樹立する?",
+    "options": [
+     "しっかりと{打|う}ち{立|た}てる",
+     "{木|き}を{植|う}える",
+     "{途中|とちゅう}でやめる"
+    ],
+    "answer": 0,
+    "why_ja": "「{記録|きろく}を{樹立|じゅりつ}する」は{新|あたら}しい{記録|きろく}を{打|う}ち{立|た}てることです。",
+    "why_en": "記録を樹立する: to set a new record."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{努力|どりょく}が{実|みの}る」の{意味|いみ}はどれか。",
+    "prompt_en": "What does 努力が実る mean?",
+    "options": [
+     "{努力|どりょく}がよい{結果|けっか}になる",
+     "{努力|どりょく}が{無駄|むだ}になる",
+     "{努力|どりょく}を{始|はじ}める"
+    ],
+    "answer": 0,
+    "why_ja": "{植物|しょくぶつ}が{実|み}をつけるように、{努力|どりょく}が{成果|せいか}になることです。",
+    "why_en": "Like a plant bearing fruit, effort produces results."
+   },
+   {
+    "type": "meaning",
+    "section": "reading",
+    "prompt_ja": "「ついに」が{表|あらわ}しているのはどんなことか。",
+    "prompt_en": "What does ついに express?",
+    "options": [
+     "{長|なが}い{時間|じかん}のあとで、やっと{実現|じつげん}した",
+     "{思|おも}ったより{早|はや}く{実現|じつげん}した",
+     "{実現|じつげん}しなかった"
+    ],
+    "answer": 0,
+    "why_ja": "「ついに」は{長|なが}い{過程|かてい}の{末|すえ}に{結果|けっか}が{出|で}たことを{表|あらわ}します。",
+    "why_en": "ついに: at last, after a long process."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "{彼女|かのじょ}に{声|こえ}をかけるとしたら、{最|もっと}も{自然|しぜん}なのはどれか。",
+    "prompt_en": "What would be the most natural thing to say to her?",
+    "options": [
+     "{世界|せかい}{記録|きろく}{樹立|じゅりつ}、おめでとうございます。{努力|どりょく}が{実|みの}りましたね。",
+     "{残念|ざんねん}でしたね。{次|つぎ}はがんばってください。",
+     "お{大事|だいじ}に。{早|はや}くよくなってください。"
+    ],
+    "answer": 0,
+    "why_ja": "{記録|きろく}を{打|う}ち{立|た}てたので、お{祝|いわ}いの{言葉|ことば}がふさわしいです。",
+    "why_en": "She set a record, so congratulations fit."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "この{文|ぶん}と{同|おな}じ{意味|いみ}の{文|ぶん}はどれか。",
+    "prompt_en": "Which sentence means the same?",
+    "options": [
+     "{彼女|かのじょ}は{長|なが}い{間|あいだ}{努力|どりょく}を{重|かさ}ねた{末|すえ}に、{世界|せかい}{記録|きろく}を{打|う}ち{立|た}てた。",
+     "{彼女|かのじょ}は{努力|どりょく}しなかったが、{世界|せかい}{記録|きろく}を{出|だ}した。",
+     "{彼女|かのじょ}は{世界|せかい}{記録|きろく}を{破|やぶ}られた。"
+    ],
+    "answer": 0,
+    "why_ja": "「{長年|ながねん}の{努力|どりょく}が{実|みの}り」は「{長|なが}い{間|あいだ}{努力|どりょく}を{重|かさ}ねた{末|すえ}に」と{言|い}い{換|か}えられます。",
+    "why_en": "Years of effort paying off = after long, sustained effort."
+   }
+  ]
+ },
+ {
+  "id": "n1_an_x03",
+  "level": "N1",
+  "ja": "{演奏|えんそう}が{終|お}わると、{会場|かいじょう}は{割|わ}れんばかりの{拍手|はくしゅ}に{包|つつ}まれた。",
+  "en": "When the performance ended, the hall was filled with thunderous applause.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "「{割|わ}れんばかりの」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。",
+    "prompt_en": "Which is closest to 割れんばかりの?",
+    "options": [
+     "{今|いま}にも{割|わ}れそうなほど{大|おお}きい",
+     "{本当|ほんとう}に{割|わ}れてしまった",
+     "{少|すこ}しも{割|わ}れない"
+    ],
+    "answer": 0,
+    "why_ja": "「んばかり」は「{今|いま}にも〜しそうなほど」で、{実際|じっさい}に{割|わ}れたわけではありません。",
+    "why_en": "んばかり: as if about to; nothing actually broke."
+   },
+   {
+    "type": "conjugation_why",
+    "section": "grammar",
+    "prompt_ja": "「{割|わ}れん」はどのようにできた{形|かたち}か。",
+    "prompt_en": "How is the form 割れん made?",
+    "options": [
+     "「{割|わ}れない」から「ない」を{取|と}った{形|かたち}に「ん」がついた",
+     "「{割|わ}れる」の「る」が「ん」になった",
+     "「{割|わ}れた」の「た」が「ん」になった"
+    ],
+    "answer": 0,
+    "why_ja": "「んばかり」はない{形|けい}から「ない」を{取|と}った{形|かたち}につきます。この「ん」は{否定|ひてい}ではなく、{古|ふる}い{言葉|ことば}の「む」から{来|き}ていて、「〜しそうな」という{気持|きも}ちを{表|あらわ}します。",
+    "why_en": "んばかり attaches to the nai-stem; this ん is not negative but comes from classical む ('about to')."
+   },
+   {
+    "type": "subject_object",
+    "section": "grammar",
+    "prompt_ja": "{何|なに}が{会場|かいじょう}を{包|つつ}んだのか。",
+    "prompt_en": "What enveloped the hall?",
+    "options": [
+     "{拍手|はくしゅ}",
+     "{演奏者|えんそうしゃ}",
+     "{会場|かいじょう}の{壁|かべ}"
+    ],
+    "answer": 0,
+    "why_ja": "「{会場|かいじょう}は{拍手|はくしゅ}に{包|つつ}まれた」は{受身|うけみ}で、{包|つつ}んだのは{拍手|はくしゅ}です。",
+    "why_en": "Passive: the applause enveloped the hall."
+   },
+   {
+    "type": "same_pattern",
+    "section": "grammar",
+    "prompt_ja": "{同|おな}じ「んばかり」の{使|つか}い{方|かた}をしている{文|ぶん}はどれか。",
+    "prompt_en": "Which sentence uses んばかり the same way?",
+    "options": [
+     "{彼|かれ}は{泣|な}き{出|だ}さんばかりの{顔|かお}をしていた。",
+     "{彼|かれ}は{本|ほん}ばかり{読|よ}んでいる。",
+     "{彼|かれ}は{今|いま}{来|き}たばかりだ。"
+    ],
+    "answer": 0,
+    "why_ja": "「{泣|な}き{出|だ}さんばかり」も「{今|いま}にも{泣|な}き{出|だ}しそうな」という{意味|いみ}です。ほかの「ばかり」は{別|べつ}の{文法|ぶんぽう}です。",
+    "why_en": "泣き出さんばかり is the same pattern; the other ばかり are different grammar."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "{演奏|えんそう}のあと、{演奏者|えんそうしゃ}に{声|こえ}をかけるなら、どれが{最|もっと}も{自然|しぜん}か。",
+    "prompt_en": "Which is most natural to say to the performer afterwards?",
+    "options": [
+     "すばらしい{演奏|えんそう}でした。{会場|かいじょう}が{一|ひと}つになりましたね。",
+     "{拍手|はくしゅ}がうるさかったですね。",
+     "{演奏|えんそう}はまだですか。"
+    ],
+    "answer": 0,
+    "why_ja": "{大|おお}きな{拍手|はくしゅ}は{演奏|えんそう}への{感動|かんどう}を{示|しめ}しているので、ほめる{言葉|ことば}が{自然|しぜん}です。",
+    "why_en": "The applause shows how moved people were, so praise fits."
+   }
+  ]
+ },
+ {
+  "id": "n1_an_x04",
+  "level": "N1",
+  "ja": "{彼|かれ}は{入院|にゅういん}してからというもの、{一日|いちにち}たりとも{日記|にっき}を{欠|か}かしたことがない。",
+  "en": "Ever since he was hospitalised, he has not missed writing his diary for a single day.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "「{一日|いちにち}たりとも」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。",
+    "prompt_en": "Which is closest to 一日たりとも?",
+    "options": [
+     "{一日|いちにち}も（〜ない）",
+     "{一日|いちにち}だけ",
+     "{一日|いちにち}おきに"
+    ],
+    "answer": 0,
+    "why_ja": "「たりとも」は{否定|ひてい}と{一緒|いっしょ}に「{一|ひと}つも〜ない」と{強|つよ}く{言|い}う{表現|ひょうげん}です。",
+    "why_en": "たりとも with a negative: not even one."
+   },
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "「{入院|にゅういん}してからというもの」が{表|あらわ}しているのはどれか。",
+    "prompt_en": "What does 入院してからというもの express?",
+    "options": [
+     "{入院|にゅういん}して{以来|いらい}ずっと",
+     "{入院|にゅういん}する{前|まえ}に",
+     "{入院|にゅういん}したにもかかわらず"
+    ],
+    "answer": 0,
+    "why_ja": "「てからというもの」は「〜して{以来|いらい}ずっと」という{意味|いみ}です。",
+    "why_en": "てからというもの: ever since."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "この{文|ぶん}と{同|おな}じ{意味|いみ}の{文|ぶん}はどれか。",
+    "prompt_en": "Which sentence means the same?",
+    "options": [
+     "{彼|かれ}は{入院|にゅういん}して{以来|いらい}、{毎日|まいにち}{欠|か}かさず{日記|にっき}をつけている。",
+     "{彼|かれ}は{入院|にゅういん}{中|ちゅう}、{日記|にっき}を{一日|いちにち}だけ{書|か}いた。",
+     "{彼|かれ}は{入院|にゅういん}してから{日記|にっき}をやめた。"
+    ],
+    "answer": 0,
+    "why_ja": "「{一日|いちにち}たりとも{欠|か}かしたことがない」は「{毎日|まいにち}{欠|か}かさず」と{同|おな}じです。",
+    "why_en": "Never missed a day = every single day."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{欠|か}かす」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。",
+    "prompt_en": "Which is closest to 欠かす?",
+    "options": [
+     "するべきことをしないで{抜|ぬ}かす",
+     "{物|もの}を{壊|こわ}す",
+     "{書|か}き{直|なお}す"
+    ],
+    "answer": 0,
+    "why_ja": "「{欠|か}かす」は、いつもしていることを{抜|ぬ}かすことです。{否定|ひてい}の{形|かたち}でよく{使|つか}います。",
+    "why_en": "欠かす: to skip something one normally does; mostly used in the negative."
+   },
+   {
+    "type": "conjugation_why",
+    "section": "grammar",
+    "prompt_ja": "「{欠|か}かしたことがない」と「たことがない」の{形|かたち}を{使|つか}っているのはなぜか。",
+    "prompt_en": "Why is the form 欠かしたことがない used?",
+    "options": [
+     "{過去|かこ}から{今|いま}まで{一度|いちど}もないことを{表|あらわ}すから",
+     "これからの{予定|よてい}を{表|あらわ}すから",
+     "{人|ひと}から{聞|き}いた{話|はなし}だから"
+    ],
+    "answer": 0,
+    "why_ja": "「〜たことがない」は、これまでの{経験|けいけん}として{一度|いちど}もないことを{表|あらわ}します。",
+    "why_en": "〜たことがない: has never once happened up to now."
+   }
+  ]
+ },
+ {
+  "id": "n1_an_x05",
+  "level": "N1",
+  "ja": "{今回|こんかい}の{不祥事|ふしょうじ}は、{会社|かいしゃ}の{信用|しんよう}を{失墜|しっつい}させるのに{十分|じゅうぶん}なものだった。",
+  "en": "This scandal was enough to destroy the company's credibility.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{不祥事|ふしょうじ}」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。",
+    "prompt_en": "Which is closest to 不祥事?",
+    "options": [
+     "{関係者|かんけいしゃ}にとって{恥|は}ずかしい、よくない{出来事|できごと}",
+     "うれしい{知|し}らせ",
+     "{小|ちい}さな{計算|けいさん}ミス"
+    ],
+    "answer": 0,
+    "why_ja": "「{不祥事|ふしょうじ}」は、{組織|そしき}などの{信用|しんよう}にかかわる{悪|わる}い{出来事|できごと}です。",
+    "why_en": "不祥事: a scandal that damages an organisation's reputation."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{信用|しんよう}を{失墜|しっつい}させる」の{意味|いみ}はどれか。",
+    "prompt_en": "What does 信用を失墜させる mean?",
+    "options": [
+     "{信用|しんよう}を{失|うしな}わせる",
+     "{信用|しんよう}を{高|たか}める",
+     "{信用|しんよう}を{確|たし}かめる"
+    ],
+    "answer": 0,
+    "why_ja": "「{失墜|しっつい}」は{信用|しんよう}や{権威|けんい}を{失|うしな}うことです。",
+    "why_en": "失墜 means losing credibility or authority."
+   },
+   {
+    "type": "conjugation_why",
+    "section": "grammar",
+    "prompt_ja": "「{失墜|しっつい}させる」と{使役|しえき}の{形|かたち}になっているのはなぜか。",
+    "prompt_en": "Why is the causative 失墜させる used?",
+    "options": [
+     "{不祥事|ふしょうじ}が{原因|げんいん}となって、{信用|しんよう}が{失墜|しっつい}するから",
+     "{会社|かいしゃ}が{自分|じぶん}から{信用|しんよう}を{失墜|しっつい}したいから",
+     "{信用|しんよう}が{不祥事|ふしょうじ}を{起|お}こしたから"
+    ],
+    "answer": 0,
+    "why_ja": "{主語|しゅご}の「{不祥事|ふしょうじ}」が、{信用|しんよう}の{失墜|しっつい}を{引|ひ}き{起|お}こす{原因|げんいん}なので{使役|しえき}の{形|かたち}です。",
+    "why_en": "The scandal (subject) causes the loss of credibility, hence the causative."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "この{文|ぶん}と{同|おな}じ{意味|いみ}の{文|ぶん}はどれか。",
+    "prompt_en": "Which sentence means the same?",
+    "options": [
+     "この{不祥事|ふしょうじ}によって、{会社|かいしゃ}の{信用|しんよう}は{大|おお}きく{損|そこ}なわれた。",
+     "この{不祥事|ふしょうじ}は、{会社|かいしゃ}の{信用|しんよう}にあまり{影響|えいきょう}しなかった。",
+     "{会社|かいしゃ}は{不祥事|ふしょうじ}のおかげで{信用|しんよう}を{得|え}た。"
+    ],
+    "answer": 0,
+    "why_ja": "「{失墜|しっつい}させるのに{十分|じゅうぶん}」は「{大|おお}きく{損|そこ}なった」ということです。",
+    "why_en": "Enough to destroy credibility = badly damaged it."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "{記者|きしゃ}{会見|かいけん}で、{社長|しゃちょう}が{最初|さいしょ}に{言|い}うべき{言葉|ことば}として{最|もっと}も{適切|てきせつ}なのはどれか。",
+    "prompt_en": "What should the president say first at the press conference?",
+    "options": [
+     "このたびは{多大|ただい}なご{迷惑|めいわく}とご{心配|しんぱい}をおかけし、{誠|まこと}に{申|もう}し{訳|わけ}ございません。",
+     "{大|たい}したことではありませんので、ご{安心|あんしん}ください。",
+     "{皆|みな}さん、{今日|きょう}は{来|き}てくれてありがとう。"
+    ],
+    "answer": 0,
+    "why_ja": "{信用|しんよう}を{失|うしな}うほどの{不祥事|ふしょうじ}なので、まず{丁寧|ていねい}に{謝罪|しゃざい}するのが{適切|てきせつ}です。",
+    "why_en": "After a scandal this serious, a formal apology comes first."
+   }
+  ]
+ }
+]

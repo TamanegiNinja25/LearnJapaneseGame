@@ -1,0 +1,227 @@
+[
+ {
+  "id": "n1_rd_x01",
+  "level": "N1",
+  "title_ja": "{手書|てが}きの{効用|こうよう}",
+  "text_ja": "{文章|ぶんしょう}を{書|か}くとき、{今|いま}ではパソコンやスマートフォンを{使|つか}うのが{当|あ}たり{前|まえ}になった。{漢字|かんじ}を{思|おも}い{出|だ}せなくても、{機械|きかい}が{瞬時|しゅんじ}に{変換|へんかん}してくれる。その{便利|べんり}さは{言|い}うまでもないが、{手書|てが}きの{機会|きかい}が{減|へ}ったことで{失|うしな}われたものもあるのではないか。ある{研究|けんきゅう}によれば、{手|て}で{書|か}いたほうが{内容|ないよう}を{記憶|きおく}に{留|とど}めやすいという。{手|て}を{動|うご}かしながら、{何|なに}を{書|か}くべきかを{頭|あたま}の{中|なか}で{整理|せいり}するからだろう。もっとも、だからといって{機械|きかい}を{否定|ひてい}するつもりはない。{大切|たいせつ}なのは、{目的|もくてき}に{応|おう}じて{使|つか}い{分|わ}けることだ。{考|かんが}えを{練|ね}る{段階|だんかい}では{紙|かみ}とペンを、{清書|せいしょ}の{段階|だんかい}ではパソコンを{使|つか}うというのも{一|ひと}つの{方法|ほうほう}である。{道具|どうぐ}に{使|つか}われるのではなく、{道具|どうぐ}を{使|つか}いこなす{姿勢|しせい}こそが{求|もと}められている。",
+  "text_en": "These days it has become normal to write on a computer or smartphone. Even if you can't recall a kanji, the machine converts it instantly. The convenience goes without saying, but haven't we lost something as chances to write by hand have declined? According to one study, content is easier to remember when written by hand. That is probably because, as we move our hands, we sort out in our heads what we should write. That said, I have no intention of rejecting machines. What matters is using each according to the purpose. One approach is to use pen and paper while developing your ideas, and a computer for the final copy. What is called for is an attitude of mastering our tools rather than being used by them.",
+  "questions": [
+   {
+    "q_ja": "{筆者|ひっしゃ}によると、{手|て}で{書|か}くとなぜ{記憶|きおく}に{残|のこ}りやすいのか。",
+    "q_en": "According to the writer, why is handwriting easier to remember?",
+    "options": [
+     "{書|か}く{内容|ないよう}を{頭|あたま}の{中|なか}で{整理|せいり}するから",
+     "{機械|きかい}より{速|はや}く{書|か}けるから",
+     "{漢字|かんじ}を{変換|へんかん}しなくてよいから"
+    ],
+    "answer": 0,
+    "why_ja": "「{何|なに}を{書|か}くべきかを{頭|あたま}の{中|なか}で{整理|せいり}するからだろう」とあります。",
+    "why_en": "The text says we sort out what to write in our heads."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}の{考|かんが}えに{合|あ}うものはどれか。",
+    "q_en": "Which matches the writer's view?",
+    "options": [
+     "パソコンは{使|つか}うべきではない",
+     "{目的|もくてき}に{応|おう}じて{手書|てが}きと{機械|きかい}を{使|つか}い{分|わ}けるべきだ",
+     "{清書|せいしょ}も{手書|てが}きでするべきだ"
+    ],
+    "answer": 1,
+    "why_ja": "「{大切|たいせつ}なのは、{目的|もくてき}に{応|おう}じて{使|つか}い{分|わ}けることだ」とあります。",
+    "why_en": "The writer says the key is choosing according to purpose."
+   },
+   {
+    "q_ja": "「{道具|どうぐ}に{使|つか}われる」とはどういうことか。",
+    "q_en": "What does 'being used by our tools' mean?",
+    "options": [
+     "{道具|どうぐ}に{頼|たよ}りすぎて、{自分|じぶん}で{考|かんが}えなくなること",
+     "{道具|どうぐ}を{上手|じょうず}に{使|つか}うこと",
+     "{道具|どうぐ}が{壊|こわ}れること"
+    ],
+    "answer": 0,
+    "why_ja": "「{使|つか}いこなす」の{反対|はんたい}で、{道具|どうぐ}に{振|ふ}り{回|まわ}されている{状態|じょうたい}です。",
+    "why_en": "It is the opposite of mastering tools: being controlled by them."
+   }
+  ]
+ },
+ {
+  "id": "n1_rd_x02",
+  "level": "N1",
+  "title_ja": "{駅|えき}を{町|まち}の{財産|ざいさん}に",
+  "text_ja": "{人口|じんこう}{減少|げんしょう}が{進|すす}む{地方|ちほう}では、{鉄道|てつどう}の{存続|そんぞく}が{大|おお}きな{課題|かだい}となっている。ある{県|けん}のローカル{線|せん}も、{利用者|りようしゃ}がピーク{時|じ}の{三分|さんぶん}の{一|いち}にまで{減|へ}り、{赤字|あかじ}が{続|つづ}いてきた。{鉄道|てつどう}{会社|がいしゃ}はバスへの{転換|てんかん}を{提案|ていあん}したが、{住民|じゅうみん}の{反発|はんぱつ}は{強|つよ}かった。{車|くるま}を{運転|うんてん}しない{高齢者|こうれいしゃ}や{高校生|こうこうせい}にとって、{鉄道|てつどう}は{欠|か}かせない{足|あし}だからだ。そこで{地元|じもと}の{自治体|じちたい}は、{駅|えき}を{地域|ちいき}の{交流|こうりゅう}{拠点|きょてん}にする{計画|けいかく}を{打|う}ち{出|だ}した。{駅舎|えきしゃ}に{図書|としょ}コーナーやカフェを{設|もう}けたところ、{列車|れっしゃ}に{乗|の}らない{人|ひと}まで{駅|えき}に{集|あつ}まるようになった。{利用者|りようしゃ}の{数|かず}はまだ{十分|じゅうぶん}とは{言|い}えないものの、{減少|げんしょう}には{歯止|はど}めがかかりつつある。{鉄道|てつどう}を{単|たん}なる{移動|いどう}{手段|しゅだん}ではなく、{町|まち}の{財産|ざいさん}として{捉|とら}え{直|なお}す{試|こころ}みと{言|い}えるだろう。",
+  "text_en": "In rural areas where the population is shrinking, keeping railways running has become a major issue. On one prefecture's local line, ridership has fallen to a third of its peak, and losses have continued. The railway company proposed switching to buses, but residents pushed back hard. For elderly people and high-school students who don't drive, the railway is an essential means of getting around. So the local authority came up with a plan to turn the station into a hub for community interaction. When a reading corner and a café were set up in the station building, even people who weren't taking the train began gathering there. Although ridership still can't be called sufficient, the decline is starting to be checked. This can be seen as an attempt to rethink the railway not merely as transport but as an asset of the town.",
+  "questions": [
+   {
+    "q_ja": "{住民|じゅうみん}がバスへの{転換|てんかん}に{反発|はんぱつ}したのはなぜか。",
+    "q_en": "Why did residents oppose switching to buses?",
+    "options": [
+     "{運賃|うんちん}が{高|たか}くなるから",
+     "{鉄道|てつどう}がないと{困|こま}る{人|ひと}がいるから",
+     "バスの{本数|ほんすう}が{多|おお}すぎるから"
+    ],
+    "answer": 1,
+    "why_ja": "{車|くるま}を{運転|うんてん}しない{高齢者|こうれいしゃ}や{高校生|こうこうせい}にとって「{欠|か}かせない{足|あし}だから」とあります。",
+    "why_en": "Elderly people and students who don't drive depend on it."
+   },
+   {
+    "q_ja": "{駅|えき}にカフェなどを{設|もう}けた{結果|けっか}、どうなったか。",
+    "q_en": "What happened after the café and other facilities were added?",
+    "options": [
+     "{利用者|りようしゃ}の{減少|げんしょう}が{止|と}まり{始|はじ}めた",
+     "{利用者|りようしゃ}がピーク{時|じ}を{超|こ}えた",
+     "{列車|れっしゃ}の{本数|ほんすう}が{増|ふ}えた"
+    ],
+    "answer": 0,
+    "why_ja": "「{減少|げんしょう}には{歯止|はど}めがかかりつつある」とあります。",
+    "why_en": "The decline is starting to be checked."
+   },
+   {
+    "q_ja": "「{歯止|はど}めがかかりつつある」の{意味|いみ}に{最|もっと}も{近|ちか}いのはどれか。",
+    "q_en": "Which is closest to 歯止めがかかりつつある?",
+    "options": [
+     "{急|きゅう}に{増|ふ}えている",
+     "{減|へ}り{方|かた}がゆるやかになり、{止|と}まりかけている",
+     "まったく{変|か}わらない"
+    ],
+    "answer": 1,
+    "why_ja": "「{歯止|はど}め」は{悪|わる}い{動|うご}きを{止|と}めるもの、「つつある」は{変化|へんか}の{途中|とちゅう}を{表|あらわ}します。",
+    "why_en": "歯止め stops a bad trend; つつある shows the change is under way."
+   }
+  ]
+ },
+ {
+  "id": "n1_rd_x03",
+  "level": "N1",
+  "title_ja": "{失敗|しっぱい}を{許|ゆる}す{社会|しゃかい}",
+  "text_ja": "「{失敗|しっぱい}したくない」という{声|こえ}を、{若|わか}い{人|ひと}から{聞|き}くことが{増|ふ}えた。{行動|こうどう}する{前|まえ}に{結果|けっか}を{調|しら}べられる{今|いま}、{失敗|しっぱい}は{避|さ}けて{当然|とうぜん}のものと{考|かんが}えられがちだ。しかし、{失敗|しっぱい}を{一度|いちど}もせずに{成長|せいちょう}した{人|ひと}がいるだろうか。{私|わたし}{自身|じしん}、{若|わか}いころに{手掛|てが}けた{企画|きかく}が{頓挫|とんざ}し、{深|ふか}く{落胆|らくたん}したことがある。だが、その{経験|けいけん}があったからこそ、{計画|けいかく}を{綿密|めんみつ}に{立|た}てる{大切|たいせつ}さを{身|み}をもって{学|まな}んだ。{失敗|しっぱい}から{得|え}られる{教訓|きょうくん}は、{本|ほん}を{何冊|なんさつ}{読|よ}んでも{得|え}られないものだ。もちろん、{取|と}り{返|かえ}しのつかない{失敗|しっぱい}は{避|さ}けるべきだろう。だが、{小|ちい}さな{失敗|しっぱい}さえ{許|ゆる}さない{社会|しゃかい}では、{挑戦|ちょうせん}する{人|ひと}は{育|そだ}たない。{若者|わかもの}の{挑戦|ちょうせん}を{温|あたた}かく{見守|みまも}る{寛容|かんよう}さが、{大人|おとな}の{側|がわ}にも{求|もと}められている。",
+  "text_en": "I hear young people say 'I don't want to fail' more and more often. Now that we can research outcomes before acting, failure tends to be seen as something naturally to be avoided. But is there anyone who has grown without ever failing? I myself once saw a project I had worked on collapse when I was young, and I was deeply disheartened. Yet precisely because of that experience, I learned first-hand how important it is to plan meticulously. The lessons gained from failure cannot be gained no matter how many books you read. Of course, failures that cannot be undone should be avoided. But in a society that does not tolerate even small failures, people who take on challenges will not develop. Adults, too, need the generosity to watch warmly over young people's attempts.",
+  "questions": [
+   {
+    "q_ja": "{筆者|ひっしゃ}は{若|わか}いころの{失敗|しっぱい}から{何|なに}を{学|まな}んだか。",
+    "q_en": "What did the writer learn from failing when young?",
+    "options": [
+     "{計画|けいかく}を{細|こま}かく{立|た}てる{大切|たいせつ}さ",
+     "{挑戦|ちょうせん}しないほうがよいこと",
+     "{本|ほん}をたくさん{読|よ}む{大切|たいせつ}さ"
+    ],
+    "answer": 0,
+    "why_ja": "「{計画|けいかく}を{綿密|めんみつ}に{立|た}てる{大切|たいせつ}さを{身|み}をもって{学|まな}んだ」とあります。",
+    "why_en": "The writer learned the value of meticulous planning."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}が{大人|おとな}に{求|もと}めていることは{何|なに}か。",
+    "q_en": "What does the writer ask of adults?",
+    "options": [
+     "{若者|わかもの}の{失敗|しっぱい}を{厳|きび}しく{注意|ちゅうい}すること",
+     "{若者|わかもの}の{挑戦|ちょうせん}を{温|あたた}かく{見守|みまも}ること",
+     "{若者|わかもの}に{失敗|しっぱい}しない{方法|ほうほう}を{教|おし}えること"
+    ],
+    "answer": 1,
+    "why_ja": "{最後|さいご}の{文|ぶん}に「{温|あたた}かく{見守|みまも}る{寛容|かんよう}さ」とあります。",
+    "why_en": "The last sentence asks for warm, tolerant support."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}の{考|かんが}えに{合|あ}わないものはどれか。",
+    "q_en": "Which does NOT match the writer's view?",
+    "options": [
+     "どんな{失敗|しっぱい}でもしたほうがよい",
+     "{失敗|しっぱい}から{学|まな}べることは{多|おお}い",
+     "{小|ちい}さな{失敗|しっぱい}を{許|ゆる}す{社会|しゃかい}が{必要|ひつよう}だ"
+    ],
+    "answer": 0,
+    "why_ja": "「{取|と}り{返|かえ}しのつかない{失敗|しっぱい}は{避|さ}けるべきだ」と{書|か}いているので、「どんな{失敗|しっぱい}でも」は{合|あ}いません。",
+    "why_en": "The writer says irreversible failures should be avoided."
+   }
+  ]
+ },
+ {
+  "id": "n1_rd_x04",
+  "level": "N1",
+  "title_ja": "{中央|ちゅうおう}{図書館|としょかん}{休館|きゅうかん}のお{知|し}らせ",
+  "text_ja": "{市立|しりつ}{中央|ちゅうおう}{図書館|としょかん}は、{建物|たてもの}の{老朽化|ろうきゅうか}に{伴|ともな}う{改修|かいしゅう}{工事|こうじ}のため、{来年|らいねん}{四月|しがつ}{一日|ついたち}から{九月|くがつ}{末日|まつじつ}まで{休館|きゅうかん}いたします。{利用者|りようしゃ}の{皆様|みなさま}には{大変|たいへん}ご{不便|ふべん}をおかけしますが、ご{了承|りょうしょう}くださいますようお{願|ねが}い{申|もう}し{上|あ}げます。{休館|きゅうかん}{中|ちゅう}も、{駅前|えきまえ}{分館|ぶんかん}では{通常|つうじょう}どおり{本|ほん}の{貸|か}し{出|だ}しと{返却|へんきゃく}を{行|おこな}います。なお、{中央|ちゅうおう}{図書館|としょかん}で{借|か}りた{本|ほん}を{分館|ぶんかん}に{返却|へんきゃく}していただいても{差|さ}し{支|つか}えありません。{予約|よやく}した{本|ほん}の{受|う}け{取|と}り{場所|ばしょ}は、{三月|さんがつ}{中|ちゅう}に{分館|ぶんかん}への{変更|へんこう}をお{済|す}ませください。{期限|きげん}までに{変更|へんこう}がない{場合|ばあい}、{予約|よやく}は{取|と}り{消|け}しとみなします。{工事|こうじ}{完了|かんりょう}{後|ご}は{学習|がくしゅう}スペースを{拡張|かくちょう}し、より{快適|かいてき}にご{利用|りよう}いただける{予定|よてい}です。",
+  "text_en": "The City Central Library will be closed from 1 April to 30 September next year for renovation work on the ageing building. We apologise for the great inconvenience to all users and ask for your understanding. During the closure, the Station Branch will lend and accept returns of books as usual. Books borrowed from the Central Library may also be returned to the branch. For reserved books, please change the pick-up location to the branch during March. If the location has not been changed by the deadline, the reservation will be treated as cancelled. After the work is completed, the study space will be expanded so that you can use the library more comfortably.",
+  "questions": [
+   {
+    "q_ja": "{休館|きゅうかん}{中|ちゅう}に{中央|ちゅうおう}{図書館|としょかん}の{本|ほん}を{返|かえ}したい{人|ひと}はどうすればよいか。",
+    "q_en": "During the closure, what should you do to return a Central Library book?",
+    "options": [
+     "{工事|こうじ}が{終|お}わるまで{待|ま}つ",
+     "{駅前|えきまえ}{分館|ぶんかん}に{返|かえ}す",
+     "{郵便|ゆうびん}で{送|おく}る"
+    ],
+    "answer": 1,
+    "why_ja": "「{分館|ぶんかん}に{返却|へんきゃく}していただいても{差|さ}し{支|つか}えありません」とあります。",
+    "why_en": "Returning it to the branch is allowed."
+   },
+   {
+    "q_ja": "{予約|よやく}した{本|ほん}の{受|う}け{取|と}り{場所|ばしょ}を{三月|さんがつ}{中|ちゅう}に{変更|へんこう}しないと、どうなるか。",
+    "q_en": "What happens if you don't change the pick-up location during March?",
+    "options": [
+     "{自動的|じどうてき}に{分館|ぶんかん}で{受|う}け{取|と}れる",
+     "{予約|よやく}が{取|と}り{消|け}される",
+     "{中央|ちゅうおう}{図書館|としょかん}で{受|う}け{取|と}れる"
+    ],
+    "answer": 1,
+    "why_ja": "「{予約|よやく}は{取|と}り{消|け}しとみなします」とあります。",
+    "why_en": "The reservation is treated as cancelled."
+   },
+   {
+    "q_ja": "この{文章|ぶんしょう}の{内容|ないよう}と{合|あ}うものはどれか。",
+    "q_en": "Which agrees with the notice?",
+    "options": [
+     "{分館|ぶんかん}も{九月|くがつ}まで{休|やす}みになる",
+     "{工事|こうじ}のあと、{学習|がくしゅう}スペースが{広|ひろ}くなる",
+     "{工事|こうじ}は{半年|はんとし}より{長|なが}くかかる"
+    ],
+    "answer": 1,
+    "why_ja": "「{学習|がくしゅう}スペースを{拡張|かくちょう}し」とあります。{工事|こうじ}は{四月|しがつ}から{九月|くがつ}までの{半年|はんとし}です。",
+    "why_en": "The study space will be expanded; the work lasts six months."
+   }
+  ]
+ },
+ {
+  "id": "n1_rd_x05",
+  "level": "N1",
+  "title_ja": "{言葉|ことば}の「{乱|みだ}れ」を{考|かんが}える",
+  "text_ja": "「{最近|さいきん}の{若者|わかもの}の{言葉|ことば}は{乱|みだ}れている」という{批判|ひはん}は、いつの{時代|じだい}にも{繰|く}り{返|かえ}されてきた。{実際|じっさい}、{千年|せんねん}{前|まえ}の{随筆|ずいひつ}にも、{当時|とうじ}の{若者|わかもの}の{言葉|ことば}{遣|づか}いを{嘆|なげ}く{一節|いっせつ}があるという。{言葉|ことば}は{生|い}き{物|もの}であり、{時代|じだい}とともに{変化|へんか}するのは{避|さ}けられない。{今|いま}では{正|ただ}しいとされている{表現|ひょうげん}の{中|なか}にも、かつては「{誤用|ごよう}」と{見|み}なされていたものが{少|すく}なくない。とはいえ、{変化|へんか}をすべて{受|う}け{入|い}れればよいというわけでもない。{世代|せだい}によって{意味|いみ}の{取|と}り{方|かた}が{異|こと}なる{言葉|ことば}は、{誤解|ごかい}を{生|う}む{原因|げんいん}になりうるからだ。{大切|たいせつ}なのは、{新|あたら}しい{言葉|ことば}を{頭|あたま}ごなしに{否定|ひてい}することでも、{無批判|むひはん}に{使|つか}うことでもない。{相手|あいて}や{場面|ばめん}に{応|おう}じて、ふさわしい{言葉|ことば}を{選|えら}ぶ{力|ちから}を{身|み}につけることである。",
+  "text_en": "The criticism that 'young people's language these days is sloppy' has been repeated in every era. In fact, even an essay written a thousand years ago reportedly contains a passage lamenting how the young people of the time spoke. Language is a living thing, and it is inevitable that it changes with the times. Among expressions now considered correct, quite a few were once regarded as 'misuse'. Even so, that does not mean we should simply accept every change. Words whose meaning is taken differently by different generations can be a cause of misunderstanding. What matters is neither dismissing new words out of hand nor using them uncritically. It is acquiring the ability to choose appropriate words for the person and the situation.",
+  "questions": [
+   {
+    "q_ja": "{千年|せんねん}{前|まえ}の{随筆|ずいひつ}の{例|れい}は、{何|なに}を{示|しめ}すために{挙|あ}げられているか。",
+    "q_en": "What is the example of the thousand-year-old essay meant to show?",
+    "options": [
+     "{昔|むかし}の{言葉|ことば}のほうが{美|うつく}しかったこと",
+     "{若者|わかもの}の{言葉|ことば}への{批判|ひはん}は{昔|むかし}からあったこと",
+     "{昔|むかし}の{若者|わかもの}は{言葉|ことば}を{大切|たいせつ}にしていたこと"
+    ],
+    "answer": 1,
+    "why_ja": "{前|まえ}の{文|ぶん}の「いつの{時代|じだい}にも{繰|く}り{返|かえ}されてきた」を{裏付|うらづ}ける{例|れい}です。",
+    "why_en": "It supports the claim that the criticism recurs in every era."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}が、{変化|へんか}をすべて{受|う}け{入|い}れるべきではないと{考|かんが}える{理由|りゆう}は{何|なに}か。",
+    "q_en": "Why does the writer think not every change should be accepted?",
+    "options": [
+     "{世代|せだい}によって{意味|いみ}が{違|ちが}うと{誤解|ごかい}が{生|う}まれるから",
+     "{新|あたら}しい{言葉|ことば}は{美|うつく}しくないから",
+     "{古|ふる}い{言葉|ことば}は{変|か}えてはいけないから"
+    ],
+    "answer": 0,
+    "why_ja": "「{誤解|ごかい}を{生|う}む{原因|げんいん}になりうるからだ」とあります。",
+    "why_en": "Generational differences in meaning can cause misunderstanding."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}が{最|もっと}も{大切|たいせつ}だと{考|かんが}えていることは{何|なに}か。",
+    "q_en": "What does the writer consider most important?",
+    "options": [
+     "{新|あたら}しい{言葉|ことば}を{使|つか}わないこと",
+     "{相手|あいて}や{場面|ばめん}に{合|あ}った{言葉|ことば}を{選|えら}ぶこと",
+     "{新|あたら}しい{言葉|ことば}を{積極的|せっきょくてき}に{使|つか}うこと"
+    ],
+    "answer": 1,
+    "why_ja": "{最後|さいご}の{文|ぶん}に「{相手|あいて}や{場面|ばめん}に{応|おう}じて、ふさわしい{言葉|ことば}を{選|えら}ぶ{力|ちから}」とあります。",
+    "why_en": "The last sentence names choosing words to suit the person and situation."
+   }
+  ]
+ }
+]

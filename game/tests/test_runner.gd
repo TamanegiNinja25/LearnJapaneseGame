@@ -546,6 +546,12 @@ func test_content_stages() -> bool:
 func test_exam_builder() -> bool:
 	var pack: Dictionary = content.stage_pack(&"N5")
 	var exam: Array = ExamBuilder.build_exam(pack)
+	var first_slot := 0
+	for q in exam:
+		assert_true(int(q["answer"]) >= 0 and int(q["answer"]) < (q["options"] as Array).size(), "answer index is inside the options")
+		if int(q["answer"]) == 0:
+			first_slot += 1
+	assert_true(first_slot < exam.size() * 0.7, "answers are not mostly the first option (%d of %d)" % [first_slot, exam.size()])
 	var counts := {}
 	for q in exam:
 		counts[q["skill"]] = int(counts.get(q["skill"], 0)) + 1

@@ -1,0 +1,227 @@
+[
+ {
+  "id": "n2_rd_x01",
+  "level": "N2",
+  "title_ja": "{在宅勤務|ざいたくきんむ}の{広|ひろ}がりと{課題|かだい}",
+  "text_ja": "{近年|きんねん}、{会社|かいしゃ}に{行|い}かずに{自宅|じたく}で{働|はたら}く{在宅勤務|ざいたくきんむ}が{広|ひろ}がりつつある。{通勤|つうきん}の{時間|じかん}がなくなる{上|うえ}に、{家族|かぞく}と{過|す}ごす{時間|じかん}も{増|ふ}えるため、{多|おお}くの{社員|しゃいん}に{歓迎|かんげい}されている。{一方|いっぽう}で、{同僚|どうりょう}と{顔|かお}を{合|あ}わせる{機会|きかい}が{減|へ}り、{孤独|こどく}を{感|かん}じるという{声|こえ}も{少|すく}なくない。また、{仕事|しごと}と{生活|せいかつ}の{区切|くぎ}りがつけにくく、かえって{長時間|ちょうじかん}{働|はたら}いてしまう{人|ひと}もいる。ある{会社|かいしゃ}では、こうした{問題|もんだい}をめぐって{社員|しゃいん}{同士|どうし}で{話|はな}し{合|あ}いを{重|かさ}ねた{末|すえ}に、{週|しゅう}に{一度|いちど}は{出社|しゅっしゃ}する{日|ひ}を{設|もう}けることにした。{担当者|たんとうしゃ}は「{在宅|ざいたく}か{出社|しゅっしゃ}か、どちらか{一方|いっぽう}だけが{正|ただ}しいわけではない。{仕事|しごと}の{内容|ないよう}に{応|おう}じて{選|えら}べることが{大切|たいせつ}だ」と{話|はな}している。",
+  "text_en": "In recent years, working from home instead of going to the office has been spreading. Because there is no commute and, on top of that, people get more time with their families, many employees welcome it. On the other hand, quite a few say they feel lonely because they have fewer chances to see colleagues. Some also find it hard to separate work from home life and end up working even longer hours. At one company, after staff held repeated discussions over these problems, they decided to set aside one day a week for coming into the office. The person in charge says, 'Neither working from home nor coming in is the only right answer. What matters is being able to choose according to the work.'",
+  "questions": [
+   {
+    "q_ja": "{在宅勤務|ざいたくきんむ}が{歓迎|かんげい}されている{理由|りゆう}として、{文章|ぶんしょう}に{書|か}かれているのはどれですか。",
+    "q_en": "Which reason for welcoming remote work is given in the text?",
+    "options": [
+     "{通勤|つうきん}の{時間|じかん}がなくなること",
+     "{給料|きゅうりょう}が{上|あ}がること",
+     "{同僚|どうりょう}とよく{会|あ}えること"
+    ],
+    "answer": 0,
+    "why_ja": "「{通勤|つうきん}の{時間|じかん}がなくなる{上|うえ}に」とあります。",
+    "why_en": "The text says there is no commute (通勤の時間がなくなる)."
+   },
+   {
+    "q_ja": "ある{会社|かいしゃ}は、{話|はな}し{合|あ}いの{結果|けっか}どうすることにしましたか。",
+    "q_en": "What did one company decide after its discussions?",
+    "options": [
+     "{在宅勤務|ざいたくきんむ}をやめる",
+     "{週|しゅう}に{一度|いちど}{出社|しゅっしゃ}する{日|ひ}を{作|つく}る",
+     "{毎日|まいにち}{出社|しゅっしゃ}する"
+    ],
+    "answer": 1,
+    "why_ja": "「{週|しゅう}に{一度|いちど}は{出社|しゅっしゃ}する{日|ひ}を{設|もう}けることにした」とあります。",
+    "why_en": "They decided to set one office day a week."
+   },
+   {
+    "q_ja": "{担当者|たんとうしゃ}の{考|かんが}えに{合|あ}うのはどれですか。",
+    "q_en": "Which matches the view of the person in charge?",
+    "options": [
+     "{在宅勤務|ざいたくきんむ}が{一番|いちばん}よい",
+     "{出社|しゅっしゃ}するほうが{正|ただ}しい",
+     "{仕事|しごと}に{合|あ}わせて{働|はたら}き{方|かた}を{選|えら}べるのがよい"
+    ],
+    "answer": 2,
+    "why_ja": "「{仕事|しごと}の{内容|ないよう}に{応|おう}じて{選|えら}べることが{大切|たいせつ}だ」と{話|はな}しています。",
+    "why_en": "They say being able to choose according to the work matters."
+   }
+  ]
+ },
+ {
+  "id": "n2_rd_x02",
+  "level": "N2",
+  "title_ja": "{食品|しょくひん}ロスを{減|へ}らすために",
+  "text_ja": "まだ{食|た}べられるのに{捨|す}てられてしまう{食品|しょくひん}を「{食品|しょくひん}ロス」という。{日本|にほん}では、{毎年|まいとし}{膨大|ぼうだい}な{量|りょう}の{食品|しょくひん}が{捨|す}てられている。その{原因|げんいん}は{店|みせ}だけでなく、{家庭|かてい}にもある。{必要|ひつよう}{以上|いじょう}に{買|か}ったり、{期限|きげん}が{過|す}ぎるまで{冷蔵庫|れいぞうこ}に{入|い}れたままにしたりすることが{多|おお}いからだ。こうした{状況|じょうきょう}を{受|う}けて、{最近|さいきん}は{期限|きげん}が{近|ちか}い{商品|しょうひん}を{安|やす}く{売|う}る{店|みせ}が{増|ふ}えている。また、{余|あま}った{食品|しょくひん}を{集|あつ}めて、{必要|ひつよう}としている{人|ひと}に{届|とど}ける{活動|かつどう}も{行|おこな}われている。{一人一人|ひとりひとり}が「{必要|ひつよう}な{分|ぶん}だけ{買|か}う」ことを{心掛|こころが}ければ、{食品|しょくひん}ロスは{確実|かくじつ}に{減|へ}らせるはずだ。",
+  "text_en": "Food that is thrown away even though it can still be eaten is called 'food loss'. In Japan, an enormous amount of food is thrown away every year. The causes lie not only with shops but also with households, because people often buy more than they need or leave food in the fridge until it is past its date. In response, more shops have recently started selling items close to their date at lower prices. There are also activities that collect surplus food and deliver it to people who need it. If each of us makes a point of buying only what we need, food loss can surely be reduced.",
+  "questions": [
+   {
+    "q_ja": "「{食品|しょくひん}ロス」とは{何|なん}ですか。",
+    "q_en": "What is 'food loss'?",
+    "options": [
+     "まだ{食|た}べられるのに{捨|す}てられる{食品|しょくひん}",
+     "{店|みせ}で{売|う}れ{残|のこ}った{服|ふく}",
+     "{料理|りょうり}に{失敗|しっぱい}すること"
+    ],
+    "answer": 0,
+    "why_ja": "{最初|さいしょ}の{文|ぶん}で{説明|せつめい}されています。",
+    "why_en": "It is defined in the first sentence."
+   },
+   {
+    "q_ja": "{家庭|かてい}で{食品|しょくひん}ロスが{出|で}る{理由|りゆう}として{書|か}かれているのはどれですか。",
+    "q_en": "Which reason is given for food loss in households?",
+    "options": [
+     "{料理|りょうり}をしないから",
+     "{買|か}いすぎたり、{期限|きげん}を{過|す}ぎさせたりするから",
+     "{冷蔵庫|れいぞうこ}がないから"
+    ],
+    "answer": 1,
+    "why_ja": "「{必要|ひつよう}{以上|いじょう}に{買|か}ったり、{期限|きげん}が{過|す}ぎるまで{冷蔵庫|れいぞうこ}に{入|い}れたままにしたり」とあります。",
+    "why_en": "Buying too much and leaving food past its date."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}が{一人一人|ひとりひとり}に{勧|すす}めていることは{何|なん}ですか。",
+    "q_en": "What does the writer recommend each person do?",
+    "options": [
+     "{安|やす}い{店|みせ}で{買|か}うこと",
+     "{必要|ひつよう}な{分|ぶん}だけ{買|か}うこと",
+     "{期限|きげん}の{長|なが}いものだけを{選|えら}ぶこと"
+    ],
+    "answer": 1,
+    "why_ja": "{最後|さいご}の{文|ぶん}に「{必要|ひつよう}な{分|ぶん}だけ{買|か}う」とあります。",
+    "why_en": "The last sentence: buy only what you need."
+   }
+  ]
+ },
+ {
+  "id": "n2_rd_x03",
+  "level": "N2",
+  "title_ja": "{市民|しみん}プール{改修|かいしゅう}{工事|こうじ}のお{知|し}らせ",
+  "text_ja": "{市民|しみん}プールは、{設備|せつび}が{古|ふる}くなったため、{七月|しちがつ}{一日|ついたち}から{九月|くがつ}{三十日|さんじゅうにち}までの{三|さん}か{月|げつ}にわたって{改修|かいしゅう}{工事|こうじ}を{行|おこな}います。{工事|こうじ}{期間|きかん}{中|ちゅう}は、プールをご{利用|りよう}いただけません。なお、トレーニングルームは{通常|つうじょう}どおりご{利用|りよう}いただけますが、{工事|こうじ}の{音|おと}が{響|ひび}く{場合|ばあい}がございます。{定期券|ていきけん}をお{持|も}ちの{方|かた}には、{利用|りよう}できない{期間|きかん}の{料金|りょうきん}をお{返|かえ}しします。{払|はら}い{戻|もど}しに{際|さい}しては、{定期券|ていきけん}と{身分|みぶん}{証明書|しょうめいしょ}を{受付|うけつけ}までお{持|も}ちください。{工事|こうじ}の{進|すす}み{具合|ぐあい}によっては、{再開|さいかい}の{日|ひ}が{変|か}わることもございます。{詳|くわ}しいことが{決|き}まり{次第|しだい}、ホームページでお{知|し}らせします。",
+  "text_en": "Because its facilities have become old, the city pool will undergo renovation work for three months, from 1 July to 30 September. The pool cannot be used during the work. The training room can be used as usual, but construction noise may carry. Season-ticket holders will be refunded for the period they cannot use. When claiming a refund, please bring your season ticket and proof of identity to reception. Depending on how the work progresses, the reopening date may change. We will post details on our website as soon as they are decided.",
+  "questions": [
+   {
+    "q_ja": "{工事|こうじ}{期間|きかん}{中|ちゅう}に{利用|りよう}できるものはどれですか。",
+    "q_en": "What can be used during the work?",
+    "options": [
+     "プール",
+     "トレーニングルーム",
+     "どちらも{利用|りよう}できない"
+    ],
+    "answer": 1,
+    "why_ja": "「トレーニングルームは{通常|つうじょう}どおりご{利用|りよう}いただけます」とあります。",
+    "why_en": "The training room stays open as usual."
+   },
+   {
+    "q_ja": "{払|はら}い{戻|もど}しを{受|う}けるときに{必要|ひつよう}なものは{何|なん}ですか。",
+    "q_en": "What do you need to get a refund?",
+    "options": [
+     "{定期券|ていきけん}と{身分|みぶん}{証明書|しょうめいしょ}",
+     "{定期券|ていきけん}だけ",
+     "{身分|みぶん}{証明書|しょうめいしょ}と{印鑑|いんかん}"
+    ],
+    "answer": 0,
+    "why_ja": "「{定期券|ていきけん}と{身分|みぶん}{証明書|しょうめいしょ}を{受付|うけつけ}までお{持|も}ちください」とあります。",
+    "why_en": "Bring your season ticket and ID."
+   },
+   {
+    "q_ja": "{再開|さいかい}の{日|ひ}について、{正|ただ}しいのはどれですか。",
+    "q_en": "Which is true about the reopening date?",
+    "options": [
+     "{十月|じゅうがつ}{一日|ついたち}に{必|かなら}ず{再開|さいかい}する",
+     "{工事|こうじ}の{進|すす}み{具合|ぐあい}で{変|か}わる{可能性|かのうせい}がある",
+     "{工事|こうじ}が{始|はじ}まる{前|まえ}にもう{一度|いちど}{知|し}らせる"
+    ],
+    "answer": 1,
+    "why_ja": "「{工事|こうじ}の{進|すす}み{具合|ぐあい}によっては、{再開|さいかい}の{日|ひ}が{変|か}わることもございます」とあります。",
+    "why_en": "The date may change depending on progress."
+   }
+  ]
+ },
+ {
+  "id": "n2_rd_x04",
+  "level": "N2",
+  "title_ja": "{言葉|ことば}の{壁|かべ}",
+  "text_ja": "{日本|にほん}に{来|き}て{三年|さんねん}になる。{来|き}たばかりのころは、{言葉|ことば}がわからないばかりか、{知|し}り{合|あ}いも{一人|ひとり}もいなかった。{店|みせ}で{質問|しつもん}されても{答|こた}えられず、{心細|こころぼそ}い{思|おも}いをしたことも{一度|いちど}や{二度|にど}ではない。そんな{私|わたし}を{変|か}えたのは、{近所|きんじょ}の{日本語|にほんご}{教室|きょうしつ}だった。ボランティアの{先生|せんせい}は、{私|わたし}の{間違|まちが}いを{笑|わら}わずに、{何度|なんど}でも{丁寧|ていねい}に{説明|せつめい}してくれた。{教室|きょうしつ}に{通|かよ}ううちに{友達|ともだち}もでき、{町|まち}の{行事|ぎょうじ}にも{参加|さんか}するようになった。{今|いま}では、{新|あたら}しく{来|き}た{留学生|りゅうがくせい}の{相談|そうだん}に{乗|の}ることもある。{言葉|ことば}の{壁|かべ}は{決|けっ}して{低|ひく}くないが、{乗|の}り{越|こ}えられないわけではない。{今|いま}の{私|わたし}は、そう{自信|じしん}を{持|も}って{言|い}える。",
+  "text_en": "It has been three years since I came to Japan. When I had just arrived, not only did I not understand the language, I didn't know a single person. More than once I felt helpless when I couldn't answer questions in shops. What changed me was a Japanese class in my neighbourhood. The volunteer teacher never laughed at my mistakes and patiently explained things as many times as I needed. While going to the class I made friends and started taking part in town events. Now I sometimes give advice to newly arrived international students. The language barrier is by no means low, but it is not impossible to overcome. I can say that with confidence now.",
+  "questions": [
+   {
+    "q_ja": "{日本|にほん}に{来|き}たばかりのころ、{筆者|ひっしゃ}はどうでしたか。",
+    "q_en": "What was the writer's situation on first arriving in Japan?",
+    "options": [
+     "{言葉|ことば}がわからず、{知|し}り{合|あ}いもいなかった",
+     "{日本語|にほんご}が{上手|じょうず}で、{友達|ともだち}も{多|おお}かった",
+     "{日本語|にほんご}{教室|きょうしつ}の{先生|せんせい}をしていた"
+    ],
+    "answer": 0,
+    "why_ja": "「{言葉|ことば}がわからないばかりか、{知|し}り{合|あ}いも{一人|ひとり}もいなかった」とあります。",
+    "why_en": "They didn't understand the language and knew no one."
+   },
+   {
+    "q_ja": "{筆者|ひっしゃ}が{変|か}わるきっかけになったのは{何|なん}ですか。",
+    "q_en": "What changed the writer?",
+    "options": [
+     "{店|みせ}でのアルバイト",
+     "{近所|きんじょ}の{日本語|にほんご}{教室|きょうしつ}",
+     "{大学|だいがく}の{授業|じゅぎょう}"
+    ],
+    "answer": 1,
+    "why_ja": "「そんな{私|わたし}を{変|か}えたのは、{近所|きんじょ}の{日本語|にほんご}{教室|きょうしつ}だった」とあります。",
+    "why_en": "A Japanese class in the neighbourhood changed them."
+   },
+   {
+    "q_ja": "「{乗|の}り{越|こ}えられないわけではない」の{意味|いみ}に{近|ちか}いのはどれですか。",
+    "q_en": "Which is closest in meaning to 乗り越えられないわけではない?",
+    "options": [
+     "{絶対|ぜったい}に{乗|の}り{越|こ}えられない",
+     "{誰|だれ}でも{簡単|かんたん}に{乗|の}り{越|こ}えられる",
+     "{大変|たいへん}だが、{乗|の}り{越|こ}えることはできる"
+    ],
+    "answer": 2,
+    "why_ja": "「{決|けっ}して{低|ひく}くないが」と{続|つづ}くので、「{大変|たいへん}だが、できる」という{意味|いみ}です。",
+    "why_en": "With 決して低くないが before it, it means 'hard, but possible'."
+   }
+  ]
+ },
+ {
+  "id": "n2_rd_x05",
+  "level": "N2",
+  "title_ja": "{納品|のうひん}{遅延|ちえん}のお{詫|わ}び",
+  "text_ja": "{青葉|あおば}{商事|しょうじ}{株式会社|かぶしきがいしゃ}　{山本|やまもと}{様|さま}　いつもお{世話|せわ}になっております。{緑川|みどりかわ}{製作所|せいさくしょ}の{田中|たなか}でございます。{先日|せんじつ}ご{注文|ちゅうもん}いただいた{部品|ぶひん}につきまして、{当初|とうしょ}は{十五日|じゅうごにち}にお{届|とど}けする{予定|よてい}でしたが、{工場|こうじょう}の{機械|きかい}の{故障|こしょう}により、{二十日|はつか}のお{届|とど}けとなる{見込|みこ}みです。ご{迷惑|めいわく}をおかけし、{誠|まこと}に{申|もう}し{訳|わけ}ございません。{現在|げんざい}{修理|しゅうり}を{急|いそ}いでおり、{作業|さぎょう}が{再開|さいかい}し{次第|しだい}、{改|あらた}めてご{連絡|れんらく}いたします。なお、{一部|いちぶ}の{部品|ぶひん}は{在庫|ざいこ}がございますので、お{急|いそ}ぎの{場合|ばあい}は{先|さき}にお{送|おく}りすることも{可能|かのう}です。ご{希望|きぼう}がございましたら、お{知|し}らせくださいますようお{願|ねが}い{申|もう}し{上|あ}げます。",
+  "text_en": "To Mr Yamamoto, Aoba Trading Co., Ltd. Thank you for your continued business. This is Tanaka from Midorikawa Works. Regarding the parts you recently ordered, we had originally planned to deliver them on the 15th, but because of a machine breakdown at our factory, we now expect to deliver them on the 20th. We sincerely apologise for the inconvenience. We are hurrying with the repairs and will contact you again as soon as work resumes. Please note that some of the parts are in stock, so if you are in a hurry we can send those first. If you would like us to, please let us know.",
+  "questions": [
+   {
+    "q_ja": "このメールの{一番|いちばん}の{目的|もくてき}は{何|なん}ですか。",
+    "q_en": "What is the main purpose of this email?",
+    "options": [
+     "{新|あたら}しい{商品|しょうひん}を{紹介|しょうかい}すること",
+     "{納品|のうひん}が{遅|おく}れることを{詫|わ}びること",
+     "{注文|ちゅうもん}を{取|と}り{消|け}すこと"
+    ],
+    "answer": 1,
+    "why_ja": "{届|とど}ける{日|ひ}が{遅|おく}れることを{伝|つた}え、「{誠|まこと}に{申|もう}し{訳|わけ}ございません」と{謝|あやま}っています。",
+    "why_en": "It reports the delay and apologises for it."
+   },
+   {
+    "q_ja": "{部品|ぶひん}はいつ{届|とど}く{見込|みこ}みですか。",
+    "q_en": "When are the parts now expected to arrive?",
+    "options": [
+     "{十五日|じゅうごにち}",
+     "{二十日|はつか}",
+     "まだわからない"
+    ],
+    "answer": 1,
+    "why_ja": "「{二十日|はつか}のお{届|とど}けとなる{見込|みこ}みです」とあります。",
+    "why_en": "Delivery is expected on the 20th."
+   },
+   {
+    "q_ja": "{山本|やまもと}さんが{急|いそ}いでいる{場合|ばあい}、どうすればいいですか。",
+    "q_en": "What should Mr Yamamoto do if he is in a hurry?",
+    "options": [
+     "{田中|たなか}さんに{知|し}らせる",
+     "{工場|こうじょう}に{取|と}りに{行|い}く",
+     "{二十日|はつか}まで{待|ま}つしかない"
+    ],
+    "answer": 0,
+    "why_ja": "{在庫|ざいこ}のある{部品|ぶひん}を{先|さき}に{送|おく}れるので、{希望|きぼう}があれば{知|し}らせてほしいと{書|か}いてあります。",
+    "why_en": "Parts in stock can be sent first if he lets them know."
+   }
+  ]
+ }
+]

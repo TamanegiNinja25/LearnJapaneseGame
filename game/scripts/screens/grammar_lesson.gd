@@ -57,6 +57,11 @@ func _open(g: Dictionary) -> void:
 	_items = (g["items"] as Array).duplicate()
 	_items.shuffle()
 	_items = _items.slice(0, ITEMS_PER_LESSON)
+	# Content lists the right answer first in most items; shuffle each item's options so the
+	# position never gives the answer away.
+	var rng := RandomNumberGenerator.new()
+	rng.randomize()
+	_items = _items.map(func(item: Dictionary) -> Dictionary: return StyleDrills.shuffled(item, rng))
 	_index = 0
 	_correct = 0
 	ScreenBase.clear(_box)

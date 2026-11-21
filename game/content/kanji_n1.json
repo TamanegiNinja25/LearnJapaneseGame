@@ -1952,6 +1952,7 @@
   "freq": 744,
   "level": "N1",
   "words": [
+   "w_160a092d80",
    "w_fd692923c6",
    "w_e85c44b748"
   ]
@@ -3536,6 +3537,7 @@
   "freq": 960,
   "level": "N1",
   "words": [
+   "w_e1129b4d99",
    "w_fde78fbbdc"
   ]
  },
@@ -4206,7 +4208,8 @@
   "freq": 1019,
   "level": "N1",
   "words": [
-   "w_9cda20c72c"
+   "w_9cda20c72c",
+   "w_e5ed2b05fe"
   ]
  },
  {

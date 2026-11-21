@@ -1,0 +1,417 @@
+[
+ {
+  "id": "n3_an_x01",
+  "level": "N3",
+  "ja": "{時間|じかん}さえあれば、{一度|いちど}{北海道|ほっかいどう}を{旅行|りょこう}してみたいです。",
+  "en": "If only I had the time, I'd like to try travelling around Hokkaido once.",
+  "variants": [
+   {
+    "type": "particle_meaning",
+    "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の「さえ〜ば」の{意味|いみ}は？",
+    "prompt_en": "What does さえ〜ば mean here?",
+    "options": [
+     "それだけあれば{十分|じゅうぶん}だ",
+     "それも{全部|ぜんぶ}{含|ふく}めて",
+     "それだけはいらない",
+     "それより{前|まえ}に"
+    ],
+    "answer": 0,
+    "why_ja": "「さえ〜ば」は「それだけあれば{十分|じゅうぶん}」という{条件|じょうけん}を{表|あらわ}します。",
+    "why_en": "さえ〜ば: that alone would be enough."
+   },
+   {
+    "type": "meaning",
+    "section": "reading",
+    "prompt_ja": "{話|はな}している{人|ひと}について、{正|ただ}しいものはどれですか。",
+    "prompt_en": "Which is true of the speaker?",
+    "options": [
+     "もう{北海道|ほっかいどう}に{住|す}んでいる",
+     "{北海道|ほっかいどう}には{行|い}きたくない",
+     "{今|いま}はあまり{時間|じかん}がない",
+     "{毎年|まいとし}{北海道|ほっかいどう}を{旅行|りょこう}している"
+    ],
+    "answer": 2,
+    "why_ja": "「{時間|じかん}さえあれば」と{言|い}うのは、{今|いま}は{時間|じかん}が{足|た}りないからです。",
+    "why_en": "Saying \"if only I had time\" implies there isn't enough now."
+   },
+   {
+    "type": "conjugation_why",
+    "section": "grammar",
+    "prompt_ja": "「{旅行|りょこう}してみたい」の「〜てみたい」は、どんな{気持|きも}ちですか。",
+    "prompt_en": "What feeling does 〜てみたい express?",
+    "options": [
+     "{試|ため}しにやってみたい",
+     "もうやったことを{話|はな}している",
+     "{人|ひと}にやらせたい",
+     "あまりやりたくない"
+    ],
+    "answer": 0,
+    "why_ja": "「〜てみる」は「{試|ため}しにする」、「たい」で{希望|きぼう}を{表|あらわ}します。",
+    "why_en": "てみる = try doing; たい adds the wish."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "{意味|いみ}が{一番|いちばん}{近|ちか}い{文|ぶん}はどれですか。",
+    "prompt_en": "Which sentence is closest in meaning?",
+    "options": [
+     "{時間|じかん}があっても、{北海道|ほっかいどう}は{旅行|りょこう}したくないです。",
+     "{時間|じかん}があったので、{北海道|ほっかいどう}を{旅行|りょこう}しました。",
+     "{時間|じかん}があれば、{一度|いちど}{北海道|ほっかいどう}を{旅行|りょこう}してみたいです。",
+     "{時間|じかん}がないので、{北海道|ほっかいどう}に{住|す}みたいです。"
+    ],
+    "answer": 2,
+    "why_ja": "「さえあれば」は「あれば」とほとんど{同|おな}じ{条件|じょうけん}です。{他|ほか}の{文|ぶん}は{意味|いみ}や{時|とき}が{違|ちが}います。",
+    "why_en": "さえあれば ≈ あれば; the others change the meaning or tense."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "この{文|ぶん}の「{一度|いちど}」の{意味|いみ}に{近|ちか}いのはどれですか。",
+    "prompt_en": "Which is closest to 一度 here?",
+    "options": [
+     "いつか{一回|いっかい}は",
+     "{毎回|まいかい}",
+     "{二度|にど}と",
+     "{一番|いちばん}{先|さき}に"
+    ],
+    "answer": 0,
+    "why_ja": "「{一度|いちど}〜してみたい」は「いつか{一回|いっかい}は〜したい」という{意味|いみ}です。",
+    "why_en": "一度〜してみたい = I'd like to do it at least once."
+   }
+  ]
+ },
+ {
+  "id": "n3_an_x02",
+  "level": "N3",
+  "ja": "{子|こ}どものころ、{毎朝|まいあさ}{母|はは}に{牛乳|ぎゅうにゅう}を{飲|の}まされました。",
+  "en": "When I was a child, my mother made me drink milk every morning.",
+  "variants": [
+   {
+    "type": "subject_object",
+    "section": "grammar",
+    "prompt_ja": "{牛乳|ぎゅうにゅう}を{飲|の}んだのは{誰|だれ}ですか。",
+    "prompt_en": "Who drank the milk?",
+    "options": [
+     "{母|はは}",
+     "{話|はな}している{人|ひと}",
+     "{二人|ふたり}とも",
+     "{誰|だれ}も{飲|の}まなかった"
+    ],
+    "answer": 1,
+    "why_ja": "「{飲|の}まされた」は{使役受身|しえきうけみ}です。{飲|の}んだのは{話|はな}している{人|ひと}で、{母|はは}は{飲|の}ませた{人|ひと}です。",
+    "why_en": "Causative-passive: the speaker drank; the mother made them."
+   },
+   {
+    "type": "conjugation_why",
+    "section": "grammar",
+    "prompt_ja": "どうして「{飲|の}まされました」と{言|い}っていますか。",
+    "prompt_en": "Why does the speaker say 飲まされました?",
+    "options": [
+     "{母|はは}が{牛乳|ぎゅうにゅう}を{飲|の}んだから",
+     "{自分|じぶん}から{飲|の}みたかったから",
+     "{牛乳|ぎゅうにゅう}が{飲|の}めなかったから",
+     "{飲|の}みたくないのに{飲|の}むことになったから"
+    ],
+    "answer": 3,
+    "why_ja": "{使役受身|しえきうけみ}は「{嫌|いや}なのにさせられた」という{気持|きも}ちを{表|あらわ}します。",
+    "why_en": "The causative-passive shows it was against their will."
+   },
+   {
+    "type": "particle_meaning",
+    "section": "grammar",
+    "prompt_ja": "「{母|はは}に」の「に」は{何|なに}を{表|あらわ}しますか。",
+    "prompt_en": "What does に in 母に mark?",
+    "options": [
+     "{場所|ばしょ}",
+     "{飲|の}ませた{人|ひと}",
+     "{時間|じかん}",
+     "{目的|もくてき}"
+    ],
+    "answer": 1,
+    "why_ja": "{使役受身|しえきうけみ}の{文|ぶん}では、させた{人|ひと}を「に」で{表|あらわ}します。",
+    "why_en": "In a causative-passive, に marks who made you do it."
+   },
+   {
+    "type": "same_pattern",
+    "section": "grammar",
+    "prompt_ja": "「{飲|の}まされる」と{同|おな}じ{形|かたち}の{文|ぶん}はどれですか。",
+    "prompt_en": "Which sentence uses the same form as 飲まされる?",
+    "options": [
+     "{先生|せんせい}に{名前|なまえ}を{呼|よ}ばれた。",
+     "{弟|おとうと}に{部屋|へや}を{掃除|そうじ}させた。",
+     "{友達|ともだち}に{本|ほん}を{貸|か}してもらった。",
+     "{先輩|せんぱい}に{重|おも}い{荷物|にもつ}を{運|はこ}ばされた。"
+    ],
+    "answer": 3,
+    "why_ja": "「{運|はこ}ばされた」も{使役受身|しえきうけみ}です。{他|ほか}は{受身|うけみ}、{使役|しえき}、「〜てもらう」です。",
+    "why_en": "運ばされた is also causative-passive; the others are passive, causative and てもらう."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "「{子|こ}どものころ、{毎朝|まいあさ}{牛乳|ぎゅうにゅう}を{飲|の}まされたんだ。」に{合|あ}う{返事|へんじ}はどれですか。",
+    "prompt_en": "Which reply fits \"I was made to drink milk every morning as a kid\"?",
+    "options": [
+     "じゃあ、{飲|の}ませてあげるね。",
+     "そうなんだ。{嫌|いや}だった？",
+     "お{母|かあ}さんが{飲|の}んだの？",
+     "{毎朝|まいあさ}{飲|の}みたかったんだね。"
+    ],
+    "answer": 1,
+    "why_ja": "{嫌|いや}なのに{飲|の}んだという{話|はなし}なので、「{嫌|いや}だった？」と{気持|きも}ちを{聞|き}くのが{自然|しぜん}です。",
+    "why_en": "They were forced to drink it, so asking whether they hated it fits."
+   }
+  ]
+ },
+ {
+  "id": "n3_an_x03",
+  "level": "N3",
+  "ja": "{駅|えき}に{行|い}くついでに、この{手紙|てがみ}を{出|だ}してきてくれない？",
+  "en": "Could you post this letter on your way to the station?",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "reading",
+    "prompt_ja": "{話|はな}している{人|ひと}が{頼|たの}んでいることは{何|なん}ですか。",
+    "prompt_en": "What is the speaker asking for?",
+    "options": [
+     "{駅|えき}に{行|い}くこと",
+     "{手紙|てがみ}を{書|か}くこと",
+     "{手紙|てがみ}を{出|だ}すこと",
+     "{一緒|いっしょ}に{駅|えき}に{行|い}くこと"
+    ],
+    "answer": 2,
+    "why_ja": "{相手|あいて}はもともと{駅|えき}に{行|い}く{予定|よてい}です。{頼|たの}んでいるのは「{手紙|てがみ}を{出|だ}すこと」です。",
+    "why_en": "The listener is going anyway; the request is to post the letter."
+   },
+   {
+    "type": "particle_meaning",
+    "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の「ついでに」の{意味|いみ}は？",
+    "prompt_en": "What does ついでに mean here?",
+    "options": [
+     "〜する{機会|きかい}に、いっしょに",
+     "〜するために",
+     "〜した{後|あと}、しばらくして",
+     "〜する{代|か}わりに"
+    ],
+    "answer": 0,
+    "why_ja": "「ついでに」は「〜する{機会|きかい}を{使|つか}って、{別|べつ}のこともする」という{意味|いみ}です。",
+    "why_en": "ついでに = taking the opportunity to also do something."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "この{頼|たの}みへの{自然|しぜん}な{返事|へんじ}はどれですか。",
+    "prompt_en": "Which is a natural reply to this request?",
+    "options": [
+     "はい、{手紙|てがみ}を{書|か}いてあげます。",
+     "ううん、{駅|えき}に{行|い}くついでだよ。",
+     "うん、いいよ。ポストに{入|い}れておくね。",
+     "{駅|えき}はあっちにありますよ。"
+    ],
+    "answer": 2,
+    "why_ja": "{手紙|てがみ}を{出|だ}すことを{引|ひ}き{受|う}けているので、{自然|しぜん}な{返事|へんじ}です。",
+    "why_en": "It accepts the request to post the letter."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "{意味|いみ}が{一番|いちばん}{近|ちか}い{文|ぶん}はどれですか。",
+    "prompt_en": "Which sentence is closest in meaning?",
+    "options": [
+     "{駅|えき}に{行|い}くなら、そのときこの{手紙|てがみ}も{出|だ}してくれない？",
+     "{駅|えき}に{行|い}く{代|か}わりに、この{手紙|てがみ}を{出|だ}してくれない？",
+     "この{手紙|てがみ}を{出|だ}すために、{駅|えき}に{行|い}ってくれない？",
+     "{駅|えき}に{行|い}ってから、{手紙|てがみ}を{書|か}いてくれない？"
+    ],
+    "answer": 0,
+    "why_ja": "{駅|えき}に{行|い}く{機会|きかい}に、{手紙|てがみ}も{出|だ}してほしいという{意味|いみ}です。{他|ほか}は{目的|もくてき}や{内容|ないよう}が{違|ちが}います。",
+    "why_en": "Same idea: since you're going anyway, post it too."
+   },
+   {
+    "type": "meaning",
+    "section": "conversation",
+    "prompt_ja": "この{文|ぶん}は、どんな{相手|あいて}に{使|つか}いますか。",
+    "prompt_en": "Who would you say this to?",
+    "options": [
+     "{初|はじ}めて{会|あ}うお{客|きゃく}さん",
+     "{会社|かいしゃ}の{社長|しゃちょう}",
+     "{家族|かぞく}や{友達|ともだち}",
+     "{駅|えき}で{会|あ}った{知|し}らない{人|ひと}"
+    ],
+    "answer": 2,
+    "why_ja": "「〜てくれない？」は{親|した}しい{人|ひと}に{使|つか}う、くだけた{頼|たの}み{方|かた}です。",
+    "why_en": "〜てくれない? is a casual request for people you're close to."
+   }
+  ]
+ },
+ {
+  "id": "n3_an_x04",
+  "level": "N3",
+  "ja": "{彼|かれ}は{日本|にほん}に{来|き}て{一年|いちねん}にしては、{敬語|けいご}がとても{上手|じょうず}です。",
+  "en": "For someone who's been in Japan only a year, he's very good at keigo.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "reading",
+    "prompt_ja": "{話|はな}している{人|ひと}は、どう{思|おも}っていますか。",
+    "prompt_en": "What does the speaker think?",
+    "options": [
+     "{一年|いちねん}もいるのに{下手|へた}だ",
+     "{一年|いちねん}いれば{上手|じょうず}なのは{当然|とうぜん}だ",
+     "{敬語|けいご}は{簡単|かんたん}だ",
+     "{一年|いちねん}なのに{上手|じょうず}で{驚|おどろ}いている"
+    ],
+    "answer": 3,
+    "why_ja": "「にしては」は「〜から{考|かんが}えると{意外|いがい}だ」という{気持|きも}ちです。",
+    "why_en": "にしては shows surprise relative to expectations."
+   },
+   {
+    "type": "particle_meaning",
+    "section": "grammar",
+    "prompt_ja": "この{文|ぶん}の「にしては」の{意味|いみ}は？",
+    "prompt_en": "What does にしては mean here?",
+    "options": [
+     "〜の{立場|たちば}から{見|み}ると",
+     "〜から{考|かんが}えると{意外|いがい}に",
+     "〜と{同|おな}じように",
+     "〜のために"
+    ],
+    "answer": 1,
+    "why_ja": "{一年|いちねん}なら{普通|ふつう}はまだ{上手|じょうず}ではないのに、という{意味|いみ}です。",
+    "why_en": "One year usually isn't enough — yet he is good."
+   },
+   {
+    "type": "same_pattern",
+    "section": "grammar",
+    "prompt_ja": "「にしては」を{同|おな}じように{使|つか}った{文|ぶん}はどれですか。",
+    "prompt_en": "Which sentence uses にしては the same way?",
+    "options": [
+     "{私|わたし}にしては、{家族|かぞく}が{一番|いちばん}{大切|たいせつ}だ。",
+     "{雨|あめ}にしては、{試合|しあい}は{中止|ちゅうし}です。",
+     "{先生|せんせい}にしては、{会議|かいぎ}に{出|で}た。",
+     "{十二月|じゅうにがつ}にしては{暖|あたた}かい{日|ひ}だ。"
+    ],
+    "answer": 3,
+    "why_ja": "{十二月|じゅうにがつ}なのに{暖|あたた}かいという{意外|いがい}さを{表|あらわ}しています。",
+    "why_en": "Warm, surprisingly, for December — same use."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{敬語|けいご}」とはどんな{言葉|ことば}ですか。",
+    "prompt_en": "What is 敬語?",
+    "options": [
+     "{若|わか}い{人|ひと}が{使|つか}う{新|あたら}しい{言葉|ことば}",
+     "{相手|あいて}を{大切|たいせつ}にする{気持|きも}ちを{表|あらわ}す{丁寧|ていねい}な{言葉|ことば}",
+     "{外国|がいこく}から{来|き}た{言葉|ことば}",
+     "{子|こ}どもが{使|つか}う{言葉|ことば}"
+    ],
+    "answer": 1,
+    "why_ja": "{敬語|けいご}は、{目上|めうえ}の{人|ひと}などに{使|つか}う{丁寧|ていねい}な{言葉|ことば}です。",
+    "why_en": "敬語 is respectful, polite language."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "この{文|ぶん}を{聞|き}いた{人|ひと}の{返事|へんじ}として、{自然|しぜん}なのはどれですか。",
+    "prompt_en": "Which reply sounds natural after hearing this?",
+    "options": [
+     "はい、{一年|いちねん}にしてください。",
+     "いいえ、{敬語|けいご}にしては{上手|じょうず}です。",
+     "そうですか。これから{日本|にほん}に{来|く}るんですね。",
+     "{本当|ほんとう}ですね。きっとたくさん{練習|れんしゅう}したんでしょうね。"
+    ],
+    "answer": 3,
+    "why_ja": "{上手|じょうず}な{理由|りゆう}を{想像|そうぞう}して{同意|どうい}しているので、{自然|しぜん}な{返事|へんじ}です。",
+    "why_en": "Agreeing and guessing why he's good is a natural response."
+   }
+  ]
+ },
+ {
+  "id": "n3_an_x05",
+  "level": "N3",
+  "ja": "{急|いそ}いでいたので、{電気|でんき}をつけたまま{家|いえ}を{出|で}てしまいました。",
+  "en": "I was in a hurry, so I left the house with the lights on.",
+  "variants": [
+   {
+    "type": "conjugation_why",
+    "section": "grammar",
+    "prompt_ja": "「つけたまま」と、た{形|けい}を{使|つか}っているのはどうしてですか。",
+    "prompt_en": "Why is the た-form used in つけたまま?",
+    "options": [
+     "{電気|でんき}がついている{状態|じょうたい}が{続|つづ}いていたから",
+     "これから{電気|でんき}をつけるから",
+     "{電気|でんき}をつけたかったから",
+     "{電気|でんき}が{壊|こわ}れていたから"
+    ],
+    "answer": 0,
+    "why_ja": "「〜たまま」は、{前|まえ}にした{動作|どうさ}の{状態|じょうたい}が{変|か}わらずに{続|つづ}いていることを{表|あらわ}します。",
+    "why_en": "〜たまま: the state from the earlier action continues unchanged."
+   },
+   {
+    "type": "meaning",
+    "section": "reading",
+    "prompt_ja": "{家|いえ}を{出|で}たとき、{電気|でんき}はどうなっていましたか。",
+    "prompt_en": "What state were the lights in when the speaker left?",
+    "options": [
+     "{消|き}えていた",
+     "{壊|こわ}れていた",
+     "ついていた",
+     "{分|わ}からない"
+    ],
+    "answer": 2,
+    "why_ja": "「{電気|でんき}をつけたまま」なので、ついたままでした。",
+    "why_en": "つけたまま = still on."
+   },
+   {
+    "type": "particle_meaning",
+    "section": "grammar",
+    "prompt_ja": "「{急|いそ}いでいたので」の「ので」は{何|なに}を{表|あらわ}しますか。",
+    "prompt_en": "What does ので express in 急いでいたので?",
+    "options": [
+     "{理由|りゆう}",
+     "{時間|じかん}",
+     "{場所|ばしょ}",
+     "{反対|はんたい}のこと"
+    ],
+    "answer": 0,
+    "why_ja": "「ので」は{理由|りゆう}を{表|あらわ}します。{急|いそ}いでいたことが{理由|りゆう}です。",
+    "why_en": "ので gives the reason: being in a hurry."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "{意味|いみ}が{一番|いちばん}{近|ちか}い{文|ぶん}はどれですか。",
+    "prompt_en": "Which sentence is closest in meaning?",
+    "options": [
+     "{急|いそ}いでいたので、{電気|でんき}を{消|け}してから{家|いえ}を{出|で}ました。",
+     "{急|いそ}いでいたのに、{電気|でんき}をつけないで{家|いえ}を{出|で}ました。",
+     "{急|いそ}いでいたので、{電気|でんき}を{消|け}さないで{家|いえ}を{出|で}てしまいました。",
+     "{急|いそ}いで{電気|でんき}をつけに{家|いえ}に{帰|かえ}りました。"
+    ],
+    "answer": 2,
+    "why_ja": "「つけたまま」は「{消|け}さないで」と{言|い}いかえられます。",
+    "why_en": "つけたまま ≈ 消さないで."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "この{話|はなし}を{聞|き}いた{友達|ともだち}の{言葉|ことば}として、{自然|しぜん}なのはどれですか。",
+    "prompt_en": "Which is a natural thing for a friend to say on hearing this?",
+    "options": [
+     "え、{電気代|でんきだい}がもったいないね。",
+     "じゃあ、{電気|でんき}をつけてあげるよ。",
+     "{電気|でんき}を{消|け}したまま{出|で}かけたんだね。",
+     "{急|いそ}いでいたにしては、{電気|でんき}をつけたね。"
+    ],
+    "answer": 0,
+    "why_ja": "{電気|でんき}がついたままだったので、{電気代|でんきだい}を{心配|しんぱい}するのが{自然|しぜん}です。",
+    "why_en": "The lights were left on, so worrying about the bill is natural."
+   }
+  ]
+ }
+]

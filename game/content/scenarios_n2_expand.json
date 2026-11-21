@@ -1,0 +1,522 @@
+[
+ {
+  "id": "n2_sc_x_reschedule",
+  "level": "N2",
+  "register": "business",
+  "title_ja": "{打|う}ち{合|あ}わせの{日程|にってい}を{変更|へんこう}してもらう",
+  "title_en": "Asking a client to reschedule a meeting by phone",
+  "location": "{会社|かいしゃ}",
+  "turns": [
+   {
+    "speaker": "{取引先|とりひきさき}の{社員|しゃいん}",
+    "line_ja": "はい、{青葉|あおば}{商事|しょうじ}{営業部|えいぎょうぶ}でございます。",
+    "line_en": "Hello, Aoba Trading, sales department.",
+    "options": [
+     {
+      "ja": "いつもお{世話|せわ}になっております。{緑川|みどりかわ}{製作所|せいさくしょ}の{田中|たなか}と{申|もう}します。{山本|やまもと}{様|さま}はいらっしゃいますか。",
+      "en": "Thank you for your continued business. This is Tanaka from Midorikawa Works. Is Mr Yamamoto available?",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "ビジネスの{電話|でんわ}の{決|き}まった{言|い}い{方|かた}で{名乗|なの}り、{尊敬語|そんけいご}「いらっしゃいますか」で{相手|あいて}を{呼|よ}んでもらっています。",
+      "feedback_en": "The set business greeting, your name with 申します, and いらっしゃいますか to ask for the person."
+     },
+     {
+      "ja": "あ、{田中|たなか}です。{山本|やまもと}さん、いる？",
+      "en": "Oh, it's Tanaka. Is Yamamoto there?",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{意味|いみ}は{通|つう}じますが、{取引先|とりひきさき}への{電話|でんわ}で{友達|ともだち}のような{話|はな}し{方|かた}は{失礼|しつれい}です。",
+      "feedback_en": "Understandable, but far too casual for a call to a client."
+     },
+     {
+      "ja": "いつもお{世話|せわ}になっております。{山本|やまもと}{様|さま}と{申|もう}します。",
+      "en": "Thank you for your continued business. My name is Mr Yamamoto.",
+      "verdict": "wrong",
+      "feedback_ja": "「{申|もう}します」は{自分|じぶん}の{名前|なまえ}に{使|つか}います。{電話|でんわ}をかけたのは{田中|たなか}さんで、{山本|やまもと}さんは{話|はな}したい{相手|あいて}です。",
+      "feedback_en": "申します introduces yourself; Yamamoto is the person you want to speak to."
+     }
+    ],
+    "typed": [
+     "田中と申します。山本様はいらっしゃいますか",
+     "山本様はいらっしゃいますか",
+     "やまもとさまはいらっしゃいますか"
+    ]
+   },
+   {
+    "speaker": "{山本|やまもと}",
+    "line_ja": "お{電話|でんわ}{代|か}わりました、{山本|やまもと}です。",
+    "line_en": "Yamamoto speaking.",
+    "options": [
+     {
+      "ja": "{申|もう}し{訳|わけ}ございませんが、{来週|らいしゅう}{火曜日|かようび}の{打|う}ち{合|あ}わせの{日程|にってい}を{変更|へんこう}していただくことは{可能|かのう}でしょうか。",
+      "en": "I'm very sorry, but would it be possible to change the date of next Tuesday's meeting?",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "「{申|もう}し{訳|わけ}ございませんが」で{始|はじ}め、「〜ていただくことは{可能|かのう}でしょうか」と{丁寧|ていねい}にお{願|ねが}いしています。",
+      "feedback_en": "An apology first, then a very polite request with ていただくことは可能でしょうか."
+     },
+     {
+      "ja": "{来週|らいしゅう}の{打|う}ち{合|あ}わせ、{変|か}えてくれない？",
+      "en": "Can't you change next week's meeting?",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{取引先|とりひきさき}にこの{言|い}い{方|かた}はあまりに{失礼|しつれい}です。",
+      "feedback_en": "Grammatical, but much too blunt for a client."
+     },
+     {
+      "ja": "{来週|らいしゅう}{火曜日|かようび}の{打|う}ち{合|あ}わせの{日程|にってい}を{変更|へんこう}しかねます。",
+      "en": "I am unable to change the date of next Tuesday's meeting.",
+      "verdict": "wrong",
+      "feedback_ja": "「〜かねます」は「できません」という{意味|いみ}です。{変更|へんこう}をお{願|ねが}いしたいのに、{反対|はんたい}の{意味|いみ}になっています。",
+      "feedback_en": "かねます means 'cannot', the opposite of the request you want to make."
+     }
+    ],
+    "typed": [
+     "打ち合わせの日程を変更していただくことは可能でしょうか",
+     "日程を変更していただけませんか",
+     "日程を変更していただけますか"
+    ]
+   },
+   {
+    "speaker": "{山本|やまもと}",
+    "line_ja": "そうですか。どうかなさいましたか。",
+    "line_en": "I see. Is something the matter?",
+    "options": [
+     {
+      "ja": "{実|じつ}は、{工場|こうじょう}で{急|きゅう}なトラブルが{発生|はっせい}いたしまして、その{対応|たいおう}のため、{当日|とうじつ}{伺|うかが}うのが{難|むずか}しくなってしまいました。",
+      "en": "Actually, a sudden problem has come up at the factory, and because I have to deal with it, it will be difficult for me to visit on the day.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "{理由|りゆう}を{具体的|ぐたいてき}に、{謙譲語|けんじょうご}「いたす」「{伺|うかが}う」を{使|つか}って{説明|せつめい}しています。",
+      "feedback_en": "A concrete reason, explained with humble forms いたす and 伺う."
+     },
+     {
+      "ja": "ちょっと{用事|ようじ}ができちゃって。",
+      "en": "Something came up, you know.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{意味|いみ}はわかりますが、くだけすぎていて、{理由|りゆう}もはっきりしません。{日程|にってい}を{変|か}えてもらう{相手|あいて}には{失礼|しつれい}です。",
+      "feedback_en": "Too casual and too vague when you're asking a client for a favour."
+     },
+     {
+      "ja": "{実|じつ}は、{工場|こうじょう}でトラブルが{発生|はっせい}したにもかかわらず、{伺|うかが}えなくなりました。",
+      "en": "Actually, despite a problem occurring at the factory, I can no longer visit.",
+      "verdict": "wrong",
+      "feedback_ja": "「にもかかわらず」は「〜のに」という{逆接|ぎゃくせつ}です。ここでは{理由|りゆう}を{表|あらわ}す「ため」や「ので」が{必要|ひつよう}です。",
+      "feedback_en": "にもかかわらず is a contrast; a reason needs ため or ので."
+     }
+    ],
+    "typed": [
+     "工場でトラブルが発生したため、伺うのが難しくなりました",
+     "工場でトラブルがあって、伺えなくなりました",
+     "急なトラブルがあったため、伺うのが難しくなりました"
+    ]
+   },
+   {
+    "speaker": "{山本|やまもと}",
+    "line_ja": "それは{大変|たいへん}ですね。では、{木曜日|もくようび}の{午後|ごご}はいかがですか。",
+    "line_en": "That sounds tough. How about Thursday afternoon, then?",
+    "options": [
+     {
+      "ja": "ありがとうございます。{木曜日|もくようび}の{午後|ごご}でしたら{問題|もんだい}ございません。{二時|にじ}からでよろしいでしょうか。",
+      "en": "Thank you. Thursday afternoon is no problem. Would two o'clock suit you?",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "{提案|ていあん}を{受|う}け{入|い}れ、{具体的|ぐたいてき}な{時間|じかん}を「よろしいでしょうか」と{丁寧|ていねい}に{確認|かくにん}しています。",
+      "feedback_en": "You accept the offer and politely confirm a specific time."
+     },
+     {
+      "ja": "ありがとうございます。{木曜日|もくようび}の{午後|ごご}は{問題|もんだい}ございません。では、{火曜日|かようび}に{伺|うかが}います。",
+      "en": "Thank you. Thursday afternoon is fine. Then I'll come on Tuesday.",
+      "verdict": "wrong",
+      "feedback_ja": "{火曜日|かようび}は{行|い}けないと{言|い}ったばかりです。{話|はなし}の{内容|ないよう}が{合|あ}いません。",
+      "feedback_en": "You just said Tuesday was impossible, so this contradicts yourself."
+     },
+     {
+      "ja": "{木曜|もくよう}ね、オッケー。{二時|にじ}でいい？",
+      "en": "Thursday, okay. Two o'clock all right?",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{内容|ないよう}は{合|あ}っていますが、{取引先|とりひきさき}への{言葉|ことば}としてはくだけすぎています。",
+      "feedback_en": "The content fits, but it's far too casual for a client."
+     }
+    ],
+    "typed": [
+     "木曜日の午後でしたら問題ございません",
+     "木曜日の午後で大丈夫です",
+     "二時からでよろしいでしょうか"
+    ]
+   },
+   {
+    "speaker": "{山本|やまもと}",
+    "line_ja": "はい、{二時|にじ}で{結構|けっこう}です。",
+    "line_en": "Yes, two o'clock is fine.",
+    "options": [
+     {
+      "ja": "ご{迷惑|めいわく}をおかけして{申|もう}し{訳|わけ}ございません。それでは、{木曜日|もくようび}の{二時|にじ}に{伺|うかが}います。よろしくお{願|ねが}いいたします。",
+      "en": "I'm very sorry for the inconvenience. I'll come by at two on Thursday, then. Thank you.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "もう{一度|いちど}{謝|あやま}り、{決|き}まった{日時|にちじ}を{確認|かくにん}して{電話|でんわ}を{終|お}えています。",
+      "feedback_en": "You apologise again, confirm the new time and close the call properly."
+     },
+     {
+      "ja": "じゃ、そういうことで。",
+      "en": "Right, so that's that.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{迷惑|めいわく}をかけた{相手|あいて}に、お{詫|わ}びもお{礼|れい}もなく{終|お}わるのは{失礼|しつれい}です。",
+      "feedback_en": "Ending without an apology or thanks is rude after causing trouble."
+     },
+     {
+      "ja": "ご{迷惑|めいわく}をおかけして{申|もう}し{訳|わけ}ございません。それでは、{木曜日|もくようび}の{二時|にじ}にいらっしゃってください。",
+      "en": "I'm very sorry for the inconvenience. Then please come at two on Thursday.",
+      "verdict": "wrong",
+      "feedback_ja": "{訪|たず}ねるのは{田中|たなか}さんのほうです。{相手|あいて}に{来|き}てもらう{話|はなし}ではありません。",
+      "feedback_en": "You are the one visiting; you're not asking them to come to you."
+     }
+    ],
+    "typed": [
+     "木曜日の二時に伺います",
+     "ご迷惑をおかけして申し訳ございません",
+     "よろしくお願いいたします"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "n2_sc_x_interview",
+  "level": "N2",
+  "register": "business",
+  "title_ja": "{会社|かいしゃ}の{面接|めんせつ}を{受|う}ける",
+  "title_en": "A job interview",
+  "location": "{会社|かいしゃ}",
+  "turns": [
+   {
+    "speaker": "{面接官|めんせつかん}",
+    "line_ja": "どうぞお{掛|か}けください。",
+    "line_en": "Please have a seat.",
+    "options": [
+     {
+      "ja": "{失礼|しつれい}いたします。",
+      "en": "Thank you (excuse me).",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "{席|せき}に{座|すわ}るときの、{面接|めんせつ}で{一番|いちばん}{自然|しぜん}なあいさつです。",
+      "feedback_en": "The most natural thing to say as you sit down in an interview."
+     },
+     {
+      "ja": "じゃあ、{座|すわ}りますね。",
+      "en": "Okay, I'll sit down then.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{文法|ぶんぽう}は{正|ただ}しいですが、{面接|めんせつ}の{場|ば}では{軽|かる}すぎます。",
+      "feedback_en": "Grammatical, but too casual for an interview."
+     },
+     {
+      "ja": "{失礼|しつれい}しました。",
+      "en": "I'm sorry for what I did.",
+      "verdict": "wrong",
+      "feedback_ja": "「{失礼|しつれい}しました」は{部屋|へや}を{出|で}るときや、{何|なに}かをしてしまった{後|あと}に{使|つか}います。{座|すわ}るときには{合|あ}いません。",
+      "feedback_en": "失礼しました is for leaving or apologising afterwards, not for sitting down."
+     }
+    ],
+    "typed": [
+     "失礼いたします",
+     "失礼します",
+     "しつれいいたします"
+    ]
+   },
+   {
+    "speaker": "{面接官|めんせつかん}",
+    "line_ja": "{当社|とうしゃ}を{志望|しぼう}した{理由|りゆう}を{教|おし}えてください。",
+    "line_en": "Please tell us why you applied to our company.",
+    "options": [
+     {
+      "ja": "{御社|おんしゃ}が{環境|かんきょう}に{配慮|はいりょ}した{製品|せいひん}{作|づく}りに{力|ちから}を{入|い}れている{点|てん}に、{魅力|みりょく}を{感|かん}じたからです。",
+      "en": "Because I was drawn to the way your company puts effort into making environmentally friendly products.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "{相手|あいて}の{会社|かいしゃ}を「{御社|おんしゃ}」と{呼|よ}び、{具体的|ぐたいてき}な{理由|りゆう}を{述|の}べています。",
+      "feedback_en": "You call their company 御社 and give a concrete reason."
+     },
+     {
+      "ja": "{家|いえ}から{近|ちか}いし、{給料|きゅうりょう}もいいからです。",
+      "en": "Because it's close to home and the pay is good.",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "{正直|しょうじき}かもしれませんが、{面接|めんせつ}で{志望|しぼう}{理由|りゆう}として{言|い}うのはふさわしくありません。",
+      "feedback_en": "Perhaps honest, but not an appropriate reason to give in an interview."
+     },
+     {
+      "ja": "{当社|とうしゃ}が{環境|かんきょう}に{配慮|はいりょ}した{製品|せいひん}{作|づく}りに{力|ちから}を{入|い}れている{点|てん}に、{魅力|みりょく}を{感|かん}じたからです。",
+      "en": "Because I was drawn to the way our company puts effort into environmentally friendly products.",
+      "verdict": "wrong",
+      "feedback_ja": "「{当社|とうしゃ}」は{自分|じぶん}の{会社|かいしゃ}を{指|さ}す{言葉|ことば}です。{相手|あいて}の{会社|かいしゃ}は、{話|はな}すときは「{御社|おんしゃ}」と{言|い}います。",
+      "feedback_en": "当社 means 'our company'. In speech, the other company is 御社."
+     }
+    ],
+    "typed": [
+     "御社が環境に配慮した製品作りに力を入れている点に魅力を感じたからです",
+     "御社の製品作りに魅力を感じたからです",
+     "環境に配慮した製品作りに魅力を感じたからです"
+    ]
+   },
+   {
+    "speaker": "{面接官|めんせつかん}",
+    "line_ja": "{前|まえ}の{職場|しょくば}では、どのような{仕事|しごと}をしていましたか。",
+    "line_en": "What kind of work did you do at your previous workplace?",
+    "options": [
+     {
+      "ja": "{営業|えいぎょう}を{担当|たんとう}しておりました。{顧客|こきゃく}の{要望|ようぼう}に{基|もと}づいて、{新|あたら}しいサービスを{提案|ていあん}したこともございます。",
+      "en": "I was in charge of sales. I also proposed new services based on customers' requests.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "「〜ておりました」で{丁寧|ていねい}に{答|こた}え、「に{基|もと}づいて」で{仕事|しごと}の{内容|ないよう}を{具体的|ぐたいてき}に{説明|せつめい}しています。",
+      "feedback_en": "Polite ておりました, and に基づいて to describe your work concretely."
+     },
+     {
+      "ja": "{営業|えいぎょう}っす。けっこう{頑張|がんば}ってました。",
+      "en": "Sales, yeah. I worked pretty hard.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "「っす」はくだけた{言葉|ことば}で、{面接|めんせつ}では{使|つか}いません。{内容|ないよう}も{具体的|ぐたいてき}ではありません。",
+      "feedback_en": "っす is slangy and the answer is vague; not for an interview."
+     },
+     {
+      "ja": "{営業|えいぎょう}を{担当|たんとう}しておりました。{顧客|こきゃく}の{要望|ようぼう}をめぐって、{新|あたら}しいサービスを{提案|ていあん}したこともございます。",
+      "en": "I was in charge of sales. I also proposed new services in a dispute over customers' requests.",
+      "verdict": "wrong",
+      "feedback_ja": "「をめぐって」は{議論|ぎろん}や{争|あらそ}いの{話題|わだい}に{使|つか}います。ここは「に{基|もと}づいて」が{正|ただ}しいです。",
+      "feedback_en": "をめぐって is for debates and disputes; here you need に基づいて."
+     }
+    ],
+    "typed": [
+     "営業を担当しておりました",
+     "営業を担当していました",
+     "えいぎょうをたんとうしておりました"
+    ]
+   },
+   {
+    "speaker": "{面接官|めんせつかん}",
+    "line_ja": "{最後|さいご}に、{何|なに}か{質問|しつもん}はありますか。",
+    "line_en": "Finally, do you have any questions?",
+    "options": [
+     {
+      "ja": "はい。{入社|にゅうしゃ}に{際|さい}して、{準備|じゅんび}しておくべきことがあれば{教|おし}えていただけますでしょうか。",
+      "en": "Yes. If there's anything I should prepare before joining, could you let me know?",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "「に{際|さい}して」を{使|つか}い、{働|はたら}く{意欲|いよく}が{伝|つた}わる{質問|しつもん}を{丁寧|ていねい}にしています。",
+      "feedback_en": "A polite question using に際して that shows you're keen to start."
+     },
+     {
+      "ja": "{特|とく}にないです。{早|はや}く{結果|けっか}を{教|おし}えてください。",
+      "en": "Not really. Please tell me the result soon.",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "{丁寧語|ていねいご}ですが、{意欲|いよく}が{感|かん}じられず、{結果|けっか}を{急|いそ}がせるのも{失礼|しつれい}です。",
+      "feedback_en": "Polite in form, but it sounds uninterested and pushy."
+     },
+     {
+      "ja": "はい。{入社|にゅうしゃ}にわたって、{準備|じゅんび}しておくべきことがあれば{教|おし}えていただけますでしょうか。",
+      "en": "Yes. If there's anything to prepare throughout joining, could you tell me?",
+      "verdict": "wrong",
+      "feedback_ja": "「にわたって」は{期間|きかん}や{範囲|はんい}の{広|ひろ}さを{表|あらわ}します。{特別|とくべつ}な{機会|きかい}には「に{際|さい}して」を{使|つか}います。",
+      "feedback_en": "にわたって marks a span; for an occasion use に際して."
+     }
+    ],
+    "typed": [
+     "入社に際して、準備しておくべきことがあれば教えていただけますでしょうか",
+     "入社までに準備しておくことはありますか",
+     "準備しておくべきことがあれば教えていただけますか"
+    ]
+   },
+   {
+    "speaker": "{面接官|めんせつかん}",
+    "line_ja": "{本日|ほんじつ}はありがとうございました。{結果|けっか}は{一週間|いっしゅうかん}{以内|いない}にご{連絡|れんらく}します。",
+    "line_en": "Thank you for coming today. We'll contact you with the result within a week.",
+    "options": [
+     {
+      "ja": "{本日|ほんじつ}はお{忙|いそが}しいところ、ありがとうございました。よろしくお{願|ねが}いいたします。",
+      "en": "Thank you for your time today despite your busy schedule. I look forward to hearing from you.",
+      "verdict": "correct",
+      "register": "business",
+      "feedback_ja": "{時間|じかん}を{作|つく}ってもらったことへのお{礼|れい}と、{結果|けっか}を{待|ま}つあいさつができています。",
+      "feedback_en": "Thanks for their time plus the set phrase for awaiting the result."
+     },
+     {
+      "ja": "はーい、{待|ま}ってまーす。",
+      "en": "Okaaay, I'll be waiting!",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{語尾|ごび}を{伸|の}ばす{話|はな}し{方|かた}は{子|こ}どもっぽく、{面接|めんせつ}では{失礼|しつれい}です。",
+      "feedback_en": "Drawn-out, childish speech is inappropriate in an interview."
+     },
+     {
+      "ja": "{本日|ほんじつ}はお{忙|いそが}しいところ、ありがとうございました。{結果|けっか}がわかり{次第|しだい}、ご{連絡|れんらく}いたします。",
+      "en": "Thank you for your time today. I'll contact you as soon as I know the result.",
+      "verdict": "wrong",
+      "feedback_ja": "{結果|けっか}を{連絡|れんらく}するのは{会社|かいしゃ}のほうです。{立場|たちば}が{逆|ぎゃく}になっています。",
+      "feedback_en": "The company contacts you with the result, not the other way round."
+     }
+    ],
+    "typed": [
+     "本日はお忙しいところ、ありがとうございました",
+     "本日はありがとうございました",
+     "よろしくお願いいたします"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "n2_sc_x_neighbor_noise",
+  "level": "N2",
+  "register": "polite",
+  "title_ja": "{隣|となり}の{人|ひと}に{騒音|そうおん}のことを{伝|つた}える",
+  "title_en": "Talking to a neighbour about noise",
+  "location": "{自宅|じたく}",
+  "turns": [
+   {
+    "speaker": "{隣|となり}の{人|ひと}",
+    "line_ja": "はい、どちら{様|さま}ですか。",
+    "line_en": "Yes, who is it?",
+    "options": [
+     {
+      "ja": "{夜分|やぶん}{遅|おそ}くにすみません。{隣|となり}の{佐藤|さとう}ですが、{少|すこ}しよろしいでしょうか。",
+      "en": "Sorry to bother you so late. I'm Sato from next door. Do you have a moment?",
+      "verdict": "correct",
+      "register": "polite",
+      "feedback_ja": "{遅|おそ}い{時間|じかん}に{訪|たず}ねたことを{謝|あやま}り、{名乗|なの}ってから{丁寧|ていねい}に{時間|じかん}をもらっています。",
+      "feedback_en": "You apologise for the late hour, say who you are and politely ask for a moment."
+     },
+     {
+      "ja": "ちょっと、うるさいんだけど！",
+      "en": "Hey, you're being really noisy!",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{言|い}いたいことは{伝|つた}わりますが、いきなり{文句|もんく}を{言|い}うと{相手|あいて}も{気分|きぶん}を{悪|わる}くします。",
+      "feedback_en": "The message gets across, but opening with a complaint will put them on the defensive."
+     },
+     {
+      "ja": "{夜分|やぶん}{遅|おそ}くにすみません。{隣|となり}の{佐藤|さとう}ですが、{少|すこ}しよろしかったです。",
+      "en": "Sorry it's late. I'm Sato from next door; it was a little fine.",
+      "verdict": "wrong",
+      "feedback_ja": "{時間|じかん}をもらうお{願|ねが}いは「よろしいでしょうか」です。{過去形|かこけい}では{意味|いみ}が{通|とお}りません。",
+      "feedback_en": "To ask for a moment, say よろしいでしょうか; the past tense makes no sense."
+     }
+    ],
+    "typed": [
+     "夜分遅くにすみません。隣の佐藤ですが、少しよろしいでしょうか",
+     "隣の佐藤ですが、少しよろしいでしょうか",
+     "少しよろしいでしょうか"
+    ]
+   },
+   {
+    "speaker": "{隣|となり}の{人|ひと}",
+    "line_ja": "あ、こんばんは。どうかしましたか。",
+    "line_en": "Oh, good evening. Is something wrong?",
+    "options": [
+     {
+      "ja": "{実|じつ}は、{最近|さいきん}{夜|よる}{遅|おそ}くに{音楽|おんがく}の{音|おと}が{響|ひび}いてきて、なかなか{眠|ねむ}れないんです。",
+      "en": "Actually, lately the sound of music has been carrying over late at night, and I can't get to sleep.",
+      "verdict": "correct",
+      "register": "polite",
+      "feedback_ja": "{相手|あいて}を{責|せ}めずに、{自分|じぶん}が{困|こま}っていることを「〜んです」で{説明|せつめい}しています。",
+      "feedback_en": "You explain your problem with 〜んです without blaming them."
+     },
+     {
+      "ja": "{毎晩|まいばん}うるさすぎます。{常識|じょうしき}がないんじゃないですか。",
+      "en": "It's far too loud every night. Don't you have any common sense?",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "{丁寧語|ていねいご}ですが、{相手|あいて}を{責|せ}める{言|い}い{方|かた}なので、{話|はな}し{合|あ}いがうまくいきません。",
+      "feedback_en": "Polite in form, but accusing them will sour the conversation."
+     },
+     {
+      "ja": "{実|じつ}は、{最近|さいきん}{夜|よる}{遅|おそ}くに{音楽|おんがく}の{音|おと}が{響|ひび}いてくるばかりか、よく{眠|ねむ}れるんです。",
+      "en": "Actually, not only does music carry over late at night, but I also sleep well.",
+      "verdict": "wrong",
+      "feedback_ja": "「ばかりか」は{同|おな}じ{方向|ほうこう}のことを{重|かさ}ねます。「よく{眠|ねむ}れる」では{話|はなし}が{合|あ}いません。",
+      "feedback_en": "ばかりか stacks points in the same direction; 'I sleep well' contradicts the complaint."
+     }
+    ],
+    "typed": [
+     "夜遅くに音楽の音が響いてきて、なかなか眠れないんです",
+     "夜遅くに音楽の音が聞こえて、眠れないんです",
+     "音楽の音で眠れないんです"
+    ]
+   },
+   {
+    "speaker": "{隣|となり}の{人|ひと}",
+    "line_ja": "えっ、そうでしたか。{全然|ぜんぜん}{気|き}がつきませんでした。すみません。",
+    "line_en": "Oh, really? I had no idea at all. I'm sorry.",
+    "options": [
+     {
+      "ja": "いえ、わざとではないとわかっていますので。ただ、{夜|よる}{十時|じゅうじ}{以降|いこう}は{少|すこ}し{音|おと}を{小|ちい}さくしていただけると{助|たす}かります。",
+      "en": "No, I know you didn't mean it. But it would really help if you could turn it down a bit after 10 p.m.",
+      "verdict": "correct",
+      "register": "polite",
+      "feedback_ja": "{相手|あいて}の{気持|きも}ちを{受|う}け{止|と}めてから、「〜ていただけると{助|たす}かります」と{柔|やわ}らかくお{願|ねが}いしています。",
+      "feedback_en": "You accept their apology, then make a soft request with ていただけると助かります."
+     },
+     {
+      "ja": "{本当|ほんとう}ですよ。{次|つぎ}にやったら{管理|かんり}{会社|がいしゃ}に{言|い}いますから。",
+      "en": "You'd better be. If it happens again, I'm telling the management company.",
+      "verdict": "unnatural",
+      "register": "polite",
+      "feedback_ja": "{謝|あやま}っている{相手|あいて}を{脅|おど}すような{言|い}い{方|かた}で、{近所|きんじょ}づきあいが{悪|わる}くなります。",
+      "feedback_en": "Threatening someone who has just apologised will damage the relationship."
+     },
+     {
+      "ja": "いえ、わざとではないとわかっていますので。ただ、{夜|よる}{十時|じゅうじ}{以降|いこう}は{音|おと}を{小|ちい}さくしかねます。",
+      "en": "No, I know it wasn't on purpose. But I am unable to make the sound quieter after 10 p.m.",
+      "verdict": "wrong",
+      "feedback_ja": "「〜かねます」は{自分|じぶん}ができないことを{言|い}う{形|かたち}です。{相手|あいて}にお{願|ねが}いする{文|ぶん}になっていません。",
+      "feedback_en": "しかねます says what you can't do; it isn't a request to them."
+     }
+    ],
+    "typed": [
+     "夜十時以降は少し音を小さくしていただけると助かります",
+     "夜十時以降は音を小さくしていただけますか",
+     "音を小さくしていただけると助かります"
+    ]
+   },
+   {
+    "speaker": "{隣|となり}の{人|ひと}",
+    "line_ja": "わかりました。これからは{気|き}をつけます。わざわざ{言|い}いに{来|き}てくださって、ありがとうございます。",
+    "line_en": "Understood. I'll be careful from now on. Thank you for taking the trouble to tell me.",
+    "options": [
+     {
+      "ja": "こちらこそ、{快|こころよ}く{聞|き}いてくださってありがとうございます。これからもよろしくお{願|ねが}いします。",
+      "en": "Thank you for taking it so well. I hope we'll keep getting along.",
+      "verdict": "correct",
+      "register": "polite",
+      "feedback_ja": "お{礼|れい}を{返|かえ}し、これからの{関係|かんけい}を{大切|たいせつ}にするあいさつで{終|お}えています。",
+      "feedback_en": "You return the thanks and close on a note that keeps the relationship good."
+     },
+     {
+      "ja": "ほんと、{頼|たの}みますよ。",
+      "en": "Seriously, I'm counting on you.",
+      "verdict": "unnatural",
+      "register": "casual",
+      "feedback_ja": "{意味|いみ}は{通|つう}じますが、{念|ねん}を{押|お}すような{言|い}い{方|かた}で、{相手|あいて}にいやな{印象|いんしょう}を{残|のこ}します。",
+      "feedback_en": "Understandable, but it sounds like nagging and leaves a bad impression."
+     },
+     {
+      "ja": "こちらこそ、{快|こころよ}く{聞|き}いてくださってありがとうございます。{気|き}をつけることはないですよ。",
+      "en": "Thank you for taking it well. There's no need to be careful.",
+      "verdict": "wrong",
+      "feedback_ja": "「ことはない」は「{必要|ひつよう}がない」という{意味|いみ}です。{音|おと}に{気|き}をつけてほしいとお{願|ねが}いしたことと{矛盾|むじゅん}します。",
+      "feedback_en": "ことはない means 'no need', which contradicts your own request."
+     }
+    ],
+    "typed": [
+     "快く聞いてくださってありがとうございます",
+     "こちらこそありがとうございます。これからもよろしくお願いします",
+     "こちらこそありがとうございます"
+    ]
+   }
+  ]
+ }
+]

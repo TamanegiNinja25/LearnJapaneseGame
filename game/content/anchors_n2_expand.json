@@ -1,0 +1,372 @@
+[
+ {
+  "id": "n2_an_x01",
+  "level": "N2",
+  "ja": "{十分|じゅうぶん}{準備|じゅんび}したにもかかわらず、{発表|はっぴょう}はうまくいかなかった。",
+  "en": "Despite preparing thoroughly, the presentation didn't go well.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "「にもかかわらず」の{意味|いみ}に{近|ちか}いのは？",
+    "prompt_en": "What is にもかかわらず closest to?",
+    "options": [
+     "〜のに",
+     "〜ので",
+     "〜ために",
+     "〜ながら"
+    ],
+    "answer": 0,
+    "why_ja": "「にもかかわらず」は「〜のに」の{硬|かた}い{言|い}い{方|かた}です。",
+    "why_en": "にもかかわらず is a formal のに."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "{同|おな}じ{意味|いみ}の{文|ぶん}はどれ？",
+    "prompt_en": "Which sentence means the same?",
+    "options": [
+     "{十分|じゅうぶん}{準備|じゅんび}したのに、{発表|はっぴょう}は{失敗|しっぱい}してしまった。",
+     "{十分|じゅうぶん}{準備|じゅんび}したので、{発表|はっぴょう}は{成功|せいこう}した。",
+     "{準備|じゅんび}しなかったので、{発表|はっぴょう}は{失敗|しっぱい}した。"
+    ],
+    "answer": 0,
+    "why_ja": "{準備|じゅんび}したのに{結果|けっか}がよくなかった、という{逆接|ぎゃくせつ}の{文|ぶん}です。",
+    "why_en": "Prepared, yet it went badly: a contrast."
+   },
+   {
+    "type": "same_pattern",
+    "section": "grammar",
+    "prompt_ja": "「にもかかわらず」の{使|つか}い{方|かた}が{正|ただ}しい{文|ぶん}は？",
+    "prompt_en": "Which sentence uses にもかかわらず correctly?",
+    "options": [
+     "{雨|あめ}にもかかわらず、{試合|しあい}は{予定|よてい}どおり{行|おこな}われた。",
+     "{年齢|ねんれい}にもかかわらず、{誰|だれ}でも{参加|さんか}できます。",
+     "{雨|あめ}にもかかわらず、{試合|しあい}は{中止|ちゅうし}になった。"
+    ],
+    "answer": 0,
+    "why_ja": "{雨|あめ}なのに{行|おこな}われた、という{予想外|よそうがい}の{結果|けっか}です。「{関係|かんけい}なく」なら「にかかわらず」を{使|つか}います。",
+    "why_en": "Rain, yet it went ahead: unexpected. 'Regardless' would be にかかわらず."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "{同僚|どうりょう}がこう{言|い}いました。{自然|しぜん}な{返事|へんじ}は？",
+    "prompt_en": "A colleague says this. What is a natural reply?",
+    "options": [
+     "それは{残念|ざんねん}でしたね。でも、{準備|じゅんび}したことは{無駄|むだ}にならないと{思|おも}いますよ。",
+     "よかったですね。おめでとうございます。",
+     "{準備|じゅんび}しなかったからですよ。"
+    ],
+    "answer": 0,
+    "why_ja": "うまくいかなかった{相手|あいて}を{慰|なぐさ}める{返事|へんじ}が{自然|しぜん}です。",
+    "why_en": "Comforting someone whose presentation went badly."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "この{文|ぶん}の「{十分|じゅうぶん}」の{意味|いみ}に{近|ちか}いのは？",
+    "prompt_en": "What does 十分 mean in this sentence?",
+    "options": [
+     "{足|た}りないところがないほど",
+     "{少|すこ}しだけ",
+     "{急|いそ}いで"
+    ],
+    "answer": 0,
+    "why_ja": "ここの「{十分|じゅうぶん}」は「たっぷり、しっかり」という{意味|いみ}です。",
+    "why_en": "Here 十分 means thoroughly, enough."
+   }
+  ]
+ },
+ {
+  "id": "n2_an_x02",
+  "level": "N2",
+  "ja": "ご{要望|ようぼう}に{沿|そ}ったプランをご{提案|ていあん}いたします。",
+  "en": "We will propose a plan in line with your wishes.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "「に{沿|そ}った」の{意味|いみ}は？",
+    "prompt_en": "What does に沿った mean?",
+    "options": [
+     "〜に{合|あ}わせた",
+     "〜に{反対|はんたい}した",
+     "〜と{関係|かんけい}のない",
+     "〜より{前|まえ}の"
+    ],
+    "answer": 0,
+    "why_ja": "「に{沿|そ}った」は「〜に{合|あ}うようにした」という{意味|いみ}です。",
+    "why_en": "に沿った = matching, in line with."
+   },
+   {
+    "type": "conjugation_why",
+    "section": "grammar",
+    "prompt_ja": "なぜ「{沿|そ}って」ではなく「{沿|そ}った」なのですか。",
+    "prompt_en": "Why 沿った and not 沿って?",
+    "options": [
+     "{後|うし}ろに{名詞|めいし}「プラン」があるから",
+     "{過去|かこ}のことだから",
+     "{丁寧|ていねい}な{言|い}い{方|かた}だから"
+    ],
+    "answer": 0,
+    "why_ja": "{名詞|めいし}を{説明|せつめい}するときは「Nに{沿|そ}った＋{名詞|めいし}」の{形|かたち}になります。",
+    "why_en": "Before a noun the form is Nに沿った + noun."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{要望|ようぼう}」に{近|ちか}い{言葉|ことば}は？",
+    "prompt_en": "Which word is closest to 要望?",
+    "options": [
+     "{希望|きぼう}",
+     "{苦情|くじょう}",
+     "{予定|よてい}",
+     "{結果|けっか}"
+    ],
+    "answer": 0,
+    "why_ja": "「{要望|ようぼう}」は「こうしてほしいという{願|ねが}い」で、「{希望|きぼう}」が{近|ちか}いです。",
+    "why_en": "要望 is a wish or request, close to 希望."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "{旅行|りょこう}{会社|がいしゃ}の{人|ひと}がこう{言|い}いました。お{客|きゃく}として{自然|しぜん}な{返事|へんじ}は？",
+    "prompt_en": "A travel agent says this. What is a natural reply as the customer?",
+    "options": [
+     "ありがとうございます。{予算|よさん}があまりないので、{安|やす}めのものをお{願|ねが}いします。",
+     "いいえ、{提案|ていあん}いたしません。",
+     "はい、ご{提案|ていあん}いたします。"
+    ],
+    "answer": 0,
+    "why_ja": "{提案|ていあん}してもらう{側|がわ}として、{自分|じぶん}の{要望|ようぼう}を{伝|つた}えるのが{自然|しぜん}です。",
+    "why_en": "As the customer, you state what you want."
+   },
+   {
+    "type": "meaning",
+    "section": "kanji",
+    "prompt_ja": "「ていあん」を{漢字|かんじ}で{書|か}くと、どれが{正|ただ}しい？",
+    "prompt_en": "Which is the correct kanji spelling of ていあん?",
+    "options": [
+     "{提案|ていあん}",
+     "{定案|ていあん}",
+     "{提安|ていあん}",
+     "{低案|ていあん}"
+    ],
+    "answer": 0,
+    "why_ja": "「{提|てい}」は「{差|さ}し{出|だ}す」、「{案|あん}」は「{考|かんが}え」で、「{提案|ていあん}」と{書|か}きます。",
+    "why_en": "提 (to present) + 案 (idea) = 提案."
+   }
+  ]
+ },
+ {
+  "id": "n2_an_x03",
+  "level": "N2",
+  "ja": "{結果|けっか}がわかり{次第|しだい}、{担当者|たんとうしゃ}からご{連絡|れんらく}いたします。",
+  "en": "As soon as the results are known, the person in charge will contact you.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "「わかり{次第|しだい}」の{意味|いみ}は？",
+    "prompt_en": "What does わかり次第 mean?",
+    "options": [
+     "わかったらすぐに",
+     "わかるかどうかによって",
+     "わかる{前|まえ}に",
+     "わかっても"
+    ],
+    "answer": 0,
+    "why_ja": "「ます{形|けい}＋{次第|しだい}」は「〜したらすぐに」という{意味|いみ}です。",
+    "why_en": "Masu-stem + 次第 = as soon as."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "{同|おな}じ{意味|いみ}の{文|ぶん}はどれ？",
+    "prompt_en": "Which sentence means the same?",
+    "options": [
+     "{結果|けっか}がわかったら、すぐに{担当者|たんとうしゃ}が{連絡|れんらく}します。",
+     "{結果|けっか}によって、{担当者|たんとうしゃ}が{変|か}わります。",
+     "{結果|けっか}がわかる{前|まえ}に、{担当者|たんとうしゃ}が{連絡|れんらく}します。"
+    ],
+    "answer": 0,
+    "why_ja": "「わかり{次第|しだい}」は「わかったらすぐに」と{言|い}い{換|か}えられます。",
+    "why_en": "わかり次第 = as soon as it's known."
+   },
+   {
+    "type": "subject_object",
+    "section": "reading",
+    "prompt_ja": "{連絡|れんらく}するのは{誰|だれ}ですか。",
+    "prompt_en": "Who will make contact?",
+    "options": [
+     "{担当者|たんとうしゃ}",
+     "この{文|ぶん}を{聞|き}いている{人|ひと}",
+     "{結果|けっか}を{知|し}らない{人|ひと}"
+    ],
+    "answer": 0,
+    "why_ja": "「{担当者|たんとうしゃ}から」とあるので、{連絡|れんらく}するのは{担当者|たんとうしゃ}です。",
+    "why_en": "担当者から: the person in charge will contact you."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "{電話|でんわ}で{相手|あいて}がこう{言|い}いました。{自然|しぜん}な{返事|へんじ}は？",
+    "prompt_en": "Someone says this on the phone. What is a natural reply?",
+    "options": [
+     "{承知|しょうち}いたしました。よろしくお{願|ねが}いいたします。",
+     "いいえ、{連絡|れんらく}しかねます。",
+     "{結果|けっか}がわかり{次第|しだい}、ご{連絡|れんらく}いたします。"
+    ],
+    "answer": 0,
+    "why_ja": "{連絡|れんらく}を{待|ま}つ{側|がわ}として、{了解|りょうかい}してお{願|ねが}いするのが{自然|しぜん}です。",
+    "why_en": "As the one waiting, you acknowledge and thank them."
+   },
+   {
+    "type": "meaning",
+    "section": "kanji",
+    "prompt_ja": "「たんとうしゃ」を{漢字|かんじ}で{書|か}くと、どれが{正|ただ}しい？",
+    "prompt_en": "Which is the correct kanji spelling of たんとうしゃ?",
+    "options": [
+     "{担当者|たんとうしゃ}",
+     "{単当者|たんとうしゃ}",
+     "{担答者|たんとうしゃ}",
+     "{短当者|たんとうしゃ}"
+    ],
+    "answer": 0,
+    "why_ja": "「{担|たん}」は「{引|ひ}き{受|う}ける」、「{当|とう}」は「{割|わ}り{当|あ}てる」で、「{担当者|たんとうしゃ}」と{書|か}きます。",
+    "why_en": "担 (take on) + 当 (assigned) + 者 (person)."
+   }
+  ]
+ },
+ {
+  "id": "n2_an_x04",
+  "level": "N2",
+  "ja": "{彼|かれ}は{日本語|にほんご}ばかりか、{韓国語|かんこくご}も{中国語|ちゅうごくご}も{話|はな}せる。",
+  "en": "He can speak not only Japanese but Korean and Chinese as well.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "「ばかりか」の{意味|いみ}は？",
+    "prompt_en": "What does ばかりか mean?",
+    "options": [
+     "〜だけでなく",
+     "〜だけしか",
+     "〜ので",
+     "〜のに"
+    ],
+    "answer": 0,
+    "why_ja": "「Aばかりか、Bも」は「Aだけでなく、Bも」という{意味|いみ}です。",
+    "why_en": "AばかりかBも = not only A but B too."
+   },
+   {
+    "type": "rewrite",
+    "section": "grammar",
+    "prompt_ja": "{同|おな}じ{意味|いみ}の{文|ぶん}はどれ？",
+    "prompt_en": "Which sentence means the same?",
+    "options": [
+     "{彼|かれ}は{日本語|にほんご}だけでなく、{韓国語|かんこくご}と{中国語|ちゅうごくご}も{話|はな}せる。",
+     "{彼|かれ}は{日本語|にほんご}しか{話|はな}せない。",
+     "{彼|かれ}は{日本語|にほんご}より{韓国語|かんこくご}のほうが{上手|じょうず}だ。"
+    ],
+    "answer": 0,
+    "why_ja": "「ばかりか」は「だけでなく」と{言|い}い{換|か}えられます。",
+    "why_en": "ばかりか can be rephrased as だけでなく."
+   },
+   {
+    "type": "subject_object",
+    "section": "reading",
+    "prompt_ja": "{彼|かれ}が{話|はな}せる{言葉|ことば}はいくつですか。",
+    "prompt_en": "How many languages can he speak?",
+    "options": [
+     "{一|ひと}つ",
+     "{二|ふた}つ",
+     "{三|みっ}つ"
+    ],
+    "answer": 2,
+    "why_ja": "{日本語|にほんご}、{韓国語|かんこくご}、{中国語|ちゅうごくご}の{三|みっ}つです。",
+    "why_en": "Japanese, Korean and Chinese: three."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "{友達|ともだち}がこう{言|い}いました。{自然|しぜん}な{返事|へんじ}は？",
+    "prompt_en": "A friend says this. What is a natural reply?",
+    "options": [
+     "へえ、すごいね。どうやって{勉強|べんきょう}したんだろう。",
+     "じゃあ、{日本語|にほんご}は{話|はな}せないんだね。",
+     "{三|みっ}つも{話|はな}せないの？"
+    ],
+    "answer": 0,
+    "why_ja": "{驚|おどろ}きや{感心|かんしん}を{表|あらわ}す{返事|へんじ}が{自然|しぜん}です。",
+    "why_en": "Showing surprise and admiration fits."
+   }
+  ]
+ },
+ {
+  "id": "n2_an_x05",
+  "level": "N2",
+  "ja": "{無理|むり}を{続|つづ}けると、{体|からだ}を{壊|こわ}しかねないよ。",
+  "en": "If you keep pushing yourself, you could ruin your health.",
+  "variants": [
+   {
+    "type": "meaning",
+    "section": "grammar",
+    "prompt_ja": "「{壊|こわ}しかねない」の{意味|いみ}は？",
+    "prompt_en": "What does 壊しかねない mean?",
+    "options": [
+     "{壊|こわ}すかもしれない",
+     "{壊|こわ}すことはできない",
+     "{絶対|ぜったい}に{壊|こわ}さない",
+     "{壊|こわ}したことがない"
+    ],
+    "answer": 0,
+    "why_ja": "「かねない」は{否定|ひてい}の{形|かたち}ですが、「（{悪|わる}いことを）するかもしれない」という{意味|いみ}です。",
+    "why_en": "Despite the negative form, かねない means 'might (do something bad)'."
+   },
+   {
+    "type": "same_pattern",
+    "section": "grammar",
+    "prompt_ja": "「かねない」の{使|つか}い{方|かた}が{正|ただ}しい{文|ぶん}は？",
+    "prompt_en": "Which sentence uses かねない correctly?",
+    "options": [
+     "{寝不足|ねぶそく}で{運転|うんてん}すると、{事故|じこ}を{起|お}こしかねない。",
+     "{毎日|まいにち}{練習|れんしゅう}すれば、{上手|じょうず}になりかねない。",
+     "その{件|けん}についてはお{答|こた}えしかねない。"
+    ],
+    "answer": 0,
+    "why_ja": "「かねない」は{悪|わる}い{結果|けっか}にだけ{使|つか}います。「お{答|こた}えしかねます」は「かねる」の{形|かたち}です。",
+    "why_en": "かねない is only for bad outcomes; お答えしかねます uses かねる."
+   },
+   {
+    "type": "respond",
+    "section": "conversation",
+    "prompt_ja": "{友達|ともだち}にこう{言|い}われました。{自然|しぜん}な{返事|へんじ}は？",
+    "prompt_en": "A friend says this to you. What is a natural reply?",
+    "options": [
+     "そうだね。{今週|こんしゅう}は{少|すこ}し{休|やす}むようにするよ。",
+     "うん、もっと{無理|むり}をするよ。",
+     "{体|からだ}を{壊|こわ}しかねます。"
+    ],
+    "answer": 0,
+    "why_ja": "{心配|しんぱい}してくれた{友達|ともだち}に、{休|やす}むと{答|こた}えるのが{自然|しぜん}です。",
+    "why_en": "Agreeing to rest is the natural answer to a worried friend."
+   },
+   {
+    "type": "meaning",
+    "section": "vocab",
+    "prompt_ja": "「{無理|むり}をする」に{近|ちか}い{意味|いみ}は？",
+    "prompt_en": "What is closest to 無理をする?",
+    "options": [
+     "{力|ちから}{以上|いじょう}のことを{頑張|がんば}ってする",
+     "ゆっくり{休|やす}む",
+     "{人|ひと}に{任|まか}せる"
+    ],
+    "answer": 0,
+    "why_ja": "「{無理|むり}をする」は、できる{以上|いじょう}のことを{頑張|がんば}ってすることです。",
+    "why_en": "無理をする = push yourself beyond your limits."
+   }
+  ]
+ }
+]
