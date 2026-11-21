@@ -1060,7 +1060,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{国|くに}と{国|くに}との{関係|かんけい}に{関|かか}わること。",
-  "english": "international; diplomatic intercourse",
+  "english": "international",
   "examples": [
    {
     "ja": "{来年|らいねん}、この{町|まち}で{国際|こくさい}{会議|かいぎ}が{開|ひら}かれる。",
@@ -1886,7 +1886,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{商品|しょうひん}が{売|う}り{買|か}いされる{場|ば}。{経済|けいざい}の{中|なか}での{取引|とりひき}の{全体|ぜんたい}。",
-  "english": "market (financial, stock, domestic, etc.); marketplace; exchange",
+  "english": "(town) market; (street) market; marketplace",
   "examples": [
    {
     "ja": "{新|あたら}しいスマートフォンが{市場|しじょう}に{出回|でまわ}った。",
@@ -2225,6 +2225,7267 @@
   "kanji": [
    "把",
    "握"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c7bc210a7e",
+  "headword": "相違",
+  "reading": "そうい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{二|ふた}つのものの{間|あいだ}にある{違|ちが}い。{書|か}き{言葉|ことば}でよく{使|つか}う。",
+  "english": "difference; discrepancy; variation",
+  "examples": [
+   {
+    "ja": "{両者|りょうしゃ}の{意見|いけん}には{大|おお}きな{相違|そうい}がある。",
+    "en": "There is a big difference between the two parties' opinions."
+   }
+  ],
+  "related": [
+   "違い",
+   "差"
+  ],
+  "kanji": [
+   "相",
+   "違"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a521150425",
+  "headword": "圧力",
+  "reading": "あつりょく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものを{押|お}す{力|ちから}。また、{人|ひと}に{言|い}うことを{聞|き}かせようとする{強|つよ}い{働|はたら}きかけ。",
+  "english": "pressure; pressure (e.g. political); arm-twisting",
+  "examples": [
+   {
+    "ja": "{周|まわ}りからの{圧力|あつりょく}に{負|ま}けず、{自分|じぶん}の{考|かんが}えを{守|まも}った。",
+    "en": "She stood by her own view without giving in to pressure from those around her."
+   }
+  ],
+  "related": [
+   "力"
+  ],
+  "kanji": [
+   "力",
+   "圧"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7ec9988d9c",
+  "headword": "意義",
+  "reading": "いぎ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "あることをする{価値|かち}や、{大切|たいせつ}な{意味|いみ}。",
+  "english": "meaning; significance",
+  "examples": [
+   {
+    "ja": "この{研究|けんきゅう}には{社会的|しゃかいてき}な{意義|いぎ}がある。",
+    "en": "This research has social significance."
+   }
+  ],
+  "related": [
+   "意味",
+   "価値"
+  ],
+  "kanji": [
+   "意",
+   "義"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_49d3ebf830",
+  "headword": "引退",
+  "reading": "いんたい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{長|なが}く{続|つづ}けてきた{仕事|しごと}や{選手|せんしゅ}としての{活動|かつどう}をやめること。",
+  "english": "retirement",
+  "examples": [
+   {
+    "ja": "その{選手|せんしゅ}は{今季|こんき}{限|かぎ}りで{引退|いんたい}すると{発表|はっぴょう}した。",
+    "en": "The player announced that he would retire at the end of this season."
+   }
+  ],
+  "related": [
+   "辞める"
+  ],
+  "kanji": [
+   "引",
+   "退"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_93d5eba183",
+  "headword": "運営",
+  "reading": "うんえい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{組織|そしき}や{店|みせ}、{行事|ぎょうじ}などがうまく{動|うご}くように{管理|かんり}すること。",
+  "english": "management; administration; operation",
+  "examples": [
+   {
+    "ja": "この{施設|しせつ}はボランティアによって{運営|うんえい}されている。",
+    "en": "This facility is run by volunteers."
+   }
+  ],
+  "related": [
+   "経営",
+   "管理"
+  ],
+  "kanji": [
+   "営",
+   "運"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_968eabefc2",
+  "headword": "演技",
+  "reading": "えんぎ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{役者|やくしゃ}などが{役|やく}になって{見|み}せる{動|うご}きや{話|はな}し{方|かた}。また、{本心|ほんしん}を{隠|かく}してふりをすること。",
+  "english": "acting; performance",
+  "examples": [
+   {
+    "ja": "{彼女|かのじょ}の{自然|しぜん}な{演技|えんぎ}が{高|たか}く{評価|ひょうか}された。",
+    "en": "Her natural acting was highly praised."
+   }
+  ],
+  "related": [
+   "役者"
+  ],
+  "kanji": [
+   "技",
+   "演"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_cf1ddc4ed9",
+  "headword": "延長",
+  "reading": "えんちょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{時間|じかん}や{長|なが}さ、{期間|きかん}をのばすこと。",
+  "english": "extension; elongation; prolongation",
+  "examples": [
+   {
+    "ja": "{会議|かいぎ}が{三十分|さんじゅっぷん}{延長|えんちょう}された。",
+    "en": "The meeting was extended by thirty minutes."
+   }
+  ],
+  "related": [
+   "短縮"
+  ],
+  "kanji": [
+   "延",
+   "長"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e6cd4a627b",
+  "headword": "開催",
+  "reading": "かいさい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{会|かい}や{大会|たいかい}、{行事|ぎょうじ}などを{開|ひら}いて{行|おこな}うこと。",
+  "english": "holding (a conference, exhibition, etc.); opening; hosting (e.g. the Olympics)",
+  "examples": [
+   {
+    "ja": "{来年|らいねん}、この{町|まち}で{国際|こくさい}{会議|かいぎ}が{開催|かいさい}される。",
+    "en": "An international conference will be held in this town next year."
+   }
+  ],
+  "related": [
+   "開く",
+   "行う"
+  ],
+  "kanji": [
+   "催",
+   "開"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ba7eda69d7",
+  "headword": "解消",
+  "reading": "かいしょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{問題|もんだい}や{悩|なや}み、{約束|やくそく}などをなくして、もとの{状態|じょうたい}にすること。",
+  "english": "cancellation; liquidation; resolution",
+  "examples": [
+   {
+    "ja": "{運動|うんどう}はストレスの{解消|かいしょう}に{役立|やくだ}つ。",
+    "en": "Exercise helps to relieve stress."
+   }
+  ],
+  "related": [
+   "解決"
+  ],
+  "kanji": [
+   "消",
+   "解"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d9f5144f2b",
+  "headword": "改正",
+  "reading": "かいせい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{法律|ほうりつ}や{規則|きそく}などを、よりよい{形|かたち}に{改|あらた}めること。",
+  "english": "revision; amendment; alteration",
+  "examples": [
+   {
+    "ja": "{法律|ほうりつ}の{改正|かいせい}によって、{手続|てつづ}きが{簡単|かんたん}になった。",
+    "en": "Thanks to the revision of the law, the procedure became simpler."
+   }
+  ],
+  "related": [
+   "改める",
+   "規則"
+  ],
+  "kanji": [
+   "改",
+   "正"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9b96335604",
+  "headword": "解約",
+  "reading": "かいやく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{結|むす}んでいた{契約|けいやく}を、{途中|とちゅう}でやめること。",
+  "english": "cancellation of a contract",
+  "examples": [
+   {
+    "ja": "{使|つか}っていない{携帯|けいたい}の{契約|けいやく}を{解約|かいやく}した。",
+    "en": "I cancelled the contract for a phone I wasn't using."
+   }
+  ],
+  "related": [
+   "契約"
+  ],
+  "kanji": [
+   "約",
+   "解"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f0caf9cf0d",
+  "headword": "拡大",
+  "reading": "かくだい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{大|おお}きさや{範囲|はんい}を{広|ひろ}げて{大|おお}きくすること。",
+  "english": "expansion; extension; magnification",
+  "examples": [
+   {
+    "ja": "{会社|かいしゃ}は{海外|かいがい}へ{事業|じぎょう}を{拡大|かくだい}する{予定|よてい}だ。",
+    "en": "The company plans to expand its business overseas."
+   }
+  ],
+  "related": [
+   "縮小"
+  ],
+  "kanji": [
+   "大",
+   "拡"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_1aae14251f",
+  "headword": "仮定",
+  "reading": "かてい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{本当|ほんとう}かどうかわからないことを、{仮|かり}にそうだとして{考|かんが}えること。",
+  "english": "assumption; supposition; hypothesis",
+  "examples": [
+   {
+    "ja": "{雨|あめ}が{降|ふ}ると{仮定|かてい}して、{計画|けいかく}を{立|た}てておこう。",
+    "en": "Let's make plans on the assumption that it will rain."
+   }
+  ],
+  "related": [
+   "仮に"
+  ],
+  "kanji": [
+   "仮",
+   "定"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ca502e1544",
+  "headword": "過程",
+  "reading": "かてい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとが{始|はじ}まってから{終|お}わるまでの{進|すす}み{方|かた}や、{途中|とちゅう}の{様子|ようす}。",
+  "english": "process; course; mechanism",
+  "examples": [
+   {
+    "ja": "{結果|けっか}だけでなく、そこまでの{過程|かてい}も{大切|たいせつ}だ。",
+    "en": "Not just the result but also the process of getting there matters."
+   }
+  ],
+  "related": [
+   "途中",
+   "結果"
+  ],
+  "kanji": [
+   "程",
+   "過"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_48fecef71c",
+  "headword": "可能性",
+  "reading": "かのうせい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "そうなるかもしれない{見込|みこ}み。また、これから{伸|の}びていく{力|ちから}。",
+  "english": "possibility; chance; likelihood",
+  "examples": [
+   {
+    "ja": "{明日|あした}は{雪|ゆき}が{降|ふ}る{可能性|かのうせい}がある。",
+    "en": "There is a chance of snow tomorrow."
+   }
+  ],
+  "related": [
+   "可能"
+  ],
+  "kanji": [
+   "可",
+   "性",
+   "能"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3f2885c97d",
+  "headword": "観察",
+  "reading": "かんさつ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとの{様子|ようす}を、{注意|ちゅうい}して{細|こま}かく{見|み}ること。",
+  "english": "observation; survey; watching",
+  "examples": [
+   {
+    "ja": "{子|こ}どもたちはアリの{動|うご}きを{観察|かんさつ}した。",
+    "en": "The children observed how the ants moved."
+   }
+  ],
+  "related": [
+   "見る"
+  ],
+  "kanji": [
+   "察",
+   "観"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ff8cd79797",
+  "headword": "鑑賞",
+  "reading": "かんしょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{絵|え}や{音楽|おんがく}、{映画|えいが}などの{芸術|げいじゅつ}を{味|あじ}わって{楽|たの}しむこと。",
+  "english": "appreciation (of art, music, poetry, etc.)",
+  "examples": [
+   {
+    "ja": "{私|わたし}の{趣味|しゅみ}は{映画|えいが}{鑑賞|かんしょう}です。",
+    "en": "My hobby is watching films."
+   }
+  ],
+  "related": [
+   "芸術"
+  ],
+  "kanji": [
+   "賞",
+   "鑑"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_925a2ca1e1",
+  "headword": "完了",
+  "reading": "かんりょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "するべきことが、すべて{終|お}わること。",
+  "english": "completion; conclusion; perfect (tense)",
+  "examples": [
+   {
+    "ja": "{登録|とうろく}が{完了|かんりょう}すると、メールが{届|とど}きます。",
+    "en": "When registration is complete, you will receive an email."
+   }
+  ],
+  "related": [
+   "完成",
+   "終わる"
+  ],
+  "kanji": [
+   "了",
+   "完"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_20dc61d9ec",
+  "headword": "関連",
+  "reading": "かんれん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとが{互|たが}いにつながりを{持|も}っていること。",
+  "english": "relation; connection; relevance",
+  "examples": [
+   {
+    "ja": "{事件|じけん}に{関連|かんれん}する{情報|じょうほう}を{集|あつ}めている。",
+    "en": "We are gathering information related to the incident."
+   }
+  ],
+  "related": [
+   "関係"
+  ],
+  "kanji": [
+   "連",
+   "関"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_542d1f6746",
+  "headword": "規模",
+  "reading": "きぼ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとの{大|おお}きさや{広|ひろ}がりの{程度|ていど}。",
+  "english": "scale; scope; plan",
+  "examples": [
+   {
+    "ja": "{今年|ことし}の{祭|まつ}りは{去年|きょねん}より{規模|きぼ}が{大|おお}きい。",
+    "en": "This year's festival is bigger in scale than last year's."
+   }
+  ],
+  "related": [
+   "大きさ"
+  ],
+  "kanji": [
+   "模",
+   "規"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c2ff07e82d",
+  "headword": "基盤",
+  "reading": "きばん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとを{支|ささ}える、{土台|どだい}になる{部分|ぶぶん}。",
+  "english": "base; basis; foundation",
+  "examples": [
+   {
+    "ja": "{生活|せいかつ}の{基盤|きばん}を{作|つく}るため、{仕事|しごと}を{探|さが}している。",
+    "en": "I'm looking for work to build a foundation for my life."
+   }
+  ],
+  "related": [
+   "土台",
+   "基本"
+  ],
+  "kanji": [
+   "基",
+   "盤"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_11e5d26a01",
+  "headword": "救助",
+  "reading": "きゅうじょ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{危|あぶ}ない{目|め}にあっている{人|ひと}を{助|たす}けること。",
+  "english": "relief; aid; rescue",
+  "examples": [
+   {
+    "ja": "{山|やま}で{道|みち}に{迷|まよ}った{二人|ふたり}が{無事|ぶじ}{救助|きゅうじょ}された。",
+    "en": "The two people who got lost on the mountain were rescued safely."
+   }
+  ],
+  "related": [
+   "助ける"
+  ],
+  "kanji": [
+   "助",
+   "救"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f7afbf07a6",
+  "headword": "給与",
+  "reading": "きゅうよ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{会社|かいしゃ}などが、{働|はたら}いた{人|ひと}に{払|はら}うお{金|かね}。「{給料|きゅうりょう}」の{硬|かた}い{言|い}い{方|かた}。",
+  "english": "pay; salary; wages",
+  "examples": [
+   {
+    "ja": "{給与|きゅうよ}は{毎月|まいつき}{二十五日|にじゅうごにち}に{支払|しはら}われる。",
+    "en": "Salaries are paid on the 25th of every month."
+   }
+  ],
+  "related": [
+   "給料"
+  ],
+  "kanji": [
+   "与",
+   "給"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_620277f650",
+  "headword": "強調",
+  "reading": "きょうちょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ある{点|てん}を{特|とく}に{強|つよ}く{言|い}ったり、{目立|めだ}たせたりすること。",
+  "english": "emphasis; stress; highlighting",
+  "examples": [
+   {
+    "ja": "{先生|せんせい}は{復習|ふくしゅう}の{大切|たいせつ}さを{強調|きょうちょう}した。",
+    "en": "The teacher stressed the importance of review."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "強",
+   "調"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f0e386dfa2",
+  "headword": "拒否",
+  "reading": "きょひ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{頼|たの}みや{要求|ようきゅう}を、はっきりと{断|ことわ}ること。",
+  "english": "refusal; rejection; denial",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{取材|しゅざい}を{拒否|きょひ}した。",
+    "en": "He refused the interview."
+   }
+  ],
+  "related": [
+   "断る"
+  ],
+  "kanji": [
+   "否",
+   "拒"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fcd7874bb9",
+  "headword": "勤務",
+  "reading": "きんむ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{会社|かいしゃ}などに{勤|つと}めて{仕事|しごと}をすること。",
+  "english": "service; duty; work",
+  "examples": [
+   {
+    "ja": "{兄|あに}は{市役所|しやくしょ}に{勤務|きんむ}している。",
+    "en": "My older brother works at the city hall."
+   }
+  ],
+  "related": [
+   "勤める"
+  ],
+  "kanji": [
+   "務",
+   "勤"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f70adc840f",
+  "headword": "苦情",
+  "reading": "くじょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{迷惑|めいわく}や{不満|ふまん}を{相手|あいて}に{伝|つた}えること。また、その{内容|ないよう}。",
+  "english": "complaint; troubles; objection",
+  "examples": [
+   {
+    "ja": "{近所|きんじょ}の{人|ひと}から{騒音|そうおん}の{苦情|くじょう}が{来|き}た。",
+    "en": "A neighbour complained about the noise."
+   }
+  ],
+  "related": [
+   "文句",
+   "不満"
+  ],
+  "kanji": [
+   "情",
+   "苦"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_45f19eb64d",
+  "headword": "工夫",
+  "reading": "くふう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "よりよい{方法|ほうほう}を、いろいろ{考|かんが}えて{試|ため}すこと。",
+  "english": "devising (a way); contriving; inventing",
+  "examples": [
+   {
+    "ja": "{狭|せま}い{部屋|へや}でも、{工夫|くふう}すれば{広|ひろ}く{使|つか}える。",
+    "en": "Even a small room can be used spaciously if you get creative."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "夫",
+   "工"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e77c41b224",
+  "headword": "経費",
+  "reading": "けいひ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{仕事|しごと}などをするのにかかるお{金|かね}。",
+  "english": "expenses; expenditure; outgoings",
+  "examples": [
+   {
+    "ja": "{出張|しゅっちょう}の{交通費|こうつうひ}は{経費|けいひ}で{落|お}とせる。",
+    "en": "Travel costs for business trips can be claimed as expenses."
+   }
+  ],
+  "related": [
+   "費用"
+  ],
+  "kanji": [
+   "経",
+   "費"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_caa47d14c5",
+  "headword": "経由",
+  "reading": "けいゆ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{目的地|もくてきち}へ{行|い}く{途中|とちゅう}で、ある{場所|ばしょ}を{通|とお}ること。",
+  "english": "going through; going via; going by way of",
+  "examples": [
+   {
+    "ja": "{大阪|おおさか}を{経由|けいゆ}して{福岡|ふくおか}へ{向|む}かった。",
+    "en": "We headed to Fukuoka by way of Osaka."
+   }
+  ],
+  "related": [
+   "通る"
+  ],
+  "kanji": [
+   "由",
+   "経"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_695bc78c93",
+  "headword": "欠陥",
+  "reading": "けっかん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{作|つく}りや{仕組|しく}みにある、{大事|だいじ}な{足|た}りないところや{悪|わる}いところ。",
+  "english": "defect; fault; flaw",
+  "examples": [
+   {
+    "ja": "{車|くるま}のブレーキに{欠陥|けっかん}が{見|み}つかった。",
+    "en": "A defect was found in the car's brakes."
+   }
+  ],
+  "related": [
+   "欠点"
+  ],
+  "kanji": [
+   "欠",
+   "陥"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f6ba299a81",
+  "headword": "原則",
+  "reading": "げんそく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{多|おお}くの{場合|ばあい}にあてはまる、{基本|きほん}になる{決|き}まり。",
+  "english": "principle; general rule; as a rule",
+  "examples": [
+   {
+    "ja": "{会議室|かいぎしつ}での{食事|しょくじ}は{原則|げんそく}{禁止|きんし}です。",
+    "en": "As a rule, eating in the meeting room is not allowed."
+   }
+  ],
+  "related": [
+   "規則"
+  ],
+  "kanji": [
+   "則",
+   "原"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3f40a2bc4a",
+  "headword": "限界",
+  "reading": "げんかい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "これ{以上|いじょう}はできない、というぎりぎりのところ。",
+  "english": "limit; bound",
+  "examples": [
+   {
+    "ja": "{毎日|まいにち}の{残業|ざんぎょう}で、{体力|たいりょく}が{限界|げんかい}に{近|ちか}い。",
+    "en": "With overtime every day, I'm close to the limit of my stamina."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "界",
+   "限"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3282f2b5ff",
+  "headword": "現状",
+  "reading": "げんじょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{今|いま}のありのままの{様子|ようす}。",
+  "english": "present condition; existing state; status quo",
+  "examples": [
+   {
+    "ja": "まず{現状|げんじょう}を{正|ただ}しく{把握|はあく}することが{大切|たいせつ}だ。",
+    "en": "First of all, it's important to grasp the current situation accurately."
+   }
+  ],
+  "related": [
+   "状況"
+  ],
+  "kanji": [
+   "状",
+   "現"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_447becbe98",
+  "headword": "検索",
+  "reading": "けんさく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "たくさんの{情報|じょうほう}の{中|なか}から、{必要|ひつよう}なものを{探|さが}し{出|だ}すこと。",
+  "english": "looking up (e.g. a word in a dictionary); search (e.g. on the Internet); retrieval (of information)",
+  "examples": [
+   {
+    "ja": "{知|し}らない{言葉|ことば}をインターネットで{検索|けんさく}した。",
+    "en": "I searched for an unfamiliar word on the internet."
+   }
+  ],
+  "related": [
+   "調べる"
+  ],
+  "kanji": [
+   "検",
+   "索"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8702a742c8",
+  "headword": "建設",
+  "reading": "けんせつ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{建物|たてもの}や{道路|どうろ}、{橋|はし}などを{新|あたら}しく{造|つく}ること。",
+  "english": "construction; establishment",
+  "examples": [
+   {
+    "ja": "{駅|えき}の{近|ちか}くに{高層|こうそう}マンションが{建設|けんせつ}されている。",
+    "en": "A high-rise apartment block is being built near the station."
+   }
+  ],
+  "related": [
+   "建てる",
+   "工事"
+  ],
+  "kanji": [
+   "建",
+   "設"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f11337acfe",
+  "headword": "講演",
+  "reading": "こうえん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{大勢|おおぜい}の{人|ひと}の{前|まえ}で、ある{話題|わだい}について{話|はな}すこと。",
+  "english": "lecture; address; speech",
+  "examples": [
+   {
+    "ja": "{有名|ゆうめい}な{作家|さっか}の{講演|こうえん}を{聞|き}きに{行|い}った。",
+    "en": "I went to hear a talk by a famous writer."
+   }
+  ],
+  "related": [
+   "講義"
+  ],
+  "kanji": [
+   "演",
+   "講"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_88b0d0c413",
+  "headword": "交代",
+  "reading": "こうたい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{役目|やくめ}や{場所|ばしょ}を、ほかの{人|ひと}と{入|い}れ{替|か}わること。",
+  "english": "change; alternation; rotation",
+  "examples": [
+   {
+    "ja": "{運転|うんてん}は{二時間|にじかん}ごとに{交代|こうたい}しよう。",
+    "en": "Let's take turns driving every two hours."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "交",
+   "代"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5782c1d9d7",
+  "headword": "肯定",
+  "reading": "こうてい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "そのとおりだと{認|みと}めること。",
+  "english": "affirmation; affirmative",
+  "examples": [
+   {
+    "ja": "{社長|しゃちょう}は{噂|うわさ}を{肯定|こうてい}も{否定|ひてい}もしなかった。",
+    "en": "The president neither confirmed nor denied the rumour."
+   }
+  ],
+  "related": [
+   "否定"
+  ],
+  "kanji": [
+   "定",
+   "肯"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f283cb8c61",
+  "headword": "候補",
+  "reading": "こうほ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ある{役|やく}や{地位|ちい}に{選|えら}ばれる{可能性|かのうせい}のある{人|ひと}やもの。",
+  "english": "candidate; contender; prospect",
+  "examples": [
+   {
+    "ja": "{旅行先|りょこうさき}の{候補|こうほ}を{三|みっ}つに{絞|しぼ}った。",
+    "en": "We narrowed the candidate destinations for our trip down to three."
+   }
+  ],
+  "related": [
+   "選挙"
+  ],
+  "kanji": [
+   "候",
+   "補"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4855ca785a",
+  "headword": "項目",
+  "reading": "こうもく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{内容|ないよう}をいくつかに{分|わ}けた、{一|ひと}つ{一|ひと}つの{部分|ぶぶん}。",
+  "english": "item; heading; category",
+  "examples": [
+   {
+    "ja": "{申込書|もうしこみしょ}のすべての{項目|こうもく}に{記入|きにゅう}してください。",
+    "en": "Please fill in every item on the application form."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "目",
+   "項"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c4b9bd09a8",
+  "headword": "個性",
+  "reading": "こせい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "その{人|ひと}やものだけが{持|も}っている、ほかとは{違|ちが}う{特徴|とくちょう}。",
+  "english": "individuality; personality; quirk",
+  "examples": [
+   {
+    "ja": "この{学校|がっこう}は{生徒|せいと}の{個性|こせい}を{大切|たいせつ}にしている。",
+    "en": "This school values each student's individuality."
+   }
+  ],
+  "related": [
+   "特徴"
+  ],
+  "kanji": [
+   "個",
+   "性"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5df0fd9d0f",
+  "headword": "根本",
+  "reading": "こんぽん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとの{一番|いちばん}もとになっている{大事|だいじ}な{部分|ぶぶん}。",
+  "english": "root; source; origin",
+  "examples": [
+   {
+    "ja": "{問題|もんだい}を{根本|こんぽん}から{見直|みなお}す{必要|ひつよう}がある。",
+    "en": "We need to rethink the problem from the ground up."
+   }
+  ],
+  "related": [
+   "基本",
+   "根本的"
+  ],
+  "kanji": [
+   "本",
+   "根"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4ca8db1984",
+  "headword": "混乱",
+  "reading": "こんらん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "いろいろなものが{入|い}り{混|ま}じって、まとまりがなくなること。",
+  "english": "disorder; chaos; confusion",
+  "examples": [
+   {
+    "ja": "{事故|じこ}の{影響|えいきょう}で、{駅|えき}は{混乱|こんらん}していた。",
+    "en": "Because of the accident, the station was in chaos."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "乱",
+   "混"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c8efe759c2",
+  "headword": "催促",
+  "reading": "さいそく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{早|はや}くするように、{相手|あいて}に{求|もと}めること。",
+  "english": "pressing; urging; demanding",
+  "examples": [
+   {
+    "ja": "{本|ほん}を{返|かえ}すように{図書館|としょかん}から{催促|さいそく}された。",
+    "en": "The library urged me to return the book."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "促",
+   "催"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8b402ff53a",
+  "headword": "削除",
+  "reading": "さくじょ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{文章|ぶんしょう}やデータなどの{一部|いちぶ}を{取|と}り{除|のぞ}くこと。",
+  "english": "deletion; elimination; erasure",
+  "examples": [
+   {
+    "ja": "{間違|まちが}って{大事|だいじ}なファイルを{削除|さくじょ}してしまった。",
+    "en": "I accidentally deleted an important file."
+   }
+  ],
+  "related": [
+   "消す",
+   "追加"
+  ],
+  "kanji": [
+   "削",
+   "除"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6901d276de",
+  "headword": "作成",
+  "reading": "さくせい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{書類|しょるい}や{計画|けいかく}などを{作|つく}ること。",
+  "english": "making (a report, plan, contract, etc.); drawing up; writing out",
+  "examples": [
+   {
+    "ja": "{会議|かいぎ}の{資料|しりょう}を{作成|さくせい}した。",
+    "en": "I prepared the materials for the meeting."
+   }
+  ],
+  "related": [
+   "作る"
+  ],
+  "kanji": [
+   "作",
+   "成"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e8dd0d66c2",
+  "headword": "支援",
+  "reading": "しえん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{困|こま}っている{人|ひと}や{活動|かつどう}を{助|たす}けて{支|ささ}えること。",
+  "english": "support; backing; aid",
+  "examples": [
+   {
+    "ja": "{多|おお}くの{人|ひと}が{被災地|ひさいち}への{支援|しえん}を{続|つづ}けている。",
+    "en": "Many people continue to support the disaster-hit areas."
+   }
+  ],
+  "related": [
+   "助ける",
+   "協力"
+  ],
+  "kanji": [
+   "援",
+   "支"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_18948c0444",
+  "headword": "視点",
+  "reading": "してん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとを{見|み}たり{考|かんが}えたりするときの{立場|たちば}。",
+  "english": "point of view; viewpoint; angle",
+  "examples": [
+   {
+    "ja": "{子|こ}どもの{視点|してん}から{町|まち}を{見直|みなお}してみよう。",
+    "en": "Let's look at the town again from a child's point of view."
+   }
+  ],
+  "related": [
+   "観点"
+  ],
+  "kanji": [
+   "点",
+   "視"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4267ee3ca6",
+  "headword": "指摘",
+  "reading": "してき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{問題|もんだい}や{間違|まちが}いなどを、はっきり{示|しめ}すこと。",
+  "english": "pointing out; identification",
+  "examples": [
+   {
+    "ja": "{上司|じょうし}に{書類|しょるい}のミスを{指摘|してき}された。",
+    "en": "My boss pointed out a mistake in the document."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "指",
+   "摘"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_002ae1547f",
+  "headword": "実感",
+  "reading": "じっかん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{本当|ほんとう}にそうだと、{自分|じぶん}で{強|つよ}く{感|かん}じること。",
+  "english": "real feeling; actual feeling; to actually feel",
+  "examples": [
+   {
+    "ja": "{一人暮|ひとりぐ}らしを{始|はじ}めて、{親|おや}のありがたさを{実感|じっかん}した。",
+    "en": "After starting to live alone, I truly felt how much my parents had done for me."
+   }
+  ],
+  "related": [
+   "感じる"
+  ],
+  "kanji": [
+   "実",
+   "感"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_09fd359663",
+  "headword": "実現",
+  "reading": "じつげん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{考|かんが}えていたことや{夢|ゆめ}が、{本当|ほんとう}のことになること。",
+  "english": "implementation (e.g. of a system); materialization; materialisation",
+  "examples": [
+   {
+    "ja": "{長年|ながねん}の{夢|ゆめ}がついに{実現|じつげん}した。",
+    "en": "My long-held dream finally came true."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "実",
+   "現"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_223cd8a460",
+  "headword": "実態",
+  "reading": "じったい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{外|そと}から{見|み}えにくい、ものごとの{本当|ほんとう}の{様子|ようす}。",
+  "english": "true state; actual condition; reality",
+  "examples": [
+   {
+    "ja": "{若者|わかもの}の{働|はたら}き{方|かた}の{実態|じったい}を{調査|ちょうさ}した。",
+    "en": "We surveyed the real state of how young people work."
+   }
+  ],
+  "related": [
+   "現状"
+  ],
+  "kanji": [
+   "実",
+   "態"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3045862f92",
+  "headword": "姿勢",
+  "reading": "しせい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{体|からだ}の{形|かたち}や{構|かま}え。また、ものごとに{向|む}かう{考|かんが}え{方|かた}や{態度|たいど}。",
+  "english": "posture; pose; position",
+  "examples": [
+   {
+    "ja": "{長時間|ちょうじかん}パソコンを{使|つか}うときは、{姿勢|しせい}に{気|き}をつけよう。",
+    "en": "Watch your posture when you use a computer for a long time."
+   }
+  ],
+  "related": [
+   "態度"
+  ],
+  "kanji": [
+   "勢",
+   "姿"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_79ba68fbab",
+  "headword": "自覚",
+  "reading": "じかく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{自分|じぶん}の{立場|たちば}や{状態|じょうたい}、{責任|せきにん}などを、{自分|じぶん}でよくわかっていること。",
+  "english": "self-awareness; awareness (of one's position, abilities, duty, etc.); consciousness",
+  "examples": [
+   {
+    "ja": "{社会人|しゃかいじん}としての{自覚|じかく}を{持|も}ちなさい。",
+    "en": "Be aware of your responsibilities as a working adult."
+   }
+  ],
+  "related": [
+   "意識"
+  ],
+  "kanji": [
+   "自",
+   "覚"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_02d7768d36",
+  "headword": "事態",
+  "reading": "じたい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "その{時|とき}のものごとの{様子|ようす}。{特|とく}に、よくない{状況|じょうきょう}について{言|い}う。",
+  "english": "situation; (present) state of affairs; circumstances",
+  "examples": [
+   {
+    "ja": "{事態|じたい}は{思|おも}ったより{深刻|しんこく}だった。",
+    "en": "The situation was more serious than I had thought."
+   }
+  ],
+  "related": [
+   "状況"
+  ],
+  "kanji": [
+   "事",
+   "態"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_37298c118a",
+  "headword": "重視",
+  "reading": "じゅうし",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ほかより{大切|たいせつ}だと{考|かんが}えること。",
+  "english": "regarding as important; attaching importance to; taking a serious view of",
+  "examples": [
+   {
+    "ja": "この{会社|かいしゃ}は{経験|けいけん}より{人柄|ひとがら}を{重視|じゅうし}している。",
+    "en": "This company values personality more than experience."
+   }
+  ],
+  "related": [
+   "軽視"
+  ],
+  "kanji": [
+   "視",
+   "重"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_da679b4f44",
+  "headword": "収集",
+  "reading": "しゅうしゅう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものや{情報|じょうほう}を{集|あつ}めること。",
+  "english": "collecting; accumulating; gathering",
+  "examples": [
+   {
+    "ja": "{父|ちち}の{趣味|しゅみ}は{古|ふる}い{切手|きって}の{収集|しゅうしゅう}だ。",
+    "en": "My father's hobby is collecting old stamps."
+   }
+  ],
+  "related": [
+   "集める"
+  ],
+  "kanji": [
+   "収",
+   "集"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f12a167806",
+  "headword": "循環",
+  "reading": "じゅんかん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ひと{回|まわ}りして、もとに{戻|もど}ることをくり{返|かえ}すこと。",
+  "english": "circulation; rotation; cycle",
+  "examples": [
+   {
+    "ja": "{適度|てきど}な{運動|うんどう}は{血液|けつえき}の{循環|じゅんかん}をよくする。",
+    "en": "Moderate exercise improves blood circulation."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "循",
+   "環"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c4bb7fac22",
+  "headword": "省略",
+  "reading": "しょうりゃく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{文章|ぶんしょう}や{手順|てじゅん}の{一部|いちぶ}を{省|はぶ}くこと。",
+  "english": "omission; leaving out; abbreviation",
+  "examples": [
+   {
+    "ja": "{詳|くわ}しい{説明|せつめい}は{省略|しょうりゃく}します。",
+    "en": "I'll skip the detailed explanation."
+   }
+  ],
+  "related": [
+   "省く"
+  ],
+  "kanji": [
+   "略",
+   "省"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_916cb1e8f8",
+  "headword": "職場",
+  "reading": "しょくば",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{仕事|しごと}をしている{場所|ばしょ}。",
+  "english": "one's post; place of work; workplace",
+  "examples": [
+   {
+    "ja": "{新|あたら}しい{職場|しょくば}にも、だいぶ{慣|な}れてきた。",
+    "en": "I've got quite used to my new workplace."
+   }
+  ],
+  "related": [
+   "会社"
+  ],
+  "kanji": [
+   "場",
+   "職"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8a75742bec",
+  "headword": "処理",
+  "reading": "しょり",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{仕事|しごと}や{問題|もんだい}などを、うまく{片付|かたづ}けること。",
+  "english": "processing; dealing with; treatment",
+  "examples": [
+   {
+    "ja": "たまっていたメールを{午前中|ごぜんちゅう}に{処理|しょり}した。",
+    "en": "I dealt with the emails that had piled up during the morning."
+   }
+  ],
+  "related": [
+   "片付ける"
+  ],
+  "kanji": [
+   "処",
+   "理"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_57abb5a05d",
+  "headword": "署名",
+  "reading": "しょめい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{書類|しょるい}などに、{自分|じぶん}の{名前|なまえ}を{書|か}くこと。",
+  "english": "signature; autograph",
+  "examples": [
+   {
+    "ja": "{契約書|けいやくしょ}に{署名|しょめい}する{前|まえ}に、よく{読|よ}んでください。",
+    "en": "Please read the contract carefully before you sign it."
+   }
+  ],
+  "related": [
+   "サイン"
+  ],
+  "kanji": [
+   "名",
+   "署"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_062e947a1f",
+  "headword": "所有",
+  "reading": "しょゆう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものを{自分|じぶん}のものとして{持|も}っていること。",
+  "english": "possession; ownership",
+  "examples": [
+   {
+    "ja": "この{土地|とち}は{市|し}が{所有|しょゆう}している。",
+    "en": "This land is owned by the city."
+   }
+  ],
+  "related": [
+   "持つ"
+  ],
+  "kanji": [
+   "所",
+   "有"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f26a72701a",
+  "headword": "推薦",
+  "reading": "すいせん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "よいと{思|おも}う{人|ひと}やものを、ほかの{人|ひと}に{勧|すす}めること。",
+  "english": "recommendation; referral; endorsement",
+  "examples": [
+   {
+    "ja": "{先生|せんせい}の{推薦|すいせん}で、{大学|だいがく}に{入学|にゅうがく}できた。",
+    "en": "I got into university on my teacher's recommendation."
+   }
+  ],
+  "related": [
+   "勧める"
+  ],
+  "kanji": [
+   "推",
+   "薦"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d6dd2b586e",
+  "headword": "推測",
+  "reading": "すいそく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "わかっていることをもとに、たぶんこうだろうと{考|かんが}えること。",
+  "english": "guess; conjecture",
+  "examples": [
+   {
+    "ja": "これはあくまで{私|わたし}の{推測|すいそく}にすぎません。",
+    "en": "This is nothing more than my guess."
+   }
+  ],
+  "related": [
+   "予測"
+  ],
+  "kanji": [
+   "推",
+   "測"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d16196fdd2",
+  "headword": "成果",
+  "reading": "せいか",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{努力|どりょく}や{仕事|しごと}によって{得|え}られた、よい{結果|けっか}。",
+  "english": "(good) result; outcome; fruits (of one's labors)",
+  "examples": [
+   {
+    "ja": "{毎日|まいにち}の{練習|れんしゅう}の{成果|せいか}が{試合|しあい}で{出|で}た。",
+    "en": "The results of daily practice showed in the match."
+   }
+  ],
+  "related": [
+   "結果"
+  ],
+  "kanji": [
+   "成",
+   "果"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8081042710",
+  "headword": "精神",
+  "reading": "せいしん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}の{心|こころ}の{働|はたら}き。また、ものごとの{根本|こんぽん}にある{考|かんが}え。",
+  "english": "mind; spirit; soul",
+  "examples": [
+   {
+    "ja": "{試合|しあい}の{前|まえ}は{精神|せいしん}を{落|お}ち{着|つ}けることが{大切|たいせつ}だ。",
+    "en": "It's important to calm your mind before a match."
+   }
+  ],
+  "related": [
+   "心"
+  ],
+  "kanji": [
+   "神",
+   "精"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_94d43401b5",
+  "headword": "設計",
+  "reading": "せっけい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{建物|たてもの}や{機械|きかい}などを{作|つく}る{前|まえ}に、{形|かたち}や{仕組|しく}みを{考|かんが}えて{図|ず}にすること。",
+  "english": "plan; design; layout",
+  "examples": [
+   {
+    "ja": "この{家|いえ}は{有名|ゆうめい}な{建築家|けんちくか}が{設計|せっけい}した。",
+    "en": "This house was designed by a famous architect."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "計",
+   "設"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9581d943d2",
+  "headword": "設定",
+  "reading": "せってい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{機械|きかい}の{条件|じょうけん}や{目標|もくひょう}、ルールなどを{決|き}めること。",
+  "english": "establishment; creation; posing (a problem)",
+  "examples": [
+   {
+    "ja": "スマホの{言語|げんご}{設定|せってい}を{日本語|にほんご}に{変|か}えた。",
+    "en": "I changed my smartphone's language setting to Japanese."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "定",
+   "設"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2e1de58be5",
+  "headword": "説得",
+  "reading": "せっとく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "よく{話|はな}して、{相手|あいて}に{納得|なっとく}してもらうこと。",
+  "english": "persuasion",
+  "examples": [
+   {
+    "ja": "{親|おや}を{説得|せっとく}して、{留学|りゅうがく}を{許|ゆる}してもらった。",
+    "en": "I persuaded my parents to let me study abroad."
+   }
+  ],
+  "related": [
+   "納得"
+  ],
+  "kanji": [
+   "得",
+   "説"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6af2dc0013",
+  "headword": "専念",
+  "reading": "せんねん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ほかのことはしないで、{一|ひと}つのことだけに{力|ちから}を{注|そそ}ぐこと。",
+  "english": "absorption; giving undivided attention; devoting oneself (to)",
+  "examples": [
+   {
+    "ja": "{仕事|しごと}を{辞|や}めて、{子育|こそだ}てに{専念|せんねん}している。",
+    "en": "She quit her job and is devoting herself to raising her children."
+   }
+  ],
+  "related": [
+   "集中"
+  ],
+  "kanji": [
+   "専",
+   "念"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_15660ccdd2",
+  "headword": "操作",
+  "reading": "そうさ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{機械|きかい}などを{動|うご}かして{使|つか}うこと。",
+  "english": "operation; management; handling",
+  "examples": [
+   {
+    "ja": "この{機械|きかい}は{操作|そうさ}が{簡単|かんたん}だ。",
+    "en": "This machine is easy to operate."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "作",
+   "操"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ab0bac5eda",
+  "headword": "測定",
+  "reading": "そくてい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{道具|どうぐ}や{機械|きかい}を{使|つか}って、{長|なが}さや{重|おも}さ、{量|りょう}などを{調|しら}べること。",
+  "english": "measurement",
+  "examples": [
+   {
+    "ja": "{健康|けんこう}{診断|しんだん}で{血圧|けつあつ}を{測定|そくてい}した。",
+    "en": "They measured my blood pressure at the health check."
+   }
+  ],
+  "related": [
+   "測る"
+  ],
+  "kanji": [
+   "定",
+   "測"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_55c1e265d5",
+  "headword": "素材",
+  "reading": "そざい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものを{作|つく}るもとになる{材料|ざいりょう}。",
+  "english": "ingredient; (raw) material; resource",
+  "examples": [
+   {
+    "ja": "このシャツは{夏|なつ}に{涼|すず}しい{素材|そざい}でできている。",
+    "en": "This shirt is made of a material that is cool in summer."
+   }
+  ],
+  "related": [
+   "材料"
+  ],
+  "kanji": [
+   "材",
+   "素"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9c88cb5305",
+  "headword": "損害",
+  "reading": "そんがい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{事故|じこ}や{災害|さいがい}などで{受|う}ける、お{金|かね}やものの{損|そん}。",
+  "english": "damage; injury; loss",
+  "examples": [
+   {
+    "ja": "{台風|たいふう}で{農家|のうか}は{大|おお}きな{損害|そんがい}を{受|う}けた。",
+    "en": "Farmers suffered heavy losses from the typhoon."
+   }
+  ],
+  "related": [
+   "被害"
+  ],
+  "kanji": [
+   "害",
+   "損"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_257bedcc10",
+  "headword": "待遇",
+  "reading": "たいぐう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{会社|かいしゃ}などでの、{給料|きゅうりょう}や{休|やす}みなどの{働|はたら}く{条件|じょうけん}。また、{人|ひと}の{扱|あつか}い{方|かた}。",
+  "english": "treatment; reception; service",
+  "examples": [
+   {
+    "ja": "{待遇|たいぐう}のいい{会社|かいしゃ}に{転職|てんしょく}したい。",
+    "en": "I want to move to a company with better working conditions."
+   }
+  ],
+  "related": [
+   "条件"
+  ],
+  "kanji": [
+   "待",
+   "遇"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_105d679b13",
+  "headword": "対象",
+  "reading": "たいしょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{働|はたら}きかけたり{調|しら}べたりする{相手|あいて}や{目標|もくひょう}。",
+  "english": "target; object (of worship, study, etc.); subject (of taxation, etc.)",
+  "examples": [
+   {
+    "ja": "この{講座|こうざ}は{初心者|しょしんしゃ}を{対象|たいしょう}にしている。",
+    "en": "This course is aimed at beginners."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "対",
+   "象"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e4efff4ad8",
+  "headword": "対立",
+  "reading": "たいりつ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{考|かんが}えや{立場|たちば}が{違|ちが}う{者|もの}どうしが、{向|む}かい{合|あ}って{争|あらそ}うこと。",
+  "english": "confrontation; opposition; antagonism",
+  "examples": [
+   {
+    "ja": "{二|ふた}つのグループの{意見|いけん}が{対立|たいりつ}している。",
+    "en": "The opinions of the two groups are in conflict."
+   }
+  ],
+  "related": [
+   "争う"
+  ],
+  "kanji": [
+   "対",
+   "立"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5af85f094d",
+  "headword": "段階",
+  "reading": "だんかい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとが{進|すす}んでいく{途中|とちゅう}の、それぞれの{区切|くぎ}り。",
+  "english": "stage; step; phase",
+  "examples": [
+   {
+    "ja": "{計画|けいかく}はまだ{準備|じゅんび}の{段階|だんかい}だ。",
+    "en": "The plan is still at the preparation stage."
+   }
+  ],
+  "related": [
+   "過程"
+  ],
+  "kanji": [
+   "段",
+   "階"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_faa347b5e4",
+  "headword": "治療",
+  "reading": "ちりょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{病気|びょうき}やけがを{治|なお}すために、{手当|てあて}をすること。",
+  "english": "(medical) treatment; care; therapy",
+  "examples": [
+   {
+    "ja": "{歯|は}の{治療|ちりょう}に{三|さん}か{月|げつ}かかった。",
+    "en": "My dental treatment took three months."
+   }
+  ],
+  "related": [
+   "治す"
+  ],
+  "kanji": [
+   "治",
+   "療"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d24da045f7",
+  "headword": "追加",
+  "reading": "ついか",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{後|あと}からつけ{加|くわ}えること。",
+  "english": "addition; supplement; appending",
+  "examples": [
+   {
+    "ja": "{飲|の}み{物|もの}を{追加|ついか}で{注文|ちゅうもん}した。",
+    "en": "We ordered more drinks."
+   }
+  ],
+  "related": [
+   "加える"
+  ],
+  "kanji": [
+   "加",
+   "追"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_35d50fc2db",
+  "headword": "通知",
+  "reading": "つうち",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{必要|ひつよう}なことを{相手|あいて}に{知|し}らせること。また、その{知|し}らせ。",
+  "english": "notice; notification; report",
+  "examples": [
+   {
+    "ja": "{大学|だいがく}から{合格|ごうかく}の{通知|つうち}が{届|とど}いた。",
+    "en": "The notice of acceptance arrived from the university."
+   }
+  ],
+  "related": [
+   "知らせる"
+  ],
+  "kanji": [
+   "知",
+   "通"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f522265c9b",
+  "headword": "提供",
+  "reading": "ていきょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}の{役|やく}に{立|た}つように、ものやサービス、{情報|じょうほう}などを{差|さ}し{出|だ}すこと。",
+  "english": "offer; tender; providing",
+  "examples": [
+   {
+    "ja": "このホテルでは{無料|むりょう}で{朝食|ちょうしょく}を{提供|ていきょう}している。",
+    "en": "This hotel provides breakfast free of charge."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "供",
+   "提"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ee9736f48f",
+  "headword": "抵抗",
+  "reading": "ていこう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{外|そと}からの{力|ちから}に{逆|さか}らうこと。また、{素直|すなお}に{受|う}け{入|い}れにくい{気持|きも}ち。",
+  "english": "resistance; opposition; standing up to",
+  "examples": [
+   {
+    "ja": "{人前|ひとまえ}で{話|はな}すことに{抵抗|ていこう}がある。",
+    "en": "I feel reluctant to speak in front of people."
+   }
+  ],
+  "related": [
+   "逆らう"
+  ],
+  "kanji": [
+   "抗",
+   "抵"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_45053e2912",
+  "headword": "徹底",
+  "reading": "てってい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{最後|さいご}まで{十分|じゅうぶん}に、すみずみまで{行|い}き{届|とど}かせること。",
+  "english": "thoroughness; completeness; consistency",
+  "examples": [
+   {
+    "ja": "この{店|みせ}は{衛生|えいせい}{管理|かんり}を{徹底|てってい}している。",
+    "en": "This shop is thorough about hygiene."
+   }
+  ],
+  "related": [
+   "徹底的"
+  ],
+  "kanji": [
+   "底",
+   "徹"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_086bf0d07d",
+  "headword": "展開",
+  "reading": "てんかい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとが{次|つぎ}の{段階|だんかい}へと{進|すす}んで{広|ひろ}がっていくこと。",
+  "english": "development; evolution; progression",
+  "examples": [
+   {
+    "ja": "この{小説|しょうせつ}は{話|はなし}の{展開|てんかい}が{速|はや}い。",
+    "en": "The plot of this novel moves quickly."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "展",
+   "開"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e2b2e2f4a1",
+  "headword": "統一",
+  "reading": "とういつ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ばらばらのものを{一|ひと}つにまとめること。",
+  "english": "unity; consolidation; uniformity",
+  "examples": [
+   {
+    "ja": "{資料|しりょう}の{書式|しょしき}を{統一|とういつ}してください。",
+    "en": "Please make the format of the documents consistent."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "一",
+   "統"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bf3a29fd70",
+  "headword": "動機",
+  "reading": "どうき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ある{行動|こうどう}をしようと{思|おも}ったきっかけや{理由|りゆう}。",
+  "english": "motive; incentive; motif",
+  "examples": [
+   {
+    "ja": "{日本語|にほんご}を{始|はじ}めた{動機|どうき}は{何|なん}ですか。",
+    "en": "What made you start learning Japanese?"
+   }
+  ],
+  "related": [
+   "理由"
+  ],
+  "kanji": [
+   "動",
+   "機"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bae441d476",
+  "headword": "投票",
+  "reading": "とうひょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{選挙|せんきょ}などで、{選|えら}びたい{人|ひと}や{意見|いけん}を{紙|かみ}に{書|か}いて{出|だ}すこと。",
+  "english": "voting; ballot; poll",
+  "examples": [
+   {
+    "ja": "{日曜日|にちようび}に{市長|しちょう}{選挙|せんきょ}の{投票|とうひょう}に{行|い}った。",
+    "en": "On Sunday I went to vote in the mayoral election."
+   }
+  ],
+  "related": [
+   "選挙"
+  ],
+  "kanji": [
+   "投",
+   "票"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_25fa050488",
+  "headword": "納得",
+  "reading": "なっとく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}の{話|はなし}や{説明|せつめい}を、もっともだと{理解|りかい}して{受|う}け{入|い}れること。",
+  "english": "consent; agreement; acceptance",
+  "examples": [
+   {
+    "ja": "{何度|なんど}{説明|せつめい}されても{納得|なっとく}できない。",
+    "en": "No matter how many times it's explained, I can't accept it."
+   }
+  ],
+  "related": [
+   "理解"
+  ],
+  "kanji": [
+   "得",
+   "納"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ac839e7f1f",
+  "headword": "認識",
+  "reading": "にんしき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとをはっきり{理解|りかい}して、{見分|みわ}けること。",
+  "english": "recognition; awareness; perception",
+  "examples": [
+   {
+    "ja": "{問題|もんだい}の{大|おお}きさを{正|ただ}しく{認識|にんしき}するべきだ。",
+    "en": "We should properly recognise how big the problem is."
+   }
+  ],
+  "related": [
+   "理解"
+  ],
+  "kanji": [
+   "認",
+   "識"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4524a23877",
+  "headword": "年金",
+  "reading": "ねんきん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{年|とし}をとって{働|はたら}かなくなった{人|ひと}などに、{国|くに}などが{決|き}まって{払|はら}うお{金|かね}。",
+  "english": "annuity; pension",
+  "examples": [
+   {
+    "ja": "{祖父|そふ}は{年金|ねんきん}で{生活|せいかつ}している。",
+    "en": "My grandfather lives on his pension."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "年",
+   "金"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0348fd8192",
+  "headword": "配布",
+  "reading": "はいふ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{多|おお}くの{人|ひと}に{配|くば}って{渡|わた}すこと。",
+  "english": "distribution",
+  "examples": [
+   {
+    "ja": "{駅前|えきまえ}で{町|まち}のお{知|し}らせを{配布|はいふ}した。",
+    "en": "We handed out the town notice in front of the station."
+   }
+  ],
+  "related": [
+   "配る"
+  ],
+  "kanji": [
+   "布",
+   "配"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d603cb59ee",
+  "headword": "発揮",
+  "reading": "はっき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{持|も}っている{力|ちから}を{十分|じゅうぶん}に{外|そと}に{表|あらわ}すこと。",
+  "english": "show (of power, ability, etc.); exhibition; demonstration",
+  "examples": [
+   {
+    "ja": "{本番|ほんばん}で{実力|じつりょく}を{発揮|はっき}できなかった。",
+    "en": "I couldn't show my true ability when it counted."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "揮",
+   "発"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_317cf95639",
+  "headword": "反映",
+  "reading": "はんえい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "あることの{影響|えいきょう}や{性質|せいしつ}が、ほかのものに{表|あらわ}れること。また、それを{取|と}り{入|い}れること。",
+  "english": "reflection (of light); reflection (of society, attitudes, etc.); application (of an update, changes, etc.)",
+  "examples": [
+   {
+    "ja": "{利用者|りようしゃ}の{意見|いけん}をサービスに{反映|はんえい}させる。",
+    "en": "We reflect users' opinions in the service."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "反",
+   "映"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_095e246e71",
+  "headword": "否定",
+  "reading": "ひてい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "そうではない、と{打|う}ち{消|け}すこと。",
+  "english": "denial; negation; repudiation",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{記者|きしゃ}の{質問|しつもん}をきっぱり{否定|ひてい}した。",
+    "en": "He flatly denied what the reporter suggested."
+   }
+  ],
+  "related": [
+   "肯定"
+  ],
+  "kanji": [
+   "否",
+   "定"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e67c3831c3",
+  "headword": "評価",
+  "reading": "ひょうか",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "もののよさや{価値|かち}を{判断|はんだん}して{決|き}めること。",
+  "english": "valuation; appraisal; evaluation",
+  "examples": [
+   {
+    "ja": "{彼|かれ}の{仕事|しごと}ぶりは{高|たか}く{評価|ひょうか}されている。",
+    "en": "His work is highly regarded."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "価",
+   "評"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b042a4345d",
+  "headword": "負担",
+  "reading": "ふたん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{仕事|しごと}や{責任|せきにん}、お{金|かね}などを{引|ひ}き{受|う}けること。また、それによる{重|おも}さや{苦|くる}しさ。",
+  "english": "burden; load; responsibility",
+  "examples": [
+   {
+    "ja": "{送料|そうりょう}はお{客様|きゃくさま}のご{負担|ふたん}となります。",
+    "en": "Shipping costs are to be borne by the customer."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "担",
+   "負"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e6c263c26b",
+  "headword": "分析",
+  "reading": "ぶんせき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとを{細|こま}かく{分|わ}けて、その{内容|ないよう}や{原因|げんいん}を{調|しら}べること。",
+  "english": "analysis",
+  "examples": [
+   {
+    "ja": "{売上|うりあげ}のデータを{分析|ぶんせき}して、{原因|げんいん}を{探|さぐ}った。",
+    "en": "We analysed the sales data to look for the cause."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "分",
+   "析"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bf8fc4eb9e",
+  "headword": "分野",
+  "reading": "ぶんや",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{学問|がくもん}や{仕事|しごと}などを、{内容|ないよう}によって{分|わ}けたそれぞれの{範囲|はんい}。",
+  "english": "field; sphere; realm",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{医療|いりょう}の{分野|ぶんや}で{活躍|かつやく}している。",
+    "en": "He is active in the field of medicine."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "分",
+   "野"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4bd2cfc266",
+  "headword": "保証",
+  "reading": "ほしょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{間違|まちが}いがない、{大丈夫|だいじょうぶ}だと{責任|せきにん}を{持|も}って{約束|やくそく}すること。",
+  "english": "guarantee; security; assurance",
+  "examples": [
+   {
+    "ja": "この{冷蔵庫|れいぞうこ}は{三年間|さんねんかん}の{保証|ほしょう}がついている。",
+    "en": "This fridge comes with a three-year warranty."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "保",
+   "証"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_be82bdaeaf",
+  "headword": "見通し",
+  "reading": "みとおし",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "これから{先|さき}がどうなるかの{予想|よそう}。また、{遠|とお}くまで{見|み}えること。",
+  "english": "unobstructed view; perspective; visibility",
+  "examples": [
+   {
+    "ja": "{工事|こうじ}は{来年|らいねん}の{春|はる}に{終|お}わる{見通|みとお}しだ。",
+    "en": "The construction work is expected to finish next spring."
+   }
+  ],
+  "related": [
+   "予想"
+  ],
+  "kanji": [
+   "見",
+   "通"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2809a9472c",
+  "headword": "無視",
+  "reading": "むし",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "あるものを、ないものとして{扱|あつか}うこと。{気|き}にかけないこと。",
+  "english": "disregarding; ignoring",
+  "examples": [
+   {
+    "ja": "{信号|しんごう}を{無視|むし}して{道|みち}を{渡|わた}ってはいけない。",
+    "en": "You mustn't cross the road ignoring the traffic lights."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "無",
+   "視"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3affc58f0b",
+  "headword": "目安",
+  "reading": "めやす",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "だいたいの{基準|きじゅん}になるもの。",
+  "english": "criterion; standard; yardstick",
+  "examples": [
+   {
+    "ja": "{一日|いちにち}{二|に}リットルを{目安|めやす}に{水|みず}を{飲|の}みましょう。",
+    "en": "Aim to drink about two litres of water a day."
+   }
+  ],
+  "related": [
+   "基準"
+  ],
+  "kanji": [
+   "安",
+   "目"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e88c2588e0",
+  "headword": "優先",
+  "reading": "ゆうせん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ほかのものより{先|さき}に{扱|あつか}うこと。",
+  "english": "preference; priority; precedence",
+  "examples": [
+   {
+    "ja": "{何|なに}よりも{安全|あんぜん}を{優先|ゆうせん}してください。",
+    "en": "Please put safety above everything else."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "優",
+   "先"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_354f208f0f",
+  "headword": "要求",
+  "reading": "ようきゅう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "こうしてほしいと、{強|つよ}く{求|もと}めること。",
+  "english": "demand; firm request; requisition",
+  "examples": [
+   {
+    "ja": "{社員|しゃいん}たちは{給料|きゅうりょう}を{上|あ}げるよう{要求|ようきゅう}した。",
+    "en": "The employees demanded a pay rise."
+   }
+  ],
+  "related": [
+   "求める",
+   "要望"
+  ],
+  "kanji": [
+   "求",
+   "要"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8650677597",
+  "headword": "要素",
+  "reading": "ようそ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとを{作|つく}り{上|あ}げている、{大切|たいせつ}な{部分|ぶぶん}。",
+  "english": "element; component; factor",
+  "examples": [
+   {
+    "ja": "{運|うん}も{成功|せいこう}の{要素|ようそ}の{一|ひと}つだ。",
+    "en": "Luck is also one of the elements of success."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "素",
+   "要"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_61ca6bee71",
+  "headword": "要望",
+  "reading": "ようぼう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "こうしてほしいと{願|ねが}い、{求|もと}めること。",
+  "english": "demand for; request",
+  "examples": [
+   {
+    "ja": "お{客様|きゃくさま}のご{要望|ようぼう}にお{応|こた}えして、{営業|えいぎょう}{時間|じかん}を{延|の}ばしました。",
+    "en": "In response to customer requests, we have extended our opening hours."
+   }
+  ],
+  "related": [
+   "要求"
+  ],
+  "kanji": [
+   "望",
+   "要"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8ab0d8c7ba",
+  "headword": "履歴",
+  "reading": "りれき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "これまでにしてきたことの{記録|きろく}。",
+  "english": "personal history; background; career",
+  "examples": [
+   {
+    "ja": "ブラウザの{検索|けんさく}{履歴|りれき}を{消|け}した。",
+    "en": "I cleared my browser's search history."
+   }
+  ],
+  "related": [
+   "経歴"
+  ],
+  "kanji": [
+   "履",
+   "歴"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_da02fb617d",
+  "headword": "論理",
+  "reading": "ろんり",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{考|かんが}えや{話|はなし}を{正|ただ}しく{組|く}み{立|た}てるための{筋道|すじみち}。",
+  "english": "logic",
+  "examples": [
+   {
+    "ja": "{彼|かれ}の{説明|せつめい}は{論理|ろんり}がしっかりしている。",
+    "en": "His explanation is logically sound."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "理",
+   "論"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5ade591126",
+  "headword": "赤字",
+  "reading": "あかじ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{入|はい}ってくるお{金|かね}より、{出|で}ていくお{金|かね}のほうが{多|おお}いこと。",
+  "english": "(being in) the red; deficit; red letter",
+  "examples": [
+   {
+    "ja": "その{店|みせ}は{三年|さんねん}{続|つづ}けて{赤字|あかじ}だった。",
+    "en": "The shop was in the red for three years running."
+   }
+  ],
+  "related": [
+   "黒字"
+  ],
+  "kanji": [
+   "字",
+   "赤"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0cee37f743",
+  "headword": "黒字",
+  "reading": "くろじ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{出|で}ていくお{金|かね}より、{入|はい}ってくるお{金|かね}のほうが{多|おお}いこと。",
+  "english": "(being in) the black; surplus; black letter",
+  "examples": [
+   {
+    "ja": "{新商品|しんしょうひん}が{売|う}れて、{会社|かいしゃ}は{黒字|くろじ}になった。",
+    "en": "The new product sold well and the company went into the black."
+   }
+  ],
+  "related": [
+   "赤字"
+  ],
+  "kanji": [
+   "字",
+   "黒"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bfd3022da8",
+  "headword": "油断",
+  "reading": "ゆだん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{大丈夫|だいじょうぶ}だと{思|おも}って、{注意|ちゅうい}をおこたること。",
+  "english": "negligence; carelessness; inattention",
+  "examples": [
+   {
+    "ja": "{少|すこ}しの{油断|ゆだん}が{大|おお}きな{事故|じこ}につながる。",
+    "en": "A moment's carelessness can lead to a serious accident."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "断",
+   "油"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b8e7d4cfef",
+  "headword": "言い訳",
+  "reading": "いいわけ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{失敗|しっぱい}などの{理由|りゆう}を{説明|せつめい}して、{自分|じぶん}を{守|まも}ろうとすること。",
+  "english": "excuse; explanation",
+  "examples": [
+   {
+    "ja": "{遅刻|ちこく}の{言|い}い{訳|わけ}はもう{聞|き}きたくない。",
+    "en": "I don't want to hear any more excuses for being late."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "言",
+   "訳"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6af1fee850",
+  "headword": "生きがい",
+  "reading": "いきがい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{生|い}きていてよかったと{感|かん}じさせる、{喜|よろこ}びや{目的|もくてき}。",
+  "english": "reason for living; something one lives for; purpose in life",
+  "examples": [
+   {
+    "ja": "{孫|まご}の{成長|せいちょう}が{祖母|そぼ}の{生|い}きがいだ。",
+    "en": "Watching her grandchildren grow up is what my grandmother lives for."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "生"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5f3eb48d4f",
+  "headword": "勢い",
+  "reading": "いきおい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{動|うご}きや{力|ちから}の{強|つよ}さ。また、ものごとが{進|すす}んでいく{力|ちから}。",
+  "english": "force; vigor; vigour",
+  "examples": [
+   {
+    "ja": "{水|みず}が{勢|いきお}いよく{流|なが}れ{出|だ}した。",
+    "en": "The water started gushing out."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "勢"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_241e31851c",
+  "headword": "一致",
+  "reading": "いっち",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{二|ふた}つ{以上|いじょう}のものが、{同|おな}じになること。ぴったり{合|あ}うこと。",
+  "english": "agreement; accord; correspondence",
+  "examples": [
+   {
+    "ja": "{全員|ぜんいん}の{意見|いけん}が{一致|いっち}した。",
+    "en": "Everyone's opinions were in agreement."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "一",
+   "致"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_cc84d04865",
+  "headword": "意図",
+  "reading": "いと",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "こうしようと{考|かんが}えていること。ねらい。",
+  "english": "intention; aim; design",
+  "examples": [
+   {
+    "ja": "{彼|かれ}の{発言|はつげん}の{意図|いと}がわからない。",
+    "en": "I don't understand what he meant by that remark."
+   }
+  ],
+  "related": [
+   "目的"
+  ],
+  "kanji": [
+   "図",
+   "意"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_767e20cc33",
+  "headword": "縁",
+  "reading": "えん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}と{人|ひと}、{人|ひと}とものを{結|むす}びつける、{不思議|ふしぎ}なつながり。",
+  "english": "rim; brim; edge",
+  "examples": [
+   {
+    "ja": "{旅行|りょこう}で{会|あ}ったのが{縁|えん}で、{二人|ふたり}は{結婚|けっこん}した。",
+    "en": "They met while travelling, and that connection led to their marriage."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "縁"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d6a40d4e4a",
+  "headword": "思いやり",
+  "reading": "おもいやり",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{相手|あいて}の{気持|きも}ちや{立場|たちば}を{考|かんが}える{優|やさ}しい{心|こころ}。",
+  "english": "consideration; thoughtfulness; sympathy",
+  "examples": [
+   {
+    "ja": "{彼女|かのじょ}は{思|おも}いやりのある{人|ひと}だ。",
+    "en": "She is a considerate person."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "思"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d957cf5ac9",
+  "headword": "肩書き",
+  "reading": "かたがき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{会社|かいしゃ}などでの{地位|ちい}や{役職|やくしょく}。{名刺|めいし}などで{名前|なまえ}の{上|うえ}に{書|か}かれる。",
+  "english": "title (e.g. Doctor, Professor, Lord); job title; position (in a company)",
+  "examples": [
+   {
+    "ja": "{名刺|めいし}の{肩書|かたが}きが「{課長|かちょう}」に{変|か}わった。",
+    "en": "The title on my business card changed to \"section manager\"."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "書",
+   "肩"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_48d81e8e3c",
+  "headword": "価値観",
+  "reading": "かちかん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{何|なに}が{大切|たいせつ}で{何|なに}がよいかについての、{人|ひと}それぞれの{考|かんが}え{方|かた}。",
+  "english": "sense of values; values; value system",
+  "examples": [
+   {
+    "ja": "{世代|せだい}によって{価値観|かちかん}は{違|ちが}う。",
+    "en": "Values differ from generation to generation."
+   }
+  ],
+  "related": [
+   "価値"
+  ],
+  "kanji": [
+   "価",
+   "値",
+   "観"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7869ea4785",
+  "headword": "活躍",
+  "reading": "かつやく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{目立|めだ}つ{働|はたら}きをして、{力|ちから}を{発揮|はっき}すること。",
+  "english": "activity (esp. energetic or successful); great efforts; active participation",
+  "examples": [
+   {
+    "ja": "この{学校|がっこう}の{卒業生|そつぎょうせい}が{世界|せかい}で{活躍|かつやく}している。",
+    "en": "Graduates of this school are active all over the world."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "活",
+   "躍"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bfa19fd69f",
+  "headword": "過半数",
+  "reading": "かはんすう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{全体|ぜんたい}の{半分|はんぶん}より{多|おお}い{数|かず}。",
+  "english": "majority",
+  "examples": [
+   {
+    "ja": "{賛成|さんせい}が{過半数|かはんすう}を{超|こ}えたので、{案|あん}は{決|き}まった。",
+    "en": "More than half were in favour, so the proposal was adopted."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "半",
+   "数",
+   "過"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c8523f293a",
+  "headword": "勘違い",
+  "reading": "かんちがい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{間違|まちが}って、{本当|ほんとう}と{違|ちが}うように{思|おも}い{込|こ}むこと。",
+  "english": "misunderstanding; mistaken idea; wrong guess",
+  "examples": [
+   {
+    "ja": "{会議|かいぎ}は{明日|あした}だと{勘違|かんちが}いしていた。",
+    "en": "I had mistakenly thought the meeting was tomorrow."
+   }
+  ],
+  "related": [
+   "思い込む"
+  ],
+  "kanji": [
+   "勘",
+   "違"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9e38409c68",
+  "headword": "気配",
+  "reading": "けはい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "はっきりとは{見|み}えないが、{何|なに}かがありそうだと{感|かん}じられる{様子|ようす}。",
+  "english": "indication; sign; hint",
+  "examples": [
+   {
+    "ja": "{後|うし}ろに{人|ひと}の{気配|けはい}を{感|かん}じた。",
+    "en": "I sensed someone behind me."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "気",
+   "配"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a7d789abd5",
+  "headword": "期限",
+  "reading": "きげん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "あらかじめ{決|き}められた、{終|お}わりの{日|ひ}や{時|とき}。",
+  "english": "term; period; time frame",
+  "examples": [
+   {
+    "ja": "この{牛乳|ぎゅうにゅう}は{賞味|しょうみ}{期限|きげん}が{切|き}れている。",
+    "en": "This milk is past its best-before date."
+   }
+  ],
+  "related": [
+   "締め切り"
+  ],
+  "kanji": [
+   "期",
+   "限"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b2e101d001",
+  "headword": "基準",
+  "reading": "きじゅん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとを{比|くら}べたり{判断|はんだん}したりするときの、もとになるもの。",
+  "english": "standard; criterion; norm",
+  "examples": [
+   {
+    "ja": "この{製品|せいひん}は{国|くに}の{安全|あんぜん}{基準|きじゅん}を{満|み}たしている。",
+    "en": "This product meets the national safety standards."
+   }
+  ],
+  "related": [
+   "目安"
+  ],
+  "kanji": [
+   "基",
+   "準"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5be5951af3",
+  "headword": "犠牲",
+  "reading": "ぎせい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ある{目的|もくてき}のために、{大切|たいせつ}なものを{捨|す}てること。また、{事故|じこ}などで{命|いのち}を{失|うしな}うこと。",
+  "english": "sacrifice; victim (esp. someone killed); casualty",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{家族|かぞく}との{時間|じかん}を{犠牲|ぎせい}にして{働|はたら}いた。",
+    "en": "He worked at the expense of time with his family."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "牲",
+   "犠"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7bbebedc1b",
+  "headword": "経歴",
+  "reading": "けいれき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "その{人|ひと}がこれまでに{学|まな}んだことや、{経験|けいけん}してきた{仕事|しごと}など。",
+  "english": "personal history; background; career",
+  "examples": [
+   {
+    "ja": "{面接|めんせつ}で{自分|じぶん}の{経歴|けいれき}を{説明|せつめい}した。",
+    "en": "I explained my background at the interview."
+   }
+  ],
+  "related": [
+   "履歴"
+  ],
+  "kanji": [
+   "歴",
+   "経"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e16f5a675f",
+  "headword": "現場",
+  "reading": "げんば",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとが{実際|じっさい}に{起|お}きた{場所|ばしょ}。また、{実際|じっさい}に{作業|さぎょう}をしている{所|ところ}。",
+  "english": "actual spot; scene (of a crime, accident, etc.); (on) site",
+  "examples": [
+   {
+    "ja": "{警察|けいさつ}がすぐに{事故|じこ}の{現場|げんば}に{来|き}た。",
+    "en": "The police came to the scene of the accident right away."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "場",
+   "現"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_51b39a3963",
+  "headword": "言葉遣い",
+  "reading": "ことばづかい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{話|はな}したり{書|か}いたりするときの、{言葉|ことば}の{選|えら}び{方|かた}や{使|つか}い{方|かた}。",
+  "english": "speech; expression; wording",
+  "examples": [
+   {
+    "ja": "{目上|めうえ}の{人|ひと}には{言葉遣|ことばづか}いに{気|き}をつけなさい。",
+    "en": "Be careful about how you speak to your seniors."
+   }
+  ],
+  "related": [
+   "敬語"
+  ],
+  "kanji": [
+   "葉",
+   "言",
+   "遣"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9f124db309",
+  "headword": "仕組み",
+  "reading": "しくみ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとがどう{組|く}み{立|た}てられ、どう{動|うご}くかという{作|つく}り。",
+  "english": "structure; construction; arrangement",
+  "examples": [
+   {
+    "ja": "{選挙|せんきょ}の{仕組|しく}みを{子|こ}どもにもわかるように{説明|せつめい}した。",
+    "en": "I explained how elections work in a way children could understand."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "仕",
+   "組"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_95e3d17a9e",
+  "headword": "証拠",
+  "reading": "しょうこ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "あることが{本当|ほんとう}だと{示|しめ}すもの。",
+  "english": "evidence; proof",
+  "examples": [
+   {
+    "ja": "{彼|かれ}が{犯人|はんにん}だという{証拠|しょうこ}はない。",
+    "en": "There is no proof that he is the culprit."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "拠",
+   "証"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c2273daf10",
+  "headword": "素人",
+  "reading": "しろうと",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "そのことを{専門|せんもん}や{仕事|しごと}にしていない{人|ひと}。",
+  "english": "amateur; layman; ordinary person",
+  "examples": [
+   {
+    "ja": "{素人|しろうと}が{描|か}いたとは{思|おも}えないほど{上手|じょうず}な{絵|え}だ。",
+    "en": "It's such a good painting you'd never think an amateur did it."
+   }
+  ],
+  "related": [
+   "玄人"
+  ],
+  "kanji": [
+   "人",
+   "素"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3e890f0ac7",
+  "headword": "人材",
+  "reading": "じんざい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{才能|さいのう}や{能力|のうりょく}があって、{役|やく}に{立|た}つ{人|ひと}。",
+  "english": "capable person; talented person; human resources",
+  "examples": [
+   {
+    "ja": "{会社|かいしゃ}は{外国語|がいこくご}ができる{人材|じんざい}を{求|もと}めている。",
+    "en": "The company is looking for people who can speak foreign languages."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "人",
+   "材"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5691d3d158",
+  "headword": "世間",
+  "reading": "せけん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{自分|じぶん}の{周|まわ}りにいる{人々|ひとびと}。また、{世|よ}の{中|なか}。",
+  "english": "world; society; people",
+  "examples": [
+   {
+    "ja": "{世間|せけん}の{目|め}を{気|き}にしすぎる{必要|ひつよう}はない。",
+    "en": "There's no need to worry too much about what others think."
+   }
+  ],
+  "related": [
+   "世の中"
+  ],
+  "kanji": [
+   "世",
+   "間"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0fb73b5684",
+  "headword": "手順",
+  "reading": "てじゅん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとをする{順番|じゅんばん}や{段取|だんど}り。",
+  "english": "process; procedure; sequence",
+  "examples": [
+   {
+    "ja": "{説明書|せつめいしょ}の{手順|てじゅん}どおりに{組|く}み{立|た}ててください。",
+    "en": "Please assemble it following the steps in the manual."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "手",
+   "順"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b22b42cc33",
+  "headword": "本音",
+  "reading": "ほんね",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{表|おもて}に{出|だ}さない、{本当|ほんとう}の{気持|きも}ちや{考|かんが}え。",
+  "english": "real intention; motive; true opinion",
+  "examples": [
+   {
+    "ja": "{彼|かれ}はなかなか{本音|ほんね}を{言|い}わない。",
+    "en": "He rarely says what he really thinks."
+   }
+  ],
+  "related": [
+   "建前"
+  ],
+  "kanji": [
+   "本",
+   "音"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0ab1c4ceba",
+  "headword": "建前",
+  "reading": "たてまえ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{表向|おもてむ}きの{考|かんが}えや{方針|ほうしん}。{本当|ほんとう}の{気持|きも}ちとは{違|ちが}うことがある。",
+  "english": "face; official stance; public position or attitude (as opposed to private thoughts)",
+  "examples": [
+   {
+    "ja": "{建前|たてまえ}ではなく、{本音|ほんね}で{話|はな}し{合|あ}おう。",
+    "en": "Let's talk honestly, not just say what we're supposed to say."
+   }
+  ],
+  "related": [
+   "本音"
+  ],
+  "kanji": [
+   "前",
+   "建"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b760ed9d56",
+  "headword": "人柄",
+  "reading": "ひとがら",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "その{人|ひと}が{持|も}っている{性格|せいかく}や{雰囲気|ふんいき}。",
+  "english": "personality; character; personal appearance",
+  "examples": [
+   {
+    "ja": "{彼|かれ}の{明|あか}るい{人柄|ひとがら}に{多|おお}くの{人|ひと}が{引|ひ}かれた。",
+    "en": "Many people were drawn to his cheerful personality."
+   }
+  ],
+  "related": [
+   "性格"
+  ],
+  "kanji": [
+   "人",
+   "柄"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7c5e6dcce3",
+  "headword": "手数料",
+  "reading": "てすうりょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{手続|てつづ}きやサービスをしてもらったときに{払|はら}うお{金|かね}。",
+  "english": "(handling) fee; charge (e.g. for a cancellation); commission",
+  "examples": [
+   {
+    "ja": "{夜間|やかん}にお{金|かね}を{引|ひ}き{出|だ}すと{手数料|てすうりょう}がかかる。",
+    "en": "A fee is charged if you withdraw money at night."
+   }
+  ],
+  "related": [
+   "料金"
+  ],
+  "kanji": [
+   "手",
+   "数",
+   "料"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_deb5369ab7",
+  "headword": "礼儀",
+  "reading": "れいぎ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}と{接|せっ}するときに{守|まも}るべき、{相手|あいて}を{大切|たいせつ}にする{態度|たいど}や{作法|さほう}。",
+  "english": "manners; courtesy; etiquette",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{若|わか}いが、{礼儀|れいぎ}{正|ただ}しい。",
+    "en": "He's young, but very polite."
+   }
+  ],
+  "related": [
+   "マナー"
+  ],
+  "kanji": [
+   "儀",
+   "礼"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_af5c36d08e",
+  "headword": "両立",
+  "reading": "りょうりつ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{二|ふた}つのことを、どちらもうまく{続|つづ}けること。",
+  "english": "compatibility; coexistence; standing together",
+  "examples": [
+   {
+    "ja": "{仕事|しごと}と{子育|こそだ}ての{両立|りょうりつ}は{簡単|かんたん}ではない。",
+    "en": "Balancing work and child-raising is not easy."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "両",
+   "立"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_46e862501d",
+  "headword": "当てはまる",
+  "reading": "あてはまる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "ある{条件|じょうけん}や{説明|せつめい}に、ぴったり{合|あ}う。",
+  "english": "to apply (of a rule); to be applicable (of standards, lessons, ideas, etc.); to hold true (e.g. of a description)",
+  "examples": [
+   {
+    "ja": "{次|つぎ}の{中|なか}から、{自分|じぶん}に{当|あ}てはまるものを{選|えら}んでください。",
+    "en": "Choose the ones that apply to you from the following."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "当"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_14214c47a8",
+  "headword": "抱く",
+  "reading": "いだく",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "ある{気持|きも}ちや{考|かんが}えを、{心|こころ}の{中|なか}に{持|も}つ。",
+  "english": "to hold in one's arms (e.g. a baby); to embrace; to hug",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{子|こ}どものころから{医者|いしゃ}になる{夢|ゆめ}を{抱|いだ}いていた。",
+    "en": "He had dreamed of becoming a doctor since he was a child."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "抱"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_34824e4140",
+  "headword": "敬う",
+  "reading": "うやまう",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{相手|あいて}を{自分|じぶん}より{上|うえ}だと{考|かんが}えて、{大切|たいせつ}にする。",
+  "english": "to show respect for; to revere; to honour",
+  "examples": [
+   {
+    "ja": "お{年寄|としよ}りを{敬|うやま}う{気持|きも}ちを{忘|わす}れてはいけない。",
+    "en": "We must not forget to respect our elders."
+   }
+  ],
+  "related": [
+   "尊敬"
+  ],
+  "kanji": [
+   "敬"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_cfddc08df7",
+  "headword": "負う",
+  "reading": "おう",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{責任|せきにん}や{仕事|しごと}などを{引|ひ}き{受|う}ける。また、けがをする。",
+  "english": "to carry on one's back; to bear; to shoulder",
+  "examples": [
+   {
+    "ja": "{事故|じこ}で{運転手|うんてんしゅ}が{軽|かる}いけがを{負|お}った。",
+    "en": "The driver was slightly injured in the accident."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "負"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_aa7994d045",
+  "headword": "惜しむ",
+  "reading": "おしむ",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{大切|たいせつ}に{思|おも}って、{使|つか}ったり{失|うしな}ったりするのをいやがる。また、{残念|ざんねん}に{思|おも}う。",
+  "english": "to spare; to grudge; to be sparing (with)",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{努力|どりょく}を{惜|お}しまない{人|ひと}だ。",
+    "en": "He is someone who spares no effort."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "惜"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fe69a42a2c",
+  "headword": "劣る",
+  "reading": "おとる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "ほかと{比|くら}べて、{力|ちから}や{質|しつ}などが{低|ひく}い。",
+  "english": "to be inferior to; to be less good at; to fall behind",
+  "examples": [
+   {
+    "ja": "この{商品|しょうひん}は{安|やす}いが、{品質|ひんしつ}は{少|すこ}しも{劣|おと}らない。",
+    "en": "This product is cheap, but it's not inferior in quality at all."
+   }
+  ],
+  "related": [
+   "優れる"
+  ],
+  "kanji": [
+   "劣"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c67bc7e939",
+  "headword": "思い込む",
+  "reading": "おもいこむ",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "そうだと{信|しん}じて、ほかの{考|かんが}えを{持|も}たなくなる。",
+  "english": "to be convinced (that); to be under the impression (that); to feel sure (that)",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{自分|じぶん}が{正|ただ}しいと{思|おも}い{込|こ}んでいる。",
+    "en": "He's convinced that he's right."
+   }
+  ],
+  "related": [
+   "勘違い"
+  ],
+  "kanji": [
+   "思",
+   "込"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4795f57f28",
+  "headword": "及ぶ",
+  "reading": "およぶ",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "ある{範囲|はんい}や{程度|ていど}にまで{届|とど}く。",
+  "english": "to reach; to amount to; to befall",
+  "examples": [
+   {
+    "ja": "{会議|かいぎ}は{五時間|ごじかん}にも{及|およ}んだ。",
+    "en": "The meeting went on for as long as five hours."
+   }
+  ],
+  "related": [
+   "及ぼす"
+  ],
+  "kanji": [
+   "及"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a08de0ebc2",
+  "headword": "欠かす",
+  "reading": "かかす",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{毎日|まいにち}することなどを、しないで{抜|ぬ}かす。{多|おお}く「{欠|か}かさない」の{形|かたち}で{使|つか}う。",
+  "english": "to miss (doing); to fail (to do); to do without",
+  "examples": [
+   {
+    "ja": "{祖父|そふ}は{毎朝|まいあさ}の{散歩|さんぽ}を{欠|か}かさない。",
+    "en": "My grandfather never misses his morning walk."
+   }
+  ],
+  "related": [
+   "欠かせない"
+  ],
+  "kanji": [
+   "欠"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2cd6e9a6a3",
+  "headword": "語る",
+  "reading": "かたる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{考|かんが}えや{経験|けいけん}、{物語|ものがたり}などを、まとまった{形|かたち}で{話|はな}す。",
+  "english": "to talk about; to speak of; to tell",
+  "examples": [
+   {
+    "ja": "{祖母|そぼ}は{戦争|せんそう}の{経験|けいけん}を{静|しず}かに{語|かた}った。",
+    "en": "My grandmother quietly told us of her experiences in the war."
+   }
+  ],
+  "related": [
+   "話す"
+  ],
+  "kanji": [
+   "語"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_75d1c90922",
+  "headword": "築く",
+  "reading": "きずく",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{時間|じかん}をかけて、{関係|かんけい}や{地位|ちい}、{財産|ざいさん}などを{作|つく}り{上|あ}げる。",
+  "english": "to build; to construct; to erect",
+  "examples": [
+   {
+    "ja": "{取引先|とりひきさき}とよい{関係|かんけい}を{築|きず}くことが{大切|たいせつ}だ。",
+    "en": "It's important to build good relationships with clients."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "築"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3132a9bd5b",
+  "headword": "凝る",
+  "reading": "こる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{一|ひと}つのことに{夢中|むちゅう}になる。また、{肩|かた}などの{筋肉|きんにく}が{固|かた}くなる。",
+  "english": "to become stiff (of muscles); to get absorbed in; to develop a passion for",
+  "examples": [
+   {
+    "ja": "パソコンの{仕事|しごと}が{続|つづ}いて、{肩|かた}が{凝|こ}った。",
+    "en": "After a long stretch of computer work, my shoulders are stiff."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "凝"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fc7149241c",
+  "headword": "探る",
+  "reading": "さぐる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{手|て}や{足|あし}で{触|さわ}って{探|さが}す。また、わからないことを{注意|ちゅうい}して{調|しら}べる。",
+  "english": "to feel around for; to fumble for; to grope for",
+  "examples": [
+   {
+    "ja": "{問題|もんだい}の{原因|げんいん}を{探|さぐ}っているところだ。",
+    "en": "We are in the middle of investigating the cause of the problem."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "探"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0444ba3928",
+  "headword": "保つ",
+  "reading": "たもつ",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "ある{状態|じょうたい}を、{変|か}わらないように{続|つづ}ける。",
+  "english": "to keep; to preserve; to hold",
+  "examples": [
+   {
+    "ja": "{部屋|へや}の{温度|おんど}を{一定|いってい}に{保|たも}つ。",
+    "en": "Keep the room at a constant temperature."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "保"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f1f749ca74",
+  "headword": "取り組む",
+  "reading": "とりくむ",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{問題|もんだい}や{仕事|しごと}に、{熱心|ねっしん}に{向|む}かい{合|あ}う。",
+  "english": "to grapple with; to wrestle with; to engage in a bout",
+  "examples": [
+   {
+    "ja": "{町|まち}{全体|ぜんたい}でゴミを{減|へ}らすことに{取|と}り{組|く}んでいる。",
+    "en": "The whole town is working to reduce waste."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "取",
+   "組"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b34b03b67e",
+  "headword": "嘆く",
+  "reading": "なげく",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{悲|かな}しいことや{残念|ざんねん}なことを、{深|ふか}く{悲|かな}しんだり{不満|ふまん}に{思|おも}ったりする。",
+  "english": "to lament; to grieve; to regret",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{自分|じぶん}の{運|うん}の{悪|わる}さを{嘆|なげ}いた。",
+    "en": "He lamented his bad luck."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "嘆"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_88e1c0d169",
+  "headword": "励ます",
+  "reading": "はげます",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{元気|げんき}が{出|で}るように、{言葉|ことば}をかけたりして{力|ちから}づける。",
+  "english": "to encourage; to cheer on; to cheer (someone) up",
+  "examples": [
+   {
+    "ja": "{先生|せんせい}に{励|はげ}まされて、もう{一度|いちど}{挑戦|ちょうせん}した。",
+    "en": "Encouraged by my teacher, I tried once more."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "励"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_87accaee35",
+  "headword": "誇る",
+  "reading": "ほこる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "すぐれていることを、{自慢|じまん}に{思|おも}う。",
+  "english": "to boast of; to be proud of; to take pride in",
+  "examples": [
+   {
+    "ja": "この{町|まち}は{三百年|さんびゃくねん}の{歴史|れきし}を{誇|ほこ}る。",
+    "en": "This town boasts three hundred years of history."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "誇"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ed99382427",
+  "headword": "見逃す",
+  "reading": "みのがす",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{見|み}る{機会|きかい}を{失|うしな}う。また、{気|き}づいていても{許|ゆる}す。",
+  "english": "to miss; to overlook; to fail to notice",
+  "examples": [
+   {
+    "ja": "{楽|たの}しみにしていた{番組|ばんぐみ}を{見逃|みのが}してしまった。",
+    "en": "I missed a programme I'd been looking forward to."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "見",
+   "逃"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a10e40e295",
+  "headword": "養う",
+  "reading": "やしなう",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{家族|かぞく}などの{生活|せいかつ}の{面倒|めんどう}を{見|み}る。また、{力|ちから}や{習慣|しゅうかん}を{育|そだ}てる。",
+  "english": "to support; to maintain; to provide for",
+  "examples": [
+   {
+    "ja": "{読書|どくしょ}で{考|かんが}える{力|ちから}を{養|やしな}う。",
+    "en": "Reading builds your ability to think."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "養"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_385cef9d21",
+  "headword": "焦る",
+  "reading": "あせる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{思|おも}いどおりにならず、{早|はや}くしようとして{落|お}ち{着|つ}かない{気持|きも}ちになる。",
+  "english": "to be in a hurry; to be impatient; to be anxious (to do)",
+  "examples": [
+   {
+    "ja": "{時間|じかん}がなくて{焦|あせ}ったが、なんとか{間|ま}に{合|あ}った。",
+    "en": "I panicked because I had no time, but I somehow made it."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "焦"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_65f391356e",
+  "headword": "振り返る",
+  "reading": "ふりかえる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{後|うし}ろを{向|む}いて{見|み}る。また、{過去|かこ}のことを{思|おも}い{出|だ}して{考|かんが}える。",
+  "english": "to turn one's head; to look over one's shoulder; to turn around",
+  "examples": [
+   {
+    "ja": "{一年|いちねん}を{振|ふ}り{返|かえ}って、{日記|にっき}を{読|よ}み{直|なお}した。",
+    "en": "Looking back on the year, I reread my diary."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "振",
+   "返"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_dcfe223053",
+  "headword": "引っ張る",
+  "reading": "ひっぱる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{手|て}などで{持|も}って、{自分|じぶん}の{方|ほう}へ{強|つよ}く{引|ひ}く。また、{先頭|せんとう}に{立|た}って{人|ひと}を{導|みちび}く。",
+  "english": "to pull; to draw; to pull tight",
+  "examples": [
+   {
+    "ja": "キャプテンがチームを{引|ひ}っ{張|ぱ}ってくれた。",
+    "en": "The captain led the team."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "引",
+   "張"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c6c71ced7e",
+  "headword": "膨らむ",
+  "reading": "ふくらむ",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{中|なか}から{押|お}されるように{大|おお}きくなる。また、{期待|きたい}や{費用|ひよう}などが{大|おお}きくなる。",
+  "english": "to expand; to swell (out); to get big",
+  "examples": [
+   {
+    "ja": "{旅行|りょこう}への{期待|きたい}が{膨|ふく}らんでいる。",
+    "en": "My expectations for the trip are growing."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "膨"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6585682efe",
+  "headword": "立ち止まる",
+  "reading": "たちどまる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{歩|ある}いている{途中|とちゅう}で、{足|あし}を{止|と}める。",
+  "english": "to stop (in one's tracks); to come to a stop; to halt",
+  "examples": [
+   {
+    "ja": "{名前|なまえ}を{呼|よ}ばれて、{思|おも}わず{立|た}ち{止|ど}まった。",
+    "en": "I heard my name called and stopped without thinking."
+   }
+  ],
+  "related": [
+   "止まる"
+  ],
+  "kanji": [
+   "止",
+   "立"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e367dbf42e",
+  "headword": "割り込む",
+  "reading": "わりこむ",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{並|なら}んでいる{列|れつ}や{人|ひと}の{話|はなし}の{間|あいだ}に、{無理|むり}に{入|はい}る。",
+  "english": "to cut into (a line, conversation, etc.); to force oneself into (e.g. a crowd); to wedge oneself into",
+  "examples": [
+   {
+    "ja": "{列|れつ}に{割|わ}り{込|こ}むのはやめてください。",
+    "en": "Please don't push in to the queue."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "割",
+   "込"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b550b80b12",
+  "headword": "甘やかす",
+  "reading": "あまやかす",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{子|こ}どもなどを{厳|きび}しくしつけず、{好|す}きなようにさせる。",
+  "english": "to pamper; to spoil",
+  "examples": [
+   {
+    "ja": "{孫|まご}を{甘|あま}やかしすぎるのはよくない。",
+    "en": "It isn't good to spoil your grandchildren too much."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "甘"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_cbe669cf25",
+  "headword": "言い出す",
+  "reading": "いいだす",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{話|はな}し{始|はじ}める。また、{自分|じぶん}から{先|さき}に{提案|ていあん}する。",
+  "english": "to begin to say; to start talking; to broach (a matter)",
+  "examples": [
+   {
+    "ja": "{最初|さいしょ}に{旅行|りょこう}に{行|い}こうと{言|い}い{出|だ}したのは{兄|あに}だ。",
+    "en": "It was my brother who first suggested going on a trip."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "出",
+   "言"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5eb248bf01",
+  "headword": "聞き取る",
+  "reading": "ききとる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{話|はなし}や{音|おと}を、よく{聞|き}いて{理解|りかい}する。",
+  "english": "to catch (someone's words); to make out; to follow",
+  "examples": [
+   {
+    "ja": "{電話|でんわ}の{声|こえ}が{小|ちい}さくて、よく{聞|き}き{取|と}れなかった。",
+    "en": "The voice on the phone was so quiet I couldn't make it out."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "取",
+   "聞"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a5718f1509",
+  "headword": "塞ぐ",
+  "reading": "ふさぐ",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{開|あ}いているところを{閉|と}じる。また、じゃまをして{通|とお}れなくする。",
+  "english": "to stop up; to close up; to block (up)",
+  "examples": [
+   {
+    "ja": "{倒|たお}れた{木|き}が{道|みち}を{塞|ふさ}いでいる。",
+    "en": "A fallen tree is blocking the road."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "塞"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f98035cd49",
+  "headword": "現れる",
+  "reading": "あらわれる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{見|み}えなかったものが{見|み}えるようになる。また、{効果|こうか}や{気持|きも}ちなどが{外|そと}に{出|で}る。",
+  "english": "to appear; to come in sight; to become visible",
+  "examples": [
+   {
+    "ja": "{雲|くも}の{間|あいだ}から{富士山|ふじさん}が{現|あらわ}れた。",
+    "en": "Mount Fuji appeared from between the clouds."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "現"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9b693f9c01",
+  "headword": "受け入れる",
+  "reading": "うけいれる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{人|ひと}やものを{迎|むか}えて{入|い}れる。また、{意見|いけん}や{要求|ようきゅう}を{認|みと}める。",
+  "english": "to accept; to receive; to agree",
+  "examples": [
+   {
+    "ja": "{会社|かいしゃ}は{社員|しゃいん}の{提案|ていあん}を{受|う}け{入|い}れた。",
+    "en": "The company accepted the employees' proposal."
+   }
+  ],
+  "related": [
+   "認める"
+  ],
+  "kanji": [
+   "入",
+   "受"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_55251f71a1",
+  "headword": "恐れる",
+  "reading": "おそれる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "よくないことが{起|お}こるのではないかと{心配|しんぱい}して、こわがる。",
+  "english": "to fear; to be afraid of",
+  "examples": [
+   {
+    "ja": "{失敗|しっぱい}を{恐|おそ}れずに{挑戦|ちょうせん}しよう。",
+    "en": "Let's take on the challenge without fearing failure."
+   }
+  ],
+  "related": [
+   "怖い"
+  ],
+  "kanji": [
+   "恐"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f1c3003342",
+  "headword": "欠ける",
+  "reading": "かける",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{一部分|いちぶぶん}が{壊|こわ}れてなくなる。また、あるべきものが{足|た}りない。",
+  "english": "to chip; to be chipped; to break (off)",
+  "examples": [
+   {
+    "ja": "{彼|かれ}の{話|はなし}は{具体性|ぐたいせい}に{欠|か}ける。",
+    "en": "What he says lacks specifics."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "欠"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_dce3f89ce4",
+  "headword": "鍛える",
+  "reading": "きたえる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{練習|れんしゅう}をくり{返|かえ}して、{体|からだ}や{心|こころ}、{技術|ぎじゅつ}を{強|つよ}くする。",
+  "english": "to forge; to temper; to drill",
+  "examples": [
+   {
+    "ja": "{毎朝|まいあさ}{走|はし}って{体|からだ}を{鍛|きた}えている。",
+    "en": "I run every morning to keep in shape."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "鍛"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_278770406a",
+  "headword": "心掛ける",
+  "reading": "こころがける",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "いつも{忘|わす}れないように、{気|き}をつけて{行|おこな}う。",
+  "english": "to keep in mind; to bear in mind; to try",
+  "examples": [
+   {
+    "ja": "{健康|けんこう}のために、{早寝|はやね}{早起|はやお}きを{心掛|こころが}けている。",
+    "en": "For my health, I make a point of going to bed and getting up early."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "心",
+   "掛"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4a0081d3ce",
+  "headword": "込める",
+  "reading": "こめる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{気持|きも}ちや{力|ちから}などを、ものの{中|なか}にいっぱいに{入|い}れる。",
+  "english": "to load (a gun, etc.); to charge; to put into (e.g. emotion, effort)",
+  "examples": [
+   {
+    "ja": "{感謝|かんしゃ}の{気持|きも}ちを{込|こ}めて{手紙|てがみ}を{書|か}いた。",
+    "en": "I wrote the letter full of gratitude."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "込"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0fd57c8f32",
+  "headword": "優れる",
+  "reading": "すぐれる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "ほかのものより{力|ちから}や{質|しつ}が{上|うえ}である。{多|おお}く「{優|すぐ}れた」「{優|すぐ}れている」の{形|かたち}で{使|つか}う。",
+  "english": "to be better (than); to be superior; to surpass",
+  "examples": [
+   {
+    "ja": "この{素材|そざい}は{水|みず}に{強|つよ}く、{性能|せいのう}も{優|すぐ}れている。",
+    "en": "This material is water-resistant and performs excellently too."
+   }
+  ],
+  "related": [
+   "劣る"
+  ],
+  "kanji": [
+   "優"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ac56db4832",
+  "headword": "添える",
+  "reading": "そえる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{主|おも}なものに、ほかのものをつけ{加|くわ}える。",
+  "english": "to garnish; to accompany (as a card does a gift); to add to as support",
+  "examples": [
+   {
+    "ja": "プレゼントに{短|みじか}いメッセージを{添|そ}えた。",
+    "en": "I added a short message to the present."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "添"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bb95bcb50b",
+  "headword": "尽きる",
+  "reading": "つきる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{使|つか}ったり{減|へ}ったりして、すっかりなくなる。",
+  "english": "to be used up; to be run out; to be exhausted",
+  "examples": [
+   {
+    "ja": "{二人|ふたり}の{話題|わだい}が{尽|つ}きることはなかった。",
+    "en": "The two of them never ran out of things to talk about."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "尽"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c54f72813b",
+  "headword": "告げる",
+  "reading": "つげる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{大事|だいじ}なことを{相手|あいて}に{知|し}らせる。{書|か}き{言葉|ことば}でよく{使|つか}う。",
+  "english": "to tell; to inform; to announce",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{誰|だれ}にも{告|つ}げずに{町|まち}を{出|で}た。",
+    "en": "He left town without telling anyone."
+   }
+  ],
+  "related": [
+   "伝える"
+  ],
+  "kanji": [
+   "告"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_271fc0175e",
+  "headword": "取り入れる",
+  "reading": "とりいれる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "よいものを{自分|じぶん}のほうへ{入|い}れて{使|つか}う。",
+  "english": "to take in; to gather in; to adopt (e.g. an idea)",
+  "examples": [
+   {
+    "ja": "{新|あたら}しい{技術|ぎじゅつ}を{積極的|せっきょくてき}に{取|と}り{入|い}れている。",
+    "en": "We are actively adopting new technology."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "入",
+   "取"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f4db5a3eca",
+  "headword": "控える",
+  "reading": "ひかえる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{量|りょう}や{回数|かいすう}を{少|すく}なくする。また、することをやめておく。",
+  "english": "to be temperate in; to refrain; to abstain",
+  "examples": [
+   {
+    "ja": "{医者|いしゃ}に{言|い}われて、お{酒|さけ}を{控|ひか}えている。",
+    "en": "On doctor's orders, I'm cutting down on alcohol."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "控"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_dcff4a543d",
+  "headword": "広める",
+  "reading": "ひろめる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{多|おお}くの{人|ひと}に{知|し}られるようにする。",
+  "english": "to spread; to propagate; to popularize",
+  "examples": [
+   {
+    "ja": "{地元|じもと}の{料理|りょうり}を{世界|せかい}に{広|ひろ}めたい。",
+    "en": "I want to spread our local food to the world."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "広"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_890a5b6cd5",
+  "headword": "申し出る",
+  "reading": "もうしでる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{自分|じぶん}の{希望|きぼう}や{意見|いけん}を、{自分|じぶん}から{相手|あいて}に{伝|つた}える。",
+  "english": "to offer; to propose; to suggest",
+  "examples": [
+   {
+    "ja": "{困|こま}ったことがあれば、{遠慮|えんりょ}なく{係|かかり}の{者|もの}に{申|もう}し{出|で}てください。",
+    "en": "If you have any problems, please don't hesitate to tell our staff."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "出",
+   "申"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5539db4f2a",
+  "headword": "漏れる",
+  "reading": "もれる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{液体|えきたい}や{気体|きたい}、{光|ひかり}などが、すき{間|ま}から{外|そと}へ{出|で}る。また、{秘密|ひみつ}が{知|し}られる。",
+  "english": "to leak out; to escape; to come through",
+  "examples": [
+   {
+    "ja": "{会議|かいぎ}の{内容|ないよう}が{外部|がいぶ}に{漏|も}れた。",
+    "en": "The content of the meeting leaked to outsiders."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "漏"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4594b305cb",
+  "headword": "緩める",
+  "reading": "ゆるめる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "きつく{締|し}まっているものを{緩|ゆる}くする。また、{厳|きび}しさや{速|はや}さを{弱|よわ}める。",
+  "english": "to loosen; to slacken; to relax (attention, efforts, etc.)",
+  "examples": [
+   {
+    "ja": "カーブの{手前|てまえ}でスピードを{緩|ゆる}めた。",
+    "en": "I slowed down before the bend."
+   }
+  ],
+  "related": [
+   "緩い"
+  ],
+  "kanji": [
+   "緩"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b11c0bbc2c",
+  "headword": "憧れる",
+  "reading": "あこがれる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "すばらしいと{思|おも}う{人|ひと}やものに、{強|つよ}く{心|こころ}を{引|ひ}かれる。",
+  "english": "to long for; to yearn for; to hanker after",
+  "examples": [
+   {
+    "ja": "{子|こ}どものころ、パイロットに{憧|あこが}れていた。",
+    "en": "As a child I longed to be a pilot."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "憧"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_368735bf7f",
+  "headword": "切り替える",
+  "reading": "きりかえる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "それまでのやり{方|かた}や{気持|きも}ちを、{別|べつ}のものに{変|か}える。",
+  "english": "to change; to switch; to change over (to)",
+  "examples": [
+   {
+    "ja": "{失敗|しっぱい}しても、すぐに{気持|きも}ちを{切|き}り{替|か}えよう。",
+    "en": "Even when you fail, switch your mindset straight away."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "切",
+   "替"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_60b48dc4bf",
+  "headword": "避ける",
+  "reading": "さける",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "よくないことや{人|ひと}に{近|ちか}づかないようにする。",
+  "english": "to avoid (physical contact with); to avoid (situation); to evade (question, subject)",
+  "examples": [
+   {
+    "ja": "{混雑|こんざつ}を{避|さ}けて、{早|はや}めに{家|いえ}を{出|で}た。",
+    "en": "I left home early to avoid the crowds."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "避"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_de685965b1",
+  "headword": "乗り越える",
+  "reading": "のりこえる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{苦|くる}しいことや{難|むずか}しいことに{負|ま}けずに、{先|さき}へ{進|すす}む。",
+  "english": "to climb over; to get over; to cross (a mountain)",
+  "examples": [
+   {
+    "ja": "チーム{全員|ぜんいん}で{困難|こんなん}を{乗|の}り{越|こ}えた。",
+    "en": "The whole team overcame the difficulties together."
+   }
+  ],
+  "related": [
+   "克服"
+  ],
+  "kanji": [
+   "乗",
+   "越"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bc08708f57",
+  "headword": "満ちる",
+  "reading": "みちる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{中|なか}がいっぱいになる。",
+  "english": "to fill; to become full (of); to be filled (with)",
+  "examples": [
+   {
+    "ja": "{会場|かいじょう}は{明|あか}るい{笑|わら}い{声|ごえ}に{満|み}ちていた。",
+    "en": "The hall was filled with cheerful laughter."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "満"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7dd3de8cdc",
+  "headword": "寄せる",
+  "reading": "よせる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{近|ちか}くへ{動|うご}かす。また、{意見|いけん}や{気持|きも}ちを{送|おく}る。",
+  "english": "to come near; to let someone approach; to bring near",
+  "examples": [
+   {
+    "ja": "{多|おお}くの{方|かた}から{温|あたた}かいメッセージが{寄|よ}せられた。",
+    "en": "We received warm messages from many people."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "寄"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ce89e8ac69",
+  "headword": "応える",
+  "reading": "こたえる",
+  "level": "N2",
+  "category": "verb-ru",
+  "category_ja": "動詞（一段）",
+  "definition_ja": "{期待|きたい}や{要望|ようぼう}に{合|あ}うように{行動|こうどう}する。",
+  "english": "to respond; to answer; to meet (e.g. demands, expectations)",
+  "examples": [
+   {
+    "ja": "{両親|りょうしん}の{期待|きたい}に{応|こた}えたい。",
+    "en": "I want to live up to my parents' expectations."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "応"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_442f71b2f2",
+  "headword": "達する",
+  "reading": "たっする",
+  "level": "N2",
+  "category": "verb-irregular",
+  "category_ja": "動詞（不規則）",
+  "definition_ja": "ある{数|かず}や{場所|ばしょ}、{程度|ていど}にまで{届|とど}く。",
+  "english": "to reach; to get to; to arrive at",
+  "examples": [
+   {
+    "ja": "{参加者|さんかしゃ}は{千人|せんにん}に{達|たっ}する{見込|みこ}みだ。",
+    "en": "The number of participants is expected to reach a thousand."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "達"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bc1256989b",
+  "headword": "心細い",
+  "reading": "こころぼそい",
+  "level": "N2",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{頼|たよ}るものがなくて、{不安|ふあん}だ。",
+  "english": "helpless; forlorn; hopeless",
+  "examples": [
+   {
+    "ja": "{初|はじ}めての{海外|かいがい}で、{一人|ひとり}だと{心細|こころぼそ}かった。",
+    "en": "It was my first time abroad, and being alone made me feel uneasy."
+   }
+  ],
+  "related": [
+   "心強い"
+  ],
+  "kanji": [
+   "心",
+   "細"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e2c06ddbc5",
+  "headword": "だらしない",
+  "reading": "だらしない",
+  "level": "N2",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "きちんとしていない。{生活|せいかつ}や{服装|ふくそう}が{乱|みだ}れている。",
+  "english": "slovenly (appearance, work, etc.); sloppy; untidy",
+  "examples": [
+   {
+    "ja": "{部屋|へや}がこんなに{汚|きたな}いなんて、だらしないね。",
+    "en": "Your room's this dirty? How sloppy."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e10863ecec",
+  "headword": "余る",
+  "reading": "あまる",
+  "level": "N2",
+  "category": "verb-u",
+  "category_ja": "動詞（五段）",
+  "definition_ja": "{必要|ひつよう}な{分|ぶん}より{多|おお}くて、{残|のこ}る。",
+  "english": "to remain; to be left over; to be in excess",
+  "examples": [
+   {
+    "ja": "パーティーの{料理|りょうり}がたくさん{余|あま}ってしまった。",
+    "en": "A lot of the party food ended up left over."
+   }
+  ],
+  "related": [
+   "残る"
+  ],
+  "kanji": [
+   "余"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d1f32422c0",
+  "headword": "心地よい",
+  "reading": "ここちよい",
+  "level": "N2",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{気持|きも}ちがよくて、{快|こころよ}い。",
+  "english": "comfortable; pleasant",
+  "examples": [
+   {
+    "ja": "{窓|まど}から{心地|ここち}よい{風|かぜ}が{入|はい}ってくる。",
+    "en": "A pleasant breeze comes in through the window."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "地",
+   "心"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_41b5e05ba2",
+  "headword": "力強い",
+  "reading": "ちからづよい",
+  "level": "N2",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{力|ちから}がこもっていて、{強|つよ}く{感|かん}じられる。また、{頼|たよ}りになって{安心|あんしん}できる。",
+  "english": "powerful; strong; forceful",
+  "examples": [
+   {
+    "ja": "{彼|かれ}の{力強|ちからづよ}いスピーチに{感動|かんどう}した。",
+    "en": "I was moved by his powerful speech."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "力",
+   "強"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3d925d9fa4",
+  "headword": "疑わしい",
+  "reading": "うたがわしい",
+  "level": "N2",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{本当|ほんとう}かどうか{信|しん}じにくい。",
+  "english": "doubtful; questionable; uncertain",
+  "examples": [
+   {
+    "ja": "その{情報|じょうほう}が{正|ただ}しいかどうかは{疑|うたが}わしい。",
+    "en": "It's doubtful whether that information is correct."
+   }
+  ],
+  "related": [
+   "疑う"
+  ],
+  "kanji": [
+   "疑"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3ad3087a50",
+  "headword": "粗い",
+  "reading": "あらい",
+  "level": "N2",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{目|め}や{粒|つぶ}が{大|おお}きくて、{細|こま}かくない。また、{雑|ざつ}だ。",
+  "english": "coarse; rough",
+  "examples": [
+   {
+    "ja": "この{計画|けいかく}はまだ{粗|あら}いので、もっと{細|こま}かく{詰|つ}めよう。",
+    "en": "This plan is still rough, so let's work out the details more."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "粗"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c5de6683cd",
+  "headword": "若々しい",
+  "reading": "わかわかしい",
+  "level": "N2",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{年齢|ねんれい}よりも{若|わか}く{見|み}えて、{元気|げんき}がある。",
+  "english": "youthful; young; young-looking",
+  "examples": [
+   {
+    "ja": "{祖母|そぼ}は{七十歳|ななじゅっさい}だが、とても{若々|わかわか}しい。",
+    "en": "My grandmother is seventy but looks very youthful."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "々",
+   "若"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_de320e0bbe",
+  "headword": "勇ましい",
+  "reading": "いさましい",
+  "level": "N2",
+  "category": "adj-i",
+  "category_ja": "い形容詞",
+  "definition_ja": "{恐|おそ}れずに{立|た}ち{向|む}かっていく{様子|ようす}で、{力強|ちからづよ}い。",
+  "english": "brave; valiant; gallant",
+  "examples": [
+   {
+    "ja": "{選手|せんしゅ}たちは{勇|いさ}ましい{姿|すがた}で{入場|にゅうじょう}した。",
+    "en": "The athletes marched in looking brave and spirited."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "勇"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b595e48bc8",
+  "headword": "鮮やか",
+  "reading": "あざやか",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{色|いろ}や{形|かたち}がはっきりしていて{美|うつく}しい。また、{技|わざ}がみごとだ。",
+  "english": "vivid; bright; brilliant",
+  "examples": [
+   {
+    "ja": "{秋|あき}になると、{山|やま}が{鮮|あざ}やかな{赤|あか}に{染|そ}まる。",
+    "en": "In autumn, the mountains turn a vivid red."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "鮮"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8d775c77ed",
+  "headword": "大まか",
+  "reading": "おおまか",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{細|こま}かいところまで{気|き}にしない。だいたいの。",
+  "english": "rough (estimate, outline, etc.); broad; general",
+  "examples": [
+   {
+    "ja": "まず{大|おお}まかな{流|なが}れを{説明|せつめい}します。",
+    "en": "First I'll explain the general flow."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "大"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0331f44013",
+  "headword": "快適",
+  "reading": "かいてき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{気持|きも}ちがよくて、{過|す}ごしやすい。",
+  "english": "pleasant; agreeable; comfortable",
+  "examples": [
+   {
+    "ja": "{新|あたら}しい{部屋|へや}は{広|ひろ}くて{快適|かいてき}だ。",
+    "en": "The new room is spacious and comfortable."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "快",
+   "適"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_041d18d0b8",
+  "headword": "頑丈",
+  "reading": "がんじょう",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{作|つく}りがしっかりしていて、{壊|こわ}れにくい。",
+  "english": "solid; firm; stout",
+  "examples": [
+   {
+    "ja": "{頑丈|がんじょう}な{箱|はこ}に{入|い}れて{送|おく}った。",
+    "en": "I sent it in a sturdy box."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "丈",
+   "頑"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_77c8211a9c",
+  "headword": "健全",
+  "reading": "けんぜん",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{体|からだ}や{心|こころ}が{健康|けんこう}だ。また、ものごとに{問題|もんだい}がなく、しっかりしている。",
+  "english": "healthy; sound; wholesome",
+  "examples": [
+   {
+    "ja": "{子|こ}どもの{健全|けんぜん}な{成長|せいちょう}を{願|ねが}う。",
+    "en": "We wish for children's healthy growth."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "健",
+   "全"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5bd8834343",
+  "headword": "合理的",
+  "reading": "ごうりてき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{無駄|むだ}がなく、{筋道|すじみち}が{通|とお}っている。",
+  "english": "rational; reasonable; logical",
+  "examples": [
+   {
+    "ja": "もっと{合理的|ごうりてき}なやり{方|かた}を{考|かんが}えよう。",
+    "en": "Let's think of a more rational way of doing it."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "合",
+   "理",
+   "的"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_06f59d3ee5",
+  "headword": "地道",
+  "reading": "じみち",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{派手|はで}ではないが、まじめに{少|すこ}しずつ{努力|どりょく}を{続|つづ}ける{様子|ようす}。",
+  "english": "steady; honest; sober",
+  "examples": [
+   {
+    "ja": "{地道|じみち}な{努力|どりょく}が{実|みの}を{結|むす}んだ。",
+    "en": "Steady effort paid off."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "地",
+   "道"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c8ff56466d",
+  "headword": "純粋",
+  "reading": "じゅんすい",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "ほかのものが{混|ま}じっていない。また、{心|こころ}に{嘘|うそ}や{欲|よく}がない。",
+  "english": "pure; true; genuine",
+  "examples": [
+   {
+    "ja": "{子|こ}どもの{純粋|じゅんすい}な{質問|しつもん}にどきっとした。",
+    "en": "The child's innocent question startled me."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "粋",
+   "純"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_1e0a7cd431",
+  "headword": "素朴",
+  "reading": "そぼく",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{飾|かざ}りがなく、{自然|しぜん}のままだ。",
+  "english": "simple; artless; naive",
+  "examples": [
+   {
+    "ja": "この{村|むら}の{人々|ひとびと}は{素朴|そぼく}で{温|あたた}かい。",
+    "en": "The people of this village are unpretentious and warm."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "朴",
+   "素"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_35744e312f",
+  "headword": "大胆",
+  "reading": "だいたん",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{恐|おそ}れずに、{思|おも}い{切|き}ったことをする{様子|ようす}。",
+  "english": "bold; daring; audacious",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{大胆|だいたん}な{計画|けいかく}を{発表|はっぴょう}した。",
+    "en": "He announced a bold plan."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "大",
+   "胆"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_1a79ad40f1",
+  "headword": "単調",
+  "reading": "たんちょう",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{変化|へんか}がなくて、おもしろくない。",
+  "english": "monotony; monotone; dullness",
+  "examples": [
+   {
+    "ja": "{毎日|まいにち}{同|おな}じ{作業|さぎょう}で、{仕事|しごと}が{単調|たんちょう}だ。",
+    "en": "It's the same work every day, so my job is monotonous."
+   }
+  ],
+  "related": [
+   "退屈"
+  ],
+  "kanji": [
+   "単",
+   "調"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_77b24e607e",
+  "headword": "手軽",
+  "reading": "てがる",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{手間|てま}やお{金|かね}がかからず、{簡単|かんたん}にできる。",
+  "english": "easy; simple; informal",
+  "examples": [
+   {
+    "ja": "{忙|いそが}しい{朝|あさ}は、{手軽|てがる}な{料理|りょうり}で{済|す}ませる。",
+    "en": "On busy mornings I make do with something quick and easy."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "手",
+   "軽"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e2d25b9462",
+  "headword": "生意気",
+  "reading": "なまいき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{年|とし}や{立場|たちば}に{合|あ}わず、えらそうな{態度|たいど}をとる{様子|ようす}。",
+  "english": "impertinent; saucy; cheeky",
+  "examples": [
+   {
+    "ja": "{後輩|こうはい}に{生意気|なまいき}な{口|くち}をきかれた。",
+    "en": "A junior spoke to me cheekily."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "意",
+   "気",
+   "生"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_78e0699fa3",
+  "headword": "敏感",
+  "reading": "びんかん",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "ちょっとしたことにも、すぐに{気|き}づいたり{反応|はんのう}したりする。",
+  "english": "sensitive; alert; aware",
+  "examples": [
+   {
+    "ja": "{彼女|かのじょ}は{流行|りゅうこう}に{敏感|びんかん}だ。",
+    "en": "She is quick to pick up on trends."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "感",
+   "敏"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e7359bd8cc",
+  "headword": "豊富",
+  "reading": "ほうふ",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{量|りょう}や{種類|しゅるい}がたっぷりある。",
+  "english": "abundant; plentiful; rich",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{経験|けいけん}が{豊富|ほうふ}な{医者|いしゃ}だ。",
+    "en": "He is a doctor with a wealth of experience."
+   }
+  ],
+  "related": [
+   "豊か"
+  ],
+  "kanji": [
+   "富",
+   "豊"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7b820b129d",
+  "headword": "未熟",
+  "reading": "みじゅく",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{技術|ぎじゅつ}や{経験|けいけん}が、まだ{足|た}りない。",
+  "english": "unripe; green; immature",
+  "examples": [
+   {
+    "ja": "{私|わたし}はまだ{未熟|みじゅく}ですが、よろしくお{願|ねが}いします。",
+    "en": "I still have a lot to learn, but I look forward to working with you."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "未",
+   "熟"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_119be31780",
+  "headword": "身近",
+  "reading": "みぢか",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{自分|じぶん}のすぐ{近|ちか}くにある。また、{自分|じぶん}に{関係|かんけい}が{深|ふか}い。",
+  "english": "near oneself; close to one; familiar",
+  "examples": [
+   {
+    "ja": "{環境|かんきょう}{問題|もんだい}を{身近|みぢか}なことから{考|かんが}えよう。",
+    "en": "Let's think about environmental problems starting from things close to us."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "身",
+   "近"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e44a128fe3",
+  "headword": "明確",
+  "reading": "めいかく",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "はっきりしていて、{間違|まちが}いがない。",
+  "english": "clear; precise; definite",
+  "examples": [
+   {
+    "ja": "{目標|もくひょう}を{明確|めいかく}にすることが{大切|たいせつ}だ。",
+    "en": "It's important to make your goals clear."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "明",
+   "確"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3da29dadda",
+  "headword": "優秀",
+  "reading": "ゆうしゅう",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "ほかよりも{特|とく}にすぐれている。",
+  "english": "superior; excellent; brilliant",
+  "examples": [
+   {
+    "ja": "{彼女|かのじょ}は{優秀|ゆうしゅう}な{成績|せいせき}で{卒業|そつぎょう}した。",
+    "en": "She graduated with excellent grades."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "優",
+   "秀"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_dc20cc4ff4",
+  "headword": "容易",
+  "reading": "ようい",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "やさしくて、{簡単|かんたん}にできる。{硬|かた}い{言|い}い{方|かた}。",
+  "english": "easy; simple; plain",
+  "examples": [
+   {
+    "ja": "この{問題|もんだい}を{解決|かいけつ}するのは{容易|ようい}ではない。",
+    "en": "Solving this problem is not easy."
+   }
+  ],
+  "related": [
+   "簡単"
+  ],
+  "kanji": [
+   "容",
+   "易"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c7fb54eba6",
+  "headword": "着実",
+  "reading": "ちゃくじつ",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{落|お}ち{着|つ}いて、{確|たし}かに{進|すす}めていく{様子|ようす}。",
+  "english": "steady; sound; solid",
+  "examples": [
+   {
+    "ja": "{日本語|にほんご}の{力|ちから}が{着実|ちゃくじつ}に{伸|の}びている。",
+    "en": "My Japanese is steadily improving."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "実",
+   "着"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_956161ec02",
+  "headword": "大幅",
+  "reading": "おおはば",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{数|かず}や{量|りょう}の{変化|へんか}がとても{大|おお}きい。",
+  "english": "big; large; drastic",
+  "examples": [
+   {
+    "ja": "{事故|じこ}のため、{電車|でんしゃ}が{大幅|おおはば}に{遅|おく}れている。",
+    "en": "Because of an accident, the trains are badly delayed."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "大",
+   "幅"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a6980005f2",
+  "headword": "一時的",
+  "reading": "いちじてき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "しばらくの{間|あいだ}だけで、{長|なが}く{続|つづ}かない。",
+  "english": "temporary; transitory; short-lived",
+  "examples": [
+   {
+    "ja": "{工事|こうじ}のため、{一時的|いちじてき}に{道路|どうろ}が{通|とお}れなくなる。",
+    "en": "The road will be temporarily closed for construction work."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "一",
+   "時",
+   "的"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6dd0a8df29",
+  "headword": "本格的",
+  "reading": "ほんかくてき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{本物|ほんもの}と{同|おな}じように、しっかりしている。また、{本当|ほんとう}にその{状態|じょうたい}になる。",
+  "english": "genuine; real; authentic",
+  "examples": [
+   {
+    "ja": "{来週|らいしゅう}から{本格的|ほんかくてき}な{夏|なつ}になるそうだ。",
+    "en": "They say real summer weather starts next week."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "本",
+   "格",
+   "的"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_83a7209baa",
+  "headword": "客観的",
+  "reading": "きゃっかんてき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{自分|じぶん}の{気持|きも}ちを{入|い}れず、{誰|だれ}が{見|み}ても{同|おな}じように{考|かんが}える{様子|ようす}。",
+  "english": "objective",
+  "examples": [
+   {
+    "ja": "{自分|じぶん}の{作品|さくひん}を{客観的|きゃっかんてき}に{見|み}るのは{難|むずか}しい。",
+    "en": "It's hard to look at your own work objectively."
+   }
+  ],
+  "related": [
+   "主観的"
+  ],
+  "kanji": [
+   "客",
+   "的",
+   "観"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_ce28c5e229",
+  "headword": "前向き",
+  "reading": "まえむき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "ものごとをよい{方|ほう}に{考|かんが}えて、{積極的|せっきょくてき}に{進|すす}もうとする{様子|ようす}。",
+  "english": "front-facing; forward-looking; positive",
+  "examples": [
+   {
+    "ja": "{失敗|しっぱい}しても{前向|まえむ}きに{考|かんが}えよう。",
+    "en": "Even if you fail, think positively."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "前",
+   "向"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_1f81ac07c8",
+  "headword": "膨大",
+  "reading": "ぼうだい",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{量|りょう}や{数|かず}がとても{多|おお}い。",
+  "english": "huge; vast; enormous",
+  "examples": [
+   {
+    "ja": "{膨大|ぼうだい}なデータを{一|ひと}つ{一|ひと}つ{確認|かくにん}した。",
+    "en": "We checked an enormous amount of data one item at a time."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "大",
+   "膨"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3187ccfa82",
+  "headword": "平凡",
+  "reading": "へいぼん",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{特|とく}に{目立|めだ}つところがなく、{普通|ふつう}だ。",
+  "english": "ordinary; common; commonplace",
+  "examples": [
+   {
+    "ja": "{平凡|へいぼん}な{毎日|まいにち}にも{小|ちい}さな{幸|しあわ}せがある。",
+    "en": "Even ordinary days hold small joys."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "凡",
+   "平"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_860a2986f5",
+  "headword": "物騒",
+  "reading": "ぶっそう",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{事件|じけん}などが{起|お}きそうで、{安心|あんしん}できない。",
+  "english": "dangerous; unsettled; troubled",
+  "examples": [
+   {
+    "ja": "{最近|さいきん}この{辺|あた}りは{物騒|ぶっそう}なので、{夜|よる}は{気|き}をつけて。",
+    "en": "This area's been unsafe lately, so be careful at night."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "物",
+   "騒"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2f2cb2e91d",
+  "headword": "和やか",
+  "reading": "なごやか",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{雰囲気|ふんいき}がやわらかく、{落|お}ち{着|つ}いていて{楽|たの}しい。",
+  "english": "smiling; beaming; radiant",
+  "examples": [
+   {
+    "ja": "{会|かい}は{和|なご}やかな{雰囲気|ふんいき}で{進|すす}んだ。",
+    "en": "The gathering went on in a friendly atmosphere."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "和"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b5bb5c2bac",
+  "headword": "有効",
+  "reading": "ゆうこう",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{効果|こうか}がある。また、{決|き}まった{期間|きかん}{使|つか}える。",
+  "english": "valid; effective; yuko (judo)",
+  "examples": [
+   {
+    "ja": "このチケットは{今月末|こんげつまつ}まで{有効|ゆうこう}です。",
+    "en": "This ticket is valid until the end of this month."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "効",
+   "有"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c40c538e07",
+  "headword": "根本的",
+  "reading": "こんぽんてき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "ものごとの{一番|いちばん}もとの{部分|ぶぶん}に{関|かか}わる{様子|ようす}。",
+  "english": "fundamental; basic",
+  "examples": [
+   {
+    "ja": "{根本的|こんぽんてき}な{解決|かいけつ}には{時間|じかん}がかかる。",
+    "en": "A fundamental solution will take time."
+   }
+  ],
+  "related": [
+   "根本"
+  ],
+  "kanji": [
+   "本",
+   "根",
+   "的"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_f2ecc1552e",
+  "headword": "圧倒的",
+  "reading": "あっとうてき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "ほかと{比|くら}べものにならないほど、{差|さ}が{大|おお}きい{様子|ようす}。",
+  "english": "overwhelming",
+  "examples": [
+   {
+    "ja": "{彼|かれ}は{圧倒的|あっとうてき}な{差|さ}で{選挙|せんきょ}に{勝|か}った。",
+    "en": "He won the election by an overwhelming margin."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "倒",
+   "圧",
+   "的"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_2725bea3ca",
+  "headword": "効果的",
+  "reading": "こうかてき",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "よい{結果|けっか}がよく{出|で}る{様子|ようす}。",
+  "english": "effective; successful",
+  "examples": [
+   {
+    "ja": "{単語|たんご}は{例文|れいぶん}と{一緒|いっしょ}に{覚|おぼ}えると{効果的|こうかてき}だ。",
+    "en": "It's effective to learn words together with example sentences."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "効",
+   "果",
+   "的"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_74106a84cd",
+  "headword": "粗末",
+  "reading": "そまつ",
+  "level": "N2",
+  "category": "adj-na",
+  "category_ja": "な形容詞",
+  "definition_ja": "{作|つく}りや{品質|ひんしつ}がよくない。また、ものを{大切|たいせつ}にしない{様子|ようす}。",
+  "english": "crude; rough; plain",
+  "examples": [
+   {
+    "ja": "{食|た}べ{物|もの}を{粗末|そまつ}にしてはいけない。",
+    "en": "You mustn't waste food."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "末",
+   "粗"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5d8b647066",
+  "headword": "いずれ",
+  "reading": "いずれ",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{今|いま}ではないが、{近|ちか}いうちに。いつかは。",
+  "english": "which; where; who",
+  "examples": [
+   {
+    "ja": "いずれまたお{会|あ}いしましょう。",
+    "en": "Let's meet again sometime."
+   }
+  ],
+  "related": [
+   "そのうち"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_80871ef79e",
+  "headword": "今さら",
+  "reading": "いまさら",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "もう{遅|おそ}い{今|いま}になって。",
+  "english": "now (when it is already much too late); at this stage; afresh",
+  "examples": [
+   {
+    "ja": "{今|いま}さら{謝|あやま}っても、もう{遅|おそ}い。",
+    "en": "It's too late to apologise now."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "今"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fa1812bf7a",
+  "headword": "恐らく",
+  "reading": "おそらく",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "たぶん。かなり{確|たし}かだと{思|おも}って{推測|すいそく}するときに{使|つか}う。",
+  "english": "probably; (most) likely; in all likelihood",
+  "examples": [
+   {
+    "ja": "{恐|おそ}らく{明日|あした}は{雨|あめ}になるだろう。",
+    "en": "It will probably rain tomorrow."
+   }
+  ],
+  "related": [
+   "多分"
+  ],
+  "kanji": [
+   "恐"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5919d6c627",
+  "headword": "思い切って",
+  "reading": "おもいきって",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{迷|まよ}う{気持|きも}ちを{捨|す}てて、{決心|けっしん}して。",
+  "english": "resolutely; boldly; decisively",
+  "examples": [
+   {
+    "ja": "{思|おも}い{切|き}って{髪|かみ}を{短|みじか}く{切|き}った。",
+    "en": "I took the plunge and cut my hair short."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "切",
+   "思"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_28e23c7bd1",
+  "headword": "かつて",
+  "reading": "かつて",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{以前|いぜん}。{昔|むかし}。",
+  "english": "once; before; formerly",
+  "examples": [
+   {
+    "ja": "ここはかつて{小学校|しょうがっこう}だった。",
+    "en": "This used to be an elementary school."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d269274744",
+  "headword": "くれぐれも",
+  "reading": "くれぐれも",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{何度|なんど}もお{願|ねが}いするように、よくよく。",
+  "english": "sincerely; earnestly; wholeheartedly",
+  "examples": [
+   {
+    "ja": "くれぐれもお{体|からだ}を{大切|たいせつ}になさってください。",
+    "en": "Please do take good care of yourself."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0c5cd144e9",
+  "headword": "現に",
+  "reading": "げんに",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{実際|じっさい}に。{今|いま}、{目|め}の{前|まえ}で。",
+  "english": "actually; really",
+  "examples": [
+   {
+    "ja": "{危|あぶ}ないと{言|い}われていたが、{現|げん}に{事故|じこ}が{起|お}きた。",
+    "en": "People said it was dangerous, and in fact an accident happened."
+   }
+  ],
+  "related": [
+   "実際"
+  ],
+  "kanji": [
+   "現"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d248de4d65",
+  "headword": "たちまち",
+  "reading": "たちまち",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "とても{短|みじか}い{時間|じかん}で。すぐに。",
+  "english": "in an instant; in a moment; immediately",
+  "examples": [
+   {
+    "ja": "{新商品|しんしょうひん}はたちまち{売|う}り{切|き}れた。",
+    "en": "The new product sold out in no time."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_d4521da59a",
+  "headword": "単に",
+  "reading": "たんに",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "ただ。それだけで。",
+  "english": "simply; merely; only",
+  "examples": [
+   {
+    "ja": "{単|たん}に{忘|わす}れていただけで、{悪気|わるぎ}はなかった。",
+    "en": "I simply forgot; I didn't mean any harm."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "単"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_467881adbd",
+  "headword": "時折",
+  "reading": "ときおり",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "ときどき。{書|か}き{言葉|ことば}でよく{使|つか}う。",
+  "english": "sometimes; at intervals; occasionally",
+  "examples": [
+   {
+    "ja": "{時折|ときおり}、{昔|むかし}の{友達|ともだち}から{手紙|てがみ}が{届|とど}く。",
+    "en": "Now and then I get a letter from an old friend."
+   }
+  ],
+  "related": [
+   "時々"
+  ],
+  "kanji": [
+   "折",
+   "時"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_a285d52c20",
+  "headword": "何しろ",
+  "reading": "なにしろ",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "ほかのことはともかく。とにかく。{理由|りゆう}を{強|つよ}めて{言|い}うときに{使|つか}う。",
+  "english": "in any case; at any rate; anyhow",
+  "examples": [
+   {
+    "ja": "{何|なに}しろ{初|はじ}めてなので、うまくできるかわからない。",
+    "en": "After all, it's my first time, so I don't know if I'll do it well."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "何"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c424b0cab0",
+  "headword": "果たして",
+  "reading": "はたして",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{本当|ほんとう}に。{疑|うたが}いの{気持|きも}ちを{込|こ}めて{使|つか}う。",
+  "english": "as was expected; just as one thought; sure enough",
+  "examples": [
+   {
+    "ja": "{果|は}たしてこの{計画|けいかく}はうまくいくのだろうか。",
+    "en": "Will this plan really work, I wonder?"
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "果"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_509538bbed",
+  "headword": "ひとまず",
+  "reading": "ひとまず",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{完全|かんぜん}ではないが、とりあえず。",
+  "english": "for now; for the time being; for the present",
+  "examples": [
+   {
+    "ja": "これでひとまず{安心|あんしん}だ。",
+    "en": "That's a relief for now."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e40370e627",
+  "headword": "誠に",
+  "reading": "まことに",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{本当|ほんとう}に。{丁寧|ていねい}な{場面|ばめん}で{使|つか}う。",
+  "english": "really; truly; very",
+  "examples": [
+   {
+    "ja": "ご{迷惑|めいわく}をおかけして、{誠|まこと}に{申|もう}し{訳|わけ}ございません。",
+    "en": "We are truly sorry for the inconvenience."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "誠"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fa38516b11",
+  "headword": "正に",
+  "reading": "まさに",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{本当|ほんとう}に。ちょうどそのとおりに。",
+  "english": "exactly; just; precisely",
+  "examples": [
+   {
+    "ja": "それは{正|まさ}に{私|わたし}が{探|さが}していた{本|ほん}だ。",
+    "en": "That is exactly the book I was looking for."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "正"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_eb23502c9d",
+  "headword": "まさか",
+  "reading": "まさか",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "そんなことはありえないだろう、という{気持|きも}ちを{表|あらわ}す。",
+  "english": "by no means; never!; well, I never!",
+  "examples": [
+   {
+    "ja": "まさか{彼|かれ}が{会社|かいしゃ}を{辞|や}めるとは{思|おも}わなかった。",
+    "en": "I never imagined he would quit the company."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6685e6b3cb",
+  "headword": "無論",
+  "reading": "むろん",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{言|い}うまでもなく。もちろん。",
+  "english": "of course; certainly; naturally",
+  "examples": [
+   {
+    "ja": "{無論|むろん}、{費用|ひよう}はこちらで{負担|ふたん}します。",
+    "en": "Of course, we will cover the costs."
+   }
+  ],
+  "related": [
+   "もちろん"
+  ],
+  "kanji": [
+   "無",
+   "論"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_336cb0b607",
+  "headword": "あくまで",
+  "reading": "あくまで",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "どこまでも。また、ただそれだけだと{限|かぎ}って{言|い}う{様子|ようす}。",
+  "english": "to the end; to the bitter end; to the last",
+  "examples": [
+   {
+    "ja": "これはあくまで{個人|こじん}の{意見|いけん}です。",
+    "en": "This is merely my personal opinion."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_75ab328e32",
+  "headword": "めったに",
+  "reading": "めったに",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{後|うし}ろに「ない」がついて、ほとんど〜ない、という{意味|いみ}を{表|あらわ}す。",
+  "english": "rarely; seldom",
+  "examples": [
+   {
+    "ja": "この{地方|ちほう}では{雪|ゆき}はめったに{降|ふ}らない。",
+    "en": "It hardly ever snows in this region."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0888515662",
+  "headword": "ろくに",
+  "reading": "ろくに",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{後|うし}ろに「ない」がついて、{十分|じゅうぶん}に〜ない、という{意味|いみ}を{表|あらわ}す。",
+  "english": "(not) well; (not) properly; (not) enough",
+  "examples": [
+   {
+    "ja": "{忙|いそが}しくて、ろくに{寝|ね}ていない。",
+    "en": "I've been so busy I've hardly slept."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7625c7e9cc",
+  "headword": "しばしば",
+  "reading": "しばしば",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{何度|なんど}も。たびたび。",
+  "english": "often; again and again; frequently",
+  "examples": [
+   {
+    "ja": "この{道|みち}では{事故|じこ}がしばしば{起|お}こる。",
+    "en": "Accidents often happen on this road."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fd9658f7cd",
+  "headword": "当分",
+  "reading": "とうぶん",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "しばらくの{間|あいだ}。",
+  "english": "for the present; for the time being; for a while (from now)",
+  "examples": [
+   {
+    "ja": "{当分|とうぶん}の{間|あいだ}、{雨|あめ}の{日|ひ}が{続|つづ}きそうだ。",
+    "en": "It looks as if rainy days will continue for a while."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "分",
+   "当"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_022e3bcb1d",
+  "headword": "いよいよ",
+  "reading": "いよいよ",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "とうとう。{待|ま}っていた{時|とき}が{近|ちか}づいた{様子|ようす}。",
+  "english": "more and more; all the more; increasingly",
+  "examples": [
+   {
+    "ja": "いよいよ{明日|あした}は{試験|しけん}だ。",
+    "en": "At last, the exam is tomorrow."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3d56e1477d",
+  "headword": "何より",
+  "reading": "なにより",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "ほかの{何|なに}よりも。{一番|いちばん}。",
+  "english": "above anything else; above all; more than anything",
+  "examples": [
+   {
+    "ja": "{何|なに}より{健康|けんこう}が{大切|たいせつ}だ。",
+    "en": "Health matters more than anything."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "何"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3867693678",
+  "headword": "とっさに",
+  "reading": "とっさに",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{考|かんが}える{時間|じかん}もないほど、すぐに。",
+  "english": "at once; immediately; instantly",
+  "examples": [
+   {
+    "ja": "ボールが{飛|と}んできて、とっさに{頭|あたま}を{下|さ}げた。",
+    "en": "A ball came flying, and I instinctively ducked."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0f03048e4f",
+  "headword": "後ほど",
+  "reading": "のちほど",
+  "level": "N2",
+  "category": "adverb",
+  "category_ja": "副詞",
+  "definition_ja": "{少|すこ}し{時間|じかん}がたってから。{丁寧|ていねい}な{言|い}い{方|かた}。",
+  "english": "later on; eventually; afterwards",
+  "examples": [
+   {
+    "ja": "{後|のち}ほど{改|あらた}めてお{電話|でんわ}いたします。",
+    "en": "I will call you again later."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "後"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_23b491ff3a",
+  "headword": "そのため",
+  "reading": "そのため",
+  "level": "N2",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "それが{理由|りゆう}で。",
+  "english": "hence; for that reason",
+  "examples": [
+   {
+    "ja": "{大雪|おおゆき}が{降|ふ}った。そのため、{電車|でんしゃ}が{止|と}まった。",
+    "en": "There was heavy snow. As a result, the trains stopped."
+   }
+  ],
+  "related": [
+   "だから"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_74cbfd7026",
+  "headword": "さて",
+  "reading": "さて",
+  "level": "N2",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "{話|はなし}を{変|か}えるときや、{次|つぎ}のことを{始|はじ}めるときに{使|つか}う。",
+  "english": "well; now; then",
+  "examples": [
+   {
+    "ja": "さて、{次|つぎ}の{議題|ぎだい}に{移|うつ}りましょう。",
+    "en": "Now then, let's move on to the next item on the agenda."
+   }
+  ],
+  "related": [
+   "ところで"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5b65a7eb21",
+  "headword": "かつ",
+  "reading": "かつ",
+  "level": "N2",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "その{上|うえ}。{二|ふた}つのことが{同時|どうじ}に{成|な}り{立|た}つことを{表|あらわ}す、{硬|かた}い{言|い}い{方|かた}。",
+  "english": "and; moreover; besides",
+  "examples": [
+   {
+    "ja": "{説明|せつめい}は{正確|せいかく}かつ{簡潔|かんけつ}にお{願|ねが}いします。",
+    "en": "Please keep explanations accurate and concise."
+   }
+  ],
+  "related": [],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5bfd67324f",
+  "headword": "よって",
+  "reading": "よって",
+  "level": "N2",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "だから。{前|まえ}のことが{理由|りゆう}であることを{表|あらわ}す、{硬|かた}い{言|い}い{方|かた}。",
+  "english": "therefore; consequently; accordingly",
+  "examples": [
+   {
+    "ja": "{賛成|さんせい}が{過半数|かはんすう}だった。よって、この{案|あん}は{可決|かけつ}された。",
+    "en": "A majority were in favour. Accordingly, the proposal was passed."
+   }
+  ],
+  "related": [
+   "したがって"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_250ee8de56",
+  "headword": "しかしながら",
+  "reading": "しかしながら",
+  "level": "N2",
+  "category": "conjunction",
+  "category_ja": "接続詞",
+  "definition_ja": "「しかし」の{硬|かた}い{言|い}い{方|かた}。{書|か}き{言葉|ことば}や{改|あらた}まった{話|はなし}で{使|つか}う。",
+  "english": "however; nevertheless",
+  "examples": [
+   {
+    "ja": "{計画|けいかく}は{順調|じゅんちょう}に{進|すす}んでいた。しかしながら、{予算|よさん}が{足|た}りなくなった。",
+    "en": "The plan was going smoothly. However, the budget ran short."
+   }
+  ],
+  "related": [
+   "しかし"
+  ],
+  "kanji": [],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b49d0981bf",
+  "headword": "気が済む",
+  "reading": "きがすむ",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{満足|まんぞく}して、{心|こころ}が{落|お}ち{着|つ}く。",
+  "english": "to be satisfied; to find peace of mind; to feel good",
+  "examples": [
+   {
+    "ja": "{気|き}が{済|す}むまで{話|はな}し{合|あ}えばいい。",
+    "en": "You can talk it through until you're satisfied."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "気",
+   "済"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_7206f19cf3",
+  "headword": "気が進まない",
+  "reading": "きがすすまない",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{何|なに}かをしたいという{気持|きも}ちになれない。",
+  "english": "reluctant to; not inclined to; disinclined",
+  "examples": [
+   {
+    "ja": "{雨|あめ}だし、{今日|きょう}は{出|で}かけるのは{気|き}が{進|すす}まない。",
+    "en": "It's raining, so I don't really feel like going out today."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "気",
+   "進"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_556e91549d",
+  "headword": "手を貸す",
+  "reading": "てをかす",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{人|ひと}の{仕事|しごと}などを{手伝|てつだ}う。",
+  "english": "to lend a hand; to help",
+  "examples": [
+   {
+    "ja": "{困|こま}っている{人|ひと}がいたら、{手|て}を{貸|か}すのは{当然|とうぜん}だ。",
+    "en": "If someone is in trouble, it's only natural to lend a hand."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "手",
+   "貸"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_dabd893b3d",
+  "headword": "目が回る",
+  "reading": "めがまわる",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "めまいがする。また、とても{忙|いそが}しい{様子|ようす}。",
+  "english": "to be dizzy; to feel faint; to feel giddy",
+  "examples": [
+   {
+    "ja": "{年末|ねんまつ}は{目|め}が{回|まわ}るほど{忙|いそが}しい。",
+    "en": "The end of the year is so busy it makes my head spin."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "回",
+   "目"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4307cad2f3",
+  "headword": "口を出す",
+  "reading": "くちをだす",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{自分|じぶん}に{関係|かんけい}のない{話|はなし}に、{意見|いけん}を{言|い}う。",
+  "english": "to interrupt; to interfere; to meddle",
+  "examples": [
+   {
+    "ja": "{人|ひと}の{家庭|かてい}のことに{口|くち}を{出|だ}すのはよくない。",
+    "en": "It's not good to stick your nose into other people's family matters."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "出",
+   "口"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_253395741c",
+  "headword": "頭が固い",
+  "reading": "あたまがかたい",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{考|かんが}え{方|かた}が{柔軟|じゅうなん}でなく、{新|あたら}しい{考|かんが}えを{受|う}け{入|い}れにくい。",
+  "english": "thickheaded; obstinate; inflexible",
+  "examples": [
+   {
+    "ja": "うちの{上司|じょうし}は{頭|あたま}が{固|かた}いので、{新|あたら}しい{提案|ていあん}が{通|とお}らない。",
+    "en": "My boss is so inflexible that new proposals never get through."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "固",
+   "頭"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_58c12e76f0",
+  "headword": "肩を持つ",
+  "reading": "かたをもつ",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{争|あらそ}いなどで、{一方|いっぽう}の{味方|みかた}をする。",
+  "english": "to side with (someone); to support (someone)",
+  "examples": [
+   {
+    "ja": "{母|はは}はいつも{弟|おとうと}の{肩|かた}を{持|も}つ。",
+    "en": "My mother always takes my younger brother's side."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "持",
+   "肩"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_05e155bc0f",
+  "headword": "息が合う",
+  "reading": "いきがあう",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{一緒|いっしょ}に{何|なに}かをする{人|ひと}と、{気持|きも}ちや{動|うご}きがぴったり{合|あ}う。",
+  "english": "to perform in tune with each other; to get along well; to be in perfect harmony",
+  "examples": [
+   {
+    "ja": "あの{二人|ふたり}は{息|いき}が{合|あ}うので、いつもペアを{組|く}んでいる。",
+    "en": "Those two work so well together that they always pair up."
+   }
+  ],
+  "related": [
+   "気が合う"
+  ],
+  "kanji": [
+   "合",
+   "息"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_04c4893a15",
+  "headword": "欠かせない",
+  "reading": "かかせない",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "なくてはならない。とても{大切|たいせつ}だ。",
+  "english": "indispensable; vital; fundamental",
+  "examples": [
+   {
+    "ja": "{毎朝|まいあさ}のコーヒーは{私|わたし}にとって{欠|か}かせない。",
+    "en": "My morning coffee is indispensable to me."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "欠"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_3b76cd6a4b",
+  "headword": "念のため",
+  "reading": "ねんのため",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{大丈夫|だいじょうぶ}だとは{思|おも}うが、もっと{確|たし}かにするために。",
+  "english": "just to make sure; just to be sure; for confirmation",
+  "examples": [
+   {
+    "ja": "{念|ねん}のため、{傘|かさ}を{持|も}っていこう。",
+    "en": "Just in case, let's take an umbrella."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "念"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e9e7dfd371",
+  "headword": "差し支えなければ",
+  "reading": "さしつかえなければ",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{相手|あいて}にとって{困|こま}ることがなければ。{丁寧|ていねい}にお{願|ねが}いするときに{使|つか}う。",
+  "english": "if it's alright; if you don't mind my asking; if it's all the same to you",
+  "examples": [
+   {
+    "ja": "{差|さ}し{支|つか}えなければ、ご{連絡先|れんらくさき}を{教|おし}えていただけますか。",
+    "en": "If you don't mind, could you tell me your contact details?"
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "差",
+   "支"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fd692923c6",
+  "headword": "筋が通る",
+  "reading": "すじがとおる",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{話|はなし}や{考|かんが}えの{順序|じゅんじょ}や{理屈|りくつ}が、きちんと{合|あ}っている。",
+  "english": "to make sense; to be consistent; to be logical",
+  "examples": [
+   {
+    "ja": "{誰|だれ}が{聞|き}いても{筋|すじ}が{通|とお}る{説明|せつめい}をしてください。",
+    "en": "Please give an explanation that makes sense to anyone."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "筋",
+   "通"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c84a352f14",
+  "headword": "身に付ける",
+  "reading": "みにつける",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{知識|ちしき}や{技術|ぎじゅつ}を{学|まな}んで、{自分|じぶん}のものにする。",
+  "english": "to learn; to acquire knowledge; to carry",
+  "examples": [
+   {
+    "ja": "{仕事|しごと}に{役立|やくだ}つ{技術|ぎじゅつ}を{身|み}に{付|つ}けるつもりだ。",
+    "en": "I intend to acquire skills that will be useful at work."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "付",
+   "身"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_278cc83585",
+  "headword": "当てにする",
+  "reading": "あてにする",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{人|ひと}やものに{頼|たよ}って、{期待|きたい}する。",
+  "english": "to count on; to expect; to put confidence in",
+  "examples": [
+   {
+    "ja": "{親|おや}のお{金|かね}を{当|あ}てにするのはやめなさい。",
+    "en": "Stop relying on your parents' money."
+   }
+  ],
+  "related": [
+   "頼る"
+  ],
+  "kanji": [
+   "当"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8eba47ed55",
+  "headword": "足を運ぶ",
+  "reading": "あしをはこぶ",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "わざわざ{出|で}かけて{行|い}く。",
+  "english": "to go (to); to make one's way (to); to visit",
+  "examples": [
+   {
+    "ja": "{遠|とお}くから{足|あし}を{運|はこ}ぶ{価値|かち}のある{店|みせ}だ。",
+    "en": "It's a shop worth making the trip for, even from far away."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "足",
+   "運"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fc71231d34",
+  "headword": "根に持つ",
+  "reading": "ねにもつ",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{人|ひと}にされたいやなことを、いつまでも{忘|わす}れずに{恨|うら}む。",
+  "english": "to hold a grudge; to hold something against someone",
+  "examples": [
+   {
+    "ja": "{昔|むかし}のことをいつまでも{根|ね}に{持|も}つのはやめよう。",
+    "en": "Let's stop holding grudges over the past."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "持",
+   "根"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_dc7f8d2432",
+  "headword": "調子に乗る",
+  "reading": "ちょうしにのる",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "うまくいって、{得意|とくい}になりすぎる。",
+  "english": "to get carried away; to get overly elated; to become over-excited",
+  "examples": [
+   {
+    "ja": "{褒|ほ}められても、{調子|ちょうし}に{乗|の}ると{失敗|しっぱい}するよ。",
+    "en": "Even if you're praised, you'll slip up if you get carried away."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "乗",
+   "子",
+   "調"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_9ad32c871a",
+  "headword": "腹を立てる",
+  "reading": "はらをたてる",
+  "level": "N2",
+  "category": "expression",
+  "category_ja": "表現",
+  "definition_ja": "{怒|おこ}る。{不愉快|ふゆかい}に{思|おも}う。",
+  "english": "to take offense; to take offence; to get angry",
+  "examples": [
+   {
+    "ja": "そんな{小|ちい}さなことで{腹|はら}を{立|た}てるのはやめよう。",
+    "en": "Let's not get angry over such a small thing."
+   }
+  ],
+  "related": [
+   "怒る"
+  ],
+  "kanji": [
+   "立",
+   "腹"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_1354e72385",
+  "headword": "疑問",
+  "reading": "ぎもん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{本当|ほんとう}かどうか、なぜそうなのか、はっきりしないと{思|おも}うこと。",
+  "english": "doubt; question; suspicion",
+  "examples": [
+   {
+    "ja": "{説明|せつめい}を{聞|き}いても、いくつか{疑問|ぎもん}が{残|のこ}った。",
+    "en": "Even after the explanation, I still had a few questions."
+   }
+  ],
+  "related": [
+   "疑う"
+  ],
+  "kanji": [
+   "問",
+   "疑"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_08540c6798",
+  "headword": "再開",
+  "reading": "さいかい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{止|と}まっていたものごとを、また{始|はじ}めること。",
+  "english": "reopening; resumption; restarting",
+  "examples": [
+   {
+    "ja": "{事故|じこ}の{一時間後|いちじかんご}に{運転|うんてん}が{再開|さいかい}された。",
+    "en": "Service resumed an hour after the accident."
+   }
+  ],
+  "related": [
+   "中断"
+  ],
+  "kanji": [
+   "再",
+   "開"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c1a6b9d8cd",
+  "headword": "地元",
+  "reading": "じもと",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{自分|じぶん}が{住|す}んでいる、または{生|う}まれ{育|そだ}った{地域|ちいき}。",
+  "english": "home area; home town; local",
+  "examples": [
+   {
+    "ja": "{大学|だいがく}を{出|で}たら、{地元|じもと}で{働|はたら}きたい。",
+    "en": "After university, I want to work in my home town."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "元",
+   "地"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5fd7606a55",
+  "headword": "選択",
+  "reading": "せんたく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "いくつかの{中|なか}から、よいものを{選|えら}ぶこと。",
+  "english": "choice; selection; option",
+  "examples": [
+   {
+    "ja": "{進学|しんがく}か{就職|しゅうしょく}か、{難|むずか}しい{選択|せんたく}を{迫|せま}られた。",
+    "en": "I faced a hard choice between further study and getting a job."
+   }
+  ],
+  "related": [
+   "選ぶ"
+  ],
+  "kanji": [
+   "択",
+   "選"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e3bb5427fb",
+  "headword": "予測",
+  "reading": "よそく",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "これから{先|さき}のことを、{前|まえ}もって{考|かんが}えて{決|き}めること。",
+  "english": "prediction; estimation",
+  "examples": [
+   {
+    "ja": "{専門家|せんもんか}の{予測|よそく}では、{景気|けいき}はよくなっていくそうだ。",
+    "en": "According to experts' forecasts, the economy will improve."
+   }
+  ],
+  "related": [
+   "推測"
+  ],
+  "kanji": [
+   "予",
+   "測"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_827b520024",
+  "headword": "居眠り",
+  "reading": "いねむり",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{座|すわ}ったまま、{思|おも}わず{少|すこ}しの{間|あいだ}{眠|ねむ}ってしまうこと。",
+  "english": "nodding off (while sitting); dozing",
+  "examples": [
+   {
+    "ja": "{授業中|じゅぎょうちゅう}に{居眠|いねむ}りをして、{先生|せんせい}に{注意|ちゅうい}された。",
+    "en": "I dozed off in class and got told off by the teacher."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "居",
+   "眠"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_5cd7c14600",
+  "headword": "格好",
+  "reading": "かっこう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{外|そと}から{見|み}た{姿|すがた}や{形|かたち}。{服装|ふくそう}。",
+  "english": "shape; form; figure",
+  "examples": [
+   {
+    "ja": "そんな{格好|かっこう}で{面接|めんせつ}に{行|い}くつもりですか。",
+    "en": "Are you really going to the interview dressed like that?"
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "好",
+   "格"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8895d1710e",
+  "headword": "機嫌",
+  "reading": "きげん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "その{時|とき}の{気分|きぶん}がよいか{悪|わる}いかという{様子|ようす}。",
+  "english": "humour; humor; temper",
+  "examples": [
+   {
+    "ja": "{父|ちち}は{朝|あさ}から{機嫌|きげん}が{悪|わる}い。",
+    "en": "My father has been in a bad mood since this morning."
+   }
+  ],
+  "related": [
+   "気分"
+  ],
+  "kanji": [
+   "嫌",
+   "機"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_fd92158ab8",
+  "headword": "行列",
+  "reading": "ぎょうれつ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{順番|じゅんばん}を{待|ま}って、{多|おお}くの{人|ひと}が{並|なら}ぶこと。また、その{列|れつ}。",
+  "english": "line; queue; procession",
+  "examples": [
+   {
+    "ja": "{人気|にんき}のラーメン{屋|や}の{前|まえ}に{長|なが}い{行列|ぎょうれつ}ができていた。",
+    "en": "There was a long queue in front of the popular ramen shop."
+   }
+  ],
+  "related": [
+   "列"
+  ],
+  "kanji": [
+   "列",
+   "行"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_e2b36b5a90",
+  "headword": "仕上げ",
+  "reading": "しあげ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{仕事|しごと}の{最後|さいご}の{段階|だんかい}。また、{最後|さいご}に{手|て}を{加|くわ}えて{完成|かんせい}させること。",
+  "english": "finish; finishing; finishing touches",
+  "examples": [
+   {
+    "ja": "{仕上|しあ}げに{塩|しお}を{少|すこ}し{振|ふ}ってください。",
+    "en": "To finish, sprinkle on a little salt."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "上",
+   "仕"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_bc192b9f11",
+  "headword": "下書き",
+  "reading": "したがき",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "きちんと{書|か}く{前|まえ}に、{試|ため}しに{書|か}いておくもの。",
+  "english": "draft; rough copy",
+  "examples": [
+   {
+    "ja": "{手紙|てがみ}の{下書|したが}きを{先生|せんせい}に{見|み}てもらった。",
+    "en": "I had my teacher look over the draft of my letter."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "下",
+   "書"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b53dfe7d60",
+  "headword": "品切れ",
+  "reading": "しなぎれ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{商品|しょうひん}が{売|う}れてしまって、{店|みせ}にないこと。",
+  "english": "out of stock; sold out",
+  "examples": [
+   {
+    "ja": "{申|もう}し{訳|わけ}ありません、その{商品|しょうひん}は{品切|しなぎ}れです。",
+    "en": "I'm sorry, that item is out of stock."
+   }
+  ],
+  "related": [
+   "売り切れ"
+  ],
+  "kanji": [
+   "切",
+   "品"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_16a96f6ab6",
+  "headword": "寿命",
+  "reading": "じゅみょう",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{生|い}きている{期間|きかん}の{長|なが}さ。また、ものが{使|つか}える{期間|きかん}。",
+  "english": "lifespan; life; lifetime",
+  "examples": [
+   {
+    "ja": "この{電池|でんち}はそろそろ{寿命|じゅみょう}だ。",
+    "en": "This battery is nearly at the end of its life."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "命",
+   "寿"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_911a7b372d",
+  "headword": "正体",
+  "reading": "しょうたい",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{隠|かく}れていて{見|み}えない、{本当|ほんとう}の{姿|すがた}。",
+  "english": "true character; true form; true colors",
+  "examples": [
+   {
+    "ja": "{夜中|よなか}の{物音|ものおと}の{正体|しょうたい}は{隣|となり}の{猫|ねこ}だった。",
+    "en": "The noise in the night turned out to be the neighbour's cat."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "体",
+   "正"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_313e6053d3",
+  "headword": "初心者",
+  "reading": "しょしんしゃ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "あることを{始|はじ}めたばかりで、まだ{慣|な}れていない{人|ひと}。",
+  "english": "beginner",
+  "examples": [
+   {
+    "ja": "このコースは{初心者|しょしんしゃ}でも{安心|あんしん}して{参加|さんか}できます。",
+    "en": "Even beginners can join this course with confidence."
+   }
+  ],
+  "related": [
+   "素人"
+  ],
+  "kanji": [
+   "初",
+   "心",
+   "者"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_265819958a",
+  "headword": "玄人",
+  "reading": "くろうと",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "あることを{専門|せんもん}にしていて、{技術|ぎじゅつ}がすぐれている{人|ひと}。",
+  "english": "expert; professional; master",
+  "examples": [
+   {
+    "ja": "{彼|かれ}の{料理|りょうり}の{腕|うで}は{玄人|くろうと}にも{負|ま}けない。",
+    "en": "His cooking skills are a match for any professional."
+   }
+  ],
+  "related": [
+   "素人"
+  ],
+  "kanji": [
+   "人",
+   "玄"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_80359ce8b7",
+  "headword": "隙間",
+  "reading": "すきま",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものとものの{間|あいだ}にある、{細|ほそ}く{空|あ}いたところ。",
+  "english": "gap; opening; aperture",
+  "examples": [
+   {
+    "ja": "{窓|まど}の{隙間|すきま}から{冷|つめ}たい{風|かぜ}が{入|はい}ってくる。",
+    "en": "Cold air comes in through the gap in the window."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "間",
+   "隙"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_b6c8fcf882",
+  "headword": "知恵",
+  "reading": "ちえ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものごとをうまく{考|かんが}えて{処理|しょり}する{力|ちから}。",
+  "english": "wisdom; wit; sagacity",
+  "examples": [
+   {
+    "ja": "みんなで{知恵|ちえ}を{出|だ}し{合|あ}って、{問題|もんだい}を{解決|かいけつ}した。",
+    "en": "We pooled our ideas and solved the problem."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "恵",
+   "知"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_03fde07943",
+  "headword": "中断",
+  "reading": "ちゅうだん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{続|つづ}いていたことを、{途中|とちゅう}で{止|と}めること。",
+  "english": "interruption; suspension; break",
+  "examples": [
+   {
+    "ja": "{雨|あめ}のため、{試合|しあい}が{一時|いちじ}{中断|ちゅうだん}した。",
+    "en": "The match was temporarily suspended because of rain."
+   }
+  ],
+  "related": [
+   "再開"
+  ],
+  "kanji": [
+   "中",
+   "断"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_6c4de36143",
+  "headword": "出来事",
+  "reading": "できごと",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{世|よ}の{中|なか}や{身|み}の{回|まわ}りで{起|お}こったこと。",
+  "english": "occurrence; happening; incident",
+  "examples": [
+   {
+    "ja": "{今日|きょう}あった{出来事|できごと}を{日記|にっき}に{書|か}いた。",
+    "en": "I wrote what happened today in my diary."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "事",
+   "出",
+   "来"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_4cb17e8253",
+  "headword": "手本",
+  "reading": "てほん",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "まねをして{学|まな}ぶための、よい{例|れい}。",
+  "english": "model; (good) example; exemplar",
+  "examples": [
+   {
+    "ja": "{先輩|せんぱい}は{後輩|こうはい}の{手本|てほん}にならなければならない。",
+    "en": "Seniors must set an example for their juniors."
+   }
+  ],
+  "related": [
+   "見本"
+  ],
+  "kanji": [
+   "手",
+   "本"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_160992fdd4",
+  "headword": "仲直り",
+  "reading": "なかなおり",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "けんかをしていた{人|ひと}どうしが、もとの{仲|なか}のよい{関係|かんけい}に{戻|もど}ること。",
+  "english": "reconciliation; making up (with); making peace (with)",
+  "examples": [
+   {
+    "ja": "{友達|ともだち}とけんかしたが、{次|つぎ}の{日|ひ}に{仲直|なかなお}りした。",
+    "en": "I had a fight with my friend but we made up the next day."
+   }
+  ],
+  "related": [
+   "喧嘩"
+  ],
+  "kanji": [
+   "仲",
+   "直"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_37c8b23db4",
+  "headword": "人手",
+  "reading": "ひとで",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{仕事|しごと}をする{人|ひと}の{数|かず}。{働|はたら}く{人|ひと}。",
+  "english": "starfish; sea star; asteroid (any echinoderm of the class Asteroidea)",
+  "examples": [
+   {
+    "ja": "{店|みせ}は{人手|ひとで}が{足|た}りなくて{困|こま}っている。",
+    "en": "The shop is struggling because it's short-handed."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "人",
+   "手"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_8ed7180b13",
+  "headword": "値上げ",
+  "reading": "ねあげ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "ものやサービスの{値段|ねだん}を{上|あ}げること。",
+  "english": "price increase; rise in price; wage increase",
+  "examples": [
+   {
+    "ja": "{来月|らいげつ}から{電気代|でんきだい}が{値上|ねあ}げされる。",
+    "en": "Electricity prices will go up from next month."
+   }
+  ],
+  "related": [
+   "値下げ"
+  ],
+  "kanji": [
+   "上",
+   "値"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_635f95b52e",
+  "headword": "独り言",
+  "reading": "ひとりごと",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{相手|あいて}がいないのに、{一人|ひとり}で{話|はな}すこと。",
+  "english": "soliloquy; monologue; speaking to oneself",
+  "examples": [
+   {
+    "ja": "{集中|しゅうちゅう}すると、つい{独|ひと}り{言|ごと}を{言|い}ってしまう。",
+    "en": "When I concentrate, I end up talking to myself."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "独",
+   "言"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_0d779c20dc",
+  "headword": "目印",
+  "reading": "めじるし",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{見|み}つけやすくするための、しるし。",
+  "english": "mark (for quick identification or recognition); sign; landmark",
+  "examples": [
+   {
+    "ja": "{駅|えき}の{前|まえ}の{大|おお}きな{時計|とけい}を{目印|めじるし}にしてください。",
+    "en": "Use the big clock in front of the station as a landmark."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "印",
+   "目"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_defa8c1553",
+  "headword": "弱み",
+  "reading": "よわみ",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{弱|よわ}いところ。{人|ひと}に{知|し}られると{困|こま}る{点|てん}。",
+  "english": "(a) weakness; shortcoming; failing",
+  "examples": [
+   {
+    "ja": "{人|ひと}の{弱|よわ}みにつけ{込|こ}むのはひきょうだ。",
+    "en": "It's cowardly to take advantage of someone's weak spot."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "弱"
+  ],
+  "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
+ },
+ {
+  "id": "w_c43816fb93",
+  "headword": "悪口",
+  "reading": "わるぐち",
+  "level": "N2",
+  "category": "noun",
+  "category_ja": "名詞",
+  "definition_ja": "{人|ひと}のことを{悪|わる}く{言|い}うこと。",
+  "english": "(verbal) abuse; speaking ill of people; bad-mouthing",
+  "examples": [
+   {
+    "ja": "{陰|かげ}で{人|ひと}の{悪口|わるぐち}を{言|い}うのはよくない。",
+    "en": "It's wrong to speak ill of people behind their backs."
+   }
+  ],
+  "related": [],
+  "kanji": [
+   "口",
+   "悪"
   ],
   "source": "JMdict (EDRDG, CC BY-SA 4.0) + original editorial content"
  },
@@ -3393,7 +10654,7 @@
   "category": "conjunction",
   "category_ja": "接続詞",
   "definition_ja": "{前|まえ}に{言|い}ったことに、{少|すこ}し{反対|はんたい}のことや{例外|れいがい}をつけ{加|くわ}えるときに{使|つか}う。",
-  "english": "most; extremely",
+  "english": "but then; although; though",
   "examples": [
    {
     "ja": "この{店|みせ}の{料理|りょうり}はおいしい。もっとも、{値段|ねだん}は{少|すこ}し{高|たか}いが。",

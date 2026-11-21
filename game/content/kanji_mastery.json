@@ -1,0 +1,3087 @@
+[
+ {
+  "kanji": "韓",
+  "on": [
+   "かん"
+  ],
+  "kun": [
+   "から",
+   "いげた"
+  ],
+  "meanings": [
+   "Korea"
+  ],
+  "strokes": 18,
+  "freq": 445,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "岡",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "おか"
+  ],
+  "meanings": [
+   "mount",
+   "hill",
+   "knoll"
+  ],
+  "strokes": 8,
+  "freq": 463,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "阪",
+  "on": [
+   "はん"
+  ],
+  "kun": [
+   "さか"
+  ],
+  "meanings": [
+   "heights",
+   "slope"
+  ],
+  "strokes": 7,
+  "freq": 503,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "狙",
+  "on": [
+   "そ",
+   "しょ"
+  ],
+  "kun": [
+   "ねら.う",
+   "ねら.い"
+  ],
+  "meanings": [
+   "aim at",
+   "sight",
+   "shadow",
+   "stalk"
+  ],
+  "strokes": 8,
+  "freq": 745,
+  "level": "MASTERY",
+  "words": [
+   "w_6bacb08f67"
+  ]
+ },
+ {
+  "kanji": "埼",
+  "on": [
+   "き"
+  ],
+  "kun": [
+   "さき",
+   "さい",
+   "みさき"
+  ],
+  "meanings": [
+   "cape",
+   "spit",
+   "promontory"
+  ],
+  "strokes": 11,
+  "freq": 971,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "茨",
+  "on": [
+   "し",
+   "じ"
+  ],
+  "kun": [
+   "いばら",
+   "かや",
+   "くさぶき"
+  ],
+  "meanings": [
+   "briar",
+   "thorn"
+  ],
+  "strokes": 9,
+  "freq": 1203,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "曽",
+  "on": [
+   "そう",
+   "そ",
+   "ぞう"
+  ],
+  "kun": [
+   "かつ",
+   "かつて",
+   "すなわち"
+  ],
+  "meanings": [
+   "formerly",
+   "once",
+   "before",
+   "ever"
+  ],
+  "strokes": 11,
+  "freq": 1320,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "栃",
+  "on": [],
+  "kun": [
+   "とち"
+  ],
+  "meanings": [
+   "horse chestnut",
+   "(kokuji)"
+  ],
+  "strokes": 9,
+  "freq": 1427,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "阜",
+  "on": [
+   "ふ",
+   "ふう"
+  ],
+  "kun": [],
+  "meanings": [
+   "hill",
+   "mound",
+   "left village radical (no. 170)"
+  ],
+  "strokes": 8,
+  "freq": 1532,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "葛",
+  "on": [
+   "かつ",
+   "かち"
+  ],
+  "kun": [
+   "つづら",
+   "くず"
+  ],
+  "meanings": [
+   "arrowroot",
+   "kudzu"
+  ],
+  "strokes": 11,
+  "freq": 1547,
+  "level": "MASTERY",
+  "words": [
+   "w_1802d454d0"
+  ]
+ },
+ {
+  "kanji": "畿",
+  "on": [
+   "き"
+  ],
+  "kun": [
+   "みやこ"
+  ],
+  "meanings": [
+   "capital",
+   "suburbs of capital"
+  ],
+  "strokes": 15,
+  "freq": 1683,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "尻",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "しり"
+  ],
+  "meanings": [
+   "buttocks",
+   "hips",
+   "butt",
+   "rear"
+  ],
+  "strokes": 5,
+  "freq": 1692,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "柿",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "かき"
+  ],
+  "meanings": [
+   "persimmon"
+  ],
+  "strokes": 9,
+  "freq": 1745,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "腎",
+  "on": [
+   "じん"
+  ],
+  "kun": [],
+  "meanings": [
+   "kidney"
+  ],
+  "strokes": 13,
+  "freq": 1755,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "釜",
+  "on": [
+   "ふ"
+  ],
+  "kun": [
+   "かま"
+  ],
+  "meanings": [
+   "kettle",
+   "cauldron",
+   "iron pot"
+  ],
+  "strokes": 10,
+  "freq": 1761,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "脇",
+  "on": [
+   "きょう"
+  ],
+  "kun": [
+   "わき",
+   "わけ"
+  ],
+  "meanings": [
+   "armpit",
+   "the other way",
+   "another place",
+   "flank"
+  ],
+  "strokes": 10,
+  "freq": 1806,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "鍋",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "なべ"
+  ],
+  "meanings": [
+   "pot",
+   "pan",
+   "kettle"
+  ],
+  "strokes": 17,
+  "freq": 1810,
+  "level": "MASTERY",
+  "words": [
+   "w_184176bda2"
+  ]
+ },
+ {
+  "kanji": "瓦",
+  "on": [
+   "が"
+  ],
+  "kun": [
+   "かわら",
+   "ぐらむ"
+  ],
+  "meanings": [
+   "tile",
+   "gram"
+  ],
+  "strokes": 5,
+  "freq": 1850,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "挫",
+  "on": [
+   "ざ",
+   "さ"
+  ],
+  "kun": [
+   "くじ.く",
+   "くじ.ける"
+  ],
+  "meanings": [
+   "crush",
+   "break",
+   "sprain",
+   "discourage"
+  ],
+  "strokes": 10,
+  "freq": 1869,
+  "level": "MASTERY",
+  "words": [
+   "w_2d27383bf3"
+  ]
+ },
+ {
+  "kanji": "誰",
+  "on": [
+   "すい"
+  ],
+  "kun": [
+   "だれ",
+   "たれ",
+   "た"
+  ],
+  "meanings": [
+   "who",
+   "someone",
+   "somebody"
+  ],
+  "strokes": 15,
+  "freq": 1933,
+  "level": "MASTERY",
+  "words": [
+   "w_74acf8b7fd"
+  ]
+ },
+ {
+  "kanji": "俺",
+  "on": [
+   "えん"
+  ],
+  "kun": [
+   "おれ",
+   "われ"
+  ],
+  "meanings": [
+   "I",
+   "myself"
+  ],
+  "strokes": 10,
+  "freq": 1946,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "痕",
+  "on": [
+   "こん"
+  ],
+  "kun": [
+   "あと"
+  ],
+  "meanings": [
+   "mark",
+   "foot print"
+  ],
+  "strokes": 11,
+  "freq": 1958,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "袖",
+  "on": [
+   "しゅう"
+  ],
+  "kun": [
+   "そで"
+  ],
+  "meanings": [
+   "sleeve",
+   "wing (building)",
+   "extension",
+   "give cold shoulder"
+  ],
+  "strokes": 10,
+  "freq": 1960,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "妖",
+  "on": [
+   "よう"
+  ],
+  "kun": [
+   "あや.しい",
+   "なま.めく",
+   "わざわ.い"
+  ],
+  "meanings": [
+   "attractive",
+   "bewitching",
+   "calamity"
+  ],
+  "strokes": 7,
+  "freq": 1964,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "闇",
+  "on": [
+   "あん",
+   "おん"
+  ],
+  "kun": [
+   "やみ",
+   "くら.い"
+  ],
+  "meanings": [
+   "get dark",
+   "gloom",
+   "disorder"
+  ],
+  "strokes": 17,
+  "freq": 1969,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "捉",
+  "on": [
+   "そく",
+   "さく"
+  ],
+  "kun": [
+   "とら.える"
+  ],
+  "meanings": [
+   "catch",
+   "capture"
+  ],
+  "strokes": 10,
+  "freq": 1976,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "賭",
+  "on": [
+   "と"
+  ],
+  "kun": [
+   "か.ける",
+   "かけ"
+  ],
+  "meanings": [
+   "gamble",
+   "wager",
+   "bet"
+  ],
+  "strokes": 15,
+  "freq": 1989,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "汎",
+  "on": [
+   "はん",
+   "ぶ",
+   "ふう",
+   "ほう",
+   "ほん"
+  ],
+  "kun": [
+   "ただよ.う",
+   "ひろ.い"
+  ],
+  "meanings": [
+   "pan-"
+  ],
+  "strokes": 6,
+  "freq": 2014,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "頃",
+  "on": [
+   "けい",
+   "きょう"
+  ],
+  "kun": [
+   "ころ",
+   "ごろ",
+   "しばら.く"
+  ],
+  "meanings": [
+   "time",
+   "about",
+   "toward"
+  ],
+  "strokes": 11,
+  "freq": 2015,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "謎",
+  "on": [
+   "めい",
+   "べい"
+  ],
+  "kun": [
+   "なぞ"
+  ],
+  "meanings": [
+   "riddle",
+   "puzzle",
+   "enigma",
+   "hint"
+  ],
+  "strokes": 16,
+  "freq": 2021,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "爪",
+  "on": [
+   "そう"
+  ],
+  "kun": [
+   "つめ",
+   "つま-"
+  ],
+  "meanings": [
+   "claw",
+   "nail",
+   "talon"
+  ],
+  "strokes": 4,
+  "freq": 2025,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "鍵",
+  "on": [
+   "けん"
+  ],
+  "kun": [
+   "かぎ"
+  ],
+  "meanings": [
+   "key"
+  ],
+  "strokes": 17,
+  "freq": 2029,
+  "level": "MASTERY",
+  "words": [
+   "w_317876a2e4"
+  ]
+ },
+ {
+  "kanji": "臼",
+  "on": [
+   "きゅう",
+   "ぐ"
+  ],
+  "kun": [
+   "うす",
+   "うすづ.く"
+  ],
+  "meanings": [
+   "mortar"
+  ],
+  "strokes": 6,
+  "freq": 2048,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "牙",
+  "on": [
+   "が",
+   "げ"
+  ],
+  "kun": [
+   "きば",
+   "は"
+  ],
+  "meanings": [
+   "tusk",
+   "fang",
+   "tusk radical (no. 92)"
+  ],
+  "strokes": 5,
+  "freq": 2067,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "枕",
+  "on": [
+   "ちん",
+   "しん"
+  ],
+  "kun": [
+   "まくら"
+  ],
+  "meanings": [
+   "pillow"
+  ],
+  "strokes": 8,
+  "freq": 2084,
+  "level": "MASTERY",
+  "words": [
+   "w_c1b4066ff9"
+  ]
+ },
+ {
+  "kanji": "丼",
+  "on": [
+   "とん",
+   "たん",
+   "しょう",
+   "せい"
+  ],
+  "kun": [
+   "どんぶり"
+  ],
+  "meanings": [
+   "bowl",
+   "bowl of food"
+  ],
+  "strokes": 5,
+  "freq": 2088,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "惧",
+  "on": [
+   "く",
+   "ぐ"
+  ],
+  "kun": [
+   "おそ.れる"
+  ],
+  "meanings": [
+   "fear",
+   "be afraid of",
+   "dread"
+  ],
+  "strokes": 11,
+  "freq": 2097,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "膳",
+  "on": [
+   "ぜん",
+   "せん"
+  ],
+  "kun": [
+   "かしわ",
+   "すす.める",
+   "そな.える"
+  ],
+  "meanings": [
+   "small low table",
+   "tray"
+  ],
+  "strokes": 16,
+  "freq": 2120,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "呪",
+  "on": [
+   "じゅ",
+   "しゅ",
+   "しゅう",
+   "ず"
+  ],
+  "kun": [
+   "まじな.う",
+   "のろ.い",
+   "まじな.い",
+   "のろ.う"
+  ],
+  "meanings": [
+   "spell",
+   "curse",
+   "charm",
+   "malediction"
+  ],
+  "strokes": 8,
+  "freq": 2131,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "斬",
+  "on": [
+   "ざん",
+   "さん",
+   "せん",
+   "ぜん"
+  ],
+  "kun": [
+   "き.る"
+  ],
+  "meanings": [
+   "beheading",
+   "kill",
+   "murder"
+  ],
+  "strokes": 11,
+  "freq": 2132,
+  "level": "MASTERY",
+  "words": [
+   "w_edc6e7def3"
+  ]
+ },
+ {
+  "kanji": "怨",
+  "on": [
+   "えん",
+   "おん",
+   "うん"
+  ],
+  "kun": [
+   "うら.む",
+   "うらみ",
+   "うら.めしい"
+  ],
+  "meanings": [
+   "grudge",
+   "show resentment",
+   "be jealous"
+  ],
+  "strokes": 9,
+  "freq": 2137,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "串",
+  "on": [
+   "かん",
+   "けん",
+   "せん"
+  ],
+  "kun": [
+   "くし",
+   "つらぬ.く"
+  ],
+  "meanings": [
+   "spit",
+   "skewer"
+  ],
+  "strokes": 7,
+  "freq": 2139,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "腫",
+  "on": [
+   "しゅ",
+   "しょう"
+  ],
+  "kun": [
+   "は.れる",
+   "は.れ",
+   "は.らす",
+   "はれもの"
+  ],
+  "meanings": [
+   "tumor",
+   "swelling"
+  ],
+  "strokes": 13,
+  "freq": 2145,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "餅",
+  "on": [
+   "へい",
+   "ひょう"
+  ],
+  "kun": [
+   "もち",
+   "もちい"
+  ],
+  "meanings": [
+   "mochi rice cake"
+  ],
+  "strokes": 14,
+  "freq": 2152,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "箸",
+  "on": [
+   "ちょ",
+   "ちゃく"
+  ],
+  "kun": [
+   "はし"
+  ],
+  "meanings": [
+   "chopsticks"
+  ],
+  "strokes": 15,
+  "freq": 2156,
+  "level": "MASTERY",
+  "words": [
+   "w_8e4ecc8066"
+  ]
+ },
+ {
+  "kanji": "斑",
+  "on": [
+   "はん"
+  ],
+  "kun": [
+   "ふ",
+   "まだら"
+  ],
+  "meanings": [
+   "spot",
+   "blemish",
+   "speck",
+   "patches"
+  ],
+  "strokes": 12,
+  "freq": 2165,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "摯",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "いた.る",
+   "つか.む",
+   "にえ"
+  ],
+  "meanings": [
+   "gift",
+   "seriousness"
+  ],
+  "strokes": 15,
+  "freq": 2170,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "堆",
+  "on": [
+   "たい",
+   "つい"
+  ],
+  "kun": [
+   "うずたか.い"
+  ],
+  "meanings": [
+   "piled high"
+  ],
+  "strokes": 11,
+  "freq": 2184,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "芯",
+  "on": [
+   "しん"
+  ],
+  "kun": [],
+  "meanings": [
+   "wick"
+  ],
+  "strokes": 7,
+  "freq": 2202,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "蜜",
+  "on": [
+   "みつ",
+   "びつ"
+  ],
+  "kun": [],
+  "meanings": [
+   "honey",
+   "nectar",
+   "molasses"
+  ],
+  "strokes": 14,
+  "freq": 2203,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "股",
+  "on": [
+   "こ"
+  ],
+  "kun": [
+   "また",
+   "もも"
+  ],
+  "meanings": [
+   "thigh",
+   "crotch"
+  ],
+  "strokes": 8,
+  "freq": 2212,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "匂",
+  "on": [],
+  "kun": [
+   "にお.う",
+   "にお.い",
+   "にお.わせる"
+  ],
+  "meanings": [
+   "fragrant",
+   "stink",
+   "glow",
+   "insinuate"
+  ],
+  "strokes": 4,
+  "freq": 2213,
+  "level": "MASTERY",
+  "words": [
+   "w_d6db4f9c10"
+  ]
+ },
+ {
+  "kanji": "玩",
+  "on": [
+   "がん"
+  ],
+  "kun": [
+   "もちあそ.ぶ",
+   "もてあそ.ぶ"
+  ],
+  "meanings": [
+   "play",
+   "take pleasure in",
+   "trifle with",
+   "make sport of"
+  ],
+  "strokes": 8,
+  "freq": 2216,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "蜂",
+  "on": [
+   "ほう"
+  ],
+  "kun": [
+   "はち"
+  ],
+  "meanings": [
+   "bee",
+   "wasp",
+   "hornet"
+  ],
+  "strokes": 13,
+  "freq": 2223,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "椅",
+  "on": [
+   "い"
+  ],
+  "kun": [],
+  "meanings": [
+   "chair"
+  ],
+  "strokes": 12,
+  "freq": 2245,
+  "level": "MASTERY",
+  "words": [
+   "w_7f5400ca3e"
+  ]
+ },
+ {
+  "kanji": "挨",
+  "on": [
+   "あい"
+  ],
+  "kun": [
+   "ひら.く"
+  ],
+  "meanings": [
+   "approach",
+   "draw near",
+   "push open"
+  ],
+  "strokes": 10,
+  "freq": 2258,
+  "level": "MASTERY",
+  "words": [
+   "w_ad7f547414"
+  ]
+ },
+ {
+  "kanji": "餌",
+  "on": [
+   "じ",
+   "に"
+  ],
+  "kun": [
+   "え",
+   "えば",
+   "えさ",
+   "もち"
+  ],
+  "meanings": [
+   "food",
+   "bait",
+   "prey",
+   "tempting profit"
+  ],
+  "strokes": 14,
+  "freq": 2277,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "脊",
+  "on": [
+   "せき"
+  ],
+  "kun": [
+   "せ",
+   "せい"
+  ],
+  "meanings": [
+   "stature",
+   "height",
+   "spine"
+  ],
+  "strokes": 10,
+  "freq": 2299,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "凄",
+  "on": [
+   "せい",
+   "さい"
+  ],
+  "kun": [
+   "さむ.い",
+   "すご.い",
+   "すさ.まじい"
+  ],
+  "meanings": [
+   "uncanny",
+   "weird",
+   "threatening",
+   "horrible"
+  ],
+  "strokes": 10,
+  "freq": 2313,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "嫉",
+  "on": [
+   "しつ"
+  ],
+  "kun": [
+   "そね.む",
+   "ねた.む",
+   "にく.む"
+  ],
+  "meanings": [
+   "jealous",
+   "envy"
+  ],
+  "strokes": 13,
+  "freq": 2317,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "膝",
+  "on": [
+   "しつ"
+  ],
+  "kun": [
+   "ひざ"
+  ],
+  "meanings": [
+   "knee",
+   "lap"
+  ],
+  "strokes": 15,
+  "freq": 2320,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "恣",
+  "on": [
+   "し"
+  ],
+  "kun": [
+   "ほしいまま"
+  ],
+  "meanings": [
+   "selfish",
+   "arbitrary"
+  ],
+  "strokes": 10,
+  "freq": 2325,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "麺",
+  "on": [
+   "めん",
+   "べん"
+  ],
+  "kun": [
+   "むぎこ"
+  ],
+  "meanings": [
+   "noodles",
+   "wheat flour"
+  ],
+  "strokes": 16,
+  "freq": 2331,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "戴",
+  "on": [
+   "たい"
+  ],
+  "kun": [
+   "いただ.く"
+  ],
+  "meanings": [
+   "be crowned with",
+   "live under (a ruler)",
+   "receive"
+  ],
+  "strokes": 17,
+  "freq": 2332,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "裾",
+  "on": [
+   "きょ",
+   "こ"
+  ],
+  "kun": [
+   "すそ"
+  ],
+  "meanings": [
+   "cuff",
+   "hem",
+   "foot of mountain"
+  ],
+  "strokes": 13,
+  "freq": 2334,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "冥",
+  "on": [
+   "めい",
+   "みょう"
+  ],
+  "kun": [
+   "くら.い"
+  ],
+  "meanings": [
+   "dark"
+  ],
+  "strokes": 10,
+  "freq": 2349,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "麓",
+  "on": [
+   "ろく"
+  ],
+  "kun": [
+   "ふもと"
+  ],
+  "meanings": [
+   "foot of a mountain"
+  ],
+  "strokes": 19,
+  "freq": 2366,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "稽",
+  "on": [
+   "けい"
+  ],
+  "kun": [
+   "かんが.える",
+   "とど.める"
+  ],
+  "meanings": [
+   "think",
+   "consider"
+  ],
+  "strokes": 15,
+  "freq": 2372,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "蹴",
+  "on": [
+   "しゅく",
+   "しゅう"
+  ],
+  "kun": [
+   "け.る"
+  ],
+  "meanings": [
+   "kick"
+  ],
+  "strokes": 19,
+  "freq": 2377,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "訃",
+  "on": [
+   "ふ"
+  ],
+  "kun": [
+   "しらせ"
+  ],
+  "meanings": [
+   "obituary"
+  ],
+  "strokes": 9,
+  "freq": 2379,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "蓋",
+  "on": [
+   "がい",
+   "かい",
+   "こう"
+  ],
+  "kun": [
+   "ふた",
+   "けだ.し",
+   "おお.う",
+   "かさ",
+   "かこう"
+  ],
+  "meanings": [
+   "cover",
+   "lid",
+   "flap"
+  ],
+  "strokes": 13,
+  "freq": 2388,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "畏",
+  "on": [
+   "い"
+  ],
+  "kun": [
+   "おそ.れる",
+   "かしこま.る",
+   "かしこ",
+   "かしこ.し"
+  ],
+  "meanings": [
+   "fear",
+   "majestic",
+   "graciously",
+   "be apprehensive"
+  ],
+  "strokes": 9,
+  "freq": 2389,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "喉",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "のど"
+  ],
+  "meanings": [
+   "throat",
+   "voice"
+  ],
+  "strokes": 12,
+  "freq": 2390,
+  "level": "MASTERY",
+  "words": [
+   "w_8d88c1b120"
+  ]
+ },
+ {
+  "kanji": "拭",
+  "on": [
+   "しょく",
+   "しき"
+  ],
+  "kun": [
+   "ぬぐ.う",
+   "ふ.く"
+  ],
+  "meanings": [
+   "wipe",
+   "mop",
+   "swab"
+  ],
+  "strokes": 9,
+  "freq": 2421,
+  "level": "MASTERY",
+  "words": [
+   "w_f1ff00f957"
+  ]
+ },
+ {
+  "kanji": "貼",
+  "on": [
+   "てん",
+   "ちょう"
+  ],
+  "kun": [
+   "は.る",
+   "つ.く"
+  ],
+  "meanings": [
+   "stick",
+   "paste",
+   "apply"
+  ],
+  "strokes": 12,
+  "freq": 2444,
+  "level": "MASTERY",
+  "words": [
+   "w_b5e34dc985"
+  ]
+ },
+ {
+  "kanji": "諦",
+  "on": [
+   "てい",
+   "たい"
+  ],
+  "kun": [
+   "あきら.める",
+   "つまびらか",
+   "まこと"
+  ],
+  "meanings": [
+   "truth",
+   "clarity",
+   "abandon",
+   "give up"
+  ],
+  "strokes": 16,
+  "freq": 2457,
+  "level": "MASTERY",
+  "words": [
+   "w_2a8afaa0d9"
+  ]
+ },
+ {
+  "kanji": "煎",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "せん.じる",
+   "い.る",
+   "に.る"
+  ],
+  "meanings": [
+   "broil",
+   "parch",
+   "roast",
+   "boil"
+  ],
+  "strokes": 13,
+  "freq": 2458,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "緻",
+  "on": [
+   "ち"
+  ],
+  "kun": [
+   "こまか.い"
+  ],
+  "meanings": [
+   "fine (i.e. not coarse)"
+  ],
+  "strokes": 16,
+  "freq": 2460,
+  "level": "MASTERY",
+  "words": [
+   "w_1af9d63814"
+  ]
+ },
+ {
+  "kanji": "哺",
+  "on": [
+   "ほ"
+  ],
+  "kun": [
+   "はぐく.む",
+   "ふく.む"
+  ],
+  "meanings": [
+   "nurse",
+   "suckle"
+  ],
+  "strokes": 10,
+  "freq": 2461,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "罵",
+  "on": [
+   "ば"
+  ],
+  "kun": [
+   "ののし.る"
+  ],
+  "meanings": [
+   "abuse",
+   "insult"
+  ],
+  "strokes": 15,
+  "freq": 2467,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "乞",
+  "on": [
+   "こつ",
+   "きつ",
+   "き",
+   "きけ",
+   "こち"
+  ],
+  "kun": [
+   "こ.う"
+  ],
+  "meanings": [
+   "beg",
+   "invite",
+   "ask"
+  ],
+  "strokes": 3,
+  "freq": 2478,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "嗅",
+  "on": [
+   "きゅう"
+  ],
+  "kun": [
+   "か.ぐ"
+  ],
+  "meanings": [
+   "smell",
+   "sniff",
+   "scent"
+  ],
+  "strokes": 13,
+  "freq": 2480,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "蔑",
+  "on": [
+   "べつ"
+  ],
+  "kun": [
+   "ないがしろ",
+   "なみ.する",
+   "くらい",
+   "さげす.む"
+  ],
+  "meanings": [
+   "ignore",
+   "despise",
+   "neglect",
+   "ridicule"
+  ],
+  "strokes": 14,
+  "freq": 2483,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "侶",
+  "on": [
+   "りょ",
+   "ろ"
+  ],
+  "kun": [
+   "とも"
+  ],
+  "meanings": [
+   "companion",
+   "follower"
+  ],
+  "strokes": 9,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "傲",
+  "on": [
+   "ごう"
+  ],
+  "kun": [
+   "おご.る",
+   "あなど.る"
+  ],
+  "meanings": [
+   "be proud"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "僅",
+  "on": [
+   "きん",
+   "ごん"
+  ],
+  "kun": [
+   "わず.か"
+  ],
+  "meanings": [
+   "a wee bit"
+  ],
+  "strokes": 12,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "刹",
+  "on": [
+   "せち",
+   "せつ",
+   "さつ"
+  ],
+  "kun": [],
+  "meanings": [
+   "temple"
+  ],
+  "strokes": 8,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "剝",
+  "on": [
+   "はく",
+   "ほく"
+  ],
+  "kun": [
+   "へ.ぐ",
+   "へず.る",
+   "む.く",
+   "む.ける",
+   "は.がれる",
+   "は.ぐ",
+   "は.げる",
+   "は.がす"
+  ],
+  "meanings": [
+   "come off",
+   "peel",
+   "fade",
+   "discolor"
+  ],
+  "strokes": 10,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "勃",
+  "on": [
+   "ぼつ",
+   "ほつ"
+  ],
+  "kun": [
+   "おこ.る",
+   "にわかに"
+  ],
+  "meanings": [
+   "suddenness",
+   "rise"
+  ],
+  "strokes": 9,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "勾",
+  "on": [
+   "こう",
+   "く"
+  ],
+  "kun": [
+   "かぎ",
+   "ま.がる"
+  ],
+  "meanings": [
+   "be bent",
+   "slope",
+   "capture"
+  ],
+  "strokes": 4,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "咽",
+  "on": [
+   "いん",
+   "えん",
+   "えつ"
+  ],
+  "kun": [
+   "むせ.ぶ",
+   "むせ.る",
+   "のど",
+   "の.む"
+  ],
+  "meanings": [
+   "throat",
+   "choked",
+   "smothered",
+   "stuffy"
+  ],
+  "strokes": 9,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "唾",
+  "on": [
+   "だ",
+   "た"
+  ],
+  "kun": [
+   "つば",
+   "つばき"
+  ],
+  "meanings": [
+   "saliva",
+   "sputum"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "喩",
+  "on": [
+   "ゆ"
+  ],
+  "kun": [
+   "たと.える",
+   "さと.す"
+  ],
+  "meanings": [
+   "metaphor",
+   "compare"
+  ],
+  "strokes": 12,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "嘲",
+  "on": [
+   "ちょう",
+   "とう"
+  ],
+  "kun": [
+   "あざけ.る"
+  ],
+  "meanings": [
+   "ridicule",
+   "insult"
+  ],
+  "strokes": 15,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "塞",
+  "on": [
+   "そく",
+   "さい"
+  ],
+  "kun": [
+   "ふさ.ぐ",
+   "とりで",
+   "み.ちる"
+  ],
+  "meanings": [
+   "close",
+   "shut",
+   "cover",
+   "block"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_a5718f1509"
+  ]
+ },
+ {
+  "kanji": "塡",
+  "on": [
+   "てん",
+   "ちん"
+  ],
+  "kun": [
+   "はま.る",
+   "うず.める",
+   "は.める",
+   "ふさ.ぐ"
+  ],
+  "meanings": [
+   "fill in",
+   "fill up",
+   "make good"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "妬",
+  "on": [
+   "と",
+   "つ"
+  ],
+  "kun": [
+   "ねた.む",
+   "そね.む",
+   "つも.る",
+   "ふさ.ぐ"
+  ],
+  "meanings": [
+   "jealous",
+   "envy"
+  ],
+  "strokes": 8,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "宛",
+  "on": [
+   "えん"
+  ],
+  "kun": [
+   "あ.てる",
+   "-あて",
+   "-づつ",
+   "あたか.も"
+  ],
+  "meanings": [
+   "address",
+   "just like",
+   "fortunately"
+  ],
+  "strokes": 8,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "崖",
+  "on": [
+   "がい",
+   "げ",
+   "ぎ"
+  ],
+  "kun": [
+   "がけ",
+   "きし",
+   "はて"
+  ],
+  "meanings": [
+   "cliff",
+   "bluff",
+   "precipice"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "巾",
+  "on": [
+   "きん",
+   "ふく"
+  ],
+  "kun": [
+   "おお.い",
+   "ちきり",
+   "きれ"
+  ],
+  "meanings": [
+   "towel",
+   "hanging scroll",
+   "width",
+   "cloth radical (no. 50)"
+  ],
+  "strokes": 3,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "弄",
+  "on": [
+   "ろう",
+   "る"
+  ],
+  "kun": [
+   "いじく.る",
+   "ろう.する",
+   "いじ.る",
+   "ひねく.る",
+   "たわむ.れる",
+   "もてあそ.ぶ"
+  ],
+  "meanings": [
+   "play with",
+   "tamper",
+   "trifle with"
+  ],
+  "strokes": 7,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "彙",
+  "on": [
+   "い"
+  ],
+  "kun": [
+   "はりねずみ"
+  ],
+  "meanings": [
+   "same kind",
+   "collect",
+   "classify",
+   "category"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "慄",
+  "on": [
+   "りつ"
+  ],
+  "kun": [
+   "ふる.える",
+   "おそ.れる",
+   "おのの.く"
+  ],
+  "meanings": [
+   "fear"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "憬",
+  "on": [
+   "けい"
+  ],
+  "kun": [
+   "あこが.れる"
+  ],
+  "meanings": [
+   "yearn for",
+   "aspire to",
+   "admire"
+  ],
+  "strokes": 15,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "戚",
+  "on": [
+   "そく",
+   "せき"
+  ],
+  "kun": [
+   "いた.む",
+   "うれ.える",
+   "みうち"
+  ],
+  "meanings": [
+   "grieve",
+   "relatives"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_c9898b9052"
+  ]
+ },
+ {
+  "kanji": "拉",
+  "on": [
+   "らつ",
+   "ら",
+   "ろう"
+  ],
+  "kun": [
+   "らっ.する",
+   "ひし.ぐ",
+   "くだ.く"
+  ],
+  "meanings": [
+   "Latin",
+   "kidnap",
+   "crush"
+  ],
+  "strokes": 8,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "拶",
+  "on": [
+   "さつ"
+  ],
+  "kun": [
+   "せま.る"
+  ],
+  "meanings": [
+   "be imminent",
+   "draw close"
+  ],
+  "strokes": 9,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_ad7f547414"
+  ]
+ },
+ {
+  "kanji": "捗",
+  "on": [
+   "ちょく",
+   "ほ"
+  ],
+  "kun": [
+   "はかど.る"
+  ],
+  "meanings": [
+   "make progress"
+  ],
+  "strokes": 10,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_46fd4a1359"
+  ]
+ },
+ {
+  "kanji": "捻",
+  "on": [
+   "ねん",
+   "じょう"
+  ],
+  "kun": [
+   "ね.じる",
+   "ねじ.る",
+   "ひね.くる",
+   "ひね.る"
+  ],
+  "meanings": [
+   "twirl",
+   "twist",
+   "play with"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "昧",
+  "on": [
+   "まい",
+   "ばい"
+  ],
+  "kun": [
+   "くら.い",
+   "むさぼ.る"
+  ],
+  "meanings": [
+   "dark",
+   "foolish"
+  ],
+  "strokes": 9,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_b703dbbef3"
+  ]
+ },
+ {
+  "kanji": "曖",
+  "on": [
+   "あい"
+  ],
+  "kun": [
+   "くら.い"
+  ],
+  "meanings": [
+   "dark",
+   "not clear"
+  ],
+  "strokes": 17,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_b703dbbef3"
+  ]
+ },
+ {
+  "kanji": "柵",
+  "on": [
+   "さく",
+   "さん"
+  ],
+  "kun": [
+   "しがら.む",
+   "しがらみ",
+   "とりで",
+   "やらい"
+  ],
+  "meanings": [
+   "stockade",
+   "fence",
+   "weir",
+   "entwine around"
+  ],
+  "strokes": 9,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "桁",
+  "on": [
+   "こう"
+  ],
+  "kun": [
+   "けた"
+  ],
+  "meanings": [
+   "beam",
+   "girder",
+   "spar",
+   "unit or column (accounting)"
+  ],
+  "strokes": 10,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "梗",
+  "on": [
+   "こう",
+   "きょう"
+  ],
+  "kun": [
+   "ふさぐ",
+   "やまにれ",
+   "おおむね"
+  ],
+  "meanings": [
+   "for the most part",
+   "close up",
+   "flower stem"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "楷",
+  "on": [
+   "かい"
+  ],
+  "kun": [],
+  "meanings": [
+   "square character style",
+   "correctness"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "毀",
+  "on": [
+   "き"
+  ],
+  "kun": [
+   "こぼ.つ",
+   "こわ.す",
+   "こぼ.れる",
+   "こわ.れる",
+   "そし.る",
+   "やぶ.る"
+  ],
+  "meanings": [
+   "break",
+   "destroy",
+   "censure",
+   "be chipped"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "氾",
+  "on": [
+   "はん"
+  ],
+  "kun": [
+   "ひろ.がる"
+  ],
+  "meanings": [
+   "spread out",
+   "wide"
+  ],
+  "strokes": 5,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_40159f1f08"
+  ]
+ },
+ {
+  "kanji": "沃",
+  "on": [
+   "よう",
+   "よく",
+   "おく"
+  ],
+  "kun": [
+   "そそ.ぐ"
+  ],
+  "meanings": [
+   "fertility"
+  ],
+  "strokes": 7,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "淫",
+  "on": [
+   "いん"
+  ],
+  "kun": [
+   "ひた.す",
+   "ほしいまま",
+   "みだ.ら",
+   "みだ.れる",
+   "みだり"
+  ],
+  "meanings": [
+   "lewdness",
+   "licentiousness"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "溺",
+  "on": [
+   "でき",
+   "じょう",
+   "にょう"
+  ],
+  "kun": [
+   "いばり",
+   "おぼ.れる"
+  ],
+  "meanings": [
+   "drown",
+   "indulge"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "潰",
+  "on": [
+   "かい",
+   "え"
+  ],
+  "kun": [
+   "つぶ.す",
+   "つぶ.れる",
+   "つい.える"
+  ],
+  "meanings": [
+   "crush",
+   "smash",
+   "break",
+   "dissipate"
+  ],
+  "strokes": 15,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_38c5b424c2"
+  ]
+ },
+ {
+  "kanji": "璧",
+  "on": [
+   "へき"
+  ],
+  "kun": [
+   "たま"
+  ],
+  "meanings": [
+   "sphere",
+   "ball"
+  ],
+  "strokes": 18,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_cf1b6a0e98"
+  ]
+ },
+ {
+  "kanji": "痩",
+  "on": [
+   "そう",
+   "ちゅう",
+   "しゅう",
+   "しゅ"
+  ],
+  "kun": [
+   "や.せる"
+  ],
+  "meanings": [
+   "get thin"
+  ],
+  "strokes": 12,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_19647e2934"
+  ]
+ },
+ {
+  "kanji": "瘍",
+  "on": [
+   "よう"
+  ],
+  "kun": [
+   "かさ"
+  ],
+  "meanings": [
+   "swelling",
+   "boil",
+   "tumor"
+  ],
+  "strokes": 14,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "窟",
+  "on": [
+   "くつ",
+   "こつ"
+  ],
+  "kun": [
+   "いわや",
+   "いはや",
+   "あな"
+  ],
+  "meanings": [
+   "cavern"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "箋",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "ふだ"
+  ],
+  "meanings": [
+   "paper",
+   "label",
+   "letter",
+   "composition"
+  ],
+  "strokes": 14,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "籠",
+  "on": [
+   "ろう",
+   "る"
+  ],
+  "kun": [
+   "かご",
+   "こ.める",
+   "こも.る",
+   "こ.む"
+  ],
+  "meanings": [
+   "basket",
+   "devote oneself",
+   "seclude oneself",
+   "cage"
+  ],
+  "strokes": 22,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "綻",
+  "on": [
+   "たん"
+  ],
+  "kun": [
+   "ほころ.びる"
+  ],
+  "meanings": [
+   "be rent",
+   "ripped",
+   "unravel",
+   "run"
+  ],
+  "strokes": 14,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_b6904b9fa0"
+  ]
+ },
+ {
+  "kanji": "羞",
+  "on": [
+   "しゅう"
+  ],
+  "kun": [
+   "はじ.る",
+   "すすめ.る",
+   "は.ずかしい"
+  ],
+  "meanings": [
+   "feel ashamed"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "羨",
+  "on": [
+   "せん",
+   "えん"
+  ],
+  "kun": [
+   "うらや.む",
+   "あまり"
+  ],
+  "meanings": [
+   "envious",
+   "be jealous",
+   "covet"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_cb74172d6f"
+  ]
+ },
+ {
+  "kanji": "肘",
+  "on": [
+   "ちゅう"
+  ],
+  "kun": [
+   "ひじ"
+  ],
+  "meanings": [
+   "elbow",
+   "arm"
+  ],
+  "strokes": 7,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "腺",
+  "on": [
+   "せん"
+  ],
+  "kun": [],
+  "meanings": [
+   "gland",
+   "(kokuji)"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "臆",
+  "on": [
+   "おく",
+   "よく"
+  ],
+  "kun": [
+   "むね",
+   "おくする"
+  ],
+  "meanings": [
+   "timidity",
+   "heart",
+   "mind",
+   "fear"
+  ],
+  "strokes": 17,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "舷",
+  "on": [
+   "げん"
+  ],
+  "kun": [
+   "ふなばた",
+   "ふなべり"
+  ],
+  "meanings": [
+   "gunwale"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "苛",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "いじ.める",
+   "さいな.む",
+   "いらだ.つ",
+   "からい",
+   "こまかい"
+  ],
+  "meanings": [
+   "torment",
+   "scold",
+   "chastise"
+  ],
+  "strokes": 8,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "萎",
+  "on": [
+   "い"
+  ],
+  "kun": [
+   "な",
+   "しお.れる",
+   "しな.びる",
+   "しぼ.む",
+   "な.える"
+  ],
+  "meanings": [
+   "wither",
+   "droop",
+   "lame"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "蔽",
+  "on": [
+   "へい",
+   "へつ",
+   "ふつ"
+  ],
+  "kun": [
+   "おお.う",
+   "おお.い"
+  ],
+  "meanings": [
+   "cover",
+   "shade",
+   "mantle",
+   "capsize"
+  ],
+  "strokes": 15,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_e973f36c8a"
+  ]
+ },
+ {
+  "kanji": "詣",
+  "on": [
+   "けい",
+   "げい"
+  ],
+  "kun": [
+   "けい.する",
+   "まい.る",
+   "いた.る",
+   "もう.でる"
+  ],
+  "meanings": [
+   "visit a temple",
+   "arrive",
+   "attain"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "詮",
+  "on": [
+   "せん"
+  ],
+  "kun": [
+   "せん.ずる",
+   "かい",
+   "あき.らか"
+  ],
+  "meanings": [
+   "discussion",
+   "methods called for",
+   "selection",
+   "result"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "諧",
+  "on": [
+   "かい"
+  ],
+  "kun": [
+   "かな.う",
+   "やわ.らぐ"
+  ],
+  "meanings": [
+   "harmony"
+  ],
+  "strokes": 16,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "貌",
+  "on": [
+   "ぼう",
+   "ばく"
+  ],
+  "kun": [
+   "かたち",
+   "かたどる"
+  ],
+  "meanings": [
+   "form",
+   "appearance",
+   "countenance"
+  ],
+  "strokes": 14,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "貪",
+  "on": [
+   "たん",
+   "どん",
+   "とん"
+  ],
+  "kun": [
+   "むさぼ.る"
+  ],
+  "meanings": [
+   "covet",
+   "indulge in"
+  ],
+  "strokes": 11,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_b2dec3d13b"
+  ]
+ },
+ {
+  "kanji": "賂",
+  "on": [
+   "ろ"
+  ],
+  "kun": [
+   "まいな.い",
+   "まいな.う"
+  ],
+  "meanings": [
+   "bribe"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "踪",
+  "on": [
+   "そう",
+   "しょう"
+  ],
+  "kun": [
+   "あと"
+  ],
+  "meanings": [
+   "remains",
+   "clue",
+   "footprint"
+  ],
+  "strokes": 15,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "辣",
+  "on": [
+   "らつ"
+  ],
+  "kun": [
+   "から.い"
+  ],
+  "meanings": [
+   "pungent",
+   "spicy",
+   "harsh",
+   "cruel"
+  ],
+  "strokes": 14,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "遜",
+  "on": [
+   "そん"
+  ],
+  "kun": [
+   "したが.う",
+   "へりくだ.る",
+   "ゆず.る"
+  ],
+  "meanings": [
+   "humble",
+   "modest"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_6ac2966476"
+  ]
+ },
+ {
+  "kanji": "遡",
+  "on": [
+   "そ",
+   "さく"
+  ],
+  "kun": [
+   "さかのぼ.る"
+  ],
+  "meanings": [
+   "go upstream",
+   "retrace the past"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_3dce9eb0c1"
+  ]
+ },
+ {
+  "kanji": "酎",
+  "on": [
+   "ちゅう",
+   "ちゅ"
+  ],
+  "kun": [
+   "かも.す"
+  ],
+  "meanings": [
+   "sake"
+  ],
+  "strokes": 10,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "醒",
+  "on": [
+   "せい"
+  ],
+  "kun": [
+   "さ.ます",
+   "さ.める"
+  ],
+  "meanings": [
+   "awake",
+   "be disillusioned",
+   "sober up"
+  ],
+  "strokes": 16,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "錮",
+  "on": [
+   "こ"
+  ],
+  "kun": [
+   "ふさ.ぐ"
+  ],
+  "meanings": [
+   "confinement",
+   "to tie"
+  ],
+  "strokes": 16,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "隙",
+  "on": [
+   "げき",
+   "きゃく",
+   "けき"
+  ],
+  "kun": [
+   "すき",
+   "す.く",
+   "す.かす",
+   "ひま"
+  ],
+  "meanings": [
+   "crevice",
+   "fissure",
+   "discord",
+   "opportunity"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_80359ce8b7"
+  ]
+ },
+ {
+  "kanji": "頓",
+  "on": [
+   "とん",
+   "とつ"
+  ],
+  "kun": [
+   "にわか.に",
+   "とん.と",
+   "つまず.く",
+   "とみ.に",
+   "ぬかずく"
+  ],
+  "meanings": [
+   "suddenly",
+   "immediately",
+   "in a hurry",
+   "arrange"
+  ],
+  "strokes": 13,
+  "freq": null,
+  "level": "MASTERY",
+  "words": [
+   "w_2d27383bf3"
+  ]
+ },
+ {
+  "kanji": "頰",
+  "on": [
+   "きょう"
+  ],
+  "kun": [
+   "ほお",
+   "ほほ"
+  ],
+  "meanings": [
+   "cheeks",
+   "jaw"
+  ],
+  "strokes": 16,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "顎",
+  "on": [
+   "がく"
+  ],
+  "kun": [
+   "あご",
+   "あぎと"
+  ],
+  "meanings": [
+   "jaw",
+   "chin",
+   "gill"
+  ],
+  "strokes": 18,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "骸",
+  "on": [
+   "がい",
+   "かい"
+  ],
+  "kun": [
+   "むくろ"
+  ],
+  "meanings": [
+   "bone",
+   "body",
+   "corpse"
+  ],
+  "strokes": 16,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "鬱",
+  "on": [
+   "うつ"
+  ],
+  "kun": [
+   "うっ.する",
+   "ふさ.ぐ",
+   "しげ.る"
+  ],
+  "meanings": [
+   "gloom",
+   "depression",
+   "melancholy",
+   "luxuriant"
+  ],
+  "strokes": 29,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ },
+ {
+  "kanji": "𠮟",
+  "on": [
+   "しつ",
+   "しち",
+   "か"
+  ],
+  "kun": [
+   "しか.る"
+  ],
+  "meanings": [
+   "scold",
+   "reprove"
+  ],
+  "strokes": 5,
+  "freq": null,
+  "level": "MASTERY",
+  "words": []
+ }
+]

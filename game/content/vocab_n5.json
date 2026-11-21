@@ -303,7 +303,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{自分|じぶん}のお{父|とう}さん。",
-  "english": "father; father (e.g. of a discipline); pioneer (e.g. of field of research)",
+  "english": "father",
   "examples": [
    {
     "ja": "{父|ちち}は{会社|かいしゃ}で{働|はたら}いています。",
@@ -327,7 +327,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{飲|の}んだり{洗|あら}ったりするときに{使|つか}う、{透明|とうめい}な{液体|えきたい}。",
-  "english": "water (esp. cool or cold); fluid (esp. in an animal tissue); liquid",
+  "english": "water",
   "examples": [
    {
     "ja": "{水|みず}をください。",
@@ -351,7 +351,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{葉|は}から{作|つく}る、{温|あたた}かい{飲|の}み{物|もの}。",
-  "english": "tea (esp. green or barley); tea break; teatime",
+  "english": "tea; green tea",
   "examples": [
    {
     "ja": "{お茶|おちゃ}を{飲|の}みませんか。",
@@ -421,7 +421,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{文章|ぶんしょう}や{絵|え}を{紙|かみ}に{印刷|いんさつ}して、まとめたもの。",
-  "english": "book; volume; script",
+  "english": "origin; source; beginning",
   "examples": [
    {
     "ja": "{図書館|としょかん}で{本|ほん}を{読|よ}みます。",
@@ -976,7 +976,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "お{金|かね}を{払|はら}って、{物|もの}を{自分|じぶん}のものにする。",
-  "english": "to buy; to purchase; to value (highly)",
+  "english": "to buy",
   "examples": [
    {
     "ja": "{本|ほん}を{買|か}いました。",
@@ -1022,7 +1022,7 @@
   "category": "verb-ru",
   "category_ja": "動詞（一段）",
   "definition_ja": "{眠|ねむ}りから{目|め}をさます。また、{立|た}ち{上|あ}がる。",
-  "english": "to get up; to rise; to blaze up (fire)",
+  "english": "to get up; to wake up; to happen",
   "examples": [
    {
     "ja": "{朝|あさ}{七時|しちじ}に{起|お}きます。",
@@ -1094,7 +1094,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{物|もの}や{植物|しょくぶつ}などがそこに{存在|そんざい}する。",
-  "english": "to be; to exist; to live",
+  "english": "to be; to exist (things); to have",
   "examples": [
    {
     "ja": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
@@ -1115,7 +1115,7 @@
   "category": "verb-ru",
   "category_ja": "動詞（一段）",
   "definition_ja": "{人|ひと}や{動物|どうぶつ}がそこに{存在|そんざい}する。",
-  "english": "to shoot (arrow, bolt, dart)",
+  "english": "to be; to exist (people, animals)",
   "examples": [
    {
     "ja": "{部屋|へや}に{猫|ねこ}がいます。",
@@ -1295,7 +1295,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "{心|こころ}が{引|ひ}かれる。{気|き}に{入|い}っている。",
-  "english": "liking; being fond of; to one's liking",
+  "english": "liked; to like; favorite",
   "examples": [
    {
     "ja": "{私|わたし}は{音楽|おんがく}が{好|す}きです。",
@@ -1318,7 +1318,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "{体|からだ}や{心|こころ}が{健康|けんこう}で、{力|ちから}があること。",
-  "english": "lively; full of spirit; energetic",
+  "english": "healthy; well; energetic",
   "examples": [
    {
     "ja": "お{元気|げんき}ですか。",
@@ -1342,7 +1342,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "{問題|もんだい}がないこと。また、{相手|あいて}を{安心|あんしん}させるときにも{使|つか}う。",
-  "english": "safe; secure; sound",
+  "english": "all right; OK; safe",
   "examples": [
    {
     "ja": "{大丈夫|だいじょうぶ}ですか。",
@@ -1516,7 +1516,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{牛|うし}や{豚|ぶた}、{鳥|とり}などの{体|からだ}の、{食|た}べるところ。",
-  "english": "flesh; meat; flesh (of a fruit)",
+  "english": "meat",
   "examples": [
    {
     "ja": "{晩|ばん}ご{飯|はん}に{肉|にく}を{焼|や}きました。",
@@ -1566,7 +1566,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{畑|はたけ}で{作|つく}る、にんじんやキャベツなどの{食|た}べ{物|もの}。",
-  "english": "vegetable; marijuana; cannabis",
+  "english": "vegetable; vegetables",
   "examples": [
    {
     "ja": "{毎日|まいにち}{野菜|やさい}を{食|た}べましょう。",
@@ -2011,7 +2011,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{冬|ふゆ}によく{食|た}べる、オレンジ{色|いろ}の{小|ちい}さな{果物|くだもの}。{手|て}で{皮|かわ}をむける。",
-  "english": "mandarin (esp. the satsuma mandarin (Citrus unshiu)); mandarin orange; tangerine",
+  "english": "mandarin orange; tangerine",
   "examples": [
    {
     "ja": "こたつでみかんを{食|た}べました。",
@@ -2054,7 +2054,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{小|ちい}さくて{赤|あか}い、{甘|あま}い{果物|くだもの}。ケーキによくのっている。",
-  "english": "one's whole life; one's lifetime",
+  "english": "strawberry",
   "examples": [
    {
     "ja": "いちごのケーキを{買|か}いました。",
@@ -2372,7 +2372,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{田|た}んぼで{作|つく}る{小|ちい}さな{白|しろ}い{粒|つぶ}。{炊|た}くとご{飯|はん}になる。",
-  "english": "(husked grains of) rice; staple (product, etc.); necessity",
+  "english": "rice (uncooked)",
   "examples": [
    {
     "ja": "お{米|こめ}を{五|ご}キロ{買|か}いました。",
@@ -2531,7 +2531,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "ご{飯|はん}を{三角|さんかく}や{丸|まる}い{形|かたち}にして、のりなどで{包|つつ}んだもの。",
-  "english": "onigiri; rice ball (often triangular, sometimes with a filling and wrapped in nori)",
+  "english": "rice ball",
   "examples": [
    {
     "ja": "コンビニでおにぎりを{二|ふた}つ{買|か}いました。",
@@ -2601,7 +2601,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{水|みず}やジュースを{入|い}れて{飲|の}む{入|い}れ{物|もの}。",
-  "english": "glass (drinking vessel); tumbler; cups (suit)",
+  "english": "glass; cup",
   "examples": [
    {
     "ja": "コップに{水|みず}を{入|い}れてください。",
@@ -2623,7 +2623,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{家|いえ}の{中|なか}で{料理|りょうり}を{作|つく}るところ。",
-  "english": "kitchen; financial situation; finances",
+  "english": "kitchen",
   "examples": [
    {
     "ja": "{母|はは}は{台所|だいどころ}で{晩|ばん}ご{飯|はん}を{作|つく}っています。",
@@ -2806,7 +2806,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{手紙|てがみ}やはがきを{送|おく}るときに{貼|は}る、{小|ちい}さな{紙|かみ}。",
-  "english": "stamp (postage); merchandise certificate",
+  "english": "postage stamp",
   "examples": [
    {
     "ja": "{郵便局|ゆうびんきょく}で{切手|きって}を{買|か}いました。",
@@ -2954,7 +2954,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{本|ほん}や{雑誌|ざっし}を{売|う}っている{店|みせ}。",
-  "english": "bookstore; bookshop; publisher",
+  "english": "bookstore",
   "examples": [
    {
     "ja": "{本屋|ほんや}で{日本語|にほんご}の{辞書|じしょ}を{買|か}いました。",
@@ -2979,7 +2979,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{野菜|やさい}や{果物|くだもの}を{売|う}っている{店|みせ}。",
-  "english": "greengrocer; fruit and vegetable shop; jack of all trades",
+  "english": "greengrocer; vegetable shop",
   "examples": [
    {
     "ja": "{八百屋|やおや}でトマトとりんごを{買|か}いました。",
@@ -3005,7 +3005,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{魚|さかな}を{売|う}っている{店|みせ}。",
-  "english": "fish market; fish dealer; fishmonger",
+  "english": "fish shop; fishmonger",
   "examples": [
    {
     "ja": "{魚屋|さかなや}さんで{新|あたら}しい{魚|さかな}を{買|か}いました。",
@@ -3174,7 +3174,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{払|はら}ったお{金|かね}が{値段|ねだん}より{多|おお}いとき、{返|かえ}ってくるお{金|かね}。",
-  "english": "change (for a purchase); toilet splashback",
+  "english": "change (money)",
   "examples": [
    {
     "ja": "はい、お{釣|つ}りの{二百|にひゃく}{円|えん}です。",
@@ -3220,7 +3220,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{旅行|りょこう}に{行|い}ったところで{買|か}って、{家族|かぞく}や{友達|ともだち}にあげる{物|もの}。",
-  "english": "local specialty or souvenir bought as a gift while traveling (travelling); present brought by a visitor; something unpleasant that one is given (e.g. an illness while on vacation)",
+  "english": "souvenir; gift",
   "examples": [
    {
     "ja": "{京都|きょうと}で{家族|かぞく}にお{土産|みやげ}を{買|か}いました。",
@@ -3340,7 +3340,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{雪|ゆき}や{牛乳|ぎゅうにゅう}のような{色|いろ}。",
-  "english": "white; innocence; innocent person",
+  "english": "white",
   "examples": [
    {
     "ja": "{白|しろ}のシャツを{着|き}ています。",
@@ -3364,7 +3364,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{夜|よる}の{空|そら}のような、とても{暗|くら}い{色|いろ}。",
-  "english": "black; black stone; guilt",
+  "english": "black",
   "examples": [
    {
     "ja": "{黒|くろ}のペンで{書|か}いてください。",
@@ -3853,7 +3853,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{日本語|にほんご}の、{丸|まる}い{形|かたち}の{文字|もじ}。「あ」「い」など。",
-  "english": "hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words, inflections, etc.)",
+  "english": "hiragana",
   "examples": [
    {
     "ja": "{名前|なまえ}をひらがなで{書|か}いてください。",
@@ -3875,7 +3875,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{外国|がいこく}から{来|き}た{言葉|ことば}などを{書|か}く、{角|かく}ばった{日本語|にほんご}の{文字|もじ}。",
-  "english": "katakana; angular Japanese syllabary used primarily for loanwords",
+  "english": "katakana",
   "examples": [
    {
     "ja": "「テレビ」はカタカナで{書|か}きます。",
@@ -3897,7 +3897,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{言葉|ことば}の{意味|いみ}や{使|つか}い{方|かた}を{調|しら}べるための{本|ほん}。",
-  "english": "dictionary; lexicon; letter of resignation",
+  "english": "dictionary",
   "examples": [
    {
     "ja": "{分|わ}からない{言葉|ことば}を{辞書|じしょ}で{調|しら}べます。",
@@ -4041,7 +4041,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{高校|こうこう}のあとに{行|い}って、もっと{深|ふか}く{勉強|べんきょう}する{学校|がっこう}。",
-  "english": "university; college; former imperial university of Japan (established under the ritsuryō system for the training of government administrators)",
+  "english": "university; college",
   "examples": [
    {
     "ja": "{姉|あね}は{東京|とうきょう}の{大学|だいがく}に{通|かよ}っています。",
@@ -4349,7 +4349,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{人|ひと}が{話|はな}したり{書|か}いたりして、{気持|きも}ちや{考|かんが}えを{伝|つた}えるもの。",
-  "english": "language; dialect; word",
+  "english": "word; language",
   "examples": [
    {
     "ja": "この{言葉|ことば}はどういう{意味|いみ}ですか。",
@@ -4399,7 +4399,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{字|じ}や{言葉|ことば}の{読|よ}み{方|かた}。どう{読|よ}むか。",
-  "english": "pronunciation; reading (e.g. of a kanji); way of reading (out loud)",
+  "english": "how to read; reading",
   "examples": [
    {
     "ja": "この{漢字|かんじ}の{読|よ}み{方|かた}を{教|おし}えてください。",
@@ -4498,7 +4498,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{自分|じぶん}で{考|かんが}えて{文|ぶん}を{書|か}くこと。また、そうして{書|か}いたもの。",
-  "english": "writing (an essay, prose, etc.); composition; formal writing with little real meaning",
+  "english": "essay; composition",
   "examples": [
    {
     "ja": "{夏休|なつやす}みのことを{作文|さくぶん}に{書|か}きました。",
@@ -4522,7 +4522,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{言葉|ことば}をつないで、ひとつの{考|かんが}えを{表|あらわ}したもの。「。」で{終|お}わる。",
-  "english": "sentence; composition; text",
+  "english": "letter; note; mail",
   "examples": [
    {
     "ja": "この{文|ぶん}を{声|こえ}に{出|だ}して{読|よ}んでください。",
@@ -4546,7 +4546,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{言葉|ことば}を{書|か}き{表|あらわ}すための{形|かたち}。{文字|もじ}。",
-  "english": "character (esp. kanji); letter; written text",
+  "english": "letter; character; handwriting",
   "examples": [
    {
     "ja": "{兄|あに}は{字|じ}がとてもきれいです。",
@@ -5244,7 +5244,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{人|ひと}が{集|あつ}まって、{食|た}べたり{飲|の}んだりして{楽|たの}しむ{会|かい}。",
-  "english": "party (social gathering); party (group of people participating in an activity, esp. mountain climbing); (political) party",
+  "english": "party",
   "examples": [
    {
     "ja": "{土曜日|どようび}に{友達|ともだち}の{家|いえ}でパーティーをします。",
@@ -5467,7 +5467,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{自分|じぶん}より{年|とし}が{上|うえ}の{男|おとこ}のきょうだい。{自分|じぶん}の{家族|かぞく}の{話|はなし}をするときに{使|つか}います。",
-  "english": "older brother; elder brother; brother-in-law (spouse's older brother or older sister's husband)",
+  "english": "older brother",
   "examples": [
    {
     "ja": "{兄|あに}は{東京|とうきょう}の{大学|だいがく}に{行|い}っています。",
@@ -5777,7 +5777,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{人|ひと}のうち、{母|はは}や{姉|あね}と{同|おな}じほうの{性|せい}。",
-  "english": "woman; female; female lover",
+  "english": "woman; female",
   "examples": [
    {
     "ja": "{女|おんな}だけのグループで{旅行|りょこう}に{行|い}きました。",
@@ -5974,7 +5974,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "わたしやあなたのように、{言葉|ことば}を{話|はな}して{考|かんが}える{生|い}き{物|もの}。",
-  "english": "person; someone; somebody",
+  "english": "-ian (e.g. Italian); -ite (e.g. Tokyoite); -er (e.g. performer, etc.)",
   "examples": [
    {
     "ja": "あの{人|ひと}は{私|わたし}の{先生|せんせい}です。",
@@ -6188,7 +6188,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{結婚|けっこん}している{女|おんな}の{人|ひと}。{自分|じぶん}の{家族|かぞく}の{話|はなし}をするときに{使|つか}います。",
-  "english": "wife; garnish (esp. one served with sashimi); trimmings",
+  "english": "wife",
   "examples": [
    {
     "ja": "{妻|つま}と{二人|ふたり}で{住|す}んでいます。",
@@ -6356,7 +6356,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "「{人|ひと}」のていねいな{言|い}い{方|かた}。",
-  "english": "direction; way; person",
+  "english": "person (polite); way; direction",
   "examples": [
    {
     "ja": "あの{方|かた}はどなたですか。",
@@ -6425,7 +6425,7 @@
   "category": "pronoun",
   "category_ja": "代名詞",
   "definition_ja": "{話|はなし}に{出|で}てきた{男|おとこ}の{人|ひと}を{指|さ}す{言葉|ことば}。",
-  "english": "he; him; boyfriend",
+  "english": "that; that thing; that person",
   "examples": [
    {
     "ja": "{彼|かれ}は{同|おな}じクラスの{学生|がくせい}です。",
@@ -6546,7 +6546,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{頭|あたま}から{足|あし}までの、{人|ひと}や{動物|どうぶつ}の{全部|ぜんぶ}。",
-  "english": "body; torso; trunk",
+  "english": "body; health",
   "examples": [
    {
     "ja": "お{体|からだ}に{気|き}をつけてください。",
@@ -6571,7 +6571,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{体|からだ}のいちばん{上|うえ}の{部分|ぶぶん}。{中|なか}で{物|もの}を{考|かんが}えます。",
-  "english": "head; hair (on one's head); mind",
+  "english": "counter for large animals (e.g. head of cattle); counter for insects in a collection; counter for helmets, masks, etc.",
   "examples": [
    {
     "ja": "{朝|あさ}から{頭|あたま}が{痛|いた}いです。",
@@ -6862,7 +6862,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{体|からだ}を{支|ささ}えて、{歩|ある}いたり{走|はし}ったりするための{部分|ぶぶん}。",
-  "english": "foot; paw; arm (of an octopus, squid, etc.)",
+  "english": "foot; leg",
   "examples": [
    {
     "ja": "たくさん{歩|ある}いたので、{足|あし}が{疲|つか}れました。",
@@ -6909,7 +6909,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{立|た}ったときの{体|からだ}の{高|たか}さ。また、{体|からだ}の{後|うし}ろがわ。",
-  "english": "back; reverse; rear side",
+  "english": "height; back",
   "examples": [
    {
     "ja": "{弟|おとうと}は{私|わたし}より{背|せ}が{高|たか}いです。",
@@ -6981,7 +6981,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{熱|ねつ}やせきが{出|で}る、よくある{軽|かる}い{病気|びょうき}。",
-  "english": "(common) cold; influenza; flu",
+  "english": "cold (illness)",
   "examples": [
    {
     "ja": "{風邪|かぜ}をひいたので、{早|はや}く{寝|ね}ます。",
@@ -7080,7 +7080,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{転|ころ}んだりぶつけたりして、{体|からだ}に{傷|きず}ができること。",
-  "english": "injury; wound; mistake",
+  "english": "injury; wound",
   "examples": [
    {
     "ja": "サッカーで{足|あし}にけがをしました。",
@@ -7251,7 +7251,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{体|からだ}の{上|うえ}のほうに{着|き}る、うすい{服|ふく}。",
-  "english": "shirt (undergarment); undershirt; singlet",
+  "english": "shirt; T-shirt",
   "examples": [
    {
     "ja": "この{白|しろ}いシャツはいくらですか。",
@@ -7616,7 +7616,7 @@
   "category": "verb-ru",
   "category_ja": "動詞（一段）",
   "definition_ja": "{服|ふく}を{体|からだ}につける。ズボンや{靴|くつ}には「はく」を{使|つか}います。",
-  "english": "to wear (from the shoulders down); to put on; to take (the blame, responsibility)",
+  "english": "to wear; to put on (clothes)",
   "examples": [
    {
     "ja": "{今日|きょう}は{寒|さむ}いので、セーターを{着|き}ます。",
@@ -7665,7 +7665,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "ズボン、スカート、{靴|くつ}、{靴下|くつした}などを{足|あし}のほうにつける。",
-  "english": "to sweep; to brush; to clean",
+  "english": "to put on; to wear (shoes, trousers)",
   "examples": [
    {
     "ja": "{新|あたら}しい{靴|くつ}をはいて{出|で}かけました。",
@@ -7734,7 +7734,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{自分|じぶん}が{住|す}んでいる{家|いえ}。また、{自分|じぶん}の{家族|かぞく}。",
-  "english": "one's house; one's home; one's family",
+  "english": "adds emphasis to the following verb or indicates that the action is done forcefully or violently",
   "examples": [
    {
     "ja": "{今日|きょう}はうちで{晩|ばん}ご{飯|はん}を{食|た}べます。",
@@ -7831,7 +7831,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{家|いえ}や{学校|がっこう}のまわりの{入|い}り{口|ぐち}にある、{大|おお}きな{戸|と}。",
-  "english": "gate; branch of learning based on the teachings of a single master; school",
+  "english": "gate",
   "examples": [
    {
     "ja": "{学校|がっこう}の{門|もん}の{前|まえ}で{待|ま}っています。",
@@ -8068,7 +8068,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{日本|にほん}の{部屋|へや}にある、{布団|ふとん}などをしまっておく、{戸|と}のついた{場所|ばしょ}。",
-  "english": "closet (built into the wall, usu. with sliding doors); (built-in) wardrobe",
+  "english": "closet (Japanese-style)",
   "examples": [
    {
     "ja": "{布団|ふとん}を{押|お}し{入|い}れにしまいます。",
@@ -8208,7 +8208,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{床|ゆか}にしいて{寝|ね}るときに{使|つか}う、{綿|わた}などが{入|はい}ったやわらかいもの。",
-  "english": "futon; Japanese bedding consisting of a mattress and a duvet; round cushion used for Zen meditation (traditionally made of woven bulrush leaves)",
+  "english": "futon; bedding",
   "examples": [
    {
     "ja": "{朝|あさ}{起|お}きたら{布団|ふとん}をたたみます。",
@@ -8280,7 +8280,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{机|つくえ}などについている、{引|ひ}いて{開|あ}ける{箱|はこ}のような{入|い}れ{物|もの}。",
-  "english": "drawer; withdrawal (of money from an account); variety of knowledge and experience useful for handling things impromptu",
+  "english": "drawer",
   "examples": [
    {
     "ja": "はさみは{机|つくえ}の{引|ひ}き{出|だ}しの{中|なか}です。",
@@ -8401,7 +8401,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{着|き}た{服|ふく}などを{洗|あら}って、きれいにすること。",
-  "english": "washing; laundry; relaxation",
+  "english": "laundry; washing (clothes)",
   "examples": [
    {
     "ja": "{天気|てんき}がいいので、{洗濯|せんたく}をしました。",
@@ -8471,7 +8471,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{雨|あめ}や{日|ひ}の{光|ひかり}が{当|あ}たらないように、{頭|あたま}の{上|うえ}に{広|ひろ}げて{持|も}つ{道具|どうぐ}。",
-  "english": "umbrella; parasol; something shaped like an umbrella or a conical hat",
+  "english": "umbrella",
   "examples": [
    {
     "ja": "{雨|あめ}が{降|ふ}りそうなので、{傘|かさ}を{持|も}っていきます。",
@@ -8848,7 +8848,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{一年|いちねん}の{月|つき}や{日|ひ}、{曜日|ようび}が{書|か}いてある{表|ひょう}。",
-  "english": "calendar; calender (machine for flattening things)",
+  "english": "calendar",
   "examples": [
    {
     "ja": "カレンダーの{誕生日|たんじょうび}に{印|しるし}をつけました。",
@@ -9333,7 +9333,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{二|ふた}つの{道|みち}や{線|せん}が{出会|であ}う、とがったところ。",
-  "english": "corner; edge; (street) corner",
+  "english": "angle; square; cube",
   "examples": [
    {
     "ja": "あの{角|かど}にパン{屋|や}があります。",
@@ -9741,7 +9741,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{頭|あたま}の{上|うえ}に{広|ひろ}がっているところ。{雲|くも}や{月|つき}が{見|み}える。",
-  "english": "sky; the air; the heavens",
+  "english": "emptiness; being empty; not carrying anything",
   "examples": [
    {
     "ja": "{今日|きょう}は{空|そら}がとてもきれいです。",
@@ -9838,7 +9838,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{動|うご}いている{空気|くうき}。",
-  "english": "wind; breeze; draught",
+  "english": "swing; shake; sweep",
   "examples": [
    {
     "ja": "{今日|きょう}は{風|かぜ}が{強|つよ}いですね。",
@@ -9885,7 +9885,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{雲|くも}が{少|すく}なくて、{空|そら}が{青|あお}い{天気|てんき}。",
-  "english": "clear weather; fine weather; formal",
+  "english": "sunny weather; clear weather",
   "examples": [
    {
     "ja": "{明日|あした}は{晴|は}れでしょう。",
@@ -9909,7 +9909,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{雲|くも}が{空|そら}をおおって、お{日様|ひさま}が{見|み}えない{天気|てんき}。",
-  "english": "cloudiness; cloudy weather; fog (on a mirror, glasses, etc.)",
+  "english": "cloudy weather",
   "examples": [
    {
     "ja": "{午後|ごご}から{曇|くも}りになるそうです。",
@@ -10004,7 +10004,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{冬|ふゆ}のあとの{季節|きせつ}。{暖|あたた}かくなって、{花|はな}が{咲|さ}く。",
-  "english": "spring; springtime; New Year",
+  "english": "spring",
   "examples": [
    {
     "ja": "{日本|にほん}の{学校|がっこう}は{春|はる}に{始|はじ}まります。",
@@ -10054,7 +10054,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{夏|なつ}のあとの{季節|きせつ}。すずしくなって、{葉|は}の{色|いろ}が{変|か}わる。",
-  "english": "autumn; fall",
+  "english": "time; hour; moment",
   "examples": [
    {
     "ja": "{秋|あき}は{本|ほん}を{読|よ}むのにいい{季節|きせつ}です。",
@@ -10155,7 +10155,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "まわりを{海|うみ}に{囲|かこ}まれた{土地|とち}。",
-  "english": "island; one's territory (of a sex worker, organized crime gang, etc.); one's turf",
+  "english": "island",
   "examples": [
    {
     "ja": "{夏|なつ}に{小|ちい}さな{島|しま}へ{旅行|りょこう}しました。",
@@ -10203,7 +10203,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "はねがあって、{空|そら}を{飛|と}ぶことができる{動物|どうぶつ}。",
-  "english": "bird; bird meat (esp. chicken meat); fowl",
+  "english": "bird",
   "examples": [
    {
     "ja": "{朝|あさ}、{鳥|とり}の{声|こえ}で{目|め}が{覚|さ}めました。",
@@ -11074,7 +11074,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{明日|あした}の{次|つぎ}の{日|ひ}。",
-  "english": "day after tomorrow; wrong (e.g. direction)",
+  "english": "day after tomorrow",
   "examples": [
    {
     "ja": "あさっては{日曜日|にちようび}です。",
@@ -11118,7 +11118,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{時刻|じこく}を{言|い}うときに、{数|かず}のあとにつける{言葉|ことば}。",
-  "english": "hour; o'clock; (specified) time",
+  "english": "time; hour; moment",
   "examples": [
    {
     "ja": "{毎朝|まいあさ}{七|しち}{時|じ}に{家|いえ}を{出|で}ます。",
@@ -11142,7 +11142,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{時間|じかん}を{細|こま}かく{数|かぞ}える{言葉|ことば}。{一時間|いちじかん}より{短|みじか}い。",
-  "english": "minute (unit of time); fun (one tenth of a monme, 5.787 grains)",
+  "english": "minute(s)",
   "examples": [
    {
     "ja": "{駅|えき}から{歩|ある}いて{五|ご}{分|ふん}です。",
@@ -11191,7 +11191,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{時刻|じこく}をたずねる{言葉|ことば}。",
-  "english": "what time; which hour",
+  "english": "when; at what time; how soon",
   "examples": [
    {
     "ja": "{会議|かいぎ}は{何時|なんじ}からですか。",
@@ -11239,7 +11239,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "ある{時|とき}よりおそい{時|とき}。また、{次|つぎ}。",
-  "english": "behind; rear; after",
+  "english": "after; later; behind",
   "examples": [
    {
     "ja": "{宿題|しゅくだい}は{晩|ばん}ご{飯|はん}の{後|あと}でします。",
@@ -11262,7 +11262,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{顔|かお}が{向|む}いているほう。また、ある{時|とき}より{早|はや}い{時|とき}。",
-  "english": "in front (of); before (e.g. a building); before",
+  "english": "front; before; ago",
   "examples": [
    {
     "ja": "{家|いえ}の{前|まえ}に{車|くるま}が{止|と}まっています。",
@@ -11286,7 +11286,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{月|つき}の{最初|さいしょ}の{日|ひ}。",
-  "english": "first day of the month; the first of the month",
+  "english": "one day; all day (long); the whole day",
   "examples": [
    {
     "ja": "{四月|しがつ}{一日|ついたち}から{新|あたら}しい{仕事|しごと}が{始|はじ}まります。",
@@ -11584,7 +11584,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{三月|さんがつ}の{次|つぎ}の{月|つき}。{日本|にほん}では{新|あたら}しい{年度|ねんど}が{始|はじ}まる。",
-  "english": "April; fourth month in the lunar calendar",
+  "english": "April",
   "examples": [
    {
     "ja": "{日本|にほん}では{四月|しがつ}に{学校|がっこう}が{始|はじ}まります。",
@@ -11608,7 +11608,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{八月|はちがつ}の{次|つぎ}の{月|つき}。",
-  "english": "September; ninth month of the lunar calendar",
+  "english": "September",
   "examples": [
    {
     "ja": "{九月|くがつ}になっても、まだ{暑|あつ}いです。",
@@ -11994,7 +11994,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{物|もの}の{数|かず}が1。",
-  "english": "one; for one thing; only",
+  "english": "one (thing)",
   "examples": [
    {
     "ja": "りんごを{一|ひと}つください。",
@@ -12089,7 +12089,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{物|もの}の{数|かず}が5。",
-  "english": "five; five years of age; eight o'clock (old time system)",
+  "english": "five (things); five years old",
   "examples": [
    {
     "ja": "{子|こ}どもたちにみかんを{五|いつ}つずつあげました。",
@@ -12113,7 +12113,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{物|もの}の{数|かず}が6。",
-  "english": "six; six years of age; six o'clock (old time system)",
+  "english": "six (things); six years old",
   "examples": [
    {
     "ja": "{卵|たまご}を{六|むっ}つ{買|か}ってきてください。",
@@ -12137,7 +12137,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{物|もの}の{数|かず}が7。また、7{歳|さい}のこと。",
-  "english": "seven; seven years of age; four o'clock (old time system)",
+  "english": "seven (things); seven years old",
   "examples": [
    {
     "ja": "{虹|にじ}には{色|いろ}が{七|なな}つあります。",
@@ -12161,7 +12161,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{物|もの}の{数|かず}が8。",
-  "english": "eight; eight years of age; two o'clock (old time system)",
+  "english": "eight (things); eight years old",
   "examples": [
    {
     "ja": "ケーキを{八|やっ}つに{切|き}りましょう。",
@@ -12185,7 +12185,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{物|もの}の{数|かず}が9。",
-  "english": "nine; nine years of age; twelve o'clock (old time system)",
+  "english": "nine (things); nine years old",
   "examples": [
    {
     "ja": "{教室|きょうしつ}に{窓|まど}が{九|ここの}つあります。",
@@ -12232,7 +12232,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{人|ひと}を{数|かぞ}える{言葉|ことば}。ふつう、{三人|さんにん}から{使|つか}う。",
-  "english": "counter for people",
+  "english": "-ian (e.g. Italian); -ite (e.g. Tokyoite); -er (e.g. performer, etc.)",
   "examples": [
    {
     "ja": "{私|わたし}の{家族|かぞく}は{五|ご}{人|にん}です。",
@@ -12281,7 +12281,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{人|ひと}を{数|かぞ}える、ていねいな{言葉|ことば}。お{店|みせ}などでよく{使|つか}う。",
-  "english": "counter for people (usu. seating, reservations and such); first name; famous",
+  "english": "people (polite counter)",
   "examples": [
    {
     "ja": "「{何|なん}{名|めい}{様|さま}ですか。」「{二|に}{名|めい}です。」",
@@ -12304,7 +12304,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{紙|かみ}やシャツなど、うすくて{平|たい}らな{物|もの}を{数|かぞ}える{言葉|ことば}。",
-  "english": "counter for thin, flat objects (e.g. sheets of paper, plates, coins); counter for portions of gyōza or soba; counter for ranks",
+  "english": "counter for flat things (paper, etc.)",
   "examples": [
    {
     "ja": "{切手|きって}を{五|ご}{枚|まい}ください。",
@@ -12328,7 +12328,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "ペンや{木|き}など、{細長|ほそなが}い{物|もの}が{一|ひと}つ。",
-  "english": "one long cylindrical thing; one film, TV show, etc.; one goal, home run, etc.",
+  "english": "one (long thin thing: pen, bottle)",
   "examples": [
    {
     "ja": "ペンを{一本|いっぽん}{貸|か}してください。",
@@ -12399,7 +12399,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "20{歳|さい}のこと。{日本|にほん}では{大人|おとな}になったお{祝|いわ}いをする{年|とし}。",
-  "english": "20 years old; twenty",
+  "english": "20 years old",
   "examples": [
    {
     "ja": "{兄|あに}は{今年|ことし}{二十歳|はたち}になりました。",
@@ -12570,7 +12570,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{車|くるま}や{機械|きかい}などを{数|かぞ}える{言葉|ことば}。",
-  "english": "stand; rest; base",
+  "english": "counter for machines and vehicles",
   "examples": [
    {
     "ja": "{家|いえ}に{車|くるま}が{二|に}{台|だい}あります。",
@@ -12593,7 +12593,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{本|ほん}やノートを{数|かぞ}える{言葉|ことば}。",
-  "english": "counter for books; volume",
+  "english": "counter for books",
   "examples": [
    {
     "ja": "{図書館|としょかん}で{本|ほん}を{三|さん}{冊|さつ}{借|か}りました。",
@@ -12616,7 +12616,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{小|ちい}さな{動物|どうぶつ}や{魚|さかな}、{虫|むし}を{数|かぞ}える{言葉|ことば}。",
-  "english": "counter for small animals; counter for rolls of cloth (two han in size); counter for horses",
+  "english": "counter for small animals; counter for rolls of cloth (two han in size); roll of cloth",
   "examples": [
    {
     "ja": "うちには{猫|ねこ}が{二|に}{匹|ひき}います。",
@@ -12639,7 +12639,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "コップや{茶碗|ちゃわん}に{入|はい}った{飲|の}み{物|もの}などを{数|かぞ}える{言葉|ことば}。",
-  "english": "sake cup; cup for alcoholic beverages; counter for cupfuls, bowlfuls, spoonfuls, etc.",
+  "english": "cupful; glassful; bowlful (counter)",
   "examples": [
    {
     "ja": "コーヒーをもう{一杯|いっぱい}いかがですか。",
@@ -12662,7 +12662,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{何|なん}{回|かい}あったかを{数|かぞ}える{言葉|ことば}。また、{暑|あつ}さや{寒|さむ}さの{高|たか}さ。",
-  "english": "degree (angle, temperature, scale, etc.); counter for occurrences; strength (of glasses)",
+  "english": "degree(s); times (counter)",
   "examples": [
    {
     "ja": "{今日|きょう}は{三十|さんじゅう}{度|ど}まで{上|あ}がるそうです。",
@@ -12685,7 +12685,7 @@
   "category": "counter",
   "category_ja": "助数詞",
   "definition_ja": "{年|とし}の{数|かず}を{数|かぞ}える{言葉|ことば}。",
-  "english": "year; counter for years (e.g. of an era), grades (e.g. school); period of an apprentice's contract (usu. ten years)",
+  "english": "year; years (counter)",
   "examples": [
    {
     "ja": "{日本|にほん}に{来|き}て{三|さん}{年|ねん}になります。",
@@ -12916,7 +12916,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{左|ひだり}や{右|みぎ}のほう。すぐそば。",
-  "english": "horizontal (as opposed to vertical); side-to-side (as opposed to front-to-back); width",
+  "english": "side; beside; next to",
   "examples": [
    {
     "ja": "{駅|えき}の{横|よこ}に{本屋|ほんや}があります。",
@@ -13062,7 +13062,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{二|ふた}つの{物|もの}にはさまれたところ。また、ある{時|とき}から{時|とき}までの{時間|じかん}。",
-  "english": "space (between); gap; interval",
+  "english": "between; space; during",
   "examples": [
    {
     "ja": "{銀行|ぎんこう}と{本屋|ほんや}の{間|あいだ}に{喫茶店|きっさてん}があります。",
@@ -13251,7 +13251,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "ドアや{窓|まど}、{店|みせ}などが{開|ひら}いた{状態|じょうたい}になる。",
-  "english": "to open (e.g. doors); to open (e.g. business, etc.); to be empty",
+  "english": "to open (intr.); to be open",
   "examples": [
    {
     "ja": "この{店|みせ}は{朝|あさ}{十時|じゅうじ}に{開|あ}きます。",
@@ -13345,7 +13345,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{外|そと}から{中|なか}へ{行|い}く。",
-  "english": "to enter; to come in; to go in",
+  "english": "to enter; to go in; to get in",
   "examples": [
    {
     "ja": "{部屋|へや}に{入|はい}ってもいいですか。",
@@ -13487,7 +13487,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{仕事|しごと}や{勉強|べんきょう}をやめて、{体|からだ}を{楽|らく}にする。また、{学校|がっこう}や{会社|かいしゃ}に{行|い}かない。",
-  "english": "to be absent; to take a day off; to rest",
+  "english": "to rest; to take a day off; to be absent",
   "examples": [
    {
     "ja": "{疲|つか}れたので、{少|すこ}し{休|やす}みましょう。",
@@ -13816,7 +13816,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{手|て}や{足|あし}を{動|うご}かして、{水|みず}の{中|なか}を{進|すす}む。",
-  "english": "to swim; to struggle through (a crowd); to make one's way through the world",
+  "english": "to swim",
   "examples": [
    {
     "ja": "{夏|なつ}は{海|うみ}で{泳|およ}ぎます。",
@@ -13839,7 +13839,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{言葉|ことば}にメロディーをつけて、{声|こえ}に{出|だ}す。",
-  "english": "to sing; to sing of (love, beauty, etc.) in a poem; to express in the form of a poem",
+  "english": "to sing",
   "examples": [
    {
     "ja": "みんなで{歌|うた}を{歌|うた}いましょう。",
@@ -13886,7 +13886,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{靴|くつ}やズボンなどを{足|あし}につける。",
-  "english": "to put on (lower-body clothing, e.g. pants, skirt, footwear); to wear; to affix (a sword to one's hip)",
+  "english": "to put on; to wear (shoes, trousers)",
   "examples": [
    {
     "ja": "{新|あたら}しい{靴|くつ}を{履|は}いて{出|で}かけました。",
@@ -13910,7 +13910,7 @@
   "category": "verb-ru",
   "category_ja": "動詞（一段）",
   "definition_ja": "めがねを{顔|かお}につける。ほかに、{電話|でんわ}をする、{物|もの}をつるすなど、いろいろな{使|つか}い{方|かた}がある。",
-  "english": "to hang up (e.g. a coat, a picture on the wall); to let hang; to suspend (from)",
+  "english": "to hang; to phone; to put on (glasses)",
   "examples": [
    {
     "ja": "{母|はは}に{電話|でんわ}をかけました。",
@@ -13954,7 +13954,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{傘|かさ}を{開|ひら}いて、{頭|あたま}の{上|うえ}に{持|も}つ。",
-  "english": "to shine; to be visible; to be tinged with",
+  "english": "to put up (an umbrella); to shine",
   "examples": [
    {
     "ja": "{雨|あめ}なので、{傘|かさ}を{差|さ}して{歩|ある}きます。",
@@ -13977,7 +13977,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{雨|あめ}や{雪|ゆき}が{空|そら}から{落|お}ちてくる。",
-  "english": "to fall (of rain, snow, ash, etc.); to come down; to form (of frost)",
+  "english": "to descend; to go down; to come down",
   "examples": [
    {
     "ja": "{午後|ごご}から{雨|あめ}が{降|ふ}るでしょう。",
@@ -14327,7 +14327,7 @@
   "category": "verb-ru",
   "category_ja": "動詞（一段）",
   "definition_ja": "{電車|でんしゃ}やバスなどから{外|そと}へ{出|で}る。また、{高|たか}いところから{下|した}へ{行|い}く。",
-  "english": "to descend (e.g. a mountain); to go down; to come down",
+  "english": "to get off; to go down",
   "examples": [
    {
     "ja": "{次|つぎ}の{駅|えき}で{降|お}ります。",
@@ -14350,7 +14350,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{火|ひ}や{電気|でんき}を{止|と}める。また、{書|か}いた{字|じ}などをなくす。",
-  "english": "to erase; to rub out; to rub off",
+  "english": "to turn off; to erase",
   "examples": [
    {
     "ja": "{寝|ね}る{前|まえ}に{電気|でんき}を{消|け}します。",
@@ -14374,7 +14374,7 @@
   "category": "verb-ru",
   "category_ja": "動詞（一段）",
   "definition_ja": "{電気|でんき}やテレビなどが{動|うご}くようにする。",
-  "english": "to soak (in); to steep; to dip",
+  "english": "to turn on; to attach; to put on",
   "examples": [
    {
     "ja": "{暗|くら}いので、{電気|でんき}をつけましょう。",
@@ -14649,7 +14649,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{右|みぎ}や{左|ひだり}へ{進|すす}む{方向|ほうこう}を{変|か}える。",
-  "english": "to bend; to curve; to warp",
+  "english": "to turn; to bend",
   "examples": [
    {
     "ja": "{次|つぎ}の{角|かど}を{右|みぎ}に{曲|ま}がってください。",
@@ -14696,7 +14696,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{手|て}に{持|も}っている{物|もの}を、ほかの{人|ひと}の{手|て}に{移|うつ}す。",
-  "english": "to ferry across (e.g. a river); to carry across; to traverse",
+  "english": "to hand over; to give",
   "examples": [
    {
     "ja": "{先生|せんせい}に{宿題|しゅくだい}を{渡|わた}しました。",
@@ -14719,7 +14719,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "ピアノやギターなどの{楽器|がっき}を{鳴|な}らす。",
-  "english": "to play (a stringed or keyboard instrument)",
+  "english": "to flip; to snap; to flick",
   "examples": [
    {
     "ja": "{姉|あね}はピアノを{弾|ひ}くのが{上手|じょうず}です。",
@@ -14880,7 +14880,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "こすって、きれいにする。",
-  "english": "to polish; to shine; to burnish",
+  "english": "to brush (teeth); to polish",
   "examples": [
    {
     "ja": "{寝|ね}る{前|まえ}に{歯|は}を{磨|みが}きます。",
@@ -14950,7 +14950,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{人|ひと}に、{何|なに}かをしてほしいとお{願|ねが}いする。また、{店|みせ}で{注文|ちゅうもん}する。",
-  "english": "to request; to beg; to ask",
+  "english": "to ask; to request; to order",
   "examples": [
    {
     "ja": "{店員|てんいん}さんにコーヒーを{頼|たの}みました。",
@@ -15019,7 +15019,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{出|で}かけて、{行|い}きたかった{場所|ばしょ}に{来|く}る。",
-  "english": "to arrive at; to reach; to sit on",
+  "english": "to arrive; to reach",
   "examples": [
    {
     "ja": "{電車|でんしゃ}は{十時|じゅうじ}に{東京|とうきょう}に{着|つ}きます。",
@@ -15042,7 +15042,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "{同|おな}じではない。また、{正|ただ}しくない。",
-  "english": "to differ (from); to be different; to be distinct",
+  "english": "to be different; to be wrong",
   "examples": [
    {
     "ja": "{答|こた}えが{違|ちが}います。もう{一度|いちど}{考|かんが}えてください。",
@@ -15088,7 +15088,7 @@
   "category": "verb-u",
   "category_ja": "動詞（五段）",
   "definition_ja": "お{金|かね}をもらって、{物|もの}を{人|ひと}にわたす。",
-  "english": "to sell; to betray; to sell out (one's friend, country, etc.)",
+  "english": "to sell",
   "examples": [
    {
     "ja": "この{店|みせ}では{古|ふる}い{本|ほん}を{売|う}っています。",
@@ -15220,7 +15220,7 @@
   "category": "verb-ru",
   "category_ja": "動詞（一段）",
   "definition_ja": "{自分|じぶん}の{物|もの}を、ほかの{人|ひと}にわたす。",
-  "english": "to raise; to elevate; to move something (to a higher place)",
+  "english": "to give; to raise",
   "examples": [
    {
     "ja": "{妹|いもうと}にお{菓子|かし}をあげました。",
@@ -15403,7 +15403,7 @@
   "category": "adj-i",
   "category_ja": "い形容詞",
   "definition_ja": "{気温|きおん}が{低|ひく}くて、{体|からだ}が{冷|ひ}える。",
-  "english": "cold (e.g. weather); uninteresting (esp. joke); lame",
+  "english": "cold (weather)",
   "examples": [
    {
     "ja": "{北海道|ほっかいどう}の{冬|ふゆ}は{寒|さむ}いです。",
@@ -15520,7 +15520,7 @@
   "category": "adj-i",
   "category_ja": "い形容詞",
   "definition_ja": "{時|とき}が、ふつうより{前|まえ}である。",
-  "english": "fast; quick; rapid",
+  "english": "early; quick",
   "examples": [
    {
     "ja": "{父|ちち}は{毎朝|まいあさ}{起|お}きるのが{早|はや}いです。",
@@ -15707,7 +15707,7 @@
   "category": "adj-i",
   "category_ja": "い形容詞",
   "definition_ja": "{持|も}つのに{力|ちから}があまりいらない。",
-  "english": "light (i.e. not heavy); feeling light (i.e. offering little resistance, moving easily); light (i.e. of foot)",
+  "english": "light (not heavy)",
   "examples": [
    {
     "ja": "このかばんは{軽|かる}くて{便利|べんり}です。",
@@ -15961,7 +15961,7 @@
   "category": "adj-i",
   "category_ja": "い形容詞",
   "definition_ja": "けがや{病気|びょうき}で、{体|からだ}のどこかがつらい。",
-  "english": "painful; sore; cringy",
+  "english": "painful; sore; it hurts",
   "examples": [
    {
     "ja": "{朝|あさ}から{頭|あたま}が{痛|いた}いです。",
@@ -16143,7 +16143,7 @@
   "category": "adj-i",
   "category_ja": "い形容詞",
   "definition_ja": "{線|せん}や{棒|ぼう}などのはばが{小|ちい}さい。",
-  "english": "thin; slender; fine",
+  "english": "thin; narrow; slender",
   "examples": [
    {
     "ja": "この{道|みち}は{細|ほそ}くて、{車|くるま}が{通|とお}れません。",
@@ -16210,7 +16210,7 @@
   "category": "adj-i",
   "category_ja": "い形容詞",
   "definition_ja": "{悪|わる}くない。{満足|まんぞく}できる。「よい」のくだけた{言|い}い{方|かた}。",
-  "english": "good; excellent; fine",
+  "english": "what was said; what it means; origin of a story (or tradition, etc.)",
   "examples": [
    {
     "ja": "{今日|きょう}はいい{天気|てんき}ですね。",
@@ -16254,7 +16254,7 @@
   "category": "adj-i",
   "category_ja": "い形容詞",
   "definition_ja": "{高|たか}さがあまりない。{下|した}の{方|ほう}にある。",
-  "english": "low (rank, degree, value, content, quality, etc.); low (position); close to the ground",
+  "english": "low; short (height)",
   "examples": [
    {
     "ja": "{弟|おとうと}は{私|わたし}より{背|せ}が{低|ひく}いです。",
@@ -16367,7 +16367,7 @@
   "category": "adj-i",
   "category_ja": "い形容詞",
   "definition_ja": "{自分|じぶん}のものにしたいと{思|おも}う。",
-  "english": "wanting (to have); desiring; wishing for",
+  "english": "want; wanted",
   "examples": [
    {
     "ja": "{新|あたら}しいパソコンが{欲|ほ}しいです。",
@@ -16486,7 +16486,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "{何|なに}かをするのがうまい。",
-  "english": "skillful; skilled; proficient",
+  "english": "good at; skillful",
   "examples": [
    {
     "ja": "{田中|たなか}さんは{歌|うた}が{上手|じょうず}です。",
@@ -16510,7 +16510,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "{何|なに}かをするのがうまくない。",
-  "english": "unskillful; poor; awkward",
+  "english": "bad at; unskillful",
   "examples": [
    {
     "ja": "{私|わたし}は{料理|りょうり}が{下手|へた}です。",
@@ -16580,7 +16580,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "{使|つか}いにくくて、{困|こま}ることが{多|おお}い。",
-  "english": "inconvenience; inexpediency; unhandiness",
+  "english": "inconvenient",
   "examples": [
    {
     "ja": "この{町|まち}はバスが{少|すく}なくて{不便|ふべん}です。",
@@ -16604,7 +16604,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "{見|み}た{感|かん}じが{美|うつく}しい。また、よごれていない。",
-  "english": "pretty; lovely; beautiful",
+  "english": "pretty; beautiful; clean",
   "examples": [
    {
     "ja": "{部屋|へや}をきれいに{掃除|そうじ}しました。",
@@ -16647,7 +16647,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "とても{苦労|くろう}する。また、{程度|ていど}がとても{大|おお}きい。",
-  "english": "very; greatly; terribly",
+  "english": "hard; tough; terrible; very",
   "examples": [
    {
     "ja": "{毎日|まいにち}{仕事|しごと}が{遅|おそ}くまであって、{大変|たいへん}です。",
@@ -16695,7 +16695,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "することがなくて、{時間|じかん}がある。",
-  "english": "spare time; free time; leisure",
+  "english": "free (time); not busy",
   "examples": [
    {
     "ja": "{週末|しゅうまつ}は{暇|ひま}ですか。",
@@ -16742,7 +16742,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "{強|つよ}くて、{簡単|かんたん}にこわれない。また、{体|からだ}が{健康|けんこう}である。",
-  "english": "healthy; robust; strong",
+  "english": "sturdy; durable; healthy",
   "examples": [
    {
     "ja": "このかばんは{丈夫|じょうぶ}で、{長|なが}く{使|つか}えます。",
@@ -16829,7 +16829,7 @@
   "category": "adj-na",
   "category_ja": "な形容詞",
   "definition_ja": "じゅうぶんで、もういらない。また、かなりよい。",
-  "english": "splendid; nice; wonderful",
+  "english": "fine; enough (no, thank you); quite",
   "examples": [
    {
     "ja": "コーヒーはもう{結構|けっこう}です。",
@@ -16895,7 +16895,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "{何度|なんど}も。また、じゅうぶんに。",
-  "english": "greed; craving; desire",
+  "english": "well; often",
   "examples": [
    {
     "ja": "{週末|しゅうまつ}はよく{公園|こうえん}を{散歩|さんぽ}します。",
@@ -16983,7 +16983,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "そのことがまだ{終|お}わっていない、または{前|まえ}と{同|おな}じ{状態|じょうたい}が{続|つづ}いている{様子|ようす}。",
-  "english": "still; as yet; only",
+  "english": "still; (not) yet",
   "examples": [
    {
     "ja": "{昼|ひる}ご{飯|はん}はまだ{食|た}べていません。",
@@ -17178,7 +17178,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "ほかのどれよりも。",
-  "english": "number one; first; first place",
+  "english": "number one; most; best",
   "examples": [
    {
     "ja": "{家族|かぞく}の{中|なか}で{父|ちち}が{一番|いちばん}{背|せ}が{高|たか}いです。",
@@ -17200,7 +17200,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "もう{一度|いちど}。{同|おな}じことがもう{一回|いっかい}ある{様子|ようす}。",
-  "english": "groin; thigh; crotch",
+  "english": "again; also",
   "examples": [
    {
     "ja": "また{明日|あした}{会|あ}いましょう。",
@@ -17260,7 +17260,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "{後|あと}に「ない」などがついて、「{少|すこ}しも〜ない」という{意味|いみ}になる。",
-  "english": "(not) at all; (not) in the slightest; wholly",
+  "english": "(not) at all",
   "examples": [
    {
     "ja": "{昨日|きのう}は{全然|ぜんぜん}{寝|ね}られませんでした。",
@@ -17284,7 +17284,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "{後|あと}に「ない」などがついて、「それほど〜ない」という{意味|いみ}になる。",
-  "english": "remainder; remnant; rest",
+  "english": "(not) very; (not) much",
   "examples": [
    {
     "ja": "{今日|きょう}はあまり{寒|さむ}くないです。",
@@ -17327,7 +17327,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "{今|いま}まで{一度|いちど}もなかったことを、そのときにする{様子|ようす}。",
-  "english": "for the first time; only after ... is it ...; only when ... do you ...",
+  "english": "for the first time",
   "examples": [
    {
     "ja": "{日本|にほん}に{来|き}たのは{初|はじ}めてです。",
@@ -17476,7 +17476,7 @@
   "category": "pronoun",
   "category_ja": "代名詞",
   "definition_ja": "{分|わ}からない{物|もの}やことをたずねるときに{使|つか}う{言葉|ことば}。",
-  "english": "what; you-know-what; that thing",
+  "english": "what",
   "examples": [
    {
     "ja": "{何|なに}を{食|た}べたいですか。",
@@ -17500,7 +17500,7 @@
   "category": "pronoun",
   "category_ja": "代名詞",
   "definition_ja": "{分|わ}からない{場所|ばしょ}をたずねるときに{使|つか}う{言葉|ことば}。",
-  "english": "where; what place; how much (long, far)",
+  "english": "where",
   "examples": [
    {
     "ja": "トイレはどこですか。",
@@ -17559,7 +17559,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "{理由|りゆう}をたずねるときに{使|つか}う{言葉|ことば}。",
-  "english": "how; in what way; by what means",
+  "english": "why; how",
   "examples": [
    {
     "ja": "どうして{昨日|きのう}{休|やす}んだんですか。",
@@ -17580,7 +17580,7 @@
   "category": "noun",
   "category_ja": "名詞",
   "definition_ja": "{値段|ねだん}やお{金|かね}の{量|りょう}をたずねるときに{使|つか}う{言葉|ことば}。",
-  "english": "salted salmon roe",
+  "english": "how much",
   "examples": [
    {
     "ja": "このりんごはいくらですか。",
@@ -17622,7 +17622,7 @@
   "category": "pronoun",
   "category_ja": "代名詞",
   "definition_ja": "{三|みっ}つ{以上|いじょう}の{物|もの}の{中|なか}から、{一|ひと}つを{選|えら}んでもらうときに{使|つか}う{言葉|ことば}。",
-  "english": "which (of three or more); well; now",
+  "english": "which (of three or more)",
   "examples": [
    {
     "ja": "あなたの{傘|かさ}はどれですか。",
@@ -17644,7 +17644,7 @@
   "category": "pronoun",
   "category_ja": "代名詞",
   "definition_ja": "{名詞|めいし}の{前|まえ}について、たくさんの{中|なか}のどれかをたずねる{言葉|ことば}。",
-  "english": "Mr.; Mrs.; Miss",
+  "english": "which (+ noun)",
   "examples": [
    {
     "ja": "どのバスに{乗|の}ればいいですか。",
@@ -17665,7 +17665,7 @@
   "category": "pronoun",
   "category_ja": "代名詞",
   "definition_ja": "{二|ふた}つのうちのどれか、また{方向|ほうこう}や{場所|ばしょ}を、ていねいにたずねる{言葉|ことば}。",
-  "english": "which way; which direction; where",
+  "english": "which (of two); where (polite)",
   "examples": [
    {
     "ja": "コーヒーと{紅茶|こうちゃ}と、どちらがいいですか。",
@@ -17730,7 +17730,7 @@
   "category": "expression",
   "category_ja": "表現",
   "definition_ja": "{人|ひと}と{別|わか}れるときのあいさつ。",
-  "english": "farewell; adieu; goodbye",
+  "english": "goodbye",
   "examples": [
    {
     "ja": "{先生|せんせい}、さようなら。",
@@ -17772,7 +17772,7 @@
   "category": "expression",
   "category_ja": "表現",
   "definition_ja": "ご{飯|はん}を{食|た}べ{始|はじ}める{前|まえ}に{言|い}うあいさつ。",
-  "english": "thank you (for the meal just served); I receive (this meal)",
+  "english": "let's eat (said before a meal)",
   "examples": [
    {
     "ja": "では、いただきます。",
@@ -17793,7 +17793,7 @@
   "category": "expression",
   "category_ja": "表現",
   "definition_ja": "ご{飯|はん}を{食|た}べ{終|お}わったときに{言|い}うあいさつ。",
-  "english": "thank you for the meal; that was a delicious meal; what a wonderful meal",
+  "english": "thank you for the meal (after eating)",
   "examples": [
    {
     "ja": "ごちそうさまでした。とてもおいしかったです。",
@@ -18006,7 +18006,7 @@
   "category": "expression",
   "category_ja": "表現",
   "definition_ja": "{人|ひと}の{部屋|へや}に{入|はい}るときや、{先|さき}に{帰|かえ}るときに{言|い}う、ていねいなあいさつ。",
-  "english": "excuse me; pardon me; I beg your pardon",
+  "english": "excuse me (entering or leaving)",
   "examples": [
    {
     "ja": "お{先|さき}に{失礼|しつれい}します。",
@@ -18111,7 +18111,7 @@
   "category": "adverb",
   "category_ja": "副詞",
   "definition_ja": "{人|ひと}に{何|なに}かをすすめるときや、{許|ゆる}すときに{使|つか}う{言葉|ことば}。",
-  "english": "please; kindly; pray",
+  "english": "please (go ahead); here you are",
   "examples": [
    {
     "ja": "どうぞ、お{入|はい}りください。",
