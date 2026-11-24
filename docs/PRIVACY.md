@@ -12,7 +12,8 @@ tracking.
   and you decide where to paste them.
 - **Microphone:** the shadowing practice records your voice so you can play it back next to the
   model sentence. The recording stays in memory on your device, is never saved to a file, and is
-  never sent anywhere. The microphone is used only while you record in shadowing practice.
+  never sent anywhere. The microphone is used only while you record in shadowing practice or
+  press a speak button (see Speaking practice below).
 - **Speech:** listening practice uses your device's own text-to-speech voice.
 - **Speaking practice (Android):** when you press a speak button, the game asks your phone's
   speech-recognition service (usually Google's) to turn your voice into text. It tries on-device
