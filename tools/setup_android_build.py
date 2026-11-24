@@ -66,6 +66,14 @@ def main(argv: list[str]) -> int:
     BUILD.mkdir(parents=True)
     with zipfile.ZipFile(source) as z:
         z.extractall(BUILD)
+        # extractall drops Unix permissions; restore them so gradlew can run on Linux/macOS (CI).
+        for info in z.infolist():
+            mode = (info.external_attr >> 16) & 0o777
+            if mode:
+                os.chmod(BUILD / info.filename, mode)
+    gradlew = BUILD / "gradlew"
+    if gradlew.exists():
+        os.chmod(gradlew, 0o755)
     (BUILD.parent / ".build_version").write_text(args.version, encoding="utf-8")
     (BUILD / ".gdignore").write_text("", encoding="utf-8")
     java = BUILD / "src" / "main" / "java"
