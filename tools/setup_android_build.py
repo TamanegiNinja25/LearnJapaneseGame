@@ -23,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "game" / "android" / "build"
 PLUGIN_SRC = ROOT / "tools" / "android" / "speech_plugin"
-PLUGINS = {"SpeechInput": "io.github.tamanegininja25.speech.SpeechInputPlugin"}
+PLUGINS = {"NihongoSpeech": "io.github.tamanegininja25.speech.SpeechInputPlugin"}
 MARKER = "<!-- nihongo-plugins -->"
 
 

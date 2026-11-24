@@ -1,13 +1,13 @@
 extends RefCounted
 class_name SpeechInput
-## Speech recognition for speaking practice: the Android plugin "SpeechInput"
+## Speech recognition for speaking practice: the Android plugin "NihongoSpeech"
 ## (tools/android/speech_plugin/, on-device and offline once the phone's Japanese speech pack is
 ## installed). Other platforms have no recogniser, so available() is false there and screens hide
 ## their speak buttons. Safe to call anywhere: without the plugin every call does nothing.
 ##
 ## listen() hands back the recogniser's alternatives (best first) or an error message in markup.
 
-const SINGLETON := "SpeechInput"
+const SINGLETON := "NihongoSpeech"  # must differ from this class name: Android singletons become globals
 const PERMISSION := "android.permission.RECORD_AUDIO"
 const LANGUAGE := "ja-JP"
 
@@ -34,6 +34,15 @@ static func _plugin() -> Object:
 static func available() -> bool:
 	var p := _plugin()
 	return p != null and bool(p.call("isAvailable"))
+
+
+## Why speaking is or is not possible here, for 設定 (markup).
+static func status() -> String:
+	if not OS.has_feature("android"):
+		return "{音声認識|おんせいにんしき}：このデバイスでは{使|つか}えません（Android{専用|せんよう}）"
+	if _plugin() == null:
+		return "{音声認識|おんせいにんしき}：プラグインがありません"
+	return "{音声認識|おんせいにんしき}：" + ("{使|つか}えます" if available() else "{使|つか}えません（{音声認識|おんせいにんしき}アプリが{見|み}つかりません）")
 
 
 ## Ask for microphone access if needed. Returns true when it is already granted; otherwise the

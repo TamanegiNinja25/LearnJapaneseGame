@@ -34,6 +34,7 @@ func _ready() -> void:
 		column.add_child(UITheme.en("BIZ UDPGothic is a universal-design font that separates similar kanji (末/未) clearly.", UITheme.SIZE_LABEL))
 	column.add_child(UITheme.toggle("{会話|かいわ}でタイプして{答|こた}える", bool(Progress.setting("typed_answers")),
 		func(on: bool) -> void: Progress.set_setting("typed_answers", on), "Answer conversations by typing (romaji converts to kana)"))
+	column.add_child(UITheme.ja(SpeechInput.status(), UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
 	if SpeechInput.available():
 		column.add_child(UITheme.toggle("{会話|かいわ}をハンズフリーで（{声|こえ}で{答|こた}える）", bool(Progress.setting("hands_free")),
 			func(on: bool) -> void: Progress.set_setting("hands_free", on), "Conversations listen for your spoken answer by themselves and move on after a correct one"))

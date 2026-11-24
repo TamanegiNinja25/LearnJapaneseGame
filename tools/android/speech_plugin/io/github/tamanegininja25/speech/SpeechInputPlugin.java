@@ -1,7 +1,7 @@
 // 日本語の世界 — speech input for speaking practice (MIT).
 //
 // A Godot Android plugin (v2) around android.speech.SpeechRecognizer. GDScript reaches it as the
-// engine singleton "SpeechInput" (see game/scripts/core/speech_input.gd). Recognition prefers
+// engine singleton "NihongoSpeech" (see game/scripts/core/speech_input.gd). Recognition prefers
 // the on-device engine, so it works offline once the phone's Japanese speech pack is installed.
 // tools/setup_android_build.py copies this file into the Gradle build template and registers it
 // in the manifest.
@@ -27,6 +27,10 @@ import java.util.Set;
 
 public class SpeechInputPlugin extends GodotPlugin {
     private SpeechRecognizer recognizer;
+    private String language = "ja-JP";
+    // First try on-device recognition; if the phone has no offline pack for the language, try
+    // once more letting the phone's recognition service use its online model.
+    private boolean offlineAttempt = true;
 
     public SpeechInputPlugin(Godot godot) {
         super(godot);
@@ -35,7 +39,7 @@ public class SpeechInputPlugin extends GodotPlugin {
     @NonNull
     @Override
     public String getPluginName() {
-        return "SpeechInput";
+        return "NihongoSpeech";
     }
 
     @NonNull
@@ -61,11 +65,18 @@ public class SpeechInputPlugin extends GodotPlugin {
     /** Listen once in [language] (BCP 47, e.g. "ja-JP"); results arrive as signals. */
     @UsedByGodot
     public void start(final String language) {
+        this.language = language;
+        this.offlineAttempt = true;
+        listen();
+    }
+
+    private void listen() {
         final Activity activity = getActivity();
         if (activity == null) {
             emitSignal("speech_error", SpeechRecognizer.ERROR_CLIENT);
             return;
         }
+        final boolean preferOffline = offlineAttempt;
         runOnUiThread(() -> {
             destroyRecognizer();
             recognizer = SpeechRecognizer.createSpeechRecognizer(activity);
@@ -74,7 +85,7 @@ public class SpeechInputPlugin extends GodotPlugin {
             intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
             intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, language);
             intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, language);
-            intent.putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, true);
+            intent.putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, preferOffline);
             intent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true);
             intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 5);
             recognizer.startListening(intent);
@@ -147,6 +158,13 @@ public class SpeechInputPlugin extends GodotPlugin {
 
         @Override
         public void onError(int error) {
+            boolean noOfflinePack = error == SpeechRecognizer.ERROR_LANGUAGE_NOT_SUPPORTED
+                    || error == SpeechRecognizer.ERROR_LANGUAGE_UNAVAILABLE;
+            if (noOfflinePack && offlineAttempt) {
+                offlineAttempt = false;
+                listen();
+                return;
+            }
             emitSignal("speech_error", error);
         }
 

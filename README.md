@@ -81,9 +81,11 @@ python tools/setup_android_build.py
 godot --headless --path game --export-debug "Android" ../build/android/NihongoNoSekai.apk
 ```
 
-Speaking practice uses the phone's own speech recognition (offline once the Japanese speech pack
-is installed: Settings › Google › Voice / Speech › Offline speech recognition › Japanese). The
-game asks for microphone permission the first time you press a speak button.
+Speaking practice uses the phone's own speech recognition. It tries on-device recognition first;
+without the offline Japanese pack (Settings › Google › Voice / Speech › Offline speech recognition
+› Japanese) the phone's recognition service may use its online model instead (see
+[docs/PRIVACY.md](docs/PRIVACY.md)). The game asks for microphone permission the first time you
+press a speak button, and 設定 shows whether speech recognition is available.
 
 It needs Godot's Android export templates, the Android SDK build tools and a JDK configured in
 Godot's editor settings (Editor › Editor Settings › Export › Android). Local and CI builds are signed

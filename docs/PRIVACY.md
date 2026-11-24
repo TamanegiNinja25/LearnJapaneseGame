@@ -14,6 +14,13 @@ tracking.
   model sentence. The recording stays in memory on your device, is never saved to a file, and is
   never sent anywhere. The microphone is used only while you record in shadowing practice.
 - **Speech:** listening practice uses your device's own text-to-speech voice.
+- **Speaking practice (Android):** when you press a speak button, the game asks your phone's
+  speech-recognition service (usually Google's) to turn your voice into text. It tries on-device
+  recognition first. If your phone has no offline Japanese speech pack, the phone's service may
+  send that audio to its online recogniser, under the provider's own privacy terms (for Google:
+  policies.google.com/privacy). The game itself never sends, stores or records the audio. To keep
+  speaking practice fully on your phone, install the offline Japanese pack (Settings › Google ›
+  Voice / Speech › Offline speech recognition › Japanese) or simply don't use the speak buttons.
 
 ## The one network request
 

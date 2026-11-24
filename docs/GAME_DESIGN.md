@@ -477,8 +477,11 @@ Rounds are 10 questions from the unlocked stages.
 
 ### 9.6 Speaking (Android speech recognition)
 
-- `SpeechInput` drives the platform recogniser (the "SpeechInput" Android plugin, `ja-JP`, prefer
-  offline, up to 5 alternatives). Without it (desktop, web) no speak buttons appear.
+- `SpeechInput` drives the platform recogniser (the "NihongoSpeech" Android plugin, `ja-JP`, up to
+  5 alternatives). It asks for on-device recognition first and, when the phone has no offline pack
+  for Japanese (error 12/13), retries once letting the phone's service go online. Without a
+  recogniser (desktop, web) no speak buttons appear. The plugin's singleton name must differ from
+  the GDScript class name: Android singletons become global identifiers and would shadow it.
 - Judging (`AnswerMatch.spoken`): every alternative is normalised (kana unified, punctuation and
   spaces dropped) and compared with each accepted form, written and kana, by
   `1 − edit distance / longer length`. ≥ 0.8 correct, ≥ 0.6 close (try again), otherwise not
