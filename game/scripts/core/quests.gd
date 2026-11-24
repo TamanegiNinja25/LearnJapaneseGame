@@ -18,6 +18,8 @@ const LIST: Array[Dictionary] = [
 		"ja": "{文|ぶん}を5つ{作|つく}る", "en": "Build five sentences"},
 	{"id": "writing", "counter": "kanji_written", "target": 5, "xp": 100,
 		"ja": "{字|じ}を5つ{書|か}く", "en": "Write five characters"},
+	{"id": "speaking", "counter": "spoken", "target": 5, "xp": 100,
+		"ja": "{声|こえ}で5{回|かい}{答|こた}える", "en": "Answer five times by speaking"},
 	{"id": "daily_assessment", "counter": "daily_assessment", "target": 1, "xp": 250,
 		"ja": "{毎日|まいにち}の{確認|かくにん}テストを{受|う}ける", "en": "Take the daily check"},
 ]

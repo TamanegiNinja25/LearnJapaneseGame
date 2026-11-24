@@ -90,3 +90,35 @@ static func distance(a: String, b: String) -> int:
 			cur.append(mini(mini(cur[j - 1] + 1, prev[j] + 1), prev[j - 1] + cost))
 		prev = cur
 	return prev[b.length()]
+
+
+## Speech recognisers write what they hear with their own choice of kanji and kana, so spoken
+## answers are judged by similarity, not equality: share of characters that match (1.0 = same).
+const SPOKEN_OK := 0.8
+const SPOKEN_CLOSE := 0.6
+
+
+static func similarity(a: String, b: String) -> float:
+	var longest := maxi(a.length(), b.length())
+	if longest == 0:
+		return 1.0
+	return 1.0 - float(distance(a, b)) / longest
+
+
+## Judge a spoken answer. [param heard] holds the recogniser's alternatives (best first); each
+## is compared with every accepted form (written and kana). Returns {"verdict": "correct" |
+## "close" | "wrong", "score": best similarity, "heard": the alternative that scored best}.
+static func spoken(heard: Array, accepted: Array) -> Dictionary:
+	var all := forms(accepted)
+	var best := {"verdict": "wrong", "score": 0.0, "heard": String(heard[0]) if not heard.is_empty() else ""}
+	for h: String in heard:
+		var n := normalise(h)
+		if n == "":
+			continue
+		for f in all:
+			var s := similarity(n, f)
+			if s > float(best["score"]):
+				best = {"verdict": "wrong", "score": s, "heard": h}
+	var score := float(best["score"])
+	best["verdict"] = "correct" if score >= SPOKEN_OK else ("close" if score >= SPOKEN_CLOSE else "wrong")
+	return best

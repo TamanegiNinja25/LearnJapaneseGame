@@ -16,6 +16,7 @@ const TESTS: Array[String] = [
 	"test_furigana_plain_and_reading",
 	"test_romaji",
 	"test_answer_match",
+	"test_spoken_match",
 	"test_sentence_check_correct_and_alternatives",
 	"test_sentence_check_wrong_tiles_order_particle",
 	"test_sentence_tiers",
@@ -128,6 +129,25 @@ func test_romaji() -> bool:
 	assert_eq(Romaji.to_hiragana("kan'i"), "かんい", "n apostrophe")
 	assert_eq(Romaji.to_hiragana("みずを"), "みずを", "kana passes through")
 	assert_true(Romaji.has_latin("abc") and not Romaji.has_latin("あ"), "has_latin")
+	return true
+
+
+func test_spoken_match() -> bool:
+	var accepted := ["{水|みず}をください。"]
+	assert_eq(AnswerMatch.spoken(["水をください"], accepted)["verdict"], "correct", "same words, recogniser's kanji")
+	assert_eq(AnswerMatch.spoken(["みずをください"], accepted)["verdict"], "correct", "all-kana transcript")
+	assert_eq(AnswerMatch.spoken(["水を下さい"], accepted)["verdict"], "close", "a different kanji spelling is only close (strict on purpose)")
+	assert_true(AnswerMatch.spoken(["お茶をください"], ["{水|みず}をください。"])["verdict"] != "correct", "a different noun is never accepted")
+	assert_eq(AnswerMatch.spoken(["ミズヲクダサイ"], accepted)["verdict"], "correct", "katakana transcript")
+	assert_eq(AnswerMatch.spoken(["お茶をください"], accepted)["verdict"], "close", "one word different -> close")
+	assert_eq(AnswerMatch.spoken(["こんにちは"], accepted)["verdict"], "wrong", "a different sentence")
+	var r := AnswerMatch.spoken(["こんにちは", "水をください"], accepted)
+	assert_eq(r["verdict"], "correct", "any alternative can match")
+	assert_eq(r["heard"], "水をください", "reports the matching alternative")
+	assert_eq(AnswerMatch.spoken([], accepted)["verdict"], "wrong", "nothing heard")
+	assert_eq(AnswerMatch.similarity("あいう", "あいう"), 1.0, "identical")
+	assert_true(Quests.quest("speaking")["target"] > 0, "speaking quest exists")
+	assert_true(not SpeechInput.available(), "no recogniser on desktop / in tests")
 	return true
 
 

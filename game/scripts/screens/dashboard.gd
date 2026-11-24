@@ -176,6 +176,8 @@ func _quests_card() -> PanelContainer:
 	for q in Quests.LIST:
 		if q["id"] == "listening" and not Speech.available():
 			continue
+		if q["id"] == "speaking" and not SpeechInput.available():
+			continue
 		var row := UITheme.hbox(10)
 		v.add_child(row)
 		var done := Progress.quest_paid(q["id"])

@@ -475,6 +475,22 @@ Two drills about how Japanese sounds, built by `StyleDrills`:
 
 Rounds are 10 questions from the unlocked stages.
 
+### 9.6 Speaking (Android speech recognition)
+
+- `SpeechInput` drives the platform recogniser (the "SpeechInput" Android plugin, `ja-JP`, prefer
+  offline, up to 5 alternatives). Without it (desktop, web) no speak buttons appear.
+- Judging (`AnswerMatch.spoken`): every alternative is normalised (kana unified, punctuation and
+  spaces dropped) and compared with each accepted form, written and kana, by
+  `1 − edit distance / longer length`. ≥ 0.8 correct, ≥ 0.6 close (try again), otherwise not
+  understood. Strict on purpose: a different noun (お茶 for 水) must never pass.
+- Conversations: ● 話して答える on every turn; matching the correct reply or a typed accepted
+  wording counts as choosing it; matching a scripted unnatural/wrong reply gets that reply's
+  feedback. Hands-free (設定, off by default) listens after the NPC's voice ends and moves on 3 s
+  after a correct answer.
+- 表現 rewrites can be spoken; shadowing shows the match percentage next to self-rating.
+- A correct spoken answer also records activity `speaking` → `{会話: 0.5, 聴解: 0.2}` and counts
+  toward the daily quest 声で5回答える (shown only where recognition exists).
+
 ## 10. Adaptive difficulty (Phase 1)
 
 ### 10.1 Recommended next activity

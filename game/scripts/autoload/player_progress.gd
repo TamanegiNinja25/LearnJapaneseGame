@@ -71,7 +71,7 @@ func today() -> String:
 func default_settings() -> Dictionary:
 	return {"theme": "light", "font": "noto", "english_auto": true, "tts_rate": 1.0, "voice": "", "onboarded": false,
 		"typed_answers": false, "beginner_english": true, "ui_scale": 0.0,
-		"check_updates": true, "skipped_update": "", "sfx": true, "music": false, "writing_source": "kanji"}
+		"check_updates": true, "skipped_update": "", "sfx": true, "music": false, "writing_source": "kanji", "hands_free": false}
 
 
 func reset() -> void:

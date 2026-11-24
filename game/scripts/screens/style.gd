@@ -80,6 +80,20 @@ func _show() -> void:
 		v.add_child(b)
 		buttons.append(b)
 	set_options(buttons)
+	if _mode == "rewrite" and SpeechInput.available():
+		var mic := MicButton.new("● 話して言い換える")
+		mic.heard.connect(func(heard: Array[String]) -> void:
+			var answer: String = q["options"][int(q["answer"])]
+			var r := AnswerMatch.spoken(heard, [answer])
+			if r["verdict"] == "correct":
+				Progress.record_sample(&"speaking", Srs.C_CORRECT)
+				Progress.bump_daily("spoken")
+				_answer(int(q["answer"]), buttons)
+			elif r["verdict"] == "close":
+				mic.say("おしい！もう{一度|いちど}。", "Almost. Say it again.")
+			else:
+				mic.say("{違|ちが}うようです。もう{一度|いちど}。", "That does not sound like the right rewrite."))
+		v.add_child(mic)
 	UITheme.animate_in(card)
 
 

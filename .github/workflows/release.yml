@@ -61,6 +61,10 @@ jobs:
       - name: Import project
         run: godot --headless --path game --import
 
+      # Both Android presets build with Gradle (speech-recognition plugin).
+      - name: Prepare the Android Gradle build
+        run: python3 tools/setup_android_build.py --templates "$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable" --version "${GODOT_VERSION}.stable"
+
       - name: Export
         run: |
           set -euo pipefail
@@ -69,7 +73,7 @@ jobs:
           godot --headless --path game --export-release "Linux" ../build/linux/NihongoNoSekai.x86_64
           godot --headless --path game --export-release "Web" ../build/web/index.html
           godot --headless --path game --export-release "macOS" ../build/macos/NihongoNoSekai.zip
-          godot --headless --path game --export-debug "Android" ../build/android/NihongoNoSekai.apk
+          godot --headless --path game --export-release "Android" ../build/android/NihongoNoSekai.apk
 
       - name: Play Store app bundle (only with the release-key secrets)
         env:
@@ -83,11 +87,6 @@ jobs:
             exit 0
           fi
           echo "${KEYSTORE_B64}" | base64 -d > "$RUNNER_TEMP/release.keystore"
-          # Gradle builds need Godot's Android build template inside the project.
-          mkdir -p game/android/build
-          unzip -q -o "$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable/android_source.zip" -d game/android/build
-          echo "${GODOT_VERSION}.stable" > game/android/.build_version
-          touch game/android/build/.gdignore
           mkdir -p build/play
           export GODOT_ANDROID_KEYSTORE_RELEASE_PATH="$RUNNER_TEMP/release.keystore"
           export GODOT_ANDROID_KEYSTORE_RELEASE_USER="${KEY_ALIAS}"

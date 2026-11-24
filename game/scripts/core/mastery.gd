@@ -83,6 +83,8 @@ const ACTIVITY_WEIGHTS := {
 	# 表現 screen (GDD §9.5): register rewrites and spotting unnatural replies.
 	&"rewrite": {&"grammar": 0.6, &"conversation": 0.4},
 	&"naturalness": {&"conversation": 0.8, &"grammar": 0.2},
+	# Speaking an answer (Android speech recognition), on top of the answer's own sample.
+	&"speaking": {&"conversation": 0.5, &"listening": 0.2},
 }
 
 ## XP per item (GDD §5.5).

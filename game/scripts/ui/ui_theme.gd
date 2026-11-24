@@ -357,6 +357,7 @@ const UI_EN := {
 	"練習する": "Practise", "走る": "Run", "歩く": "Walk",
 	"ダウンロード": "Download", "あとで": "Later", "このバージョンをスキップ": "Skip this version",
 	"なぞる": "Trace", "見ないで書く": "From memory", "見ないでもう一度": "Again from memory",
+	"● 話して確認": "Speak to check", "● 話して答える": "Answer by speaking", "● もう一度話す": "Speak again", "● 話して言い換える": "Say the rewrite",
 	"言い換え": "Rewrite", "不自然な文": "Spot the unnatural reply",
 	"漢字": "Kanji", "ひらがな": "Hiragana", "カタカナ": "Katakana", "言葉": "Words",
 	"バックアップをコピー": "Copy backup", "クリップボードから復元": "Restore from clipboard",

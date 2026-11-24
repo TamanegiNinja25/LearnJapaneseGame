@@ -17,6 +17,7 @@ python tools/check_tsv.py tools/wordlists/n5/*.tsv                 # word lists 
 python tools/bake_content.py --report                              # TSV + JMdict + KANJIDIC2 -> JSON
 python tools/bake_strokes.py                                       # KanjiVG -> strokes_<stage>.json
 godot --path game                                                  # run the game
+python tools/setup_android_build.py                                # Gradle template + speech plugin (Android builds)
 python tools/phone_smoke.py build/android/NihongoNoSekai.apk       # install + launch check on a USB phone
 ```
 
@@ -72,8 +73,13 @@ the repo. CI runs the test, validate and UI-text commands on every push.
 
 ## Not built (by design)
 
-Automatic pronunciation scoring and free-composition grading need a speech recogniser or an
-online model; the game is offline. Shadowing uses self-rating instead.
+Free conversation with an AI tutor and phoneme-level pronunciation scoring need an online model;
+the game is offline. Speaking practice uses Android's on-device speech recognition instead
+(`SpeechInput` + the Java plugin in `tools/android/speech_plugin/`, installed into the Gradle
+template by `tools/setup_android_build.py`): spoken answers are judged by `AnswerMatch.spoken()`
+(similarity, since recognisers choose their own kanji). Other platforms have no recogniser, so
+screens hide speak buttons when `SpeechInput.available()` is false. `SpeechInput` must not
+reference autoloads (the test runner compiles it).
 
 The one network call is the start-up update check (`UpdateCheck` + `main.gd`): one GET to the
 GitHub "latest release" API, skipped when 設定 › 起動時に更新を確認する is off, silent on failure.

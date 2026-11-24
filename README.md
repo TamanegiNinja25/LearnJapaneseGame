@@ -24,6 +24,7 @@ hand-curated.
 | 表現 Natural Japanese | 言い換え: rewrite a sentence into another register (polite, casual, honorific). 不自然な文: pick the reply a native speaker would not say |
 | 文を作る Sentence builder | Word tiles with distractors in three tiers, particle-specific feedback, hints |
 | 会話 Conversation | 36 scenarios with 正解 / 惜しい / 不正解 answers, spoken NPC lines, and an optional typed-answer mode |
+| 話す Speaking (Android) | Every conversation turn has ● 話して答える: say your answer instead of choosing it, judged against the right reply and its accepted wordings. ハンズフリー mode (設定) listens by itself after the other person speaks and moves on after a correct answer. 表現 rewrites can be spoken, and shadowing shows how much of the sentence your phone understood. Daily quest: answer five times by speaking |
 | 聴解 Listening | Word and sentence listening with the system Japanese voice, plus shadowing with your microphone |
 | 試験 Assessment | The stage gate exam, a daily 10-question check, and practice sittings |
 | 設定 Settings | English assistance, light/dark theme, an accessibility font, voice and speed, data, credits |
@@ -71,11 +72,18 @@ CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs all of them.
 
 ## Android (APK)
 
-A debug-signed APK for sideloading is built with the "Android" export preset:
+A debug-signed APK for sideloading is built with the "Android" export preset. Both Android presets
+use Godot's Gradle build because of the speech-recognition plugin, so prepare the build template
+once per checkout (and after updating Godot):
 
 ```bash
+python tools/setup_android_build.py
 godot --headless --path game --export-debug "Android" ../build/android/NihongoNoSekai.apk
 ```
+
+Speaking practice uses the phone's own speech recognition (offline once the Japanese speech pack
+is installed: Settings › Google › Voice / Speech › Offline speech recognition › Japanese). The
+game asks for microphone permission the first time you press a speak button.
 
 It needs Godot's Android export templates, the Android SDK build tools and a JDK configured in
 Godot's editor settings (Editor › Editor Settings › Export › Android). Local and CI builds are signed

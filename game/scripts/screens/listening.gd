@@ -196,9 +196,22 @@ func _shadow(v: VBoxContainer, e: Dictionary) -> void:
 			_playback.stream = _recording
 			_playback.play())
 	row.add_child(play)
+	if SpeechInput.available():
+		# Say the sentence and see how much of it the phone understood.
+		var mic := MicButton.new("● 話して確認")
+		mic.heard.connect(func(heard: Array[String]) -> void:
+			var r := AnswerMatch.spoken(heard, [ex["ja"]])
+			var pct := roundi(float(r["score"]) * 100.0)
+			var mark := "○" if r["verdict"] == "correct" else ("△" if r["verdict"] == "close" else "✕")
+			mic.say("%s　{一致|いっち}：%d%%　「%s」" % [mark, pct, r["heard"]],
+				"How much of the sentence the phone understood. 80% or more means you were clearly understood.")
+			Progress.record_sample(&"speaking", Srs.C_CORRECT if r["verdict"] == "correct" else (Srs.C_PARTIAL if r["verdict"] == "close" else Srs.C_WRONG))
+			if r["verdict"] == "correct":
+				Progress.bump_daily("spoken"))
+		v.add_child(mic)
 	v.add_child(UITheme.ja("{聞|き}き{比|くら}べて、{自分|じぶん}で{評価|ひょうか}してください。", UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
 	if Progress.show_explanations():
-		v.add_child(UITheme.en("Compare your recording with the voice, then rate yourself. (Automatic pronunciation scoring needs a speech recogniser and is not included.)", UITheme.SIZE_LABEL))
+		v.add_child(UITheme.en("Compare your recording with the voice, then rate yourself." + (" 話して確認 shows how much of the sentence your phone understood." if SpeechInput.available() else ""), UITheme.SIZE_LABEL))
 	var grade := UITheme.hbox(12)
 	v.add_child(grade)
 	var buttons: Array = []

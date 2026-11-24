@@ -15,6 +15,8 @@ var _retry := false
 var _removed: Array = []
 var _box: VBoxContainer
 var _history: VBoxContainer
+## Bumped on every turn change so a pending hands-free action never acts on a later turn.
+var _turn_token := 0
 
 
 func _ready() -> void:
@@ -97,6 +99,9 @@ func _render_turn() -> void:
 	UITheme.animate_in(npc)
 	Speech.speak(turn["line_ja"])
 	_box.add_child(UITheme.ja("あなた：", UITheme.SIZE_LABEL, UITheme.TEXT_SECONDARY))
+	_turn_token += 1
+	if SpeechInput.available():
+		_add_mic(turn)
 	if bool(Progress.setting("typed_answers")) and not (turn.get("typed", []) as Array).is_empty():
 		_typed(turn)
 		return
@@ -110,6 +115,53 @@ func _render_turn() -> void:
 		_box.add_child(b)
 		buttons.append(b)
 	set_options(buttons)
+
+
+## Speak the answer instead of choosing it (Android speech recognition). Hands-free mode listens
+## by itself once the other person has finished speaking.
+func _add_mic(turn: Dictionary) -> void:
+	var mic := MicButton.new()
+	mic.heard.connect(_spoken.bind(turn, mic))
+	_box.add_child(mic)
+	if bool(Progress.setting("hands_free")):
+		_listen_after_voice(mic, _turn_token)
+
+
+func _listen_after_voice(mic: MicButton, token: int) -> void:
+	await get_tree().create_timer(0.6).timeout
+	var waited := 0.0
+	while Speech.is_speaking() and waited < 15.0:
+		await get_tree().create_timer(0.25).timeout
+		waited += 0.25
+	if is_instance_valid(mic) and mic.is_inside_tree() and token == _turn_token:
+		mic.listen()
+
+
+func _spoken(heard: Array[String], turn: Dictionary, mic: MicButton) -> void:
+	var correct_opt: Dictionary = {}
+	for opt in turn["options"]:
+		if opt["verdict"] == "correct":
+			correct_opt = opt
+	var accepted: Array = (turn.get("typed", []) as Array).duplicate()
+	accepted.append(correct_opt.get("ja", ""))
+	var r := AnswerMatch.spoken(heard, accepted)
+	if r["verdict"] == "correct":
+		Progress.record_sample(&"speaking", Srs.C_CORRECT)
+		Progress.bump_daily("spoken")
+		_choose(correct_opt)
+		return
+	# Saying one of the scripted unnatural/wrong replies gets that reply's feedback.
+	for opt in turn["options"]:
+		if opt["verdict"] != "correct" and AnswerMatch.spoken(heard, [opt["ja"]])["verdict"] == "correct":
+			Progress.bump_daily("spoken")
+			_choose(opt)
+			return
+	if r["verdict"] == "close":
+		mic.say("おしい！「%s」と{聞|き}こえました。もう{一度|いちど}。" % r["heard"], "Almost. Try saying it again.")
+	else:
+		mic.say("{伝|つた}わりませんでした（「%s」）。もう{一度|いちど}{話|はな}すか、{選|えら}んでください。" % r["heard"], "Not understood. Speak again or choose an answer.")
+	if bool(Progress.setting("hands_free")):
+		_listen_after_voice(mic, _turn_token)
 
 
 func _typed(turn: Dictionary) -> void:
@@ -213,6 +265,12 @@ func _choose(opt: Dictionary) -> void:
 		_show_turn())
 	_box.add_child(next)
 	set_primary(next)
+	if bool(Progress.setting("hands_free")) and SpeechInput.available():
+		# Hands-free: read the feedback, then carry on by itself.
+		var token := _turn_token
+		get_tree().create_timer(3.0).timeout.connect(func() -> void:
+			if is_inside_tree() and token == _turn_token and is_instance_valid(next):
+				next.pressed.emit())
 
 
 func _show_summary() -> void:
